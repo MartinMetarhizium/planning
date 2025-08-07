@@ -1,0 +1,42 @@
+[
+    {
+        "dev": "Luis Uran",
+        "horas_epicas": 11.0,
+        "horas_no_epicas": 55.0
+    },
+    {
+        "dev": "Nicolas Pardo",
+        "horas_epicas": 47.75,
+        "horas_no_epicas": 10.0
+    },
+    {
+        "dev": "Facundo Capua",
+        "horas_epicas": 29.0,
+        "horas_no_epicas": 37.0
+    },
+    {
+        "dev": "Franco Lorenzo",
+        "horas_epicas": 48.91666666666667,
+        "horas_no_epicas": 16.0
+    },
+    {
+        "dev": "Alan Mori - Carestino",
+        "horas_epicas": 21.0,
+        "horas_no_epicas": 45.0
+    },
+    {
+        "dev": "Gastón Ojeda",
+        "horas_epicas": 30.5,
+        "horas_no_epicas": 35.0
+    },
+    {
+        "dev": "Miguel Armentano",
+        "horas_epicas": 45.0,
+        "horas_no_epicas": 20.0
+    },
+    {
+        "dev": "Diego Martin Gogorza",
+        "horas_epicas": 56.0,
+        "horas_no_epicas": 2.0
+    }
+]
