@@ -11,7 +11,7 @@ from constants import PROJECT_MAP_BT, PROJECT_MAP, DEFAULT_END_DATE, DEFAULT_END
 def highlight_vencidas(row):        
     
     if row["vencida"]:
-        return ['background-color: yellow'] * len(row)
+        return ['background-color: #fff9c4'] * len(row)
     if "type" in row and row["type"] == "reunion":
         return [''] * len(row)
     return [''] * len(row)
@@ -48,9 +48,22 @@ dev_filter = st.multiselect("👨‍💻 Filtrar por developer", devs, default=d
 
 filtered_df = df[df["developer"].isin(dev_filter)]
 
+rename_dict = {
+    "developer": "Desarrollador",
+    "key": "Clave",
+    "summary": "Resumen",
+    "has_epic": "Tiene épica",
+    "due_date": "Fecha límite",
+    "start": "Inicio",
+    "end": "Fin",
+    "duration_hours": "Duración (horas)",
+    "vencida": "Vencida"
+}
+
+
 # Mostrar tabla
 styled = (
-    filtered_df[["developer", "key", "summary", "has_epic", "due_date", "start", "end", "duration_hours", "vencida"]]
+    filtered_df[list(rename_dict.keys())]
     .sort_values(by=["developer", "start"])
     .reset_index(drop=True)
     .style.apply(highlight_vencidas, axis=1)
