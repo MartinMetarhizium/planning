@@ -6,12 +6,19 @@ from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 from io import BytesIO
 from constants import PROJECT_MAP_BT, PROJECT_MAP, DEFAULT_END_DATE, DEFAULT_END_DATE_with_timezone, DEFAULT_START_DATE,DEFAULT_START_DATE_with_timezone
- 
+from streamlit_javascript import st_javascript
 
+
+theme = st_javascript("""window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';""")
+if not theme:
+    theme = 'light'
 def highlight_vencidas(row):        
     
     if row["Vencida"]:
+        if theme != 'light':
+            return ['background-color: #d1ab8e'] * len(row)
         return ['background-color: #fff9c4'] * len(row)
+    
     if "type" in row and row["type"] == "reunion":
         return [''] * len(row)
     return [''] * len(row)
