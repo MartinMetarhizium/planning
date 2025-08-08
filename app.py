@@ -64,7 +64,8 @@ rename_dict = {
 # Mostrar tabla
 styled = (
     filtered_df[list(rename_dict.keys())]
-    .sort_values(by=["developer", "start"])
+    .rename(columns=rename_dict)
+    .sort_values(by=["Desarrollador", "Inicio"])
     .reset_index(drop=True)
     .style.apply(highlight_vencidas, axis=1)
 )
