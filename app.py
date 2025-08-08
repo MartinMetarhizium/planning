@@ -10,7 +10,7 @@ from constants import PROJECT_MAP_BT, PROJECT_MAP, DEFAULT_END_DATE, DEFAULT_END
 
 def highlight_vencidas(row):        
     
-    if row["vencida"]:
+    if row["Vencida"]:
         return ['background-color: #fff9c4'] * len(row)
     if "type" in row and row["type"] == "reunion":
         return [''] * len(row)
