@@ -31,53 +31,149 @@ st.markdown("Este panel permite visualizar la carga de trabajo de los desarrolla
 
 
 
-
-st.subheader("📋 Tareas planificadas por desarrollador")
-st.caption("Esta tabla muestra todas las tareas programadas por cada developer, destacando en amarillo aquellas vencidas parcial o totalmente.")
-# Cargar el archivo planificado
 with open("planificacion.json") as f:
     data = json.load(f)
 
 df = pd.DataFrame(data)
-df["start"] = pd.to_datetime(df["start"], errors="coerce",format='mixed')
+
+# Parseo de fechas
+df["start"] = pd.to_datetime(df["start"], errors="coerce", format='mixed')
 df["end"] = pd.to_datetime(df["end"], errors="coerce")
 df["día"] = df["start"].dt.date
-df["due_date"] = pd.to_datetime(df["due_date"],format='mixed')
+df["due_date"] = pd.to_datetime(df["due_date"], errors="coerce", format='mixed')
+
+# Vencida parcial: si cualquier slot termina después del due_date (excluye reuniones)
 df["vencida_parcial"] = (df["end"] > df["due_date"]) & (df["type"] != "reunion")
 
-# Paso 2: Si alguna parte del mismo key está vencida, marcar todas las filas con ese key como vencidas
-vencidas_keys = df[df["vencida_parcial"]]["key"].unique()
+# Si alguna parte del mismo key está vencida, marcar todas las filas con ese key como vencidas
+vencidas_keys = df.loc[df["vencida_parcial"], "key"].unique()
 df["vencida"] = df["key"].isin(vencidas_keys)
+# st.subheader("📋 Tareas planificadas por desarrollador")
+# st.caption("Esta tabla muestra todas las tareas programadas por cada developer, destacando en amarillo aquellas vencidas parcial o totalmente.")
+# # Cargar el archivo planificado
+# with open("planificacion.json") as f:
+#     data = json.load(f)
 
-# Filtros
+# df = pd.DataFrame(data)
+# df["start"] = pd.to_datetime(df["start"], errors="coerce",format='mixed')
+# df["end"] = pd.to_datetime(df["end"], errors="coerce")
+# df["día"] = df["start"].dt.date
+# df["due_date"] = pd.to_datetime(df["due_date"],format='mixed')
+# df["vencida_parcial"] = (df["end"] > df["due_date"]) & (df["type"] != "reunion")
+
+# # Paso 2: Si alguna parte del mismo key está vencida, marcar todas las filas con ese key como vencidas
+# vencidas_keys = df[df["vencida_parcial"]]["key"].unique()
+# df["vencida"] = df["key"].isin(vencidas_keys)
+
+# # Filtros
+# devs = sorted(df["developer"].unique())
+# dev_filter = st.multiselect("👨‍💻 Filtrar por developer", devs, default=devs)
+
+# filtered_df = df[df["developer"].isin(dev_filter)]
+
+# rename_dict = {
+#     "developer": "Desarrollador",
+#     "key": "Clave",
+#     "summary": "Resumen",
+#     "has_epic": "Tiene épica",
+#     "due_date": "Fecha límite",
+#     "start": "Inicio",
+#     "end": "Fin",
+#     "duration_hours": "Duración (horas)",
+#     "vencida": "Vencida"
+# }
+
+
+# # Mostrar tabla
+# styled = (
+#     filtered_df[list(rename_dict.keys())]
+#     .rename(columns=rename_dict)
+#     .sort_values(by=["Desarrollador", "Inicio"])
+#     .reset_index(drop=True)
+#     .style.apply(highlight_vencidas, axis=1)
+# )
+
+# st.dataframe(styled, use_container_width=True)
+
+
+
 devs = sorted(df["developer"].unique())
 dev_filter = st.multiselect("👨‍💻 Filtrar por developer", devs, default=devs)
 
+# Selector de vista
+vista = st.radio("🗂️ Vista", ["Cronología", "Ver listado"], index=0, horizontal=True)
+
 filtered_df = df[df["developer"].isin(dev_filter)]
 
-rename_dict = {
-    "developer": "Desarrollador",
-    "key": "Clave",
-    "summary": "Resumen",
-    "has_epic": "Tiene épica",
-    "due_date": "Fecha límite",
-    "start": "Inicio",
-    "end": "Fin",
-    "duration_hours": "Duración (horas)",
-    "vencida": "Vencida"
-}
+if vista == "Cronología":
+    st.subheader("📋 Tareas planificadas por desarrollador")
+    st.caption("Esta tabla muestra todas las tareas programadas por cada developer, destacando en amarillo aquellas vencidas parcial o totalmente.")
 
+    rename_dict = {
+        "developer": "Desarrollador",
+        "key": "Clave",
+        "summary": "Resumen",
+        "has_epic": "Tiene épica",
+        "due_date": "Fecha límite",
+        "start": "Inicio",
+        "end": "Fin",
+        "duration_hours": "Duración (horas)",
+        "vencida": "Vencida"
+    }
 
-# Mostrar tabla
-styled = (
-    filtered_df[list(rename_dict.keys())]
-    .rename(columns=rename_dict)
-    .sort_values(by=["Desarrollador", "Inicio"])
-    .reset_index(drop=True)
-    .style.apply(highlight_vencidas, axis=1)
-)
+    styled = (
+        filtered_df[list(rename_dict.keys())]
+        .rename(columns=rename_dict)
+        .sort_values(by=["Desarrollador", "Inicio"])
+        .reset_index(drop=True)
+        .style.apply(highlight_vencidas, axis=1)
+    )
+    st.dataframe(styled, use_container_width=True)
 
-st.dataframe(styled, use_container_width=True)
+else:
+    st.subheader("🧾 Listado de tareas (agrupadas por clave)")
+    st.caption("Se excluyen reuniones. Cada fila representa la tarea completa con su fecha de inicio real (primer slot) y fin real (último slot).")
+
+    # excluir reuniones
+    work_df = filtered_df[filtered_df["type"] != "reunion"].copy()
+
+    # agrupar por key
+    grouped = (
+        work_df
+        .sort_values(["key", "start"])  # asegura orden estable
+        .groupby("key", as_index=False)
+        .agg({
+            "developer": "first",           # si cambia de dev, ajustá a tu preferencia (por ej., ', '.join(sorted(set(...))))
+            "summary": "first",
+            "has_epic": "first",
+            "due_date": "max",              # por si hubiera diferencias (debería ser única)
+            "start": "min",                 # inicio real
+            "end": "max",                   # fin real
+            "duration_hours": "sum",        # total horas
+            "vencida": "any"                # si cualquier slot venció, la tarea completa está vencida
+        })
+    )
+
+    rename_listado = {
+        "developer": "Desarrollador",
+        "key": "Clave",
+        "summary": "Resumen",
+        "has_epic": "Tiene épica",
+        "due_date": "Fecha límite",
+        "start": "Inicio real",
+        "end": "Fin real",
+        "duration_hours": "Duración total (horas)",
+        "vencida": "Vencida"
+    }
+
+    styled_listado = (
+        grouped.rename(columns=rename_listado)
+        .sort_values(by=["Desarrollador", "Inicio real"])
+        .reset_index(drop=True)
+        .style.apply(highlight_vencidas, axis=1)
+    )
+
+    st.dataframe(styled_listado, use_container_width=True)
 
 # Agregar gráfico de barras por día
 st.subheader("📊 Horas asignadas por día")
