@@ -32,7 +32,7 @@
       {
         "key": "IT-20343",
         "story_points": 100.0,
-        "status": "REVIEW ON HOLD"
+        "status": "REDEFINED"
       }
     ]
   },
@@ -43,7 +43,7 @@
       {
         "key": "IT-20821",
         "story_points": 21.0,
-        "status": "BACKLOG"
+        "status": "REDEFINED"
       },
       {
         "key": "IT-20427",
@@ -69,7 +69,7 @@
       {
         "key": "IT-19902",
         "story_points": 24.0,
-        "status": "Rechazado"
+        "status": "ON HOLD"
       }
     ]
   },
@@ -135,17 +135,17 @@
       {
         "key": "IT-20538",
         "story_points": 20.0,
-        "status": "BACKLOG"
+        "status": "PENDING REVIEW"
       },
       {
         "key": "IT-20537",
         "story_points": 18.0,
-        "status": "En progreso"
+        "status": "TO DEPLOY"
       },
       {
         "key": "IT-20536",
         "story_points": 6.0,
-        "status": "TO DEPLOY QA"
+        "status": "FINISH"
       },
       {
         "key": "IT-20411",
@@ -175,7 +175,7 @@
       {
         "key": "IT-19690",
         "story_points": 4.0,
-        "status": "STG TESTING"
+        "status": "REVIEW ON HOLD"
       },
       {
         "key": "IT-19689",
@@ -312,7 +312,7 @@
       {
         "key": "IT-19694",
         "story_points": 8.0,
-        "status": "REVIEW ON HOLD"
+        "status": "BACKLOG"
       },
       {
         "key": "IT-19566",
@@ -412,8 +412,18 @@
     "summary": "Devops",
     "tasks": [
       {
-        "key": "IT-20664",
+        "key": "IT-20944",
         "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "IT-20942",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "IT-20664",
+        "story_points": 2.0,
         "status": "BACKLOG"
       },
       {
@@ -444,7 +454,7 @@
       {
         "key": "IT-19924",
         "story_points": 8.0,
-        "status": "En progreso"
+        "status": "FINISH"
       },
       {
         "key": "IT-19923",
@@ -506,7 +516,7 @@
       {
         "key": "IT-19532",
         "story_points": 20.0,
-        "status": "STG TESTING"
+        "status": "BACKLOG"
       },
       {
         "key": "IT-19210",
@@ -604,7 +614,7 @@
       {
         "key": "IT-18266",
         "story_points": 2.0,
-        "status": "ON HOLD"
+        "status": "En progreso"
       },
       {
         "key": "IT-18264",
@@ -705,7 +715,7 @@
       {
         "key": "IT-14961",
         "story_points": 32.0,
-        "status": "BACKLOG"
+        "status": "ON PAUSE"
       }
     ]
   },
@@ -1297,7 +1307,7 @@
       {
         "key": "IT-20434",
         "story_points": 8.0,
-        "status": "TO DEPLOY QA"
+        "status": "FINISH"
       },
       {
         "key": "IT-20258",
@@ -1307,7 +1317,7 @@
       {
         "key": "IT-20105",
         "story_points": 4.0,
-        "status": "TO DEPLOY QA"
+        "status": "FINISH"
       },
       {
         "key": "IT-19457",
@@ -1322,7 +1332,7 @@
       {
         "key": "IT-18145",
         "story_points": 24.0,
-        "status": "TO DEPLOY QA"
+        "status": "FINISH"
       },
       {
         "key": "IT-17769",
@@ -1366,6 +1376,16 @@
     "summary": "Gestiones",
     "tasks": [
       {
+        "key": "IT-20952",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "IT-20854",
+        "story_points": 1.0,
+        "status": "TO DEPLOY"
+      },
+      {
         "key": "IT-20697",
         "story_points": 20.0,
         "status": "BACKLOG"
@@ -1408,7 +1428,7 @@
       {
         "key": "IT-19797",
         "story_points": 8.0,
-        "status": "En progreso"
+        "status": "TO DEPLOY"
       },
       {
         "key": "IT-19741",
@@ -3531,6 +3551,11 @@
     "summary": "CAV - Carga autom\u00e1tica de ventas",
     "tasks": [
       {
+        "key": "IT-20767",
+        "story_points": 5.0,
+        "status": "PENDING REVIEW"
+      },
+      {
         "key": "IT-20307",
         "story_points": 12.0,
         "status": "FINISH"
@@ -3538,7 +3563,7 @@
       {
         "key": "IT-19894",
         "story_points": 7.0,
-        "status": "ON HOLD"
+        "status": "TO DEPLOY"
       },
       {
         "key": "IT-19031",
@@ -4497,9 +4522,14 @@
     "summary": "Monorepo ",
     "tasks": [
       {
+        "key": "IT-20880",
+        "story_points": 24.0,
+        "status": "BACKLOG"
+      },
+      {
         "key": "IT-20362",
         "story_points": 52.0,
-        "status": "En progreso"
+        "status": "FINISH"
       },
       {
         "key": "IT-11299",
@@ -4525,7 +4555,7 @@
       {
         "key": "IT-19988",
         "story_points": 6.0,
-        "status": "BACKLOG"
+        "status": "PENDING REVIEW"
       },
       {
         "key": "IT-19842",
@@ -5116,6 +5146,16 @@
     "summary": "Worpik",
     "tasks": [
       {
+        "key": "IT-20870",
+        "story_points": 7.0,
+        "status": "TO DEPLOY"
+      },
+      {
+        "key": "IT-20868",
+        "story_points": 4.0,
+        "status": "TO DEPLOY"
+      },
+      {
         "key": "IT-20531",
         "story_points": 24.0,
         "status": "BACKLOG"
@@ -5133,7 +5173,7 @@
       {
         "key": "IT-20132",
         "story_points": 16.0,
-        "status": "BACKLOG"
+        "status": "PENDING REVIEW"
       },
       {
         "key": "IT-20074",
@@ -7219,6 +7259,11 @@
     "summary": "Integraciones logisticas",
     "tasks": [
       {
+        "key": "IT-20828",
+        "story_points": 40.0,
+        "status": "BACKLOG"
+      },
+      {
         "key": "IT-20081",
         "story_points": 1.0,
         "status": "FINISH"
@@ -7226,7 +7271,7 @@
       {
         "key": "IT-19887",
         "story_points": 4.0,
-        "status": "CODE REVIEW"
+        "status": "STG TESTING"
       },
       {
         "key": "IT-19885",
@@ -8598,7 +8643,7 @@
       {
         "key": "IT-20174",
         "story_points": 4.0,
-        "status": "TO DEPLOY QA"
+        "status": "FINISH"
       },
       {
         "key": "IT-19580",
@@ -8618,7 +8663,7 @@
       {
         "key": "IT-19214",
         "story_points": 36.0,
-        "status": "BACKLOG"
+        "status": "PENDING REVIEW"
       },
       {
         "key": "IT-19120",
@@ -11259,7 +11304,7 @@
       {
         "key": "IT-20207",
         "story_points": 2.0,
-        "status": "BACKLOG"
+        "status": "FINISH"
       },
       {
         "key": "IT-18908",
@@ -14684,7 +14729,7 @@
       {
         "key": "IT-20103",
         "story_points": 6.0,
-        "status": "BACKLOG"
+        "status": "REDEFINED"
       },
       {
         "key": "IT-19999",
