@@ -69,7 +69,7 @@
       {
         "key": "IT-19902",
         "story_points": 24.0,
-        "status": "ON HOLD"
+        "status": "CODE REVIEW"
       }
     ]
   },
@@ -130,7 +130,7 @@
       {
         "key": "IT-20539",
         "story_points": 22.0,
-        "status": "BACKLOG"
+        "status": "En progreso"
       },
       {
         "key": "IT-20538",
@@ -403,7 +403,7 @@
       {
         "key": "IT-18626",
         "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "status": "ON HOLD"
       }
     ]
   },
@@ -424,7 +424,7 @@
       {
         "key": "IT-20664",
         "story_points": 2.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-20448",
@@ -500,7 +500,7 @@
       {
         "key": "IT-18906",
         "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "status": "ON HOLD"
       }
     ]
   },
@@ -542,7 +542,7 @@
       {
         "key": "IT-19968",
         "story_points": 15.0,
-        "status": "BACKLOG"
+        "status": "En progreso"
       },
       {
         "key": "IT-19953",
@@ -614,7 +614,7 @@
       {
         "key": "IT-18266",
         "story_points": 2.0,
-        "status": "En progreso"
+        "status": "CODE REVIEW"
       },
       {
         "key": "IT-18264",
@@ -1984,47 +1984,47 @@
       {
         "key": "IT-16655",
         "story_points": 4.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16654",
         "story_points": 4.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16652",
         "story_points": 4.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16651",
         "story_points": 4.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16648",
         "story_points": 4.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16581",
         "story_points": 8.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16580",
         "story_points": 8.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16579",
         "story_points": 6.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16578",
         "story_points": 8.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16577",
@@ -2054,7 +2054,7 @@
       {
         "key": "IT-16391",
         "story_points": 6.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       }
     ]
   },
@@ -2076,142 +2076,142 @@
       {
         "key": "IT-16247",
         "story_points": 8.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16246",
         "story_points": 8.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16245",
         "story_points": 8.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16243",
         "story_points": 12.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16242",
         "story_points": 1.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16241",
         "story_points": 1.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16240",
         "story_points": 1.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16239",
         "story_points": 2.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16237",
         "story_points": 2.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16236",
         "story_points": 3.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16235",
         "story_points": 3.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16234",
         "story_points": 3.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16233",
         "story_points": 5.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16232",
         "story_points": 3.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16231",
         "story_points": 3.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16230",
         "story_points": 5.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16229",
         "story_points": 3.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16227",
         "story_points": 3.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16221",
         "story_points": 8.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16220",
         "story_points": 4.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16219",
         "story_points": 8.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16218",
         "story_points": 3.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16217",
         "story_points": 3.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16216",
         "story_points": 3.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16215",
         "story_points": 3.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16214",
         "story_points": 8.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16213",
         "story_points": 8.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16212",
         "story_points": 4.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-16157",
@@ -2437,7 +2437,7 @@
       {
         "key": "IT-17833",
         "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-17071",
@@ -3553,7 +3553,7 @@
       {
         "key": "IT-20767",
         "story_points": 5.0,
-        "status": "PENDING REVIEW"
+        "status": "TO DEPLOY QA"
       },
       {
         "key": "IT-20307",
@@ -5146,6 +5146,16 @@
     "summary": "Worpik",
     "tasks": [
       {
+        "key": "IT-20878",
+        "story_points": 5.0,
+        "status": "BACKLOG"
+      },
+      {
+        "key": "IT-20876",
+        "story_points": 4.0,
+        "status": "BACKLOG"
+      },
+      {
         "key": "IT-20870",
         "story_points": 7.0,
         "status": "TO DEPLOY"
@@ -5154,6 +5164,16 @@
         "key": "IT-20868",
         "story_points": 4.0,
         "status": "TO DEPLOY"
+      },
+      {
+        "key": "IT-20783",
+        "story_points": 3.0,
+        "status": "BACKLOG"
+      },
+      {
+        "key": "IT-20781",
+        "story_points": 18.0,
+        "status": "BACKLOG"
       },
       {
         "key": "IT-20531",
@@ -5648,7 +5668,7 @@
       {
         "key": "IT-13990",
         "story_points": 8.0,
-        "status": "ON PAUSE"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-13975",
@@ -7114,52 +7134,52 @@
       {
         "key": "IT-9271",
         "story_points": 32.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-9269",
         "story_points": 40.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-9267",
         "story_points": 56.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-9265",
         "story_points": 40.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-9263",
         "story_points": 16.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-9136",
         "story_points": 16.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-9134",
         "story_points": 32.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-9121",
         "story_points": 24.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-9119",
         "story_points": 24.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-9116",
         "story_points": 50.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-9113",
@@ -9153,22 +9173,22 @@
       {
         "key": "IT-11529",
         "story_points": null,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-11528",
         "story_points": null,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-11527",
         "story_points": 24.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-11526",
         "story_points": 24.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-11525",
@@ -9183,32 +9203,32 @@
       {
         "key": "IT-11459",
         "story_points": null,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-11458",
         "story_points": 28.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-11457",
         "story_points": 7.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-11456",
         "story_points": 14.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-11455",
         "story_points": 21.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-11454",
         "story_points": 14.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-11451",
@@ -9223,7 +9243,7 @@
       {
         "key": "IT-11433",
         "story_points": null,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-9993",
@@ -10838,7 +10858,7 @@
       {
         "key": "IT-9488",
         "story_points": 6.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-9486",
@@ -10863,17 +10883,17 @@
       {
         "key": "IT-9127",
         "story_points": 3.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-9107",
         "story_points": 3.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-9103",
         "story_points": 3.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-9077",

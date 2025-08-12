@@ -120,6 +120,7 @@ if vista == "Cronología":
         "duration_hours": "Duración (horas)",
         "vencida": "Vencida"
     }
+    
 
     styled = (
         filtered_df[list(rename_dict.keys())]
@@ -627,6 +628,61 @@ if st.checkbox("🔍 Ver detalle de tareas vencidas"):
 
 
 
+
+
+
+
+
+
+
+
+
+# === Filter vencidas_sin_epica ===
+vencidas_sin_epica = df[
+    (df["has_epic"] == False) &
+    (df["type"] != "reunion") &
+    (df["due_date"] < datetime(2525, 8, 18)) &
+    (df["developer"].isin(selected_devs)) &
+    (df["reporter"].isin(selected_reporters))
+]
+
+# === Total horas vencidas ===
+horas_vencidas = vencidas_sin_epica["duration_hours"].sum()
+
+# === Determinar color ===
+if horas_vencidas < 5:
+    color = "#4CAF50"  # verde
+elif horas_vencidas < 30:
+    color = "#FFC107"  # amarillo
+else:
+    color = "#F44336"  # rojo
+
+# === Mostrar como badge estilizado ===
+st.markdown(f"""
+<style>
+.badge {{
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  background-color: {color};
+  border-radius: 8px;
+}}
+</style>
+<div class="badge">⏱️ {horas_vencidas:.1f} horas vencidas</div>
+""", unsafe_allow_html=True)
+
+# === Subtítulo explicativo ===
+st.caption("Horas de tareas sin épica que vencen antes del final de los tiempos.")
+
+# === Detalle opcional ===
+if st.checkbox("🔍 Ver detalle de tareas vencidas hasta el final"):
+    st.dataframe(
+        vencidas_sin_epica[["developer", "reporter", "key", "summary", "due_date", "duration_hours"]]
+        .sort_values(by=["developer", "due_date"])
+        .reset_index(drop=True)
+    )
 
 
 

@@ -264,7 +264,6 @@ EMAIL = "martinhorn@biamex.com"
 MAX_RESULTS = 100
 JQL = """
 project = IT
-
 AND issuetype NOT IN (Epic, Subtarea)
 ORDER BY priority DESC, due ASC
 """
