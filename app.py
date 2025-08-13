@@ -490,40 +490,58 @@ st.dataframe(proyecto_df_filtrado.sort_values(["developer", "Vencimiento"]))
 
 
 
-devs = sorted(df["developer"].dropna().unique())
-selected_devs = st.multiselect("👨‍💻 Filtrar developer", devs, default=devs)
 
-reporters = sorted(df["reporter"].dropna().unique())
-selected_reporters = st.multiselect("📝 Filtrar por reporter", reporters, default=reporters)
 
-# Selector de vista
-vista = st.radio("🗂️ Vista", ["Cronología ", "Ver listado "], index=0, horizontal=True)
 
-# DF filtrado base para TODAS las secciones
+
+
+st.subheader("Filtros")
+
+c1, c2, c3 = st.columns([1, 1, 1])
+
+with c1:
+    devs = sorted(df["developer"].dropna().unique())
+    selected_devs = st.multiselect("👨‍💻 Developer  ", devs, default=devs)
+
+with c2:
+    reporters = sorted(df["reporter"].dropna().unique())
+    selected_reporters = st.multiselect("📝 Reporter  ", reporters, default=reporters)
+
+with c3:
+    epic_mode = st.radio("🧩 Épica", ["Todas", "Con épica", "Sin épica"], index=0, horizontal=True)
+
+# Selector de vista principal
+vista = st.radio("🗂️ Vista", ["Cronología  ", "Ver listado  "], index=0, horizontal=True, key="vista_principal")
+
+# =========================
+# 🧮 Filtrado base
+# =========================
 filtered_df = df[
     df["developer"].isin(selected_devs) &
     df["reporter"].isin(selected_reporters)
 ].copy()
 
+# Aplicar filtro de épica
+if epic_mode == "Con épica":
+    filtered_df = filtered_df[filtered_df["has_epic"] == True]
+elif epic_mode == "Sin épica":
+    filtered_df = filtered_df[filtered_df["has_epic"] == False]
 
-vencidas_sin_epica = filtered_df[
-    (filtered_df["has_epic"] == False) &
-    (filtered_df["type"] != "reunion") &
-    (filtered_df["due_date"] < DEFAULT_END_DATE)
-]
+# =========================
+# ⏱️ Cálculo “vencidas” (badge)
+# =========================
+# Excluir reuniones para el cálculo y comparar con DEFAULT_END_DATE
+calc_df = filtered_df[(filtered_df["type"] != "reunion") & (filtered_df["due_date"] < DEFAULT_END_DATE)].copy()
+horas_vencidas = calc_df["duration_hours"].sum()
 
-# === Total horas vencidas ===
-horas_vencidas = vencidas_sin_epica["duration_hours"].sum()
-
-# === Determinar color ===
+# Color del badge
 if horas_vencidas < 5:
-    color = "#4CAF50"  # verde
+    color = "#4CAF50"   # verde
 elif horas_vencidas < 30:
-    color = "#FFC107"  # amarillo
+    color = "#FFC107"   # amarillo
 else:
-    color = "#F44336"  # rojo
+    color = "#F44336"   # rojo
 
-# === Mostrar como badge estilizado ===
 st.markdown(f"""
 <style>
 .badge {{
@@ -539,175 +557,102 @@ st.markdown(f"""
 <div class="badge">⏱️ {horas_vencidas:.1f} horas vencidas</div>
 """, unsafe_allow_html=True)
 
-st.caption("Horas de tareas sin épica que vencen antes del final de la próxima planificación.")
+st.caption("Horas de tareas que vencen antes del fin del rango (excluye reuniones). El filtro de épica afecta este cálculo.")
 
-# === Detalle opcional ===
-if st.checkbox("🔍 Ver detalle de tareas vencidas"):
-    if vista == "Cronología ":
+# =========================
+# 🔍 Detalle (respeta la vista y los filtros)
+# =========================
+def _arrow_fix(tmp):
+    # Si alguna columna te mezcla tipos y rompe Arrow, casteala a str acá
+    if "Última tarea planificable" in tmp.columns:
+        tmp["Última tarea planificable"] = tmp["Última tarea planificable"].astype(str)
+    return tmp
+
+if st.checkbox("🔍 Ver detalle de tareas vencidas  "):
+    if vista == "Cronología":
         tmp_detalle = (
-            vencidas_sin_epica[["developer", "reporter", "key", "summary", "due_date", "start", "end", "duration_hours"]]
+            calc_df[["developer", "reporter", "key", "summary", "due_date", "start", "end", "duration_hours"]]
             .sort_values(by=["developer", "due_date", "start"])
             .reset_index(drop=True)
         )
-        # Fix Arrow opcional
-        if "Última tarea planificable" in tmp_detalle.columns:
-            tmp_detalle["Última tarea planificable"] = tmp_detalle["Última tarea planificable"].astype(str)
-
-        st.dataframe(tmp_detalle, use_container_width=True)
+        st.dataframe(_arrow_fix(tmp_detalle), use_container_width=True)
 
     else:  # Ver listado
-        work_df = vencidas_sin_epica.copy()
-        # (si querés asegurar que no haya reuniones por las dudas)
-        work_df = work_df[work_df["type"] != "reunion"]
-
+        work_df = calc_df.copy()  # ya excluye reuniones
         grouped_detalle = (
             work_df
             .sort_values(["key", "start"])
             .groupby("key", as_index=False)
             .agg({
-                "developer": lambda x: ", ".join(sorted(set(x))),  # muestra todos los devs involucrados
-                "reporter":  "first",
-                "summary":   "first",
-                "due_date":  "max",
-                "start":     "min",   # inicio real
-                "end":       "max",   # fin real
+                "developer": lambda x: ", ".join(sorted(set(x))),
+                "reporter": "first",
+                "summary": "first",
+                "due_date": "max",
+                "start": "min",   # inicio real
+                "end": "max",     # fin real
                 "duration_hours": "sum"
             })
         )
-
-        grouped_detalle = grouped_detalle.rename(columns={
-            "developer": "Developer(s)",
-            "reporter": "Reporter",
-            "key": "Clave",
-            "summary": "Resumen",
-            "due_date": "Fecha límite",
-            "start": "Inicio real",
-            "end": "Fin real",
-            "duration_hours": "Duración total (horas)"
-        }).sort_values(["Developer(s)", "Inicio real"]).reset_index(drop=True)
-
-        # Fix Arrow opcional
-        if "Última tarea planificable" in grouped_detalle.columns:
-            grouped_detalle["Última tarea planificable"] = grouped_detalle["Última tarea planificable"].astype(str)
-
-        st.dataframe(grouped_detalle, use_container_width=True)
+        grouped_detalle = (
+            grouped_detalle.rename(columns={
+                "developer": "Developer(s)",
+                "reporter": "Reporter",
+                "key": "Clave",
+                "summary": "Resumen",
+                "due_date": "Fecha límite",
+                "start": "Inicio real",
+                "end": "Fin real",
+                "duration_hours": "Duración total (horas)"
+            })
+            .sort_values(["Developer(s)", "Inicio real"])
+            .reset_index(drop=True)
+        )
+        st.dataframe(_arrow_fix(grouped_detalle), use_container_width=True)
 
 
+calc_df_2525 = filtered_df[
+    (filtered_df["type"] != "reunion") &
+    (filtered_df["due_date"] < datetime(2525, 8, 18))
+].copy()
 
+# Si querés que este cálculo también respete el filtro de épica:
+# (Ya está respetado porque filtered_df ya filtró por epic_mode)
 
-# # === Developer Filter ===
-# devs = sorted(df["developer"].dropna().unique())
-# selected_devs = st.multiselect("👨‍💻 Filtrar developer", devs, default=devs)
+horas_planificables = calc_df_2525["duration_hours"].sum()
 
-# # === Reporter Filter ===
-# reporters = sorted(df["reporter"].dropna().unique())
-# selected_reporters = st.multiselect("📝 Filtrar por reporter", reporters, default=reporters)
-
-# # === Filter vencidas_sin_epica ===
-# vencidas_sin_epica = df[
-#     (df["has_epic"] == False) &
-#     (df["type"] != "reunion") &
-#     (df["due_date"] < DEFAULT_END_DATE) &
-#     (df["developer"].isin(selected_devs)) &
-#     (df["reporter"].isin(selected_reporters))
-# ]
-
-# # === Total horas vencidas ===
-# horas_vencidas = vencidas_sin_epica["duration_hours"].sum()
-
-# # === Determinar color ===
-# if horas_vencidas < 5:
-#     color = "#4CAF50"  # verde
-# elif horas_vencidas < 30:
-#     color = "#FFC107"  # amarillo
-# else:
-#     color = "#F44336"  # rojo
-
-# # === Mostrar como badge estilizado ===
-# st.markdown(f"""
-# <style>
-# .badge {{
-#   display: inline-block;
-#   padding: 12px 24px;
-#   font-size: 24px;
-#   font-weight: bold;
-#   color: white;
-#   background-color: {color};
-#   border-radius: 8px;
-# }}
-# </style>
-# <div class="badge">⏱️ {horas_vencidas:.1f} horas vencidas</div>
-# """, unsafe_allow_html=True)
-
-# # === Subtítulo explicativo ===
-# st.caption("Horas de tareas sin épica que vencen antes del final de la próxima planificación.")
-
-# # === Detalle opcional ===
-# if st.checkbox("🔍 Ver detalle de tareas vencidas"):
-#     st.dataframe(
-#         vencidas_sin_epica[["developer", "reporter", "key", "summary", "due_date", "duration_hours"]]
-#         .sort_values(by=["developer", "due_date"])
-#         .reset_index(drop=True)
-#     )
-
-
-
-
-
-
-
-
-
-
-
-
-
-# === Filter vencidas_sin_epica ===
-vencidas_sin_epica = df[
-    (df["has_epic"] == False) &
-    (df["type"] != "reunion") &
-    (df["due_date"] < datetime(2525, 8, 18)) &
-    (df["developer"].isin(selected_devs)) &
-    (df["reporter"].isin(selected_reporters))
-]
-
-# === Total horas vencidas ===
-horas_vencidas = vencidas_sin_epica["duration_hours"].sum()
-
-# === Determinar color ===
-if horas_vencidas < 5:
-    color = "#4CAF50"  # verde
-elif horas_vencidas < 30:
-    color = "#FFC107"  # amarillo
+# Color del badge
+if horas_planificables < 5:
+    color_2525 = "#4CAF50"   # verde
+elif horas_planificables < 30:
+    color_2525 = "#FFC107"   # amarillo
 else:
-    color = "#F44336"  # rojo
+    color_2525 = "#F44336"   # rojo
 
-# === Mostrar como badge estilizado ===
 st.markdown(f"""
 <style>
-.badge {{
+.badge2525 {{
   display: inline-block;
   padding: 12px 24px;
   font-size: 24px;
   font-weight: bold;
   color: white;
-  background-color: {color};
+  background-color: {color_2525};
   border-radius: 8px;
 }}
 </style>
-<div class="badge">⏱️ {horas_vencidas:.1f} horas planificables</div>
+<div class="badge2525">⏱️ {horas_planificables:.1f} horas planificables</div>
 """, unsafe_allow_html=True)
 
-# === Subtítulo explicativo ===
-st.caption("Horas de tareas sin épica que vencen antes del final de los tiempos.")
+st.caption("Horas de tareas que vencen antes del final de los tiempos.")
 
-# === Detalle opcional ===
-if st.checkbox("🔍 Ver detalle de tareas planificables de SD"):
-    st.dataframe(
-        vencidas_sin_epica[["developer", "reporter", "key", "summary", "due_date", "duration_hours"]]
+# Detalle opcional
+if st.checkbox("🔍 Ver detalle de tareas planificables hasta el final"):
+    tmp_detalle_2525 = (
+        calc_df_2525[["developer", "reporter", "key", "summary", "due_date", "duration_hours"]]
         .sort_values(by=["developer", "due_date"])
         .reset_index(drop=True)
     )
+    st.dataframe(tmp_detalle_2525, use_container_width=True)
 
 
 

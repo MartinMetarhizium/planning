@@ -180,9 +180,9 @@ VALID_STATUSES = {"BACKLOG", "REDEFINED", "RECHAZADO", "IN IMPROVEMENT"}
 
 
 MIN_PROJECT_RATIO = {
-    "Alan Mori - Carestino": 0.5,
+    "Alan Mori - Carestino": 0.7,
     "Franco Lorenzo": 0.5,
-    "Gastón Ojeda": 0.5,
+    "Gastón Ojeda": 0.3,
     "Miguel Armentano": 0.5,
     "Luis Uran": 0.5,
     "Default": 0.1,
