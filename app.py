@@ -41,6 +41,7 @@ df["start"] = pd.to_datetime(df["start"], errors="coerce", format='mixed')
 df["end"] = pd.to_datetime(df["end"], errors="coerce")
 df["día"] = df["start"].dt.date
 df["due_date"] = pd.to_datetime(df["due_date"], errors="coerce", format='mixed')
+df["note"] = df.get("note", "").fillna("").astype(str)
 
 # Vencida parcial: si cualquier slot termina después del due_date (excluye reuniones)
 df["vencida_parcial"] = (df["end"] > df["due_date"]) & (df["type"] != "reunion")
@@ -135,46 +136,77 @@ else:
     st.subheader("🧾 Listado de tareas (agrupadas por clave)")
     st.caption("Se excluyen reuniones. Cada fila representa la tarea completa con su fecha de inicio real (primer slot) y fin real (último slot).")
 
-    # excluir reuniones
     work_df = filtered_df[filtered_df["type"] != "reunion"].copy()
 
-    # agrupar por key
     grouped = (
         work_df
-        .sort_values(["key", "start"])  # asegura orden estable
+        .sort_values(["key", "start"])
         .groupby("key", as_index=False)
         .agg({
-            "developer": "first",           # si cambia de dev, ajustá a tu preferencia (por ej., ', '.join(sorted(set(...))))
+            "developer": "first",
             "summary": "first",
             "has_epic": "first",
-            "due_date": "max",              # por si hubiera diferencias (debería ser única)
-            "start": "min",                 # inicio real
-            "end": "max",                   # fin real
-            "duration_hours": "sum",        # total horas
-            "vencida": "any"                # si cualquier slot venció, la tarea completa está vencida
+            "due_date": "max",
+            "start": "min",
+            "end": "max",
+            "duration_hours": "sum",
+            "vencida": "any",
+            "note": lambda x: "\n".join([s for s in x.astype(str) if s.strip()]),
         })
-    )
-
-    rename_listado = {
-        "developer": "Desarrollador",
-        "key": "Clave",
-        "summary": "Resumen",
-        "has_epic": "Tiene épica",
-        "due_date": "Fecha límite",
-        "start": "Inicio real",
-        "end": "Fin real",
-        "duration_hours": "Duración total (horas)",
-        "vencida": "Vencida"
-    }
-
-    styled_listado = (
-        grouped.rename(columns=rename_listado)
+        .rename(columns={
+            "developer": "Desarrollador",
+            "key": "Clave",
+            "summary": "Resumen",
+            "has_epic": "Tiene épica",
+            "due_date": "Fecha límite",
+            "start": "Inicio real",
+            "end": "Fin real",
+            "duration_hours": "Duración total (horas)",
+            "vencida": "Vencida",
+            "note": "Nota",
+        })
+        .assign(Indicador=lambda d: d["Nota"].str.strip().apply(lambda s: "＋" if s else ""))
+        .assign(**{"Ver nota": lambda d: d["Nota"].str.strip().astype(bool) & False})
+        .drop(columns=["Nota"])
         .sort_values(by=["Desarrollador", "Inicio real"])
         .reset_index(drop=True)
         .style.apply(highlight_vencidas, axis=1)
     )
 
-    st.dataframe(styled_listado, use_container_width=True)
+    
+
+    edited = st.data_editor(
+        grouped,
+        use_container_width=True,
+        hide_index=True,
+        column_config={
+            "Indicador": st.column_config.TextColumn("Detalle", width="small"),
+            "Ver nota": st.column_config.CheckboxColumn("Ver nota", help="Mostrar detalle de la fila"),
+            "Tiene épica": st.column_config.CheckboxColumn("Tiene épica", disabled=True),
+            "Vencida": st.column_config.CheckboxColumn("Vencida", disabled=True),
+        },
+        disabled=["Desarrollador","Clave","Resumen","Fecha límite","Inicio real","Fin real","Duración total (horas)","Indicador"],
+        key="listado_editor",
+    )
+
+    sel = edited[edited["Ver nota"]]
+    if not sel.empty:
+        st.markdown("**📝 Detalle de notas seleccionadas**")
+        # map clave -> nota original agrupada
+        notes_by_key = (
+        work_df
+            .sort_values(["key", "start"])
+            .groupby("key")["note"]
+            .apply(lambda s: "\n".join(dict.fromkeys(x for x in s if x.strip())))  # elimina repetidos manteniendo orden
+            .to_dict()
+        )
+        for _, r in sel.iterrows():
+            txt = notes_by_key.get(r["Clave"], "")
+            if txt:
+                st.info(f"**{r['Clave']} – {r['Resumen']}**\n\n{txt}")
+
+
+
 
 # Agregar gráfico de barras por día
 st.subheader("📊 Horas asignadas por día")
@@ -492,12 +524,31 @@ st.dataframe(proyecto_df_filtrado.sort_values(["developer", "Vencimiento"]))
 
 
 
+def _opt_value(v):
+    if isinstance(v, dict):
+        return v.get("value") or v.get("name")
+    if isinstance(v, list):
+        vals = []
+        for x in v:
+            if isinstance(x, dict):
+                vals.append(x.get("value") or x.get("name"))
+            else:
+                vals.append(x)
+        # si es lista, devolvemos como texto join para poder filtrar
+        return ", ".join([str(x) for x in vals if x is not None])
+    return v
 
+if "cf10209" in df.columns:
+    df["cf10209"] = df["cf10209"].apply(_opt_value)
+    df["cf10209"] = df["cf10209"].fillna("— Sin área —")
+else:
+    # si no existe, creamos la columna para evitar errores en el UI
+    df["cf10209"] = "— Sin área —"
 
 
 st.subheader("Filtros")
 
-c1, c2, c3 = st.columns([1, 1, 1])
+c1, c2 = st.columns([2, 2])
 
 with c1:
     devs = sorted(df["developer"].dropna().unique())
@@ -507,9 +558,14 @@ with c2:
     reporters = sorted(df["reporter"].dropna().unique())
     selected_reporters = st.multiselect("📝 Reporter  ", reporters, default=reporters)
 
+
+c3, c4 = st.columns([1, 2])
 with c3:
     epic_mode = st.radio("🧩 Épica", ["Todas", "Con épica", "Sin épica"], index=0, horizontal=True)
 
+with c4:
+    areas = sorted(df["cf10209"].dropna().unique().tolist())
+    selected_areas = st.multiselect("🏷️ Área solicitante", areas, default=areas)
 # Selector de vista principal
 vista = st.radio("🗂️ Vista", ["Cronología  ", "Ver listado  "], index=0, horizontal=True, key="vista_principal")
 
@@ -518,7 +574,8 @@ vista = st.radio("🗂️ Vista", ["Cronología  ", "Ver listado  "], index=0, h
 # =========================
 filtered_df = df[
     df["developer"].isin(selected_devs) &
-    df["reporter"].isin(selected_reporters)
+    df["reporter"].isin(selected_reporters) 
+    & df["cf10209"].isin(selected_areas)
 ].copy()
 
 # Aplicar filtro de épica
@@ -647,12 +704,59 @@ st.caption("Horas de tareas que vencen antes del final de los tiempos.")
 
 # Detalle opcional
 if st.checkbox("🔍 Ver detalle de tareas planificables hasta el final"):
-    tmp_detalle_2525 = (
-        calc_df_2525[["developer", "reporter", "key", "summary", "due_date", "duration_hours"]]
-        .sort_values(by=["developer", "due_date"])
-        .reset_index(drop=True)
-    )
-    st.dataframe(tmp_detalle_2525, use_container_width=True)
+    if vista == "Cronología  ":
+        # Cronología: mostramos filas (una por tramo planificado) ordenadas por dev y due
+        cols_exist = [c for c in ["developer","reporter","key","summary","due_date","start","end","duration_hours"] if c in calc_df_2525.columns]
+        tmp_detalle_2525 = (
+            calc_df_2525[cols_exist]
+            .sort_values(by=[c for c in ["developer","due_date","start"] if c in cols_exist])
+            .reset_index(drop=True)
+        )
+        st.dataframe(_arrow_fix(tmp_detalle_2525), use_container_width=True)
+    else:
+        # Ver listado: agrupamos por tarjeta (key)
+        work_df = calc_df_2525.copy()
+        # Si no existieran start/end en tu dataset, este bloque igual funciona
+        agg_dict = {
+            "developer": lambda x: ", ".join(sorted(set(x))),
+            "reporter": "first",
+            "summary": "first",
+            "due_date": "max",
+            "duration_hours": "sum",
+        }
+        if "start" in work_df.columns:
+            agg_dict["start"] = "min"  # inicio real
+        if "end" in work_df.columns:
+            agg_dict["end"] = "max"    # fin real
+
+        grouped_detalle_2525 = (
+            work_df
+            .sort_values(["key"] + ([ "start" ] if "start" in work_df.columns else []))
+            .groupby("key", as_index=False)
+            .agg(agg_dict)
+        )
+
+        # Renombrado prolijo
+        rename_map = {
+            "developer": "Developer(s)",
+            "reporter": "Reporter",
+            "key": "Clave",
+            "summary": "Resumen",
+            "due_date": "Fecha límite",
+            "duration_hours": "Duración total (horas)"
+        }
+        if "start" in grouped_detalle_2525.columns:
+            rename_map["start"] = "Inicio real"
+        if "end" in grouped_detalle_2525.columns:
+            rename_map["end"] = "Fin real"
+
+        grouped_detalle_2525 = (
+            grouped_detalle_2525
+            .rename(columns=rename_map)
+            .sort_values([col for col in ["Developer(s)", "Inicio real", "Fecha límite"] if col in rename_map.values()])
+            .reset_index(drop=True)
+        )
+        st.dataframe(_arrow_fix(grouped_detalle_2525), use_container_width=True)
 
 
 
