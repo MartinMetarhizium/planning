@@ -266,6 +266,15 @@ else:
             if txt:
                 st.info(f"**{r['Clave']} – {r['Resumen']}**\n\n{txt}")
 
+card_style = """
+    background-color:#1976d2;
+    padding:20px;
+    border-radius:10px;
+    margin-bottom:20px;
+    min-height: 120px;
+    color: white;
+    text-align: center;
+"""
 if len(dev_filter) == 1:
     selected_dev = dev_filter[0]
     
@@ -282,32 +291,76 @@ if len(dev_filter) == 1:
     min_ratio = MIN_PROJECT_RATIO.get(selected_dev, MIN_PROJECT_RATIO["Default"])
     daily_hours = DAILY_HOURS.get(selected_dev, DAILY_HOURS["Default"])
 
-    col1, col2, col3 = st.columns(3)
+    col1, col3 = st.columns(2)
 
+
+    # with col1:
+    #     st.markdown(f"""
+    #     <div style="{card_style}">
+    #         <h3>{total_hours:.1f}h</h3>
+    #         <p>Horas Totales a planificar</p>
+    #     </div>
+    #     """, unsafe_allow_html=True)
+
+    # with col2:
+    #     st.markdown(f"""
+    #     <div style="{card_style}">
+    #         <h3>{ratio:.0%}</h3>
+    #         <p>Ratio de proyectos</p>
+    #     </div>
+    #     """, unsafe_allow_html=True)
 
     with col1:
-        st.markdown(f"""
-        <div style="background-color:#1976d2;padding:20px;border-radius:10px;">
-            <h3>{total_hours:.1f}h</h3>
-            <p style="margin:0;">Horas Totales a planificar</p>
-        </div>
-        """, unsafe_allow_html=True)
+    
+        if len(epic_filter) == 1:
+            selected_project = epic_filter[0]
+            project_hours = filtered_df[filtered_df["epic_name"] == selected_project]["duration_hours"].sum()
 
-    with col2:
-        st.markdown(f"""
-        <div style="background-color:#1976d2;padding:20px;border-radius:10px;">
-            <h3>{ratio:.0%}</h3>
-            <p style="margin:0;">Ratio de proyectos</p>
-        </div>
-        """, unsafe_allow_html=True)
+            st.markdown(f"""
+            <div style="{card_style}">
+                <h3>{project_hours:.1f}h</h3>
+                <p>Horas estimadas para el proyecto seleccionado</p>
+            </div>
+            """, unsafe_allow_html=True)
 
     with col3:
         st.markdown(f"""
-        <div style="background-color:#1976d2;padding:20px;border-radius:10px;">
+        <div style="{card_style}">
             <h3>📅 {daily_hours:.1f}h</h3>
-            <p style="margin:0;">Horas efectivas esperadas</p>
+            <p>Horas efectivas esperadas</p>
         </div>
         """, unsafe_allow_html=True)
+
+
+    col5, col6 = st.columns(2)
+    
+    with col5:
+        
+        project_dates = filtered_df[filtered_df["epic_name"] == selected_project]["end"]
+
+        if not project_dates.empty:
+            project_end = pd.to_datetime(project_dates).max().date()
+            st.markdown(f"""
+            <div style="{card_style}">
+                <h3>{project_end}</h3>
+                <p>Fin del proyecto seleccionado</p>
+            </div>
+            """, unsafe_allow_html=True)
+    with col6:
+    
+        dev_dates = pd.to_datetime(filtered_df["end"])
+        if not dev_dates.empty:
+            dev_start = dev_dates.min().date()
+            dev_end = dev_dates.max().date()
+            sprint_days = 14
+            sprint_count = ((dev_end - dev_start).days + 1) // sprint_days + 1
+
+            st.markdown(f"""
+            <div style="{card_style}">
+                <h3>{sprint_count} sprints</h3>
+                <p>Cobertura de planificación hasta el {dev_end}</p>
+            </div>
+            """, unsafe_allow_html=True)
     
 
 
