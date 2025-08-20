@@ -5,13 +5,90 @@ from collections import defaultdict
 from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 from io import BytesIO
-from constants import PROJECT_MAP_BT, PROJECT_MAP, DEFAULT_END_DATE, DEFAULT_END_DATE_with_timezone, DEFAULT_START_DATE,DEFAULT_START_DATE_with_timezone
+from constants import MIN_PROJECT_RATIO, DAILY_HOURS, PROJECT_MAP_BT, PROJECT_MAP, DEFAULT_END_DATE, DEFAULT_END_DATE_with_timezone, DEFAULT_START_DATE,DEFAULT_START_DATE_with_timezone
 from streamlit_javascript import st_javascript
 
+st.markdown("""
+    <style>
+    body, .stApp {
+        background-color: white !important;
+        color: black !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
+st.markdown("""
+<style>
+/* ====== 1) Forzar tema claro SIEMPRE, aunque el browser esté en dark ====== */
+:root { color-scheme: light !important; }
+html, body, .stApp { background:#ffffff !important; }
+/* ===== Fuente global Montserrat ===== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
 
+html, body, .stApp, div, span, label, section, p, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif !important;
+}
+/* ====== Forzar light mode ====== */
+:root { color-scheme: light !important; }
+html, body, .stApp { background: #ffffff !important; color: #111 !important; }
+
+/* ====== Multiselect tags (chips) ======
+   Reemplaza el rojo por azul en las etiquetas seleccionadas */
+.stApp [data-baseweb="tag"] {
+    background-color: #1976d2 !important;   /* azul */
+    border-color: #1976d2 !important;
+    color: #fff !important;
+}
+.stApp [data-baseweb="tag"] span { color: #fff !important; }
+.stApp [data-baseweb="tag"] svg { fill: #fff !important; }
+.stApp [data-baseweb="tag"]:hover {
+    background-color: #1565c0 !important;   /* hover azul más oscuro */
+    border-color: #1565c0 !important;
+}
+
+/* Borde/focus del contenedor del select a azul */
+.stApp div[data-baseweb="select"] div[role="combobox"] {
+    border-color: #1976d2 !important;
+    box-shadow: 0 0 0 1px #1976d2 !important;
+}
+
+/* Radios / checkboxes (el “tick” rojo por defecto) */
+.stApp input[type="radio"],
+.stApp input[type="checkbox"] {
+    accent-color: #1976d2 !important;
+}
+
+/* Botones primarios en azul */
+.stApp .stButton button {
+    background-color: #1976d2 !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 6px;
+}
+.stApp .stButton button:hover { background-color: #1565c0 !important; }
+
+/* Tus badges personalizados a azul (si los usás) */
+.badge, .badge2525 { background-color: #1976d2 !important; }
+</style>
+""", unsafe_allow_html=True)
+st.markdown("""
+<style>
+/* === Radios y checkboxes en azul === */
+.stApp input[type="radio"],
+.stApp input[type="checkbox"] {
+    accent-color: #1976d2 !important;   /* azul */
+}
+
+/* También cambiar el circulito rojo del radio seleccionado */
+.stApp div[role="radiogroup"] > label > div:first-child {
+    background-color: #1976d2 !important;   /* azul relleno */
+    border-color: #1976d2 !important;
+}
+</style>
+""", unsafe_allow_html=True)
 theme = st_javascript("""window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';""")
-if not theme:
-    theme = 'light'
+# if not theme:
+
+theme = 'light'
 def highlight_vencidas(row):        
     
     if row["Vencida"]:
@@ -49,62 +126,43 @@ df["vencida_parcial"] = (df["end"] > df["due_date"]) & (df["type"] != "reunion")
 # Si alguna parte del mismo key está vencida, marcar todas las filas con ese key como vencidas
 vencidas_keys = df.loc[df["vencida_parcial"], "key"].unique()
 df["vencida"] = df["key"].isin(vencidas_keys)
-# st.subheader("📋 Tareas planificadas por desarrollador")
-# st.caption("Esta tabla muestra todas las tareas programadas por cada developer, destacando en amarillo aquellas vencidas parcial o totalmente.")
-# # Cargar el archivo planificado
-# with open("planificacion.json") as f:
-#     data = json.load(f)
 
-# df = pd.DataFrame(data)
-# df["start"] = pd.to_datetime(df["start"], errors="coerce",format='mixed')
-# df["end"] = pd.to_datetime(df["end"], errors="coerce")
-# df["día"] = df["start"].dt.date
-# df["due_date"] = pd.to_datetime(df["due_date"],format='mixed')
-# df["vencida_parcial"] = (df["end"] > df["due_date"]) & (df["type"] != "reunion")
-
-# # Paso 2: Si alguna parte del mismo key está vencida, marcar todas las filas con ese key como vencidas
-# vencidas_keys = df[df["vencida_parcial"]]["key"].unique()
-# df["vencida"] = df["key"].isin(vencidas_keys)
-
-# # Filtros
-# devs = sorted(df["developer"].unique())
-# dev_filter = st.multiselect("👨‍💻 Filtrar por developer", devs, default=devs)
-
-# filtered_df = df[df["developer"].isin(dev_filter)]
-
-# rename_dict = {
-#     "developer": "Desarrollador",
-#     "key": "Clave",
-#     "summary": "Resumen",
-#     "has_epic": "Tiene épica",
-#     "due_date": "Fecha límite",
-#     "start": "Inicio",
-#     "end": "Fin",
-#     "duration_hours": "Duración (horas)",
-#     "vencida": "Vencida"
-# }
-
-
-# # Mostrar tabla
-# styled = (
-#     filtered_df[list(rename_dict.keys())]
-#     .rename(columns=rename_dict)
-#     .sort_values(by=["Desarrollador", "Inicio"])
-#     .reset_index(drop=True)
-#     .style.apply(highlight_vencidas, axis=1)
-# )
-
-# st.dataframe(styled, use_container_width=True)
+if "epic_name" in df.columns:
+    df["epic_name"] = df["epic_name"].fillna("— Sin épica —").astype(str)
+else:
+    # si todavía no lo agregaste al JSON, evitamos romper el UI
+    df["epic_name"] = "— Sin épica —"
 
 
 
 devs = sorted(df["developer"].unique())
 dev_filter = st.multiselect("👨‍💻 Filtrar por developer", devs, default=devs)
 
+# Radio: tiene épica / no tiene épica / todas
+epic_mode = st.radio(
+    "🧩 Épica",
+    ["Todas", "Tiene épica", "No tiene épica"],
+    index=0,
+    horizontal=True,
+)
+
+epic_names = sorted(df["epic_name"].dropna().unique())
+epic_filter = st.multiselect("🏷️ Nombre de la épica", epic_names, default=epic_names)
+
 # Selector de vista
 vista = st.radio("🗂️ Vista", ["Cronología", "Ver listado"], index=0, horizontal=True)
 
-filtered_df = df[df["developer"].isin(dev_filter)]
+
+mask = df["developer"].isin(dev_filter) & df["epic_name"].isin(epic_filter)
+
+if epic_mode == "Tiene épica":
+    mask &= df["has_epic"] == True
+elif epic_mode == "No tiene épica":
+    mask &= df["has_epic"] == False
+
+filtered_df = df[mask].copy()
+
+
 
 if vista == "Cronología":
     st.subheader("📋 Tareas planificadas por desarrollador")
@@ -116,6 +174,7 @@ if vista == "Cronología":
         "summary": "Resumen",
         "has_epic": "Tiene épica",
         "due_date": "Fecha límite",
+        "epic_name": "Nombre épica", 
         "start": "Inicio",
         "end": "Fin",
         "duration_hours": "Duración (horas)",
@@ -134,7 +193,7 @@ if vista == "Cronología":
 
 else:
     st.subheader("🧾 Listado de tareas (agrupadas por clave)")
-    st.caption("Se excluyen reuniones. Cada fila representa la tarea completa con su fecha de inicio real (primer slot) y fin real (último slot).")
+    st.caption("Se excluyen reuniones. Cada fila representa la tarea completa con su fecha de inicio real (primer slot) y fin real (último slot). Esto sirve para detectar (en base a lo filtrado arriba) cuando finalizaría cada tarjeta si se respetan las reglas de planificación definidas por criterios comerciales")
 
     work_df = filtered_df[filtered_df["type"] != "reunion"].copy()
 
@@ -147,6 +206,7 @@ else:
             "summary": "first",
             "has_epic": "first",
             "due_date": "max",
+            "epic_name": "first", 
             "start": "min",
             "end": "max",
             "duration_hours": "sum",
@@ -160,6 +220,7 @@ else:
             "has_epic": "Tiene épica",
             "due_date": "Fecha límite",
             "start": "Inicio real",
+            "epic_name": "Nombre épica", 
             "end": "Fin real",
             "duration_hours": "Duración total (horas)",
             "vencida": "Vencida",
@@ -185,7 +246,7 @@ else:
             "Tiene épica": st.column_config.CheckboxColumn("Tiene épica", disabled=True),
             "Vencida": st.column_config.CheckboxColumn("Vencida", disabled=True),
         },
-        disabled=["Desarrollador","Clave","Resumen","Fecha límite","Inicio real","Fin real","Duración total (horas)","Indicador"],
+        disabled=["Desarrollador","Clave","Resumen","Fecha límite","Inicio real", "Nombre épica","Fin real","Duración total (horas)","Indicador"],
         key="listado_editor",
     )
 
@@ -205,245 +266,287 @@ else:
             if txt:
                 st.info(f"**{r['Clave']} – {r['Resumen']}**\n\n{txt}")
 
+if len(dev_filter) == 1:
+    selected_dev = dev_filter[0]
+    
+    
+    # Horas totales asignadas
+    total_hours = filtered_df["duration_hours"].sum()
 
+    # Horas en tareas con épica (proyectos)
+    epic_hours = filtered_df[filtered_df["has_epic"] == True]["duration_hours"].sum()
+
+    # Ratio de horas en proyectos
+    ratio = epic_hours / total_hours if total_hours > 0 else 0
+
+    min_ratio = MIN_PROJECT_RATIO.get(selected_dev, MIN_PROJECT_RATIO["Default"])
+    daily_hours = DAILY_HOURS.get(selected_dev, DAILY_HOURS["Default"])
+
+    col1, col2, col3 = st.columns(3)
+
+
+    with col1:
+        st.markdown(f"""
+        <div style="background-color:#1976d2;padding:20px;border-radius:10px;">
+            <h3>{total_hours:.1f}h</h3>
+            <p style="margin:0;">Horas Totales a planificar</p>
+        </div>
+        """, unsafe_allow_html=True)
+
+    with col2:
+        st.markdown(f"""
+        <div style="background-color:#1976d2;padding:20px;border-radius:10px;">
+            <h3>{ratio:.0%}</h3>
+            <p style="margin:0;">Ratio de proyectos</p>
+        </div>
+        """, unsafe_allow_html=True)
+
+    with col3:
+        st.markdown(f"""
+        <div style="background-color:#1976d2;padding:20px;border-radius:10px;">
+            <h3>📅 {daily_hours:.1f}h</h3>
+            <p style="margin:0;">Horas efectivas esperadas</p>
+        </div>
+        """, unsafe_allow_html=True)
+    
 
 
 # Agregar gráfico de barras por día
-st.subheader("📊 Horas asignadas por día")
-st.caption("Distribución de las horas de trabajo planificadas por desarrollador a lo largo del tiempo.")
+# st.subheader("📊 Horas asignadas por día")
+# st.caption("Distribución de las horas de trabajo planificadas por desarrollador a lo largo del tiempo.")
 
-grouped = (
-    filtered_df.groupby(["developer", "día"])["duration_hours"]
-    .sum()
-    .unstack(fill_value=0)
-    .T
-)
+# grouped = (
+#     filtered_df.groupby(["developer", "día"])["duration_hours"]
+#     .sum()
+#     .unstack(fill_value=0)
+#     .T
+# )
 
-st.bar_chart(grouped)
-
-
+# st.bar_chart(grouped)
 
 
 
 
-# Filtrar tareas en el rango
-df_rango = df[(df["start"] >= DEFAULT_START_DATE) & (df["start"] <= DEFAULT_END_DATE)]
-
-epic_stats = defaultdict(lambda: {"con_epica": 0.0, "sin_epica": 0.0})
 
 
-for _, row in df_rango.iterrows():
-    if row.get("type") == "reunion":
-        continue  # Ignorar reuniones
+# # Filtrar tareas en el rango
+# df_rango = df[(df["start"] >= DEFAULT_START_DATE) & (df["start"] <= DEFAULT_END_DATE)]
 
-    dev = row["developer"]
-    horas = row["duration_hours"]
-
-    if row["has_epic"]:
-        epic_stats[dev]["con_epica"] += horas
-    else:
-        epic_stats[dev]["sin_epica"] += horas
+# epic_stats = defaultdict(lambda: {"con_epica": 0.0, "sin_epica": 0.0})
 
 
+# for _, row in df_rango.iterrows():
+#     if row.get("type") == "reunion":
+#         continue  # Ignorar reuniones
 
-epic_df = pd.DataFrame([
-    {
-        "developer": dev,
-        "Con épica": stats["con_epica"],
-        "Sin épica": stats["sin_epica"]
-    }
-    for dev, stats in epic_stats.items()
-])
+#     dev = row["developer"]
+#     horas = row["duration_hours"]
+
+#     if row["has_epic"]:
+#         epic_stats[dev]["con_epica"] += horas
+#     else:
+#         epic_stats[dev]["sin_epica"] += horas
 
 
-if not epic_df.empty and "developer" in epic_df.columns:
-    epic_df = epic_df.set_index("developer")
 
-    st.subheader("📊 Horas con y sin épica ")
-    st.bar_chart(epic_df)
+# epic_df = pd.DataFrame([
+#     {
+#         "developer": dev,
+#         "Con épica": stats["con_epica"],
+#         "Sin épica": stats["sin_epica"]
+#     }
+#     for dev, stats in epic_stats.items()
+# ])
 
-    st.subheader("📈 Porcentaje de horas con y sin épica")
-    porcentaje_df = epic_df.copy()
-    porcentaje_df["Total"] = porcentaje_df["Con épica"] + porcentaje_df["Sin épica"]
-    porcentaje_df["% Con épica"] = (porcentaje_df["Con épica"] / porcentaje_df["Total"] * 100).round(1)
-    porcentaje_df["% Sin épica"] = (porcentaje_df["Sin épica"] / porcentaje_df["Total"] * 100).round(1)
 
-    st.dataframe(porcentaje_df[["% Con épica", "% Sin épica"]])
-else:
-    st.warning(f"⚠️ No se encontraron datos de planificación con y sin épica para mostrar. {df_rango.columns}")
+# if not epic_df.empty and "developer" in epic_df.columns:
+#     epic_df = epic_df.set_index("developer")
+
+#     st.subheader("📊 Horas con y sin épica ")
+#     st.bar_chart(epic_df)
+
+#     st.subheader("📈 Porcentaje de horas con y sin épica")
+#     porcentaje_df = epic_df.copy()
+#     porcentaje_df["Total"] = porcentaje_df["Con épica"] + porcentaje_df["Sin épica"]
+#     porcentaje_df["% Con épica"] = (porcentaje_df["Con épica"] / porcentaje_df["Total"] * 100).round(1)
+#     porcentaje_df["% Sin épica"] = (porcentaje_df["Sin épica"] / porcentaje_df["Total"] * 100).round(1)
+
+#     st.dataframe(porcentaje_df[["% Con épica", "% Sin épica"]])
+# else:
+#     st.warning(f"⚠️ No se encontraron datos de planificación con y sin épica para mostrar. {df_rango.columns}")
 # ===================== Cálculo de avance de épicas =====================
-st.subheader("🚀 Avance de Proyectos (Épicas)")
+# st.subheader("🚀 Avance de Proyectos (Épicas)")
 
-# Cargar epics con tareas desde archivo
-try:
-    with open("epics_due_lookup.json") as f:
-        epics_data = json.load(f)
-except FileNotFoundError:
-    st.warning("⚠️ No se encontró el archivo epics_due_lookup.json")
-    epics_data = {}
+# # Cargar epics con tareas desde archivo
+# try:
+#     with open("epics_due_lookup.json") as f:
+#         epics_data = json.load(f)
+# except FileNotFoundError:
+#     st.warning("⚠️ No se encontró el archivo epics_due_lookup.json")
+#     epics_data = {}
 
-epic_progress_rows = []
-for epic_key, info in epics_data.items():
-    tasks = info.get("tasks", [])
-    if not tasks:
-        continue
+# epic_progress_rows = []
+# for epic_key, info in epics_data.items():
+#     tasks = info.get("tasks", [])
+#     if not tasks:
+#         continue
 
-    total_sp = 0
-    completed_sp = 0
-    pending_hours = 0
+#     total_sp = 0
+#     completed_sp = 0
+#     pending_hours = 0
 
-    for task in tasks:
-        sp = task.get("story_points")
-        if sp is None:
-            continue
-        total_sp += sp
-        if task.get("status", "").upper() == "FINISH":
-            completed_sp += sp
-        else:
-            pending_hours += sp  # Asumimos 1 SP = 1 hora estimada
+#     for task in tasks:
+#         sp = task.get("story_points")
+#         if sp is None:
+#             continue
+#         total_sp += sp
+#         if task.get("status", "").upper() == "FINISH":
+#             completed_sp += sp
+#         else:
+#             pending_hours += sp  # Asumimos 1 SP = 1 hora estimada
 
-    if total_sp == 0:
-        continue
+#     if total_sp == 0:
+#         continue
 
-    epic_progress_rows.append({
-        "Épica": epic_key,
-        "Resumen": info.get("summary", ""),
-        "Vencimiento": info.get("due_date", ""),
-        "Total SP": total_sp,
-        "Completados": completed_sp,
-        "Avance %": round(completed_sp / total_sp * 100, 1),
-        "Horas pendientes": pending_hours
-    })
+#     epic_progress_rows.append({
+#         "Épica": epic_key,
+#         "Resumen": info.get("summary", ""),
+#         "Vencimiento": info.get("due_date", ""),
+#         "Total SP": total_sp,
+#         "Completados": completed_sp,
+#         "Avance %": round(completed_sp / total_sp * 100, 1),
+#         "Horas pendientes": pending_hours
+#     })
 
-# Mostrar tabla
-if epic_progress_rows:
-    epic_progress_df = pd.DataFrame(epic_progress_rows)
-    st.dataframe(epic_progress_df)
-else:
-    st.info("No se encontraron tareas asociadas a las épicas.")
+# # Mostrar tabla
+# if epic_progress_rows:
+#     epic_progress_df = pd.DataFrame(epic_progress_rows)
+#     st.dataframe(epic_progress_df)
+# else:
+#     st.info("No se encontraron tareas asociadas a las épicas.")
 
 
 # ===================== Avance por Épica con gráfico =====================
-st.subheader("Avance de Proyectos (Épicas)")
-st.caption("Resumen del progreso en las épicas, basado en Story Points completados y pendientes. Puedes seleccionar una épica para ver su detalle.")
+# st.subheader("Avance de Proyectos (Épicas)")
+# st.caption("Resumen del progreso en las épicas, basado en Story Points completados y pendientes. Puedes seleccionar una épica para ver su detalle.")
 
 
-# Cargar archivo de épicas con tareas
-try:
-    with open("epics_due_lookup.json") as f:
-        epics_data = json.load(f)
-except FileNotFoundError:
-    st.warning("⚠️ No se encontró el archivo epics_due_lookup.json")
-    epics_data = {}
+# # Cargar archivo de épicas con tareas
+# try:
+#     with open("epics_due_lookup.json") as f:
+#         epics_data = json.load(f)
+# except FileNotFoundError:
+#     st.warning("⚠️ No se encontró el archivo epics_due_lookup.json")
+#     epics_data = {}
 
-# Procesar datos de avance
-epic_progress_rows = []
-for epic_key, info in epics_data.items():
-    tasks = info.get("tasks", [])
-    if not tasks:
-        continue
+# # Procesar datos de avance
+# epic_progress_rows = []
+# for epic_key, info in epics_data.items():
+#     tasks = info.get("tasks", [])
+#     if not tasks:
+#         continue
 
-    total_sp = 0
-    completed_sp = 0
-    pending_hours = 0
+#     total_sp = 0
+#     completed_sp = 0
+#     pending_hours = 0
 
-    for task in tasks:
-        sp = task.get("story_points")
-        if sp is None:
-            continue
-        total_sp += sp
-        if task.get("status", "").upper() == "FINISH":
-            completed_sp += sp
-        else:
-            pending_hours += sp
+#     for task in tasks:
+#         sp = task.get("story_points")
+#         if sp is None:
+#             continue
+#         total_sp += sp
+#         if task.get("status", "").upper() == "FINISH":
+#             completed_sp += sp
+#         else:
+#             pending_hours += sp
 
-    if total_sp == 0:
-        continue
+#     if total_sp == 0:
+#         continue
 
-    epic_progress_rows.append({
-        "Épica": epic_key,
-        "Resumen": info.get("summary", ""),
-        "Vencimiento": info.get("due_date", ""),
-        "Total SP": total_sp,
-        "Completados": completed_sp,
-        "Pendientes": total_sp - completed_sp,
-        "Avance %": round(completed_sp / total_sp * 100, 1),
-    })
+#     epic_progress_rows.append({
+#         "Épica": epic_key,
+#         "Resumen": info.get("summary", ""),
+#         "Vencimiento": info.get("due_date", ""),
+#         "Total SP": total_sp,
+#         "Completados": completed_sp,
+#         "Pendientes": total_sp - completed_sp,
+#         "Avance %": round(completed_sp / total_sp * 100, 1),
+#     })
 
-if epic_progress_rows:
-    epic_progress_df = pd.DataFrame(epic_progress_rows)
+# if epic_progress_rows:
+#     epic_progress_df = pd.DataFrame(epic_progress_rows)
 
-    selected_epica = st.selectbox("🎯 Seleccionar épica para ver detalle", ["Todas"] + list(epic_progress_df["Épica"]))
+#     selected_epica = st.selectbox("🎯 Seleccionar épica para ver detalle", ["Todas"] + list(epic_progress_df["Épica"]))
 
-    if selected_epica == "Todas":
-        # Filtrar solo épicas con tareas pendientes
-        filtered = epic_progress_df[epic_progress_df["Pendientes"] > 0]
+#     if selected_epica == "Todas":
+#         # Filtrar solo épicas con tareas pendientes
+#         filtered = epic_progress_df[epic_progress_df["Pendientes"] > 0]
 
-        # 📊 Gráfico de barras (solo para "Todas")
-        chart_data = filtered.set_index("Épica")[["Completados", "Pendientes"]]
-        st.subheader("📊 Avance de todas las épicas con pendientes")
-        st.bar_chart(chart_data)
-    else:
-        filtered = epic_progress_df[epic_progress_df["Épica"] == selected_epica]
+#         # 📊 Gráfico de barras (solo para "Todas")
+#         chart_data = filtered.set_index("Épica")[["Completados", "Pendientes"]]
+#         st.subheader("📊 Avance de todas las épicas con pendientes")
+#         st.bar_chart(chart_data)
+#     else:
+#         filtered = epic_progress_df[epic_progress_df["Épica"] == selected_epica]
 
-        if not filtered.empty:
-            row = filtered.iloc[0]
-            pie_data = pd.Series({
-                "Completados": row["Completados"],
-                "Pendientes": row["Pendientes"]
-            })
+#         if not filtered.empty:
+#             row = filtered.iloc[0]
+#             pie_data = pd.Series({
+#                 "Completados": row["Completados"],
+#                 "Pendientes": row["Pendientes"]
+#             })
 
-            st.subheader("📘 Distribución de Story Points")
+#             st.subheader("📘 Distribución de Story Points")
 
-            # Crear figura pequeña
-            fig, ax = plt.subplots(figsize=(4, 4), dpi=100)
-            ax.pie(
-                pie_data.values,
-                labels=pie_data.index,
-                autopct='%1.1f%%',
-                textprops={'fontsize': 7},
-                startangle=90
-            )
-            ax.set_title(f"Distribución SP - {row['Resumen'] or selected_epica}", fontsize=9)
-            ax.axis('equal')
-            fig.tight_layout()
+#             # Crear figura pequeña
+#             fig, ax = plt.subplots(figsize=(4, 4), dpi=100)
+#             ax.pie(
+#                 pie_data.values,
+#                 labels=pie_data.index,
+#                 autopct='%1.1f%%',
+#                 textprops={'fontsize': 7},
+#                 startangle=90
+#             )
+#             ax.set_title(f"Distribución SP - {row['Resumen'] or selected_epica}", fontsize=9)
+#             ax.axis('equal')
+#             fig.tight_layout()
 
-            # Convertir a imagen
-            buf = BytesIO()
-            fig.savefig(buf, format="png", bbox_inches="tight")
-            buf.seek(0)
+#             # Convertir a imagen
+#             buf = BytesIO()
+#             fig.savefig(buf, format="png", bbox_inches="tight")
+#             buf.seek(0)
 
-            # Mostrar imagen en tamaño real
-            st.image(buf, use_container_width=False)
-
-
-    st.subheader("📋 Detalle de épicas")
-    st.dataframe(filtered.reset_index(drop=True))
-else:
-    st.info("No se encontraron tareas asociadas a las épicas.")
+#             # Mostrar imagen en tamaño real
+#             st.image(buf, use_container_width=False)
 
 
-
+#     st.subheader("📋 Detalle de épicas")
+#     st.dataframe(filtered.reset_index(drop=True))
+# else:
+#     st.info("No se encontraron tareas asociadas a las épicas.")
 
 
 
 
-if st.button("Guardar resumen de planificación"):
-    resumen = [
-        {
-            "dev": dev,
-            "horas_epicas": stats["con_epica"],
-            "horas_no_epicas": stats["sin_epica"]
-        }
-        for dev, stats in epic_stats.items()
-    ]
 
-    fecha_str = DEFAULT_START_DATE.strftime("%Y-%m-%d")
-    filename = f"S{fecha_str}.json"
-    with open(filename, "w", encoding="utf-8") as f:
-        json.dump(resumen, f, indent=4, ensure_ascii=False)
 
-    st.success(f"Resumen guardado como {filename}")
+
+# if st.button("Guardar resumen de planificación"):
+#     resumen = [
+#         {
+#             "dev": dev,
+#             "horas_epicas": stats["con_epica"],
+#             "horas_no_epicas": stats["sin_epica"]
+#         }
+#         for dev, stats in epic_stats.items()
+#     ]
+
+#     fecha_str = DEFAULT_START_DATE.strftime("%Y-%m-%d")
+#     filename = f"S{fecha_str}.json"
+#     with open(filename, "w", encoding="utf-8") as f:
+#         json.dump(resumen, f, indent=4, ensure_ascii=False)
+
+#     st.success(f"Resumen guardado como {filename}")
 
 
 
@@ -451,72 +554,6 @@ if st.button("Guardar resumen de planificación"):
 
 from datetime import date
 from constants import PROJECT_MAP
-
-st.subheader("🧾 Proyectos planificados por desarrollador")
-st.caption("Se muestra la última tarea planificada y los días restantes para el vencimiento de cada proyecto. Útil para verificar si un proyecto necesita planificación adicional.")
-
-
-# 1. Última fecha sin épica por developer
-sin_epica_df = df[(~df["has_epic"]) & (df["type"] != "reunion")]
-ultima_fecha_por_dev = (
-    sin_epica_df.groupby("developer")["end"]
-    .max()
-    .dropna()
-    .reset_index()
-    .rename(columns={"end": "Última tarea planificable"})
-)
-ultima_fecha_por_dev["Última tarea planificable"] = ultima_fecha_por_dev["Última tarea planificable"].dt.date
-
-# 2. Mapear proyectos y fechas de vencimiento
-proyecto_vencimiento = []
-hoy = date.today()
-
-for dev, proyectos in PROJECT_MAP.items():
-    last_date = ultima_fecha_por_dev[ultima_fecha_por_dev["developer"] == dev]["Última tarea planificable"]
-    last_date = last_date.values[0] if not last_date.empty else "No planificado"
-
-    for proyecto, venc in proyectos.items():
-        venc_date = datetime.strptime(venc, "%Y-%m-%d").date()
-
-        if isinstance(last_date, date):
-            dias_restantes = (venc_date - last_date).days
-        else:
-            dias_restantes = None
-
-        # Color de semáforo
-        if dias_restantes is None:
-            color = "🟫"  # no planificado
-        elif dias_restantes < 0:
-            color = "🔴"
-        elif dias_restantes <= 5:
-            color = "🟠"
-        else:
-            color = "🟢"
-
-        proyecto_vencimiento.append({
-            "developer": dev,
-            "Proyecto": proyecto,
-            "Vencimiento": venc,
-            "Última tarea planificable": last_date,
-            "Días de margen": dias_restantes,
-            "Estado": color
-        })
-
-
-
-
-
-proyecto_df = pd.DataFrame(proyecto_vencimiento)
-
-
-developers = sorted(proyecto_df["developer"].unique())
-
-selected_devs = st.multiselect("👨‍💻 Filtrar developers", developers, default=developers)
-
-
-proyecto_df_filtrado = proyecto_df[proyecto_df["developer"].isin(selected_devs)]
-
-st.dataframe(proyecto_df_filtrado.sort_values(["developer", "Vencimiento"]))
 
 
 
@@ -816,3 +853,78 @@ if bt_rows:
     st.dataframe(bt_df, use_container_width=True)
 else:
     st.info("No hay proyectos para los analistas seleccionados.")
+
+
+
+
+
+
+
+
+
+st.subheader("🧾 Proyectos planificados por desarrollador")
+st.caption("Se muestra la última tarea planificada y los días restantes para el vencimiento de cada proyecto. Útil para verificar si un proyecto necesita planificación adicional.")
+
+
+# 1. Última fecha sin épica por developer
+sin_epica_df = df[(~df["has_epic"]) & (df["type"] != "reunion")]
+ultima_fecha_por_dev = (
+    sin_epica_df.groupby("developer")["end"]
+    .max()
+    .dropna()
+    .reset_index()
+    .rename(columns={"end": "Última tarea planificable"})
+)
+ultima_fecha_por_dev["Última tarea planificable"] = ultima_fecha_por_dev["Última tarea planificable"].dt.date
+
+# 2. Mapear proyectos y fechas de vencimiento
+proyecto_vencimiento = []
+hoy = date.today()
+
+for dev, proyectos in PROJECT_MAP.items():
+    last_date = ultima_fecha_por_dev[ultima_fecha_por_dev["developer"] == dev]["Última tarea planificable"]
+    last_date = last_date.values[0] if not last_date.empty else "No planificado"
+
+    for proyecto, venc in proyectos.items():
+        venc_date = datetime.strptime(venc, "%Y-%m-%d").date()
+
+        if isinstance(last_date, date):
+            dias_restantes = (venc_date - last_date).days
+        else:
+            dias_restantes = None
+
+        # Color de semáforo
+        if dias_restantes is None:
+            color = "🟫"  # no planificado
+        elif dias_restantes < 0:
+            color = "🔴"
+        elif dias_restantes <= 5:
+            color = "🟠"
+        else:
+            color = "🟢"
+
+        proyecto_vencimiento.append({
+            "developer": dev,
+            "Proyecto": proyecto,
+            "Vencimiento": venc,
+            "Última tarea planificable": last_date,
+            "Días de margen": dias_restantes,
+            "Estado": color
+        })
+
+
+
+
+
+proyecto_df = pd.DataFrame(proyecto_vencimiento)
+
+
+developers = sorted(proyecto_df["developer"].unique())
+
+selected_devs = st.multiselect("👨‍💻 Filtrar developers", developers, default=developers)
+
+
+proyecto_df_filtrado = proyecto_df[proyecto_df["developer"].isin(selected_devs)]
+
+st.dataframe(proyecto_df_filtrado.sort_values(["developer", "Vencimiento"]))
+    

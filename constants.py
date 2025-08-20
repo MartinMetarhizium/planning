@@ -1,4 +1,4 @@
-
+import requests
 PROJECT_MAP = {
     "Alan Mori - Carestino": {
         "Worpik": "2025-08-14",
@@ -270,3 +270,17 @@ ORDER BY priority DESC, due ASC
 
 FIELDS = "key,summary,assignee,status,timetracking,duedate,parent,issuelinks,project,customfield_10016,customfield_10212,customfield_10214,customfield_10442,customfield_10608,reporter"
 BASE_URL = f"https://{JIRA_DOMAIN}/rest/api/3/search"
+
+
+
+def post_to_slack(channel: str, text: str, token: str):
+    resp = requests.post(
+        "https://slack.com/api/chat.postMessage",
+        headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json; charset=utf-8"},
+        json={"channel": channel, "text": text},
+        timeout=30,
+    )
+    data = resp.json()
+    if not data.get("ok"):
+        raise RuntimeError(f"Slack error: {data}")
+    
