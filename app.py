@@ -981,3 +981,525 @@ proyecto_df_filtrado = proyecto_df[proyecto_df["developer"].isin(selected_devs)]
 
 st.dataframe(proyecto_df_filtrado.sort_values(["developer", "Vencimiento"]))
     
+
+
+
+
+
+
+
+
+
+# # ===================== DASHBOARD SUPERIOR (estilo como la imagen) =====================
+# # --- CSS de cards y contenedores ---
+# st.set_page_config(layout="wide")
+# st.markdown("""
+# <style>
+# /* Contenedor principal tipo "tarjeta grande" */
+# .dashboard-wrap{
+#   background:#fff; border-radius:18px; padding:22px; box-shadow:0 6px 20px rgba(0,0,0,.06);
+#   border:1px solid #eef2f7; margin-bottom:22px;
+# }
+
+# /* Fila de KPIs */
+# .kpi-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin:10px 0 18px;}
+# .kpi-card{ background:#ffffff; border:1px solid #eef2f7; border-radius:14px; padding:16px 18px;
+#            display:flex; align-items:center; gap:14px; box-shadow:0 4px 14px rgba(0,0,0,.04); }
+# .kpi-ico{ font-size:22px; background:#eaf2fd; color:#1976d2; width:42px; height:42px; border-radius:10px;
+#           display:flex; align-items:center; justify-content:center; }
+# .kpi-text h3{ margin:0; font-size:22px; line-height:1.1; font-weight:700; color:#0f172a; }
+# .kpi-text p{ margin:0; font-size:13px; color:#64748b; }
+
+# /* Grid de paneles: filtros a la izquierda + tablero al centro */
+# .panel-grid{
+#   display:grid; grid-template-columns:280px 1fr; gap:18px;
+# }
+
+# /* Panel "Filtros" de la izquierda */
+# .side-card{ background:#ffffff; border:1px solid #eef2f7; border-radius:14px; padding:14px; }
+
+# /* Panel central con tabla + charts */
+# .center-card{ background:#ffffff; border:1px solid #eef2f7; border-radius:14px; padding:14px; }
+
+# /* Título de bloque con icono */
+# .block-title{ display:flex; align-items:center; gap:8px; font-weight:700; color:#0f172a; margin-bottom:8px; }
+# .block-title .dot{ width:18px; height:18px; border-radius:6px; background:#eaf2fd; display:inline-flex;
+#                    align-items:center; justify-content:center; color:#1976d2; }
+
+# /* Tabla compacta: quitar ruido visual */
+# table{ border-collapse:separate; border-spacing:0; }
+# thead tr th{ background:#f8fafc !important; font-size:12px; color:#334155 !important; }
+# tbody tr td{ font-size:13px; }
+# .status-pill{ display:inline-flex; align-items:center; gap:6px; padding:2px 8px; border-radius:999px;
+#               font-size:12px; border:1px solid #e2e8f0; }
+# .status-ok{ background:#ecfdf5; color:#047857; border-color:#a7f3d0; }
+# .status-warn{ background:#fff7ed; color:#c2410c; border-color:#fed7aa; }
+# .status-bad{ background:#fef2f2; color:#b91c1c; border-color:#fecaca; }
+# .dot-s{ width:8px; height:8px; border-radius:999px; background:currentColor; display:inline-block; }
+# </style>
+# """, unsafe_allow_html=True)
+
+# # --- Métricas rápidas para los 3 KPI (usamos tus datos existentes) ---
+# # 1) Horas vencidas basado en tu cálculo “vencida_parcial / due_date”
+# _hoy = pd.Timestamp.today().normalize()
+# DEFAULT_END = pd.to_datetime(DEFAULT_END_DATE, errors="coerce") if 'DEFAULT_END_DATE' in globals() else _hoy
+# _kpi_df = df[(df["type"] != "reunion") & (df["due_date"] < DEFAULT_END)]
+# horas_vencidas_top = float(_kpi_df["duration_hours"].sum()) if not _kpi_df.empty else 0.0
+
+# # 2) Proyectos activos: cantidad de épicas distintas (excluye “— Sin épica —”)
+# proyectos_activos = int(df.loc[df["has_epic"] == True, "epic_name"].replace("— Sin épica —", pd.NA).dropna().nunique())
+
+# # 3) Developers totales
+# developers_totales = int(df["developer"].dropna().nunique())
+
+# # --- Render del encabezado + KPIs ---
+# st.markdown('<div class="dashboard-wrap">', unsafe_allow_html=True)
+# st.markdown("### Planificación de Desarrolladores")
+# st.caption("Visualización de carga, progreso y vencimientos de proyectos")
+
+# k1, k2, k3 = st.columns([1,1,1])
+# with k1:
+#     st.markdown(f"""
+#     <div class="kpi-card">
+#       <div class="kpi-ico">⏱️</div>
+#       <div class="kpi-text">
+#         <h3>{horas_vencidas_top:.0f} h vencidas</h3>
+#         <p>Hasta el fin del rango</p>
+#       </div>
+#     </div>
+#     """, unsafe_allow_html=True)
+# with k2:
+#     st.markdown(f"""
+#     <div class="kpi-card">
+#       <div class="kpi-ico">📦</div>
+#       <div class="kpi-text">
+#         <h3>{proyectos_activos}</h3>
+#         <p>Proyectos activos</p>
+#       </div>
+#     </div>
+#     """, unsafe_allow_html=True)
+# with k3:
+#     st.markdown(f"""
+#     <div class="kpi-card">
+#       <div class="kpi-ico">👥</div>
+#       <div class="kpi-text">
+#         <h3>{developers_totales}</h3>
+#         <p>Developers</p>
+#       </div>
+#     </div>
+#     """, unsafe_allow_html=True)
+
+# # --- Panel de la izquierda: filtros compactos del tablero (independientes de los que ya tenés abajo) ---
+# st.markdown('<div class="panel-grid">', unsafe_allow_html=True)
+# left_col, center_col = st.columns([2, 3.2])   # ancho parecido a la maqueta
+
+# with left_col:
+#     st.markdown('<div class="side-card">', unsafe_allow_html=True)
+#     st.markdown('<div class="block-title"><span class="dot">📂</span> Filtros</div>', unsafe_allow_html=True)
+
+#     _devs_dash = sorted(df["developer"].dropna().unique())
+#     _areas_col = "cf10209" if "cf10209" in df.columns else None
+#     _areas_dash = sorted(df[_areas_col].dropna().unique()) if _areas_col else []
+
+#     dash_dev = st.multiselect("Developer", _devs_dash, default=_devs_dash[:3] if len(_devs_dash)>3 else _devs_dash, key="dash_dev")
+#     dash_area = st.multiselect("Área", _areas_dash, default=_areas_dash, key="dash_area") if _areas_col else []
+
+#     st.markdown('</div>', unsafe_allow_html=True)
+
+# with center_col:
+#     st.markdown('<div class="center-card">', unsafe_allow_html=True)
+#     st.markdown('<div class="block-title"><span class="dot">🗂️</span> Tareas planificadas por desarrollador</div>', unsafe_allow_html=True)
+
+#     # --- Subset para el tablero (no afecta tu filtrado principal) ---
+#     _mask = df["developer"].isin(dash_dev)
+#     if _areas_col and dash_area:
+#         _mask &= df[_areas_col].isin(dash_area)
+
+#     tablero_df = (
+#         df[_mask & (df["type"] != "reunion")]
+#         .copy()
+#         .assign(_Estado=lambda d: pd.to_datetime(d["end"]) <= pd.to_datetime(d["due_date"]))
+#     )
+
+#     # Tabla resumida y prolija (primeras 6 filas, ordenadas por vencimiento)
+#     mini_cols = ["developer", "epic_name", "due_date", "_Estado", "vencida"]
+#     mini_cols = [c for c in mini_cols if c in tablero_df.columns]
+#     st.markdown("""
+#     <style>
+#     .table-scroll{
+#     max-height: 420px;        /* ajustá a gusto */
+#     overflow-y: auto;
+#     border: 1px solid #eef2f7;
+#     border-radius: 10px;
+#     }
+
+#     /* Encabezado fijo para la tabla renderizada con to_html */
+#     .table-scroll table thead th{
+#     position: sticky;
+#     top: 0;
+#     z-index: 1;
+#     }
+#     </style>
+#     """, unsafe_allow_html=True)
+#     tabla_compacta = (
+#         tablero_df.sort_values("due_date", na_position="last")[mini_cols]
+#         .rename(columns={
+#             "developer":"Desarrollador",
+#             "epic_name":"Proyecto",
+#             "due_date":"Vencimiento",
+#             "_Estado":"Estado"
+#         })
+        
+#     )
+
+#     # Render con “pills” de estado
+#     def _estado_pill(ok, vencida):
+#         if pd.isna(ok):
+#             return '<span class="status-pill status-warn"><span class="dot-s"></span> Pendiente</span>'
+#         if not ok or bool(vencida):
+#             return '<span class="status-pill status-bad"><span class="dot-s"></span> Pendiente</span>'
+#         return '<span class="status-pill status-ok"><span class="dot-s"></span> En curso</span>'
+
+#     if not tabla_compacta.empty:
+#         _t = tabla_compacta.copy()
+#         _t["Vencimiento"] = pd.to_datetime(_t["Vencimiento"]).dt.strftime("%d-%b-%y")
+#         _t["Estado"] = [
+#             _estado_pill(ok=row.get("Estado"), vencida=row.get("vencida", False))
+#             for _, row in _t.iterrows()
+#         ]
+#         if "vencida" in _t.columns:
+#             _t = _t.drop(columns=["vencida"])
+
+#         html_tabla = _t.to_html(escape=False, index=False)
+#         # ⬇️ Envolver en el contenedor con scroll
+#         st.markdown(f'<div class="table-scroll">{html_tabla}</div>', unsafe_allow_html=True)
+#     else:
+#         st.info("No hay tareas con los filtros seleccionados.")
+
+#     # --- Fila inferior: barras + pie (cards iguales + tamaños fijos) ---
+#     st.markdown("""
+#     <style>
+#     .chart-card{
+#     background:#ffffff; border:1px solid #eef2f7; border-radius:14px; padding:12px 12px 8px;
+#     }
+#     .chart-title{ display:flex; align-items:center; gap:8px; font-weight:700; color:#0f172a; margin:4px 0 8px; }
+#     .chart-title .dot{ width:18px; height:18px; border-radius:6px; background:#eaf2fd; display:inline-flex;
+#                     align-items:center; justify-content:center; color:#1976d2; }
+#     </style>
+#     """, unsafe_allow_html=True)
+
+#     c_bar, c_pie = st.columns([1.6, 1])
+
+#     with c_bar:
+#         st.markdown('<div class="chart-card">', unsafe_allow_html=True)
+#         st.markdown('<div class="chart-title"><span class="dot">📊</span> Horas por Developer</div>', unsafe_allow_html=True)
+
+#         _bars = (
+#             tablero_df.groupby("developer")["duration_hours"]
+#             .sum()
+#             .sort_values(ascending=True)  # asc para barh (queden ordenados)
+            
+#         )
+
+#         if not _bars.empty:
+#             # ---- Matplotlib horizontal, alto fijo, sin bordes ruidosos ----
+#             fig, ax = plt.subplots(figsize=(6.0, 2.8), dpi=120)
+#             ax.barh(_bars.index, _bars.values)
+#             ax.set_xlabel("Horas", fontsize=9)
+#             ax.set_ylabel("")
+#             ax.tick_params(axis="both", labelsize=8)
+#             # Quitar spines fuertes
+#             for s in ["top", "right"]:
+#                 ax.spines[s].set_visible(False)
+#             plt.tight_layout()
+#             st.pyplot(fig, use_container_width=True)
+#         else:
+#             st.caption("Sin datos para graficar.")
+#         st.markdown('</div>', unsafe_allow_html=True)
+
+#     with c_pie:
+#         st.markdown('<div class="chart-card">', unsafe_allow_html=True)
+#         st.markdown('<div class="chart-title"><span class="dot">🧩</span> Tareas con/sin épica</div>', unsafe_allow_html=True)
+
+#         _counts = tablero_df.assign(_has=lambda d: d["has_epic"].fillna(False))["_has"].value_counts()
+#         tot = int(_counts.sum())
+#         con = int(_counts.get(True, 0))
+#         sin = int(_counts.get(False, 0))
+#         pct = (con / tot * 100) if tot else 0
+
+#         # Subtítulo estilo “65%”
+#         st.markdown(f"<div style='font-size:22px; font-weight:700; color:#0f172a; margin:-2px 0 4px;'>Con épica {pct:.0f}%</div>", unsafe_allow_html=True)
+
+#         if tot > 0:
+#             # ---- Donut pequeño y centrado, alto fijo ----
+#             fig, ax = plt.subplots(figsize=(4.2, 2.8), dpi=120)
+#             ax.pie([con, sin],
+#                 labels=["Con épica", "Sin épica"],
+#                 autopct="%1.0f%%",
+#                 startangle=90,
+#                 textprops={"fontsize":8})
+#             # Donut
+#             centre = plt.Circle((0, 0), 0.55, fc="white")
+#             fig.gca().add_artist(centre)
+#             ax.axis("equal")
+#             plt.tight_layout()
+#             st.pyplot(fig, use_container_width=True)
+#         else:
+#             st.caption("Sin datos para graficar.")
+    
+
+#     st.markdown('</div>', unsafe_allow_html=True)  # center-card
+# st.markdown('</div>', unsafe_allow_html=True)      # panel-grid
+# st.markdown('</div>', unsafe_allow_html=True)      # dashboard-wrap
+# # ===================== FIN DASHBOARD SUPERIOR =====================
+
+
+# ===================== DASHBOARD SUPERIOR (optimizado) =====================
+import pandas as pd
+import matplotlib.pyplot as plt
+import streamlit as st
+
+st.set_page_config(layout="wide")
+
+# ---------- ESTILOS ----------
+st.markdown("""
+<style>
+/* Ajuste suave del ancho máximo de la página */
+div.block-container{max-width: 1400px; padding-top: 12px;}
+
+/* Tarjeta base reutilizable */
+.card{
+  background:#fff; border:1px solid #eef2f7; border-radius:14px; 
+  box-shadow:0 6px 20px rgba(0,0,0,.05); padding:16px 18px; 
+  isolation:isolate; /* crea contexto para z-index y evita solapamientos */
+  margin-bottom:16px;
+}
+
+/* KPIs */
+.kpi-card{ display:flex; align-items:center; gap:14px; min-height:86px; }
+.kpi-ico{ font-size:22px; background:#eaf2fd; color:#1976d2; width:44px; height:44px; border-radius:12px;
+          display:flex; align-items:center; justify-content:center; flex:0 0 44px; }
+.kpi-text h3{ margin:0; font-size:22px; line-height:1.1; font-weight:700; color:#0f172a; }
+.kpi-text p{ margin:0; font-size:13px; color:#64748b; }
+
+/* Títulos de bloque */
+.block-title{ display:flex; align-items:center; gap:8px; font-weight:700; color:#0f172a; margin-bottom:10px; }
+.block-title .dot{ width:18px; height:18px; border-radius:6px; background:#eaf2fd; display:inline-flex;
+                   align-items:center; justify-content:center; color:#1976d2; }
+
+/* Tabla compacta */
+.table-wrap{
+  max-height: min(48vh, 520px);
+  overflow:auto;
+  border:1px solid #eef2f7;
+  border-radius:10px;
+}
+.table-wrap table{ width:100%; border-collapse:separate; border-spacing:0; font-size:13px; }
+.table-wrap thead th{ 
+  position:sticky; top:0; z-index:2;
+  background:#f8fafc !important; color:#334155 !important; font-size:12px; 
+  border-bottom:1px solid #e2e8f0;
+}
+
+/* Pills estado */
+.status-pill{ display:inline-flex; align-items:center; gap:6px; padding:2px 8px; border-radius:999px;
+              font-size:12px; border:1px solid #e2e8f0; white-space:nowrap; }
+.status-ok{ background:#ecfdf5; color:#047857; border-color:#a7f3d0; }
+.status-warn{ background:#fff7ed; color:#c2410c; border-color:#fed7aa; }
+.status-bad{ background:#fef2f2; color:#b91c1c; border-color:#fecaca; }
+.dot-s{ width:8px; height:8px; border-radius:999px; background:currentColor; display:inline-block; }
+
+/* Charts */
+.chart-title{ display:flex; align-items:center; gap:8px; font-weight:700; color:#0f172a; margin:4px 0 12px; }
+.chart-title .dot{ width:18px; height:18px; border-radius:6px; background:#eaf2fd; display:inline-flex;
+                   align-items:center; justify-content:center; color:#1976d2; }
+
+/* Responsive */
+@media (max-width: 1100px){
+  .hide-on-narrow{ display:none; }
+}
+</style>
+""", unsafe_allow_html=True)
+
+# ---------- MÉTRICAS (usa tus datos/constantes si existen) ----------
+_hoy = pd.Timestamp.today().normalize()
+DEFAULT_END = pd.to_datetime(DEFAULT_END_DATE, errors="coerce") if 'DEFAULT_END_DATE' in globals() else _hoy
+_kpi_df = df[(df["type"] != "reunion") & (df["due_date"] < DEFAULT_END)]
+horas_vencidas_top = float(_kpi_df["duration_hours"].sum()) if not _kpi_df.empty else 0.0
+
+proyectos_activos = int(
+    df.loc[df["has_epic"] == True, "epic_name"]
+      .replace("— Sin épica —", pd.NA)
+      .dropna()
+      .nunique()
+)
+developers_totales = int(df["developer"].dropna().nunique())
+
+# ---------- ENCABEZADO + KPIs ----------
+with st.container():
+    st.markdown('<div class="card">', unsafe_allow_html=True)
+    st.markdown("### Planificación de Desarrolladores")
+    st.caption("UPDATE HASTA EL 21/8 19.30")
+    st.caption("Visualización de carga, progreso y vencimientos de proyectos")
+
+    k1, k2, k3 = st.columns(3)
+    with k1:
+        st.markdown(f"""
+        <div class="kpi-card">
+          <div class="kpi-ico">⏱️</div>
+          <div class="kpi-text">
+            <h3>{horas_vencidas_top:.0f} h vencidas</h3>
+            <p>Hasta el fin del rango</p>
+          </div>
+        </div>""", unsafe_allow_html=True)
+    with k2:
+        st.markdown(f"""
+        <div class="kpi-card">
+          <div class="kpi-ico">📦</div>
+          <div class="kpi-text">
+            <h3>{proyectos_activos}</h3>
+            <p>Proyectos activos</p>
+          </div>
+        </div>""", unsafe_allow_html=True)
+    with k3:
+        st.markdown(f"""
+        <div class="kpi-card">
+          <div class="kpi-ico">👥</div>
+          <div class="kpi-text">
+            <h3>{developers_totales}</h3>
+            <p>Developers</p>
+          </div>
+        </div>""", unsafe_allow_html=True)
+    st.markdown('</div>', unsafe_allow_html=True)
+
+# ---------- GRID PRINCIPAL (filtros + tabla/charts) ----------
+left_col, center_col = st.columns([0.9, 2.1])  # mejor balance de espacio
+
+# ---- FILTROS (izquierda)
+with left_col:
+    st.markdown('<div class="card">', unsafe_allow_html=True)
+    st.markdown('<div class="block-title"><span class="dot">📂</span> Filtros</div>', unsafe_allow_html=True)
+
+    _devs_dash = sorted(df["developer"].dropna().unique())
+    _areas_col = "cf10209" if "cf10209" in df.columns else None
+    _areas_dash = sorted(df[_areas_col].dropna().unique()) if _areas_col else []
+
+    dash_dev = st.multiselect("Developer", _devs_dash,
+                              default=_devs_dash[:3] if len(_devs_dash)>3 else _devs_dash,
+                              key="dash_dev")
+    dash_area = st.multiselect("Área", _areas_dash, default=_areas_dash, key="dash_area") if _areas_col else []
+
+    st.markdown('</div>', unsafe_allow_html=True)
+
+# ---- TABLA + CHARTS (centro)
+with center_col:
+    st.markdown('<div class="card">', unsafe_allow_html=True)
+    st.markdown('<div class="block-title"><span class="dot">🗂️</span> Tareas planificadas por desarrollador</div>', unsafe_allow_html=True)
+
+    # Subset tablero (no afecta filtros globales)
+    _mask = df["developer"].isin(dash_dev)
+    if _areas_col and dash_area:
+        _mask &= df[_areas_col].isin(dash_area)
+    tablero_df = (
+        df[_mask & (df["type"] != "reunion")].copy()
+        .assign(_Estado=lambda d: pd.to_datetime(d["end"]) <= pd.to_datetime(d["due_date"]))
+    )
+    test = tablero_df.copy()
+
+    _issue_key_candidates = [c for c in ["issue_key", "key", "issueId", "issue_id", "id"] if c in tablero_df.columns]
+    if _issue_key_candidates:
+        _key = _issue_key_candidates[0]
+        # Elegimos la versión más “reciente” por issue (actualizada más tarde; si empata, el vencimiento más cercano)
+        sort_cols, ascending = [], []
+        for col, asc in [("last_updated_at", False), ("update_time", False), ("due_date", True)]:
+            if col in tablero_df.columns:
+                sort_cols.append(col); ascending.append(asc)
+        if sort_cols:
+            tablero_df = tablero_df.sort_values(sort_cols, ascending=ascending, na_position="last")
+        tablero_df = tablero_df.drop_duplicates(subset=[_key], keep="first")
+    else:
+        # Fallback conservador: 1 fila por combinación estable (evita colapsar issues distintos con mismo título)
+        subset_cols = [c for c in ["developer", "summary", "epic_name", "due_date"] if c in tablero_df.columns]
+        tablero_df = (
+            tablero_df.sort_values(["due_date"] if "due_date" in tablero_df.columns else [], na_position="last")
+                    .drop_duplicates(subset=subset_cols, keep="first"))
+
+    # Tabla compacta
+    mini_cols = [c for c in ["developer","summary","epic_name","due_date","_Estado","vencida"] if c in tablero_df.columns]
+    tabla_compacta = (
+        tablero_df.sort_values("due_date", na_position="last")[mini_cols]
+          .rename(columns={"developer":"Desarrollador", "summary": "Resumen","epic_name":"Proyecto","due_date":"Vencimiento","_Estado":"Estado"})
+    )
+
+    def _estado_pill(ok, vencida):
+        if pd.isna(ok):
+            return '<span class="status-pill status-warn"><span class="dot-s"></span> Pendiente</span>'
+        if (not bool(ok)) or bool(vencida):
+            return '<span class="status-pill status-bad"><span class="dot-s"></span> Pendiente</span>'
+        return '<span class="status-pill status-ok"><span class="dot-s"></span> En curso</span>'
+
+    if not tabla_compacta.empty:
+        _t = tabla_compacta.copy()
+        _t["Vencimiento"] = pd.to_datetime(_t["Vencimiento"]).dt.strftime("%d-%b-%y")
+        _t["Estado"] = [_estado_pill(ok=row.get("Estado"), vencida=row.get("vencida", False))
+                        for _, row in _t.iterrows()]
+        if "vencida" in _t.columns:
+            _t = _t.drop(columns=["vencida"])
+        html_tabla = _t.to_html(escape=False, index=False)
+        st.markdown(f'<div class="table-wrap">{html_tabla}</div>', unsafe_allow_html=True)
+    else:
+        st.info("No hay tareas con los filtros seleccionados.")
+
+    # CHARTS fila inferior
+    c_bar, c_pie = st.columns([1.6, 1])
+    with c_bar:
+        st.markdown('<div class="block-title chart-title"><span class="dot">📊</span> Horas por Developer</div>', unsafe_allow_html=True)
+        
+        
+        _bars = (
+            test.groupby("developer")["duration_hours"]
+            .sum()
+            .sort_values(ascending=True)
+        )
+        if not _bars.empty:
+            fig, ax = plt.subplots(figsize=(7.0, 3.2), dpi=120)
+            ax.barh(_bars.index, _bars.values)
+            ax.set_xlabel("Horas", fontsize=9); ax.set_ylabel("")
+            ax.tick_params(axis="both", labelsize=9)
+            for s in ["top","right"]: ax.spines[s].set_visible(False)
+            plt.tight_layout()
+            st.pyplot(fig, use_container_width=True)
+        else:
+            st.caption("Sin datos para graficar.")
+
+    with c_pie:
+        st.markdown('<div class="block-title chart-title"><span class="dot">🧩</span> Tareas con/sin épica</div>', unsafe_allow_html=True)
+
+        # --- Ventana temporal basada en 'end' ---
+        end_s = pd.to_datetime(tablero_df["end"], errors="coerce")
+        cutoff_date = pd.to_datetime(DEFAULT_END).date()  # usa solo la fecha de DEFAULT_END
+        window_df = tablero_df[end_s.notna() & (end_s.dt.date <= cutoff_date)].copy()
+
+        # Donut (solo hasta DEFAULT_END por 'end')
+        _counts = window_df["has_epic"].fillna(False).value_counts()
+        tot = int(_counts.sum()); con = int(_counts.get(True, 0)); sin = int(_counts.get(False, 0))
+        pct = (con / tot * 100) if tot else 0
+        st.markdown(
+            f"<div style='font-size:22px;font-weight:700;color:#0f172a;margin:-2px 0 8px;'>Con épica {pct:.0f}%</div>",
+            unsafe_allow_html=True
+        )
+
+        if tot > 0:
+            fig, ax = plt.subplots(figsize=(4.6, 3.2), dpi=120)
+            ax.pie([con, sin], labels=["Con épica","Sin épica"], autopct="%1.0f%%", startangle=90,
+                textprops={"fontsize":9})
+            centre = plt.Circle((0, 0), 0.55, fc="white"); fig.gca().add_artist(centre)
+            ax.axis("equal"); plt.tight_layout()
+            st.pyplot(fig, use_container_width=True)
+        else:
+            st.caption("Sin datos para graficar (hasta la fecha límite).")
+
+    st.markdown('</div>', unsafe_allow_html=True)
+# ===================== FIN DASHBOARD SUPERIOR (optimizado) =====================
+
+
