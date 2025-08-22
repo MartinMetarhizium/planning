@@ -11,16 +11,16 @@ from streamlit_javascript import st_javascript
 def setup_navigation():
     # (1) Streamlit nuevo: st.Page / st.navigation (>= ~1.37)
     if hasattr(st, "Page") and hasattr(st, "navigation"):
-        alan   = st.Page("pages/alan.py",   title="Alan",   icon="👨‍💻")
-        martin = st.Page("pages/martin.py", title="Martin", icon="🧑‍💻")
+        alan   = st.Page("pages/alan.py",   title="Alan")
+        martin = st.Page("pages/martin.py", title="Martin")
         nav = st.navigation([alan, martin])
         nav.run()
         return True
 
     # (2) Streamlit intermedio: st.page_link (>= ~1.25)
     if hasattr(st, "page_link"):
-        st.page_link("pages/alan.py",   label="Alan",   icon="👨‍💻")
-        st.page_link("pages/martin.py", label="Martin", icon="🧑‍💻")
+        st.page_link("pages/alan.py",   label="Alan")
+        st.page_link("pages/martin.py", label="Martin")
         st.caption("Si no ves las páginas, verifica que el Main file sea planning/app.py y la carpeta se llame exactamente pages/")
         return True
 
