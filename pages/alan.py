@@ -23,6 +23,112 @@ if not theme:
     theme = 'light'
 # ---------- ESTILOS ----------
 st.markdown("""
+    <style>
+    body, .stApp {
+        background-color: white !important;
+        color: black !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<style>
+/* ===== Títulos de filtros en dark mode (Developer, Área, Épica, Hasta fecha) ===== */
+@media (prefers-color-scheme: dark){
+
+  /* 1) Forzar color y opacidad del contenedor de label */
+  .stApp [data-testid="stWidgetLabel"]{
+    color:#0f172a !important;
+    opacity:1 !important;
+  }
+
+  /* 2) Forzar color/opacity de los nodos internos habituales */
+  .stApp [data-testid="stWidgetLabel"] > div > p,
+  .stApp [data-testid="stWidgetLabel"] > label,
+  .stApp [data-testid="stWidgetLabel"] p,
+  .stApp [data-testid="stWidgetLabel"] label{
+    color:#0f172a !important;
+    opacity:1 !important;
+  }
+
+  /* 3) Por si Streamlit usa <label for="..."> suelto */
+  .stApp label[for^=""]{
+    color:#0f172a !important;
+    opacity:1 !important;
+  }
+}
+</style>
+""", unsafe_allow_html=True)
+st.markdown("""
+<style>
+/* ====== 1) Forzar tema claro SIEMPRE, aunque el browser esté en dark ====== */
+:root { color-scheme: light !important; }
+html, body, .stApp { background:#ffffff !important; }
+/* ===== Fuente global Montserrat ===== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+html, body, .stApp, div, span, label, section, p, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif !important;
+}
+/* ====== Forzar light mode ====== */
+:root { color-scheme: light !important; }
+html, body, .stApp { background: #ffffff !important; color: #111 !important; }
+
+/* ====== Multiselect tags (chips) ======
+   Reemplaza el rojo por azul en las etiquetas seleccionadas */
+.stApp [data-baseweb="tag"] {
+    background-color: #1976d2 !important;   /* azul */
+    border-color: #1976d2 !important;
+    color: #fff !important;
+}
+.stApp [data-baseweb="tag"] span { color: #fff !important; }
+.stApp [data-baseweb="tag"] svg { fill: #fff !important; }
+.stApp [data-baseweb="tag"]:hover {
+    background-color: #1565c0 !important;   /* hover azul más oscuro */
+    border-color: #1565c0 !important;
+}
+
+/* Borde/focus del contenedor del select a azul */
+.stApp div[data-baseweb="select"] div[role="combobox"] {
+    border-color: #1976d2 !important;
+    box-shadow: 0 0 0 1px #1976d2 !important;
+}
+
+/* Radios / checkboxes (el “tick” rojo por defecto) */
+.stApp input[type="radio"],
+.stApp input[type="checkbox"] {
+    accent-color: #1976d2 !important;
+}
+
+/* Botones primarios en azul */
+.stApp .stButton button {
+    background-color: #1976d2 !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 6px;
+}
+.stApp .stButton button:hover { background-color: #1565c0 !important; }
+
+/* Tus badges personalizados a azul (si los usás) */
+.badge, .badge2525 { background-color: #1976d2 !important; }
+</style>
+""", unsafe_allow_html=True)
+st.markdown("""
+<style>
+/* === Radios y checkboxes en azul === */
+.stApp input[type="radio"],
+.stApp input[type="checkbox"] {
+    accent-color: #1976d2 !important;   /* azul */
+}
+
+/* También cambiar el circulito rojo del radio seleccionado */
+.stApp div[role="radiogroup"] > label > div:first-child {
+    background-color: #1976d2 !important;   /* azul relleno */
+    border-color: #1976d2 !important;
+}
+</style>
+""", unsafe_allow_html=True)
+st.markdown("""
 <style>
 div.block-container{max-width:1400px; padding-top:12px;}
 
