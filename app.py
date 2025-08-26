@@ -29,5 +29,6 @@ def setup_navigation():
     return False
 
 # Llama esto al inicio de app.py
+
 setup_navigation()
 
