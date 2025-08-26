@@ -2,10 +2,10 @@ import requests
 PROJECT_MAP = {
     "Alan Mori - Carestino": {
         "Worpik": "2025-08-14",
-        "Clientes": "2025-07-30",
+        "Clientes": "2025-10-30",
         "Descripciones automáticas / plantillas Interior templates": "2026-01-01",
-        "Training": "2025-11-01",
-        "API Whatsapp": "2025-10-01"
+        "Training": "2026-02-01",
+        "API Whatsapp": "2026-01-01"
     },
     "Franco Lorenzo": {
         "Rediseño Portal Gestión": "2025-07-30",
@@ -17,7 +17,7 @@ PROJECT_MAP = {
     },
     "Miguel Armentano": {
         "Facturación USA": "2025-08-01",
-        "Expenses - SAP": "2025-10-01",
+        "Expenses - SAP": "2025-10-30",
     },
     "Luis Uran": {
         "Actualizar API Reseller": "2025-12-01",
@@ -30,7 +30,7 @@ PROJECT_MAP = {
     "Nicolas Pardo": {
         "Cupones": "2025-07-01",
         "Integracion dentro del modulo marketplace (stock y precio)": "2025-10-01",
-        "Integracion pasarelas de cobros: Pagoplux / paypal / Dominicana": "2026-01-01",
+        "Integracion pasarelas de cobros: Pagoplux / paypal / Dominicana": "2026-02-01",
         "Migracion a red privada": "2025-07-01"
     },
     "Facundo Capua": {},

@@ -256,6 +256,17 @@ st.markdown("""
     color:#0f172a !important;
   }
 }
+            
+.table-wrap thead th{
+  text-align:center !important;
+  vertical-align:middle !important;
+}
+
+/* si alguna vez hay varias filas de header, centramos solo la primera */
+.table-wrap thead tr:first-child th{
+  text-align:center !important;
+  vertical-align:middle !important;
+}
 </style>
 """, unsafe_allow_html=True)
 
@@ -400,10 +411,10 @@ tabla_compacta = (
 
 def _estado_pill(ok, vencida):
     if pd.isna(ok):
-        return '<span class="status-pill status-warn"><span class="dot-s"></span> Pendiente</span>'
+        return '<span class="status-pill status-warn"><span class="dot-s"></span> Se entrega vencido</span>'
     if (not bool(ok)) or bool(vencida):
-        return '<span class="status-pill status-bad"><span class="dot-s"></span> Pendiente</span>'
-    return '<span class="status-pill status-ok"><span class="dot-s"></span> En curso</span>'
+        return '<span class="status-pill status-bad"><span class="dot-s"></span> Se entrega vencido</span>'
+    return '<span class="status-pill status-ok"><span class="dot-s"></span> En plazo</span>'
 
 if not tabla_compacta.empty:
     _t = tabla_compacta.copy()
