@@ -279,11 +279,12 @@ DEFAULT_END = pd.to_datetime(DEFAULT_END_DATE, errors="coerce") if 'DEFAULT_END_
 with st.container():
     st.markdown('<span class="panel-sentinel"></span>', unsafe_allow_html=True)
     st.markdown("### Planificación de Desarrolladores")
-    st.caption("UPDATE HASTA EL 21/8 19.30")
+
     st.caption("Visualización de carga, progreso y vencimientos de proyectos")
 
-    k1, k2, k3 = st.columns(3)
-    k1_box = k1.empty()
+    k0, k1, k2, k3 = st.columns(4)  # ← ahora 4 columnas
+    k0_box = k0.empty()             # ← NUEVA: horas totales
+    k1_box = k1.empty()             # horas vencidas (tu KPI actual)
     k2_box = k2.empty()
     k3_box = k3.empty()
 
@@ -305,7 +306,7 @@ with st.container():
     epic_opts = ["(Todas)"] + _epic_options
 
     # Layout en columnas
-    c1, c2, c3, c4 = st.columns([1.2, 1.2, 1.6, 1.0])
+    c1, c2, c3, c4, c5 = st.columns([1.2, 1.2, 1.6, 1.0, 1.1])
 
     with c1:
         dash_dev = st.multiselect(
@@ -336,6 +337,11 @@ with st.container():
                            if 'DEFAULT_END_DATE' in globals() else pd.Timestamp.today().date())
         cutoff_date = st.date_input("Hasta fecha", value=_cutoff_default, key="dash_cutoff")
 
+
+    with c5:
+      entrega_opts = ["(Todas)", "En plazo", "Se entrega vencido"]
+      dash_entrega = st.multiselect("Entrega", entrega_opts, default=["(Todas)"], key="dash_entrega")
+
 # ---------- APLICAR FILTROS GLOBALES ----------
 # Resolver selección efectiva según sentinel "(Todos)/(Todas)"
 _sel_dev  = _devs_dash if ("(Todos)" in dash_dev or not dash_dev) else [x for x in dash_dev if x != "(Todos)"]
@@ -351,10 +357,31 @@ _mask_base &= df["epic_name"].fillna("— Sin épica —").isin(_sel_epic)
 
 df_base = df[_mask_base].copy()
 
+_end_dt = pd.to_datetime(df_base["end"], errors="coerce")
+_due_dt = pd.to_datetime(df_base["due_date"], errors="coerce")
+_ok_series = _end_dt <= _due_dt                      # False si falta end/due_date
+_venc_series = df_base["vencida"].fillna(False) if "vencida" in df_base.columns else False
+
+df_base["entrega_status"] = "En plazo"
+df_base.loc[(~_ok_series) | (_venc_series), "entrega_status"] = "Se entrega vencido"
+
+# === Aplicar filtro "Entrega" si corresponde ===
+if "(Todas)" not in dash_entrega and len(dash_entrega) > 0:
+    df_base = df_base[df_base["entrega_status"].isin(dash_entrega)]
+
 # ---------- KPIs (respetan ÉPICA; 'vencidas' usa FECHA seleccionada) ----------
 cutoff_ts = pd.to_datetime(cutoff_date)
 _kpi_df = df_base[(df_base["type"] != "reunion") & (pd.to_datetime(df_base["due_date"]) < cutoff_ts)]
 horas_vencidas_top = float(_kpi_df["duration_hours"].sum()) if not _kpi_df.empty else 0.0
+
+
+
+_kpi_df_all = df_base[
+    (df_base["type"] != "reunion") 
+    # & (pd.to_datetime(df_base["due_date"]) <= cutoff_ts)
+]
+horas_totales_top = float(_kpi_df_all["duration_hours"].sum()) if not _kpi_df_all.empty else 0.0
+
 
 proyectos_activos = int(
     df_base.loc[df_base["has_epic"] == True, "epic_name"]
@@ -363,6 +390,16 @@ proyectos_activos = int(
 developers_totales = int(df_base["developer"].dropna().nunique())
 
 # Render KPIs (mantenemos tu lógica actual con los placeholders k1_box/k2_box/k3_box)
+k0_box.markdown(f"""
+<div class="kpi-card">
+  <div class="kpi-ico">⏱️</div>
+  <div class="kpi-text">
+    <h3>{horas_totales_top:.0f} h totales</h3>
+    <p>Hasta el {cutoff_date.strftime('%d-%b-%y')}</p>
+  </div>
+</div>""", unsafe_allow_html=True)
+
+
 k1_box.markdown(f"""
 <div class="kpi-card">
   <div class="kpi-ico">⏱️</div>
