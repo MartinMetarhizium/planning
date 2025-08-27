@@ -6,7 +6,7 @@
       {
         "key": "IT-20946",
         "story_points": 24.0,
-        "status": "BACKLOG"
+        "status": "STG TESTING"
       },
       {
         "key": "IT-20280",
@@ -32,7 +32,7 @@
       {
         "key": "IT-20728",
         "story_points": 8.0,
-        "status": "BACKLOG"
+        "status": "ON PAUSE"
       },
       {
         "key": "IT-20367",
@@ -47,7 +47,7 @@
       {
         "key": "IT-20285",
         "story_points": 20.0,
-        "status": "ON PAUSE"
+        "status": "FINISH"
       }
     ]
   },
@@ -58,7 +58,7 @@
       {
         "key": "IT-20343",
         "story_points": 100.0,
-        "status": "REDEFINED"
+        "status": "PENDING REVIEW"
       }
     ]
   },
@@ -68,13 +68,13 @@
     "tasks": [
       {
         "key": "IT-21020",
-        "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "story_points": 6.0,
+        "status": "BACKLOG"
       },
       {
         "key": "IT-20821",
         "story_points": 21.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-20427",
@@ -146,27 +146,27 @@
       {
         "key": "IT-20542",
         "story_points": 20.0,
-        "status": "BACKLOG"
+        "status": "En progreso"
       },
       {
         "key": "IT-20541",
         "story_points": 20.0,
-        "status": "BACKLOG"
+        "status": "PENDING REVIEW"
       },
       {
         "key": "IT-20540",
         "story_points": 22.0,
-        "status": "En progreso"
+        "status": "FINISH"
       },
       {
         "key": "IT-20539",
         "story_points": 22.0,
-        "status": "PENDING REVIEW"
+        "status": "FINISH"
       },
       {
         "key": "IT-20538",
         "story_points": 20.0,
-        "status": "TO DEPLOY QA"
+        "status": "FINISH"
       },
       {
         "key": "IT-20537",
@@ -343,7 +343,7 @@
       {
         "key": "IT-19694",
         "story_points": 8.0,
-        "status": "TO DEPLOY QA"
+        "status": "FINISH"
       },
       {
         "key": "IT-19566",
@@ -444,18 +444,18 @@
     "tasks": [
       {
         "key": "IT-20944",
-        "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "story_points": 5.0,
+        "status": "BACKLOG"
       },
       {
         "key": "IT-20942",
-        "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "story_points": 8.0,
+        "status": "BACKLOG"
       },
       {
         "key": "IT-20664",
         "story_points": 2.0,
-        "status": "ON HOLD"
+        "status": "BACKLOG"
       },
       {
         "key": "IT-20448",
@@ -547,7 +547,7 @@
       {
         "key": "IT-19532",
         "story_points": 20.0,
-        "status": "BACKLOG"
+        "status": "REVIEW ON HOLD"
       },
       {
         "key": "IT-19210",
@@ -573,7 +573,7 @@
       {
         "key": "IT-19968",
         "story_points": 15.0,
-        "status": "REVIEW ON HOLD"
+        "status": "BACKLOG"
       },
       {
         "key": "IT-19953",
@@ -629,7 +629,7 @@
       {
         "key": "IT-18889",
         "story_points": 10.0,
-        "status": "PENDING REVIEW"
+        "status": "REVIEW ON HOLD"
       }
     ]
   },
@@ -757,7 +757,7 @@
       {
         "key": "IT-20034",
         "story_points": 4.0,
-        "status": "CODE REVIEW"
+        "status": "FINISH"
       },
       {
         "key": "IT-20033",
@@ -1333,7 +1333,7 @@
       {
         "key": "IT-20471",
         "story_points": 10.0,
-        "status": "CODE REVIEW"
+        "status": "REVIEW ON HOLD"
       },
       {
         "key": "IT-20434",
@@ -1449,7 +1449,7 @@
       {
         "key": "IT-20212",
         "story_points": 6.0,
-        "status": "BACKLOG"
+        "status": "PENDING REVIEW"
       },
       {
         "key": "IT-19803",
@@ -4454,7 +4454,7 @@
       {
         "key": "IT-16389",
         "story_points": 2.0,
-        "status": "CODE REVIEW"
+        "status": "TO DEPLOY"
       },
       {
         "key": "IT-16126",
@@ -4586,7 +4586,7 @@
       {
         "key": "IT-20218",
         "story_points": 12.0,
-        "status": "TO DEPLOY QA"
+        "status": "FINISH"
       },
       {
         "key": "IT-19988",
@@ -4862,7 +4862,7 @@
       {
         "key": "IT-17547",
         "story_points": 24.0,
-        "status": "BACKLOG"
+        "status": "En progreso"
       },
       {
         "key": "IT-16586",
@@ -5182,9 +5182,24 @@
     "summary": "Worpik",
     "tasks": [
       {
+        "key": "IT-21201",
+        "story_points": 4.0,
+        "status": "En progreso"
+      },
+      {
+        "key": "IT-21183",
+        "story_points": null,
+        "status": "TO DEPLOY"
+      },
+      {
+        "key": "IT-21117",
+        "story_points": 4.0,
+        "status": "FINISH"
+      },
+      {
         "key": "IT-21015",
         "story_points": 4.0,
-        "status": "BACKLOG"
+        "status": "PENDING REVIEW"
       },
       {
         "key": "IT-21013",
@@ -5199,7 +5214,7 @@
       {
         "key": "IT-21008",
         "story_points": 4.0,
-        "status": "BACKLOG"
+        "status": "REVIEW ON HOLD"
       },
       {
         "key": "IT-21006",
@@ -5209,12 +5224,12 @@
       {
         "key": "IT-21004",
         "story_points": 12.0,
-        "status": "En progreso"
+        "status": "FINISH"
       },
       {
         "key": "IT-20878",
         "story_points": 5.0,
-        "status": "PENDING REVIEW"
+        "status": "FINISH"
       },
       {
         "key": "IT-20876",
@@ -5259,7 +5274,7 @@
       {
         "key": "IT-20132",
         "story_points": 16.0,
-        "status": "TO DEPLOY QA"
+        "status": "FINISH"
       },
       {
         "key": "IT-20074",
@@ -8330,6 +8345,11 @@
     "due_date": null,
     "summary": "Marketplace",
     "tasks": [
+      {
+        "key": "IT-21106",
+        "story_points": 2.0,
+        "status": "REDEFINED"
+      },
       {
         "key": "IT-16864",
         "story_points": null,
@@ -15355,7 +15375,7 @@
       {
         "key": "IT-15010",
         "story_points": 24.0,
-        "status": "PENDING REVIEW"
+        "status": "REVIEW ON PAUSE"
       },
       {
         "key": "IT-14956",
