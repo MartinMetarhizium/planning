@@ -23,6 +23,7 @@ def setup_navigation():
         st.page_link("pages/martin.py", label="Martin")
         st.caption("Si no ves las páginas, verifica que el Main file sea planning/app.py y la carpeta se llame exactamente pages/")
         return True
+    
 
     # (3) Muy antiguo: sin APIs de navegación. Confía en el sidebar automático.
     st.info("Navegación por sidebar. Si no aparece, ejecuta como Main: planning/app.py junto a planning/pages/")
