@@ -9,7 +9,7 @@ from constants import MIN_PROJECT_RATIO, DAILY_HOURS, PROJECT_MAP_BT, PROJECT_MA
 from streamlit_javascript import st_javascript
 
 def setup_navigation():
-    # (1) Streamlit nuevo: st.Page / st.navigation (>= ~1.37)
+ 
     if hasattr(st, "Page") and hasattr(st, "navigation"):
         alan   = st.Page("pages/alan.py",   title="Alan")
         martin = st.Page("pages/martin.py", title="Martin")
@@ -17,7 +17,7 @@ def setup_navigation():
         nav.run()
         return True
 
-    # (2) Streamlit intermedio: st.page_link (>= ~1.25)
+    
     if hasattr(st, "page_link"):
         st.page_link("pages/alan.py",   label="Alan")
         st.page_link("pages/martin.py", label="Martin")
