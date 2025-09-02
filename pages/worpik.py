@@ -95,7 +95,7 @@ def _discover_poppler_path() -> str:
 
 POPPLER_PATH = _discover_poppler_path()
 
-API_KEY = "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"
+API_KEY = os.getenv("API_KEY")
 
 # ---------- 3) Parámetros de API (OpenRouter mediante cliente de OpenAI) ----------
 # Guardá tu clave como secreto OPENROUTER_API_KEY en .streamlit/secrets.toml o variable de entorno.

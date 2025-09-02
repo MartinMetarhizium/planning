@@ -8,4 +8,4 @@ pypdf
 python-docx
 pdf2image
 pillow
-pdf2image
+pytesseract
