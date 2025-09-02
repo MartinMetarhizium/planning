@@ -2,3 +2,10 @@ streamlit
 pandas
 matplotlib
 streamlit-javascript
+streamlit>=1.25
+openai>=1.40.0
+pypdf
+python-docx
+pdf2image
+pillow
+pdf2image

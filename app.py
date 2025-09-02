@@ -13,7 +13,8 @@ def setup_navigation():
     if hasattr(st, "Page") and hasattr(st, "navigation"):
         alan   = st.Page("pages/alan.py",   title="Alan")
         martin = st.Page("pages/martin.py", title="Martin")
-        nav = st.navigation([alan, martin])
+        worpik = st.Page("pages/worpik.py", title="Worpik")
+        nav = st.navigation([alan, martin, worpik])
         nav.run()
         return True
 
@@ -21,6 +22,7 @@ def setup_navigation():
     if hasattr(st, "page_link"):
         st.page_link("pages/alan.py",   label="Alan")
         st.page_link("pages/martin.py", label="Martin")
+        st.page_link("pages/worpik.py", label="Worpik")
         st.caption("Si no ves las páginas, verifica que el Main file sea planning/app.py y la carpeta se llame exactamente pages/")
         return True
     
