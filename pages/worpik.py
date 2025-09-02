@@ -15,7 +15,8 @@ from PIL import Image
 import pytesseract
 import platform
 import os
-
+import streamlit as st
+st.write("Keys available:", list(st.secrets.keys()))
 def _configure_tesseract_path():
     """Detecta y configura la ruta de Tesseract en Windows si no está en PATH."""
     if platform.system() == "Windows":
@@ -95,7 +96,7 @@ def _discover_poppler_path() -> str:
 
 POPPLER_PATH = _discover_poppler_path()
 
-API_KEY = st.secrets["API_KEY"]
+API_KEY = st.secrets.get("API_KEY")
 
 # ---------- 3) Parámetros de API (OpenRouter mediante cliente de OpenAI) ----------
 # Guardá tu clave como secreto OPENROUTER_API_KEY en .streamlit/secrets.toml o variable de entorno.
