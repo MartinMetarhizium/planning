@@ -16,59 +16,59 @@ import pytesseract
 import platform
 import os
 import streamlit as st
-st.write("Keys available:", list(st.secrets.keys()))
-def _configure_tesseract_path():
-    """Detecta y configura la ruta de Tesseract en Windows si no está en PATH."""
-    if platform.system() == "Windows":
-        if not os.environ.get("PATH") or "tesseract" not in os.environ.get("PATH", "").lower():
-            possible_paths = [
-                r"C:\Program Files\Tesseract-OCR\tesseract.exe",
-                r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe"
-            ]
-            for p in possible_paths:
-                if os.path.exists(p):
-                    pytesseract.pytesseract.tesseract_cmd = p
-                    break
+# st.write("Keys available:", list(st.secrets.keys()))
+# def _configure_tesseract_path():
+#     """Detecta y configura la ruta de Tesseract en Windows si no está en PATH."""
+#     if platform.system() == "Windows":
+#         if not os.environ.get("PATH") or "tesseract" not in os.environ.get("PATH", "").lower():
+#             possible_paths = [
+#                 r"C:\Program Files\Tesseract-OCR\tesseract.exe",
+#                 r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe"
+#             ]
+#             for p in possible_paths:
+#                 if os.path.exists(p):
+#                     pytesseract.pytesseract.tesseract_cmd = p
+#                     break
 
-# Llamar siempre al inicio
-_configure_tesseract_path()
+# # Llamar siempre al inicio
+# _configure_tesseract_path()
 
-import shutil, platform
-diag_msgs = []
+# import shutil, platform
+# diag_msgs = []
 
-# pdf2image
-try:
-    from pdf2image import convert_from_bytes
-    diag_msgs.append("✅ pdf2image import OK")
-except Exception as e:
-    st.error(f"❌ pdf2image import FAIL: {e}")
+# # pdf2image
+# try:
+#     from pdf2image import convert_from_bytes
+#     diag_msgs.append("✅ pdf2image import OK")
+# except Exception as e:
+#     st.error(f"❌ pdf2image import FAIL: {e}")
 
-# pytesseract + versión + idiomas
-try:
-    import pytesseract as pt
-    ver = pt.get_tesseract_version()
-    langs = []
-    try:
-        langs = pt.get_languages(config="")
-    except Exception:
-        pass
-    diag_msgs.append(f"✅ pytesseract import OK — Tesseract {ver}")
-    if langs:
-        diag_msgs.append(f"ℹ️ Idiomas instalados: {', '.join(langs)}")
-except Exception as e:
-    st.error(f"❌ pytesseract import FAIL: {e}")
+# # pytesseract + versión + idiomas
+# try:
+#     import pytesseract as pt
+#     ver = pt.get_tesseract_version()
+#     langs = []
+#     try:
+#         langs = pt.get_languages(config="")
+#     except Exception:
+#         pass
+#     diag_msgs.append(f"✅ pytesseract import OK — Tesseract {ver}")
+#     if langs:
+#         diag_msgs.append(f"ℹ️ Idiomas instalados: {', '.join(langs)}")
+# except Exception as e:
+#     st.error(f"❌ pytesseract import FAIL: {e}")
 
-# Poppler (pdftoppm) en PATH
-pdftoppm_path = shutil.which("pdftoppm")
-diag_msgs.append(f"{'✅' if pdftoppm_path else '❌'} pdftoppm en PATH: {pdftoppm_path or 'NO ENCONTRADO'}")
+# # Poppler (pdftoppm) en PATH
+# pdftoppm_path = shutil.which("pdftoppm")
+# diag_msgs.append(f"{'✅' if pdftoppm_path else '❌'} pdftoppm en PATH: {pdftoppm_path or 'NO ENCONTRADO'}")
 
-# Tesseract en PATH (solo info; en Windows podés setear tesseract_cmd si no está)
-tesseract_path = shutil.which("tesseract")
-diag_msgs.append(f"{'✅' if tesseract_path else '❌'} tesseract en PATH: {tesseract_path or 'NO ENCONTRADO'}")
+# # Tesseract en PATH (solo info; en Windows podés setear tesseract_cmd si no está)
+# tesseract_path = shutil.which("tesseract")
+# diag_msgs.append(f"{'✅' if tesseract_path else '❌'} tesseract en PATH: {tesseract_path or 'NO ENCONTRADO'}")
 
-st.markdown("**Diagnóstico:**")
-for m in diag_msgs:
-    st.write(m)
+# st.markdown("**Diagnóstico:**")
+# for m in diag_msgs:
+#     st.write(m)
 
 def _discover_poppler_path() -> str:
     if platform.system() != "Windows":
