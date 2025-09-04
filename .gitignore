@@ -10,3 +10,4 @@ acciones.py
 acciones_mkt.py
 /.streamlit/*
 .env
+jira_bt_issues.json
