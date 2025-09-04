@@ -442,6 +442,7 @@ test = tablero_df.copy()
 mini_cols = [c for c in ["developer","summary","epic_name","due_date","_Estado","vencida"] if c in tablero_df.columns]
 tabla_compacta = (
     tablero_df.sort_values("due_date", na_position="last")[mini_cols]
+              .drop_duplicates(subset=["summary"])
               .rename(columns={"developer":"Desarrollador","summary":"Resumen","epic_name":"Proyecto",
                                "due_date":"Vencimiento","_Estado":"Estado"})
 )
@@ -690,6 +691,7 @@ test = tablero_df.copy()
 mini_cols = [c for c in ["developer","summary","epic_name","due_date","_Estado","vencida"] if c in tablero_df.columns]
 tabla_compacta = (
     tablero_df.sort_values("due_date", na_position="last")[mini_cols]
+              .drop_duplicates(subset=["summary"])
               .rename(columns={"developer":"Desarrollador","summary":"Resumen","epic_name":"Proyecto",
                                "due_date":"Vencimiento","_Estado":"Estado"})
 )

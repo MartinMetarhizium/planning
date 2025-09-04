@@ -36,3 +36,7 @@ def setup_navigation():
 # Llama esto al inicio de app.py
 setup_navigation()
 
+
+
+
+# version con una sola fila por tarjeta
