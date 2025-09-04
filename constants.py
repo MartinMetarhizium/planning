@@ -177,6 +177,7 @@ import pytz
 DEFAULT_START_DATE_with_timezone = dt.datetime(2025, 9, 1, 0, 0, 0, tzinfo=pytz.UTC)
 DEFAULT_END_DATE_with_timezone = DEFAULT_START_DATE_with_timezone + dt.timedelta(days=11)
 VALID_STATUSES = {"BACKLOG", "REDEFINED", "RECHAZADO", "IN IMPROVEMENT"}
+VALID_STATUSES_BT = {"Por Hacer"}
 
 
 MIN_PROJECT_RATIO = {
@@ -188,6 +189,25 @@ MIN_PROJECT_RATIO = {
     "Default": 0.1,
     "Facundo Capua":0.1,
     "Nicolas Pardo": 0.1,
+}
+
+MIN_BT_PROJECT_RATIO = {
+    "federicomacias": 0.7,
+    "Martín Horn": 0.5,
+    "Joaquin Fernandez - Carestino": 0.3,
+    "Juan Ignacio Morelis - Carestino": 0.5,
+    "Thiago Cabrera": 0.5,
+    "Default": 0.5,
+
+}
+
+DAILY_BT_HOURS = {
+    "federicomacias": 6,
+    "Martín Horn": 6,
+    "Joaquin Fernandez - Carestino": 6,
+    "Juan Ignacio Morelis - Carestino": 6,
+    "Thiago Cabrera": 3,
+    "Default": 6,
 }
 
 DAILY_HOURS = {
@@ -202,6 +222,15 @@ DAILY_HOURS = {
     "Miguel Armentano": 5,
 }
 
+
+MAIL_BT_MAP = {
+    "federicomacias": "federicomacias@biamex.com",
+    "Martín Horn": "martinhorn@biamex.com",
+    "Joaquin Fernandez - Carestino": "joaquinfernandez@biamex.com",
+    "Juan Ignacio Morelis - Carestino": "juanmorelis@biamex.com",
+    "Thiago Cabrera": "thiagocabrera@biamex.com",
+    
+}
 
 MAIL_MAP = {
     "Luis Uran": "luisuran@biamex.com",

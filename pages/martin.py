@@ -883,66 +883,6 @@ if st.checkbox("🔍 Ver detalle de tareas planificables hasta el final"):
 
 
 
-st.subheader("🧠 Proyectos asignados a analistas de BT")
-st.caption("Resumen de los proyectos en los que trabaja cada analista del equipo de BT, su fecha de vencimiento, si están finalizados y el estado actual.")
-
-
-
-bt_analistas = sorted(PROJECT_MAP_BT.keys())
-selected_analistas = st.multiselect("🔍 Filtrar por analista", bt_analistas, default=bt_analistas)
-
-# Armar tabla con vencimientos
-bt_rows = []
-for analista in selected_analistas:
-    proyectos = PROJECT_MAP_BT.get(analista, {})
-    for nombre_proyecto, info in proyectos.items():
-        # Soportar string (estructura vieja)
-        if isinstance(info, str):
-            venc = datetime.strptime(info, "%Y-%m-%d").date()
-            completado = None
-            estado = "pendiente"
-        else:
-            venc = datetime.strptime(info.get("vencimiento", "2100-01-01"), "%Y-%m-%d").date()
-            completado = info.get("completado")
-            if completado:
-                completado = datetime.strptime(completado, "%Y-%m-%d").date()
-            estado = info.get("estado", "pendiente")
-
-        # Determinar días restantes solo si no está finalizado
-        if estado == "finalizado":
-            dias_restantes = 0
-            semaforo = "✅"
-        else:
-            dias_restantes = (venc - datetime.today().date()).days
-            if dias_restantes < 0:
-                semaforo = "🔴"
-            elif dias_restantes <= 5:
-                semaforo = "🟠"
-            else:
-                semaforo = "🟢"
-
-        bt_rows.append({
-            "Analista": analista,
-            "Proyecto": nombre_proyecto,
-            "Vencimiento": venc,
-            "Días restantes": dias_restantes,
-            "Estado": estado,
-            "Finalizado el": completado.strftime("%Y-%m-%d") if completado else "-",
-            "Semáforo": semaforo
-        })
-
-# Mostrar tabla ordenada por fecha
-if bt_rows:
-    bt_df = pd.DataFrame(bt_rows).sort_values(by=["Analista", "Vencimiento"])
-    st.dataframe(bt_df, use_container_width=True)
-else:
-    st.info("No hay proyectos para los analistas seleccionados.")
-
-
-
-
-
-
 
 
 

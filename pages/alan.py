@@ -502,3 +502,251 @@ else:
             st.caption("Sin datos para graficar (hasta la fecha límite).")
 # ===================== FIN DASHBOARD SUPERIOR (optimizado) =====================
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+st.set_page_config(layout="wide")
+with open("planificacion_bt.json") as f:
+    data_bt = json.load(f)
+df_bt = pd.DataFrame(data_bt)
+
+
+
+# ---------- ENCABEZADO + KPIs (placeholders) ----------
+with st.container():
+    st.markdown('<span class="panel-sentinel"></span>', unsafe_allow_html=True)
+    st.markdown("### Planificación de Analistas")
+
+    st.caption("Visualización de carga, progreso y vencimientos de proyectos")
+
+    k0, k1, k2, k3 = st.columns(4)  # ← ahora 4 columnas
+    k0_box = k0.empty()             # ← NUEVA: horas totales
+    k1_box = k1.empty()             # horas vencidas (tu KPI actual)
+    k2_box = k2.empty()
+    k3_box = k3.empty()
+
+# ---------- GRID PRINCIPAL (filtros + tabla/charts) ----------
+# (quitamos las columnas y mostramos los filtros arriba de la tabla)
+with st.container():
+    st.markdown('<span class="panel-sentinel"></span>', unsafe_allow_html=True)
+    st.markdown('<div class="block-title"><span class="dot">📂</span> Filtros</div>', unsafe_allow_html=True)
+
+    # Opciones ordenadas (case-insensitive)
+    _devs_dash = sorted(df_bt["developer"].dropna().unique(), key=str.casefold)
+    _areas_col = "cf10209" if "cf10209" in df.columns else None
+    _areas_dash = sorted(df_bt[_areas_col].dropna().unique(), key=str.casefold) if _areas_col else []
+    _epic_options = sorted(df_bt["epic_name"].fillna("— Sin épica —").unique(), key=str.casefold)
+
+    # Sentinels para "seleccionar todo"
+    dev_opts  = ["(Todos)"] + _devs_dash
+    area_opts = (["(Todas)"] + _areas_dash) if _areas_col else []
+    epic_opts = ["(Todas)"] + _epic_options
+
+    # Layout en columnas
+    c1, c2, c3, c4, c5 = st.columns([1.2, 1.2, 1.6, 1.0, 1.1])
+
+    with c1:
+        dash_bt = st.multiselect(
+            "Developer",
+            dev_opts,
+            default=["(Todos)"],           # ← todos por defecto
+            key="dash_bt"
+        )
+
+    with c2:
+        dash_area_bt = st.multiselect(
+            "Área",
+            area_opts,
+            default=area_opts[:1] if area_opts else [],  # "(Todas)" si existe
+            key="dash_area_bt"
+        ) if _areas_col else []
+
+    with c3:
+        dash_epic_bt = st.multiselect(
+            "Epic",
+            epic_opts,
+            default=["(Todas)"],
+            key="dash_epic_bt"
+        )
+
+    with c4:
+        _cutoff_default = (pd.to_datetime(DEFAULT_END_DATE).date()
+                           if 'DEFAULT_END_DATE' in globals() else pd.Timestamp.today().date())
+        cutoff_date = st.date_input("Hasta fecha", value=_cutoff_default, key="dash_cutoff_bt")
+
+
+    with c5:
+      entrega_opts = ["(Todas)", "En plazo", "Se entrega vencido"]
+      dash_entrega = st.multiselect("Entrega", entrega_opts, default=["(Todas)"], key="dash_entrega_bt")
+
+# ---------- APLICAR FILTROS GLOBALES ----------
+# Resolver selección efectiva según sentinel "(Todos)/(Todas)"
+_sel_dev  = _devs_dash if ("(Todos)" in dash_bt or not dash_bt) else [x for x in dash_bt if x != "(Todos)"]
+_sel_epic = _epic_options if ("(Todas)" in dash_epic_bt or not dash_epic_bt) else [x for x in dash_epic_bt if x != "(Todas)"]
+if _areas_col:
+    _sel_area = _areas_dash if (not dash_area_bt or "(Todas)" in dash_area_bt) else [x for x in dash_area_bt if x != "(Todas)"]
+
+# Aplicar
+_mask_base = df_bt["developer"].isin(_sel_dev)
+if _areas_col and _areas_dash:
+    _mask_base &= df_bt[_areas_col].isin(_sel_area)
+_mask_base &= df_bt["epic_name"].fillna("— Sin épica —").isin(_sel_epic)
+
+df_base = df_bt[_mask_base].copy()
+
+_end_dt = pd.to_datetime(df_base["end"], errors="coerce")
+_due_dt = pd.to_datetime(df_base["due_date"], errors="coerce")
+_ok_series = _end_dt <= _due_dt                      # False si falta end/due_date
+_venc_series = df_base["vencida"].fillna(False) if "vencida" in df_base.columns else False
+
+df_base["entrega_status"] = "En plazo"
+df_base.loc[(~_ok_series) | (_venc_series), "entrega_status"] = "Se entrega vencido"
+
+# === Aplicar filtro "Entrega" si corresponde ===
+if "(Todas)" not in dash_entrega and len(dash_entrega) > 0:
+    df_base = df_base[df_base["entrega_status"].isin(dash_entrega)]
+
+# ---------- KPIs (respetan ÉPICA; 'vencidas' usa FECHA seleccionada) ----------
+cutoff_ts = pd.to_datetime(cutoff_date)
+_kpi_df = df_base[(df_base["type"] != "reunion") & (pd.to_datetime(df_base["due_date"]) < cutoff_ts)]
+horas_vencidas_top = float(_kpi_df["duration_hours"].sum()) if not _kpi_df.empty else 0.0
+
+
+
+_kpi_df_all = df_base[
+    (df_base["type"] != "reunion") 
+    # & (pd.to_datetime(df_base["due_date"]) <= cutoff_ts)
+]
+horas_totales_top = float(_kpi_df_all["duration_hours"].sum()) if not _kpi_df_all.empty else 0.0
+
+
+proyectos_activos = int(
+    df_base.loc[df_base["has_epic"] == True, "epic_name"]
+          .replace("— Sin épica —", pd.NA).dropna().nunique()
+)
+developers_totales = int(df_base["developer"].dropna().nunique())
+
+# Render KPIs (mantenemos tu lógica actual con los placeholders k1_box/k2_box/k3_box)
+k0_box.markdown(f"""
+<div class="kpi-card">
+  <div class="kpi-ico">⏱️</div>
+  <div class="kpi-text">
+    <h3>{horas_totales_top:.0f} h totales</h3>
+    <p>Hasta el {cutoff_date.strftime('%d-%b-%y')}</p>
+  </div>
+</div>""", unsafe_allow_html=True)
+
+
+k1_box.markdown(f"""
+<div class="kpi-card">
+  <div class="kpi-ico">⏱️</div>
+  <div class="kpi-text">
+    <h3>{horas_vencidas_top:.0f} h vencidas</h3>
+    <p>Hasta el {cutoff_date.strftime('%d-%b-%y')}</p>
+  </div>
+</div>""", unsafe_allow_html=True)
+
+k2_box.markdown(f"""
+<div class="kpi-card">
+  <div class="kpi-ico">📦</div>
+  <div class="kpi-text">
+    <h3>{proyectos_activos}</h3>
+    <p>Proyectos activos</p>
+  </div>
+</div>""", unsafe_allow_html=True)
+
+k3_box.markdown(f"""
+<div class="kpi-card">
+  <div class="kpi-ico">👥</div>
+  <div class="kpi-text">
+    <h3>{developers_totales}</h3>
+    <p>Developers</p>
+  </div>
+</div>""", unsafe_allow_html=True)
+
+# ---- TABLA + CHARTS (con filtros arriba) ----
+st.markdown('<span class="panel-sentinel"></span>', unsafe_allow_html=True)
+st.markdown('<div class="block-title"><span class="dot">🗂️</span> Tareas planificadas por desarrollador</div>', unsafe_allow_html=True)
+
+# Subset tablero (ya con filtros dev/área/épica aplicados)
+tablero_df = (
+    df_base[df_base["type"] != "reunion"].copy()
+    .assign(_Estado=lambda d: pd.to_datetime(d["end"]) <= pd.to_datetime(d["due_date"]))
+)
+test = tablero_df.copy()
+
+# ====== TABLA: AGREGO "Desarrollador" (faltante) ======
+mini_cols = [c for c in ["developer","summary","epic_name","due_date","_Estado","vencida"] if c in tablero_df.columns]
+tabla_compacta = (
+    tablero_df.sort_values("due_date", na_position="last")[mini_cols]
+              .rename(columns={"developer":"Desarrollador","summary":"Resumen","epic_name":"Proyecto",
+                               "due_date":"Vencimiento","_Estado":"Estado"})
+)
+
+def _estado_pill(ok, vencida):
+    if pd.isna(ok):
+        return '<span class="status-pill status-warn"><span class="dot-s"></span> Se entrega vencido</span>'
+    if (not bool(ok)) or bool(vencida):
+        return '<span class="status-pill status-bad"><span class="dot-s"></span> Se entrega vencido</span>'
+    return '<span class="status-pill status-ok"><span class="dot-s"></span> En plazo</span>'
+
+if not tabla_compacta.empty:
+    _t = tabla_compacta.copy()
+    _t["Vencimiento"] = pd.to_datetime(_t["Vencimiento"]).dt.strftime("%d-%b-%y")
+    _t["Estado"] = [_estado_pill(ok=row.get("Estado"), vencida=row.get("vencida", False))
+                    for _, row in _t.iterrows()]
+    if "vencida" in _t.columns:
+        _t = _t.drop(columns=["vencida"])
+    html_tabla = _t.to_html(escape=False, index=False)
+    st.markdown(f'<div class="table-wrap">{html_tabla}</div>', unsafe_allow_html=True)
+else:
+    st.info("No hay tareas con los filtros seleccionados.")
+
+    # CHARTS fila inferior
+    c_bar, c_pie = st.columns([1.6, 1])
+    with c_bar:
+        st.markdown('<div class="block-title chart-title"><span class="dot">📊</span> Horas por Developer</div>', unsafe_allow_html=True)
+        _bars = (test.groupby("developer")["duration_hours"].sum().sort_values(ascending=True))
+        if not _bars.empty:
+            fig, ax = plt.subplots(figsize=(7.0, 3.2), dpi=120)
+            ax.barh(_bars.index, _bars.values)
+            ax.set_xlabel("Horas", fontsize=9); ax.set_ylabel("")
+            ax.tick_params(axis="both", labelsize=9)
+            for s in ["top","right"]: ax.spines[s].set_visible(False)
+            plt.tight_layout()
+            st.pyplot(fig, use_container_width=True)
+        else:
+            st.caption("Sin datos para graficar.")
+
+    with c_pie:
+        st.markdown('<div class="block-title chart-title"><span class="dot">🧩</span> Tareas con/sin épica</div>', unsafe_allow_html=True)
+        # Donut: mantiene ventana por DEFAULT_END (no por cutoff_date)
+        end_s = pd.to_datetime(tablero_df["end"], errors="coerce")
+        window_df = tablero_df[end_s.notna() & (end_s.dt.date <= pd.to_datetime(DEFAULT_END).date())].copy()
+        _counts = window_df["has_epic"].fillna(False).value_counts()
+        tot = int(_counts.sum()); con = int(_counts.get(True, 0)); sin = int(_counts.get(False, 0))
+        pct = (con / tot * 100) if tot else 0
+        st.markdown(f"<div style='font-size:22px;font-weight:700;color:#0f172a;margin:-2px 0 8px;'>Con épica {pct:.0f}%</div>",
+                    unsafe_allow_html=True)
+        if tot > 0:
+            fig, ax = plt.subplots(figsize=(4.6, 3.2), dpi=120)
+            ax.pie([con, sin], labels=["Con épica","Sin épica"], autopct="%1.0f%%", startangle=90,
+                   textprops={"fontsize":9})
+            centre = plt.Circle((0, 0), 0.55, fc="white"); fig.gca().add_artist(centre)
+            ax.axis("equal"); plt.tight_layout()
+            st.pyplot(fig, use_container_width=True)
+        else:
+            st.caption("Sin datos para graficar (hasta la fecha límite).")
+# ===================== FIN DASHBOARD SUPERIOR (optimizado) =====================
+
