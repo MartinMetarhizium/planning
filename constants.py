@@ -51,27 +51,27 @@ PROJECT_MAP_BT = {
             "estado": "finalizado"
         },
         "SAP": {
-            "vencimiento": "2025-08-01",
+            "vencimiento": "2025-10-30",
             "completado": None,
             "estado": "pendiente"
         },
         "Clientes": {
-            "vencimiento": "2025-07-01",
+            "vencimiento": "2025-10-01",
             "completado": None,
             "estado": "pendiente"
         },
         "API Whatsapp": {
-            "vencimiento": "2025-09-01",
+            "vencimiento": "2025-12-01",
             "completado": None,
             "estado": "pendiente"
         },
         "Training": {
-            "vencimiento": "2025-10-01",
+            "vencimiento": "2026-02-01",
             "completado": None,
             "estado": "pendiente"
         },
         "Seguridad / Accesos": {
-            "vencimiento": "2025-10-01",
+            "vencimiento": "2026-02-01",
             "completado": None,
             "estado": "pendiente"
         },
