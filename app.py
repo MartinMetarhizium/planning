@@ -39,4 +39,4 @@ setup_navigation()
 
 
 
-# version con una sola fila por tarjeta
+# version sprint 15/9
