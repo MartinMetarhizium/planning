@@ -4,19 +4,44 @@
     "summary": "Dominicana",
     "tasks": [
       {
-        "key": "BTP-3620",
+        "key": "BTP-3653",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "BTP-3652",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "BTP-3651",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "BTP-3650",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "BTP-3628",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "BTP-3626",
         "story_points": null,
         "status": "Pendiente de estimaci\u00f3n"
       },
       {
         "key": "BTP-3619",
         "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "status": "RESUELTO POR BT"
       },
       {
         "key": "BTP-3611",
         "story_points": null,
-        "status": "Por Hacer"
+        "status": "EN RELEVAMIENTO"
       }
     ]
   },
@@ -53,13 +78,7 @@
   "BTP-3203": {
     "due_date": null,
     "summary": "Delivery admin",
-    "tasks": [
-      {
-        "key": "BTP-3604",
-        "story_points": null,
-        "status": "EN ARMADO DE PROPUESTA"
-      }
-    ]
+    "tasks": []
   },
   "BTP-3202": {
     "due_date": "2025-12-01",
@@ -214,7 +233,53 @@
   "BTP-3185": {
     "due_date": "2025-06-30",
     "summary": "Worpik",
-    "tasks": []
+    "tasks": [
+      {
+        "key": "BTP-3638",
+        "story_points": null,
+        "status": "CANCELADO POR BT"
+      },
+      {
+        "key": "BTP-3625",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3624",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3623",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3612",
+        "story_points": null,
+        "status": "CANCELADO POR BT"
+      },
+      {
+        "key": "BTP-3578",
+        "story_points": null,
+        "status": "ON HOLD RELEVAMIENTO"
+      },
+      {
+        "key": "BTP-3577",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3560",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3552",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
   },
   "BTP-3184": {
     "due_date": "2025-07-11",
@@ -239,18 +304,23 @@
   "BTP-3180": {
     "due_date": "2025-09-30",
     "summary": "Training",
-    "tasks": [
-      {
-        "key": "BTP-3524",
-        "story_points": null,
-        "status": "Por Hacer"
-      }
-    ]
+    "tasks": []
   },
   "BTP-3179": {
     "due_date": null,
     "summary": "Marketplace",
-    "tasks": []
+    "tasks": [
+      {
+        "key": "BTP-3657",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "BTP-3656",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      }
+    ]
   },
   "BTP-3178": {
     "due_date": "2025-09-30",
