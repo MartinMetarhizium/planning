@@ -86,7 +86,7 @@ PROJECT_MAP_BT = {
             "estado": "pendiente"
         },
     },
-    "Santiago Gariboldi": {
+    "Juan Ignacio Morelis": {
         "Actualizar Api Reseller": {
             "vencimiento": "2025-11-01",
             "completado": None,
