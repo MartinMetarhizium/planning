@@ -65,6 +65,11 @@ PROJECT_MAP_BT = {
             "completado": None,
             "estado": "pendiente"
         },
+        "Filtros worpik": {
+            "vencimiento": "2025-11-15",
+            "completado": None,
+            "estado": "pendiente"
+        },
         "Training": {
             "vencimiento": "2026-02-01",
             "completado": None,
@@ -183,7 +188,7 @@ VALID_STATUSES_BT = {"Por Hacer"}
 MIN_PROJECT_RATIO = {
     "Alan Mori - Carestino": 0.7,
     "Franco Lorenzo": 0.5,
-    "Gastón Ojeda": 0.3,
+    "Gastón Ojeda": 0.0,
     "Miguel Armentano": 0.5,
     "Luis Uran": 0.5,
     "Default": 0.1,
