@@ -29,11 +29,11 @@ def setup_navigation():
         return True
     
 
-    # (3) Muy antiguo: sin APIs de navegación. Confía en el sidebar automático.
+    
     st.info("Navegación por sidebar. Si no aparece, ejecuta como Main: planning/app.py junto a planning/pages/")
     return False
 
-# Llama esto al inicio de app.py
+
 setup_navigation()
 
 
