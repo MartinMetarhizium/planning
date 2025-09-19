@@ -89,6 +89,11 @@ PROJECT_MAP_BT = {
     "Juan Ignacio Morelis": {
         "Actualizar Api Reseller": {
             "vencimiento": "2025-11-01",
+            "completado": "2025-09-10",
+            "estado": "finalizado"
+        },
+        "Integracion dentro del modulo marketplace (stock y precio)": {
+            "vencimiento": "2025-10-01",
             "completado": None,
             "estado": "pendiente"
         },
@@ -156,11 +161,7 @@ PROJECT_MAP_BT = {
             "completado": None,
             "estado": "pendiente"
         },
-        "Integracion dentro del modulo marketplace (stock y precio)": {
-            "vencimiento": "2025-10-01",
-            "completado": None,
-            "estado": "pendiente"
-        },
+        
         "API de conversiones google": {
             "vencimiento": "2025-08-01",
             "completado": None,
