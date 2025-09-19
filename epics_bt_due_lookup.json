@@ -1,1 +1,1858 @@
-{}
+{
+  "BTP-3237": {
+    "due_date": "2025-09-30",
+    "summary": "Dominicana",
+    "tasks": [
+      {
+        "key": "BTP-3653",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "BTP-3652",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "BTP-3651",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3650",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "BTP-3628",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "BTP-3626",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "BTP-3619",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      },
+      {
+        "key": "BTP-3611",
+        "story_points": null,
+        "status": "ON PAUSE RELEVAMIENTO"
+      }
+    ]
+  },
+  "BTP-3223": {
+    "due_date": "2025-08-31",
+    "summary": "Auditoria equipos tecnologicos",
+    "tasks": []
+  },
+  "BTP-3214": {
+    "due_date": "2025-08-11",
+    "summary": "Facturaci\u00f3n USA",
+    "tasks": []
+  },
+  "BTP-3211": {
+    "due_date": null,
+    "summary": "Operaci\u00f3n de Seguimiento",
+    "tasks": []
+  },
+  "BTP-3206": {
+    "due_date": "2025-07-31",
+    "summary": "Remplazo Easymailing",
+    "tasks": []
+  },
+  "BTP-3205": {
+    "due_date": null,
+    "summary": "Descripciones automaticas / plantillas interior templates",
+    "tasks": []
+  },
+  "BTP-3204": {
+    "due_date": "2025-09-30",
+    "summary": "Herramientas almacenes",
+    "tasks": []
+  },
+  "BTP-3203": {
+    "due_date": null,
+    "summary": "Delivery admin",
+    "tasks": []
+  },
+  "BTP-3202": {
+    "due_date": "2025-12-01",
+    "summary": "Actualizaci\u00f3n de api's",
+    "tasks": []
+  },
+  "BTP-3201": {
+    "due_date": "2025-08-31",
+    "summary": "Conversiones API",
+    "tasks": []
+  },
+  "BTP-3200": {
+    "due_date": null,
+    "summary": "API Whatsapp",
+    "tasks": []
+  },
+  "BTP-3199": {
+    "due_date": "2025-06-30",
+    "summary": "Redise\u00f1o web - Carestino",
+    "tasks": [
+      {
+        "key": "BTP-3298",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      },
+      {
+        "key": "BTP-3297",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      },
+      {
+        "key": "BTP-3296",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-3198": {
+    "due_date": "2025-07-11",
+    "summary": "Expenses",
+    "tasks": [
+      {
+        "key": "BTP-3471",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "BTP-3236",
+        "story_points": null,
+        "status": "CANCELADO POR BT"
+      }
+    ]
+  },
+  "BTP-3197": {
+    "due_date": "2025-07-31",
+    "summary": "Agente | Scoring Clientes",
+    "tasks": []
+  },
+  "BTP-3196": {
+    "due_date": null,
+    "summary": "Pagos -Gateway",
+    "tasks": [
+      {
+        "key": "BTP-2865",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-3195": {
+    "due_date": null,
+    "summary": "Estabilizaci\u00f3n, Escalabilidad y Gobernanza de APIs",
+    "tasks": []
+  },
+  "BTP-3194": {
+    "due_date": null,
+    "summary": "Filtros en listado de productos",
+    "tasks": []
+  },
+  "BTP-3193": {
+    "due_date": "2025-10-31",
+    "summary": "Lupa Buscador Sitio WEB",
+    "tasks": []
+  },
+  "BTP-3192": {
+    "due_date": "2025-08-31",
+    "summary": "Estrategias comerciales en el ecommerce",
+    "tasks": []
+  },
+  "BTP-3191": {
+    "due_date": "2025-06-14",
+    "summary": "Redise\u00f1o Portal Gestion",
+    "tasks": [
+      {
+        "key": "BTP-3301",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3300",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      },
+      {
+        "key": "BTP-3299",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-3190": {
+    "due_date": "2025-09-30",
+    "summary": "Redise\u00f1o Admin Nicox",
+    "tasks": []
+  },
+  "BTP-3189": {
+    "due_date": null,
+    "summary": "Migraci\u00f3n a red privada",
+    "tasks": []
+  },
+  "BTP-3188": {
+    "due_date": null,
+    "summary": "Testing QA",
+    "tasks": []
+  },
+  "BTP-3187": {
+    "due_date": null,
+    "summary": "Integraciones logisticas",
+    "tasks": [
+      {
+        "key": "BTP-3420",
+        "story_points": null,
+        "status": "CANCELADO POR BT"
+      },
+      {
+        "key": "BTP-3415",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      },
+      {
+        "key": "BTP-3409",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-3186": {
+    "due_date": "2025-08-31",
+    "summary": "Indicadores de sistema",
+    "tasks": []
+  },
+  "BTP-3185": {
+    "due_date": "2025-06-30",
+    "summary": "Worpik",
+    "tasks": [
+      {
+        "key": "BTP-3694",
+        "story_points": null,
+        "status": "CANCELADO POR BT"
+      },
+      {
+        "key": "BTP-3693",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "BTP-3678",
+        "story_points": null,
+        "status": "EN RELEVAMIENTO"
+      },
+      {
+        "key": "BTP-3663",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3662",
+        "story_points": null,
+        "status": "TO REFINEMENT"
+      },
+      {
+        "key": "BTP-3661",
+        "story_points": null,
+        "status": "PRODUCT BACKLOG"
+      },
+      {
+        "key": "BTP-3638",
+        "story_points": null,
+        "status": "CANCELADO POR BT"
+      },
+      {
+        "key": "BTP-3625",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3624",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3623",
+        "story_points": null,
+        "status": "PRODUCT BACKLOG"
+      },
+      {
+        "key": "BTP-3612",
+        "story_points": null,
+        "status": "CANCELADO POR BT"
+      },
+      {
+        "key": "BTP-3578",
+        "story_points": null,
+        "status": "PRODUCT BACKLOG"
+      },
+      {
+        "key": "BTP-3577",
+        "story_points": null,
+        "status": "PRODUCT BACKLOG"
+      },
+      {
+        "key": "BTP-3560",
+        "story_points": null,
+        "status": "TO REFINEMENT"
+      },
+      {
+        "key": "BTP-3552",
+        "story_points": null,
+        "status": "CANCELADO POR BT"
+      }
+    ]
+  },
+  "BTP-3184": {
+    "due_date": "2025-07-11",
+    "summary": "Comparativa de productos en el ecommerce",
+    "tasks": []
+  },
+  "BTP-3183": {
+    "due_date": null,
+    "summary": "CAV - Carga autom\u00e1tica de ventas",
+    "tasks": []
+  },
+  "BTP-3182": {
+    "due_date": "2025-12-31",
+    "summary": "Gestiones",
+    "tasks": []
+  },
+  "BTP-3181": {
+    "due_date": "2025-09-30",
+    "summary": "Agente | Gesti\u00f3n de Posventa Nicox",
+    "tasks": []
+  },
+  "BTP-3180": {
+    "due_date": "2025-09-30",
+    "summary": "Training",
+    "tasks": [
+      {
+        "key": "BTP-3699",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      }
+    ]
+  },
+  "BTP-3179": {
+    "due_date": null,
+    "summary": "Marketplace",
+    "tasks": [
+      {
+        "key": "BTP-3657",
+        "story_points": null,
+        "status": "CANCELADO POR BT"
+      },
+      {
+        "key": "BTP-3656",
+        "story_points": null,
+        "status": "EN ARMADO DE PROPUESTA"
+      }
+    ]
+  },
+  "BTP-3178": {
+    "due_date": "2025-09-30",
+    "summary": "Mejoras en Seguimiento y Tiempos de Entrega para Clientes",
+    "tasks": []
+  },
+  "BTP-3177": {
+    "due_date": "2025-07-31",
+    "summary": "Log\u00edstica V2",
+    "tasks": [
+      {
+        "key": "BTP-3394",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      },
+      {
+        "key": "BTP-3333",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-3176": {
+    "due_date": "2025-09-30",
+    "summary": "Actualizar api resellers",
+    "tasks": []
+  },
+  "BTP-3175": {
+    "due_date": "2025-09-30",
+    "summary": "Seguridad / Accesos",
+    "tasks": [
+      {
+        "key": "BTP-3464",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      }
+    ]
+  },
+  "BTP-3174": {
+    "due_date": "2025-09-30",
+    "summary": "Devops",
+    "tasks": []
+  },
+  "BTP-3173": {
+    "due_date": null,
+    "summary": "Clientes",
+    "tasks": [
+      {
+        "key": "BTP-3238",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      }
+    ]
+  },
+  "BTP-3171": {
+    "due_date": null,
+    "summary": "Cupones",
+    "tasks": []
+  },
+  "BTP-3165": {
+    "due_date": "2026-01-31",
+    "summary": "Agente | Pedidos tienda",
+    "tasks": []
+  },
+  "BTP-3164": {
+    "due_date": "2025-09-30",
+    "summary": "Agente |\u00a0Pricing",
+    "tasks": []
+  },
+  "BTP-3136": {
+    "due_date": "2025-04-30",
+    "summary": "QA - Automatizaciones",
+    "tasks": [
+      {
+        "key": "BTP-3135",
+        "story_points": null,
+        "status": "CANCELADO POR BT"
+      }
+    ]
+  },
+  "BTP-3126": {
+    "due_date": null,
+    "summary": "API CLIENTES",
+    "tasks": []
+  },
+  "BTP-3089": {
+    "due_date": "2025-08-15",
+    "summary": "Worpik",
+    "tasks": []
+  },
+  "BTP-3052": {
+    "due_date": null,
+    "summary": "Tareas operativas BT",
+    "tasks": [
+      {
+        "key": "BTP-3530",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "BTP-3439",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "BTP-3416",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3413",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "BTP-3412",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "BTP-3410",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "BTP-3129",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "BTP-3088",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3054",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3053",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3051",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3050",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3047",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3039",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3036",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3032",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-3043": {
+    "due_date": null,
+    "summary": "Coverage",
+    "tasks": [
+      {
+        "key": "BTP-3044",
+        "story_points": null,
+        "status": "CANCELADO POR BT"
+      }
+    ]
+  },
+  "BTP-3040": {
+    "due_date": null,
+    "summary": "Criterios de aceptaci\u00f3n",
+    "tasks": [
+      {
+        "key": "BTP-3414",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "BTP-3133",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      },
+      {
+        "key": "BTP-3078",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3077",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3076",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3075",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3074",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3073",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3072",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3071",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3070",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3069",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3068",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3067",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3066",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3065",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3064",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3063",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      },
+      {
+        "key": "BTP-3062",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3061",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3060",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3059",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3058",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3057",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3056",
+        "story_points": null,
+        "status": "CANCELADO POR BT"
+      },
+      {
+        "key": "BTP-3055",
+        "story_points": null,
+        "status": "Por Hacer"
+      },
+      {
+        "key": "BTP-3041",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-3031": {
+    "due_date": null,
+    "summary": "EVENTS AND OPERATIONAL TASKS",
+    "tasks": []
+  },
+  "BTP-2341": {
+    "due_date": "2024-06-28",
+    "summary": "Herramientas de trabajo y control de stock",
+    "tasks": [
+      {
+        "key": "BTP-2342",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2340": {
+    "due_date": "2024-06-28",
+    "summary": "Auditor\u00eda CX",
+    "tasks": [
+      {
+        "key": "BTP-2343",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2339": {
+    "due_date": "2024-06-28",
+    "summary": "Almacenes - Implementaci\u00f3n en pa\u00edses",
+    "tasks": [
+      {
+        "key": "BTP-2344",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2338": {
+    "due_date": "2024-06-28",
+    "summary": "Nicox / Almacenes: Implementaci\u00f3n en pa\u00edses y armado de propuestas de herramientas",
+    "tasks": [
+      {
+        "key": "BTP-2345",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2337": {
+    "due_date": "2024-06-28",
+    "summary": "Facebook - Implementaci\u00f3n de API de Conversiones",
+    "tasks": [
+      {
+        "key": "BTP-2346",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2336": {
+    "due_date": "2024-06-28",
+    "summary": "Desarrollo de Blueprint - Proyectos",
+    "tasks": [
+      {
+        "key": "BTP-2347",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2335": {
+    "due_date": "2024-06-28",
+    "summary": "Pol\u00edticas Comerciales / Clasificaci\u00f3n de clientes",
+    "tasks": [
+      {
+        "key": "BTP-2348",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2308": {
+    "due_date": "2024-06-28",
+    "summary": "Nicox / Hotjar - Checkout",
+    "tasks": [
+      {
+        "key": "BTP-2310",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2307": {
+    "due_date": "2024-06-28",
+    "summary": "Checkout - redise\u00f1o y migracion",
+    "tasks": [
+      {
+        "key": "BTP-2311",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2306": {
+    "due_date": "2024-06-28",
+    "summary": "Reintegros",
+    "tasks": [
+      {
+        "key": "BTP-2312",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2305": {
+    "due_date": "2024-06-28",
+    "summary": "Nicox - Fraude: Implementaci\u00f3n de nuevo Core",
+    "tasks": [
+      {
+        "key": "BTP-2313",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2304": {
+    "due_date": "2024-06-28",
+    "summary": "Nicox - EE.UU",
+    "tasks": [
+      {
+        "key": "BTP-2314",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2303": {
+    "due_date": "2024-06-28",
+    "summary": "Nicox - Brasil",
+    "tasks": [
+      {
+        "key": "BTP-2315",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2302": {
+    "due_date": "2024-06-28",
+    "summary": "Reestructuraci\u00f3n IT-BT",
+    "tasks": [
+      {
+        "key": "BTP-2316",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2301": {
+    "due_date": "2024-06-28",
+    "summary": "Checkout - implementacion mapa",
+    "tasks": [
+      {
+        "key": "BTP-2317",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2300": {
+    "due_date": "2024-06-28",
+    "summary": "e-commerce - Listas de nacimiento",
+    "tasks": [
+      {
+        "key": "BTP-2318",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2299": {
+    "due_date": "2024-06-28",
+    "summary": "Wish list",
+    "tasks": [
+      {
+        "key": "BTP-2319",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2298": {
+    "due_date": "2024-06-28",
+    "summary": "Nicox- Abandoned cart -Implementaci\u00f3n de nuevos flujos",
+    "tasks": [
+      {
+        "key": "BTP-2320",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2297": {
+    "due_date": "2024-06-28",
+    "summary": "e-commerce - Zoom",
+    "tasks": [
+      {
+        "key": "BTP-2321",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2296": {
+    "due_date": "2024-06-28",
+    "summary": "Nicox - Checking account",
+    "tasks": [
+      {
+        "key": "BTP-2322",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2295": {
+    "due_date": "2024-06-28",
+    "summary": "Nicox / Stock: Implementaci\u00f3n de lectura fisico en ARG y normalizaci\u00f3n de errores",
+    "tasks": [
+      {
+        "key": "BTP-2323",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2294": {
+    "due_date": "2024-06-28",
+    "summary": "Pedidos tienda",
+    "tasks": [
+      {
+        "key": "BTP-2324",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2293": {
+    "due_date": "2024-06-28",
+    "summary": "Reclamos",
+    "tasks": [
+      {
+        "key": "BTP-2325",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2292": {
+    "due_date": "2024-06-28",
+    "summary": "Worpik",
+    "tasks": [
+      {
+        "key": "BTP-2326",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2291": {
+    "due_date": "2024-06-28",
+    "summary": "e-commerce - redise\u00f1o seguimiento",
+    "tasks": [
+      {
+        "key": "BTP-2327",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2290": {
+    "due_date": "2024-06-28",
+    "summary": "Nicox / Integraci\u00f3n - Facturadores",
+    "tasks": [
+      {
+        "key": "BTP-2328",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2289": {
+    "due_date": "2024-06-28",
+    "summary": "Nicox - Conciliador de cobros",
+    "tasks": [
+      {
+        "key": "BTP-2329",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2288": {
+    "due_date": "2024-06-28",
+    "summary": "Nicox - Cierre de caja",
+    "tasks": [
+      {
+        "key": "BTP-2330",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2287": {
+    "due_date": "2024-06-28",
+    "summary": "Nicox - Nomina",
+    "tasks": [
+      {
+        "key": "BTP-2331",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2286": {
+    "due_date": "2024-06-28",
+    "summary": "Normalizaci\u00f3n estados de reintegros",
+    "tasks": [
+      {
+        "key": "BTP-2332",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2285": {
+    "due_date": "2024-06-28",
+    "summary": "Nicox - Expenses",
+    "tasks": [
+      {
+        "key": "BTP-2333",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2284": {
+    "due_date": "2024-06-28",
+    "summary": "Nicox / Integraci\u00f3n - log\u00edsticas",
+    "tasks": [
+      {
+        "key": "BTP-2334",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-2283": {
+    "due_date": "2024-06-28",
+    "summary": "Nicox - 3ds integraci\u00f3n con ingenico",
+    "tasks": [
+      {
+        "key": "BTP-2309",
+        "story_points": null,
+        "status": "Por Hacer"
+      }
+    ]
+  },
+  "BTP-1533": {
+    "due_date": "2023-12-29",
+    "summary": "Reestructuraci\u00f3n IT-BT",
+    "tasks": [
+      {
+        "key": "BTP-2056",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1532": {
+    "due_date": "2023-12-29",
+    "summary": "Definici\u00f3n de producto final",
+    "tasks": [
+      {
+        "key": "BTP-2055",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1531": {
+    "due_date": "2023-12-29",
+    "summary": "Politicas comerciales",
+    "tasks": [
+      {
+        "key": "BTP-2054",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1530": {
+    "due_date": "2023-12-29",
+    "summary": "Costado de producto",
+    "tasks": [
+      {
+        "key": "BTP-2053",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1529": {
+    "due_date": "2023-12-29",
+    "summary": "Listas de nacimientos",
+    "tasks": [
+      {
+        "key": "BTP-2052",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1528": {
+    "due_date": "2023-12-29",
+    "summary": "Migraci\u00f3n de mayoristas a reseller",
+    "tasks": [
+      {
+        "key": "BTP-2057",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1527": {
+    "due_date": "2023-12-29",
+    "summary": "Integraci\u00f3n mailchimp",
+    "tasks": [
+      {
+        "key": "BTP-2026",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1526": {
+    "due_date": "2023-12-29",
+    "summary": "Propuesta de implementaci\u00f3n de la API de Conversiones de Facebook",
+    "tasks": [
+      {
+        "key": "BTP-2050",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1525": {
+    "due_date": "2023-12-29",
+    "summary": "Integraci\u00f3n de pasarelas de pagos backup en ecommerce",
+    "tasks": [
+      {
+        "key": "BTP-2049",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1524": {
+    "due_date": "2023-12-29",
+    "summary": "Fusion",
+    "tasks": [
+      {
+        "key": "BTP-2048",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1523": {
+    "due_date": "2023-12-29",
+    "summary": "Ajuste de caja listado de productos",
+    "tasks": [
+      {
+        "key": "BTP-2047",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1522": {
+    "due_date": "2023-12-29",
+    "summary": "Implementaci\u00f3n Menu",
+    "tasks": [
+      {
+        "key": "BTP-2046",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1521": {
+    "due_date": "2023-12-29",
+    "summary": "Normalizaci\u00f3n Payments",
+    "tasks": [
+      {
+        "key": "BTP-2045",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1520": {
+    "due_date": "2023-12-29",
+    "summary": "Chatbot CX",
+    "tasks": [
+      {
+        "key": "BTP-2044",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1519": {
+    "due_date": "2023-12-29",
+    "summary": "Checkout",
+    "tasks": [
+      {
+        "key": "BTP-2043",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1518": {
+    "due_date": "2023-12-29",
+    "summary": "Nomina de Nicox",
+    "tasks": [
+      {
+        "key": "BTP-2042",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1517": {
+    "due_date": "2023-12-29",
+    "summary": "Integraci\u00f3n SAP",
+    "tasks": [
+      {
+        "key": "BTP-2041",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      },
+      {
+        "key": "BTP-1774",
+        "story_points": null,
+        "status": "CANCELADO POR BT"
+      }
+    ]
+  },
+  "BTP-1516": {
+    "due_date": "2023-12-29",
+    "summary": "Conciliador de cobros",
+    "tasks": [
+      {
+        "key": "BTP-2040",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1515": {
+    "due_date": "2023-12-29",
+    "summary": "Almacenes: Implementaci\u00f3n de herramientas",
+    "tasks": [
+      {
+        "key": "BTP-2039",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1514": {
+    "due_date": "2023-12-29",
+    "summary": "Fraude",
+    "tasks": [
+      {
+        "key": "BTP-2038",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1513": {
+    "due_date": "2023-12-29",
+    "summary": "UX - Interior web",
+    "tasks": [
+      {
+        "key": "BTP-2037",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1512": {
+    "due_date": "2023-12-29",
+    "summary": "Marketplace",
+    "tasks": [
+      {
+        "key": "BTP-2036",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1511": {
+    "due_date": "2023-12-29",
+    "summary": "Cierre de caja y retiros de tiendas",
+    "tasks": [
+      {
+        "key": "BTP-2035",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      },
+      {
+        "key": "BTP-1883",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1510": {
+    "due_date": "2023-12-29",
+    "summary": "Integraci\u00f3n proveedores logisticos",
+    "tasks": [
+      {
+        "key": "BTP-2034",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1509": {
+    "due_date": "2023-12-29",
+    "summary": "Reclutamiento Sistema",
+    "tasks": [
+      {
+        "key": "BTP-2033",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1508": {
+    "due_date": "2023-12-29",
+    "summary": "Rendici\u00f3n de gastos y carga de facturas",
+    "tasks": [
+      {
+        "key": "BTP-2032",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1507": {
+    "due_date": "2023-12-29",
+    "summary": "Gesti\u00f3n de review",
+    "tasks": [
+      {
+        "key": "BTP-2031",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1506": {
+    "due_date": "2023-12-29",
+    "summary": "Normalizaci\u00f3n de estados de ventas",
+    "tasks": [
+      {
+        "key": "BTP-2030",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1505": {
+    "due_date": "2023-12-29",
+    "summary": "Mejoras - Mis entregas v2",
+    "tasks": [
+      {
+        "key": "BTP-2029",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1504": {
+    "due_date": "2023-12-29",
+    "summary": "Integraci\u00f3n facturadores",
+    "tasks": [
+      {
+        "key": "BTP-2028",
+        "story_points": null,
+        "status": "RESUELTO POR BT"
+      }
+    ]
+  },
+  "BTP-1304": {
+    "due_date": "2023-06-30",
+    "summary": "Ecommerce: Recomendaci\u00f3n de productos",
+    "tasks": [
+      {
+        "key": "BTP-1305",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1246": {
+    "due_date": "2023-06-30",
+    "summary": "Costado de producto",
+    "tasks": [
+      {
+        "key": "BTP-1292",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1245": {
+    "due_date": "2023-06-30",
+    "summary": "Ajuste de caja listado de productos",
+    "tasks": [
+      {
+        "key": "BTP-1291",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1244": {
+    "due_date": "2023-06-30",
+    "summary": "Implementaci\u00f3n Menu",
+    "tasks": [
+      {
+        "key": "BTP-1290",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1243": {
+    "due_date": "2023-06-30",
+    "summary": "Normalizaci\u00f3n Payments",
+    "tasks": [
+      {
+        "key": "BTP-1289",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1242": {
+    "due_date": "2023-06-30",
+    "summary": "Accesibilidad de plataformas",
+    "tasks": [
+      {
+        "key": "BTP-1288",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1240": {
+    "due_date": "2023-06-30",
+    "summary": "Bot Cx",
+    "tasks": [
+      {
+        "key": "BTP-1286",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1239": {
+    "due_date": "2023-06-30",
+    "summary": "Medici\u00f3n IT",
+    "tasks": [
+      {
+        "key": "BTP-1285",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1238": {
+    "due_date": "2023-06-30",
+    "summary": "Ecommerce - Login",
+    "tasks": [
+      {
+        "key": "BTP-1284",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1237": {
+    "due_date": "2023-06-30",
+    "summary": "Carga de venta: Generaci\u00f3n autom\u00e1tica",
+    "tasks": [
+      {
+        "key": "BTP-1283",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1235": {
+    "due_date": "2023-06-30",
+    "summary": "Soporte proyecto Checkout",
+    "tasks": [
+      {
+        "key": "BTP-1281",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1234": {
+    "due_date": "2023-06-30",
+    "summary": "Implementaci\u00f3n telefono LATAM",
+    "tasks": [
+      {
+        "key": "BTP-1280",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1233": {
+    "due_date": "2023-06-30",
+    "summary": "Auditoria: Herramienta de movimiento de stock",
+    "tasks": [
+      {
+        "key": "BTP-1279",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1232": {
+    "due_date": "2023-06-30",
+    "summary": "Proyecto Nomina",
+    "tasks": [
+      {
+        "key": "BTP-1278",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1231": {
+    "due_date": "2023-06-30",
+    "summary": "Automatizaci\u00f3n de pedidos tienda",
+    "tasks": [
+      {
+        "key": "BTP-1277",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1230": {
+    "due_date": "2023-06-30",
+    "summary": "Proyecto: cuenta corrientes re-factorizar y ajustar procesos",
+    "tasks": [
+      {
+        "key": "BTP-1276",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1229": {
+    "due_date": "2023-06-30",
+    "summary": "Proyecto SOFIA",
+    "tasks": [
+      {
+        "key": "BTP-1275",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1228": {
+    "due_date": "2023-06-30",
+    "summary": "Job Description de equipo BT",
+    "tasks": [
+      {
+        "key": "BTP-1274",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1227": {
+    "due_date": "2023-06-30",
+    "summary": "Integraci\u00f3n SAP",
+    "tasks": [
+      {
+        "key": "BTP-1273",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1226": {
+    "due_date": "2023-06-30",
+    "summary": "Nicox - Conciliador de cobros",
+    "tasks": [
+      {
+        "key": "BTP-1272",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1225": {
+    "due_date": "2023-06-30",
+    "summary": "COMEX",
+    "tasks": [
+      {
+        "key": "BTP-1271",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1224": {
+    "due_date": "2023-06-30",
+    "summary": "Implementaci\u00f3n de nuevas funcionalidades almacenes",
+    "tasks": [
+      {
+        "key": "BTP-1270",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1223": {
+    "due_date": "2023-06-30",
+    "summary": "Fraude: Control de proceso operativo para seguimiento y gesti\u00f3n",
+    "tasks": [
+      {
+        "key": "BTP-1269",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1222": {
+    "due_date": "2023-06-30",
+    "summary": "UX - Interior web",
+    "tasks": [
+      {
+        "key": "BTP-1268",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1221": {
+    "due_date": "2023-06-30",
+    "summary": "Integraci\u00f3n con Mercado Libre + Reemplazo de ecomexperts",
+    "tasks": [
+      {
+        "key": "BTP-1267",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1220": {
+    "due_date": "2023-06-30",
+    "summary": "API - REVIEW",
+    "tasks": [
+      {
+        "key": "BTP-1266",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1219": {
+    "due_date": "2023-06-30",
+    "summary": "Cierre de caja y retiros de tiendas",
+    "tasks": [
+      {
+        "key": "BTP-1265",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1218": {
+    "due_date": "2023-06-30",
+    "summary": "Manual de politicas comerciales",
+    "tasks": [
+      {
+        "key": "BTP-1264",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1216": {
+    "due_date": "2023-06-30",
+    "summary": "Mis entrega v2",
+    "tasks": [
+      {
+        "key": "BTP-1262",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1214": {
+    "due_date": "2023-06-30",
+    "summary": "Integraci\u00f3n logistica CO/MX/PE",
+    "tasks": [
+      {
+        "key": "BTP-1260",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1213": {
+    "due_date": "2023-06-30",
+    "summary": "Reintegros + Reintegros recordinaci\u00f3n",
+    "tasks": [
+      {
+        "key": "BTP-1259",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1212": {
+    "due_date": "2023-06-30",
+    "summary": "Proyecto Reclutamiento",
+    "tasks": [
+      {
+        "key": "BTP-1258",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1210": {
+    "due_date": "2023-06-30",
+    "summary": "Core de facturaci\u00f3n",
+    "tasks": [
+      {
+        "key": "BTP-1256",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1209": {
+    "due_date": "2023-06-30",
+    "summary": "Tablero de rechazo de pasarelas de pago",
+    "tasks": [
+      {
+        "key": "BTP-1255",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1208": {
+    "due_date": "2023-06-30",
+    "summary": "Desarrollo T&E",
+    "tasks": [
+      {
+        "key": "BTP-1254",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1207": {
+    "due_date": "2023-06-30",
+    "summary": "Implementaci\u00f3n de outlet en todos los puntos de venta + Proceso de aprobaci\u00f3n",
+    "tasks": [
+      {
+        "key": "BTP-1253",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1206": {
+    "due_date": "2023-06-30",
+    "summary": "Gesti\u00f3n de review",
+    "tasks": [
+      {
+        "key": "BTP-1252",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1205": {
+    "due_date": "2023-06-30",
+    "summary": "Normalizaci\u00f3n de estados de ventas",
+    "tasks": [
+      {
+        "key": "BTP-1251",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1203": {
+    "due_date": "2023-06-30",
+    "summary": "Implementaci\u00f3n de activ track LATAM",
+    "tasks": [
+      {
+        "key": "BTP-1303",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1202": {
+    "due_date": "2023-06-30",
+    "summary": "Mejoras - Logistica v2",
+    "tasks": [
+      {
+        "key": "BTP-1249",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1201": {
+    "due_date": "2023-06-30",
+    "summary": "App de choferes",
+    "tasks": [
+      {
+        "key": "BTP-1248",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  },
+  "BTP-1200": {
+    "due_date": "2023-06-30",
+    "summary": "Integraci\u00f3n facturaci\u00f3n LATAM",
+    "tasks": [
+      {
+        "key": "BTP-1247",
+        "story_points": null,
+        "status": "FINALIZADO"
+      }
+    ]
+  }
+}
