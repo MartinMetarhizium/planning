@@ -32,7 +32,7 @@ def setup_navigation():
     
     st.info("Navegación por sidebar. Si no aparece, ejecuta como Main: planning/app.py junto a planning/pages/")
     return False
-
+#
 
 setup_navigation()
 
