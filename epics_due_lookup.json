@@ -69,17 +69,17 @@
       {
         "key": "IT-21020",
         "story_points": 6.0,
-        "status": "En progreso"
+        "status": "TO DEPLOY QA"
       },
       {
         "key": "IT-20821",
         "story_points": 21.0,
-        "status": "PENDING REVIEW"
+        "status": "FINISH"
       },
       {
         "key": "IT-20427",
         "story_points": 8.0,
-        "status": "TO DEPLOY QA"
+        "status": "FINISH"
       },
       {
         "key": "IT-19719",
@@ -207,7 +207,7 @@
       {
         "key": "IT-20114",
         "story_points": 10.0,
-        "status": "REVIEWING"
+        "status": "REVIEW ON HOLD"
       },
       {
         "key": "IT-19877",
@@ -478,7 +478,7 @@
       {
         "key": "IT-21466",
         "story_points": 4.0,
-        "status": "ON HOLD"
+        "status": "STG TESTING"
       },
       {
         "key": "IT-20944",
@@ -5231,13 +5231,18 @@
     "tasks": [
       {
         "key": "IT-21552",
-        "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "story_points": 24.0,
+        "status": "BACKLOG"
       },
       {
         "key": "IT-21510",
-        "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "story_points": 8.0,
+        "status": "BACKLOG"
+      },
+      {
+        "key": "IT-21452",
+        "story_points": 16.0,
+        "status": "BACKLOG"
       },
       {
         "key": "IT-21450",
@@ -7470,7 +7475,7 @@
       {
         "key": "IT-20828",
         "story_points": 40.0,
-        "status": "REDEFINED"
+        "status": "BACKLOG"
       },
       {
         "key": "IT-20081",
@@ -8842,7 +8847,7 @@
       {
         "key": "IT-20576",
         "story_points": 44.0,
-        "status": "BACKLOG"
+        "status": "En progreso"
       },
       {
         "key": "IT-20575",
@@ -14973,7 +14978,7 @@
       {
         "key": "IT-20103",
         "story_points": 6.0,
-        "status": "TO DEPLOY QA"
+        "status": "FINISH"
       },
       {
         "key": "IT-19999",
