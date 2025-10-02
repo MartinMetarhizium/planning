@@ -16,7 +16,8 @@ def setup_navigation():
         martinBt = st.Page("pages/martin_bt.py", title="martin BT")
         worpik = st.Page("pages/worpik.py", title="Worpik")
         estimaciones = st.Page("pages/estimationTimes.py", title="Estimaciones")
-        nav = st.navigation([alan, martinBt, martin, worpik, estimaciones])
+        reviewTimes = st.Page("pages/reviewTimes.py", title="Revisiones de tarjetas")
+        nav = st.navigation([alan, martinBt, martin, worpik, estimaciones, reviewTimes])
         nav.run()
         return True
 
@@ -27,6 +28,7 @@ def setup_navigation():
         st.page_link("pages/martin_bt.py", label="martin BT")
         st.page_link("pages/worpik.py", label="Worpik")
         st.page_link("pages/estimationTimes.py", label="Estimaciones")
+        st.page_link("pages/reviewTimes.py", label="Revisiones de tarjetas")
         st.caption("Si no ves las páginas, verifica que el Main file sea planning/app.py y la carpeta se llame exactamente pages/")
         return True
     
@@ -41,4 +43,4 @@ setup_navigation()
 
 
 
-# version sprint 15/9 v2
+# nuevas paginas de changelog del proyecto it

@@ -1,0 +1,231 @@
+issueKey,issueType,assignee,summary,from_date,to_date,hours
+IT-19818,Fix,Luis Uran,MercadoPago / Asignar store_id en la IPN,2025-06-06T12:06:30.478-0300,2025-06-06T12:25:24.402-0300,0.31
+IT-19842,Fix,Luis Uran,Conciliador / Error en las reglas de conciliación de Mercado Pago,2025-06-12T18:24:50.119-0300,2025-06-13T09:36:02.921-0300,15.19
+IT-19923,Tarea,Miguel Armentano,02 - Fix de instancia n8n de BI,2025-06-17T09:26:45.043-0300,2025-06-17T09:26:47.158-0300,0.0
+IT-19783,Fix,Luis Uran,Error en conciliación manual - no levanta operaciones pendiente de conciliar importado por CSV,2025-06-23T18:49:52.787-0300,2025-06-24T15:56:38.266-0300,21.11
+IT-19984,Fix,Gastón Ojeda,Relevamiento / Fix / Ventas ingresan con tipo de venta equivocado,2025-06-23T13:36:23.882-0300,2025-06-24T17:32:03.476-0300,27.93
+IT-19803,Tarea,Gastón Ojeda,Reclamos / Backend / Crear un comportamiento para giftcard,2025-06-25T13:15:04.486-0300,2025-06-25T16:45:00.592-0300,3.5
+IT-20002,Tarea,Alan Mori - Carestino,Worpik / Mejoras en el proceso de aprobación,2025-06-25T17:56:09.460-0300,2025-06-26T10:23:06.649-0300,16.45
+IT-20130,Tarea,Franco Lorenzo,Entregas Camioneta Arg - validar direcciones,2025-06-26T16:37:58.648-0300,2025-06-26T16:39:22.439-0300,0.02
+IT-19801,Fix,Alan Mori - Carestino,Especificaciones / Replicar specs por SKU,2025-06-26T16:47:26.084-0300,2025-06-26T16:47:29.443-0300,0.0
+IT-19877,Tarea,Franco Lorenzo,Rediseño Checkout / Integrar el paso 3,2025-06-26T16:20:47.874-0300,2025-06-27T08:41:05.516-0300,16.34
+IT-20123,Tarea,Alan Mori - Carestino,Log cambio la fecha de una orden de compra importador masivo,2025-06-27T09:39:33.780-0300,2025-06-27T09:40:09.640-0300,0.01
+IT-20088,Fix,Miguel Armentano,IPN MP / Tarifario / Problemas con envíos a domicilio,2025-06-27T13:21:01.093-0300,2025-06-27T13:49:17.964-0300,0.47
+IT-19807,Tarea,Franco Lorenzo,Rediseño Checkout / Integrar el paso 2,2025-06-11T08:36:59.544-0300,2025-06-27T13:50:38.388-0300,389.23
+IT-20081,Fix,Luis Uran,Integración logística / Correo Flash / Modificar número de sucursal,2025-06-30T12:57:45.798-0300,2025-06-30T13:04:09.109-0300,0.11
+IT-19986,Fix,Miguel Armentano,Argentina - Logísticas con facturación apagada sigue generando facturas,2025-07-01T09:17:34.907-0300,2025-07-01T09:17:37.578-0300,0.0
+IT-19779,Fix,Miguel Armentano,Error en Facturación B a Tierra del fuego,2025-06-30T14:27:05.471-0300,2025-07-01T12:32:59.948-0300,22.1
+IT-19792,Tarea,Luis Uran,Estados Servientrega (PA) - no llega la totalidad de estados.  ,2025-06-23T16:39:24.253-0300,2025-07-01T14:50:34.521-0300,190.19
+IT-19785,Tarea,Luis Uran,Pago Manual / Configuración y mejora en formulario,2025-07-02T11:52:45.604-0300,2025-07-02T11:59:00.166-0300,0.1
+IT-20093,Fix,Alan Mori - Carestino,Ordenes de baja / Error en el cálculo del stock disponible,2025-07-02T11:47:46.686-0300,2025-07-02T12:01:23.469-0300,0.23
+IT-20083,Survey,Gastón Ojeda,Relevamiento / Diferencias de stock,2025-07-02T14:00:56.861-0300,2025-07-02T19:44:47.825-0300,5.73
+IT-19890,Tarea,Luis Uran,MELI / Guardar campo pack_id,2025-07-01T17:22:07.611-0300,2025-07-03T12:56:11.978-0300,43.57
+IT-20089,Tarea,Diego Martin Gogorza,Modificación de canales de diferencias de stock,2025-07-03T15:31:43.029-0300,2025-07-03T15:33:43.516-0300,0.03
+IT-19799,Tarea,Franco Lorenzo,Notificación de auditoria / Obtener el primer producto activo para informar el estado del sitio,2025-07-04T12:49:35.265-0300,2025-07-04T12:49:38.886-0300,0.0
+IT-19934,Fix,Nicolas Pardo,Core de facturación / Fix de facturación en el checkout,2025-07-07T08:38:30.254-0300,2025-07-07T09:13:10.603-0300,0.58
+IT-19794,Tarea,Alan Mori - Carestino,Clasificación cuarentena / Clasificación masiva,2025-07-07T11:48:03.213-0300,2025-07-07T11:52:18.165-0300,0.07
+IT-19788,Lowfix,Gastón Ojeda,Ventas / Reintegro automático de ventas con diferencia de redondeo,2025-07-07T11:12:53.368-0300,2025-07-07T11:52:29.408-0300,0.66
+IT-19775,Tarea,Luis Uran,BI - CFT Real en Conciliador,2025-07-07T17:32:32.862-0300,2025-07-08T08:16:34.547-0300,14.73
+IT-19999,Lowfix,Nicolas Pardo,Cupones / Problemas con redondeo de descuentos porcentuales,2025-07-08T12:16:22.577-0300,2025-07-08T12:34:38.696-0300,0.3
+IT-19999,Lowfix,Nicolas Pardo,Cupones / Problemas con redondeo de descuentos porcentuales,2025-07-08T12:16:22.577-0300,2025-07-08T12:34:38.696-0300,0.3
+IT-19900,Tarea,Nicolas Pardo,Disponibilizar archivo XML y PDF o ZIP(con ambos) en las ventas de México,2025-07-10T09:42:13.311-0300,2025-07-10T10:27:44.817-0300,0.76
+IT-20367,Fix,Franco Lorenzo,GSC / Indexación: Implementación y corrección de canonicals,2025-07-10T16:21:37.451-0300,2025-07-10T16:22:38.065-0300,0.02
+IT-20335,Tarea,Diego Martin Gogorza,Relevamiento diferencias de stock MX,2025-07-11T09:58:58.950-0300,2025-07-11T09:59:01.509-0300,0.0
+IT-20307,Tarea,Gastón Ojeda,Carga Automática de Ventas / Log de ventas no cargadas por CAV,2025-07-10T18:14:06.586-0300,2025-07-11T12:36:44.798-0300,18.38
+IT-20250,Tarea,Gastón Ojeda,Frontend / Modal de stock en tiendas / Tener en cuenta límite de stock,2025-07-15T11:34:19.640-0300,2025-07-15T11:34:23.068-0300,0.0
+IT-20140,Fix,Gastón Ojeda,"MercadoPago / Reserva cambia de precio
+
+",2025-07-15T11:51:53.912-0300,2025-07-15T12:07:28.953-0300,0.26
+IT-20369,Tarea,Alan Mori - Carestino,Diferencias de stock / Movimientos hacia scrap,2025-07-15T14:14:04.111-0300,2025-07-15T14:17:53.848-0300,0.06
+IT-20434,Fix,Alan Mori - Carestino,Error generacion de guias de remision - Pe ,2025-07-16T12:24:15.282-0300,2025-07-16T14:27:27.439-0300,2.05
+IT-20248,Tarea,Gastón Ojeda,Automatización de datos de ordenes de compra en Google Sheets,2025-07-16T16:31:10.694-0300,2025-07-17T09:08:29.725-0300,16.62
+IT-20133,Survey,Nicolas Pardo,Problema con límite semanal de pedidos mayoristas/revendedores. ,2025-07-17T09:47:06.010-0300,2025-07-17T09:49:17.834-0300,0.04
+IT-20366,Tarea,Franco Lorenzo,GSC / Indexación: Relevamiento y mejoras del sitemap,2025-07-17T15:11:44.074-0300,2025-07-17T15:11:46.893-0300,0.0
+IT-19781,Tarea,Miguel Armentano,Error en el cálculo de percepciones Tucumán - Argentina,2025-07-17T16:46:16.126-0300,2025-07-17T16:54:34.580-0300,0.14
+IT-20370,Tarea,Gastón Ojeda,Diferencias de stock ocasionadas cuando se envían productos a almacenes del tipo Ajuste de Stock,2025-07-18T11:54:53.054-0300,2025-07-18T13:43:31.420-0300,1.81
+IT-19777,Tarea,Luis Uran,"BI - Pagos bancarios cancelados no repercuten en ""active"" de payments",2025-07-18T11:17:41.406-0300,2025-07-21T09:46:04.709-0300,70.47
+IT-20074,Tarea,Alan Mori - Carestino,Worpik / Mejoras formularios genericos - Campos obligatorios en color rojo 1/5,2025-07-21T13:56:17.411-0300,2025-07-21T16:21:50.076-0300,2.43
+IT-20375,Tarea,Alan Mori - Carestino,Worpik / Obligatoriedad de carga de campos en formularios para continuar con siguiente sección,2025-07-21T17:17:32.709-0300,2025-07-21T17:19:43.009-0300,0.04
+IT-19885,Tarea,Luis Uran,Ventas andesmar - logistica v2 - no levanta historico de estados,2025-07-21T10:56:46.722-0300,2025-07-22T11:30:36.083-0300,24.56
+IT-19980,Fix,Luis Uran,Relevamiento / Acciones comerciales / No finalizan las acciones comerciales,2025-07-22T16:26:54.647-0300,2025-07-22T17:28:25.699-0300,1.03
+IT-20613,Fix,Miguel Armentano,FIX / Facturación Automática ML Colombia,2025-07-22T16:00:55.303-0300,2025-07-22T17:28:48.400-0300,1.46
+IT-20616,Fix,Miguel Armentano,FIX / Modificación de proceso de re-facturación Colombia / Rechazos de la DIAN,2025-07-22T17:27:21.250-0300,2025-07-22T17:29:06.877-0300,0.03
+IT-20197,Tarea,Luis Uran,Nicox / Ocultar submódulo de permiso de limpieza de componente país,2025-07-22T12:53:01.452-0300,2025-07-22T17:29:30.453-0300,4.61
+IT-20263,Tarea,Gastón Ojeda,"Reemplazar filtro ""Estado de la orden"" - Logistica V2",2025-07-22T16:20:31.400-0300,2025-07-22T17:38:48.026-0300,1.3
+IT-20483,Tarea,Franco Lorenzo,Ecommerce / Menú horizontal / Aplicar doble linea a categorías con múltiples palabras,2025-07-23T10:41:30.789-0300,2025-07-23T10:43:41.335-0300,0.04
+IT-20157,Tarea,Gastón Ojeda,Mailing / No se envía correo al entregar los pedidos en Delivery App,2025-07-24T11:34:41.813-0300,2025-07-24T13:27:43.310-0300,1.88
+IT-20202,Lowfix,Gastón Ojeda,Ecommerce / No se disparan los datalayers del Ecommerce Legacy,2025-07-24T16:26:39.573-0300,2025-07-25T11:26:09.779-0300,18.99
+IT-20272,Fix,Miguel Armentano,Facturación Argentina / No se generan Facturas y Notas de Crédito E,2025-07-25T11:57:11.920-0300,2025-07-25T12:53:54.454-0300,0.95
+IT-20682,Tarea,Miguel Armentano,Percepciones SANTA FE,2025-07-25T16:07:14.911-0300,2025-07-25T16:14:52.460-0300,0.13
+IT-20354,Fix,Gastón Ojeda,MELI fulfillment / Tomar warehouse_id del PDV,2025-07-25T17:33:52.435-0300,2025-07-28T09:02:42.844-0300,63.48
+IT-20107,Tarea,Alan Mori - Carestino,Checkout / Modificar celulares de ejemplo en ecommerce,2025-07-28T12:21:04.624-0300,2025-07-28T12:22:56.254-0300,0.03
+IT-20098,Tarea,Miguel Armentano,Nicox no factura costo de envío - LATAM (api y nicox),2025-07-28T17:30:22.909-0300,2025-07-28T17:42:20.165-0300,0.2
+IT-20599,Fix,Miguel Armentano,Integración logística / Flexnet Ecuador / Ajuste solicitudes de token,2025-07-28T17:55:04.466-0300,2025-07-29T10:10:43.531-0300,16.26
+IT-19904,Tarea,Gastón Ojeda,ventas_edit / Mejorar validación de la dirección del cliente,2025-07-28T16:23:55.035-0300,2025-07-29T11:56:30.702-0300,19.54
+IT-20695,Tarea,Franco Lorenzo,Delivery app/ Incluir validación del tamaño de imagenes,2025-07-29T11:44:05.183-0300,2025-07-29T14:48:17.428-0300,3.07
+IT-20454,Tarea,Franco Lorenzo,Reclamos / Modificación del formulario,2025-07-29T16:16:02.419-0300,2025-07-29T16:30:12.480-0300,0.24
+IT-20456,Tarea,Franco Lorenzo,Reclamos / Bloquear envío de mensajes cuando el reclamo está resuelto,2025-07-29T16:46:23.671-0300,2025-07-29T16:47:05.820-0300,0.01
+IT-20105,Tarea,Alan Mori - Carestino,Guías de remisión / Perú / Agregar campo telefono y order_id,2025-07-28T17:00:32.954-0300,2025-07-30T08:43:53.712-0300,39.72
+IT-19993,Tarea,Gastón Ojeda,Factura por adelantado / Permitir reservas de GIFTCARD,2025-07-29T12:07:25.112-0300,2025-07-30T08:47:20.866-0300,20.67
+IT-20715,Fix,Nicolas Pardo,Falabella / Adaptar integración,2025-07-30T16:32:34.253-0300,2025-07-30T16:32:38.157-0300,0.0
+IT-20536,Tarea,Nicolas Pardo,Nicox / Adaptación de módulos para el funcionamiento de la home page / Settings,2025-07-31T12:42:40.791-0300,2025-07-31T13:03:49.710-0300,0.35
+IT-20776,Tarea,Gastón Ojeda,"Reclamos / Nuevo campo ""Gestión pendiente""",2025-07-31T12:36:50.553-0300,2025-07-31T13:38:41.188-0300,1.03
+IT-20174,Fix,Miguel Armentano,Expense / Billetera Virtual / no estan ingresando las transferencias a los registros de billetera virtual Mercado Pago,2025-07-31T15:27:18.174-0300,2025-08-01T08:42:39.453-0300,17.26
+IT-19906,Tarea,Alan Mori - Carestino,Partes / Validaciones de stock en movimientos y devoluciones,2025-07-31T11:16:46.065-0300,2025-08-01T08:45:42.436-0300,21.48
+IT-19790,Tarea,Alan Mori - Carestino,Registros Outlet y Exhibidos / Movimiento de stock automático,2025-08-01T16:51:04.080-0300,2025-08-01T17:15:20.416-0300,0.4
+IT-20537,Tarea,Nicolas Pardo,Nicox / Adaptación de módulos para el funcionamiento de la home page / Modulo encabezado,2025-08-04T09:23:07.715-0300,2025-08-04T11:28:28.615-0300,2.09
+IT-19976,Tarea,Alan Mori - Carestino,Amazon / Marketplace / Crear filtros en el módulo de amazon,2025-08-04T14:32:08.292-0300,2025-08-04T18:21:30.530-0300,3.82
+IT-20808,Tarea,Miguel Armentano,Tarifas de envío / Nueva configuración para omitir setting global,2025-08-04T12:29:20.618-0300,2025-08-04T18:36:42.428-0300,6.12
+IT-20254,Lowfix,Miguel Armentano,Checkout / Tarifario / Costo de envío en retiros en tienda,2025-08-05T10:00:56.797-0300,2025-08-05T13:05:43.954-0300,3.08
+IT-19908,Tarea,Alan Mori - Carestino,Pedidos tienda / Setting para pedidos automáticos de partes,2025-08-05T15:40:44.852-0300,2025-08-05T16:00:11.093-0300,0.32
+IT-20736,Fix,Gastón Ojeda,Fix / error al hacer movimiento de posiciones - WMS,2025-08-06T15:45:03.919-0300,2025-08-07T08:41:04.051-0300,16.93
+IT-20863,Tarea,Gastón Ojeda,Amazon / CAV / Omitir validación de datos del cliente.,2025-08-07T10:39:25.091-0300,2025-08-07T10:39:40.808-0300,0.0
+IT-19797,Tarea,Gastón Ojeda,Reclamos / Pasar filtro a Blade,2025-08-07T13:19:29.386-0300,2025-08-07T14:50:50.286-0300,1.52
+IT-19894,Tarea,Gastón Ojeda,CAV / Horario de corte variable / MercadoLibre,2025-08-05T13:45:49.966-0300,2025-08-07T14:50:56.306-0300,49.09
+IT-20401,Tarea,Miguel Armentano,Redefinición / Core de facturación / Fix de facturación en el checkout,2025-08-07T15:17:20.923-0300,2025-08-08T00:05:11.132-0300,8.8
+IT-20732,Fix,Miguel Armentano,Problemas al facturar,2025-08-07T15:17:27.502-0300,2025-08-08T00:06:24.595-0300,8.82
+IT-19988,Fix,Luis Uran,Error conciliacion multiple - Modulo Conciliador,2025-08-07T16:04:26.205-0300,2025-08-08T01:26:23.347-0300,9.37
+IT-20868,Tarea,Alan Mori - Carestino,Worpik / Validación de formularios contra requisitos excluyentes del proyecto,2025-08-07T18:10:32.530-0300,2025-08-08T08:56:40.967-0300,14.77
+IT-20854,Tarea,Franco Lorenzo,Formularios Reclamos | Solución elegida por cliente >> Obligatorio,2025-08-08T08:59:36.633-0300,2025-08-08T09:01:19.639-0300,0.03
+IT-20914,Hotfix,Franco Lorenzo,Ecommerce Costa Rica - Costo de envío,2025-08-08T10:51:44.805-0300,2025-08-08T10:52:43.763-0300,0.02
+IT-20657,Tarea,Luis Uran,Amazon / Cargar una venta de amazon con la fecha de entrega correcta,2025-08-08T11:13:51.284-0300,2025-08-08T11:57:10.221-0300,0.72
+IT-20870,Tarea,Alan Mori - Carestino,Relevamiento / Worpik / Funcionamiento del cron,2025-08-08T13:01:55.299-0300,2025-08-08T13:05:45.762-0300,0.06
+IT-20538,Tarea,Nicolas Pardo,Nicox / Adaptación de módulos para el funcionamiento de la home page / Modulo video,2025-08-09T09:52:58.080-0300,2025-08-11T11:07:54.205-0300,49.25
+IT-19882,Fix,Franco Lorenzo,Error Delivery App ,2025-08-11T11:52:21.854-0300,2025-08-11T11:57:12.816-0300,0.08
+IT-20252,Tarea,Alan Mori - Carestino,Clasificación cuarentena / Bloquear múltiple click al guardar clasificación,2025-08-11T12:50:47.464-0300,2025-08-11T12:52:16.355-0300,0.02
+IT-20747,Tarea,Franco Lorenzo,Ecommerce - Delivery-APP / Actualizar version de node,2025-08-11T13:32:25.254-0300,2025-08-11T13:35:40.021-0300,0.05
+IT-20767,Tarea,Luis Uran,MercadoLibre / Información sobre la fecha de generación de la etiqueta,2025-08-11T13:26:38.730-0300,2025-08-11T13:40:58.403-0300,0.24
+IT-20132,Tarea,Alan Mori - Carestino,"Worpik / Mejoras formularios genericos - Campo ""Ubicación"" 2/5",2025-08-11T15:28:56.706-0300,2025-08-11T15:34:47.365-0300,0.1
+IT-19997,Lowfix,Franco Lorenzo,Frontend / Poner decimales en 0 rompe las cuotas,2025-08-11T16:39:26.112-0300,2025-08-11T16:41:52.145-0300,0.04
+IT-19887,Tarea,Luis Uran,Integración Andesmar - Error remisión de guias ,2025-06-30T12:44:53.174-0300,2025-08-12T08:47:12.749-0300,1028.04
+IT-20941,Fix,Miguel Armentano,Fix / Tarifario / Check de cobro mediante tarifario en config de localidad,2025-08-12T10:57:23.421-0300,2025-08-12T11:12:49.205-0300,0.26
+IT-19995,Tarea,Alan Mori - Carestino,Retiras en tienda / Cambio en el aviso de disponibilidad de producto,2025-08-12T15:04:11.367-0300,2025-08-12T15:04:13.828-0300,0.0
+IT-19902,Tarea,Miguel Armentano,Factura contenedores consolidados,2025-08-12T11:51:27.650-0300,2025-08-12T16:51:37.654-0300,5.0
+IT-20924,Survey,Gastón Ojeda,Relevamiento / Errores encontrados en /mpipn_save.php,2025-08-12T15:07:06.218-0300,2025-08-12T16:58:00.602-0300,1.85
+IT-20377,Tarea,Alan Mori - Carestino,Movimientos de stock / Filtrar por estado del PDV,2025-08-12T16:58:34.420-0300,2025-08-12T17:29:56.145-0300,0.52
+IT-20463,Fix,Luis Uran,El Valor declarado que se le envia a Flash por integración es incorrecto,2025-08-13T11:10:17.418-0300,2025-08-13T11:17:33.238-0300,0.12
+IT-19982,Tarea,Alan Mori - Carestino,Ordenes de precio / Relacionar un producto a través de su familia de precios,2025-08-13T10:20:10.017-0300,2025-08-13T11:17:57.657-0300,0.96
+IT-20214,Tarea,Luis Uran,Falla de control de operaciones duplicadas - Eliminar operaciones individuales ,2025-08-13T15:57:34.648-0300,2025-08-13T17:25:55.965-0300,1.47
+IT-20460,Tarea,Luis Uran,Estirar plazo intervalo de payments en conciliación manual - modulo Conciliador,2025-08-13T16:44:11.657-0300,2025-08-13T17:26:32.484-0300,0.71
+IT-20371,Tarea,Luis Uran,"Comunicación / Estados externos / Funcionalidad ""Enviar Email a los Clientes"" no envía correo",2025-08-12T17:37:56.091-0300,2025-08-14T08:44:36.308-0300,39.11
+IT-20980,Fix,Nicolas Pardo,Fix / SMS masivo / Se envía el mismo mensaje reiteradas veces,2025-08-14T10:14:19.929-0300,2025-08-14T10:25:02.285-0300,0.18
+IT-20878,Tarea,Alan Mori - Carestino,Worpik / Seguimiento por email de formularios de aplicación incompletos,2025-08-14T11:25:13.855-0300,2025-08-15T09:31:16.844-0300,22.1
+IT-20218,Tarea,Luis Uran,BI - Campos Conciliador LATAM,2025-08-14T16:41:36.427-0300,2025-08-15T15:33:05.692-0300,22.86
+IT-20718,Tarea,Diego Martin Gogorza,Propiedades dinámicas deprecadas en Decidir,2025-08-15T15:32:17.116-0300,2025-08-15T15:33:29.803-0300,0.02
+IT-20373,Tarea,Alan Mori - Carestino,Log v2 - incidencias,2025-08-15T10:38:29.662-0300,2025-08-15T15:34:00.011-0300,4.93
+IT-20539,Tarea,Nicolas Pardo,Nicox / Adaptación de módulos para el funcionamiento de la home page / Modulo novedades,2025-08-15T17:28:04.505-0300,2025-08-18T08:42:44.128-0300,63.24
+IT-21002,Tarea,Alan Mori - Carestino,Ventas / Ecommerce / No aparece la información de la confirmación de la dirección,2025-08-19T10:59:37.287-0300,2025-08-19T10:59:40.455-0300,0.0
+IT-20034,Tarea,Miguel Armentano,Uploads / Storage new core / Footer,2025-08-18T10:03:23.333-0300,2025-08-20T13:45:02.921-0300,51.69
+IT-19910,Tarea,Luis Uran,Logistica / Nueva configuración para el CSV de logísticas,2025-08-20T13:32:33.333-0300,2025-08-20T13:45:57.882-0300,0.22
+IT-20653,Tarea,Franco Lorenzo,Reclamos / No permite avanzar porque pide parte,2025-08-20T16:17:55.932-0300,2025-08-20T16:18:56.436-0300,0.02
+IT-20286,Tarea,Luis Uran,Regla conciliación MercadoPago - Diferencia costo de envío - Modulo Conciliador,2025-08-20T09:53:28.865-0300,2025-08-20T16:30:27.708-0300,6.62
+IT-20973,Survey,Luis Uran,Relevamiento /  Staging / En el form de creación de las ventas de Amazon no aparece el pago.,2025-08-20T08:46:40.968-0300,2025-08-21T08:43:21.739-0300,23.94
+IT-21026,Fix,Miguel Armentano,Fix / Chile / Ventas ingresan sin costo de envío,2025-08-20T17:42:08.597-0300,2025-08-21T08:56:55.362-0300,15.25
+IT-20424,Tarea,Gastón Ojeda,BI - Ventas con tienda NULL en tableau global,2025-08-20T10:01:48.033-0300,2025-08-21T09:21:14.077-0300,23.32
+IT-20540,Tarea,Nicolas Pardo,Nicox / Adaptación de módulos para el funcionamiento de la home page / Modulo lanzamientos,2025-08-21T12:27:14.804-0300,2025-08-21T12:32:24.120-0300,0.09
+IT-21004,Tarea,Alan Mori - Carestino,Worpik / Formulario entrevistas en nueva pestaña,2025-08-21T13:24:49.642-0300,2025-08-21T13:34:54.039-0300,0.17
+IT-20759,Tarea,Luis Uran,Devolución de pagos en tienda,2025-08-20T17:18:12.429-0300,2025-08-21T16:36:29.661-0300,23.3
+IT-20959,Fix,Miguel Armentano,Tarifario / Borrado y edición de tarifarios,2025-08-21T17:15:10.138-0300,2025-08-21T17:19:52.882-0300,0.08
+IT-21008,Tarea,Alan Mori - Carestino,Worpik / Inactivar proyecto al alcanzar su fecha de finalización,2025-08-22T11:06:49.587-0300,2025-08-22T17:03:39.104-0300,5.95
+IT-21094,Fix,Miguel Armentano,Error en Facturación de Ordenes de Embarque,2025-08-25T11:35:53.960-0300,2025-08-25T11:37:55.682-0300,0.03
+IT-20642,Fix,Luis Uran,Carteles de precios / Corregir decimales en el cartel de outlet,2025-08-25T12:17:44.369-0300,2025-08-25T12:26:36.484-0300,0.15
+IT-20992,Tarea,Miguel Armentano,"Nicox no reconoce la percepción como tal en sus reportes, ante una reserva - Argentina",2025-08-25T15:04:09.655-0300,2025-08-26T08:40:33.110-0300,17.61
+IT-21177,Tarea,Franco Lorenzo,Instalación de HOTJAR - Productos AR y PA,2025-08-26T09:06:25.004-0300,2025-08-26T09:07:52.664-0300,0.02
+IT-21015,Tarea,Alan Mori - Carestino,Worpik / Autoguardado de Formularios de entrevista ,2025-08-25T17:43:32.798-0300,2025-08-26T09:51:21.514-0300,16.13
+IT-20471,Tarea,Luis Uran,Ordenes no remitidas / Limitar la cantidad de intentos de remisión cuando se genera error y agruparlos por order_id,2025-08-15T11:30:26.570-0300,2025-08-26T11:21:36.465-0300,263.85
+IT-20212,Tarea,Gastón Ojeda,"BI - Agregar campo ""status"" en tabla carestinoventas_claim_form_extra_fields",2025-08-26T12:48:22.572-0300,2025-08-26T12:57:37.682-0300,0.15
+IT-20774,Lowfix,Luis Uran,Planilla de stock/ Stock sin outlet / Ocultar almacén de Ajuste de stock,2025-08-26T11:56:23.452-0300,2025-08-26T13:01:00.120-0300,1.08
+IT-20541,Tarea,Nicolas Pardo,Nicox / Adaptación de módulos para el funcionamiento de la home page / Modulo servicios,2025-08-26T13:12:14.972-0300,2025-08-26T14:26:18.443-0300,1.23
+IT-20946,Tarea,Franco Lorenzo,Prueba de concepto Frontend - Indicadores de Sistema - NewRelic,2025-08-26T14:38:59.961-0300,2025-08-26T14:41:12.249-0300,0.04
+IT-21120,Tarea,Gastón Ojeda,Checkout / Quitar la condicionalidad para que se envíe siempre el campo json_data,2025-08-26T17:03:20.038-0300,2025-08-26T17:10:17.789-0300,0.12
+IT-20343,Tarea,Nicolas Pardo,Integración Liverpool,2025-08-27T09:50:48.848-0300,2025-08-27T10:02:15.354-0300,0.19
+IT-20573,Tarea,Miguel Armentano,Expense / Reemplazo Sofia / Workflow de Aprobación,2025-08-19T17:24:10.773-0300,2025-08-27T14:40:47.572-0300,189.28
+IT-21108,Lowfix,Luis Uran,Marketplace / Error en la sincronización de stock de las publicaciones,2025-08-27T15:15:59.129-0300,2025-08-27T16:09:24.577-0300,0.89
+IT-20391,Tarea,Gastón Ojeda,Mercadopago / Mejora / Ventas que quedan en -3 al ingresar el refund: reintegro e impacto de devolución automática,2025-08-25T16:45:30.388-0300,2025-08-27T17:30:43.981-0300,48.75
+IT-20997,Tarea,Miguel Armentano,Modulo Registros Tarjeta - Modificacion fecha cierre,2025-08-27T16:05:51.581-0300,2025-08-28T08:44:36.836-0300,16.65
+IT-21106,Tarea,Luis Uran,Marketplace / Agregar limite minimo de stock disponible,2025-08-28T08:53:34.522-0300,2025-08-28T09:02:44.211-0300,0.15
+IT-20728,Tarea,Franco Lorenzo,"GSC / SEO: Resultados enriquecidos - Productos, reviews, organización",2025-08-28T12:44:42.178-0300,2025-08-28T13:21:26.911-0300,0.61
+IT-20952,Tarea,Gastón Ojeda,Reclamos / Crear comportamientos de orden en transito o sin despachar,2025-08-28T17:36:19.412-0300,2025-08-29T08:48:24.279-0300,15.2
+IT-21194,Tarea,Miguel Armentano,Revisión/Actualización Facturador Costa Rica,2025-08-29T14:41:19.069-0300,2025-08-29T14:54:44.855-0300,0.22
+IT-20772,Tarea,Luis Uran,Stock today / No actualiza valor cuando el stock es 0,2025-08-29T15:54:51.659-0300,2025-08-29T16:14:09.153-0300,0.32
+IT-20724,Lowfix,Franco Lorenzo,Ecommerce / Configuracion de sesiones,2025-08-29T16:22:36.749-0300,2025-08-29T16:24:01.045-0300,0.02
+IT-20542,Tarea,Nicolas Pardo,Nicox / Adaptación de módulos para el funcionamiento de la home page / Modulo blog,2025-08-29T16:15:13.523-0300,2025-08-29T16:37:59.250-0300,0.38
+IT-20765,Lowfix,Luis Uran,Relevamiento - Orden cuyo valor real no impacta en la CC,2025-08-29T15:13:51.560-0300,2025-08-29T16:45:59.992-0300,1.54
+IT-20995,Tarea,Miguel Armentano,BI - Expense Limitador en fecha de comprobante,2025-08-27T17:41:25.098-0300,2025-08-29T17:27:46.927-0300,47.77
+IT-21187,Tarea,Alan Mori - Carestino,"Worpik / Generar nueva url al clickear ""Aplicar""",2025-08-28T14:42:59.644-0300,2025-09-01T09:07:42.834-0300,90.41
+IT-20762,Lowfix,Juan Ignacio Morelis - Carestino,Achique minorista - Agregar datos de achique a remitos ,2025-09-01T09:38:10.935-0300,2025-09-01T12:06:57.816-0300,2.48
+IT-21049,Fix,Nicolas Pardo,Fix / Falabella / No tener en cuenta los costos de envío,2025-09-01T11:47:52.765-0300,2025-09-01T12:07:18.646-0300,0.32
+IT-21123,Fix,Miguel Armentano,Cierre Fondo Fijo - Error Traslado de saldo,2025-09-02T11:46:35.623-0300,2025-09-02T11:47:34.143-0300,0.02
+IT-20768,Lowfix,Juan Ignacio Morelis - Carestino,Pedidos de partes - no se asignan a dispatch and control en primer ejecucion,2025-09-02T11:53:42.275-0300,2025-09-02T16:03:52.043-0300,4.17
+IT-21281,Fix,Luis Uran,Mercado libre / no se envia precios en publicaciones agrupadas,2025-09-02T17:02:33.001-0300,2025-09-02T17:15:53.212-0300,0.22
+IT-21114,Fix,Luis Uran,Limpiar ordenes no remitidas con error,2025-09-03T13:23:05.151-0300,2025-09-03T15:23:43.767-0300,2.01
+IT-20543,Tarea,Nicolas Pardo,Nicox / Adaptación de módulos para el funcionamiento de la home page / Modulo URL de footer,2025-09-03T12:35:49.318-0300,2025-09-03T16:49:08.452-0300,4.22
+IT-21201,Fix,Alan Mori - Carestino,Fix / Resumen de candidato con errores ,2025-09-04T09:40:27.155-0300,2025-09-04T10:45:41.958-0300,1.09
+IT-21223,Tarea,Luis Uran,Transacciones Pago Genérico - Modulo conciliador ,2025-09-04T17:22:11.961-0300,2025-09-05T09:36:16.265-0300,16.23
+IT-21010,Tarea,Alan Mori - Carestino,Worpik / Validación del proyecto por BT,2025-09-04T17:46:00.542-0300,2025-09-05T09:39:57.132-0300,15.9
+IT-20828,Tarea,Gastón Ojeda,Amazon / Implementación de circuito logístico,2025-09-04T16:23:53.072-0300,2025-09-05T10:25:41.021-0300,18.03
+IT-20461,Tarea,Miguel Armentano,Error carga gasto FF Mantenimiento,2025-09-05T15:58:18.682-0300,2025-09-05T17:17:58.509-0300,1.33
+IT-19973,Fix,Gastón Ojeda,Acciones Comerciales / Ordenes de Limpieza / Incluir limpieza de componentes en ordenes de limpieza,2025-09-05T14:43:23.276-0300,2025-09-08T08:43:49.073-0300,66.01
+IT-21006,Tarea,Alan Mori - Carestino,Worpik / Limitación de datos para los reclutadores,2025-09-08T10:07:07.437-0300,2025-09-08T10:26:08.235-0300,0.32
+IT-21283,Tarea,Gastón Ojeda,Crear propiedad para logística  exclusiva de marketplace,2025-09-08T11:06:07.535-0300,2025-09-08T11:08:32.011-0300,0.04
+IT-21179,Fix,Luis Uran,Logistica V2 / Configurar códigos de guías para ventas sin integración,2025-09-05T14:29:24.040-0300,2025-09-08T16:13:13.812-0300,73.73
+IT-20783,Tarea,Alan Mori - Carestino,"Worpik / Mejoras formularios genericos - Campo ""Ubicación"" 3/5",2025-09-08T17:23:54.417-0300,2025-09-09T08:44:34.584-0300,15.34
+IT-20199,Tarea,Franco Lorenzo,"Ecommerce / Ajuste de comunicación en la URL de ""envios""",2025-09-09T15:59:40.989-0300,2025-09-09T16:00:25.708-0300,0.01
+IT-19892,Tarea,Gastón Ojeda,Listado de ventas / Filtro por logística,2025-09-08T13:59:15.507-0300,2025-09-09T17:35:22.730-0300,27.6
+IT-21159,Survey,Luis Uran,Relevamiento del conciliador con la procesadora Amazon,2025-09-09T17:39:26.212-0300,2025-09-09T17:39:28.367-0300,0.0
+IT-19968,Tarea,Franco Lorenzo,Comparativa de Producto / Mejoras Frontend V2,2025-09-09T17:48:07.647-0300,2025-09-10T08:41:58.572-0300,14.9
+IT-20458,Tarea,Gastón Ojeda,Ordenes de limpieza / Crear una orden de limpieza al apagar o encender un slider,2025-09-09T13:34:28.626-0300,2025-09-10T08:49:22.902-0300,19.25
+IT-21382,Tarea,Alan Mori - Carestino,BI / Training - Cuestionarios de Capacitación | Retail,2025-09-10T15:51:12.153-0300,2025-09-10T15:55:51.489-0300,0.08
+IT-20114,Tarea,Franco Lorenzo,Evaluación final rediseño Checkout,2025-09-09T10:42:44.579-0300,2025-09-11T09:13:38.753-0300,46.52
+IT-21457,Tarea,Alan Mori - Carestino,Ecommerce / Listado de productos / Reproducir .gif,2025-09-11T15:01:54.880-0300,2025-09-11T15:01:59.069-0300,0.0
+IT-20866,Lowfix,Luis Uran,Ventas / Problema de visualización de provincia en venta sin provincia de entrega,2025-09-10T17:25:43.468-0300,2025-09-11T16:22:16.550-0300,22.94
+IT-21366,Fix,Luis Uran,log v2 - error en estados - UY,2025-09-11T17:34:54.779-0300,2025-09-11T17:38:59.095-0300,0.07
+IT-20865,Tarea,Luis Uran,Reclamos / Quitar el mensaje del correo de actualización de la gestión,2025-09-12T10:06:02.181-0300,2025-09-12T10:18:32.151-0300,0.21
+IT-20262,Tarea,Alan Mori - Carestino,Logistica V2 / Filtros,2025-09-12T13:29:25.149-0300,2025-09-12T13:32:29.109-0300,0.05
+IT-20687,Tarea,Luis Uran,Ordenes - Precios / Validaciones en la carga masiva,2025-09-12T16:36:51.064-0300,2025-09-12T16:38:29.082-0300,0.03
+IT-21316,Tarea,Luis Uran,Log V2 / Eliminar filtro de tipo de incidencia,2025-09-12T10:53:30.237-0300,2025-09-12T17:07:52.488-0300,6.24
+IT-20876,Tarea,Alan Mori - Carestino,"Worpik / Formularios generales - ""Redes sociales""",2025-09-12T17:42:32.829-0300,2025-09-15T09:34:27.217-0300,63.87
+IT-19953,Tarea,Alan Mori - Carestino,Comparativa de productos / Modificar la estructura de datos,2025-09-15T12:20:50.112-0300,2025-09-15T13:35:42.185-0300,1.25
+IT-20544,Tarea,Nicolas Pardo,Nicox / Adaptación de módulos para el funcionamiento de la home page / Modulo panel de Home Page,2025-09-15T16:12:59.752-0300,2025-09-15T16:58:18.025-0300,0.76
+IT-21297,Tarea,Franco Lorenzo,Cambio de domicilio y numero telefónico en página web sección Política de privacidad - Argentina ,2025-09-16T08:59:00.637-0300,2025-09-16T10:46:39.494-0300,1.79
+IT-21512,Tarea,Alan Mori - Carestino,Fix / Ecommerce / Listado de productos / Reproducir .gif,2025-09-16T15:56:26.131-0300,2025-09-16T15:57:06.140-0300,0.01
+IT-20427,Tarea,Nicolas Pardo,Falabella / Implementar para provincias y localidades de CO un diccionario para Falabella,2025-09-17T13:49:42.514-0300,2025-09-17T14:27:07.994-0300,0.62
+IT-21023,Fix,Gastón Ojeda,Fix / Ventas con tipo de venta incorrecto,2025-09-16T16:58:18.001-0300,2025-09-17T16:17:02.023-0300,23.31
+IT-21441,Lowfix,Luis Uran,Carteles / Nombres se solapan con el color,2025-09-17T12:03:41.152-0300,2025-09-17T16:18:26.438-0300,4.25
+IT-20628,Fix,Gastón Ojeda,Fix / Ecommerce / Proximamente se muestra en productos que tienen fecha de ingreso,2025-09-15T14:00:02.798-0300,2025-09-18T09:06:14.143-0300,67.1
+IT-21225,Tarea,Gastón Ojeda,Delivery app / Aumentar limite de tamaño de imagen a 4MB,2025-09-18T08:45:16.759-0300,2025-09-18T09:06:51.166-0300,0.36
+IT-21017,Tarea,Miguel Armentano,TxT Percepciones Tucuman,2025-09-18T11:23:54.760-0300,2025-09-18T11:27:13.634-0300,0.06
+IT-21462,Tarea,Luis Uran,Log v2 - error en estados logísticos - Depurar base de datos,2025-09-12T16:18:16.428-0300,2025-09-18T15:31:14.155-0300,143.22
+IT-20103,Tarea,Miguel Armentano,Límite caracteres campo Numero de Cupon - Formulario Pago Tarjeta Chile,2025-09-18T14:55:48.641-0300,2025-09-18T16:11:25.132-0300,1.26
+IT-20821,Tarea,Nicolas Pardo,CAV / Falabella,2025-09-19T10:03:40.499-0300,2025-09-19T10:50:28.811-0300,0.78
+IT-21318,Lowfix,Luis Uran,Payments / status inactive en pagos genéricos,2025-09-12T12:25:19.660-0300,2025-09-19T15:09:38.273-0300,170.74
+IT-21020,Tarea,Nicolas Pardo,Falabella / Integración Falabella FULL,2025-09-19T17:09:42.179-0300,2025-09-22T09:09:40.152-0300,64.0
+IT-21466,Tarea,Miguel Armentano,Dominicana / Crear variables de entorno ,2025-09-22T10:53:13.937-0300,2025-09-22T10:53:18.526-0300,0.0
+IT-20576,Tarea,Miguel Armentano,Expense / Reemplazo Sofia / Solicitudes de modificación de Otros proveedores,2025-09-22T10:53:05.042-0300,2025-09-23T08:41:03.021-0300,21.8
+IT-21604,Tarea,Alan Mori - Carestino,Ecommerce / Familia / Agregar selector de criterio de ordenamiento dentro de una familia,2025-09-22T15:44:21.934-0300,2025-09-23T08:46:08.000-0300,17.03
+IT-21524,Tarea,Franco Lorenzo,Categorías / Frontend / Mantener categoría en SLUG de producto,2025-09-23T12:34:04.675-0300,2025-09-23T12:36:38.734-0300,0.04
+IT-21486,Tarea,Alan Mori - Carestino,Portal BT / Contacto / Backend/ Agregar motivos y teléfonos,2025-09-23T12:36:38.397-0300,2025-09-23T16:08:03.490-0300,3.52
+IT-21480,Tarea,Alan Mori - Carestino,Categorías / Mantener categoría en SLUG de producto,2025-09-23T16:20:35.883-0300,2025-09-23T16:31:31.184-0300,0.18
+IT-21424,Tarea,Luis Uran,Actualizar API resellers,2025-10-02T10:45:36.616-0300,2025-09-24T12:27:16.323-0300,-190.31
+IT-21606,Tarea,Franco Lorenzo,"Ecommerce / Frontend / Productos / Encapsular el ordenamiento manual como un ordenamiento de categoría ""Custom""",2025-09-24T15:52:50.887-0300,2025-09-24T15:56:03.379-0300,0.05
+IT-21303,Tarea,Luis Uran,Tableau_global / Channel y subchannel / Nueva estructura  e inclusión de marketplaces,2025-09-25T10:32:08.203-0300,2025-09-25T11:07:56.872-0300,0.6
+IT-21487,Tarea,Franco Lorenzo,Portal BT / Contacto / Frontend/ Agregar motivos y teléfonos,2025-09-25T15:16:52.151-0300,2025-09-25T15:19:42.412-0300,0.05
+IT-21642,Tarea,Alan Mori - Carestino,Carestino Pets / Backend / Incluir interés en categoría,2025-09-25T11:39:44.563-0300,2025-09-25T15:43:56.180-0300,4.07
+IT-21644,Tarea,Alan Mori - Carestino,Carestino Pets / Backtend / Indicar la audiencia de un producto adquirido en GTM,2025-09-25T17:04:58.556-0300,2025-09-26T11:01:51.978-0300,17.95
+IT-21692,Tarea,Franco Lorenzo,Carestino Pets / Frontend  / Indicar la audiencia de un producto adquirido en GTM,2025-09-26T14:59:16.812-0300,2025-09-26T15:06:49.236-0300,0.13
+IT-21677,Lowfix,Luis Uran,NO concilia con datos coincidentes Amazon - Modulo Conciliador,2025-09-26T13:47:49.204-0300,2025-09-26T17:11:09.858-0300,3.39
+IT-21675,Lowfix,Luis Uran,El modulo conciliador del lado de NICOX (Payments) levanta cobros rechazados,2025-09-26T12:33:25.308-0300,2025-09-26T17:11:37.870-0300,4.64
+IT-21439,Tarea,Luis Uran,Marcar operaciones como conciliadas - Conciliador,2025-09-26T09:49:14.952-0300,2025-09-29T09:33:55.716-0300,71.74
+IT-21725,Fix,Alan Mori - Carestino,Training / Error en Campos Solicitados de Formularios,2025-09-29T11:44:11.639-0300,2025-09-29T11:46:04.667-0300,0.03
+IT-21490,Tarea,Alan Mori - Carestino,Productos / Certificaciones,2025-09-29T16:18:01.751-0300,2025-09-29T16:25:56.383-0300,0.13
+IT-21522,Tarea,Franco Lorenzo,Productos / Frontend / Certificaciones,2025-09-30T10:44:11.266-0300,2025-09-30T10:44:44.035-0300,0.01
+IT-20575,Tarea,Miguel Armentano,Expense / Reemplazo Sofia / Mejora Módulo Otros proveedores,2025-09-17T17:43:42.532-0300,2025-09-30T14:58:53.395-0300,309.25
+IT-21709,Tarea,Luis Uran,CAV CL / ML / Eliminar validación sobre el código postal,2025-09-30T11:32:11.766-0300,2025-09-30T15:04:23.348-0300,3.54
+IT-21728,Fix,Juan Ignacio Morelis - Carestino,error dispatch and control mercadolibre - no valida el codigo de la etiqueta (id de venta de mercadolibre),2025-09-30T16:29:02.266-0300,2025-09-30T16:32:20.482-0300,0.06
+IT-21560,Tarea,Nicolas Pardo,Circuito Inverso / Core de cancelación de ventas,2025-09-30T14:20:08.008-0300,2025-09-30T16:54:30.225-0300,2.57
+IT-21738,Tarea,Alan Mori - Carestino,Worpik / Agregar configuración para continuar un proyecto inactivo,2025-09-30T17:44:03.665-0300,2025-10-01T08:48:45.096-0300,15.08
+IT-21364,Tarea,Franco Lorenzo,Habilitar entorno ecommerce STG para DO,2025-10-01T11:29:00.613-0300,2025-10-01T11:29:02.087-0300,0.0
+IT-21493,Tarea,Gastón Ojeda,Planilla de control de stock / Ventas de MercadoLibre,2025-09-30T17:37:02.820-0300,2025-10-01T12:14:27.517-0300,18.62
+IT-21732,Tarea,Franco Lorenzo,Slug Category - Generación de paginas en el servidor,2025-10-01T16:22:30.574-0300,2025-10-01T16:28:04.215-0300,0.09
+IT-21305,Tarea,Gastón Ojeda,Ventas / Anulación de reintegro,2025-10-02T11:46:42.872-0300,2025-10-02T11:50:21.040-0300,0.06
+IT-21484,Tarea,Alan Mori - Carestino,Productos / Cargar video en producto,2025-10-02T12:39:14.906-0300,2025-10-02T12:48:12.035-0300,0.15

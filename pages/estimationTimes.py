@@ -11,7 +11,7 @@ st.set_page_config(page_title="Cycle Times (CSV)", page_icon="📄", layout="wid
 
 # ========= Config =========
 DEFAULT_CSV = "cycle_times.csv"
-CSV_PATH = os.getenv("CSV_PATH", DEFAULT_CSV)  # opcional: export CSV_PATH=/ruta/archivo.csv
+CSV_PATH = os.getenv("CSV_PATH", DEFAULT_CSV)
 AR_TZ = ZoneInfo("America/Argentina/Buenos_Aires")
 
 st.title("📄 Visualizador de tiempos entre estados (desde CSV)")
@@ -19,24 +19,20 @@ st.title("📄 Visualizador de tiempos entre estados (desde CSV)")
 # ========= Sidebar =========
 st.sidebar.header("⚙️ Fuente de datos")
 st.sidebar.write("El archivo se carga automáticamente desde disco.")
-csv_override = st.sidebar.text_input("Ruta del CSV (opcional)", value=CSV_PATH, help="Dejá vacío para usar cycle_times.csv")
+csv_override = st.sidebar.text_input("Ruta del CSV (opcional)", value=CSV_PATH)
 uploaded = st.sidebar.file_uploader("…o subir un CSV distinto", type=["csv"])
 reload_btn = st.sidebar.button("🔄 Recargar")
 
 # ========= Carga de datos =========
 @st.cache_data(show_spinner=False)
 def load_csv_from_path(path: str) -> pd.DataFrame:
-    df = pd.read_csv(path)
-    return df
+    return pd.read_csv(path)
 
 @st.cache_data(show_spinner=False)
 def load_csv_from_bytes(file) -> pd.DataFrame:
-    df = pd.read_csv(file)
-    return df
+    return pd.read_csv(file)
 
-df_raw = None
-error = None
-
+df_raw, error = None, None
 try:
     if uploaded is not None:
         df_raw = load_csv_from_bytes(uploaded)
@@ -66,7 +62,6 @@ if missing:
     st.stop()
 
 def parse_dt(s: str):
-    # Formato Jira: 2025-08-01T10:06:58.847-0300
     return pd.to_datetime(s, format="%Y-%m-%dT%H:%M:%S.%f%z", errors="coerce")
 
 df = df_raw.copy()
@@ -80,6 +75,8 @@ df["days"] = df["hours"] / 24.0
 
 # ========= Filtros =========
 st.sidebar.header("🔍 Filtros")
+
+# Fecha
 min_day, max_day = df["to_day"].min(), df["to_day"].max()
 default_start = max_day - timedelta(days=30) if pd.notna(max_day) else None
 date_sel = st.sidebar.date_input(
@@ -89,13 +86,23 @@ date_sel = st.sidebar.date_input(
     max_value=max_day if pd.notna(max_day) else None,
 )
 
+# Horas
 min_h = float(np.nan_to_num(df["hours"].min(), nan=0.0))
 max_h = float(np.nan_to_num(df["hours"].max(), nan=0.0))
 h_sel = st.sidebar.slider("Rango de horas", min_value=0.0, max_value=max(1.0, round(max_h + 0.5, 1)),
                           value=(0.0, max(1.0, round(max_h + 0.5, 1))), step=0.1)
 
+# Texto
 q = st.sidebar.text_input("Buscar en issueKey/summary", "").strip().lower()
 
+# Nuevo: Filtros de asignado y tipo
+assignees = sorted(df["assignee"].dropna().unique().tolist())
+issue_types = sorted(df["issueType"].dropna().unique().tolist())
+
+selected_assignees = st.sidebar.multiselect("Persona asignada", options=assignees, default=assignees)
+selected_types = st.sidebar.multiselect("Tipo de tarea", options=issue_types, default=issue_types)
+
+# Aplicar filtros
 f = df.copy()
 if isinstance(date_sel, (list, tuple)) and len(date_sel) == 2:
     a, b = date_sel
@@ -104,6 +111,7 @@ if isinstance(date_sel, (list, tuple)) and len(date_sel) == 2:
 f = f[(f["hours"] >= h_sel[0]) & (f["hours"] <= h_sel[1])]
 if q:
     f = f[f["issueKey"].str.lower().str.contains(q) | f["summary"].str.lower().str.contains(q)]
+f = f[f["assignee"].isin(selected_assignees) & f["issueType"].isin(selected_types)]
 
 # ========= KPIs =========
 c1, c2, c3, c4, c5 = st.columns(5)
@@ -119,17 +127,46 @@ st.markdown("---")
 st.subheader("Distribución de horas")
 hist = alt.Chart(f).mark_bar().encode(
     x=alt.X("hours:Q", bin=alt.Bin(maxbins=30), title="Horas"),
-    y=alt.Y("count()", title="Cantidad")
+    y=alt.Y("count()", title="Cantidad"),
+    tooltip=["count()"]
 ).properties(height=260)
 st.altair_chart(hist, use_container_width=True)
 
-st.subheader("Promedio por día (to_date)")
+st.subheader("Promedio por día (horas)")
 daily = f.groupby("to_day", as_index=False)["hours"].mean().rename(columns={"hours": "avg_hours"})
 line = alt.Chart(daily).mark_line(point=True).encode(
     x=alt.X("to_day:T", title="Fecha"),
-    y=alt.Y("avg_hours:Q", title="Horas promedio")
+    y=alt.Y("avg_hours:Q", title="Horas promedio"),
+    tooltip=["to_day", "avg_hours"]
 ).properties(height=260)
 st.altair_chart(line, use_container_width=True)
+
+st.subheader("Promedio por día (días)")
+daily_days = f.groupby("to_day", as_index=False)["days"].mean().rename(columns={"days": "avg_days"})
+line_days = alt.Chart(daily_days).mark_line(point=True, color="green").encode(
+    x=alt.X("to_day:T", title="Fecha"),
+    y=alt.Y("avg_days:Q", title="Días promedio"),
+    tooltip=["to_day", "avg_days"]
+).properties(height=260)
+st.altair_chart(line_days, use_container_width=True)
+
+st.subheader("Horas promedio por persona asignada")
+bar_assignee = alt.Chart(f).mark_bar().encode(
+    x=alt.X("assignee:N", title="Persona"),
+    y=alt.Y("hours:Q", aggregate="mean", title="Horas promedio"),
+    color="assignee:N",
+    tooltip=["assignee", "mean(hours)"]
+).properties(height=300)
+st.altair_chart(bar_assignee, use_container_width=True)
+
+st.subheader("Horas promedio por tipo de tarea")
+bar_type = alt.Chart(f).mark_bar().encode(
+    x=alt.X("issueType:N", title="Tipo"),
+    y=alt.Y("hours:Q", aggregate="mean", title="Horas promedio"),
+    color="issueType:N",
+    tooltip=["issueType", "mean(hours)"]
+).properties(height=300)
+st.altair_chart(bar_type, use_container_width=True)
 
 st.markdown("---")
 
@@ -145,5 +182,3 @@ st.download_button(
     file_name="cycle_times_filtered.csv",
     mime="text/csv"
 )
-
-st.caption("Sugerencia: definí CSV_PATH en el entorno para apuntar a otro archivo por defecto.")
