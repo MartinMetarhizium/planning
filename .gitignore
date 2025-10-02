@@ -11,3 +11,5 @@ acciones_mkt.py
 /.streamlit/*
 .env
 jira_bt_issues.json
+otta.py
+reporting_tableau.py

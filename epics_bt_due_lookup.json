@@ -247,7 +247,7 @@
       {
         "key": "BTP-3678",
         "story_points": null,
-        "status": "TO REFINEMENT"
+        "status": "CANCELADO POR BT"
       },
       {
         "key": "BTP-3663",
@@ -256,11 +256,6 @@
       },
       {
         "key": "BTP-3662",
-        "story_points": null,
-        "status": "TO REFINEMENT"
-      },
-      {
-        "key": "BTP-3661",
         "story_points": null,
         "status": "TO REFINEMENT"
       },
@@ -292,17 +287,7 @@
       {
         "key": "BTP-3578",
         "story_points": null,
-        "status": "TO REFINEMENT"
-      },
-      {
-        "key": "BTP-3577",
-        "story_points": null,
-        "status": "TO REFINEMENT"
-      },
-      {
-        "key": "BTP-3560",
-        "story_points": null,
-        "status": "TO REFINEMENT"
+        "status": "Redefiniendo"
       },
       {
         "key": "BTP-3552",

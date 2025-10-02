@@ -15,7 +15,8 @@ def setup_navigation():
         martin = st.Page("pages/martin.py", title="Martin")
         martinBt = st.Page("pages/martin_bt.py", title="martin BT")
         worpik = st.Page("pages/worpik.py", title="Worpik")
-        nav = st.navigation([alan, martinBt, martin, worpik])
+        estimaciones = st.Page("pages/estimationTimes.py", title="Estimaciones")
+        nav = st.navigation([alan, martinBt, martin, worpik, estimaciones])
         nav.run()
         return True
 
@@ -25,6 +26,7 @@ def setup_navigation():
         st.page_link("pages/martin.py", label="Martin")
         st.page_link("pages/martin_bt.py", label="martin BT")
         st.page_link("pages/worpik.py", label="Worpik")
+        st.page_link("pages/estimationTimes.py", label="Estimaciones")
         st.caption("Si no ves las páginas, verifica que el Main file sea planning/app.py y la carpeta se llame exactamente pages/")
         return True
     
