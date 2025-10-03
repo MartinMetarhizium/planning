@@ -58,7 +58,7 @@
       {
         "key": "IT-20343",
         "story_points": 100.0,
-        "status": "REVIEW ON HOLD"
+        "status": "TO DEPLOY QA"
       }
     ]
   },
@@ -67,9 +67,19 @@
     "summary": "Falabella",
     "tasks": [
       {
+        "key": "IT-21773",
+        "story_points": 4.0,
+        "status": "BACKLOG"
+      },
+      {
+        "key": "IT-21744",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
         "key": "IT-21020",
         "story_points": 6.0,
-        "status": "TO DEPLOY QA"
+        "status": "FINISH"
       },
       {
         "key": "IT-20821",
@@ -99,13 +109,13 @@
       },
       {
         "key": "IT-21393",
-        "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "story_points": 5.0,
+        "status": "BACKLOG"
       },
       {
         "key": "IT-21364",
         "story_points": 2.0,
-        "status": "ON HOLD"
+        "status": "TO DEPLOY QA"
       }
     ]
   },
@@ -207,7 +217,7 @@
       {
         "key": "IT-20114",
         "story_points": 10.0,
-        "status": "REVIEW ON HOLD"
+        "status": "BACKLOG"
       },
       {
         "key": "IT-19877",
@@ -320,6 +330,11 @@
     "due_date": "2025-10-31",
     "summary": "Training",
     "tasks": [
+      {
+        "key": "IT-21725",
+        "story_points": 1.0,
+        "status": "FINISH"
+      },
       {
         "key": "IT-21382",
         "story_points": 16.0,
@@ -451,7 +466,7 @@
       {
         "key": "IT-21424",
         "story_points": 80.0,
-        "status": "En progreso"
+        "status": "CODE REVIEW"
       }
     ]
   },
@@ -478,7 +493,7 @@
       {
         "key": "IT-21466",
         "story_points": 4.0,
-        "status": "STG TESTING"
+        "status": "FINISH"
       },
       {
         "key": "IT-20944",
@@ -3996,6 +4011,11 @@
     "summary": "UNIT TESTS / ECOMMERCE ",
     "tasks": [
       {
+        "key": "IT-21733",
+        "story_points": 4.0,
+        "status": "BACKLOG"
+      },
+      {
         "key": "IT-16181",
         "story_points": 4.0,
         "status": "FINISH"
@@ -5272,7 +5292,7 @@
       {
         "key": "IT-21328",
         "story_points": 8.0,
-        "status": "BACKLOG"
+        "status": "En progreso"
       },
       {
         "key": "IT-21326",
@@ -8214,12 +8234,12 @@
       {
         "key": "IT-21585",
         "story_points": 2.0,
-        "status": "BACKLOG"
+        "status": "En progreso"
       },
       {
         "key": "IT-21584",
         "story_points": 2.0,
-        "status": "BACKLOG"
+        "status": "En progreso"
       },
       {
         "key": "IT-19832",
@@ -8847,12 +8867,12 @@
       {
         "key": "IT-20576",
         "story_points": 44.0,
-        "status": "En progreso"
+        "status": "ON PAUSE"
       },
       {
         "key": "IT-20575",
         "story_points": 72.0,
-        "status": "CODE REVIEW"
+        "status": "PENDING REVIEW"
       },
       {
         "key": "IT-20574",
@@ -10245,7 +10265,7 @@
       {
         "key": "IT-21225",
         "story_points": 16.0,
-        "status": "REVIEW ON HOLD"
+        "status": "PENDING REVIEW"
       },
       {
         "key": "IT-15804",
