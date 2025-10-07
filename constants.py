@@ -1,41 +1,65 @@
 import requests
 PROJECT_MAP = {
     "Alan Mori - Carestino": {
-        "Worpik": "2025-08-14",
-        "Clientes": "2025-10-30",
-        "Descripciones automáticas / plantillas Interior templates": "2026-01-01",
-        "Training": "2026-02-01",
-        "API Whatsapp": "2026-01-01"
+        "Worpik": {"deadline": "2025-08-14", "progress": 0},
+        "Clientes": {"deadline": "2025-10-30", "progress": 0},
+        "Descripciones automáticas / plantillas Interior templates": {"deadline": "2026-01-01", "progress": 0},
+        "Training": {"deadline": "2026-02-01", "progress": 10},
+        "API Whatsapp": {"deadline": "2026-01-01", "progress": 0},
+        "Auditoría de stock": {"deadline": "2025-11-30", "progress": 0},
     },
     "Franco Lorenzo": {
-        "Rediseño Portal Gestión": "2025-07-30",
-        "Rediseño Admin Nicox": "2025-12-01",
-        "Indicadores de sistema": "2025-08-10"
+        "Rediseño Portal Gestión": {"deadline": "2025-07-30", "progress": 0},
+        "Rediseño Admin Nicox": {"deadline": "2025-12-01", "progress": 0},
+        "Indicadores de sistema": {"deadline": "2025-08-10", "progress": 0},
+        "Lupa Buscador Sitio WEB": {"deadline": "2025-10-31", "progress": 0},
+        "Rediseño web - Carestino": {"deadline": "2025-10-01", "progress": 90},
+        "Filtros en listado de productos – Desarrollo y ajustes": {"deadline": "2026-01-31", "progress": 0},
+
     },
     "Gastón Ojeda": {
-        "Customer Experience (Bot, Gestiones, Reclamos, automatización de ventas)": "2026-01-01",
+        "Customer Experience (Bot, Gestiones, Reclamos, automatización de ventas)": {"deadline": "2026-01-01", "progress": 30},
     },
     "Miguel Armentano": {
-        "Facturación USA": "2025-08-01",
-        "Expenses - SAP": "2025-10-30",
+        "Facturación USA": {"deadline": "2025-08-01", "progress": 100},
+        "Expenses - SAP": {"deadline": "2025-10-30", "progress": 0},
     },
     "Luis Uran": {
-        "Actualizar API Reseller": "2025-12-01",
-        "Mejoras en Seguimiento y Tiempos de Entrega para Clientes": "2025-12-01",
-        "Integraciones logísticas – Mercado Envíos / Amazon / falabella / liverpool (estados de ventas y etiquetas) Dominicana / Andesmar / Bigsmart": "2025-12-01",
-        "Remplazo Easymailing": "2025-11-01",
-        "Logística v2": "2025-09-01",
-        "API de conversiones google": "2025-10-01"
+        "Actualizar API Reseller": {"deadline": "2025-12-01", "progress": 90},
+        "Mejoras en Seguimiento y Tiempos de Entrega para Clientes": {"deadline": "2025-12-01", "progress": 0},
+        "Integraciones logísticas – Mercado Envíos / Amazon / falabella / liverpool (estados de ventas y etiquetas) Dominicana / Andesmar / Bigsmart": {"deadline": "2025-12-01", "progress": 20},
+        "Remplazo Easymailing": {"deadline": "2025-11-01", "progress": 80},
+        "Logística v2": {"deadline": "2025-09-01", "progress": 0},
+        "API de conversiones google": {"deadline": "2025-10-01", "progress": 0},
+        "Delivery Admin – Implementación y ajustes finales": {"deadline": "2025-10-31", "progress": 100},
+
     },
     "Nicolas Pardo": {
-        "Cupones": "2025-07-01",
-        "Integracion dentro del modulo marketplace (stock y precio)": "2025-10-01",
-        "Integracion pasarelas de cobros: Pagoplux / paypal / Dominicana": "2026-02-01",
-        "Migracion a red privada": "2025-07-01"
+        "Cupones": {"deadline": "2025-07-01", "progress": 0},
+        "Integracion dentro del modulo marketplace (stock y precio)": {"deadline": "2025-10-01", "progress": 30},
+        "Integracion pasarelas de cobros: Pagoplux / paypal / Dominicana": {"deadline": "2026-02-01", "progress": 0},
+        "Migracion a red privada": {"deadline": "2025-07-01", "progress": 0},
+    },
+    "Diego Gogorza": {
+        "Auditoría equipos tecnológico": {"deadline": "2025-10-31", "progress": 0},
+
+    },
+     "Martín Horn": {
+        "Agente | Pricing": {"deadline": "2025-10-31", "progress": 0},
+        "Agente | Gestión de Posventa Nicox": {"deadline": "2025-10-31", "progress": 0},
+        "Agente | Gestión de Reviews Wise / Bot auditor": {"deadline": "2025-10-31", "progress": 0},
+        "Agente | Scoring Clientes": {"deadline": "2025-10-31", "progress": 0},
+        "Agente | Pedidos Tienda": {"deadline": "2025-10-31", "progress": 0},
+        
+    },
+    "Alan Fernandez": {
+        "Operación de Seguimiento": {"deadline": "2025-10-31", "progress": 0},
+        "Operación de Finanzas": {"deadline": "2025-10-31", "progress": 0},
     },
     "Facundo Capua": {},
     "Default": {}
 }
+
 
 
 PROJECT_MAP_BT = {

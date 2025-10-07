@@ -909,7 +909,9 @@ for dev, proyectos in PROJECT_MAP.items():
     last_date = ultima_fecha_por_dev[ultima_fecha_por_dev["developer"] == dev]["Última tarea planificable"]
     last_date = last_date.values[0] if not last_date.empty else "No planificado"
 
-    for proyecto, venc in proyectos.items():
+    for proyecto, data in proyectos.items():
+        venc = data["deadline"]
+        avance = data["progress"]
         venc_date = datetime.strptime(venc, "%Y-%m-%d").date()
 
         if isinstance(last_date, date):
@@ -927,13 +929,25 @@ for dev, proyectos in PROJECT_MAP.items():
         else:
             color = "🟢"
 
+        # Estado textual según avance
+        if avance == 100:
+            estado_avance = "✅ Entregado"
+        elif avance >= 50:
+            estado_avance = "🟡 En curso"
+        elif avance > 0:
+            estado_avance = "🟠 En progreso inicial"
+        else:
+            estado_avance = "⚪ Pendiente"
+
         proyecto_vencimiento.append({
             "developer": dev,
             "Proyecto": proyecto,
             "Vencimiento": venc,
             "Última tarea planificable": last_date,
             "Días de margen": dias_restantes,
-            "Estado": color
+            "Estado": color,
+            "Avance (%)": avance,
+            "Estado de avance": estado_avance
         })
 
 
