@@ -58,7 +58,7 @@
       {
         "key": "IT-20343",
         "story_points": 100.0,
-        "status": "TO DEPLOY QA"
+        "status": "FINISH"
       }
     ]
   },
@@ -103,6 +103,11 @@
     "summary": "Dominicana",
     "tasks": [
       {
+        "key": "IT-21844",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
         "key": "IT-21410",
         "story_points": null,
         "status": "Pendiente de estimaci\u00f3n"
@@ -115,7 +120,7 @@
       {
         "key": "IT-21364",
         "story_points": 2.0,
-        "status": "TO DEPLOY QA"
+        "status": "FINISH"
       }
     ]
   },
@@ -920,7 +925,7 @@
       {
         "key": "IT-20012",
         "story_points": 4.0,
-        "status": "BACKLOG"
+        "status": "En progreso"
       },
       {
         "key": "IT-20011",
@@ -4377,17 +4382,17 @@
       {
         "key": "IT-16647",
         "story_points": 2.0,
-        "status": "BACKLOG"
+        "status": "TO DEPLOY QA"
       },
       {
         "key": "IT-16646",
         "story_points": 2.0,
-        "status": "BACKLOG"
+        "status": "FINISH"
       },
       {
         "key": "IT-16645",
         "story_points": 3.0,
-        "status": "BACKLOG"
+        "status": "FINISH"
       },
       {
         "key": "IT-16644",
@@ -5292,7 +5297,7 @@
       {
         "key": "IT-21328",
         "story_points": 8.0,
-        "status": "En progreso"
+        "status": "REVIEW ON HOLD"
       },
       {
         "key": "IT-21326",
@@ -5327,7 +5332,7 @@
       {
         "key": "IT-21110",
         "story_points": 24.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-21015",
@@ -8867,12 +8872,12 @@
       {
         "key": "IT-20576",
         "story_points": 44.0,
-        "status": "ON PAUSE"
+        "status": "En progreso"
       },
       {
         "key": "IT-20575",
         "story_points": 72.0,
-        "status": "PENDING REVIEW"
+        "status": "REVIEWING"
       },
       {
         "key": "IT-20574",
@@ -10265,7 +10270,7 @@
       {
         "key": "IT-21225",
         "story_points": 16.0,
-        "status": "PENDING REVIEW"
+        "status": "FINISH"
       },
       {
         "key": "IT-15804",
