@@ -5297,7 +5297,7 @@
       {
         "key": "IT-21328",
         "story_points": 8.0,
-        "status": "REVIEW ON HOLD"
+        "status": "TO DEPLOY QA"
       },
       {
         "key": "IT-21326",
@@ -7500,7 +7500,7 @@
       {
         "key": "IT-20828",
         "story_points": 40.0,
-        "status": "BACKLOG"
+        "status": "En progreso"
       },
       {
         "key": "IT-20081",
@@ -8877,7 +8877,7 @@
       {
         "key": "IT-20575",
         "story_points": 72.0,
-        "status": "REVIEWING"
+        "status": "REVIEW ON HOLD"
       },
       {
         "key": "IT-20574",
@@ -11568,7 +11568,7 @@
       {
         "key": "IT-21340",
         "story_points": 8.0,
-        "status": "BACKLOG"
+        "status": "ON PAUSE"
       },
       {
         "key": "IT-21322",
