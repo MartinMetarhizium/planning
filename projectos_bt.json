@@ -684,7 +684,7 @@
       {
         "key": "IT-20828",
         "summary": "Amazon / Implementación de circuito logístico",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 40.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1368,14 +1368,6 @@
         "key": "BTP-3694",
         "summary": "Worpik / Motivo de baja en mail de baja",
         "status": "CANCELADO POR BT",
-        "story_points": null,
-        "assignee": "Martín Horn",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-3693",
-        "summary": "Worpik / Modificar - Titulo del mail",
-        "status": "Pendiente de estimación",
         "story_points": null,
         "assignee": "Martín Horn",
         "project": "BTP"
@@ -5415,6 +5407,14 @@
     "summary": "Gestiones",
     "tasks": [
       {
+        "key": "IT-21571",
+        "summary": "Módulo de reclamos - Estados Gestión de pendientes.",
+        "status": "BACKLOG",
+        "story_points": 8.0,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
         "key": "IT-20952",
         "summary": "Reclamos / Crear comportamientos de orden en transito o sin despachar",
         "status": "FINISH",
@@ -5452,6 +5452,14 @@
         "status": "Pendiente de estimación",
         "story_points": null,
         "assignee": "Diego Martin Gogorza",
+        "project": "IT"
+      },
+      {
+        "key": "IT-20630",
+        "summary": "Reclamos / Derivar el reclamo hacía otra área",
+        "status": "BACKLOG",
+        "story_points": 12.0,
+        "assignee": "Gastón Ojeda",
         "project": "IT"
       },
       {
@@ -6112,11 +6120,19 @@
     "summary": "Marketplace",
     "tasks": [
       {
+        "key": "BTP-3792",
+        "summary": "Marketplace / Pruebas Falabella ",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-3715",
         "summary": "[Marketplace][MX][Liverpool][Precios][Stock]",
         "status": "Pendiente de estimación",
         "story_points": null,
-        "assignee": "Sin asignar",
+        "assignee": "Juan Ignacio Morelis - Carestino",
         "project": "BTP"
       },
       {
@@ -6126,6 +6142,14 @@
         "story_points": null,
         "assignee": "Sin asignar",
         "project": "BTP"
+      },
+      {
+        "key": "IT-21630",
+        "summary": "[Marketplace][Falabella][Precios][Stock]",
+        "status": "CODE REVIEW",
+        "story_points": 60.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
       },
       {
         "key": "IT-21281",
@@ -14369,6 +14393,46 @@
         "project": "BTP"
       },
       {
+        "key": "IT-21873",
+        "summary": "Fijar filtro \"Mostrar X registros\" -  Modulo conciliador",
+        "status": "BACKLOG",
+        "story_points": 5.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
+        "key": "IT-21871",
+        "summary": "Regla conciliación MercadoPago no concilia - Modulo Conciliador",
+        "status": "BACKLOG",
+        "story_points": 6.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
+        "key": "IT-21769",
+        "summary": "Eliminar lotes parcialmente conciliados - Conciliador",
+        "status": "BACKLOG",
+        "story_points": 8.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
+        "key": "IT-21675",
+        "summary": "El modulo conciliador del lado de NICOX (Payments) levanta cobros rechazados",
+        "status": "En progreso",
+        "story_points": 3.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
+        "key": "IT-21439",
+        "summary": "Marcar operaciones como conciliadas - Conciliador",
+        "status": "BACKLOG",
+        "story_points": 6.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
         "key": "IT-21223",
         "summary": "Transacciones Pago Genérico - Modulo conciliador ",
         "status": "FINISH",
@@ -14945,6 +15009,14 @@
         "story_points": null,
         "assignee": "Alan Fernandez",
         "project": "BTP"
+      },
+      {
+        "key": "IT-21630",
+        "summary": "[Marketplace][Falabella][Precios][Stock]",
+        "status": "CODE REVIEW",
+        "story_points": 60.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
       },
       {
         "key": "IT-21281",
