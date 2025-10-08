@@ -5,8 +5,8 @@ import pandas as pd
 import altair as alt
 
 st.set_page_config(page_title="Épicas cruzadas (BTP ↔ IT)", layout="wide")
-st.title("📦 Épicas cruzadas (BTP ↔ IT)")
-st.caption("Visualización de épicas y sus tarjetas relacionadas desde epicas_cruzadas.json")
+st.title("📦 Épicas entre proyectos")
+st.caption("Visualización de épicas y sus tarjetas relacionadas")
 
 # === Carga del JSON ===
 DEFAULT_PATH = "projectos_bt.json"
