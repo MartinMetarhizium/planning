@@ -684,7 +684,7 @@
       {
         "key": "IT-20828",
         "summary": "Amazon / Implementación de circuito logístico",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 40.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1364,6 +1364,22 @@
     "due_date": "2025-06-30",
     "summary": "Worpik",
     "tasks": [
+      {
+        "key": "BTP-3796",
+        "summary": "Modificar video entrevista",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Martín Horn",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3795",
+        "summary": "Cambio de entrevistadores ",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Martín Horn",
+        "project": "BTP"
+      },
       {
         "key": "BTP-3694",
         "summary": "Worpik / Motivo de baja en mail de baja",
@@ -6122,7 +6138,7 @@
       {
         "key": "BTP-3792",
         "summary": "Marketplace / Pruebas Falabella ",
-        "status": "Por Hacer",
+        "status": "EN RELEVAMIENTO",
         "story_points": null,
         "assignee": "Juan Ignacio Morelis - Carestino",
         "project": "BTP"
@@ -6130,7 +6146,7 @@
       {
         "key": "BTP-3715",
         "summary": "[Marketplace][MX][Liverpool][Precios][Stock]",
-        "status": "Pendiente de estimación",
+        "status": "EN ARMADO DE PROPUESTA",
         "story_points": null,
         "assignee": "Juan Ignacio Morelis - Carestino",
         "project": "BTP"
@@ -6146,7 +6162,7 @@
       {
         "key": "IT-21630",
         "summary": "[Marketplace][Falabella][Precios][Stock]",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 60.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -14419,7 +14435,7 @@
       {
         "key": "IT-21675",
         "summary": "El modulo conciliador del lado de NICOX (Payments) levanta cobros rechazados",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 3.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -14427,7 +14443,7 @@
       {
         "key": "IT-21439",
         "summary": "Marcar operaciones como conciliadas - Conciliador",
-        "status": "BACKLOG",
+        "status": "CODE REVIEW",
         "story_points": 6.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15013,7 +15029,7 @@
       {
         "key": "IT-21630",
         "summary": "[Marketplace][Falabella][Precios][Stock]",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 60.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
