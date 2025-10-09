@@ -520,6 +520,7 @@ with col_a:
 with col_b:
     VISION_MODELS = {
         "deepseek/deepseek-chat-v3.1:free": "deepseek free",
+        "openai/gpt-oss-20b:free": "gpt free",
         # "qwen/qwen2.5-vl-7b-instruct":  "Qwen2.5-VL 7B (visión)",
         # "meta-llama/llama-3.2-11b-vision-instruct:free": "Llama 3.2 11B Vision (free)",
         # "openai/gpt-4o-mini": "GPT-4o mini (visión)",
@@ -535,6 +536,7 @@ with col_b:
 TEXT_FALLBACK_MODEL = st.selectbox(
     "Modelo texto (fallback)",
     ["deepseek/deepseek-chat-v3.1:free", 
+     "openai/gpt-oss-20b:free",
     #  "openai/gpt-4o-mini"
      ],  # gpt-4o-mini también sirve como texto
     index=0,
