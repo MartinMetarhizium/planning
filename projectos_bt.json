@@ -684,7 +684,7 @@
       {
         "key": "IT-20828",
         "summary": "Amazon / Implementación de circuito logístico",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 40.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -6146,9 +6146,9 @@
       {
         "key": "BTP-3715",
         "summary": "[Marketplace][MX][Liverpool][Precios][Stock]",
-        "status": "EN ARMADO DE PROPUESTA",
+        "status": "ON HOLD ARMADO DE PROPUESTA",
         "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
+        "assignee": "Sin asignar",
         "project": "BTP"
       },
       {
@@ -14443,7 +14443,7 @@
       {
         "key": "IT-21439",
         "summary": "Marcar operaciones como conciliadas - Conciliador",
-        "status": "CODE REVIEW",
+        "status": "PENDING REVIEW",
         "story_points": 6.0,
         "assignee": "Luis Uran",
         "project": "IT"
