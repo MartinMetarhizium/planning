@@ -684,7 +684,7 @@
       {
         "key": "IT-20828",
         "summary": "Amazon / Implementación de circuito logístico",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 40.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1366,8 +1366,8 @@
     "tasks": [
       {
         "key": "BTP-3796",
-        "summary": "Modificar video entrevista",
-        "status": "Pendiente de estimación",
+        "summary": "Worpik / Permiso para editar video de una entrevista",
+        "status": "EN RELEVAMIENTO",
         "story_points": null,
         "assignee": "Martín Horn",
         "project": "BTP"
@@ -1527,7 +1527,7 @@
       {
         "key": "IT-21328",
         "summary": "Worpik / Modificación de mensaje de tests cronometrados",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6146,7 +6146,7 @@
       {
         "key": "BTP-3715",
         "summary": "[Marketplace][MX][Liverpool][Precios][Stock]",
-        "status": "ON HOLD ARMADO DE PROPUESTA",
+        "status": "EN ARMADO DE PROPUESTA",
         "story_points": null,
         "assignee": "Sin asignar",
         "project": "BTP"
@@ -6162,7 +6162,7 @@
       {
         "key": "IT-21630",
         "summary": "[Marketplace][Falabella][Precios][Stock]",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 60.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -7425,7 +7425,7 @@
       {
         "key": "IT-21328",
         "summary": "Worpik / Modificación de mensaje de tests cronometrados",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -10937,7 +10937,7 @@
       {
         "key": "IT-21328",
         "summary": "Worpik / Modificación de mensaje de tests cronometrados",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -14435,7 +14435,7 @@
       {
         "key": "IT-21675",
         "summary": "El modulo conciliador del lado de NICOX (Payments) levanta cobros rechazados",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY",
         "story_points": 3.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -14443,7 +14443,7 @@
       {
         "key": "IT-21439",
         "summary": "Marcar operaciones como conciliadas - Conciliador",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY",
         "story_points": 6.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15029,7 +15029,7 @@
       {
         "key": "IT-21630",
         "summary": "[Marketplace][Falabella][Precios][Stock]",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 60.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
