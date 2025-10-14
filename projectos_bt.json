@@ -658,6 +658,14 @@
     "summary": "Integraciones logisticas",
     "tasks": [
       {
+        "key": "BTP-3811",
+        "summary": "Entrevistas / Cancelación de entrevistas el mismo día",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Martín Horn",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-3420",
         "summary": "Prueba de concepto IT / Amazon / Creación de pedido easyShip y etiqueta",
         "status": "CANCELADO POR BT",
@@ -684,7 +692,7 @@
       {
         "key": "IT-20828",
         "summary": "Amazon / Implementación de circuito logístico",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 40.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1527,7 +1535,7 @@
       {
         "key": "IT-21328",
         "summary": "Worpik / Modificación de mensaje de tests cronometrados",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6136,6 +6144,22 @@
     "summary": "Marketplace",
     "tasks": [
       {
+        "key": "BTP-3810",
+        "summary": "[Marketplace][Liverpool] Agregar Publicación Manual",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Sin asignar",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3809",
+        "summary": "[Marketplace][Falabella]Agregar Publicación Manual",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Sin asignar",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-3792",
         "summary": "Marketplace / Pruebas Falabella ",
         "status": "EN RELEVAMIENTO",
@@ -6146,7 +6170,7 @@
       {
         "key": "BTP-3715",
         "summary": "[Marketplace][MX][Liverpool][Precios][Stock]",
-        "status": "EN ARMADO DE PROPUESTA",
+        "status": "Rechazado",
         "story_points": null,
         "assignee": "Sin asignar",
         "project": "BTP"
@@ -6162,7 +6186,7 @@
       {
         "key": "IT-21630",
         "summary": "[Marketplace][Falabella][Precios][Stock]",
-        "status": "PENDING REVIEW",
+        "status": "REVIEWING",
         "story_points": 60.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -6770,6 +6794,14 @@
         "story_points": null,
         "assignee": "Santiago Gariboldi",
         "project": "BTP"
+      },
+      {
+        "key": "IT-21942",
+        "summary": "[Wise][Integracion]Proactividad Clientes ",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Diego Martin Gogorza",
+        "project": "IT"
       },
       {
         "key": "IT-20785",
@@ -7425,7 +7457,7 @@
       {
         "key": "IT-21328",
         "summary": "Worpik / Modificación de mensaje de tests cronometrados",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -10937,7 +10969,7 @@
       {
         "key": "IT-21328",
         "summary": "Worpik / Modificación de mensaje de tests cronometrados",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -14419,7 +14451,7 @@
       {
         "key": "IT-21871",
         "summary": "Regla conciliación MercadoPago no concilia - Modulo Conciliador",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 6.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -14435,7 +14467,7 @@
       {
         "key": "IT-21675",
         "summary": "El modulo conciliador del lado de NICOX (Payments) levanta cobros rechazados",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 3.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -14443,7 +14475,7 @@
       {
         "key": "IT-21439",
         "summary": "Marcar operaciones como conciliadas - Conciliador",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 6.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15029,7 +15061,7 @@
       {
         "key": "IT-21630",
         "summary": "[Marketplace][Falabella][Precios][Stock]",
-        "status": "PENDING REVIEW",
+        "status": "REVIEWING",
         "story_points": 60.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
