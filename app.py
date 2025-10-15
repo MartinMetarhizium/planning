@@ -18,7 +18,8 @@ def setup_navigation():
         estimaciones = st.Page("pages/estimationTimes.py", title="Estimaciones")
         reviewTimes = st.Page("pages/reviewTimes.py", title="Revisiones de tarjetas")
         projectosBt = st.Page("pages/proyectosBt.py", title="Estados de proyectos")
-        nav = st.navigation([alan, martinBt, martin, worpik, estimaciones, reviewTimes, projectosBt])
+        movimientoTarjetas = st.Page("pages/movimientoTarjetas.py", title="Movimiento de tarjetas")
+        nav = st.navigation([alan, martinBt, martin, worpik, estimaciones, reviewTimes, projectosBt, movimientoTarjetas])
         nav.run()
         return True
 
@@ -31,6 +32,7 @@ def setup_navigation():
         st.page_link("pages/estimationTimes.py", label="Estimaciones")
         st.page_link("pages/reviewTimes.py", label="Revisiones de tarjetas")
         st.page_link("pages/proyectosBt.py", label="Estados de proyectos")
+        st.page_link("pages/movimientoTarjetas.py", label="movimientoTarjetas")
         st.caption("Si no ves las páginas, verifica que el Main file sea planning/app.py y la carpeta se llame exactamente pages/")
         return True
     

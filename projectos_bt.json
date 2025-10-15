@@ -658,14 +658,6 @@
     "summary": "Integraciones logisticas",
     "tasks": [
       {
-        "key": "BTP-3811",
-        "summary": "Entrevistas / Cancelación de entrevistas el mismo día",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Martín Horn",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-3420",
         "summary": "Prueba de concepto IT / Amazon / Creación de pedido easyShip y etiqueta",
         "status": "CANCELADO POR BT",
@@ -692,7 +684,7 @@
       {
         "key": "IT-20828",
         "summary": "Amazon / Implementación de circuito logístico",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 40.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1471,7 +1463,7 @@
       {
         "key": "IT-21552",
         "summary": "Worpik / Asignar cuenta generica como organizador de eventos worpik",
-        "status": "BACKLOG",
+        "status": "STG TESTING",
         "story_points": 24.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6148,15 +6140,15 @@
         "summary": "[Marketplace][Liverpool] Agregar Publicación Manual",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "Sin asignar",
+        "assignee": "Juan Ignacio Morelis - Carestino",
         "project": "BTP"
       },
       {
         "key": "BTP-3809",
         "summary": "[Marketplace][Falabella]Agregar Publicación Manual",
-        "status": "Por Hacer",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
-        "assignee": "Sin asignar",
+        "assignee": "Juan Ignacio Morelis - Carestino",
         "project": "BTP"
       },
       {
@@ -6170,9 +6162,9 @@
       {
         "key": "BTP-3715",
         "summary": "[Marketplace][MX][Liverpool][Precios][Stock]",
-        "status": "Rechazado",
+        "status": "Refinement propia",
         "story_points": null,
-        "assignee": "Sin asignar",
+        "assignee": "Juan Ignacio Morelis - Carestino",
         "project": "BTP"
       },
       {
@@ -6186,7 +6178,7 @@
       {
         "key": "IT-21630",
         "summary": "[Marketplace][Falabella][Precios][Stock]",
-        "status": "REVIEWING",
+        "status": "REVIEW ON PAUSE",
         "story_points": 60.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -7393,7 +7385,7 @@
       {
         "key": "IT-21552",
         "summary": "Worpik / Asignar cuenta generica como organizador de eventos worpik",
-        "status": "BACKLOG",
+        "status": "STG TESTING",
         "story_points": 24.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -10905,7 +10897,7 @@
       {
         "key": "IT-21552",
         "summary": "Worpik / Asignar cuenta generica como organizador de eventos worpik",
-        "status": "BACKLOG",
+        "status": "STG TESTING",
         "story_points": 24.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -14451,7 +14443,7 @@
       {
         "key": "IT-21871",
         "summary": "Regla conciliación MercadoPago no concilia - Modulo Conciliador",
-        "status": "En progreso",
+        "status": "ON PAUSE",
         "story_points": 6.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15061,7 +15053,7 @@
       {
         "key": "IT-21630",
         "summary": "[Marketplace][Falabella][Precios][Stock]",
-        "status": "REVIEWING",
+        "status": "REVIEW ON PAUSE",
         "story_points": 60.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
