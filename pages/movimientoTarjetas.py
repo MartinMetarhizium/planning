@@ -7,7 +7,8 @@ from requests.auth import HTTPBasicAuth
 # ================== CONFIG ==================
 JIRA_DOMAIN = "team-1583163151751.atlassian.net"
 EMAIL = "martinhorn@biamex.com"
-from token_hidden import API_TOKEN
+
+API_KEY = st.secrets.get("API_TOKEN")
 
 AUTH = HTTPBasicAuth(EMAIL, API_TOKEN)
 HEADERS = {"Accept": "application/json", "Content-Type": "application/json"}
