@@ -235,157 +235,394 @@ def bulk_move_issue(
     r.raise_for_status()
     return r.json() if r.text else {}
 
-
-
-st.title("🔄 Mover tarjeta de BTP → IT")
-
-src_key = st.text_input("Número de tarjeta origen (ej: BTP-3818)", value="")
-show_debug = st.checkbox("Mostrar payload de Bulk Move (debug)", value=False)
-
-with st.spinner("Cargando tipos de issue del proyecto IT..."):
-    try:
-        it_types = get_issue_types_for_project(DEST_PROJECT_KEY)
-    except Exception as e:
-        it_types = []
-        st.error(f"No se pudieron obtener los tipos de issue de {DEST_PROJECT_KEY}: {e}")
-
-if not it_types:
-    st.stop()
-
-type_name_to_id = {t["name"]: t["id"] for t in it_types}
-selected_type_name = st.selectbox(
-    "Tipo de issue destino en IT",
-    list(type_name_to_id.keys())
+modo = st.selectbox(
+    "Elegí qué querés hacer",
+    ["Mover BTP → IT", "Crear actividad BTP desde SD", "Crear actividad IT desde SD"]
 )
-selected_type_id = type_name_to_id[selected_type_name]
-is_fix = selected_type_name.strip().lower() == "fix"
 
+if modo == "Mover BTP → IT":
+    st.title("Mover tarjeta de BTP → IT")
 
-with st.spinner("Cargando usuarios asignables en IT..."):
-    try:
-        assignable_users = get_assignable_users(DEST_PROJECT_KEY)
-    except Exception as e:
-        assignable_users = []
-        st.error(f"No se pudieron cargar los usuarios asignables: {e}")
+    src_key = st.text_input("Número de tarjeta origen (ej: BTP-3818)", value="")
+    show_debug = st.checkbox("Mostrar payload de Bulk Move (debug)", value=False)
 
-label_to_account = {}
-labels = ["(No cambiar)"]
-if assignable_users:
-    for u in assignable_users:
-        name = u.get("displayName") or u.get("name") or "Usuario"
-        acc = u.get("accountId")
-        label = f"{name} · {acc[-6:]}" if acc else name
-        label_to_account[label] = acc
-        labels.append(label)
+    with st.spinner("Cargando tipos de issue del proyecto IT..."):
+        try:
+            it_types = get_issue_types_for_project(DEST_PROJECT_KEY)
+        except Exception as e:
+            it_types = []
+            st.error(f"No se pudieron obtener los tipos de issue de {DEST_PROJECT_KEY}: {e}")
 
-DEFAULT_TECHLEAD_NAME = "Diego Martin Gogorza"
-DEFAULT_TECHLEAD_SUFFIX = "811b4c"
-
-default_techlead_index = 0
-for i, lbl in enumerate(labels):
-    if DEFAULT_TECHLEAD_NAME.lower() in lbl.lower():
-        default_techlead_index = i
-        if DEFAULT_TECHLEAD_SUFFIX and DEFAULT_TECHLEAD_SUFFIX in lbl:
-            break
-
-colA, colB = st.columns(2)
-with colA:
-    assignee_label = st.selectbox("Assignee (IT)", labels, index=0)
-with colB:
-    techlead_label = st.selectbox("Tech Lead (IT)", labels, index=default_techlead_index)
-
-assignee_account_id = label_to_account.get(assignee_label)
-techlead_account_id = label_to_account.get(techlead_label)
-
-if st.button("Mover a IT"):
-    if not src_key.strip():
-        st.error("Ingresá la tarjeta de origen (por ejemplo BTP-3818).")
+    if not it_types:
         st.stop()
 
-    with st.spinner("Verificando issue origen..."):
-        src_issue = get_issue(src_key.strip())
-        if not src_issue:
-            st.error("⚠️ No se encontró el issue o faltan permisos (Browse issues).")
-            st.stop()
-        issue_id = src_issue["id"]
+    type_name_to_id = {t["name"]: t["id"] for t in it_types}
+    selected_type_name = st.selectbox(
+        "Tipo de issue destino en IT",
+        list(type_name_to_id.keys())
+    )
+    selected_type_id = type_name_to_id[selected_type_name]
+    is_fix = selected_type_name.strip().lower() == "fix"
 
-    with st.spinner("Ejecutando Bulk Move hacia IT..."):
+
+    with st.spinner("Cargando usuarios asignables en IT..."):
         try:
-            move_res = bulk_move_issue(
-                issue_id_or_key=issue_id,
-                target_project_key=DEST_PROJECT_KEY,
-                target_issue_type_id=selected_type_id,
-                include_testing_field=is_fix,
-                show_debug_payload=show_debug
-            )
-        except requests.HTTPError as e:
-            st.error(f"Error en Bulk Move: {e}\n\n{e.response.text if e.response is not None else ''}")
-            st.stop()
+            assignable_users = get_assignable_users(DEST_PROJECT_KEY)
         except Exception as e:
-            st.error(f"Error en Bulk Move: {e}")
+            assignable_users = []
+            st.error(f"No se pudieron cargar los usuarios asignables: {e}")
+
+    label_to_account = {}
+    labels = ["(No cambiar)"]
+    if assignable_users:
+        for u in assignable_users:
+            name = u.get("displayName") or u.get("name") or "Usuario"
+            acc = u.get("accountId")
+            label = f"{name} · {acc[-6:]}" if acc else name
+            label_to_account[label] = acc
+            labels.append(label)
+
+    DEFAULT_TECHLEAD_NAME = "Diego Martin Gogorza"
+    DEFAULT_TECHLEAD_SUFFIX = "811b4c"
+
+    default_techlead_index = 0
+    for i, lbl in enumerate(labels):
+        if DEFAULT_TECHLEAD_NAME.lower() in lbl.lower():
+            default_techlead_index = i
+            if DEFAULT_TECHLEAD_SUFFIX and DEFAULT_TECHLEAD_SUFFIX in lbl:
+                break
+
+    colA, colB = st.columns(2)
+    with colA:
+        assignee_label = st.selectbox("Assignee (IT)", labels, index=0)
+    with colB:
+        techlead_label = st.selectbox("Tech Lead (IT)", labels, index=default_techlead_index)
+
+    assignee_account_id = label_to_account.get(assignee_label)
+    techlead_account_id = label_to_account.get(techlead_label)
+
+    if st.button("Mover a IT"):
+        if not src_key.strip():
+            st.error("Ingresá la tarjeta de origen (por ejemplo BTP-3818).")
             st.stop()
 
-    new_key = None
-    current_status_name = None
-    for _ in range(8):
-        try:
-            moved_issue = get_issue(issue_id)  
-            if moved_issue:
-                k = moved_issue.get("key", "")
-                if k.startswith(f"{DEST_PROJECT_KEY}-"):
-                    new_key = k
-                current_status_name = (moved_issue.get("fields", {})
-                                                   .get("status", {})
-                                                   .get("name", None))
-                if new_key and current_status_name:
-                    break
-        except Exception:
-            pass
-        time.sleep(0.7)
+        with st.spinner("Verificando issue origen..."):
+            src_issue = get_issue(src_key.strip())
+            if not src_issue:
+                st.error("⚠️ No se encontró el issue o faltan permisos (Browse issues).")
+                st.stop()
+            issue_id = src_issue["id"]
 
-
-    if assignee_account_id or techlead_account_id:
-        with st.spinner("Actualizando Assignee / Tech Lead..."):
+        with st.spinner("Ejecutando Bulk Move hacia IT..."):
             try:
-                update_assignee_and_techlead(
-                    issue_id,
-                    assignee_account_id=assignee_account_id,
-                    techlead_account_id=techlead_account_id
+                move_res = bulk_move_issue(
+                    issue_id_or_key=issue_id,
+                    target_project_key=DEST_PROJECT_KEY,
+                    target_issue_type_id=selected_type_id,
+                    include_testing_field=is_fix,
+                    show_debug_payload=show_debug
                 )
             except requests.HTTPError as e:
-                st.error(f"Se movió, pero falló actualizar Assignee/Tech Lead: {e}\n\n{e.response.text if e.response is not None else ''}")
+                st.error(f"Error en Bulk Move: {e}\n\n{e.response.text if e.response is not None else ''}")
+                st.stop()
             except Exception as e:
-                st.error(f"Se movió, pero falló actualizar Assignee/Tech Lead: {e}")
+                st.error(f"Error en Bulk Move: {e}")
+                st.stop()
 
-    if is_fix:
-        with st.spinner("Aplicando campo de Fix en el issue movido..."):
+        new_key = None
+        current_status_name = None
+        for _ in range(8):
             try:
-                update_fix_field_by_issue_id(issue_id, FIX_FIELD_VALUE)
-            except requests.HTTPError as e:
-                st.error(f"Se movió, pero falló setear {FIX_FIELD_ID}: {e}\n\n{e.response.text if e.response is not None else ''}")
-            except Exception as e:
-                st.error(f"Se movió, pero falló setear {FIX_FIELD_ID}: {e}")
-
-    if (current_status_name or "").strip().lower() != DEST_STATUS_NAME.strip().lower():
-        from_status = current_status_name or "desconocido"
-        with st.spinner(f"Transicionando a '{DEST_STATUS_NAME}'..."):
-            t_id = get_transition_id(issue_id, DEST_STATUS_NAME)
-            if t_id:
-                try:
-                    do_transition(issue_id, t_id)
-                    st.success(f"✅ Estado actualizado a **{DEST_STATUS_NAME}**")
-                except requests.HTTPError as e:
-                    st.error(f"⚠️ Falló la transición a '{DEST_STATUS_NAME}': {e}\n\n{e.response.text if e.response is not None else ''}")
-            else:
+                moved_issue = get_issue(issue_id)  
+                if moved_issue:
+                    k = moved_issue.get("key", "")
+                    if k.startswith(f"{DEST_PROJECT_KEY}-"):
+                        new_key = k
+                    current_status_name = (moved_issue.get("fields", {})
+                                                    .get("status", {})
+                                                    .get("name", None))
+                    if new_key and current_status_name:
+                        break
+            except Exception:
                 pass
+            time.sleep(0.7)
 
-    if new_key:
-        st.success(
-            f"Movido a **{DEST_PROJECT_KEY}** como **{selected_type_name}** → "
-            f"[{new_key}](https://{JIRA_DOMAIN}/browse/{new_key})"
-        )
-    else:
-        st.success(
-            f" Movido a **{DEST_PROJECT_KEY}** como **{selected_type_name}** "
-            f"(no se pudo recuperar el nuevo key automáticamente; ID={issue_id})."
-        )
+
+        if assignee_account_id or techlead_account_id:
+            with st.spinner("Actualizando Assignee / Tech Lead..."):
+                try:
+                    update_assignee_and_techlead(
+                        issue_id,
+                        assignee_account_id=assignee_account_id,
+                        techlead_account_id=techlead_account_id
+                    )
+                except requests.HTTPError as e:
+                    st.error(f"Se movió, pero falló actualizar Assignee/Tech Lead: {e}\n\n{e.response.text if e.response is not None else ''}")
+                except Exception as e:
+                    st.error(f"Se movió, pero falló actualizar Assignee/Tech Lead: {e}")
+
+        if is_fix:
+            with st.spinner("Aplicando campo de Fix en el issue movido..."):
+                try:
+                    update_fix_field_by_issue_id(issue_id, FIX_FIELD_VALUE)
+                except requests.HTTPError as e:
+                    st.error(f"Se movió, pero falló setear {FIX_FIELD_ID}: {e}\n\n{e.response.text if e.response is not None else ''}")
+                except Exception as e:
+                    st.error(f"Se movió, pero falló setear {FIX_FIELD_ID}: {e}")
+
+        if (current_status_name or "").strip().lower() != DEST_STATUS_NAME.strip().lower():
+            from_status = current_status_name or "desconocido"
+            with st.spinner(f"Transicionando a '{DEST_STATUS_NAME}'..."):
+                t_id = get_transition_id(issue_id, DEST_STATUS_NAME)
+                if t_id:
+                    try:
+                        do_transition(issue_id, t_id)
+                        st.success(f"✅ Estado actualizado a **{DEST_STATUS_NAME}**")
+                    except requests.HTTPError as e:
+                        st.error(f"⚠️ Falló la transición a '{DEST_STATUS_NAME}': {e}\n\n{e.response.text if e.response is not None else ''}")
+                else:
+                    pass
+
+        if new_key:
+            st.success(
+                f"Movido a **{DEST_PROJECT_KEY}** como **{selected_type_name}** → "
+                f"[{new_key}](https://{JIRA_DOMAIN}/browse/{new_key})"
+            )
+        else:
+            st.success(
+                f" Movido a **{DEST_PROJECT_KEY}** como **{selected_type_name}** "
+                f"(no se pudo recuperar el nuevo key automáticamente; ID={issue_id})."
+            )
+
+
+
+# ================== FUNCIONES AUXILIARES ==================
+
+def create_issue_from_sd(sd_key: str, issue_type_id: str, assignee: str = None, tech_lead: str = None, project: str = None):
+    """
+    Crea una nueva issue en un proyecto solicitda copiando summary, description, duedate, priority desde la SD original.
+    Devuelve la key de la nueva issue creada.
+    """
+    # 1️⃣ Obtener datos de la SD original
+    sd_issue = get_issue(sd_key)
+    if not sd_issue:
+        raise ValueError("No se pudo obtener la SD original.")
+
+    fields = sd_issue.get("fields", {})
+    summary = fields.get("summary")
+    description = fields.get("description")  # ✅ copiamos con formato ADF completo
+    due_date = fields.get("duedate")
+    priority = fields.get("priority", {}).get("id")
+
+    # 2️⃣ Crear nueva issue en BTP
+    create_url = f"https://{JIRA_DOMAIN}/rest/api/3/issue"
+    payload = {
+        "fields": {
+            "project": {"key": project},
+            "issuetype": {"id": issue_type_id},
+            "summary": summary,
+            "reporter": {"accountId": tech_lead},
+            "description": description
+        }
+    }
+
+    if due_date:
+        payload["fields"]["duedate"] = due_date
+    if priority:
+        payload["fields"]["priority"] = {"id": priority}
+    if assignee:
+        payload["fields"]["assignee"] = {"accountId": assignee}
+    
+
+    r = requests.post(create_url, auth=AUTH, headers=HEADERS, json=payload)
+    r.raise_for_status()
+    return r.json().get("key")
+
+def link_issues_causes(sd_key: str, new_btp_key: str):
+    """
+    Crea un vínculo 'Problem/Incident' con relación 'causes' entre la nueva issue de BTP y la SD original.
+    - new_btp_key ➡️ causes ➡️ sd_key
+    """
+    url = f"https://{JIRA_DOMAIN}/rest/api/3/issueLink"
+    payload = {
+        "type": {"name": "Problem/Incident"},  # ✅ nombre correcto
+        "inwardIssue": {"key": new_btp_key},         # la SD original
+        "outwardIssue": {"key": sd_key}    # la nueva actividad BTP
+    }
+
+    r = requests.post(url, auth=AUTH, headers=HEADERS, json=payload)
+    r.raise_for_status()
+
+# ================== UI DEL NUEVO FLUJO ==================
+
+if modo == "Crear actividad BTP desde SD":
+
+    st.header("Crear actividad en BTP a partir de una SD")
+
+    sd_key = st.text_input("Número de SD (ej: SD-1234)")
+
+    # Obtener tipos de issue de BTP
+    with st.spinner("Cargando tipos de issue de BTP..."):
+        try:
+            btp_types = get_issue_types_for_project("BTP")
+        except Exception as e:
+            btp_types = []
+            st.error(f"No se pudieron obtener los tipos de issue: {e}")
+
+    if not btp_types:
+        st.stop()
+
+    type_name_to_id_btp = {t["name"]: t["id"] for t in btp_types}
+    selected_btp_type = st.selectbox("Tipo de actividad en BTP", list(type_name_to_id_btp.keys()))
+    selected_btp_type_id = type_name_to_id_btp[selected_btp_type]
+
+    # Usuarios asignables en BTP
+    with st.spinner("Cargando usuarios asignables..."):
+        try:
+            assignable_users_btp = get_assignable_users("BTP")
+        except Exception as e:
+            assignable_users_btp = []
+            st.error(f"No se pudieron cargar usuarios: {e}")
+
+    label_to_account_btp = {}
+    labels_btp = ["(No asignar)"]
+    if assignable_users_btp:
+        for u in assignable_users_btp:
+            name = u.get("displayName") or u.get("name") or "Usuario"
+            acc = u.get("accountId")
+            label = f"{name} · {acc[-6:]}" if acc else name
+            label_to_account_btp[label] = acc
+            labels_btp.append(label)
+
+    # Tech Lead por defecto
+    DEFAULT_TECHLEAD_NAME = "Thiago Cabrera"
+    DEFAULT_TECHLEAD_SUFFIX = "ae45ae"
+    default_techlead_index = 0
+    for i, lbl in enumerate(labels_btp):
+        if DEFAULT_TECHLEAD_NAME.lower() in lbl.lower() and DEFAULT_TECHLEAD_SUFFIX in lbl:
+            default_techlead_index = i
+            break
+
+    col1, col2 = st.columns(2)
+    with col1:
+        assignee_label_btp = st.selectbox("Assignee (BTP)", labels_btp, index=0)
+    with col2:
+        techlead_label_btp = st.selectbox("Informador (BTP)", labels_btp, index=default_techlead_index)
+
+    assignee_id_btp = label_to_account_btp.get(assignee_label_btp)
+    techlead_id_btp = label_to_account_btp.get(techlead_label_btp)
+
+    if st.button("Crear actividad vinculada en BTP"):
+        if not sd_key.strip():
+            st.error("⚠️ Ingresá el número de SD (por ejemplo SD-1234).")
+            st.stop()
+
+        try:
+            with st.spinner("Creando actividad en BTP..."):
+                new_btp_key = create_issue_from_sd(
+                    sd_key=sd_key.strip(),
+                    issue_type_id=selected_btp_type_id,
+                    assignee=assignee_id_btp,
+                    tech_lead=techlead_id_btp,
+                    project="BTP"
+                )
+
+            with st.spinner("Vinculando con SD original..."):
+                link_issues_causes(sd_key.strip(), new_btp_key)
+
+            st.success(
+                f"✅ Actividad creada correctamente en **BTP** → "
+                f"[{new_btp_key}](https://{JIRA_DOMAIN}/browse/{new_btp_key}) y vinculada a {sd_key.strip()} con relación **Causes**."
+            )
+
+        except requests.HTTPError as e:
+            st.error(f"❌ Error creando actividad: {e}\n\n{e.response.text if e.response is not None else ''}")
+        except Exception as e:
+            st.error(f"❌ Error inesperado: {e}")
+
+
+
+if modo == "Crear actividad IT desde SD":
+
+    st.header("Crear actividad en IT a partir de una SD")
+
+    sd_key = st.text_input("Número de SD (ej: SD-1234)")
+
+    # Obtener tipos de issue de BTP
+    with st.spinner("Cargando tipos de issue de IT..."):
+        try:
+            btp_types = get_issue_types_for_project("IT")
+        except Exception as e:
+            btp_types = []
+            st.error(f"No se pudieron obtener los tipos de issue: {e}")
+
+    if not btp_types:
+        st.stop()
+
+    type_name_to_id_btp = {t["name"]: t["id"] for t in btp_types}
+    selected_btp_type = st.selectbox("Tipo de actividad en IT", list(type_name_to_id_btp.keys()))
+    selected_btp_type_id = type_name_to_id_btp[selected_btp_type]
+
+    # Usuarios asignables en BTP
+    with st.spinner("Cargando usuarios asignables..."):
+        try:
+            assignable_users_btp = get_assignable_users("IT")
+        except Exception as e:
+            assignable_users_btp = []
+            st.error(f"No se pudieron cargar usuarios: {e}")
+
+    label_to_account_btp = {}
+    labels_btp = ["(No asignar)"]
+    if assignable_users_btp:
+        for u in assignable_users_btp:
+            name = u.get("displayName") or u.get("name") or "Usuario"
+            acc = u.get("accountId")
+            label = f"{name} · {acc[-6:]}" if acc else name
+            label_to_account_btp[label] = acc
+            labels_btp.append(label)
+
+    # Tech Lead por defecto
+    DEFAULT_TECHLEAD_NAME = "Diego Martin Gogorza"
+    DEFAULT_TECHLEAD_SUFFIX = "811b4c"
+    default_techlead_index = 0
+    for i, lbl in enumerate(labels_btp):
+        if DEFAULT_TECHLEAD_NAME.lower() in lbl.lower() and DEFAULT_TECHLEAD_SUFFIX in lbl:
+            default_techlead_index = i
+            break
+
+    col1, col2 = st.columns(2)
+    with col1:
+        assignee_label_btp = st.selectbox("Assignee (IT)", labels_btp, index=0)
+    with col2:
+        techlead_label_btp = st.selectbox("Tech lead (IT)", labels_btp, index=default_techlead_index)
+
+    assignee_id_btp = label_to_account_btp.get(assignee_label_btp)
+    techlead_id_btp = label_to_account_btp.get(techlead_label_btp)
+
+    if st.button("Crear actividad vinculada en IT"):
+        if not sd_key.strip():
+            st.error("⚠️ Ingresá el número de SD (por ejemplo SD-1234).")
+            st.stop()
+
+        try:
+            with st.spinner("Creando actividad en IT..."):
+                new_btp_key = create_issue_from_sd(
+                    sd_key=sd_key.strip(),
+                    issue_type_id=selected_btp_type_id,
+                    assignee=assignee_id_btp,
+                    tech_lead=techlead_id_btp,
+                    project="IT"
+                )
+
+            with st.spinner("Vinculando con SD original..."):
+                link_issues_causes(sd_key.strip(), new_btp_key)
+
+            st.success(
+                f"✅ Actividad creada correctamente en **IT** → "
+                f"[{new_btp_key}](https://{JIRA_DOMAIN}/browse/{new_btp_key}) y vinculada a {sd_key.strip()} con relación **Causes**."
+            )
+
+        except requests.HTTPError as e:
+            st.error(f"❌ Error creando actividad: {e}\n\n{e.response.text if e.response is not None else ''}")
+        except Exception as e:
+            st.error(f"❌ Error inesperado: {e}")
