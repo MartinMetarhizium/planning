@@ -39,17 +39,22 @@ def get_issue(issue_key_or_id):
 
 @st.cache_data(show_spinner=False, ttl=300)
 def get_issue_types_for_project(project_key):
-    url = f"https://{JIRA_DOMAIN}/rest/api/3/issue/createmeta"
-    params = {"projectKeys": project_key}
-    r = requests.get(url, params=params, auth=AUTH, headers=HEADERS)
-    r.raise_for_status()
-    data = r.json()
-    types = []
-    for p in data.get("projects", []):
-        for it in p.get("issuetypes", []):
-            types.append({"id": it["id"], "name": it["name"]})
-    types.sort(key=lambda x: x["name"].lower())
-    return types
+    try:
+        url = f"https://{JIRA_DOMAIN}/rest/api/3/issue/createmeta"
+        r = requests.get(url, params={"projectKeys": project_key}, auth=AUTH, headers=HEADERS)
+        st.write("🔎 Status:", r.status_code)
+        st.write("🔎 Response:", r.text)
+        r.raise_for_status()
+        data = r.json()
+        types = []
+        for p in data.get("projects", []):
+            for it in p.get("issuetypes", []):
+                types.append({"id": it["id"], "name": it["name"]})
+        types.sort(key=lambda x: x["name"].lower())
+        return types
+    except Exception as e:
+        st.error(f"❌ Error en get_issue_types_for_project: {e}")
+        return []
 
 def search_field_id_by_name(field_name_or_id):
     """Devuelve el fieldId (customfield_xxx) por nombre visible (o lo retorna tal cual si ya viene como id)."""
