@@ -9,7 +9,7 @@ JIRA_DOMAIN = "team-1583163151751.atlassian.net"
 EMAIL = "martinhorn@biamex.com"
 
 API_TOKEN = st.secrets.get("API_TOKEN")
-
+st.write("🔑 Token length:", len(API_TOKEN))
 AUTH = HTTPBasicAuth(EMAIL, API_TOKEN)
 HEADERS = {"Accept": "application/json", "Content-Type": "application/json"}
 
