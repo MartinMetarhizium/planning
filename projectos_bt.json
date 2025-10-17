@@ -1463,7 +1463,7 @@
       {
         "key": "IT-21552",
         "summary": "Worpik / Asignar cuenta generica como organizador de eventos worpik",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 24.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -4757,7 +4757,7 @@
       {
         "key": "IT-19968",
         "summary": "Comparativa de Producto / Mejoras Frontend V2",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 15.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -4773,7 +4773,7 @@
       {
         "key": "IT-19912",
         "summary": "FIX / Comparativa de producto / Mejoras sobre frontend",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 2.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -4805,7 +4805,7 @@
       {
         "key": "IT-18892",
         "summary": "Comparativa de productos en el Ecommerce / Armar la tabla en la página de productos",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 28.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -5489,7 +5489,7 @@
       {
         "key": "IT-20472",
         "summary": "Reclamos | Validación de stock para solución \"Cambio de Producto\"",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 4.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6168,14 +6168,6 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-3715",
-        "summary": "[Marketplace][MX][Liverpool][Precios][Stock]",
-        "status": "Refinement propia",
-        "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-3657",
         "summary": "[Marketplace][Falabella][Stock]",
         "status": "CANCELADO POR BT",
@@ -6186,7 +6178,7 @@
       {
         "key": "IT-21630",
         "summary": "[Marketplace][Falabella][Precios][Stock]",
-        "status": "REVIEW ON HOLD",
+        "status": "REDEFINED",
         "story_points": 60.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -7393,7 +7385,7 @@
       {
         "key": "IT-21552",
         "summary": "Worpik / Asignar cuenta generica como organizador de eventos worpik",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 24.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -10905,7 +10897,7 @@
       {
         "key": "IT-21552",
         "summary": "Worpik / Asignar cuenta generica como organizador de eventos worpik",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 24.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -14451,7 +14443,7 @@
       {
         "key": "IT-21871",
         "summary": "Regla conciliación MercadoPago no concilia - Modulo Conciliador",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 6.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -14459,7 +14451,7 @@
       {
         "key": "IT-21769",
         "summary": "Eliminar lotes parcialmente conciliados - Conciliador",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 8.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15061,7 +15053,7 @@
       {
         "key": "IT-21630",
         "summary": "[Marketplace][Falabella][Precios][Stock]",
-        "status": "REVIEW ON HOLD",
+        "status": "REDEFINED",
         "story_points": 60.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
