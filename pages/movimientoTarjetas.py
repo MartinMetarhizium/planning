@@ -43,8 +43,7 @@ def get_issue_types_for_project(project_key):
     try:
         url = f"https://{JIRA_DOMAIN}/rest/api/3/issue/createmeta"
         r = requests.get(url, params={"projectKeys": project_key}, auth=AUTH, headers=HEADERS)
-        st.write("🔎 Status:", r.status_code)
-        st.write("🔎 Response:", r.text)
+        
         r.raise_for_status()
         data = r.json()
         types = []
