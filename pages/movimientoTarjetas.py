@@ -16,7 +16,8 @@ st.write("🔍 API Token length:", len(API_TOKEN) if API_TOKEN else 0)
 AUTH = HTTPBasicAuth(EMAIL, API_TOKEN)
 HEADERS = {"Accept": "application/json", "Content-Type": "application/json"}
 me = requests.get(f"https://{JIRA_DOMAIN}/rest/api/3/myself", auth=AUTH, headers=HEADERS)
-st.write("🔍 Usuario autenticado:", me.json().get("emailAddress"))
+st.write("🔍 Status code:", me.status_code)
+st.write("🔍 Raw response text:", me.text[:500]) 
 DEST_PROJECT_KEY = "IT"                      
 FIX_FIELD_ID = "customfield_10134"           
 FIX_FIELD_VALUE = "nicox-it-testing"
