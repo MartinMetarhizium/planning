@@ -6138,7 +6138,7 @@
       {
         "key": "BTP-3826",
         "summary": "[Marketplace][][Amazon][Precios][Stock]",
-        "status": "Pendiente de estimación",
+        "status": "EN RELEVAMIENTO",
         "story_points": null,
         "assignee": "Juan Ignacio Morelis - Carestino",
         "project": "BTP"
@@ -6146,7 +6146,7 @@
       {
         "key": "BTP-3810",
         "summary": "[Marketplace][Liverpool] Agregar Publicación Manual",
-        "status": "EN ARMADO DE PROPUESTA",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Juan Ignacio Morelis - Carestino",
         "project": "BTP"
