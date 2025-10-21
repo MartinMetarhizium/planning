@@ -62,9 +62,9 @@
       {
         "key": "IT-21844",
         "summary": "Agregar pais en API para seleccionar la bandera de DO",
-        "status": "Pendiente de estimación",
-        "story_points": null,
-        "assignee": "Diego Martin Gogorza",
+        "status": "BACKLOG",
+        "story_points": 2.0,
+        "assignee": "Gastón Ojeda",
         "project": "IT"
       },
       {
@@ -468,7 +468,7 @@
       {
         "key": "IT-20162",
         "summary": "Ecommerce / Carestino / Rediseño Home Page - Layout",
-        "status": "ON PAUSE",
+        "status": "En progreso",
         "story_points": 76.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1463,7 +1463,7 @@
       {
         "key": "IT-21552",
         "summary": "Worpik / Asignar cuenta generica como organizador de eventos worpik",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 24.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -4757,7 +4757,7 @@
       {
         "key": "IT-19968",
         "summary": "Comparativa de Producto / Mejoras Frontend V2",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 15.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -4773,7 +4773,7 @@
       {
         "key": "IT-19912",
         "summary": "FIX / Comparativa de producto / Mejoras sobre frontend",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 2.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -4805,7 +4805,7 @@
       {
         "key": "IT-18892",
         "summary": "Comparativa de productos en el Ecommerce / Armar la tabla en la página de productos",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 28.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -5427,7 +5427,7 @@
         "summary": "Módulo de reclamos - Estados Gestión de pendientes.",
         "status": "BACKLOG",
         "story_points": 8.0,
-        "assignee": "Gastón Ojeda",
+        "assignee": "Alan Mori - Carestino",
         "project": "IT"
       },
       {
@@ -5459,7 +5459,7 @@
         "summary": "Backend / Reclamos / Permitir editar un reclamo desde el frontend",
         "status": "BACKLOG",
         "story_points": 32.0,
-        "assignee": "Gastón Ojeda",
+        "assignee": "Alan Mori - Carestino",
         "project": "IT"
       },
       {
@@ -5475,7 +5475,7 @@
         "summary": "Reclamos / Derivar el reclamo hacía otra área",
         "status": "BACKLOG",
         "story_points": 12.0,
-        "assignee": "Gastón Ojeda",
+        "assignee": "Alan Mori - Carestino",
         "project": "IT"
       },
       {
@@ -5489,7 +5489,7 @@
       {
         "key": "IT-20472",
         "summary": "Reclamos | Validación de stock para solución \"Cambio de Producto\"",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6136,8 +6136,16 @@
     "summary": "Marketplace",
     "tasks": [
       {
+        "key": "BTP-3846",
+        "summary": "[Marketplace][Amazon] Agregar Publicación Manual",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Sin asignar",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-3826",
-        "summary": "[Marketplace][][Amazon][Precios][Stock]",
+        "summary": "[Marketplace][MX][Amazon][Precios][Stock]",
         "status": "EN ARMADO DE PROPUESTA",
         "story_points": null,
         "assignee": "Juan Ignacio Morelis - Carestino",
@@ -6178,7 +6186,7 @@
       {
         "key": "IT-21630",
         "summary": "[Marketplace][Falabella][Precios][Stock]",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 60.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -7393,7 +7401,7 @@
       {
         "key": "IT-21552",
         "summary": "Worpik / Asignar cuenta generica como organizador de eventos worpik",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 24.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -10905,7 +10913,7 @@
       {
         "key": "IT-21552",
         "summary": "Worpik / Asignar cuenta generica como organizador de eventos worpik",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 24.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -14459,7 +14467,7 @@
       {
         "key": "IT-21769",
         "summary": "Eliminar lotes parcialmente conciliados - Conciliador",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 8.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15061,7 +15069,7 @@
       {
         "key": "IT-21630",
         "summary": "[Marketplace][Falabella][Precios][Stock]",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 60.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
