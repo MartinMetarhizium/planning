@@ -28,6 +28,70 @@ DEST_STATUS_NAME = "Pendiente de estimación"
 
 TECH_LEAD_FIELD_ID = "customfield_10208"
 
+from fuzzywuzzy import process
+
+EPIC_LINK_FIELD = "customfield_10014"
+FUZZY_THRESHOLD = 90  # podés bajar para mayor tolerancia
+
+def fetch_it_epics_map():
+    """Mapa 'summary' -> 'key' de épicas del proyecto IT con el endpoint nuevo."""
+    url = f"https://{JIRA_DOMAIN}/rest/api/3/search/jql"
+    epic_map = {}
+    next_token = None
+
+    while True:
+        body = {
+            "jql": f"project = {DEST_PROJECT_KEY} AND issuetype = Epic ORDER BY created DESC",
+            "fields": ["summary"],
+            "maxResults": 100
+        }
+        if next_token:
+            body["nextPageToken"] = next_token
+
+        r = requests.post(url, auth=AUTH, headers=HEADERS, json=body)
+        if r.status_code != 200:
+            st.error(f"❌ Jira search failed: {r.status_code} - {r.text}")
+            r.raise_for_status()
+
+        data = r.json()
+        for issue in data.get("issues", []):
+            key = issue.get("key")
+            summary = (issue.get("fields", {}) or {}).get("summary")
+            if key and summary:
+                epic_map[summary.strip()] = key
+
+        if data.get("isLast", True):
+            break
+        next_token = data.get("nextPageToken")
+        if not next_token:
+            break
+
+    if not epic_map:
+        st.warning("⚠️ No se encontraron épicas en IT (o faltan permisos).")
+    return epic_map
+
+
+
+def get_original_epic_summary(src_issue):
+    """Extrae el nombre de la épica original del issue origen."""
+    epic_field = src_issue.get("fields", {}).get(EPIC_LINK_FIELD)
+    if isinstance(epic_field, dict):
+        return epic_field.get("displayName") or epic_field.get("value") or epic_field.get("name")
+    elif isinstance(epic_field, str):
+        # interpretamos que es la key de la épica
+        epic_issue = get_issue(epic_field)
+        return epic_issue.get("fields", {}).get("summary")
+    return None
+
+def assign_epic(issue_key_dest: str, epic_key_dest: str):
+    """Vincula la issue destino con la épica destino usando el campo 'parent'."""
+    url = f"https://{JIRA_DOMAIN}/rest/api/3/issue/{issue_key_dest}"
+    payload = {"fields": {"parent": {"key": epic_key_dest}}}
+    r = requests.put(url, auth=AUTH, headers=HEADERS, json=payload)
+    if r.status_code not in (200, 204):
+        st.error(f"⚠️ Error asignando épica: {r.status_code} – {r.text}")
+    else:
+        st.success(f"✅ Épica asignada correctamente: {epic_key_dest}")
 
 
 def get_issue(issue_key_or_id):
@@ -318,6 +382,29 @@ if modo == "Mover BTP → IT":
                 st.error("⚠️ No se encontró el issue o faltan permisos (Browse issues).")
                 st.stop()
             issue_id = src_issue["id"]
+            original_epic_name = None
+            epic_field = src_issue.get("fields", {}).get(EPIC_LINK_FIELD)
+
+            # 🧠 Manejar todos los casos posibles de Jira:
+            if isinstance(epic_field, dict):
+                # Algunos servidores devuelven un objeto con displayName o value
+                original_epic_name = (
+                    epic_field.get("displayName") 
+                    or epic_field.get("value") 
+                    or epic_field.get("name")
+                )
+
+            elif isinstance(epic_field, str):
+                # Si es un string, probablemente sea el key de la épica (p. ej. "BTP-1234")
+                try:
+                    epic_issue = get_issue(epic_field)
+                    original_epic_name = epic_issue.get("fields", {}).get("summary")
+                    st.info(f"📌 Épica original detectada: {original_epic_name} (key: {epic_field})")
+                except Exception as e:
+                    st.warning(f"⚠️ No se pudo obtener la info de la épica '{epic_field}': {e}")
+
+            else:
+                st.info("ℹ️ Este ticket no tiene épica asociada.")
 
         with st.spinner("Ejecutando Bulk Move hacia IT..."):
             try:
@@ -390,6 +477,20 @@ if modo == "Mover BTP → IT":
                     pass
 
         if new_key:
+            with st.spinner("Buscando y reasignando épica equivalente en IT..."):
+                if original_epic_name:
+                    all_it_epics = fetch_it_epics_map()  # ✅ corregido
+                    matched_epic, score = process.extractOne(original_epic_name, list(all_it_epics.keys()))
+                    if score >= FUZZY_THRESHOLD:
+                        epic_key = all_it_epics[matched_epic]
+                        try:
+                            assign_epic(new_key, epic_key)  # ✅ corregido
+                        except Exception as e:
+                            st.warning(f"⚠️ No se pudo asignar la épica automáticamente: {e}")
+                    else:
+                        st.info(f"⚠️ No se encontró una épica equivalente para '{original_epic_name}' (match={score}%).")
+                else:
+                    st.info("ℹ️ El issue original no tenía épica asociada.")
             st.success(
                 f"Movido a **{DEST_PROJECT_KEY}** como **{selected_type_name}** → "
                 f"[{new_key}](https://{JIRA_DOMAIN}/browse/{new_key})"
