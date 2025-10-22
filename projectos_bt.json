@@ -1461,6 +1461,46 @@
         "project": "BTP"
       },
       {
+        "key": "IT-21987",
+        "summary": "Worpik / Modificaciones al campo URL slug de un proyecto",
+        "status": "BACKLOG",
+        "story_points": 6.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-21903",
+        "summary": "Worpik / Modificar texto de comunicación de rechazo",
+        "status": "ON HOLD",
+        "story_points": null,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-21847",
+        "summary": "Worpik / Actualización de emails para solicitar carga de CV",
+        "status": "BACKLOG",
+        "story_points": 24.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-21786",
+        "summary": "Worpik / Backend / Mejorar doble scroll por el iframe",
+        "status": "BACKLOG",
+        "story_points": null,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-21778",
+        "summary": "Worpik / Proyectos / Agregar listado de tareas especificas para el proyecto",
+        "status": "BACKLOG",
+        "story_points": 24.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-21552",
         "summary": "Worpik / Asignar cuenta generica como organizador de eventos worpik",
         "status": "FINISH",
@@ -5423,6 +5463,14 @@
     "summary": "Gestiones",
     "tasks": [
       {
+        "key": "IT-21935",
+        "summary": "Reclamos / Backend / Filtrar reclamos con datos faltantes",
+        "status": "BACKLOG",
+        "story_points": 12.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-21571",
         "summary": "Módulo de reclamos - Estados Gestión de pendientes.",
         "status": "BACKLOG",
@@ -6152,17 +6200,9 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-3810",
-        "summary": "[Marketplace][Liverpool] Agregar Publicación Manual",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-3809",
         "summary": "[Marketplace][Falabella]Agregar Publicación Manual",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Juan Ignacio Morelis - Carestino",
         "project": "BTP"
@@ -6184,9 +6224,17 @@
         "project": "BTP"
       },
       {
+        "key": "IT-22154",
+        "summary": "[Marketplace][Liverpool] Agregar Publicación Manual",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
         "key": "IT-21630",
         "summary": "[Marketplace][Falabella][Precios][Stock]",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 60.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -7398,6 +7446,46 @@
     "due_date": "2025-08-15",
     "summary": "Worpik",
     "tasks": [
+      {
+        "key": "IT-21987",
+        "summary": "Worpik / Modificaciones al campo URL slug de un proyecto",
+        "status": "BACKLOG",
+        "story_points": 6.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-21903",
+        "summary": "Worpik / Modificar texto de comunicación de rechazo",
+        "status": "ON HOLD",
+        "story_points": null,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-21847",
+        "summary": "Worpik / Actualización de emails para solicitar carga de CV",
+        "status": "BACKLOG",
+        "story_points": 24.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-21786",
+        "summary": "Worpik / Backend / Mejorar doble scroll por el iframe",
+        "status": "BACKLOG",
+        "story_points": null,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-21778",
+        "summary": "Worpik / Proyectos / Agregar listado de tareas especificas para el proyecto",
+        "status": "BACKLOG",
+        "story_points": 24.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
       {
         "key": "IT-21552",
         "summary": "Worpik / Asignar cuenta generica como organizador de eventos worpik",
@@ -10909,6 +10997,46 @@
         "story_points": null,
         "assignee": "Alan Fernandez",
         "project": "BTP"
+      },
+      {
+        "key": "IT-21987",
+        "summary": "Worpik / Modificaciones al campo URL slug de un proyecto",
+        "status": "BACKLOG",
+        "story_points": 6.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-21903",
+        "summary": "Worpik / Modificar texto de comunicación de rechazo",
+        "status": "ON HOLD",
+        "story_points": null,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-21847",
+        "summary": "Worpik / Actualización de emails para solicitar carga de CV",
+        "status": "BACKLOG",
+        "story_points": 24.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-21786",
+        "summary": "Worpik / Backend / Mejorar doble scroll por el iframe",
+        "status": "BACKLOG",
+        "story_points": null,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-21778",
+        "summary": "Worpik / Proyectos / Agregar listado de tareas especificas para el proyecto",
+        "status": "BACKLOG",
+        "story_points": 24.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
       },
       {
         "key": "IT-21552",
@@ -14459,7 +14587,7 @@
       {
         "key": "IT-21871",
         "summary": "Regla conciliación MercadoPago no concilia - Modulo Conciliador",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 6.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15067,9 +15195,17 @@
         "project": "BTP"
       },
       {
+        "key": "IT-22154",
+        "summary": "[Marketplace][Liverpool] Agregar Publicación Manual",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
         "key": "IT-21630",
         "summary": "[Marketplace][Falabella][Precios][Stock]",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 60.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
