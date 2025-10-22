@@ -10,3 +10,4 @@ pdf2image
 pillow
 pytesseract
 tesseract
+fuzzywuzzy
