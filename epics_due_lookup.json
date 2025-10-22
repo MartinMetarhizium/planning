@@ -104,8 +104,8 @@
     "tasks": [
       {
         "key": "IT-21844",
-        "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "story_points": 2.0,
+        "status": "BACKLOG"
       },
       {
         "key": "IT-21410",
@@ -930,7 +930,7 @@
       {
         "key": "IT-20013",
         "story_points": 2.0,
-        "status": "En progreso"
+        "status": "CODE REVIEW"
       },
       {
         "key": "IT-20012",
@@ -4679,7 +4679,7 @@
       {
         "key": "IT-21871",
         "story_points": 6.0,
-        "status": "TO DEPLOY QA"
+        "status": "TO DEPLOY"
       },
       {
         "key": "IT-21769",
@@ -5300,9 +5300,29 @@
     "summary": "Worpik",
     "tasks": [
       {
-        "key": "IT-22106",
+        "key": "IT-21987",
+        "story_points": 6.0,
+        "status": "BACKLOG"
+      },
+      {
+        "key": "IT-21903",
         "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "status": "ON HOLD"
+      },
+      {
+        "key": "IT-21847",
+        "story_points": 24.0,
+        "status": "BACKLOG"
+      },
+      {
+        "key": "IT-21786",
+        "story_points": null,
+        "status": "BACKLOG"
+      },
+      {
+        "key": "IT-21778",
+        "story_points": 24.0,
+        "status": "BACKLOG"
       },
       {
         "key": "IT-21552",
@@ -8546,7 +8566,7 @@
       {
         "key": "IT-21630",
         "story_points": 60.0,
-        "status": "TO DEPLOY QA"
+        "status": "TO DEPLOY"
       },
       {
         "key": "IT-21281",
