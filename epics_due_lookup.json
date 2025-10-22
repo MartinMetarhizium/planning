@@ -1475,6 +1475,11 @@
     "summary": "Gestiones",
     "tasks": [
       {
+        "key": "IT-21935",
+        "story_points": 12.0,
+        "status": "BACKLOG"
+      },
+      {
         "key": "IT-21571",
         "story_points": 8.0,
         "status": "BACKLOG"
