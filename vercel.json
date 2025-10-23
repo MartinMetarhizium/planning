@@ -1,10 +1,4 @@
 {
-  "routes": [
-    {
-      "src": "/planificacion_light.json",
-      "dest": "/public/planificacion_light.json"
-    }
-  ],
   "headers": [
     {
       "source": "/planificacion_light.json",
