@@ -1,4 +1,234 @@
 {
+  "BTP-3921": {
+    "due_date": null,
+    "summary": "Delivery Admin ",
+    "tasks": [
+      {
+        "key": "BTP-3925",
+        "summary": "Delivery Admin PE",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3924",
+        "summary": "Delivery Admin CL",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3923",
+        "summary": "Delivery Admin UY",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3922",
+        "summary": "Delivery Admin AR",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      }
+    ]
+  },
+  "BTP-3912": {
+    "due_date": null,
+    "summary": "Actualización de api's",
+    "tasks": [
+      {
+        "key": "BTP-3920",
+        "summary": "Actualizar Api Delivery Notes",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3919",
+        "summary": "Actualizar Api WMS",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3918",
+        "summary": "Actualizar Api Expense",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3917",
+        "summary": "Actualizar Nicox-Api",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3916",
+        "summary": "Actualizar Api Reviews",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3915",
+        "summary": "Actualizar Api Invoice",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3914",
+        "summary": "Actualizar Api Stock",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3913",
+        "summary": "Relevamiento de Apis para la actualización",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      }
+    ]
+  },
+  "BTP-3887": {
+    "due_date": null,
+    "summary": "Auditoria de Stock",
+    "tasks": [
+      {
+        "key": "BTP-3894",
+        "summary": "Cálculo de Pérdida de Mercadería",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3892",
+        "summary": "Impacto Automático en Reportes de Auditoría",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3891",
+        "summary": "Flujo de Validación y Aprobación",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3890",
+        "summary": "Clasificación Automática del Tipo de Diferencia",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3889",
+        "summary": "Desglose por Almacén y Tipo de Diferencia",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3888",
+        "summary": "Captura de Diferencias de Stock",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      }
+    ]
+  },
+  "BTP-3883": {
+    "due_date": null,
+    "summary": "Integraciones logísticas – Mercado Envíos / Amazon",
+    "tasks": [
+      {
+        "key": "BTP-3886",
+        "summary": "Armado de documentación técnica para integración en Logística V2",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3885",
+        "summary": "Relevamiento de la documentación disponible para integración",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3884",
+        "summary": "Relevamiento de la operación actual de las entregas mediante Mercado Envíos / Amazon",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      }
+    ]
+  },
+  "BTP-3879": {
+    "due_date": null,
+    "summary": "Mejoras en Seguimiento y Tiempos de Entrega para Clientes",
+    "tasks": [
+      {
+        "key": "BTP-3882",
+        "summary": "[Tecnico]Integración vía API con Envíame / Aplin u operadores similares para obtener tracking final.",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3881",
+        "summary": "Definición de lógica comercial para excepciones",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3880",
+        "summary": "Visualización estimada al cliente antes de concretar la compra (carrito o checkout).",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "IT-20386",
+        "summary": "EXTRAVIOS - REINTEGROS - MEJORA MOVIMIENTO DE STOCK ",
+        "status": "BACKLOG",
+        "story_points": 8.0,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      }
+    ]
+  },
   "BTP-3237": {
     "due_date": "2025-09-30",
     "summary": "Dominicana",
@@ -64,7 +294,7 @@
         "summary": "Agregar pais en API para seleccionar la bandera de DO",
         "status": "BACKLOG",
         "story_points": 2.0,
-        "assignee": "Gastón Ojeda",
+        "assignee": "Luis Uran",
         "project": "IT"
       },
       {
@@ -78,7 +308,7 @@
       {
         "key": "IT-21393",
         "summary": "Dominicana / config.default.php de STG y PROD AR, no esta configurado DO",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 5.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -596,12 +826,70 @@
   "BTP-3194": {
     "due_date": null,
     "summary": "Filtros en listado de productos",
-    "tasks": []
+    "tasks": [
+      {
+        "key": "BTP-3911",
+        "summary": "Pruebas",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3910",
+        "summary": "Filtros / Implementación del filtro por rango etario",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      }
+    ]
   },
   "BTP-3193": {
     "due_date": "2025-10-31",
     "summary": "Lupa Buscador Sitio WEB",
-    "tasks": []
+    "tasks": [
+      {
+        "key": "BTP-3909",
+        "summary": "Pruebas",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3908",
+        "summary": "Implementación de smart autofill ",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3907",
+        "summary": "Rediseño de /search",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3906",
+        "summary": "Relevamiento de autocompletando y sugerencias inteligentes",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3905",
+        "summary": "Relevamiento de funciones actuales",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      }
+    ]
   },
   "BTP-3192": {
     "due_date": "2025-08-31",
@@ -612,6 +900,14 @@
     "due_date": "2025-06-14",
     "summary": "Rediseño Portal Gestion",
     "tasks": [
+      {
+        "key": "BTP-3904",
+        "summary": "Pruebas",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
       {
         "key": "BTP-3301",
         "summary": "Documentación de los cambios",
@@ -641,7 +937,32 @@
   "BTP-3190": {
     "due_date": "2025-09-30",
     "summary": "Rediseño Admin Nicox",
-    "tasks": []
+    "tasks": [
+      {
+        "key": "BTP-3902",
+        "summary": "Pruebas",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3901",
+        "summary": "Documentación de cambios",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3900",
+        "summary": "Relevamiento de componentes de Nicox",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      }
+    ]
   },
   "BTP-3189": {
     "due_date": null,
@@ -1364,6 +1685,14 @@
     "due_date": "2025-06-30",
     "summary": "Worpik",
     "tasks": [
+      {
+        "key": "BTP-3893",
+        "summary": "Error al abrir el formulario del candidato",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Martín Horn",
+        "project": "BTP"
+      },
       {
         "key": "BTP-3796",
         "summary": "Worpik / Permiso para editar video de una entrevista",
@@ -5463,11 +5792,59 @@
     "summary": "Gestiones",
     "tasks": [
       {
+        "key": "BTP-3903",
+        "summary": "Pruebas",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3899",
+        "summary": "Frontend / Ajustes en el diseño",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3898",
+        "summary": "Nicox / Ajustes en el modulo de reclamos",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3897",
+        "summary": "Documentación de automatizaciones propuestas",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3896",
+        "summary": "Relevamiento de automatizaciones propuestas",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3895",
+        "summary": "Relevamiento de situación actual",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
         "key": "IT-21935",
         "summary": "Reclamos / Backend / Filtrar reclamos con datos faltantes",
         "status": "BACKLOG",
         "story_points": 12.0,
-        "assignee": "Alan Mori - Carestino",
+        "assignee": "Gastón Ojeda",
         "project": "IT"
       },
       {
@@ -6184,6 +6561,78 @@
     "summary": "Marketplace",
     "tasks": [
       {
+        "key": "BTP-3878",
+        "summary": "[Marketplace][Falabella][Promociones]",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3877",
+        "summary": "[Marketplace][Amazon][Promociones]",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3876",
+        "summary": "[Marketplace][Liverpool][Promociones]",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3875",
+        "summary": "[Marketplace][Mercadolibre][Promociones]",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3874",
+        "summary": "[Marketplace][MX][Mercadilibre Full][Precios][Stock]",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3873",
+        "summary": "[Marketplace][CL][Paris]Publicación Manual",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3872",
+        "summary": "[Marketplace[Tienda Naranja]Publicación Manual",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3871",
+        "summary": "[Marketplace][CL][Paris][Precios][Stock]",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3870",
+        "summary": "[Marketplace[Tienda Naranja][Precios][Stock]",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-3846",
         "summary": "[Marketplace][Amazon] Agregar Publicación Manual",
         "status": "Pendiente de estimación",
@@ -6234,7 +6683,7 @@
       {
         "key": "IT-21630",
         "summary": "[Marketplace][Falabella][Precios][Stock]",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 60.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -14579,7 +15028,7 @@
       {
         "key": "IT-21873",
         "summary": "Fijar filtro \"Mostrar X registros\" -  Modulo conciliador",
-        "status": "BACKLOG",
+        "status": "CODE REVIEW",
         "story_points": 5.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -14587,7 +15036,7 @@
       {
         "key": "IT-21871",
         "summary": "Regla conciliación MercadoPago no concilia - Modulo Conciliador",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 6.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -14595,7 +15044,7 @@
       {
         "key": "IT-21769",
         "summary": "Eliminar lotes parcialmente conciliados - Conciliador",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 8.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15205,7 +15654,7 @@
       {
         "key": "IT-21630",
         "summary": "[Marketplace][Falabella][Precios][Stock]",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 60.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
