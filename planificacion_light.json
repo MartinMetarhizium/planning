@@ -1,0 +1,4772 @@
+[
+  {
+    "developer": "Miguel Armentano",
+    "key": "REUNION-202510270830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-27 08:30:00",
+    "end": "2025-10-27 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "REUNION-202510271200",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-27 12:00:00",
+    "end": "2025-10-27 13:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "REUNION-202510280830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-28 08:30:00",
+    "end": "2025-10-28 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "REUNION-202510281200",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-28 12:00:00",
+    "end": "2025-10-28 13:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "REUNION-202510290830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-29 08:30:00",
+    "end": "2025-10-29 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "REUNION-202510290900",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-29 09:00:00",
+    "end": "2025-10-29 09:30:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "REUNION-202510291200",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-29 12:00:00",
+    "end": "2025-10-29 13:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "REUNION-202510300830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-30 08:30:00",
+    "end": "2025-10-30 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "REUNION-202510301200",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-30 12:00:00",
+    "end": "2025-10-30 13:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "REUNION-202510310830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-31 08:30:00",
+    "end": "2025-10-31 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "REUNION-202510311200",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-31 12:00:00",
+    "end": "2025-10-31 13:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "REUNION-202511030830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-03 08:30:00",
+    "end": "2025-11-03 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "REUNION-202511031200",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-03 12:00:00",
+    "end": "2025-11-03 13:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "REUNION-202511040830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-04 08:30:00",
+    "end": "2025-11-04 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "REUNION-202511041200",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-04 12:00:00",
+    "end": "2025-11-04 13:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "REUNION-202511050830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-05 08:30:00",
+    "end": "2025-11-05 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "REUNION-202511051200",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-05 12:00:00",
+    "end": "2025-11-05 13:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "REUNION-202511060830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-06 08:30:00",
+    "end": "2025-11-06 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "REUNION-202511061200",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-06 12:00:00",
+    "end": "2025-11-06 13:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21102",
+    "summary": "Modulo rendición de gastos - Visual de totales",
+    "start": "2025-10-27 09:00:00",
+    "end": "2025-10-27 12:00:00",
+    "duration_hours": 3.0,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21102",
+    "summary": "Modulo rendición de gastos - Visual de totales",
+    "start": "2025-10-27 13:00:00",
+    "end": "2025-10-27 15:00:00",
+    "duration_hours": 2.0,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21102",
+    "summary": "Modulo rendición de gastos - Visual de totales",
+    "start": "2025-10-28 09:00:00",
+    "end": "2025-10-28 10:00:00",
+    "duration_hours": 1.0,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21536",
+    "summary": "Relevamiento / Error al generar NC E ",
+    "start": "2025-10-28 10:00:00",
+    "end": "2025-10-28 12:00:00",
+    "duration_hours": 2.0,
+    "cf10209": "Mayoristas/Revendedores"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21536",
+    "summary": "Relevamiento / Error al generar NC E ",
+    "start": "2025-10-28 13:00:00",
+    "end": "2025-10-28 15:00:00",
+    "duration_hours": 2.0,
+    "cf10209": "Mayoristas/Revendedores"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21536",
+    "summary": "Relevamiento / Error al generar NC E ",
+    "start": "2025-10-29 09:30:00",
+    "end": "2025-10-29 11:30:00",
+    "duration_hours": 2.0,
+    "cf10209": "Mayoristas/Revendedores"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21541",
+    "summary": "Error traslado de saldos de un anticipo o FF a otro - por funcionalidad retiro de dinero",
+    "start": "2025-10-29 11:30:00",
+    "end": "2025-10-29 12:00:00",
+    "duration_hours": 0.5,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21541",
+    "summary": "Error traslado de saldos de un anticipo o FF a otro - por funcionalidad retiro de dinero",
+    "start": "2025-10-29 13:00:00",
+    "end": "2025-10-29 15:30:00",
+    "duration_hours": 2.5,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21541",
+    "summary": "Error traslado de saldos de un anticipo o FF a otro - por funcionalidad retiro de dinero",
+    "start": "2025-10-30 09:00:00",
+    "end": "2025-10-30 12:00:00",
+    "duration_hours": 3.0,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21541",
+    "summary": "Error traslado de saldos de un anticipo o FF a otro - por funcionalidad retiro de dinero",
+    "start": "2025-10-30 13:00:00",
+    "end": "2025-10-30 15:00:00",
+    "duration_hours": 2.0,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21541",
+    "summary": "Error traslado de saldos de un anticipo o FF a otro - por funcionalidad retiro de dinero",
+    "start": "2025-10-31 09:00:00",
+    "end": "2025-10-31 11:00:00",
+    "duration_hours": 2.0,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21539",
+    "summary": "Amazon / Facturación automática",
+    "start": "2025-10-31 11:00:00",
+    "end": "2025-10-31 12:00:00",
+    "duration_hours": 1.0,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21539",
+    "summary": "Amazon / Facturación automática",
+    "start": "2025-10-31 13:00:00",
+    "end": "2025-10-31 15:00:00",
+    "duration_hours": 2.0,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21539",
+    "summary": "Amazon / Facturación automática",
+    "start": "2025-11-03 09:00:00",
+    "end": "2025-11-03 12:00:00",
+    "duration_hours": 3.0,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21539",
+    "summary": "Amazon / Facturación automática",
+    "start": "2025-11-03 13:00:00",
+    "end": "2025-11-03 15:00:00",
+    "duration_hours": 2.0,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21539",
+    "summary": "Amazon / Facturación automática",
+    "start": "2025-11-04 09:00:00",
+    "end": "2025-11-04 12:00:00",
+    "duration_hours": 3.0,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21539",
+    "summary": "Amazon / Facturación automática",
+    "start": "2025-11-04 13:00:00",
+    "end": "2025-11-04 15:00:00",
+    "duration_hours": 2.0,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21539",
+    "summary": "Amazon / Facturación automática",
+    "start": "2025-11-05 09:00:00",
+    "end": "2025-11-05 10:00:00",
+    "duration_hours": 1.0,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21437",
+    "summary": "New_Invoice / Corrección en CRON _invoice_queue.php",
+    "start": "2025-11-05 10:00:00",
+    "end": "2025-11-05 12:00:00",
+    "duration_hours": 2.0,
+    "cf10209": "Business Technology (BT)"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21437",
+    "summary": "New_Invoice / Corrección en CRON _invoice_queue.php",
+    "start": "2025-11-05 13:00:00",
+    "end": "2025-11-05 15:00:00",
+    "duration_hours": 2.0,
+    "cf10209": "Business Technology (BT)"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21437",
+    "summary": "New_Invoice / Corrección en CRON _invoice_queue.php",
+    "start": "2025-11-06 09:00:00",
+    "end": "2025-11-06 12:00:00",
+    "duration_hours": 3.0,
+    "cf10209": "Business Technology (BT)"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21437",
+    "summary": "New_Invoice / Corrección en CRON _invoice_queue.php",
+    "start": "2025-11-06 13:00:00",
+    "end": "2025-11-06 14:00:00",
+    "duration_hours": 1.0,
+    "cf10209": "Business Technology (BT)"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21669",
+    "summary": "Comprobantes que no tienen el botón de anular (Nicox) - Uruguay",
+    "start": "2025-11-06 14:00:00",
+    "end": "2025-11-06 15:00:00",
+    "duration_hours": 1.0,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21669",
+    "summary": "Comprobantes que no tienen el botón de anular (Nicox) - Uruguay",
+    "start": "2025-11-07 08:30:00",
+    "end": "2025-11-07 11:30:00",
+    "duration_hours": 3.0,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21740",
+    "summary": "Fix street_number para proveedor externo de facturación Argentina",
+    "start": "2025-11-07 11:30:00",
+    "end": "2025-11-07 13:30:00",
+    "duration_hours": 2.0,
+    "cf10209": "Information Technology (IT)"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21740",
+    "summary": "Fix street_number para proveedor externo de facturación Argentina",
+    "start": "2025-11-10 08:30:00",
+    "end": "2025-11-10 10:30:00",
+    "duration_hours": 2.0,
+    "cf10209": "Information Technology (IT)"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21671",
+    "summary": "Correcciones/Mejoras Expense MercadoPago (Billetera Virtual)",
+    "start": "2025-11-10 10:30:00",
+    "end": "2025-11-10 13:30:00",
+    "duration_hours": 3.0,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21671",
+    "summary": "Correcciones/Mejoras Expense MercadoPago (Billetera Virtual)",
+    "start": "2025-11-11 08:30:00",
+    "end": "2025-11-11 10:30:00",
+    "duration_hours": 2.0,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21548",
+    "summary": "Dueño de gasto para fondo de Billetera Virtual - Expense",
+    "start": "2025-11-11 10:30:00",
+    "end": "2025-11-11 13:30:00",
+    "duration_hours": 3.0,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21548",
+    "summary": "Dueño de gasto para fondo de Billetera Virtual - Expense",
+    "start": "2025-11-12 08:30:00",
+    "end": "2025-11-12 13:30:00",
+    "duration_hours": 5,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21393",
+    "summary": "Dominicana / config.default.php de STG y PROD AR, no esta configurado DO",
+    "start": "2025-11-13 08:30:00",
+    "end": "2025-11-13 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-20942",
+    "summary": "Requerimiento Investigacion y Configuracion - AWS - Cost Allocation Tags",
+    "start": "2025-11-14 08:30:00",
+    "end": "2025-11-14 13:30:00",
+    "duration_hours": 5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-20942",
+    "summary": "Requerimiento Investigacion y Configuracion - AWS - Cost Allocation Tags",
+    "start": "2025-11-17 08:30:00",
+    "end": "2025-11-17 11:30:00",
+    "duration_hours": 3.0,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-20578",
+    "summary": "Expense / Reemplazo Sofia / Módulo Cuenta Corriente",
+    "start": "2025-11-17 11:30:00",
+    "end": "2025-11-17 13:30:00",
+    "duration_hours": 2.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-20578",
+    "summary": "Expense / Reemplazo Sofia / Módulo Cuenta Corriente",
+    "start": "2025-11-18 08:30:00",
+    "end": "2025-11-18 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-20578",
+    "summary": "Expense / Reemplazo Sofia / Módulo Cuenta Corriente",
+    "start": "2025-11-19 08:30:00",
+    "end": "2025-11-19 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-20578",
+    "summary": "Expense / Reemplazo Sofia / Módulo Cuenta Corriente",
+    "start": "2025-11-20 08:30:00",
+    "end": "2025-11-20 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-20578",
+    "summary": "Expense / Reemplazo Sofia / Módulo Cuenta Corriente",
+    "start": "2025-11-21 08:30:00",
+    "end": "2025-11-21 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-20578",
+    "summary": "Expense / Reemplazo Sofia / Módulo Cuenta Corriente",
+    "start": "2025-11-24 08:30:00",
+    "end": "2025-11-24 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-20578",
+    "summary": "Expense / Reemplazo Sofia / Módulo Cuenta Corriente",
+    "start": "2025-11-25 08:30:00",
+    "end": "2025-11-25 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-20578",
+    "summary": "Expense / Reemplazo Sofia / Módulo Cuenta Corriente",
+    "start": "2025-11-26 08:30:00",
+    "end": "2025-11-26 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-20578",
+    "summary": "Expense / Reemplazo Sofia / Módulo Cuenta Corriente",
+    "start": "2025-11-27 08:30:00",
+    "end": "2025-11-27 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-20578",
+    "summary": "Expense / Reemplazo Sofia / Módulo Cuenta Corriente",
+    "start": "2025-11-28 08:30:00",
+    "end": "2025-11-28 10:30:00",
+    "duration_hours": 2.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21672",
+    "summary": "Modulo rendición de gastos - Habilitar Filtros ",
+    "start": "2025-11-28 10:30:00",
+    "end": "2025-11-28 13:30:00",
+    "duration_hours": 3.0,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21672",
+    "summary": "Modulo rendición de gastos - Habilitar Filtros ",
+    "start": "2025-12-01 08:30:00",
+    "end": "2025-12-01 13:30:00",
+    "duration_hours": 5,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-22043",
+    "summary": "Nicox no factura ventas de giftcard de forma automática - API Invoice",
+    "start": "2025-12-02 08:30:00",
+    "end": "2025-12-02 13:30:00",
+    "duration_hours": 5,
+    "cf10209": "Business Technology (BT)"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-22043",
+    "summary": "Nicox no factura ventas de giftcard de forma automática - API Invoice",
+    "start": "2025-12-03 08:30:00",
+    "end": "2025-12-03 11:30:00",
+    "duration_hours": 3.0,
+    "cf10209": "Business Technology (BT)"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21962",
+    "summary": "Cierre de fondos tarjetas y mercado pago",
+    "start": "2025-12-03 11:30:00",
+    "end": "2025-12-03 13:30:00",
+    "duration_hours": 2.0,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-21962",
+    "summary": "Cierre de fondos tarjetas y mercado pago",
+    "start": "2025-12-04 08:30:00",
+    "end": "2025-12-04 09:30:00",
+    "duration_hours": 1.0,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-11523",
+    "summary": "Expenses / Hoja de ruta",
+    "start": "2025-12-04 09:30:00",
+    "end": "2025-12-04 13:30:00",
+    "duration_hours": 4.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-11523",
+    "summary": "Expenses / Hoja de ruta",
+    "start": "2025-12-05 08:30:00",
+    "end": "2025-12-05 12:30:00",
+    "duration_hours": 4.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-20577",
+    "summary": "Expense / Reemplazo Sofia / Módulo bandeja de entrada",
+    "start": "2025-12-05 12:30:00",
+    "end": "2025-12-05 13:30:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-20577",
+    "summary": "Expense / Reemplazo Sofia / Módulo bandeja de entrada",
+    "start": "2025-12-08 08:30:00",
+    "end": "2025-12-08 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-20577",
+    "summary": "Expense / Reemplazo Sofia / Módulo bandeja de entrada",
+    "start": "2025-12-09 08:30:00",
+    "end": "2025-12-09 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-20577",
+    "summary": "Expense / Reemplazo Sofia / Módulo bandeja de entrada",
+    "start": "2025-12-10 08:30:00",
+    "end": "2025-12-10 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-20577",
+    "summary": "Expense / Reemplazo Sofia / Módulo bandeja de entrada",
+    "start": "2025-12-11 08:30:00",
+    "end": "2025-12-11 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-20577",
+    "summary": "Expense / Reemplazo Sofia / Módulo bandeja de entrada",
+    "start": "2025-12-12 08:30:00",
+    "end": "2025-12-12 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-20577",
+    "summary": "Expense / Reemplazo Sofia / Módulo bandeja de entrada",
+    "start": "2025-12-15 08:30:00",
+    "end": "2025-12-15 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-20577",
+    "summary": "Expense / Reemplazo Sofia / Módulo bandeja de entrada",
+    "start": "2025-12-16 08:30:00",
+    "end": "2025-12-16 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-20577",
+    "summary": "Expense / Reemplazo Sofia / Módulo bandeja de entrada",
+    "start": "2025-12-17 08:30:00",
+    "end": "2025-12-17 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-20577",
+    "summary": "Expense / Reemplazo Sofia / Módulo bandeja de entrada",
+    "start": "2025-12-18 08:30:00",
+    "end": "2025-12-18 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-20577",
+    "summary": "Expense / Reemplazo Sofia / Módulo bandeja de entrada",
+    "start": "2025-12-19 08:30:00",
+    "end": "2025-12-19 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-20577",
+    "summary": "Expense / Reemplazo Sofia / Módulo bandeja de entrada",
+    "start": "2025-12-22 08:30:00",
+    "end": "2025-12-22 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-20577",
+    "summary": "Expense / Reemplazo Sofia / Módulo bandeja de entrada",
+    "start": "2025-12-23 08:30:00",
+    "end": "2025-12-23 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-20577",
+    "summary": "Expense / Reemplazo Sofia / Módulo bandeja de entrada",
+    "start": "2025-12-24 08:30:00",
+    "end": "2025-12-24 11:30:00",
+    "duration_hours": 3.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Miguel Armentano",
+    "key": "IT-11789",
+    "summary": "Core de facturación / México / Inclusión costos de envío en los comprobantes",
+    "start": "2025-12-24 11:30:00",
+    "end": "2025-12-24 13:30:00",
+    "duration_hours": 2.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "REUNION-202510270830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-27 08:30:00",
+    "end": "2025-10-27 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "REUNION-202510271030",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-27 10:30:00",
+    "end": "2025-10-27 10:35:00",
+    "duration_hours": 0.08333333333333333,
+    "cf10209": null
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "REUNION-202510280830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-28 08:30:00",
+    "end": "2025-10-28 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "REUNION-202510281030",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-28 10:30:00",
+    "end": "2025-10-28 10:35:00",
+    "duration_hours": 0.08333333333333333,
+    "cf10209": null
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "REUNION-202510290830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-29 08:30:00",
+    "end": "2025-10-29 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "REUNION-202510290900",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-29 09:00:00",
+    "end": "2025-10-29 09:30:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "REUNION-202510291030",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-29 10:30:00",
+    "end": "2025-10-29 10:35:00",
+    "duration_hours": 0.08333333333333333,
+    "cf10209": null
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "REUNION-202510300830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-30 08:30:00",
+    "end": "2025-10-30 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "REUNION-202510301030",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-30 10:30:00",
+    "end": "2025-10-30 10:35:00",
+    "duration_hours": 0.08333333333333333,
+    "cf10209": null
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "REUNION-202510310830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-31 08:30:00",
+    "end": "2025-10-31 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "REUNION-202510311030",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-31 10:30:00",
+    "end": "2025-10-31 10:35:00",
+    "duration_hours": 0.08333333333333333,
+    "cf10209": null
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "REUNION-202511030830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-03 08:30:00",
+    "end": "2025-11-03 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "REUNION-202511031030",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-03 10:30:00",
+    "end": "2025-11-03 10:35:00",
+    "duration_hours": 0.08333333333333333,
+    "cf10209": null
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "REUNION-202511040830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-04 08:30:00",
+    "end": "2025-11-04 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "REUNION-202511041030",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-04 10:30:00",
+    "end": "2025-11-04 10:35:00",
+    "duration_hours": 0.08333333333333333,
+    "cf10209": null
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "REUNION-202511050830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-05 08:30:00",
+    "end": "2025-11-05 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "REUNION-202511051030",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-05 10:30:00",
+    "end": "2025-11-05 10:35:00",
+    "duration_hours": 0.08333333333333333,
+    "cf10209": null
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "REUNION-202511060830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-06 08:30:00",
+    "end": "2025-11-06 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "REUNION-202511061030",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-06 10:30:00",
+    "end": "2025-11-06 10:35:00",
+    "duration_hours": 0.08333333333333333,
+    "cf10209": null
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21933",
+    "summary": "Formularios Reclamos | Cancelación automática de despachos",
+    "start": "2025-10-27 09:00:00",
+    "end": "2025-10-27 10:30:00",
+    "duration_hours": 1.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21933",
+    "summary": "Formularios Reclamos | Cancelación automática de despachos",
+    "start": "2025-10-27 10:35:00",
+    "end": "2025-10-27 14:35:00",
+    "duration_hours": 4.0,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21933",
+    "summary": "Formularios Reclamos | Cancelación automática de despachos",
+    "start": "2025-10-28 09:00:00",
+    "end": "2025-10-28 10:30:00",
+    "duration_hours": 1.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21933",
+    "summary": "Formularios Reclamos | Cancelación automática de despachos",
+    "start": "2025-10-28 10:35:00",
+    "end": "2025-10-28 14:35:00",
+    "duration_hours": 4.0,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21933",
+    "summary": "Formularios Reclamos | Cancelación automática de despachos",
+    "start": "2025-10-29 09:30:00",
+    "end": "2025-10-29 10:30:00",
+    "duration_hours": 1.0,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21933",
+    "summary": "Formularios Reclamos | Cancelación automática de despachos",
+    "start": "2025-10-29 10:35:00",
+    "end": "2025-10-29 15:05:00",
+    "duration_hours": 4.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21933",
+    "summary": "Formularios Reclamos | Cancelación automática de despachos",
+    "start": "2025-10-30 09:00:00",
+    "end": "2025-10-30 10:30:00",
+    "duration_hours": 1.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21933",
+    "summary": "Formularios Reclamos | Cancelación automática de despachos",
+    "start": "2025-10-30 10:35:00",
+    "end": "2025-10-30 13:35:00",
+    "duration_hours": 3.0,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21985",
+    "summary": "Ordenes de precios / No permite editar precios desde el listado",
+    "start": "2025-10-30 13:35:00",
+    "end": "2025-10-30 14:35:00",
+    "duration_hours": 1.0,
+    "cf10209": "Marketing Digital"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21985",
+    "summary": "Ordenes de precios / No permite editar precios desde el listado",
+    "start": "2025-10-31 09:00:00",
+    "end": "2025-10-31 10:30:00",
+    "duration_hours": 1.5,
+    "cf10209": "Marketing Digital"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21985",
+    "summary": "Ordenes de precios / No permite editar precios desde el listado",
+    "start": "2025-10-31 10:35:00",
+    "end": "2025-10-31 12:05:00",
+    "duration_hours": 1.5,
+    "cf10209": "Marketing Digital"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20819",
+    "summary": "Productos / Agregar \"Activo mayorista\" en el modal de edición de ecommerce desde listado de productos",
+    "start": "2025-10-31 12:05:00",
+    "end": "2025-10-31 14:35:00",
+    "duration_hours": 2.5,
+    "cf10209": "Marketing Digital"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20819",
+    "summary": "Productos / Agregar \"Activo mayorista\" en el modal de edición de ecommerce desde listado de productos",
+    "start": "2025-11-03 09:00:00",
+    "end": "2025-11-03 10:30:00",
+    "duration_hours": 1.5,
+    "cf10209": "Marketing Digital"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20819",
+    "summary": "Productos / Agregar \"Activo mayorista\" en el modal de edición de ecommerce desde listado de productos",
+    "start": "2025-11-03 10:35:00",
+    "end": "2025-11-03 14:35:00",
+    "duration_hours": 4.0,
+    "cf10209": "Marketing Digital"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21786",
+    "summary": "Worpik / Backend / Mejorar doble scroll por el iframe",
+    "start": "2025-11-04 09:00:00",
+    "end": "2025-11-04 10:00:00",
+    "duration_hours": 1.0,
+    "cf10209": "Business Technology (BT)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20630",
+    "summary": "Reclamos / Derivar el reclamo hacía otra área",
+    "start": "2025-11-04 10:00:00",
+    "end": "2025-11-04 10:30:00",
+    "duration_hours": 0.5,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20630",
+    "summary": "Reclamos / Derivar el reclamo hacía otra área",
+    "start": "2025-11-04 10:35:00",
+    "end": "2025-11-04 14:35:00",
+    "duration_hours": 4.0,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20630",
+    "summary": "Reclamos / Derivar el reclamo hacía otra área",
+    "start": "2025-11-05 09:00:00",
+    "end": "2025-11-05 10:30:00",
+    "duration_hours": 1.5,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20630",
+    "summary": "Reclamos / Derivar el reclamo hacía otra área",
+    "start": "2025-11-05 10:35:00",
+    "end": "2025-11-05 14:35:00",
+    "duration_hours": 4.0,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20630",
+    "summary": "Reclamos / Derivar el reclamo hacía otra área",
+    "start": "2025-11-06 09:00:00",
+    "end": "2025-11-06 10:30:00",
+    "duration_hours": 1.5,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20630",
+    "summary": "Reclamos / Derivar el reclamo hacía otra área",
+    "start": "2025-11-06 10:35:00",
+    "end": "2025-11-06 11:05:00",
+    "duration_hours": 0.5,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20655",
+    "summary": "Backend / Reclamos / Permitir editar un reclamo desde el frontend",
+    "start": "2025-11-06 11:05:00",
+    "end": "2025-11-06 14:35:00",
+    "duration_hours": 3.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20655",
+    "summary": "Backend / Reclamos / Permitir editar un reclamo desde el frontend",
+    "start": "2025-11-07 08:30:00",
+    "end": "2025-11-07 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20655",
+    "summary": "Backend / Reclamos / Permitir editar un reclamo desde el frontend",
+    "start": "2025-11-10 08:30:00",
+    "end": "2025-11-10 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20655",
+    "summary": "Backend / Reclamos / Permitir editar un reclamo desde el frontend",
+    "start": "2025-11-11 08:30:00",
+    "end": "2025-11-11 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20655",
+    "summary": "Backend / Reclamos / Permitir editar un reclamo desde el frontend",
+    "start": "2025-11-12 08:30:00",
+    "end": "2025-11-12 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20655",
+    "summary": "Backend / Reclamos / Permitir editar un reclamo desde el frontend",
+    "start": "2025-11-13 08:30:00",
+    "end": "2025-11-13 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20655",
+    "summary": "Backend / Reclamos / Permitir editar un reclamo desde el frontend",
+    "start": "2025-11-14 08:30:00",
+    "end": "2025-11-14 09:30:00",
+    "duration_hours": 1.0,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21571",
+    "summary": "Módulo de reclamos - Estados Gestión de pendientes.",
+    "start": "2025-11-14 09:30:00",
+    "end": "2025-11-14 14:00:00",
+    "duration_hours": 4.5,
+    "cf10209": "Retail"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21571",
+    "summary": "Módulo de reclamos - Estados Gestión de pendientes.",
+    "start": "2025-11-17 08:30:00",
+    "end": "2025-11-17 12:00:00",
+    "duration_hours": 3.5,
+    "cf10209": "Retail"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21935",
+    "summary": "Reclamos / Backend / Filtrar reclamos con datos faltantes",
+    "start": "2025-11-17 12:00:00",
+    "end": "2025-11-17 14:00:00",
+    "duration_hours": 2.0,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21935",
+    "summary": "Reclamos / Backend / Filtrar reclamos con datos faltantes",
+    "start": "2025-11-18 08:30:00",
+    "end": "2025-11-18 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21935",
+    "summary": "Reclamos / Backend / Filtrar reclamos con datos faltantes",
+    "start": "2025-11-19 08:30:00",
+    "end": "2025-11-19 13:00:00",
+    "duration_hours": 4.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21983",
+    "summary": "Entrevistas / Cancelación de entrevistas el mismo día",
+    "start": "2025-11-19 13:00:00",
+    "end": "2025-11-19 14:00:00",
+    "duration_hours": 1.0,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-22045",
+    "summary": "Nicox / Desactivar generación legacy de sitemap",
+    "start": "2025-11-20 08:30:00",
+    "end": "2025-11-20 10:30:00",
+    "duration_hours": 2.0,
+    "cf10209": "Information Technology (IT)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21847",
+    "summary": "Worpik / Actualización de emails para solicitar carga de CV",
+    "start": "2025-11-20 10:30:00",
+    "end": "2025-11-20 14:00:00",
+    "duration_hours": 3.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21847",
+    "summary": "Worpik / Actualización de emails para solicitar carga de CV",
+    "start": "2025-11-21 08:30:00",
+    "end": "2025-11-21 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21847",
+    "summary": "Worpik / Actualización de emails para solicitar carga de CV",
+    "start": "2025-11-24 08:30:00",
+    "end": "2025-11-24 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21847",
+    "summary": "Worpik / Actualización de emails para solicitar carga de CV",
+    "start": "2025-11-25 08:30:00",
+    "end": "2025-11-25 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21847",
+    "summary": "Worpik / Actualización de emails para solicitar carga de CV",
+    "start": "2025-11-26 08:30:00",
+    "end": "2025-11-26 12:30:00",
+    "duration_hours": 4.0,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21391",
+    "summary": "Worpik / Cambio de estados  de los candidatos",
+    "start": "2025-11-26 12:30:00",
+    "end": "2025-11-26 14:00:00",
+    "duration_hours": 1.5,
+    "cf10209": "Estructura Organizacional (IERO)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21391",
+    "summary": "Worpik / Cambio de estados  de los candidatos",
+    "start": "2025-11-27 08:30:00",
+    "end": "2025-11-27 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Estructura Organizacional (IERO)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21391",
+    "summary": "Worpik / Cambio de estados  de los candidatos",
+    "start": "2025-11-28 08:30:00",
+    "end": "2025-11-28 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Estructura Organizacional (IERO)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21391",
+    "summary": "Worpik / Cambio de estados  de los candidatos",
+    "start": "2025-12-01 08:30:00",
+    "end": "2025-12-01 12:00:00",
+    "duration_hours": 3.5,
+    "cf10209": "Estructura Organizacional (IERO)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21765",
+    "summary": "Worpik / Entrevistas / No se elimina el evento al recalendarizar",
+    "start": "2025-12-01 12:00:00",
+    "end": "2025-12-01 14:00:00",
+    "duration_hours": 2.0,
+    "cf10209": "Estructura Organizacional (IERO)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21765",
+    "summary": "Worpik / Entrevistas / No se elimina el evento al recalendarizar",
+    "start": "2025-12-02 08:30:00",
+    "end": "2025-12-02 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Estructura Organizacional (IERO)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21765",
+    "summary": "Worpik / Entrevistas / No se elimina el evento al recalendarizar",
+    "start": "2025-12-03 08:30:00",
+    "end": "2025-12-03 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": "Estructura Organizacional (IERO)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21342",
+    "summary": "Worpik / Calendarización de evaluaciones",
+    "start": "2025-12-03 09:00:00",
+    "end": "2025-12-03 14:00:00",
+    "duration_hours": 5.0,
+    "cf10209": "Estructura Organizacional (IERO)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21342",
+    "summary": "Worpik / Calendarización de evaluaciones",
+    "start": "2025-12-04 08:30:00",
+    "end": "2025-12-04 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Estructura Organizacional (IERO)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21342",
+    "summary": "Worpik / Calendarización de evaluaciones",
+    "start": "2025-12-05 08:30:00",
+    "end": "2025-12-05 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Estructura Organizacional (IERO)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21452",
+    "summary": "Relevamiento / Worpik / Editar flujos de proyecto en proyecto con candidatos",
+    "start": "2025-12-08 08:30:00",
+    "end": "2025-12-08 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Information Technology (IT)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21452",
+    "summary": "Relevamiento / Worpik / Editar flujos de proyecto en proyecto con candidatos",
+    "start": "2025-12-09 08:30:00",
+    "end": "2025-12-09 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Information Technology (IT)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21452",
+    "summary": "Relevamiento / Worpik / Editar flujos de proyecto en proyecto con candidatos",
+    "start": "2025-12-10 08:30:00",
+    "end": "2025-12-10 13:30:00",
+    "duration_hours": 5.0,
+    "cf10209": "Information Technology (IT)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20531",
+    "summary": "Worpik / Importador masivo Lever",
+    "start": "2025-12-10 13:30:00",
+    "end": "2025-12-10 14:00:00",
+    "duration_hours": 0.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20531",
+    "summary": "Worpik / Importador masivo Lever",
+    "start": "2025-12-11 08:30:00",
+    "end": "2025-12-11 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20531",
+    "summary": "Worpik / Importador masivo Lever",
+    "start": "2025-12-12 08:30:00",
+    "end": "2025-12-12 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20531",
+    "summary": "Worpik / Importador masivo Lever",
+    "start": "2025-12-15 08:30:00",
+    "end": "2025-12-15 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20531",
+    "summary": "Worpik / Importador masivo Lever",
+    "start": "2025-12-16 08:30:00",
+    "end": "2025-12-16 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20531",
+    "summary": "Worpik / Importador masivo Lever",
+    "start": "2025-12-17 08:30:00",
+    "end": "2025-12-17 10:00:00",
+    "duration_hours": 1.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21778",
+    "summary": "Worpik / Proyectos / Agregar listado de tareas especificas para el proyecto",
+    "start": "2025-12-17 10:00:00",
+    "end": "2025-12-17 14:00:00",
+    "duration_hours": 4.0,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21778",
+    "summary": "Worpik / Proyectos / Agregar listado de tareas especificas para el proyecto",
+    "start": "2025-12-18 08:30:00",
+    "end": "2025-12-18 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21778",
+    "summary": "Worpik / Proyectos / Agregar listado de tareas especificas para el proyecto",
+    "start": "2025-12-19 08:30:00",
+    "end": "2025-12-19 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21778",
+    "summary": "Worpik / Proyectos / Agregar listado de tareas especificas para el proyecto",
+    "start": "2025-12-22 08:30:00",
+    "end": "2025-12-22 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21778",
+    "summary": "Worpik / Proyectos / Agregar listado de tareas especificas para el proyecto",
+    "start": "2025-12-23 08:30:00",
+    "end": "2025-12-23 12:00:00",
+    "duration_hours": 3.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21197",
+    "summary": "Worpik / Fix \"Test de Lógica\" – Candidatos con más respuestas que preguntas en el test",
+    "start": "2025-12-23 12:00:00",
+    "end": "2025-12-23 14:00:00",
+    "duration_hours": 2.0,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21197",
+    "summary": "Worpik / Fix \"Test de Lógica\" – Candidatos con más respuestas que preguntas en el test",
+    "start": "2025-12-24 08:30:00",
+    "end": "2025-12-24 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21197",
+    "summary": "Worpik / Fix \"Test de Lógica\" – Candidatos con más respuestas que preguntas en el test",
+    "start": "2025-12-25 08:30:00",
+    "end": "2025-12-25 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21510",
+    "summary": "Worpik / Error en cierre de test de lógica",
+    "start": "2025-12-25 09:00:00",
+    "end": "2025-12-25 14:00:00",
+    "duration_hours": 5.0,
+    "cf10209": "Estructura Organizacional (IERO)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21510",
+    "summary": "Worpik / Error en cierre de test de lógica",
+    "start": "2025-12-26 08:30:00",
+    "end": "2025-12-26 11:30:00",
+    "duration_hours": 3.0,
+    "cf10209": "Estructura Organizacional (IERO)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20640",
+    "summary": "Registros Outlet y Exhibidos / Mantener filtro en acciones",
+    "start": "2025-12-26 11:30:00",
+    "end": "2025-12-26 14:00:00",
+    "duration_hours": 2.5,
+    "cf10209": "Auditoría Comercial"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20640",
+    "summary": "Registros Outlet y Exhibidos / Mantener filtro en acciones",
+    "start": "2025-12-29 08:30:00",
+    "end": "2025-12-29 11:00:00",
+    "duration_hours": 2.5,
+    "cf10209": "Auditoría Comercial"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21987",
+    "summary": "Worpik / Modificaciones al campo URL slug de un proyecto",
+    "start": "2025-12-29 11:00:00",
+    "end": "2025-12-29 14:00:00",
+    "duration_hours": 3.0,
+    "cf10209": "Estructura Organizacional (IERO)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21987",
+    "summary": "Worpik / Modificaciones al campo URL slug de un proyecto",
+    "start": "2025-12-30 08:30:00",
+    "end": "2025-12-30 11:30:00",
+    "duration_hours": 3.0,
+    "cf10209": "Estructura Organizacional (IERO)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21330",
+    "summary": "Worpik / Motivos de bajas",
+    "start": "2025-12-30 11:30:00",
+    "end": "2025-12-30 14:00:00",
+    "duration_hours": 2.5,
+    "cf10209": "Estructura Organizacional (IERO)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21330",
+    "summary": "Worpik / Motivos de bajas",
+    "start": "2025-12-31 08:30:00",
+    "end": "2025-12-31 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Estructura Organizacional (IERO)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21450",
+    "summary": "Worpik / Usuarios duplicados",
+    "start": "2026-01-01 08:30:00",
+    "end": "2026-01-01 12:30:00",
+    "duration_hours": 4.0,
+    "cf10209": "Estructura Organizacional (IERO)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21326",
+    "summary": "Worpik / Carga de videos - Entrevista",
+    "start": "2026-01-01 12:30:00",
+    "end": "2026-01-01 14:00:00",
+    "duration_hours": 1.5,
+    "cf10209": "Estructura Organizacional (IERO)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21326",
+    "summary": "Worpik / Carga de videos - Entrevista",
+    "start": "2026-01-02 08:30:00",
+    "end": "2026-01-02 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": "Estructura Organizacional (IERO)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20781",
+    "summary": "Worpik / Mejoras formularios genericos - Mejoras menores 5/5",
+    "start": "2026-01-02 09:00:00",
+    "end": "2026-01-02 14:00:00",
+    "duration_hours": 5.0,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20781",
+    "summary": "Worpik / Mejoras formularios genericos - Mejoras menores 5/5",
+    "start": "2026-01-05 08:30:00",
+    "end": "2026-01-05 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20781",
+    "summary": "Worpik / Mejoras formularios genericos - Mejoras menores 5/5",
+    "start": "2026-01-06 08:30:00",
+    "end": "2026-01-06 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-20781",
+    "summary": "Worpik / Mejoras formularios genericos - Mejoras menores 5/5",
+    "start": "2026-01-07 08:30:00",
+    "end": "2026-01-07 10:30:00",
+    "duration_hours": 2.0,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21013",
+    "summary": "Worpik / Mejoras formularios genericos - Sección \"Estudios\" 4/5",
+    "start": "2026-01-07 10:30:00",
+    "end": "2026-01-07 14:00:00",
+    "duration_hours": 3.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21013",
+    "summary": "Worpik / Mejoras formularios genericos - Sección \"Estudios\" 4/5",
+    "start": "2026-01-08 08:30:00",
+    "end": "2026-01-08 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21013",
+    "summary": "Worpik / Mejoras formularios genericos - Sección \"Estudios\" 4/5",
+    "start": "2026-01-09 08:30:00",
+    "end": "2026-01-09 14:00:00",
+    "duration_hours": 5.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21013",
+    "summary": "Worpik / Mejoras formularios genericos - Sección \"Estudios\" 4/5",
+    "start": "2026-01-12 08:30:00",
+    "end": "2026-01-12 10:00:00",
+    "duration_hours": 1.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21734",
+    "summary": "Update técnico de modelo “Contactos”",
+    "start": "2026-01-12 10:00:00",
+    "end": "2026-01-12 14:00:00",
+    "duration_hours": 4.0,
+    "cf10209": "Information Technology (IT)"
+  },
+  {
+    "developer": "Alan Mori - Carestino",
+    "key": "IT-21734",
+    "summary": "Update técnico de modelo “Contactos”",
+    "start": "2026-01-13 08:30:00",
+    "end": "2026-01-13 12:30:00",
+    "duration_hours": 4.0,
+    "cf10209": "Information Technology (IT)"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202510270830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-27 08:30:00",
+    "end": "2025-10-27 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202510271100",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-27 11:00:00",
+    "end": "2025-10-27 12:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202510271200",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-27 12:00:00",
+    "end": "2025-10-27 13:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202510280730",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-28 07:30:00",
+    "end": "2025-10-28 08:30:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202510280830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-28 08:30:00",
+    "end": "2025-10-28 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202510281200",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-28 12:00:00",
+    "end": "2025-10-28 13:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202510281430",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-28 14:30:00",
+    "end": "2025-10-28 15:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202510290830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-29 08:30:00",
+    "end": "2025-10-29 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202510290900",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-29 09:00:00",
+    "end": "2025-10-29 09:30:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202510291100",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-29 11:00:00",
+    "end": "2025-10-29 12:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202510291200",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-29 12:00:00",
+    "end": "2025-10-29 13:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202510300730",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-30 07:30:00",
+    "end": "2025-10-30 08:30:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202510300830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-30 08:30:00",
+    "end": "2025-10-30 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202510301200",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-30 12:00:00",
+    "end": "2025-10-30 13:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202510310830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-31 08:30:00",
+    "end": "2025-10-31 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202510311200",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-31 12:00:00",
+    "end": "2025-10-31 13:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202511030830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-03 08:30:00",
+    "end": "2025-11-03 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202511031100",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-03 11:00:00",
+    "end": "2025-11-03 12:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202511031200",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-03 12:00:00",
+    "end": "2025-11-03 13:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202511040730",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-04 07:30:00",
+    "end": "2025-11-04 08:30:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202511040830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-04 08:30:00",
+    "end": "2025-11-04 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202511041200",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-04 12:00:00",
+    "end": "2025-11-04 13:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202511041430",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-04 14:30:00",
+    "end": "2025-11-04 15:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202511050830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-05 08:30:00",
+    "end": "2025-11-05 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202511051100",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-05 11:00:00",
+    "end": "2025-11-05 12:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202511051200",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-05 12:00:00",
+    "end": "2025-11-05 13:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202511060730",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-06 07:30:00",
+    "end": "2025-11-06 08:30:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202511060830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-06 08:30:00",
+    "end": "2025-11-06 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "REUNION-202511061200",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-06 12:00:00",
+    "end": "2025-11-06 13:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21305",
+    "summary": "Ventas / Anulación de reintegro",
+    "start": "2025-10-27 09:00:00",
+    "end": "2025-10-27 11:00:00",
+    "duration_hours": 2.0,
+    "cf10209": "Retail"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21305",
+    "summary": "Ventas / Anulación de reintegro",
+    "start": "2025-10-27 13:00:00",
+    "end": "2025-10-27 16:00:00",
+    "duration_hours": 3.0,
+    "cf10209": "Retail"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21305",
+    "summary": "Ventas / Anulación de reintegro",
+    "start": "2025-10-28 09:00:00",
+    "end": "2025-10-28 12:00:00",
+    "duration_hours": 3.0,
+    "cf10209": "Retail"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21305",
+    "summary": "Ventas / Anulación de reintegro",
+    "start": "2025-10-28 13:00:00",
+    "end": "2025-10-28 14:30:00",
+    "duration_hours": 1.5,
+    "cf10209": "Retail"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21305",
+    "summary": "Ventas / Anulación de reintegro",
+    "start": "2025-10-28 15:00:00",
+    "end": "2025-10-28 15:30:00",
+    "duration_hours": 0.5,
+    "cf10209": "Retail"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21305",
+    "summary": "Ventas / Anulación de reintegro",
+    "start": "2025-10-29 09:30:00",
+    "end": "2025-10-29 11:00:00",
+    "duration_hours": 1.5,
+    "cf10209": "Retail"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21305",
+    "summary": "Ventas / Anulación de reintegro",
+    "start": "2025-10-29 13:00:00",
+    "end": "2025-10-29 13:30:00",
+    "duration_hours": 0.5,
+    "cf10209": "Retail"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21844",
+    "summary": "Agregar pais en API para seleccionar la bandera de DO",
+    "start": "2025-10-29 13:30:00",
+    "end": "2025-10-29 15:30:00",
+    "duration_hours": 2.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21443",
+    "summary": "Sheet de productos / Nuevos campos",
+    "start": "2025-10-29 15:30:00",
+    "end": "2025-10-29 16:30:00",
+    "duration_hours": 1.0,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21443",
+    "summary": "Sheet de productos / Nuevos campos",
+    "start": "2025-10-30 09:00:00",
+    "end": "2025-10-30 11:00:00",
+    "duration_hours": 2.0,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21493",
+    "summary": "Planilla de control de stock / Ventas de MercadoLibre",
+    "start": "2025-10-30 11:00:00",
+    "end": "2025-10-30 12:00:00",
+    "duration_hours": 1.0,
+    "cf10209": "Retail"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21493",
+    "summary": "Planilla de control de stock / Ventas de MercadoLibre",
+    "start": "2025-10-30 13:00:00",
+    "end": "2025-10-30 15:00:00",
+    "duration_hours": 2.0,
+    "cf10209": "Retail"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21493",
+    "summary": "Planilla de control de stock / Ventas de MercadoLibre",
+    "start": "2025-10-31 09:00:00",
+    "end": "2025-10-31 12:00:00",
+    "duration_hours": 3.0,
+    "cf10209": "Retail"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21493",
+    "summary": "Planilla de control de stock / Ventas de MercadoLibre",
+    "start": "2025-10-31 13:00:00",
+    "end": "2025-10-31 15:00:00",
+    "duration_hours": 2.0,
+    "cf10209": "Retail"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-20382",
+    "summary": "Formulario de ventas / Corregir comportamiento de autocompletado",
+    "start": "2025-11-03 09:00:00",
+    "end": "2025-11-03 11:00:00",
+    "duration_hours": 2.0,
+    "cf10209": "Retail"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-20382",
+    "summary": "Formulario de ventas / Corregir comportamiento de autocompletado",
+    "start": "2025-11-03 13:00:00",
+    "end": "2025-11-03 16:00:00",
+    "duration_hours": 3.0,
+    "cf10209": "Retail"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-20382",
+    "summary": "Formulario de ventas / Corregir comportamiento de autocompletado",
+    "start": "2025-11-04 09:00:00",
+    "end": "2025-11-04 10:00:00",
+    "duration_hours": 1.0,
+    "cf10209": "Retail"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21806",
+    "summary": "CAV Mercadolibre - Lógica de ML para logística  mercadoenvio ",
+    "start": "2025-11-04 10:00:00",
+    "end": "2025-11-04 12:00:00",
+    "duration_hours": 2.0,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21806",
+    "summary": "CAV Mercadolibre - Lógica de ML para logística  mercadoenvio ",
+    "start": "2025-11-04 13:00:00",
+    "end": "2025-11-04 14:30:00",
+    "duration_hours": 1.5,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21806",
+    "summary": "CAV Mercadolibre - Lógica de ML para logística  mercadoenvio ",
+    "start": "2025-11-04 15:00:00",
+    "end": "2025-11-04 15:30:00",
+    "duration_hours": 0.5,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21806",
+    "summary": "CAV Mercadolibre - Lógica de ML para logística  mercadoenvio ",
+    "start": "2025-11-05 09:00:00",
+    "end": "2025-11-05 11:00:00",
+    "duration_hours": 2.0,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21806",
+    "summary": "CAV Mercadolibre - Lógica de ML para logística  mercadoenvio ",
+    "start": "2025-11-05 13:00:00",
+    "end": "2025-11-05 15:00:00",
+    "duration_hours": 2.0,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21679",
+    "summary": "Nuevo permiso para asignar fecha de entrega no sugerida",
+    "start": "2025-11-05 15:00:00",
+    "end": "2025-11-05 16:00:00",
+    "duration_hours": 1.0,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21679",
+    "summary": "Nuevo permiso para asignar fecha de entrega no sugerida",
+    "start": "2025-11-06 09:00:00",
+    "end": "2025-11-06 12:00:00",
+    "duration_hours": 3.0,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21679",
+    "summary": "Nuevo permiso para asignar fecha de entrega no sugerida",
+    "start": "2025-11-06 13:00:00",
+    "end": "2025-11-06 15:00:00",
+    "duration_hours": 2.0,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21679",
+    "summary": "Nuevo permiso para asignar fecha de entrega no sugerida",
+    "start": "2025-11-07 08:30:00",
+    "end": "2025-11-07 09:30:00",
+    "duration_hours": 1.0,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21320",
+    "summary": "Mensaje sobre estado de la compra",
+    "start": "2025-11-07 09:30:00",
+    "end": "2025-11-07 13:30:00",
+    "duration_hours": 4.0,
+    "cf10209": "Auditoría Comercial"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21814",
+    "summary": "Lowfix / Registros ML con tracking_code_id = 0",
+    "start": "2025-11-10 08:30:00",
+    "end": "2025-11-10 13:30:00",
+    "duration_hours": 5,
+    "cf10209": "Business Technology (BT)"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21814",
+    "summary": "Lowfix / Registros ML con tracking_code_id = 0",
+    "start": "2025-11-11 08:30:00",
+    "end": "2025-11-11 11:30:00",
+    "duration_hours": 3.0,
+    "cf10209": "Business Technology (BT)"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-15010",
+    "summary": "Stock / Despacho de ventas parcialmente reintegradas",
+    "start": "2025-11-11 11:30:00",
+    "end": "2025-11-11 13:30:00",
+    "duration_hours": 2.0,
+    "cf10209": "Business Technology (BT)"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-15010",
+    "summary": "Stock / Despacho de ventas parcialmente reintegradas",
+    "start": "2025-11-12 08:30:00",
+    "end": "2025-11-12 13:30:00",
+    "duration_hours": 5,
+    "cf10209": "Business Technology (BT)"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-15010",
+    "summary": "Stock / Despacho de ventas parcialmente reintegradas",
+    "start": "2025-11-13 08:30:00",
+    "end": "2025-11-13 13:30:00",
+    "duration_hours": 5,
+    "cf10209": "Business Technology (BT)"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-15010",
+    "summary": "Stock / Despacho de ventas parcialmente reintegradas",
+    "start": "2025-11-14 08:30:00",
+    "end": "2025-11-14 12:30:00",
+    "duration_hours": 4.0,
+    "cf10209": "Business Technology (BT)"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21978",
+    "summary": "Refactorizar metodo para consulta de productos en Preparación y Control del Modal de stock",
+    "start": "2025-11-14 12:30:00",
+    "end": "2025-11-14 13:30:00",
+    "duration_hours": 1.0,
+    "cf10209": "Retail"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21978",
+    "summary": "Refactorizar metodo para consulta de productos en Preparación y Control del Modal de stock",
+    "start": "2025-11-17 08:30:00",
+    "end": "2025-11-17 13:30:00",
+    "duration_hours": 5,
+    "cf10209": "Retail"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21978",
+    "summary": "Refactorizar metodo para consulta de productos en Preparación y Control del Modal de stock",
+    "start": "2025-11-18 08:30:00",
+    "end": "2025-11-18 13:30:00",
+    "duration_hours": 5,
+    "cf10209": "Retail"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21978",
+    "summary": "Refactorizar metodo para consulta de productos en Preparación y Control del Modal de stock",
+    "start": "2025-11-19 08:30:00",
+    "end": "2025-11-19 11:30:00",
+    "duration_hours": 3.0,
+    "cf10209": "Retail"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21775",
+    "summary": "Segundos pasos / No mantener el precio de registros outlet y exhibidos",
+    "start": "2025-11-19 11:30:00",
+    "end": "2025-11-19 13:30:00",
+    "duration_hours": 2.0,
+    "cf10209": "Retail"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21775",
+    "summary": "Segundos pasos / No mantener el precio de registros outlet y exhibidos",
+    "start": "2025-11-20 08:30:00",
+    "end": "2025-11-20 10:30:00",
+    "duration_hours": 2.0,
+    "cf10209": "Retail"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21625",
+    "summary": "Sumar a detalle de Info de stock ventas pendiente de despacho y alta en stock de devoluciones",
+    "start": "2025-11-20 10:30:00",
+    "end": "2025-11-20 13:30:00",
+    "duration_hours": 3.0,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21625",
+    "summary": "Sumar a detalle de Info de stock ventas pendiente de despacho y alta en stock de devoluciones",
+    "start": "2025-11-21 08:30:00",
+    "end": "2025-11-21 13:30:00",
+    "duration_hours": 5,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21625",
+    "summary": "Sumar a detalle de Info de stock ventas pendiente de despacho y alta en stock de devoluciones",
+    "start": "2025-11-24 08:30:00",
+    "end": "2025-11-24 10:30:00",
+    "duration_hours": 2.0,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21376",
+    "summary": "Relevamiento / Usar cupones en el checkout y que cierren en 0",
+    "start": "2025-11-24 10:30:00",
+    "end": "2025-11-24 13:30:00",
+    "duration_hours": 3.0,
+    "cf10209": "Marketing Digital"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21376",
+    "summary": "Relevamiento / Usar cupones en el checkout y que cierren en 0",
+    "start": "2025-11-25 08:30:00",
+    "end": "2025-11-25 13:30:00",
+    "duration_hours": 5,
+    "cf10209": "Marketing Digital"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21376",
+    "summary": "Relevamiento / Usar cupones en el checkout y que cierren en 0",
+    "start": "2025-11-26 08:30:00",
+    "end": "2025-11-26 10:30:00",
+    "duration_hours": 2.0,
+    "cf10209": "Marketing Digital"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-20473",
+    "summary": "Terminales / Agregar campo peso bruto máximo a la edición masiva",
+    "start": "2025-11-26 10:30:00",
+    "end": "2025-11-26 13:30:00",
+    "duration_hours": 3.0,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-20386",
+    "summary": "EXTRAVIOS - REINTEGROS - MEJORA MOVIMIENTO DE STOCK ",
+    "start": "2025-11-27 08:30:00",
+    "end": "2025-11-27 13:30:00",
+    "duration_hours": 5,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-20386",
+    "summary": "EXTRAVIOS - REINTEGROS - MEJORA MOVIMIENTO DE STOCK ",
+    "start": "2025-11-28 08:30:00",
+    "end": "2025-11-28 11:30:00",
+    "duration_hours": 3.0,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21981",
+    "summary": "Bloquear envío a Domicilio para localidades del tipo CAMIONETA",
+    "start": "2025-11-28 11:30:00",
+    "end": "2025-11-28 13:30:00",
+    "duration_hours": 2.0,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21981",
+    "summary": "Bloquear envío a Domicilio para localidades del tipo CAMIONETA",
+    "start": "2025-12-01 08:30:00",
+    "end": "2025-12-01 13:30:00",
+    "duration_hours": 5,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21981",
+    "summary": "Bloquear envío a Domicilio para localidades del tipo CAMIONETA",
+    "start": "2025-12-02 08:30:00",
+    "end": "2025-12-02 11:30:00",
+    "duration_hours": 3.0,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-14961",
+    "summary": "Reintegros / Recepción y clasificación de reintegros en PDV distinto ",
+    "start": "2025-12-02 11:30:00",
+    "end": "2025-12-02 13:30:00",
+    "duration_hours": 2.0,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-14961",
+    "summary": "Reintegros / Recepción y clasificación de reintegros en PDV distinto ",
+    "start": "2025-12-03 08:30:00",
+    "end": "2025-12-03 13:30:00",
+    "duration_hours": 5,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-14961",
+    "summary": "Reintegros / Recepción y clasificación de reintegros en PDV distinto ",
+    "start": "2025-12-04 08:30:00",
+    "end": "2025-12-04 13:30:00",
+    "duration_hours": 5,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-14961",
+    "summary": "Reintegros / Recepción y clasificación de reintegros en PDV distinto ",
+    "start": "2025-12-05 08:30:00",
+    "end": "2025-12-05 12:30:00",
+    "duration_hours": 4.0,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-20379",
+    "summary": "MercadoPago / IPN modifica el precio de los productos",
+    "start": "2025-12-05 12:30:00",
+    "end": "2025-12-05 13:30:00",
+    "duration_hours": 1.0,
+    "cf10209": "Retail"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-20379",
+    "summary": "MercadoPago / IPN modifica el precio de los productos",
+    "start": "2025-12-08 08:30:00",
+    "end": "2025-12-08 13:30:00",
+    "duration_hours": 5,
+    "cf10209": "Retail"
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-15936",
+    "summary": "Seguridad / MISC / Dependencia bootstrap 3.0.3 vulnerable",
+    "start": "2025-12-09 08:30:00",
+    "end": "2025-12-09 12:30:00",
+    "duration_hours": 4.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-15927",
+    "summary": "Seguridad / API / GraphQL introspection habilitada",
+    "start": "2025-12-09 12:30:00",
+    "end": "2025-12-09 13:30:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-15927",
+    "summary": "Seguridad / API / GraphQL introspection habilitada",
+    "start": "2025-12-10 08:30:00",
+    "end": "2025-12-10 12:30:00",
+    "duration_hours": 4.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21993",
+    "summary": "Cron / cache_management_orders_execute debe ejecutar todos los registros pendientes en simultaneo",
+    "start": "2025-12-10 12:30:00",
+    "end": "2025-12-10 13:30:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-21993",
+    "summary": "Cron / cache_management_orders_execute debe ejecutar todos los registros pendientes en simultaneo",
+    "start": "2025-12-11 08:30:00",
+    "end": "2025-12-11 11:30:00",
+    "duration_hours": 3.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-15941",
+    "summary": "Seguridad / E-COMMERCE /HTML injection - posible XSS en Búsqueda",
+    "start": "2025-12-11 11:30:00",
+    "end": "2025-12-11 13:30:00",
+    "duration_hours": 2.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-15941",
+    "summary": "Seguridad / E-COMMERCE /HTML injection - posible XSS en Búsqueda",
+    "start": "2025-12-12 08:30:00",
+    "end": "2025-12-12 12:30:00",
+    "duration_hours": 4.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-15922",
+    "summary": "Seguridad / Relevamiento / SRI ausente en scripts",
+    "start": "2025-12-12 12:30:00",
+    "end": "2025-12-12 13:30:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-15922",
+    "summary": "Seguridad / Relevamiento / SRI ausente en scripts",
+    "start": "2025-12-15 08:30:00",
+    "end": "2025-12-15 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-15922",
+    "summary": "Seguridad / Relevamiento / SRI ausente en scripts",
+    "start": "2025-12-16 08:30:00",
+    "end": "2025-12-16 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-15922",
+    "summary": "Seguridad / Relevamiento / SRI ausente en scripts",
+    "start": "2025-12-17 08:30:00",
+    "end": "2025-12-17 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-15935",
+    "summary": "Seguridad / MISC / Dependencia jQuery 2.0.2 vulnerable",
+    "start": "2025-12-18 08:30:00",
+    "end": "2025-12-18 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-15935",
+    "summary": "Seguridad / MISC / Dependencia jQuery 2.0.2 vulnerable",
+    "start": "2025-12-19 08:30:00",
+    "end": "2025-12-19 11:30:00",
+    "duration_hours": 3.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-15932",
+    "summary": "Seguridad / VENTAS / Credencial de frontend expuesta",
+    "start": "2025-12-19 11:30:00",
+    "end": "2025-12-19 13:30:00",
+    "duration_hours": 2.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-15932",
+    "summary": "Seguridad / VENTAS / Credencial de frontend expuesta",
+    "start": "2025-12-22 08:30:00",
+    "end": "2025-12-22 11:30:00",
+    "duration_hours": 3.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-15929",
+    "summary": "Seguridad / API / Alias overloading en GraphQL - potencial denegación de servicio",
+    "start": "2025-12-22 11:30:00",
+    "end": "2025-12-22 13:30:00",
+    "duration_hours": 2.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-15929",
+    "summary": "Seguridad / API / Alias overloading en GraphQL - potencial denegación de servicio",
+    "start": "2025-12-23 08:30:00",
+    "end": "2025-12-23 11:30:00",
+    "duration_hours": 3.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Gastón Ojeda",
+    "key": "IT-15931",
+    "summary": "Seguridad / API / Paginación inadecuada en reviews - potencial denegación de servicio",
+    "start": "2025-12-23 11:30:00",
+    "end": "2025-12-23 12:30:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "REUNION-202510270830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-27 08:30:00",
+    "end": "2025-10-27 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "REUNION-202510271000",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-27 10:00:00",
+    "end": "2025-10-27 10:50:00",
+    "duration_hours": 0.8333333333333334,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "REUNION-202510271300",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-27 13:00:00",
+    "end": "2025-10-27 14:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "REUNION-202510280830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-28 08:30:00",
+    "end": "2025-10-28 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "REUNION-202510280900",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-28 09:00:00",
+    "end": "2025-10-28 09:40:00",
+    "duration_hours": 0.6666666666666666,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "REUNION-202510281300",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-28 13:00:00",
+    "end": "2025-10-28 14:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "REUNION-202510290830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-29 08:30:00",
+    "end": "2025-10-29 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "REUNION-202510290900",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-29 09:00:00",
+    "end": "2025-10-29 09:30:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "REUNION-202510291000",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-29 10:00:00",
+    "end": "2025-10-29 10:50:00",
+    "duration_hours": 0.8333333333333334,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "REUNION-202510291300",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-29 13:00:00",
+    "end": "2025-10-29 14:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "REUNION-202510300830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-30 08:30:00",
+    "end": "2025-10-30 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "REUNION-202510300900",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-30 09:00:00",
+    "end": "2025-10-30 09:40:00",
+    "duration_hours": 0.6666666666666666,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "REUNION-202510301300",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-30 13:00:00",
+    "end": "2025-10-30 14:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "REUNION-202510310830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-31 08:30:00",
+    "end": "2025-10-31 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "REUNION-202510311300",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-31 13:00:00",
+    "end": "2025-10-31 14:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "REUNION-202511030830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-03 08:30:00",
+    "end": "2025-11-03 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "REUNION-202511031000",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-03 10:00:00",
+    "end": "2025-11-03 10:50:00",
+    "duration_hours": 0.8333333333333334,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "REUNION-202511031300",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-03 13:00:00",
+    "end": "2025-11-03 14:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "REUNION-202511040830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-04 08:30:00",
+    "end": "2025-11-04 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "REUNION-202511040900",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-04 09:00:00",
+    "end": "2025-11-04 09:40:00",
+    "duration_hours": 0.6666666666666666,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "REUNION-202511041300",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-04 13:00:00",
+    "end": "2025-11-04 14:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "REUNION-202511050830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-05 08:30:00",
+    "end": "2025-11-05 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "REUNION-202511051000",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-05 10:00:00",
+    "end": "2025-11-05 10:50:00",
+    "duration_hours": 0.8333333333333334,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "REUNION-202511051300",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-05 13:00:00",
+    "end": "2025-11-05 14:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "REUNION-202511060830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-06 08:30:00",
+    "end": "2025-11-06 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "REUNION-202511060900",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-06 09:00:00",
+    "end": "2025-11-06 09:40:00",
+    "duration_hours": 0.6666666666666666,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "REUNION-202511061300",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-06 13:00:00",
+    "end": "2025-11-06 14:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-21887",
+    "summary": "Gestión Reclamos | Envío de comentarios a cliente + archivo",
+    "start": "2025-10-27 09:00:00",
+    "end": "2025-10-27 10:00:00",
+    "duration_hours": 1.0,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-21887",
+    "summary": "Gestión Reclamos | Envío de comentarios a cliente + archivo",
+    "start": "2025-10-27 10:50:00",
+    "end": "2025-10-27 13:00:00",
+    "duration_hours": 2.1666666666666665,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-21887",
+    "summary": "Gestión Reclamos | Envío de comentarios a cliente + archivo",
+    "start": "2025-10-27 14:00:00",
+    "end": "2025-10-27 15:50:00",
+    "duration_hours": 1.8333333333333335,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-21887",
+    "summary": "Gestión Reclamos | Envío de comentarios a cliente + archivo",
+    "start": "2025-10-28 09:40:00",
+    "end": "2025-10-28 12:40:00",
+    "duration_hours": 3.0000000000000004,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-21937",
+    "summary": "Formularios Reclamos / Reclamos reiterados",
+    "start": "2025-10-28 12:40:00",
+    "end": "2025-10-28 13:00:00",
+    "duration_hours": 0.3333333333333333,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-21937",
+    "summary": "Formularios Reclamos / Reclamos reiterados",
+    "start": "2025-10-28 14:00:00",
+    "end": "2025-10-28 15:40:00",
+    "duration_hours": 1.666666666666666,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-21937",
+    "summary": "Formularios Reclamos / Reclamos reiterados",
+    "start": "2025-10-29 09:30:00",
+    "end": "2025-10-29 10:00:00",
+    "duration_hours": 0.5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-21937",
+    "summary": "Formularios Reclamos / Reclamos reiterados",
+    "start": "2025-10-29 10:50:00",
+    "end": "2025-10-29 13:00:00",
+    "duration_hours": 2.1666666666666665,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-21937",
+    "summary": "Formularios Reclamos / Reclamos reiterados",
+    "start": "2025-10-29 14:00:00",
+    "end": "2025-10-29 15:20:00",
+    "duration_hours": 1.3333333333333344,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-22119",
+    "summary": "Frontend / Brindar información adicional con el seguimiento de la Logistica PICKIT",
+    "start": "2025-10-29 15:20:00",
+    "end": "2025-10-29 16:20:00",
+    "duration_hours": 0.9999999999999991,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-22119",
+    "summary": "Frontend / Brindar información adicional con el seguimiento de la Logistica PICKIT",
+    "start": "2025-10-30 09:40:00",
+    "end": "2025-10-30 10:40:00",
+    "duration_hours": 1.0000000000000009,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20114",
+    "summary": "Evaluación final rediseño Checkout",
+    "start": "2025-10-30 10:40:00",
+    "end": "2025-10-30 13:00:00",
+    "duration_hours": 2.3333333333333335,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20114",
+    "summary": "Evaluación final rediseño Checkout",
+    "start": "2025-10-30 14:00:00",
+    "end": "2025-10-30 15:40:00",
+    "duration_hours": 1.6666666666666656,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20114",
+    "summary": "Evaluación final rediseño Checkout",
+    "start": "2025-10-31 09:00:00",
+    "end": "2025-10-31 13:00:00",
+    "duration_hours": 4.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20114",
+    "summary": "Evaluación final rediseño Checkout",
+    "start": "2025-10-31 14:00:00",
+    "end": "2025-10-31 15:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20114",
+    "summary": "Evaluación final rediseño Checkout",
+    "start": "2025-11-03 09:00:00",
+    "end": "2025-11-03 10:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20114",
+    "summary": "Evaluación final rediseño Checkout",
+    "start": "2025-11-03 10:50:00",
+    "end": "2025-11-03 13:00:00",
+    "duration_hours": 2.1666666666666665,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20114",
+    "summary": "Evaluación final rediseño Checkout",
+    "start": "2025-11-03 14:00:00",
+    "end": "2025-11-03 15:50:00",
+    "duration_hours": 1.8333333333333335,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20114",
+    "summary": "Evaluación final rediseño Checkout",
+    "start": "2025-11-04 09:40:00",
+    "end": "2025-11-04 13:00:00",
+    "duration_hours": 3.3333333333333335,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20114",
+    "summary": "Evaluación final rediseño Checkout",
+    "start": "2025-11-04 14:00:00",
+    "end": "2025-11-04 15:40:00",
+    "duration_hours": 1.6666666666666665,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20114",
+    "summary": "Evaluación final rediseño Checkout",
+    "start": "2025-11-05 09:00:00",
+    "end": "2025-11-05 10:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20114",
+    "summary": "Evaluación final rediseño Checkout",
+    "start": "2025-11-05 10:50:00",
+    "end": "2025-11-05 13:00:00",
+    "duration_hours": 2.1666666666666665,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20114",
+    "summary": "Evaluación final rediseño Checkout",
+    "start": "2025-11-05 14:00:00",
+    "end": "2025-11-05 15:50:00",
+    "duration_hours": 1.8333333333333335,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20114",
+    "summary": "Evaluación final rediseño Checkout",
+    "start": "2025-11-06 09:40:00",
+    "end": "2025-11-06 13:00:00",
+    "duration_hours": 3.3333333333333335,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20114",
+    "summary": "Evaluación final rediseño Checkout",
+    "start": "2025-11-06 14:00:00",
+    "end": "2025-11-06 15:40:00",
+    "duration_hours": 1.6666666666666665,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20114",
+    "summary": "Evaluación final rediseño Checkout",
+    "start": "2025-11-07 08:30:00",
+    "end": "2025-11-07 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20114",
+    "summary": "Evaluación final rediseño Checkout",
+    "start": "2025-11-10 08:30:00",
+    "end": "2025-11-10 08:30:00",
+    "duration_hours": 5.329070518200751e-15,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-21989",
+    "summary": "Frontend / Sepcs / Replicar autoplay para spec \"Video y texto\"",
+    "start": "2025-11-10 08:30:00",
+    "end": "2025-11-10 10:30:00",
+    "duration_hours": 2.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-21781",
+    "summary": "Worpik / Mejorar doble scroll por el iframe ",
+    "start": "2025-11-10 10:30:00",
+    "end": "2025-11-10 13:30:00",
+    "duration_hours": 2.9999999999999947,
+    "cf10209": "Business Technology (BT)"
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-21781",
+    "summary": "Worpik / Mejorar doble scroll por el iframe ",
+    "start": "2025-11-11 08:30:00",
+    "end": "2025-11-11 09:30:00",
+    "duration_hours": 1.0000000000000053,
+    "cf10209": "Business Technology (BT)"
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20428",
+    "summary": "Delivery-App: Actualizar componente OTP",
+    "start": "2025-11-11 09:30:00",
+    "end": "2025-11-11 13:30:00",
+    "duration_hours": 3.9999999999999947,
+    "cf10209": "Information Technology (IT)"
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20428",
+    "summary": "Delivery-App: Actualizar componente OTP",
+    "start": "2025-11-12 08:30:00",
+    "end": "2025-11-12 10:30:00",
+    "duration_hours": 2.0000000000000053,
+    "cf10209": "Information Technology (IT)"
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20697",
+    "summary": "Frontend / Reclamos / Permitir editar un reclamo desde el frontend",
+    "start": "2025-11-12 10:30:00",
+    "end": "2025-11-12 13:30:00",
+    "duration_hours": 2.9999999999999947,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20697",
+    "summary": "Frontend / Reclamos / Permitir editar un reclamo desde el frontend",
+    "start": "2025-11-13 08:30:00",
+    "end": "2025-11-13 13:30:00",
+    "duration_hours": 5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20697",
+    "summary": "Frontend / Reclamos / Permitir editar un reclamo desde el frontend",
+    "start": "2025-11-14 08:30:00",
+    "end": "2025-11-14 13:30:00",
+    "duration_hours": 5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20697",
+    "summary": "Frontend / Reclamos / Permitir editar un reclamo desde el frontend",
+    "start": "2025-11-17 08:30:00",
+    "end": "2025-11-17 13:30:00",
+    "duration_hours": 5,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20697",
+    "summary": "Frontend / Reclamos / Permitir editar un reclamo desde el frontend",
+    "start": "2025-11-18 08:30:00",
+    "end": "2025-11-18 10:30:00",
+    "duration_hours": 2.000000000000007,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20880",
+    "summary": "Story books pack UI / Monorepo / Parte 2/2",
+    "start": "2025-11-18 10:30:00",
+    "end": "2025-11-18 13:30:00",
+    "duration_hours": 2.999999999999993,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20880",
+    "summary": "Story books pack UI / Monorepo / Parte 2/2",
+    "start": "2025-11-19 08:30:00",
+    "end": "2025-11-19 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20880",
+    "summary": "Story books pack UI / Monorepo / Parte 2/2",
+    "start": "2025-11-20 08:30:00",
+    "end": "2025-11-20 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20880",
+    "summary": "Story books pack UI / Monorepo / Parte 2/2",
+    "start": "2025-11-21 08:30:00",
+    "end": "2025-11-21 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20880",
+    "summary": "Story books pack UI / Monorepo / Parte 2/2",
+    "start": "2025-11-24 08:30:00",
+    "end": "2025-11-24 13:30:00",
+    "duration_hours": 5,
+    "cf10209": null
+  },
+  {
+    "developer": "Franco Lorenzo",
+    "key": "IT-20880",
+    "summary": "Story books pack UI / Monorepo / Parte 2/2",
+    "start": "2025-11-25 08:30:00",
+    "end": "2025-11-25 09:30:00",
+    "duration_hours": 1.000000000000007,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-21276",
+    "summary": "Solicitud Requerimiento - AWS Security Groups - BI - 28ago",
+    "start": "2025-10-27 08:30:00",
+    "end": "2025-10-27 11:30:00",
+    "duration_hours": 3.0,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20032",
+    "summary": "Uploads / Storage new core / Clientes",
+    "start": "2025-10-27 11:30:00",
+    "end": "2025-10-27 15:30:00",
+    "duration_hours": 4.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20033",
+    "summary": "Uploads / Storage new core / Settings",
+    "start": "2025-10-27 15:30:00",
+    "end": "2025-10-27 16:30:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20033",
+    "summary": "Uploads / Storage new core / Settings",
+    "start": "2025-10-28 08:30:00",
+    "end": "2025-10-28 09:30:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20031",
+    "summary": "Uploads / Storage new core / Audit",
+    "start": "2025-10-28 09:30:00",
+    "end": "2025-10-28 13:30:00",
+    "duration_hours": 4.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20022",
+    "summary": "Uploads / Storage new core / Incidencias de orden",
+    "start": "2025-10-28 13:30:00",
+    "end": "2025-10-28 16:30:00",
+    "duration_hours": 3.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20022",
+    "summary": "Uploads / Storage new core / Incidencias de orden",
+    "start": "2025-10-29 08:30:00",
+    "end": "2025-10-29 09:30:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20026",
+    "summary": "Uploads / Storage new core / Recibo banco revendedor",
+    "start": "2025-10-29 09:30:00",
+    "end": "2025-10-29 13:30:00",
+    "duration_hours": 4.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-17544",
+    "summary": "KMS, habilitar las master keys con rotación habilitada - Ver con facu prioridad",
+    "start": "2025-10-29 13:30:00",
+    "end": "2025-10-29 16:30:00",
+    "duration_hours": 3.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-17544",
+    "summary": "KMS, habilitar las master keys con rotación habilitada - Ver con facu prioridad",
+    "start": "2025-10-30 08:30:00",
+    "end": "2025-10-30 16:30:00",
+    "duration_hours": 8,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-17544",
+    "summary": "KMS, habilitar las master keys con rotación habilitada - Ver con facu prioridad",
+    "start": "2025-10-31 08:30:00",
+    "end": "2025-10-31 16:30:00",
+    "duration_hours": 8,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-17544",
+    "summary": "KMS, habilitar las master keys con rotación habilitada - Ver con facu prioridad",
+    "start": "2025-11-03 08:30:00",
+    "end": "2025-11-03 16:30:00",
+    "duration_hours": 8,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-17544",
+    "summary": "KMS, habilitar las master keys con rotación habilitada - Ver con facu prioridad",
+    "start": "2025-11-04 08:30:00",
+    "end": "2025-11-04 16:30:00",
+    "duration_hours": 8,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-17544",
+    "summary": "KMS, habilitar las master keys con rotación habilitada - Ver con facu prioridad",
+    "start": "2025-11-05 08:30:00",
+    "end": "2025-11-05 13:30:00",
+    "duration_hours": 5.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20023",
+    "summary": "Uploads / Storage new core / Seguimiento",
+    "start": "2025-11-05 13:30:00",
+    "end": "2025-11-05 16:30:00",
+    "duration_hours": 3.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-17531",
+    "summary": "Pensar un script que me copie la db de staging a local (o prod) con un script pero que me traiga solo los datos mínimos (ej, solo el admin ids 1 y 2) y así con todo...",
+    "start": "2025-11-06 08:30:00",
+    "end": "2025-11-06 16:30:00",
+    "duration_hours": 8,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-17531",
+    "summary": "Pensar un script que me copie la db de staging a local (o prod) con un script pero que me traiga solo los datos mínimos (ej, solo el admin ids 1 y 2) y así con todo...",
+    "start": "2025-11-07 08:30:00",
+    "end": "2025-11-07 16:30:00",
+    "duration_hours": 8,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-17531",
+    "summary": "Pensar un script que me copie la db de staging a local (o prod) con un script pero que me traiga solo los datos mínimos (ej, solo el admin ids 1 y 2) y así con todo...",
+    "start": "2025-11-10 08:30:00",
+    "end": "2025-11-10 16:30:00",
+    "duration_hours": 8,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-17538",
+    "summary": "Eliminar forks y armar nuevas estrategias de Branching",
+    "start": "2025-11-11 08:30:00",
+    "end": "2025-11-11 16:30:00",
+    "duration_hours": 8,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-17538",
+    "summary": "Eliminar forks y armar nuevas estrategias de Branching",
+    "start": "2025-11-12 08:30:00",
+    "end": "2025-11-12 12:30:00",
+    "duration_hours": 4.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20028",
+    "summary": "Uploads / Storage new core / Cupones",
+    "start": "2025-11-12 12:30:00",
+    "end": "2025-11-12 15:30:00",
+    "duration_hours": 3.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20016",
+    "summary": "Uploads / Storage new core / Product",
+    "start": "2025-11-12 15:30:00",
+    "end": "2025-11-12 16:30:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20016",
+    "summary": "Uploads / Storage new core / Product",
+    "start": "2025-11-13 08:30:00",
+    "end": "2025-11-13 15:30:00",
+    "duration_hours": 7.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20025",
+    "summary": "Uploads / Storage new core / Tax",
+    "start": "2025-11-13 15:30:00",
+    "end": "2025-11-13 16:30:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20025",
+    "summary": "Uploads / Storage new core / Tax",
+    "start": "2025-11-14 08:30:00",
+    "end": "2025-11-14 11:30:00",
+    "duration_hours": 3.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20018",
+    "summary": "Uploads / Storage new core / Dispatch & Control",
+    "start": "2025-11-14 11:30:00",
+    "end": "2025-11-14 16:30:00",
+    "duration_hours": 5.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20018",
+    "summary": "Uploads / Storage new core / Dispatch & Control",
+    "start": "2025-11-17 08:30:00",
+    "end": "2025-11-17 11:30:00",
+    "duration_hours": 3.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20027",
+    "summary": "Uploads / Storage new core / Home",
+    "start": "2025-11-17 11:30:00",
+    "end": "2025-11-17 14:30:00",
+    "duration_hours": 3.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20024",
+    "summary": "Uploads / Storage new core / Retiro en tienda sin stock",
+    "start": "2025-11-17 14:30:00",
+    "end": "2025-11-17 16:30:00",
+    "duration_hours": 2.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20024",
+    "summary": "Uploads / Storage new core / Retiro en tienda sin stock",
+    "start": "2025-11-18 08:30:00",
+    "end": "2025-11-18 09:30:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20020",
+    "summary": "Uploads / Storage new core / Bank Reconciliation",
+    "start": "2025-11-18 09:30:00",
+    "end": "2025-11-18 12:30:00",
+    "duration_hours": 3.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20017",
+    "summary": "Uploads / Storage new core / Product Family",
+    "start": "2025-11-18 12:30:00",
+    "end": "2025-11-18 14:30:00",
+    "duration_hours": 2.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20029",
+    "summary": "Uploads / Storage new core / Ventas",
+    "start": "2025-11-18 14:30:00",
+    "end": "2025-11-18 16:30:00",
+    "duration_hours": 2.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20029",
+    "summary": "Uploads / Storage new core / Ventas",
+    "start": "2025-11-19 08:30:00",
+    "end": "2025-11-19 11:30:00",
+    "duration_hours": 3.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20015",
+    "summary": "Uploads / Storage new core / Pos Order",
+    "start": "2025-11-19 11:30:00",
+    "end": "2025-11-19 14:30:00",
+    "duration_hours": 3.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20010",
+    "summary": "Uploads / Storage new core / Colores",
+    "start": "2025-11-19 14:30:00",
+    "end": "2025-11-19 16:30:00",
+    "duration_hours": 2.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20019",
+    "summary": "Uploads / Storage new core / Reclamos",
+    "start": "2025-11-20 08:30:00",
+    "end": "2025-11-20 11:30:00",
+    "duration_hours": 3.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20011",
+    "summary": "Uploads / Storage new core / outlet.php",
+    "start": "2025-11-20 11:30:00",
+    "end": "2025-11-20 13:30:00",
+    "duration_hours": 2.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-17529",
+    "summary": "Detener CRONS cuando se hace deploy - Ver con facu si se tiene que hacer o no",
+    "start": "2025-11-20 13:30:00",
+    "end": "2025-11-20 16:30:00",
+    "duration_hours": 3.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-17529",
+    "summary": "Detener CRONS cuando se hace deploy - Ver con facu si se tiene que hacer o no",
+    "start": "2025-11-21 08:30:00",
+    "end": "2025-11-21 16:30:00",
+    "duration_hours": 8,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-17529",
+    "summary": "Detener CRONS cuando se hace deploy - Ver con facu si se tiene que hacer o no",
+    "start": "2025-11-24 08:30:00",
+    "end": "2025-11-24 09:30:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20021",
+    "summary": "Uploads / Storage new core / Ecommerce Cart",
+    "start": "2025-11-24 09:30:00",
+    "end": "2025-11-24 11:30:00",
+    "duration_hours": 2.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Facundo Capua",
+    "key": "IT-20030",
+    "summary": "Uploads / Storage new core / Stock",
+    "start": "2025-11-24 11:30:00",
+    "end": "2025-11-24 13:30:00",
+    "duration_hours": 2.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202510270830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-27 08:30:00",
+    "end": "2025-10-27 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202510270900",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-27 09:00:00",
+    "end": "2025-10-27 10:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202510271030",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-27 10:30:00",
+    "end": "2025-10-27 11:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202510271100",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-27 11:00:00",
+    "end": "2025-10-27 12:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202510280730",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-28 07:30:00",
+    "end": "2025-10-28 08:30:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202510280830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-28 08:30:00",
+    "end": "2025-10-28 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202510290830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-29 08:30:00",
+    "end": "2025-10-29 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202510290900",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-29 09:00:00",
+    "end": "2025-10-29 09:30:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202510290930",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-29 09:30:00",
+    "end": "2025-10-29 10:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202510291000",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-29 10:00:00",
+    "end": "2025-10-29 12:00:00",
+    "duration_hours": 2.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202510291100",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-29 11:00:00",
+    "end": "2025-10-29 12:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202510291300",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-29 13:00:00",
+    "end": "2025-10-29 14:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202510300730",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-30 07:30:00",
+    "end": "2025-10-30 08:30:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202510300830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-30 08:30:00",
+    "end": "2025-10-30 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202510300900",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-30 09:00:00",
+    "end": "2025-10-30 10:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202510310830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-31 08:30:00",
+    "end": "2025-10-31 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202511030830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-03 08:30:00",
+    "end": "2025-11-03 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202511030900",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-03 09:00:00",
+    "end": "2025-11-03 10:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202511031030",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-03 10:30:00",
+    "end": "2025-11-03 11:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202511031100",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-03 11:00:00",
+    "end": "2025-11-03 12:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202511040730",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-04 07:30:00",
+    "end": "2025-11-04 08:30:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202511040830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-04 08:30:00",
+    "end": "2025-11-04 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202511050830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-05 08:30:00",
+    "end": "2025-11-05 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202511050930",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-05 09:30:00",
+    "end": "2025-11-05 10:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202511051000",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-05 10:00:00",
+    "end": "2025-11-05 12:00:00",
+    "duration_hours": 2.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202511051100",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-05 11:00:00",
+    "end": "2025-11-05 12:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202511051300",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-05 13:00:00",
+    "end": "2025-11-05 14:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202511060730",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-06 07:30:00",
+    "end": "2025-11-06 08:30:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202511060830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-06 08:30:00",
+    "end": "2025-11-06 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "REUNION-202511060900",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-06 09:00:00",
+    "end": "2025-11-06 10:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "IT-21773",
+    "summary": "New Relic / Webhook Falabella / Capturar errores",
+    "start": "2025-10-27 10:00:00",
+    "end": "2025-10-27 10:30:00",
+    "duration_hours": 0.5,
+    "cf10209": "Business Technology (BT)"
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "IT-21773",
+    "summary": "New Relic / Webhook Falabella / Capturar errores",
+    "start": "2025-10-27 12:00:00",
+    "end": "2025-10-27 15:30:00",
+    "duration_hours": 3.5,
+    "cf10209": "Business Technology (BT)"
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "IT-21860",
+    "summary": "Pagos en Payments como Reference Entity NULL",
+    "start": "2025-10-27 15:30:00",
+    "end": "2025-10-27 17:30:00",
+    "duration_hours": 2.0,
+    "cf10209": "Business Technology (BT)"
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "IT-21860",
+    "summary": "Pagos en Payments como Reference Entity NULL",
+    "start": "2025-10-28 09:00:00",
+    "end": "2025-10-28 17:00:00",
+    "duration_hours": 8,
+    "cf10209": "Business Technology (BT)"
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "IT-21860",
+    "summary": "Pagos en Payments como Reference Entity NULL",
+    "start": "2025-10-29 12:00:00",
+    "end": "2025-10-29 13:00:00",
+    "duration_hours": 1.0,
+    "cf10209": "Business Technology (BT)"
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "IT-21860",
+    "summary": "Pagos en Payments como Reference Entity NULL",
+    "start": "2025-10-29 14:00:00",
+    "end": "2025-10-29 17:30:00",
+    "duration_hours": 3.5,
+    "cf10209": "Business Technology (BT)"
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "IT-21860",
+    "summary": "Pagos en Payments como Reference Entity NULL",
+    "start": "2025-10-30 10:00:00",
+    "end": "2025-10-30 11:30:00",
+    "duration_hours": 1.5,
+    "cf10209": "Business Technology (BT)"
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "IT-21840",
+    "summary": "Configuración del entorno de Dominicana",
+    "start": "2025-10-30 11:30:00",
+    "end": "2025-10-30 15:30:00",
+    "duration_hours": 4.0,
+    "cf10209": "Business Technology (BT)"
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "IT-22041",
+    "summary": "[Marketplace][MX][Liverpool][Precios][Stock]",
+    "start": "2025-10-30 15:30:00",
+    "end": "2025-10-30 17:30:00",
+    "duration_hours": 2.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "IT-22041",
+    "summary": "[Marketplace][MX][Liverpool][Precios][Stock]",
+    "start": "2025-10-31 09:00:00",
+    "end": "2025-10-31 17:00:00",
+    "duration_hours": 8,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "IT-22041",
+    "summary": "[Marketplace][MX][Liverpool][Precios][Stock]",
+    "start": "2025-11-03 10:00:00",
+    "end": "2025-11-03 10:30:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "IT-22041",
+    "summary": "[Marketplace][MX][Liverpool][Precios][Stock]",
+    "start": "2025-11-03 12:00:00",
+    "end": "2025-11-03 17:30:00",
+    "duration_hours": 5.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "IT-22041",
+    "summary": "[Marketplace][MX][Liverpool][Precios][Stock]",
+    "start": "2025-11-04 09:00:00",
+    "end": "2025-11-04 17:00:00",
+    "duration_hours": 8,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "IT-22041",
+    "summary": "[Marketplace][MX][Liverpool][Precios][Stock]",
+    "start": "2025-11-05 09:00:00",
+    "end": "2025-11-05 09:30:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "IT-22041",
+    "summary": "[Marketplace][MX][Liverpool][Precios][Stock]",
+    "start": "2025-11-05 12:00:00",
+    "end": "2025-11-05 13:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "IT-22041",
+    "summary": "[Marketplace][MX][Liverpool][Precios][Stock]",
+    "start": "2025-11-05 14:00:00",
+    "end": "2025-11-05 17:30:00",
+    "duration_hours": 3.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "IT-22041",
+    "summary": "[Marketplace][MX][Liverpool][Precios][Stock]",
+    "start": "2025-11-06 10:00:00",
+    "end": "2025-11-06 17:30:00",
+    "duration_hours": 7.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "IT-22041",
+    "summary": "[Marketplace][MX][Liverpool][Precios][Stock]",
+    "start": "2025-11-07 08:30:00",
+    "end": "2025-11-07 16:30:00",
+    "duration_hours": 8,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "IT-22041",
+    "summary": "[Marketplace][MX][Liverpool][Precios][Stock]",
+    "start": "2025-11-10 08:30:00",
+    "end": "2025-11-10 16:30:00",
+    "duration_hours": 8,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "IT-22041",
+    "summary": "[Marketplace][MX][Liverpool][Precios][Stock]",
+    "start": "2025-11-11 08:30:00",
+    "end": "2025-11-11 16:30:00",
+    "duration_hours": 8,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "IT-22041",
+    "summary": "[Marketplace][MX][Liverpool][Precios][Stock]",
+    "start": "2025-11-12 08:30:00",
+    "end": "2025-11-12 16:30:00",
+    "duration_hours": 8,
+    "cf10209": null
+  },
+  {
+    "developer": "Nicolas Pardo",
+    "key": "IT-22041",
+    "summary": "[Marketplace][MX][Liverpool][Precios][Stock]",
+    "start": "2025-11-13 08:30:00",
+    "end": "2025-11-13 10:00:00",
+    "duration_hours": 1.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "REUNION-202510270830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-27 08:30:00",
+    "end": "2025-10-27 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "REUNION-202510280830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-28 08:30:00",
+    "end": "2025-10-28 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "REUNION-202510290830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-29 08:30:00",
+    "end": "2025-10-29 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "REUNION-202510290900",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-29 09:00:00",
+    "end": "2025-10-29 09:30:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "REUNION-202510300830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-30 08:30:00",
+    "end": "2025-10-30 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "REUNION-202510310830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-31 08:30:00",
+    "end": "2025-10-31 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "REUNION-202511030830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-03 08:30:00",
+    "end": "2025-11-03 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "REUNION-202511040830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-04 08:30:00",
+    "end": "2025-11-04 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "REUNION-202511050830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-05 08:30:00",
+    "end": "2025-11-05 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "REUNION-202511060830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-06 08:30:00",
+    "end": "2025-11-06 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-21969",
+    "summary": "Listado de ventas / Asociar comportamiento de impresión de etiquetas con filtro por Logística MercadoEnvios",
+    "start": "2025-10-27 09:00:00",
+    "end": "2025-10-27 14:00:00",
+    "duration_hours": 5.0,
+    "cf10209": "Business Technology (BT)"
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-21303",
+    "summary": "Tableau_global / Channel y subchannel / Nueva estructura  e inclusión de marketplaces",
+    "start": "2025-10-27 14:00:00",
+    "end": "2025-10-27 15:00:00",
+    "duration_hours": 1.0,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-21303",
+    "summary": "Tableau_global / Channel y subchannel / Nueva estructura  e inclusión de marketplaces",
+    "start": "2025-10-28 09:00:00",
+    "end": "2025-10-28 12:00:00",
+    "duration_hours": 3.0,
+    "cf10209": "Business Intelligence (BI)"
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-22133",
+    "summary": "Modificar lógica de Remito Final en Pedidos tiendas.",
+    "start": "2025-10-28 12:00:00",
+    "end": "2025-10-28 15:00:00",
+    "duration_hours": 3.0,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-22133",
+    "summary": "Modificar lógica de Remito Final en Pedidos tiendas.",
+    "start": "2025-10-29 09:30:00",
+    "end": "2025-10-29 14:30:00",
+    "duration_hours": 5.0,
+    "cf10209": "Logística"
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-16643",
+    "summary": "Unit Test / Nicox API / Query EcommerceUser",
+    "start": "2025-10-29 14:30:00",
+    "end": "2025-10-29 15:30:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-16643",
+    "summary": "Unit Test / Nicox API / Query EcommerceUser",
+    "start": "2025-10-30 09:00:00",
+    "end": "2025-10-30 10:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-16644",
+    "summary": "Unit Test / Nicox API / Query EcommerceUserBirthListByUser",
+    "start": "2025-10-30 10:00:00",
+    "end": "2025-10-30 12:00:00",
+    "duration_hours": 2.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-16642",
+    "summary": "Unit Test / Nicox API / Mutation BirthListProductCreate",
+    "start": "2025-10-30 12:00:00",
+    "end": "2025-10-30 15:00:00",
+    "duration_hours": 3.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-16642",
+    "summary": "Unit Test / Nicox API / Mutation BirthListProductCreate",
+    "start": "2025-10-31 09:00:00",
+    "end": "2025-10-31 10:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-16640",
+    "summary": "Unit Test / Nicox API / Mutation BirthListProductUpdate",
+    "start": "2025-10-31 10:00:00",
+    "end": "2025-10-31 14:00:00",
+    "duration_hours": 4.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-21873",
+    "summary": "Fijar filtro \"Mostrar X registros\" -  Modulo conciliador",
+    "start": "2025-10-31 14:00:00",
+    "end": "2025-10-31 15:00:00",
+    "duration_hours": 1.0,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-21873",
+    "summary": "Fijar filtro \"Mostrar X registros\" -  Modulo conciliador",
+    "start": "2025-11-03 09:00:00",
+    "end": "2025-11-03 13:00:00",
+    "duration_hours": 4.0,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-16641",
+    "summary": "Unit Test / Nicox API / Mutation BirthListUpdate",
+    "start": "2025-11-03 13:00:00",
+    "end": "2025-11-03 15:00:00",
+    "duration_hours": 2.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-16641",
+    "summary": "Unit Test / Nicox API / Mutation BirthListUpdate",
+    "start": "2025-11-04 09:00:00",
+    "end": "2025-11-04 10:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-16638",
+    "summary": "Unit Test / Nicox API / Mutation BirthListCouponCreate",
+    "start": "2025-11-04 10:00:00",
+    "end": "2025-11-04 15:00:00",
+    "duration_hours": 5.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-16638",
+    "summary": "Unit Test / Nicox API / Mutation BirthListCouponCreate",
+    "start": "2025-11-05 09:00:00",
+    "end": "2025-11-05 11:00:00",
+    "duration_hours": 2.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-16639",
+    "summary": "Unit Test / Nicox API / Mutation BirthListCreate",
+    "start": "2025-11-05 11:00:00",
+    "end": "2025-11-05 14:00:00",
+    "duration_hours": 3.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-21973",
+    "summary": "Logística V2 / Logisticas Integradas / Insertar venta como logistica y no como carrier generic",
+    "start": "2025-11-05 14:00:00",
+    "end": "2025-11-05 15:00:00",
+    "duration_hours": 1.0,
+    "cf10209": "Business Technology (BT)"
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-21973",
+    "summary": "Logística V2 / Logisticas Integradas / Insertar venta como logistica y no como carrier generic",
+    "start": "2025-11-06 09:00:00",
+    "end": "2025-11-06 12:00:00",
+    "duration_hours": 3.0,
+    "cf10209": "Business Technology (BT)"
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-21965",
+    "summary": "Numero de orden falabella para conciliación",
+    "start": "2025-11-06 12:00:00",
+    "end": "2025-11-06 15:00:00",
+    "duration_hours": 3.0,
+    "cf10209": "Finanzas"
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-16523",
+    "summary": "Feature Test / Nicox API / FIx GetCaerrierShippingsMovesTest",
+    "start": "2025-11-07 08:30:00",
+    "end": "2025-11-07 11:30:00",
+    "duration_hours": 3.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-16635",
+    "summary": "Feature test / Nicox API / Helper Coupon",
+    "start": "2025-11-07 11:30:00",
+    "end": "2025-11-07 14:30:00",
+    "duration_hours": 3.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-16525",
+    "summary": "Feature Test / Nicox API / Mejorar performance testSetDeliveryStatusUndelivered",
+    "start": "2025-11-10 08:30:00",
+    "end": "2025-11-10 12:30:00",
+    "duration_hours": 4.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-16632",
+    "summary": "Unit Test / Nicox API / Query Families",
+    "start": "2025-11-10 12:30:00",
+    "end": "2025-11-10 14:30:00",
+    "duration_hours": 2.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-16632",
+    "summary": "Unit Test / Nicox API / Query Families",
+    "start": "2025-11-11 08:30:00",
+    "end": "2025-11-11 09:30:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-16634",
+    "summary": "Unit test / Nicox API / Command UpdateStock ",
+    "start": "2025-11-11 09:30:00",
+    "end": "2025-11-11 14:30:00",
+    "duration_hours": 5.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-16634",
+    "summary": "Unit test / Nicox API / Command UpdateStock ",
+    "start": "2025-11-12 08:30:00",
+    "end": "2025-11-12 09:30:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-16633",
+    "summary": "Feature test / Nicox API / Helper Stock",
+    "start": "2025-11-12 09:30:00",
+    "end": "2025-11-12 14:30:00",
+    "duration_hours": 5.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-16521",
+    "summary": "Feature Test / Nicox API / Fix GetSettingsTest",
+    "start": "2025-11-13 08:30:00",
+    "end": "2025-11-13 12:30:00",
+    "duration_hours": 4.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-16524",
+    "summary": "Feature Test / Nicox API / FIx GetShippingCarrierTrackingCodesTest",
+    "start": "2025-11-13 12:30:00",
+    "end": "2025-11-13 14:30:00",
+    "duration_hours": 2.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Luis Uran",
+    "key": "IT-22138",
+    "summary": "Contacto / Ajustes en el listado",
+    "start": "2025-11-14 08:30:00",
+    "end": "2025-11-14 14:30:00",
+    "duration_hours": 6,
+    "cf10209": null
+  },
+  {
+    "developer": "Diego Martin Gogorza",
+    "key": "REUNION-202510270830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-27 08:30:00",
+    "end": "2025-10-27 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Diego Martin Gogorza",
+    "key": "REUNION-202510271100",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-27 11:00:00",
+    "end": "2025-10-27 12:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Diego Martin Gogorza",
+    "key": "REUNION-202510280730",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-28 07:30:00",
+    "end": "2025-10-28 08:30:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Diego Martin Gogorza",
+    "key": "REUNION-202510280830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-28 08:30:00",
+    "end": "2025-10-28 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Diego Martin Gogorza",
+    "key": "REUNION-202510281430",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-28 14:30:00",
+    "end": "2025-10-28 15:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Diego Martin Gogorza",
+    "key": "REUNION-202510281600",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-28 16:00:00",
+    "end": "2025-10-28 16:30:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Diego Martin Gogorza",
+    "key": "REUNION-202510290800",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-29 08:00:00",
+    "end": "2025-10-29 08:30:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Diego Martin Gogorza",
+    "key": "REUNION-202510290830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-29 08:30:00",
+    "end": "2025-10-29 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Diego Martin Gogorza",
+    "key": "REUNION-202510290900",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-29 09:00:00",
+    "end": "2025-10-29 09:30:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Diego Martin Gogorza",
+    "key": "REUNION-202510291000",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-29 10:00:00",
+    "end": "2025-10-29 12:00:00",
+    "duration_hours": 2.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Diego Martin Gogorza",
+    "key": "REUNION-202510291100",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-29 11:00:00",
+    "end": "2025-10-29 12:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Diego Martin Gogorza",
+    "key": "REUNION-202510300730",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-30 07:30:00",
+    "end": "2025-10-30 08:30:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Diego Martin Gogorza",
+    "key": "REUNION-202510300830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-30 08:30:00",
+    "end": "2025-10-30 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Diego Martin Gogorza",
+    "key": "REUNION-202510310830",
+    "summary": "⛔ Reunión",
+    "start": "2025-10-31 08:30:00",
+    "end": "2025-10-31 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Diego Martin Gogorza",
+    "key": "REUNION-202511030830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-03 08:30:00",
+    "end": "2025-11-03 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Diego Martin Gogorza",
+    "key": "REUNION-202511031100",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-03 11:00:00",
+    "end": "2025-11-03 12:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Diego Martin Gogorza",
+    "key": "REUNION-202511031430",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-03 14:30:00",
+    "end": "2025-11-03 15:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Diego Martin Gogorza",
+    "key": "REUNION-202511040730",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-04 07:30:00",
+    "end": "2025-11-04 08:30:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Diego Martin Gogorza",
+    "key": "REUNION-202511040830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-04 08:30:00",
+    "end": "2025-11-04 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Diego Martin Gogorza",
+    "key": "REUNION-202511041430",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-04 14:30:00",
+    "end": "2025-11-04 15:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Diego Martin Gogorza",
+    "key": "REUNION-202511050830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-05 08:30:00",
+    "end": "2025-11-05 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Diego Martin Gogorza",
+    "key": "REUNION-202511051000",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-05 10:00:00",
+    "end": "2025-11-05 12:00:00",
+    "duration_hours": 2.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Diego Martin Gogorza",
+    "key": "REUNION-202511051100",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-05 11:00:00",
+    "end": "2025-11-05 12:00:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Diego Martin Gogorza",
+    "key": "REUNION-202511060730",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-06 07:30:00",
+    "end": "2025-11-06 08:30:00",
+    "duration_hours": 1.0,
+    "cf10209": null
+  },
+  {
+    "developer": "Diego Martin Gogorza",
+    "key": "REUNION-202511060830",
+    "summary": "⛔ Reunión",
+    "start": "2025-11-06 08:30:00",
+    "end": "2025-11-06 09:00:00",
+    "duration_hours": 0.5,
+    "cf10209": null
+  },
+  {
+    "developer": "Diego Martin Gogorza",
+    "key": "IT-21083",
+    "summary": "Fix / No se listan todas las diferencias de stock",
+    "start": "2025-10-27 09:00:00",
+    "end": "2025-10-27 11:00:00",
+    "duration_hours": 2.0,
+    "cf10209": "Business Technology (BT)"
+  },
+  {
+    "developer": "Diego Martin Gogorza",
+    "key": "IT-21083",
+    "summary": "Fix / No se listan todas las diferencias de stock",
+    "start": "2025-10-27 12:00:00",
+    "end": "2025-10-27 16:00:00",
+    "duration_hours": 4.0,
+    "cf10209": "Business Technology (BT)"
+  }
+]
