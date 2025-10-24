@@ -308,7 +308,7 @@
       {
         "key": "IT-21393",
         "summary": "Dominicana / config.default.php de STG y PROD AR, no esta configurado DO",
-        "status": "En progreso",
+        "status": "ON HOLD",
         "story_points": 5.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -5202,6 +5202,14 @@
     "summary": "CAV - Carga automática de ventas",
     "tasks": [
       {
+        "key": "IT-22181",
+        "summary": "Liverpool / Incluir la volumetria del pedido",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
         "key": "IT-20767",
         "summary": "MercadoLibre / Información sobre la fecha de generación de la etiqueta",
         "status": "FINISH",
@@ -6649,14 +6657,6 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-3809",
-        "summary": "[Marketplace][Falabella]Agregar Publicación Manual",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-3792",
         "summary": "Marketplace / Pruebas Falabella ",
         "status": "EN RELEVAMIENTO",
@@ -6671,6 +6671,14 @@
         "story_points": null,
         "assignee": "Juan Ignacio Morelis - Carestino",
         "project": "BTP"
+      },
+      {
+        "key": "IT-22187",
+        "summary": "[Marketplace][Falabella]Agregar Publicación Manual",
+        "status": "BACKLOG",
+        "story_points": 24.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
       },
       {
         "key": "IT-22154",
@@ -15028,7 +15036,7 @@
       {
         "key": "IT-21873",
         "summary": "Fijar filtro \"Mostrar X registros\" -  Modulo conciliador",
-        "status": "CODE REVIEW",
+        "status": "PENDING REVIEW",
         "story_points": 5.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15642,6 +15650,14 @@
         "story_points": null,
         "assignee": "Alan Fernandez",
         "project": "BTP"
+      },
+      {
+        "key": "IT-22187",
+        "summary": "[Marketplace][Falabella]Agregar Publicación Manual",
+        "status": "BACKLOG",
+        "story_points": 24.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
       },
       {
         "key": "IT-22154",

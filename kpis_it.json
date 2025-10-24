@@ -1,0 +1,73 @@
+{
+  "S20251027": {
+    "sprint_id": "S20251027",
+    "kpis_por_desarrollador": {
+      "Alan Mori - Carestino": {
+        "tarjetas_planificadas": 10,
+        "tarjetas_realizadas": 0,
+        "porc_tarjetas_completadas": 0.0,
+        "horas_planificadas": 101.0,
+        "horas_realizadas": 20.0,
+        "porc_horas_cumplidas": 19.8,
+        "desviacion_promedio_estimacion": 0.798
+      },
+      "Franco Lorenzo": {
+        "tarjetas_planificadas": 4,
+        "tarjetas_realizadas": 0,
+        "porc_tarjetas_completadas": 0.0,
+        "horas_planificadas": 68.0,
+        "horas_realizadas": 122.0,
+        "porc_horas_cumplidas": 179.4,
+        "desviacion_promedio_estimacion": 0.904
+      },
+      "Gastón Ojeda": {
+        "tarjetas_planificadas": 9,
+        "tarjetas_realizadas": 0,
+        "porc_tarjetas_completadas": 0.0,
+        "horas_planificadas": 96.0,
+        "horas_realizadas": 206.0,
+        "porc_horas_cumplidas": 214.6,
+        "desviacion_promedio_estimacion": 1.754
+      },
+      "Luis Uran": {
+        "tarjetas_planificadas": 20,
+        "tarjetas_realizadas": 0,
+        "porc_tarjetas_completadas": 0.0,
+        "horas_planificadas": 99.0,
+        "horas_realizadas": 7.0,
+        "porc_horas_cumplidas": 7.1,
+        "desviacion_promedio_estimacion": 0.938
+      },
+      "Miguel Armentano": {
+        "tarjetas_planificadas": 3,
+        "tarjetas_realizadas": 0,
+        "porc_tarjetas_completadas": 0.0,
+        "horas_planificadas": 23.0,
+        "horas_realizadas": 3.0,
+        "porc_horas_cumplidas": 13.0,
+        "desviacion_promedio_estimacion": 0.886
+      },
+      "Nicolas Pardo": {
+        "tarjetas_planificadas": 2,
+        "tarjetas_realizadas": 1,
+        "porc_tarjetas_completadas": 50.0,
+        "horas_planificadas": 78.0,
+        "horas_realizadas": 14.0,
+        "porc_horas_cumplidas": 17.9,
+        "desviacion_promedio_estimacion": 0.512
+      }
+    },
+    "kpis_globales": {
+      "porc_tareas_replanificadas": 97.9,
+      "predictibilidad_por_due_date": 0.0,
+      "carga_planificada_por_dev": {
+        "Alan Mori - Carestino": 101.0,
+        "Franco Lorenzo": 68.0,
+        "Gastón Ojeda": 96.0,
+        "Luis Uran": 99.0,
+        "Miguel Armentano": 23.0,
+        "Nicolas Pardo": 78.0
+      }
+    }
+  }
+}
