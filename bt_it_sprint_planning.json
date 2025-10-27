@@ -490,5 +490,646 @@
         }
       }
     }
+  },
+  "S20251013": {
+    "sprint_id": "S20251013",
+    "generado_en": "2025-10-27 08:25:07",
+    "sprint_inicio_global": "2025-10-13",
+    "sprint_fin_global": "2025-10-31",
+    "datos_semana_1": {
+      "tarjetas_planificadas": 25,
+      "horas_planificadas": 131.0
+    },
+    "datos_semana_2": {
+      "tarjetas_planificadas": 44,
+      "horas_planificadas": 275.0
+    },
+    "detalle_por_desarrollador": {
+      "Alan Mori - Carestino": {
+        "sprint_inicio": "2025-10-13",
+        "sprint_fin": "2025-10-31",
+        "datos_semana_1": {
+          "inicio": "2025-10-13",
+          "fin": "2025-10-17",
+          "tarjetas_planificadas": 4,
+          "horas_planificadas": 20.0,
+          "issues": [
+            "IT-21820",
+            "IT-21104",
+            "IT-21484",
+            "IT-21378"
+          ],
+          "issues_detail": [
+            {
+              "key": "IT-21820",
+              "planned_hours": 2.0,
+              "tipo": "",
+              "due": "2025-10-13"
+            },
+            {
+              "key": "IT-21104",
+              "planned_hours": 2.0,
+              "tipo": "",
+              "due": "2025-10-13"
+            },
+            {
+              "key": "IT-21484",
+              "planned_hours": 2.0,
+              "tipo": "",
+              "due": "2025-10-13"
+            },
+            {
+              "key": "IT-21378",
+              "planned_hours": 14.0,
+              "tipo": "",
+              "due": "2025-10-15"
+            }
+          ]
+        },
+        "datos_semana_2": {
+          "inicio": "2025-10-20",
+          "fin": "2025-10-31",
+          "tarjetas_planificadas": 8,
+          "horas_planificadas": 78.0,
+          "issues": [
+            "IT-21552",
+            "IT-21550",
+            "IT-21644",
+            "IT-20779",
+            "IT-20777",
+            "IT-19746",
+            "IT-21510",
+            "IT-21985"
+          ],
+          "issues_detail": [
+            {
+              "key": "IT-21552",
+              "planned_hours": 24.0,
+              "tipo": "",
+              "due": "2025-10-21"
+            },
+            {
+              "key": "IT-21550",
+              "planned_hours": 16.0,
+              "tipo": "",
+              "due": "2025-10-23"
+            },
+            {
+              "key": "IT-21644",
+              "planned_hours": 4.0,
+              "tipo": "",
+              "due": "2025-10-24"
+            },
+            {
+              "key": "IT-20779",
+              "planned_hours": 3.0,
+              "tipo": "",
+              "due": "2025-10-27"
+            },
+            {
+              "key": "IT-20777",
+              "planned_hours": 12.0,
+              "tipo": "",
+              "due": "2025-10-28"
+            },
+            {
+              "key": "IT-19746",
+              "planned_hours": 7.0,
+              "tipo": "",
+              "due": "2025-10-29"
+            },
+            {
+              "key": "IT-21510",
+              "planned_hours": 8.0,
+              "tipo": "",
+              "due": "2025-10-30"
+            },
+            {
+              "key": "IT-21985",
+              "planned_hours": 4.0,
+              "tipo": "",
+              "due": "2025-10-31"
+            }
+          ]
+        }
+      },
+      "Franco Lorenzo": {
+        "sprint_inicio": "2025-10-13",
+        "sprint_fin": "2025-10-31",
+        "datos_semana_1": {
+          "inicio": "2025-10-13",
+          "fin": "2025-10-17",
+          "tarjetas_planificadas": 6,
+          "horas_planificadas": 21.0,
+          "issues": [
+            "IT-21692",
+            "IT-21523",
+            "IT-21340",
+            "IT-18825",
+            "IT-21556",
+            "IT-20472"
+          ],
+          "issues_detail": [
+            {
+              "key": "IT-21692",
+              "planned_hours": 4.0,
+              "tipo": "",
+              "due": "2025-10-13"
+            },
+            {
+              "key": "IT-21523",
+              "planned_hours": 4.0,
+              "tipo": "",
+              "due": "2025-10-14"
+            },
+            {
+              "key": "IT-21340",
+              "planned_hours": 4.0,
+              "tipo": "",
+              "due": "2025-10-14"
+            },
+            {
+              "key": "IT-18825",
+              "planned_hours": 4.0,
+              "tipo": "",
+              "due": "2025-10-16"
+            },
+            {
+              "key": "IT-21556",
+              "planned_hours": 1.0,
+              "tipo": "",
+              "due": "2025-10-16"
+            },
+            {
+              "key": "IT-20472",
+              "planned_hours": 4.0,
+              "tipo": "",
+              "due": "2025-10-17"
+            }
+          ]
+        },
+        "datos_semana_2": {
+          "inicio": "2025-10-20",
+          "fin": "2025-10-31",
+          "tarjetas_planificadas": 4,
+          "horas_planificadas": 8.0,
+          "issues": [
+            "IT-21784",
+            "IT-22050",
+            "IT-21733",
+            "IT-21233"
+          ],
+          "issues_detail": [
+            {
+              "key": "IT-21784",
+              "planned_hours": 2.0,
+              "tipo": "",
+              "due": "2025-10-20"
+            },
+            {
+              "key": "IT-22050",
+              "planned_hours": 1.0,
+              "tipo": "",
+              "due": "2025-10-20"
+            },
+            {
+              "key": "IT-21733",
+              "planned_hours": 4.0,
+              "tipo": "",
+              "due": "2025-10-20"
+            },
+            {
+              "key": "IT-21233",
+              "planned_hours": 1.0,
+              "tipo": "",
+              "due": "2025-10-21"
+            }
+          ]
+        }
+      },
+      "Gastón Ojeda": {
+        "sprint_inicio": "2025-10-13",
+        "sprint_fin": "2025-10-31",
+        "datos_semana_1": {
+          "inicio": "2025-10-13",
+          "fin": "2025-10-17",
+          "tarjetas_planificadas": 4,
+          "horas_planificadas": 23.0,
+          "issues": [
+            "IT-20458",
+            "IT-21173",
+            "IT-20384",
+            "IT-21322"
+          ],
+          "issues_detail": [
+            {
+              "key": "IT-20458",
+              "planned_hours": 1.0,
+              "tipo": "",
+              "due": "2025-10-13"
+            },
+            {
+              "key": "IT-21173",
+              "planned_hours": 8.0,
+              "tipo": "",
+              "due": "2025-10-14"
+            },
+            {
+              "key": "IT-20384",
+              "planned_hours": 10.0,
+              "tipo": "",
+              "due": "2025-10-15"
+            },
+            {
+              "key": "IT-21322",
+              "planned_hours": 4.0,
+              "tipo": "",
+              "due": "2025-10-16"
+            }
+          ]
+        },
+        "datos_semana_2": {
+          "inicio": "2025-10-20",
+          "fin": "2025-10-31",
+          "tarjetas_planificadas": 10,
+          "horas_planificadas": 70.0,
+          "issues": [
+            "IT-21446",
+            "IT-20638",
+            "IT-21880",
+            "IT-21314",
+            "IT-21690",
+            "IT-21688",
+            "IT-21685",
+            "IT-21448",
+            "IT-21443",
+            "IT-20382"
+          ],
+          "issues_detail": [
+            {
+              "key": "IT-21446",
+              "planned_hours": 16.0,
+              "tipo": "",
+              "due": "2025-10-20"
+            },
+            {
+              "key": "IT-20638",
+              "planned_hours": 3.0,
+              "tipo": "",
+              "due": "2025-10-20"
+            },
+            {
+              "key": "IT-21880",
+              "planned_hours": 4.0,
+              "tipo": "",
+              "due": "2025-10-21"
+            },
+            {
+              "key": "IT-21314",
+              "planned_hours": 8.0,
+              "tipo": "",
+              "due": "2025-10-22"
+            },
+            {
+              "key": "IT-21690",
+              "planned_hours": 8.0,
+              "tipo": "",
+              "due": "2025-10-23"
+            },
+            {
+              "key": "IT-21688",
+              "planned_hours": 8.0,
+              "tipo": "",
+              "due": "2025-10-27"
+            },
+            {
+              "key": "IT-21685",
+              "planned_hours": 8.0,
+              "tipo": "",
+              "due": "2025-10-28"
+            },
+            {
+              "key": "IT-21448",
+              "planned_hours": 6.0,
+              "tipo": "",
+              "due": "2025-10-29"
+            },
+            {
+              "key": "IT-21443",
+              "planned_hours": 3.0,
+              "tipo": "",
+              "due": "2025-10-29"
+            },
+            {
+              "key": "IT-20382",
+              "planned_hours": 6.0,
+              "tipo": "",
+              "due": "2025-10-30"
+            }
+          ]
+        }
+      },
+      "Luis Uran": {
+        "sprint_inicio": "2025-10-13",
+        "sprint_fin": "2025-10-31",
+        "datos_semana_1": {
+          "inicio": "2025-10-13",
+          "fin": "2025-10-17",
+          "tarjetas_planificadas": 6,
+          "horas_planificadas": 29.0,
+          "issues": [
+            "IT-21677",
+            "IT-21884",
+            "IT-21917",
+            "IT-21875",
+            "IT-21871",
+            "IT-21878"
+          ],
+          "issues_detail": [
+            {
+              "key": "IT-21677",
+              "planned_hours": 1.0,
+              "tipo": "",
+              "due": "2025-10-13"
+            },
+            {
+              "key": "IT-21884",
+              "planned_hours": 5.0,
+              "tipo": "",
+              "due": "2025-10-13"
+            },
+            {
+              "key": "IT-21917",
+              "planned_hours": 3.0,
+              "tipo": "",
+              "due": "2025-10-14"
+            },
+            {
+              "key": "IT-21875",
+              "planned_hours": 6.0,
+              "tipo": "",
+              "due": "2025-10-14"
+            },
+            {
+              "key": "IT-21871",
+              "planned_hours": 6.0,
+              "tipo": "",
+              "due": "2025-10-15"
+            },
+            {
+              "key": "IT-21878",
+              "planned_hours": 8.0,
+              "tipo": "",
+              "due": "2025-10-16"
+            }
+          ]
+        },
+        "datos_semana_2": {
+          "inicio": "2025-10-20",
+          "fin": "2025-10-31",
+          "tarjetas_planificadas": 15,
+          "horas_planificadas": 63.0,
+          "issues": [
+            "IT-21769",
+            "IT-21882",
+            "IT-21884",
+            "IT-21677",
+            "IT-21971",
+            "IT-21969",
+            "IT-21973",
+            "IT-21873",
+            "IT-16644",
+            "IT-16643",
+            "IT-16642",
+            "IT-16641",
+            "IT-16640",
+            "IT-16639",
+            "IT-16638"
+          ],
+          "issues_detail": [
+            {
+              "key": "IT-21769",
+              "planned_hours": 8.0,
+              "tipo": "",
+              "due": "2025-10-20"
+            },
+            {
+              "key": "IT-21882",
+              "planned_hours": 4.0,
+              "tipo": "",
+              "due": "2025-10-20"
+            },
+            {
+              "key": "IT-21884",
+              "planned_hours": 3.0,
+              "tipo": "",
+              "due": "2025-10-21"
+            },
+            {
+              "key": "IT-21677",
+              "planned_hours": 3.0,
+              "tipo": "",
+              "due": "2025-10-21"
+            },
+            {
+              "key": "IT-21971",
+              "planned_hours": 6.0,
+              "tipo": "",
+              "due": "2025-10-22"
+            },
+            {
+              "key": "IT-21969",
+              "planned_hours": 5.0,
+              "tipo": "",
+              "due": "2025-10-23"
+            },
+            {
+              "key": "IT-21973",
+              "planned_hours": 4.0,
+              "tipo": "",
+              "due": "2025-10-23"
+            },
+            {
+              "key": "IT-21873",
+              "planned_hours": 5.0,
+              "tipo": "",
+              "due": "2025-10-24"
+            },
+            {
+              "key": "IT-16644",
+              "planned_hours": 2.0,
+              "tipo": "",
+              "due": "2025-10-27"
+            },
+            {
+              "key": "IT-16643",
+              "planned_hours": 2.0,
+              "tipo": "",
+              "due": "2025-10-27"
+            },
+            {
+              "key": "IT-16642",
+              "planned_hours": 4.0,
+              "tipo": "",
+              "due": "2025-10-27"
+            },
+            {
+              "key": "IT-16641",
+              "planned_hours": 3.0,
+              "tipo": "",
+              "due": "2025-10-28"
+            },
+            {
+              "key": "IT-16640",
+              "planned_hours": 4.0,
+              "tipo": "",
+              "due": "2025-10-28"
+            },
+            {
+              "key": "IT-16639",
+              "planned_hours": 3.0,
+              "tipo": "",
+              "due": "2025-10-29"
+            },
+            {
+              "key": "IT-16638",
+              "planned_hours": 7.0,
+              "tipo": "",
+              "due": "2025-10-30"
+            }
+          ]
+        }
+      },
+      "Miguel Armentano": {
+        "sprint_inicio": "2025-10-13",
+        "sprint_fin": "2025-10-31",
+        "datos_semana_1": {
+          "inicio": "2025-10-13",
+          "fin": "2025-10-17",
+          "tarjetas_planificadas": 4,
+          "horas_planificadas": 32.0,
+          "issues": [
+            "IT-21218",
+            "IT-20576",
+            "IT-21534",
+            "IT-21545"
+          ],
+          "issues_detail": [
+            {
+              "key": "IT-21218",
+              "planned_hours": 14.0,
+              "tipo": "",
+              "due": "2025-10-14"
+            },
+            {
+              "key": "IT-20576",
+              "planned_hours": 6.0,
+              "tipo": "",
+              "due": "2025-10-15"
+            },
+            {
+              "key": "IT-21534",
+              "planned_hours": 6.0,
+              "tipo": "",
+              "due": "2025-10-16"
+            },
+            {
+              "key": "IT-21545",
+              "planned_hours": 6.0,
+              "tipo": "",
+              "due": "2025-10-17"
+            }
+          ]
+        },
+        "datos_semana_2": {
+          "inicio": "2025-10-20",
+          "fin": "2025-10-31",
+          "tarjetas_planificadas": 7,
+          "horas_planificadas": 56.0,
+          "issues": [
+            "IT-21892",
+            "IT-21891",
+            "IT-21890",
+            "IT-21893",
+            "IT-21958",
+            "IT-21536",
+            "IT-21539"
+          ],
+          "issues_detail": [
+            {
+              "key": "IT-21892",
+              "planned_hours": 8.0,
+              "tipo": "",
+              "due": "2025-10-21"
+            },
+            {
+              "key": "IT-21891",
+              "planned_hours": 8.0,
+              "tipo": "",
+              "due": "2025-10-22"
+            },
+            {
+              "key": "IT-21890",
+              "planned_hours": 6.0,
+              "tipo": "",
+              "due": "2025-10-23"
+            },
+            {
+              "key": "IT-21893",
+              "planned_hours": 6.0,
+              "tipo": "",
+              "due": "2025-10-20"
+            },
+            {
+              "key": "IT-21958",
+              "planned_hours": 8.0,
+              "tipo": "",
+              "due": "2025-10-24"
+            },
+            {
+              "key": "IT-21536",
+              "planned_hours": 6.0,
+              "tipo": "",
+              "due": "2025-10-27"
+            },
+            {
+              "key": "IT-21539",
+              "planned_hours": 14.0,
+              "tipo": "",
+              "due": "2025-10-29"
+            }
+          ]
+        }
+      },
+      "Nicolas Pardo": {
+        "sprint_inicio": "2025-10-13",
+        "sprint_fin": "2025-10-31",
+        "datos_semana_1": {
+          "inicio": "2025-10-13",
+          "fin": "2025-10-17",
+          "tarjetas_planificadas": 1,
+          "horas_planificadas": 6.0,
+          "issues": [
+            "IT-21560"
+          ],
+          "issues_detail": [
+            {
+              "key": "IT-21560",
+              "planned_hours": 6.0,
+              "tipo": "",
+              "due": "2025-10-14"
+            }
+          ]
+        },
+        "datos_semana_2": {
+          "inicio": "2025-10-20",
+          "fin": "2025-10-31",
+          "tarjetas_planificadas": 0,
+          "horas_planificadas": 0.0,
+          "issues": [],
+          "issues_detail": []
+        }
+      }
+    }
   }
 }

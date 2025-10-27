@@ -308,7 +308,7 @@
       {
         "key": "IT-21393",
         "summary": "Dominicana / config.default.php de STG y PROD AR, no esta configurado DO",
-        "status": "ON HOLD",
+        "status": "TO DEPLOY",
         "story_points": 5.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -6683,8 +6683,8 @@
       {
         "key": "IT-22154",
         "summary": "[Marketplace][Liverpool] Agregar Publicación Manual",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
       },
@@ -15662,8 +15662,8 @@
       {
         "key": "IT-22154",
         "summary": "[Marketplace][Liverpool] Agregar Publicación Manual",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
       },

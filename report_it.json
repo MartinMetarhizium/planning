@@ -1,6 +1,6 @@
 {
   "S20251027": {
-    "generado_en": "2025-10-24 14:55:26",
+    "generado_en": "2025-10-27 08:25:57",
     "sprint_id": "S20251027",
     "sprint_inicio_global": "2025-10-27",
     "sprint_fin_global": "2025-11-14",
@@ -8,12 +8,12 @@
       "IT-21985": {
         "developer": "Alan Mori - Carestino",
         "summary": "Ordenes de precios / No permite editar precios desde el listado",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "status_category": "En curso",
         "assignee": "Alan Mori - Carestino",
         "priority": "High",
         "duedate": "2025-10-14",
-        "updated": "2025-10-24T13:03:57.939-0300",
+        "updated": "2025-10-24T17:52:43.957-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -24,7 +24,7 @@
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-20819": {
         "developer": "Alan Mori - Carestino",
@@ -34,7 +34,7 @@
         "assignee": "Alan Mori - Carestino",
         "priority": "Medium",
         "duedate": "2025-10-17",
-        "updated": "2025-10-07T07:33:57.806-0300",
+        "updated": "2025-10-24T17:52:49.752-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -45,28 +45,28 @@
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-21933": {
         "developer": "Alan Mori - Carestino",
         "summary": "Formularios Reclamos | Cancelación automática de despachos",
-        "status": "En progreso",
-        "status_category": "En curso",
+        "status": "ON HOLD",
+        "status_category": "Por hacer",
         "assignee": "Alan Mori - Carestino",
         "priority": "High",
         "duedate": "2025-09-25",
-        "updated": "2025-10-24T14:03:14.468-0300",
+        "updated": "2025-10-24T17:37:16.819-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
           "by_author": {}
         },
-        "customfield_10046_raw": 3.0,
-        "real_hours_issue": 3.0,
+        "customfield_10046_raw": 6.0,
+        "real_hours_issue": 6.0,
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-20655": {
         "developer": "Alan Mori - Carestino",
@@ -76,7 +76,7 @@
         "assignee": "Alan Mori - Carestino",
         "priority": "Lowest",
         "duedate": "2025-12-26",
-        "updated": "2025-10-21T11:49:50.550-0300",
+        "updated": "2025-10-24T17:53:22.091-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -87,7 +87,7 @@
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-21571": {
         "developer": "Alan Mori - Carestino",
@@ -97,7 +97,7 @@
         "assignee": "Alan Mori - Carestino",
         "priority": "Medium",
         "duedate": "2025-10-17",
-        "updated": "2025-10-23T15:09:20.433-0300",
+        "updated": "2025-10-24T17:53:26.359-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -108,7 +108,7 @@
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-20630": {
         "developer": "Alan Mori - Carestino",
@@ -118,7 +118,7 @@
         "assignee": "Alan Mori - Carestino",
         "priority": "Lowest",
         "duedate": "2025-12-05",
-        "updated": "2025-10-21T11:49:41.124-0300",
+        "updated": "2025-10-24T17:53:30.117-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -129,7 +129,7 @@
         "real_hours_source": "worklogs_window",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-21983": {
         "developer": "Alan Mori - Carestino",
@@ -139,7 +139,7 @@
         "assignee": "Alan Mori - Carestino",
         "priority": "High",
         "duedate": "2025-11-06",
-        "updated": "2025-10-15T11:24:25.136-0300",
+        "updated": "2025-10-24T17:53:34.132-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -150,7 +150,7 @@
         "real_hours_source": "worklogs_window",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-22045": {
         "developer": "Alan Mori - Carestino",
@@ -171,7 +171,7 @@
         "real_hours_source": "worklogs_window",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-20640": {
         "developer": "Alan Mori - Carestino",
@@ -181,7 +181,7 @@
         "assignee": "Alan Mori - Carestino",
         "priority": "Lowest",
         "duedate": "2026-03-09",
-        "updated": "2025-10-22T14:36:38.767-0300",
+        "updated": "2025-10-24T17:53:47.116-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -192,7 +192,7 @@
         "real_hours_source": "worklogs_window",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-21734": {
         "developer": "Alan Mori - Carestino",
@@ -202,7 +202,7 @@
         "assignee": "Alan Mori - Carestino",
         "priority": "Low",
         "duedate": "2026-03-09",
-        "updated": "2025-10-22T14:36:52.371-0300",
+        "updated": "2025-10-24T17:53:51.680-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -213,7 +213,7 @@
         "real_hours_source": "worklogs_window",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-20162": {
         "developer": "Franco Lorenzo",
@@ -223,7 +223,7 @@
         "assignee": "Franco Lorenzo",
         "priority": "Medium",
         "duedate": "2025-10-08",
-        "updated": "2025-10-23T17:03:17.731-0300",
+        "updated": "2025-10-24T17:37:18.385-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -234,7 +234,7 @@
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-21887": {
         "developer": "Franco Lorenzo",
@@ -244,7 +244,7 @@
         "assignee": "Franco Lorenzo",
         "priority": "High",
         "duedate": "2025-10-01",
-        "updated": "2025-10-21T15:42:39.833-0300",
+        "updated": "2025-10-24T18:14:44.993-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -255,7 +255,7 @@
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-21989": {
         "developer": "Franco Lorenzo",
@@ -265,7 +265,7 @@
         "assignee": "Franco Lorenzo",
         "priority": "Medium",
         "duedate": "2025-11-15",
-        "updated": "2025-10-21T16:04:39.959-0300",
+        "updated": "2025-10-24T18:14:49.138-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -276,7 +276,7 @@
         "real_hours_source": "worklogs_window",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-20114": {
         "developer": "Franco Lorenzo",
@@ -286,7 +286,7 @@
         "assignee": "Franco Lorenzo",
         "priority": "Medium",
         "duedate": "2025-07-02",
-        "updated": "2025-10-09T19:58:29.579-0300",
+        "updated": "2025-10-24T18:14:53.099-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -297,7 +297,7 @@
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-15010": {
         "developer": "Gastón Ojeda",
@@ -307,18 +307,18 @@
         "assignee": "Gastón Ojeda",
         "priority": "Low",
         "duedate": "2024-09-13",
-        "updated": "2025-10-24T09:12:38.440-0300",
+        "updated": "2025-10-24T17:55:15.898-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
           "by_author": {}
         },
-        "customfield_10046_raw": 84.0,
-        "real_hours_issue": 84.0,
+        "customfield_10046_raw": 90.0,
+        "real_hours_issue": 90.0,
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-14961": {
         "developer": "Gastón Ojeda",
@@ -328,7 +328,7 @@
         "assignee": "Gastón Ojeda",
         "priority": "Medium",
         "duedate": null,
-        "updated": "2025-10-21T10:59:11.245-0300",
+        "updated": "2025-10-24T17:55:21.645-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -339,7 +339,7 @@
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-21679": {
         "developer": "Luis Uran",
@@ -349,7 +349,7 @@
         "assignee": "Luis Uran",
         "priority": "Medium",
         "duedate": "2025-10-16",
-        "updated": "2025-10-23T10:15:57.429-0300",
+        "updated": "2025-10-24T17:45:29.298-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -360,7 +360,7 @@
         "real_hours_source": "worklogs_window",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-21305": {
         "developer": "Gastón Ojeda",
@@ -370,7 +370,7 @@
         "assignee": "Gastón Ojeda",
         "priority": "Medium",
         "duedate": "2025-10-04",
-        "updated": "2025-10-16T17:13:03.902-0300",
+        "updated": "2025-10-24T17:55:19.047-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -381,7 +381,7 @@
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-21935": {
         "developer": "Gastón Ojeda",
@@ -402,7 +402,7 @@
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-21493": {
         "developer": "Gastón Ojeda",
@@ -423,7 +423,7 @@
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-21814": {
         "developer": "Gastón Ojeda",
@@ -433,7 +433,7 @@
         "assignee": "Gastón Ojeda",
         "priority": "High",
         "duedate": "2025-10-24",
-        "updated": "2025-10-14T17:12:41.507-0300",
+        "updated": "2025-10-24T17:56:31.517-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -444,7 +444,7 @@
         "real_hours_source": "worklogs_window",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-21978": {
         "developer": "Gastón Ojeda",
@@ -454,7 +454,7 @@
         "assignee": "Gastón Ojeda",
         "priority": "High",
         "duedate": "2025-10-28",
-        "updated": "2025-10-21T17:21:06.741-0300",
+        "updated": "2025-10-24T17:56:37.173-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -465,7 +465,7 @@
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-20473": {
         "developer": "Gastón Ojeda",
@@ -475,7 +475,7 @@
         "assignee": "Luis Uran",
         "priority": "Low",
         "duedate": "2025-11-21",
-        "updated": "2025-10-23T09:34:21.682-0300",
+        "updated": "2025-10-24T17:48:35.504-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -486,7 +486,7 @@
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-16642": {
         "developer": "Luis Uran",
@@ -496,18 +496,18 @@
         "assignee": "Luis Uran",
         "priority": "Medium",
         "duedate": null,
-        "updated": "2025-10-24T14:37:41.250-0300",
+        "updated": "2025-10-24T17:37:21.848-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
           "by_author": {}
         },
-        "customfield_10046_raw": null,
-        "real_hours_issue": 0.0,
-        "real_hours_source": "worklogs_window",
+        "customfield_10046_raw": 2.0,
+        "real_hours_issue": 2.0,
+        "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-21806": {
         "developer": "Luis Uran",
@@ -517,7 +517,7 @@
         "assignee": "Luis Uran",
         "priority": "High",
         "duedate": "2025-10-14",
-        "updated": "2025-10-23T10:16:10.414-0300",
+        "updated": "2025-10-24T17:45:24.642-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -528,7 +528,7 @@
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-21320": {
         "developer": "Luis Uran",
@@ -538,7 +538,7 @@
         "assignee": "Luis Uran",
         "priority": "Medium",
         "duedate": "2025-10-17",
-        "updated": "2025-10-23T10:16:01.907-0300",
+        "updated": "2025-10-24T17:45:33.540-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -549,7 +549,7 @@
         "real_hours_source": "worklogs_window",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-22133": {
         "developer": "Luis Uran",
@@ -559,7 +559,7 @@
         "assignee": "Luis Uran",
         "priority": "High",
         "duedate": "2025-10-24",
-        "updated": "2025-10-22T12:15:24.233-0300",
+        "updated": "2025-10-24T17:48:26.739-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -570,7 +570,7 @@
         "real_hours_source": "worklogs_window",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-21993": {
         "developer": "Luis Uran",
@@ -580,7 +580,7 @@
         "assignee": "Luis Uran",
         "priority": "Medium",
         "duedate": null,
-        "updated": "2025-10-23T10:16:06.235-0300",
+        "updated": "2025-10-24T17:46:56.366-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -591,7 +591,7 @@
         "real_hours_source": "worklogs_window",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-21965": {
         "developer": "Luis Uran",
@@ -601,7 +601,7 @@
         "assignee": "Luis Uran",
         "priority": "High",
         "duedate": "2025-11-13",
-        "updated": "2025-10-20T18:52:58.368-0300",
+        "updated": "2025-10-24T17:47:15.235-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -612,7 +612,7 @@
         "real_hours_source": "worklogs_window",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-21844": {
         "developer": "Luis Uran",
@@ -622,7 +622,7 @@
         "assignee": "Luis Uran",
         "priority": "Medium",
         "duedate": null,
-        "updated": "2025-10-23T09:04:50.855-0300",
+        "updated": "2025-10-24T17:47:20.677-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -633,17 +633,17 @@
         "real_hours_source": "worklogs_window",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-21973": {
         "developer": "Luis Uran",
         "summary": "Logística V2 / Logisticas Integradas / Insertar venta como logistica y no como carrier generic",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "status_category": "En curso",
         "assignee": "Luis Uran",
         "priority": "High",
         "duedate": "2025-11-13",
-        "updated": "2025-10-23T12:23:46.399-0300",
+        "updated": "2025-10-24T17:48:06.219-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -654,7 +654,7 @@
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-22138": {
         "developer": "Luis Uran",
@@ -664,7 +664,7 @@
         "assignee": "Luis Uran",
         "priority": "Medium",
         "duedate": null,
-        "updated": "2025-10-23T09:49:33.117-0300",
+        "updated": "2025-10-24T17:48:12.579-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -675,7 +675,7 @@
         "real_hours_source": "worklogs_window",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-16641": {
         "developer": "Luis Uran",
@@ -685,7 +685,7 @@
         "assignee": "Luis Uran",
         "priority": "Medium",
         "duedate": null,
-        "updated": "2025-10-09T19:58:35.128-0300",
+        "updated": "2025-10-24T17:37:20.656-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -696,7 +696,7 @@
         "real_hours_source": "worklogs_window",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-16640": {
         "developer": "Luis Uran",
@@ -706,7 +706,7 @@
         "assignee": "Luis Uran",
         "priority": "Medium",
         "duedate": null,
-        "updated": "2025-10-09T19:58:35.548-0300",
+        "updated": "2025-10-24T17:37:20.818-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -717,7 +717,7 @@
         "real_hours_source": "worklogs_window",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-16639": {
         "developer": "Luis Uran",
@@ -727,7 +727,7 @@
         "assignee": "Luis Uran",
         "priority": "Medium",
         "duedate": null,
-        "updated": "2025-10-09T19:58:35.827-0300",
+        "updated": "2025-10-24T17:37:20.983-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -738,7 +738,7 @@
         "real_hours_source": "worklogs_window",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-16638": {
         "developer": "Luis Uran",
@@ -748,7 +748,7 @@
         "assignee": "Luis Uran",
         "priority": "Medium",
         "duedate": null,
-        "updated": "2025-10-09T19:58:36.069-0300",
+        "updated": "2025-10-24T17:37:21.165-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -759,7 +759,7 @@
         "real_hours_source": "worklogs_window",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-16635": {
         "developer": "Luis Uran",
@@ -769,7 +769,7 @@
         "assignee": "Luis Uran",
         "priority": "Medium",
         "duedate": null,
-        "updated": "2025-10-09T19:58:36.275-0300",
+        "updated": "2025-10-24T17:37:21.318-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -780,7 +780,7 @@
         "real_hours_source": "worklogs_window",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-16634": {
         "developer": "Luis Uran",
@@ -790,7 +790,7 @@
         "assignee": "Luis Uran",
         "priority": "Medium",
         "duedate": null,
-        "updated": "2025-10-09T19:58:36.451-0300",
+        "updated": "2025-10-24T17:37:21.465-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -801,7 +801,7 @@
         "real_hours_source": "worklogs_window",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-16633": {
         "developer": "Luis Uran",
@@ -822,7 +822,7 @@
         "real_hours_source": "worklogs_window",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-16632": {
         "developer": "Luis Uran",
@@ -843,7 +843,7 @@
         "real_hours_source": "worklogs_window",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-16627": {
         "developer": "Luis Uran",
@@ -864,7 +864,7 @@
         "real_hours_source": "worklogs_window",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-16578": {
         "developer": "Luis Uran",
@@ -885,7 +885,7 @@
         "real_hours_source": "worklogs_window",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-21539": {
         "developer": "Miguel Armentano",
@@ -895,18 +895,18 @@
         "assignee": "Miguel Armentano",
         "priority": "Medium",
         "duedate": "2025-09-30",
-        "updated": "2025-10-24T12:56:38.810-0300",
+        "updated": "2025-10-24T17:37:18.892-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
           "by_author": {}
         },
-        "customfield_10046_raw": 1.0,
-        "real_hours_issue": 1.0,
+        "customfield_10046_raw": 2.0,
+        "real_hours_issue": 2.0,
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-21102": {
         "developer": "Miguel Armentano",
@@ -927,7 +927,7 @@
         "real_hours_source": "worklogs_window",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-21541": {
         "developer": "Miguel Armentano",
@@ -937,7 +937,7 @@
         "assignee": "Miguel Armentano",
         "priority": "High",
         "duedate": "2025-09-30",
-        "updated": "2025-10-09T20:40:33.397-0300",
+        "updated": "2025-10-24T17:37:19.051-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -948,7 +948,7 @@
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-21966": {
         "developer": "Nicolas Pardo",
@@ -958,7 +958,7 @@
         "assignee": "Nicolas Pardo",
         "priority": "High",
         "duedate": "2025-11-13",
-        "updated": "2025-10-23T13:12:43.129-0300",
+        "updated": "2025-10-24T17:37:20.687-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
@@ -969,7 +969,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       },
       "IT-22041": {
         "developer": "Nicolas Pardo",
@@ -979,27 +979,27 @@
         "assignee": "Nicolas Pardo",
         "priority": "Medium",
         "duedate": null,
-        "updated": "2025-10-24T09:44:10.784-0300",
+        "updated": "2025-10-24T17:38:17.532-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
           "by_author": {}
         },
-        "customfield_10046_raw": 7.0,
-        "real_hours_issue": 7.0,
+        "customfield_10046_raw": 13.0,
+        "real_hours_issue": 13.0,
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-10-24 14:55:26"
+        "capturado_en": "2025-10-27 08:25:57"
       }
     },
     "resumen": {
       "por_estado": {
-        "CODE REVIEW": 2,
+        "STG TESTING": 2,
         "BACKLOG": 36,
-        "En progreso": 6,
+        "ON HOLD": 2,
+        "En progreso": 5,
         "ON PAUSE": 1,
-        "ON HOLD": 1,
         "PENDING REVIEW": 1
       },
       "por_desarrollador": {
@@ -1011,6 +1011,1594 @@
         "Nicolas Pardo": 2
       },
       "total": 47
+    }
+  },
+  "S20251013": {
+    "generado_en": "2025-10-27 08:34:17",
+    "sprint_id": "S20251013",
+    "sprint_inicio_global": "2025-10-13",
+    "sprint_fin_global": "2025-10-31",
+    "issues": {
+      "IT-21820": {
+        "developer": "Alan Mori - Carestino",
+        "summary": "Especificaciones / Certificaciones / Aplicar traducción por diccionario y activo traducible por PIM",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Alan Mori - Carestino",
+        "priority": "Highest",
+        "duedate": "2025-10-07",
+        "updated": "2025-10-16T07:15:15.435-0300",
+        "resolutiondate": "2025-10-16T07:15:15.401-0300",
+        "worklogs": {
+          "total_sec": 9000,
+          "by_author": {
+            "Alan Mori - Carestino": 7200,
+            "Diego Martin Gogorza": 1800
+          }
+        },
+        "customfield_10046_raw": 24.0,
+        "real_hours_issue": 24.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21104": {
+        "developer": "Alan Mori - Carestino",
+        "summary": "Permitir valor 0% en edición masiva de Porcentajes de Derecho",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Alan Mori - Carestino",
+        "priority": "High",
+        "duedate": "2025-09-12",
+        "updated": "2025-10-16T07:15:16.362-0300",
+        "resolutiondate": "2025-10-16T07:15:16.355-0300",
+        "worklogs": {
+          "total_sec": 7200,
+          "by_author": {
+            "Alan Mori - Carestino": 5400,
+            "Diego Martin Gogorza": 1800
+          }
+        },
+        "customfield_10046_raw": 3.0,
+        "real_hours_issue": 3.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21484": {
+        "developer": "Alan Mori - Carestino",
+        "summary": "Productos / Cargar video en producto",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Alan Mori - Carestino",
+        "priority": "High",
+        "duedate": "2025-09-24",
+        "updated": "2025-10-16T07:15:15.519-0300",
+        "resolutiondate": "2025-10-16T07:15:15.498-0300",
+        "worklogs": {
+          "total_sec": 2700,
+          "by_author": {
+            "Diego Martin Gogorza": 2700
+          }
+        },
+        "customfield_10046_raw": 15.0,
+        "real_hours_issue": 15.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21378": {
+        "developer": "Alan Mori - Carestino",
+        "summary": "Request - AntiXSS no filtra inyecciones SQL",
+        "status": "ON HOLD",
+        "status_category": "Por hacer",
+        "assignee": "Alan Mori - Carestino",
+        "priority": "High",
+        "duedate": "2025-09-30",
+        "updated": "2025-10-24T17:37:18.362-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 12600,
+          "by_author": {
+            "Alan Mori - Carestino": 11700,
+            "Diego Martin Gogorza": 900
+          }
+        },
+        "customfield_10046_raw": 3.0,
+        "real_hours_issue": 3.0,
+        "real_hours_source": "customfield_10046",
+        "done": false,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21552": {
+        "developer": "Alan Mori - Carestino",
+        "summary": "Worpik / Asignar cuenta generica como organizador de eventos worpik",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Alan Mori - Carestino",
+        "priority": "Medium",
+        "duedate": "2025-10-10",
+        "updated": "2025-10-21T02:22:50.468-0300",
+        "resolutiondate": "2025-10-21T02:22:50.442-0300",
+        "worklogs": {
+          "total_sec": 31500,
+          "by_author": {
+            "Alan Mori - Carestino": 31500
+          }
+        },
+        "customfield_10046_raw": 11.0,
+        "real_hours_issue": 11.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21550": {
+        "developer": "Alan Mori - Carestino",
+        "summary": "Carga masiva de Nombres de Partes",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Alan Mori - Carestino",
+        "priority": "High",
+        "duedate": "2025-09-30",
+        "updated": "2025-10-23T07:04:53.416-0300",
+        "resolutiondate": "2025-10-23T07:04:53.407-0300",
+        "worklogs": {
+          "total_sec": 38700,
+          "by_author": {
+            "Alan Mori - Carestino": 38700
+          }
+        },
+        "customfield_10046_raw": 16.0,
+        "real_hours_issue": 16.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21644": {
+        "developer": "Alan Mori - Carestino",
+        "summary": "Carestino Pets / Backend / Indicar la audiencia de un producto adquirido en GTM",
+        "status": "REVIEWING",
+        "status_category": "En curso",
+        "assignee": "Alan Mori - Carestino",
+        "priority": "Medium",
+        "duedate": null,
+        "updated": "2025-10-24T17:37:18.519-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 15300,
+          "by_author": {
+            "Alan Mori - Carestino": 13500,
+            "Diego Martin Gogorza": 1800
+          }
+        },
+        "customfield_10046_raw": 14.0,
+        "real_hours_issue": 14.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-20779": {
+        "developer": "Alan Mori - Carestino",
+        "summary": "Ventas / Utilizar descuentos Outlet y Exhibidos solo en registros",
+        "status": "TO DEPLOY QA",
+        "status_category": "En curso",
+        "assignee": "Alan Mori - Carestino",
+        "priority": "Medium",
+        "duedate": "2025-10-01",
+        "updated": "2025-10-24T17:37:18.721-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 9000,
+          "by_author": {
+            "Alan Mori - Carestino": 8100,
+            "Diego Martin Gogorza": 900
+          }
+        },
+        "customfield_10046_raw": 2.0,
+        "real_hours_issue": 2.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-20777": {
+        "developer": "Alan Mori - Carestino",
+        "summary": "Registros exhibidos / Incorporar circuito de aprobación",
+        "status": "TO DEPLOY QA",
+        "status_category": "En curso",
+        "assignee": "Alan Mori - Carestino",
+        "priority": "Medium",
+        "duedate": "2025-10-01",
+        "updated": "2025-10-24T17:37:18.920-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 9000,
+          "by_author": {
+            "Alan Mori - Carestino": 9000
+          }
+        },
+        "customfield_10046_raw": 3.0,
+        "real_hours_issue": 3.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-19746": {
+        "developer": "Alan Mori - Carestino",
+        "summary": "Terminales / CSV de edición masiva (Migrar ABM a controller)",
+        "status": "STG TESTING",
+        "status_category": "En curso",
+        "assignee": "Alan Mori - Carestino",
+        "priority": "Low",
+        "duedate": "2025-10-03",
+        "updated": "2025-10-24T17:52:45.176-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 40500,
+          "by_author": {
+            "Alan Mori - Carestino": 39600,
+            "Diego Martin Gogorza": 900
+          }
+        },
+        "customfield_10046_raw": 11.0,
+        "real_hours_issue": 11.0,
+        "real_hours_source": "customfield_10046",
+        "done": false,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21510": {
+        "developer": "Alan Mori - Carestino",
+        "summary": "Worpik / Error en cierre de test de lógica",
+        "status": "BACKLOG",
+        "status_category": "Por hacer",
+        "assignee": "Alan Mori - Carestino",
+        "priority": "Medium",
+        "duedate": "2026-03-09",
+        "updated": "2025-10-24T17:53:12.902-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 0,
+          "by_author": {}
+        },
+        "customfield_10046_raw": 1.0,
+        "real_hours_issue": 1.0,
+        "real_hours_source": "customfield_10046",
+        "done": false,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21985": {
+        "developer": "Alan Mori - Carestino",
+        "summary": "Ordenes de precios / No permite editar precios desde el listado",
+        "status": "STG TESTING",
+        "status_category": "En curso",
+        "assignee": "Alan Mori - Carestino",
+        "priority": "High",
+        "duedate": "2025-10-14",
+        "updated": "2025-10-24T17:52:43.957-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 19800,
+          "by_author": {
+            "Joaquin Fernandez - Carestino": 2700,
+            "Alan Mori - Carestino": 13500,
+            "Luis Uran": 2700,
+            "Diego Martin Gogorza": 900
+          }
+        },
+        "customfield_10046_raw": 5.0,
+        "real_hours_issue": 5.0,
+        "real_hours_source": "customfield_10046",
+        "done": false,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21692": {
+        "developer": "Franco Lorenzo",
+        "summary": "Carestino Pets / Frontend  / Indicar la audiencia de un producto adquirido en GTM",
+        "status": "REVIEW ON HOLD",
+        "status_category": "Por hacer",
+        "assignee": "Franco Lorenzo",
+        "priority": "Medium",
+        "duedate": null,
+        "updated": "2025-10-24T17:37:18.189-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 5400,
+          "by_author": {
+            "Diego Martin Gogorza": 2700,
+            "Joaquin Fernandez - Carestino": 2700
+          }
+        },
+        "customfield_10046_raw": 22.0,
+        "real_hours_issue": 22.0,
+        "real_hours_source": "customfield_10046",
+        "done": false,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21523": {
+        "developer": "Franco Lorenzo",
+        "summary": "Productos / Frontend / Cargar video en producto",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Franco Lorenzo",
+        "priority": "High",
+        "duedate": "2025-09-24",
+        "updated": "2025-10-21T02:22:52.603-0300",
+        "resolutiondate": "2025-10-21T02:22:52.597-0300",
+        "worklogs": {
+          "total_sec": 0,
+          "by_author": {}
+        },
+        "customfield_10046_raw": 23.0,
+        "real_hours_issue": 23.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21340": {
+        "developer": "Franco Lorenzo",
+        "summary": "Delivery admin / Ajuste de envío de imágenes",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Franco Lorenzo",
+        "priority": "Medium",
+        "duedate": null,
+        "updated": "2025-10-21T02:22:51.126-0300",
+        "resolutiondate": "2025-10-21T02:22:51.107-0300",
+        "worklogs": {
+          "total_sec": 19800,
+          "by_author": {
+            "Franco Lorenzo": 19800
+          }
+        },
+        "customfield_10046_raw": 12.0,
+        "real_hours_issue": 12.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-18825": {
+        "developer": "Franco Lorenzo",
+        "summary": "Nicox / Settings / Creación de setting para credenciales de Google Maps API (front)",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Franco Lorenzo",
+        "priority": "Medium",
+        "duedate": null,
+        "updated": "2025-10-21T02:22:51.668-0300",
+        "resolutiondate": "2025-10-21T02:22:51.662-0300",
+        "worklogs": {
+          "total_sec": 16200,
+          "by_author": {
+            "Franco Lorenzo": 16200
+          }
+        },
+        "customfield_10046_raw": 4.0,
+        "real_hours_issue": 4.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21556": {
+        "developer": "Franco Lorenzo",
+        "summary": "Comparativa de producto / Frontend / Setting para prender o apagar funcionalidad",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Franco Lorenzo",
+        "priority": "Medium",
+        "duedate": "2025-09-30",
+        "updated": "2025-10-21T02:22:50.584-0300",
+        "resolutiondate": "2025-10-21T02:22:50.547-0300",
+        "worklogs": {
+          "total_sec": 3600,
+          "by_author": {
+            "Franco Lorenzo": 3600
+          }
+        },
+        "customfield_10046_raw": 1.0,
+        "real_hours_issue": 1.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-20472": {
+        "developer": "Franco Lorenzo",
+        "summary": "Reclamos | Validación de stock para solución \"Cambio de Producto\"",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Franco Lorenzo",
+        "priority": "Medium",
+        "duedate": "2025-10-10",
+        "updated": "2025-10-21T08:42:54.078-0300",
+        "resolutiondate": "2025-10-21T08:42:53.578-0300",
+        "worklogs": {
+          "total_sec": 19800,
+          "by_author": {
+            "Franco Lorenzo": 19800
+          }
+        },
+        "customfield_10046_raw": 8.0,
+        "real_hours_issue": 8.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21784": {
+        "developer": "Franco Lorenzo",
+        "summary": "Tu cupon carestino / Cambiar pantalla cuando el cupón no está configurado",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Franco Lorenzo",
+        "priority": "High",
+        "duedate": "2025-10-10",
+        "updated": "2025-10-21T02:22:49.716-0300",
+        "resolutiondate": "2025-10-21T02:22:49.695-0300",
+        "worklogs": {
+          "total_sec": 7200,
+          "by_author": {
+            "Franco Lorenzo": 7200
+          }
+        },
+        "customfield_10046_raw": 3.0,
+        "real_hours_issue": 3.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-22050": {
+        "developer": "Franco Lorenzo",
+        "summary": "Especificaciones / Frontend / Spec \"Solo video\" debe ocupar todo el ancho de la pantalla",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Franco Lorenzo",
+        "priority": "Medium",
+        "duedate": null,
+        "updated": "2025-10-21T10:54:55.846-0300",
+        "resolutiondate": "2025-10-21T02:22:52.112-0300",
+        "worklogs": {
+          "total_sec": 3600,
+          "by_author": {
+            "Franco Lorenzo": 1800,
+            "Joaquin Fernandez - Carestino": 1800
+          }
+        },
+        "customfield_10046_raw": 1.0,
+        "real_hours_issue": 1.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21733": {
+        "developer": "Franco Lorenzo",
+        "summary": "Ecommerce / e2e Test / Ajustar test luego de los cambios de slug category",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Franco Lorenzo",
+        "priority": "High",
+        "duedate": "2025-10-30",
+        "updated": "2025-10-21T11:54:12.405-0300",
+        "resolutiondate": "2025-10-21T11:54:11.914-0300",
+        "worklogs": {
+          "total_sec": 14400,
+          "by_author": {
+            "Franco Lorenzo": 14400
+          }
+        },
+        "customfield_10046_raw": 4.0,
+        "real_hours_issue": 4.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": true,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21233": {
+        "developer": "Franco Lorenzo",
+        "summary": "Checkout / Front end / Envíar siempre la distancia entre coordenadas",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Franco Lorenzo",
+        "priority": "Medium",
+        "duedate": null,
+        "updated": "2025-10-23T07:04:54.565-0300",
+        "resolutiondate": "2025-10-23T07:04:54.539-0300",
+        "worklogs": {
+          "total_sec": 3600,
+          "by_author": {
+            "Franco Lorenzo": 3600
+          }
+        },
+        "customfield_10046_raw": 1.0,
+        "real_hours_issue": 1.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-20458": {
+        "developer": "Gastón Ojeda",
+        "summary": "Ordenes de limpieza / Crear una orden de limpieza al apagar o encender un slider",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Gastón Ojeda",
+        "priority": "High",
+        "duedate": "2025-08-05",
+        "updated": "2025-10-17T08:55:06.821-0300",
+        "resolutiondate": "2025-10-16T07:15:15.396-0300",
+        "worklogs": {
+          "total_sec": 900,
+          "by_author": {
+            "Joaquin Fernandez - Carestino": 900
+          }
+        },
+        "customfield_10046_raw": 12.0,
+        "real_hours_issue": 12.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21173": {
+        "developer": "Gastón Ojeda",
+        "summary": "Relevamiento / Planilla de stock / Tiempo de carga excesivamente alto en LATAM",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Gastón Ojeda",
+        "priority": "High",
+        "duedate": "2025-09-04",
+        "updated": "2025-10-14T16:36:49.171-0300",
+        "resolutiondate": "2025-10-14T11:26:01.265-0300",
+        "worklogs": {
+          "total_sec": 21600,
+          "by_author": {
+            "Gastón Ojeda": 19800,
+            "Thiago Cabrera": 1800
+          }
+        },
+        "customfield_10046_raw": 6.0,
+        "real_hours_issue": 6.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-20384": {
+        "developer": "Gastón Ojeda",
+        "summary": "Amazon / Listado / Agregar información de contactos realizados",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Gastón Ojeda",
+        "priority": "Medium",
+        "duedate": "2025-09-12",
+        "updated": "2025-10-16T07:15:16.205-0300",
+        "resolutiondate": "2025-10-16T07:15:16.181-0300",
+        "worklogs": {
+          "total_sec": 5400,
+          "by_author": {
+            "Gastón Ojeda": 5400
+          }
+        },
+        "customfield_10046_raw": 2.0,
+        "real_hours_issue": 2.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21322": {
+        "developer": "Gastón Ojeda",
+        "summary": "Generación del sidebar apuntando a la aplicación de delivery admin en base a los permisos de ese usuario en nicox",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Gastón Ojeda",
+        "priority": "Medium",
+        "duedate": null,
+        "updated": "2025-10-21T02:22:51.911-0300",
+        "resolutiondate": "2025-10-21T02:22:51.887-0300",
+        "worklogs": {
+          "total_sec": 9900,
+          "by_author": {
+            "Gastón Ojeda": 9000,
+            "Diego Martin Gogorza": 900
+          }
+        },
+        "customfield_10046_raw": 6.0,
+        "real_hours_issue": 6.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21446": {
+        "developer": "Gastón Ojeda",
+        "summary": "CAV / MercadoLibreFULL",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Gastón Ojeda",
+        "priority": "High",
+        "duedate": "2025-09-30",
+        "updated": "2025-10-23T07:04:54.185-0300",
+        "resolutiondate": "2025-10-23T07:04:54.177-0300",
+        "worklogs": {
+          "total_sec": 28800,
+          "by_author": {
+            "Gastón Ojeda": 28800
+          }
+        },
+        "customfield_10046_raw": 8.0,
+        "real_hours_issue": 8.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-20638": {
+        "developer": "Gastón Ojeda",
+        "summary": "Prueba de concepto / Ventas / Reservas a clientes mayoristas",
+        "status": "REVIEW ON HOLD",
+        "status_category": "Por hacer",
+        "assignee": "Gastón Ojeda",
+        "priority": "Medium",
+        "duedate": "2025-09-30",
+        "updated": "2025-10-24T17:55:04.095-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 3600,
+          "by_author": {
+            "Gastón Ojeda": 3600
+          }
+        },
+        "customfield_10046_raw": 2.0,
+        "real_hours_issue": 2.0,
+        "real_hours_source": "customfield_10046",
+        "done": false,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21880": {
+        "developer": "Gastón Ojeda",
+        "summary": "Proveedores / Nuevo campo Nombre Corto",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Gastón Ojeda",
+        "priority": "High",
+        "duedate": "2025-09-29",
+        "updated": "2025-10-23T07:04:52.599-0300",
+        "resolutiondate": "2025-10-23T07:04:52.562-0300",
+        "worklogs": {
+          "total_sec": 7200,
+          "by_author": {
+            "Gastón Ojeda": 7200
+          }
+        },
+        "customfield_10046_raw": 3.0,
+        "real_hours_issue": 3.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21314": {
+        "developer": "Gastón Ojeda",
+        "summary": "Error - Orden sin valor en la CC",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Gastón Ojeda",
+        "priority": "Medium",
+        "duedate": "2025-10-01",
+        "updated": "2025-10-23T07:04:53.518-0300",
+        "resolutiondate": "2025-10-23T07:04:53.492-0300",
+        "worklogs": {
+          "total_sec": 27000,
+          "by_author": {
+            "Diego Martin Gogorza": 1800,
+            "Gastón Ojeda": 25200
+          }
+        },
+        "customfield_10046_raw": 8.0,
+        "real_hours_issue": 8.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21690": {
+        "developer": "Gastón Ojeda",
+        "summary": "Error en IPN 2/3",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Gastón Ojeda",
+        "priority": "Medium",
+        "duedate": "2025-10-03",
+        "updated": "2025-10-21T11:20:03.279-0300",
+        "resolutiondate": "2025-10-21T11:20:03.261-0300",
+        "worklogs": {
+          "total_sec": 16200,
+          "by_author": {
+            "Gastón Ojeda": 14400,
+            "Diego Martin Gogorza": 1800
+          }
+        },
+        "customfield_10046_raw": 4.0,
+        "real_hours_issue": 4.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21688": {
+        "developer": "Gastón Ojeda",
+        "summary": "Relevamiento error mpipn_save Parte 3/3",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Gastón Ojeda",
+        "priority": "Medium",
+        "duedate": null,
+        "updated": "2025-10-21T11:49:44.494-0300",
+        "resolutiondate": "2025-10-21T11:49:44.475-0300",
+        "worklogs": {
+          "total_sec": 9000,
+          "by_author": {
+            "Gastón Ojeda": 9000
+          }
+        },
+        "customfield_10046_raw": 4.0,
+        "real_hours_issue": 4.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21685": {
+        "developer": "Gastón Ojeda",
+        "summary": "Error en IPN 1/3",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Gastón Ojeda",
+        "priority": "Medium",
+        "duedate": null,
+        "updated": "2025-10-23T10:04:58.890-0300",
+        "resolutiondate": "2025-10-23T10:04:58.865-0300",
+        "worklogs": {
+          "total_sec": 14400,
+          "by_author": {
+            "Gastón Ojeda": 14400
+          }
+        },
+        "customfield_10046_raw": 4.0,
+        "real_hours_issue": 4.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21448": {
+        "developer": "Gastón Ojeda",
+        "summary": "Relevamiento / PROD / QA / Ventas edit recarga y limpia algunos campos",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Gastón Ojeda",
+        "priority": "Medium",
+        "duedate": "2025-09-19",
+        "updated": "2025-10-23T16:18:15.059-0300",
+        "resolutiondate": "2025-10-23T10:06:48.208-0300",
+        "worklogs": {
+          "total_sec": 14400,
+          "by_author": {
+            "Gastón Ojeda": 14400
+          }
+        },
+        "customfield_10046_raw": 12.0,
+        "real_hours_issue": 12.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21443": {
+        "developer": "Gastón Ojeda",
+        "summary": "Sheet de productos / Nuevos campos",
+        "status": "ON HOLD",
+        "status_category": "Por hacer",
+        "assignee": "Gastón Ojeda",
+        "priority": "High",
+        "duedate": "2025-09-30",
+        "updated": "2025-10-24T17:55:12.655-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 7200,
+          "by_author": {
+            "Gastón Ojeda": 7200
+          }
+        },
+        "customfield_10046_raw": 2.0,
+        "real_hours_issue": 2.0,
+        "real_hours_source": "customfield_10046",
+        "done": false,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-20382": {
+        "developer": "Gastón Ojeda",
+        "summary": "Formulario de ventas / Corregir comportamiento de autocompletado",
+        "status": "PENDING REVIEW",
+        "status_category": "En curso",
+        "assignee": "Gastón Ojeda",
+        "priority": "Low",
+        "duedate": "2025-10-03",
+        "updated": "2025-10-24T17:55:05.167-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 11700,
+          "by_author": {
+            "Gastón Ojeda": 11700
+          }
+        },
+        "customfield_10046_raw": 4.0,
+        "real_hours_issue": 4.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21677": {
+        "developer": "Luis Uran",
+        "summary": "NO concilia con datos coincidentes Amazon - Modulo Conciliador",
+        "status": "TO DEPLOY QA",
+        "status_category": "En curso",
+        "assignee": "Luis Uran",
+        "priority": "High",
+        "duedate": "2025-10-23",
+        "updated": "2025-10-24T17:37:20.695-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 11700,
+          "by_author": {
+            "Diego Martin Gogorza": 900,
+            "Luis Uran": 10800
+          }
+        },
+        "customfield_10046_raw": 11.0,
+        "real_hours_issue": 11.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21884": {
+        "developer": "Luis Uran",
+        "summary": "Carteles / Listado de familias",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Luis Uran",
+        "priority": "Highest",
+        "duedate": "2025-09-03",
+        "updated": "2025-10-23T07:04:53.387-0300",
+        "resolutiondate": "2025-10-23T07:04:53.359-0300",
+        "worklogs": {
+          "total_sec": 40500,
+          "by_author": {
+            "Luis Uran": 36900,
+            "Diego Martin Gogorza": 3600
+          }
+        },
+        "customfield_10046_raw": 14.0,
+        "real_hours_issue": 14.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21917": {
+        "developer": "Luis Uran",
+        "summary": "CAV / ML / Eliminar validación sobre el código postal en todos los paises",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Luis Uran",
+        "priority": "Medium",
+        "duedate": null,
+        "updated": "2025-10-16T07:15:16.153-0300",
+        "resolutiondate": "2025-10-16T07:15:16.133-0300",
+        "worklogs": {
+          "total_sec": 9900,
+          "by_author": {
+            "Luis Uran": 9900
+          }
+        },
+        "customfield_10046_raw": 2.0,
+        "real_hours_issue": 2.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21875": {
+        "developer": "Luis Uran",
+        "summary": "Relevamiento / Errores Andesmar",
+        "status": "ON HOLD",
+        "status_category": "Por hacer",
+        "assignee": "Luis Uran",
+        "priority": "High",
+        "duedate": "2025-09-25",
+        "updated": "2025-10-24T17:37:18.558-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 31500,
+          "by_author": {
+            "Luis Uran": 27900,
+            "Diego Martin Gogorza": 3600
+          }
+        },
+        "customfield_10046_raw": 40.0,
+        "real_hours_issue": 40.0,
+        "real_hours_source": "customfield_10046",
+        "done": false,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21871": {
+        "developer": "Luis Uran",
+        "summary": "Regla conciliación MercadoPago no concilia - Modulo Conciliador",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Luis Uran",
+        "priority": "High",
+        "duedate": "2025-10-14",
+        "updated": "2025-10-23T07:04:52.728-0300",
+        "resolutiondate": "2025-10-23T07:04:52.721-0300",
+        "worklogs": {
+          "total_sec": 34200,
+          "by_author": {
+            "Luis Uran": 33300,
+            "Diego Martin Gogorza": 900
+          }
+        },
+        "customfield_10046_raw": 12.0,
+        "real_hours_issue": 12.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21878": {
+        "developer": "Luis Uran",
+        "summary": "Brindar información adicional con el seguimiento de la Logistica PICKIT",
+        "status": "REVIEW ON HOLD",
+        "status_category": "Por hacer",
+        "assignee": "Luis Uran",
+        "priority": "High",
+        "duedate": "2025-10-24",
+        "updated": "2025-10-24T17:37:18.815-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 21600,
+          "by_author": {
+            "Luis Uran": 13500,
+            "Diego Martin Gogorza": 8100
+          }
+        },
+        "customfield_10046_raw": 10.0,
+        "real_hours_issue": 10.0,
+        "real_hours_source": "customfield_10046",
+        "done": false,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21769": {
+        "developer": "Luis Uran",
+        "summary": "Eliminar lotes parcialmente conciliados - Conciliador",
+        "status": "PENDING REVIEW",
+        "status_category": "En curso",
+        "assignee": "Luis Uran",
+        "priority": "Medium",
+        "duedate": "2025-10-31",
+        "updated": "2025-10-25T10:00:39.810-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 31500,
+          "by_author": {
+            "Luis Uran": 30600,
+            "Diego Martin Gogorza": 900
+          }
+        },
+        "customfield_10046_raw": 14.0,
+        "real_hours_issue": 14.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21882": {
+        "developer": "Luis Uran",
+        "summary": "Tableau global / Nueva condición para Tienda Naranja",
+        "status": "ON HOLD",
+        "status_category": "Por hacer",
+        "assignee": "Luis Uran",
+        "priority": "Medium",
+        "duedate": "2025-11-13",
+        "updated": "2025-10-24T17:37:20.541-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 0,
+          "by_author": {}
+        },
+        "customfield_10046_raw": null,
+        "real_hours_issue": 0.0,
+        "real_hours_source": "worklogs_window",
+        "done": false,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21971": {
+        "developer": "Luis Uran",
+        "summary": "Modificar integracion Flash - Andesmar - cantidad de bultos (contemplar achiques)",
+        "status": "STG TESTING",
+        "status_category": "En curso",
+        "assignee": "Luis Uran",
+        "priority": "High",
+        "duedate": "2025-10-23",
+        "updated": "2025-10-24T17:37:20.853-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 20700,
+          "by_author": {
+            "Luis Uran": 19800,
+            "Diego Martin Gogorza": 900
+          }
+        },
+        "customfield_10046_raw": 8.0,
+        "real_hours_issue": 8.0,
+        "real_hours_source": "customfield_10046",
+        "done": false,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21969": {
+        "developer": "Luis Uran",
+        "summary": "Listado de ventas / Asociar comportamiento de impresión de etiquetas con filtro por Logística MercadoEnvios",
+        "status": "PENDING REVIEW",
+        "status_category": "En curso",
+        "assignee": "Luis Uran",
+        "priority": "High",
+        "duedate": "2025-10-31",
+        "updated": "2025-10-24T17:37:21.070-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 6300,
+          "by_author": {
+            "Luis Uran": 6300
+          }
+        },
+        "customfield_10046_raw": 2.0,
+        "real_hours_issue": 2.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21973": {
+        "developer": "Luis Uran",
+        "summary": "Logística V2 / Logisticas Integradas / Insertar venta como logistica y no como carrier generic",
+        "status": "STG TESTING",
+        "status_category": "En curso",
+        "assignee": "Luis Uran",
+        "priority": "High",
+        "duedate": "2025-11-13",
+        "updated": "2025-10-24T17:48:06.219-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 12900,
+          "by_author": {
+            "Thiago Cabrera": 900,
+            "Juan Ignacio Morelis - Carestino": 4800,
+            "Luis Uran": 6300,
+            "Diego Martin Gogorza": 900
+          }
+        },
+        "customfield_10046_raw": 3.0,
+        "real_hours_issue": 3.0,
+        "real_hours_source": "customfield_10046",
+        "done": false,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21873": {
+        "developer": "Luis Uran",
+        "summary": "Fijar filtro \"Mostrar X registros\" -  Modulo conciliador",
+        "status": "PENDING REVIEW",
+        "status_category": "En curso",
+        "assignee": "Luis Uran",
+        "priority": "Low",
+        "duedate": "2025-11-14",
+        "updated": "2025-10-24T17:37:21.405-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 10800,
+          "by_author": {
+            "Luis Uran": 10800
+          }
+        },
+        "customfield_10046_raw": 4.0,
+        "real_hours_issue": 4.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-16644": {
+        "developer": "Luis Uran",
+        "summary": "Unit Test / Nicox API / Query EcommerceUserBirthListByUser",
+        "status": "CODE REVIEW",
+        "status_category": "En curso",
+        "assignee": "Luis Uran",
+        "priority": "Medium",
+        "duedate": null,
+        "updated": "2025-10-24T17:37:21.575-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 7200,
+          "by_author": {
+            "Luis Uran": 7200
+          }
+        },
+        "customfield_10046_raw": 2.0,
+        "real_hours_issue": 2.0,
+        "real_hours_source": "customfield_10046",
+        "done": false,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-16643": {
+        "developer": "Luis Uran",
+        "summary": "Unit Test / Nicox API / Query EcommerceUser",
+        "status": "CODE REVIEW",
+        "status_category": "En curso",
+        "assignee": "Luis Uran",
+        "priority": "Medium",
+        "duedate": null,
+        "updated": "2025-10-24T17:37:21.719-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 8100,
+          "by_author": {
+            "Luis Uran": 8100
+          }
+        },
+        "customfield_10046_raw": 2.0,
+        "real_hours_issue": 2.0,
+        "real_hours_source": "customfield_10046",
+        "done": false,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-16642": {
+        "developer": "Luis Uran",
+        "summary": "Unit Test / Nicox API / Mutation BirthListProductCreate",
+        "status": "En progreso",
+        "status_category": "En curso",
+        "assignee": "Luis Uran",
+        "priority": "Medium",
+        "duedate": null,
+        "updated": "2025-10-24T17:37:21.848-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 9000,
+          "by_author": {
+            "Luis Uran": 9000
+          }
+        },
+        "customfield_10046_raw": 2.0,
+        "real_hours_issue": 2.0,
+        "real_hours_source": "customfield_10046",
+        "done": false,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-16641": {
+        "developer": "Luis Uran",
+        "summary": "Unit Test / Nicox API / Mutation BirthListUpdate",
+        "status": "BACKLOG",
+        "status_category": "Por hacer",
+        "assignee": "Luis Uran",
+        "priority": "Medium",
+        "duedate": null,
+        "updated": "2025-10-24T17:37:20.656-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 0,
+          "by_author": {}
+        },
+        "customfield_10046_raw": null,
+        "real_hours_issue": 0.0,
+        "real_hours_source": "worklogs_window",
+        "done": false,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-16640": {
+        "developer": "Luis Uran",
+        "summary": "Unit Test / Nicox API / Mutation BirthListProductUpdate",
+        "status": "BACKLOG",
+        "status_category": "Por hacer",
+        "assignee": "Luis Uran",
+        "priority": "Medium",
+        "duedate": null,
+        "updated": "2025-10-24T17:37:20.818-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 0,
+          "by_author": {}
+        },
+        "customfield_10046_raw": null,
+        "real_hours_issue": 0.0,
+        "real_hours_source": "worklogs_window",
+        "done": false,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-16639": {
+        "developer": "Luis Uran",
+        "summary": "Unit Test / Nicox API / Mutation BirthListCreate",
+        "status": "BACKLOG",
+        "status_category": "Por hacer",
+        "assignee": "Luis Uran",
+        "priority": "Medium",
+        "duedate": null,
+        "updated": "2025-10-24T17:37:20.983-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 0,
+          "by_author": {}
+        },
+        "customfield_10046_raw": null,
+        "real_hours_issue": 0.0,
+        "real_hours_source": "worklogs_window",
+        "done": false,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-16638": {
+        "developer": "Luis Uran",
+        "summary": "Unit Test / Nicox API / Mutation BirthListCouponCreate",
+        "status": "BACKLOG",
+        "status_category": "Por hacer",
+        "assignee": "Luis Uran",
+        "priority": "Medium",
+        "duedate": null,
+        "updated": "2025-10-24T17:37:21.165-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 0,
+          "by_author": {}
+        },
+        "customfield_10046_raw": null,
+        "real_hours_issue": 0.0,
+        "real_hours_source": "worklogs_window",
+        "done": false,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21218": {
+        "developer": "Miguel Armentano",
+        "summary": "Nicox no factura ventas de giftcard de forma automática - Argentina",
+        "status": "TO DEPLOY QA",
+        "status_category": "En curso",
+        "assignee": "Miguel Armentano",
+        "priority": "Medium",
+        "duedate": "2025-09-19",
+        "updated": "2025-10-24T17:37:19.293-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 73800,
+          "by_author": {
+            "Miguel Armentano": 70200,
+            "Diego Martin Gogorza": 3600
+          }
+        },
+        "customfield_10046_raw": 29.0,
+        "real_hours_issue": 29.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-20576": {
+        "developer": "Miguel Armentano",
+        "summary": "Expense / Reemplazo Sofia / Solicitudes de modificación de Otros proveedores",
+        "status": "PENDING REVIEW",
+        "status_category": "En curso",
+        "assignee": "Miguel Armentano",
+        "priority": "Medium",
+        "duedate": null,
+        "updated": "2025-10-24T17:37:16.538-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 16200,
+          "by_author": {
+            "Miguel Armentano": 14400,
+            "Diego Martin Gogorza": 1800
+          }
+        },
+        "customfield_10046_raw": 63.0,
+        "real_hours_issue": 63.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21534": {
+        "developer": "Miguel Armentano",
+        "summary": "Problema al descontar IVA en productos de ordenes de Tierra del Fuego",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Miguel Armentano",
+        "priority": "High",
+        "duedate": "2025-09-23",
+        "updated": "2025-10-21T02:22:52.846-0300",
+        "resolutiondate": "2025-10-21T02:22:52.827-0300",
+        "worklogs": {
+          "total_sec": 27000,
+          "by_author": {
+            "Miguel Armentano": 27000
+          }
+        },
+        "customfield_10046_raw": 8.0,
+        "real_hours_issue": 8.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21545": {
+        "developer": "Miguel Armentano",
+        "summary": "Se borran los centros de costos",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Miguel Armentano",
+        "priority": "High",
+        "duedate": "2025-10-07",
+        "updated": "2025-10-21T02:22:52.667-0300",
+        "resolutiondate": "2025-10-21T02:22:52.655-0300",
+        "worklogs": {
+          "total_sec": 14400,
+          "by_author": {
+            "Miguel Armentano": 14400
+          }
+        },
+        "customfield_10046_raw": 6.0,
+        "real_hours_issue": 6.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21892": {
+        "developer": "Miguel Armentano",
+        "summary": "API Invoice ARG / No facturas de ventas web",
+        "status": "ON HOLD",
+        "status_category": "Por hacer",
+        "assignee": "Miguel Armentano",
+        "priority": "Medium",
+        "duedate": "2025-09-17",
+        "updated": "2025-10-24T17:37:16.968-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 3600,
+          "by_author": {
+            "Miguel Armentano": 3600
+          }
+        },
+        "customfield_10046_raw": 1.0,
+        "real_hours_issue": 1.0,
+        "real_hours_source": "customfield_10046",
+        "done": false,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21891": {
+        "developer": "Miguel Armentano",
+        "summary": "API Invoice ARG / No genera facturas E",
+        "status": "FINISH",
+        "status_category": "Listo",
+        "assignee": "Miguel Armentano",
+        "priority": "Medium",
+        "duedate": "2025-09-17",
+        "updated": "2025-10-23T07:04:53.478-0300",
+        "resolutiondate": "2025-10-23T07:04:53.443-0300",
+        "worklogs": {
+          "total_sec": 5400,
+          "by_author": {
+            "Miguel Armentano": 5400
+          }
+        },
+        "customfield_10046_raw": 1.0,
+        "real_hours_issue": 1.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21890": {
+        "developer": "Miguel Armentano",
+        "summary": "API Invoice ARG / No factura costo de envío",
+        "status": "TO DEPLOY QA",
+        "status_category": "En curso",
+        "assignee": "Miguel Armentano",
+        "priority": "Medium",
+        "duedate": "2025-09-17",
+        "updated": "2025-10-24T17:37:17.170-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 19800,
+          "by_author": {
+            "Miguel Armentano": 19800
+          }
+        },
+        "customfield_10046_raw": 5.0,
+        "real_hours_issue": 5.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21893": {
+        "developer": "Miguel Armentano",
+        "summary": "API Invoice ARG / No factura ventas de ML",
+        "status": "ON HOLD",
+        "status_category": "Por hacer",
+        "assignee": "Miguel Armentano",
+        "priority": "Medium",
+        "duedate": "2025-09-17",
+        "updated": "2025-10-24T17:37:16.803-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 7200,
+          "by_author": {
+            "Miguel Armentano": 7200
+          }
+        },
+        "customfield_10046_raw": 2.0,
+        "real_hours_issue": 2.0,
+        "real_hours_source": "customfield_10046",
+        "done": false,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21958": {
+        "developer": "Miguel Armentano",
+        "summary": "IPN de MercadoPago / No pisar campos de costo de envío cuando la venta no es de MELI",
+        "status": "PENDING REVIEW",
+        "status_category": "En curso",
+        "assignee": "Miguel Armentano",
+        "priority": "High",
+        "duedate": "2025-10-28",
+        "updated": "2025-10-24T17:37:17.356-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 30600,
+          "by_author": {
+            "Thiago Cabrera": 3600,
+            "Miguel Armentano": 27000
+          }
+        },
+        "customfield_10046_raw": 8.0,
+        "real_hours_issue": 8.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21536": {
+        "developer": "Miguel Armentano",
+        "summary": "Relevamiento / Error al generar NC E ",
+        "status": "PENDING REVIEW",
+        "status_category": "En curso",
+        "assignee": "Miguel Armentano",
+        "priority": "High",
+        "duedate": "2025-09-23",
+        "updated": "2025-10-24T17:37:18.514-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 20700,
+          "by_author": {
+            "Miguel Armentano": 19800,
+            "Diego Martin Gogorza": 900
+          }
+        },
+        "customfield_10046_raw": 8.0,
+        "real_hours_issue": 8.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21539": {
+        "developer": "Miguel Armentano",
+        "summary": "Amazon / Facturación automática",
+        "status": "En progreso",
+        "status_category": "En curso",
+        "assignee": "Miguel Armentano",
+        "priority": "Medium",
+        "duedate": "2025-09-30",
+        "updated": "2025-10-24T17:37:18.892-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 3600,
+          "by_author": {
+            "Miguel Armentano": 3600
+          }
+        },
+        "customfield_10046_raw": 2.0,
+        "real_hours_issue": 2.0,
+        "real_hours_source": "customfield_10046",
+        "done": false,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      },
+      "IT-21560": {
+        "developer": "Nicolas Pardo",
+        "summary": "Circuito Inverso / Core de cancelación de ventas",
+        "status": "TO DEPLOY QA",
+        "status_category": "En curso",
+        "assignee": "Nicolas Pardo",
+        "priority": "Medium",
+        "duedate": null,
+        "updated": "2025-10-24T17:37:21.849-0300",
+        "resolutiondate": null,
+        "worklogs": {
+          "total_sec": 44100,
+          "by_author": {
+            "Nicolas Pardo": 34200,
+            "Diego Martin Gogorza": 9900
+          }
+        },
+        "customfield_10046_raw": 47.0,
+        "real_hours_issue": 47.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
+        "done_before_due": false,
+        "capturado_en": "2025-10-27 08:34:17"
+      }
+    },
+    "resumen": {
+      "por_estado": {
+        "FINISH": 31,
+        "ON HOLD": 6,
+        "REVIEWING": 1,
+        "TO DEPLOY QA": 6,
+        "STG TESTING": 4,
+        "BACKLOG": 5,
+        "REVIEW ON HOLD": 3,
+        "PENDING REVIEW": 7,
+        "CODE REVIEW": 2,
+        "En progreso": 2
+      },
+      "por_desarrollador": {
+        "Alan Mori - Carestino": 12,
+        "Franco Lorenzo": 10,
+        "Gastón Ojeda": 14,
+        "Luis Uran": 19,
+        "Miguel Armentano": 11,
+        "Nicolas Pardo": 1
+      },
+      "total": 67
     }
   }
 }
