@@ -308,7 +308,7 @@
       {
         "key": "IT-21393",
         "summary": "Dominicana / config.default.php de STG y PROD AR, no esta configurado DO",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 5.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -5880,6 +5880,14 @@
         "project": "IT"
       },
       {
+        "key": "IT-20776",
+        "summary": "Reclamos / Nuevo campo \"Gestión pendiente\"",
+        "status": "FINISH",
+        "story_points": 10.0,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
         "key": "IT-20697",
         "summary": "Frontend / Reclamos / Permitir editar un reclamo desde el frontend",
         "status": "BACKLOG",
@@ -7303,9 +7311,9 @@
       {
         "key": "IT-22058",
         "summary": "[Wise][Proactividad] Gestiones de cliente - Desarrollo de estructura Log V2",
-        "status": "Pendiente de estimación",
-        "story_points": null,
-        "assignee": "Diego Martin Gogorza",
+        "status": "BACKLOG",
+        "story_points": 24.0,
+        "assignee": "Luis Uran",
         "project": "IT"
       },
       {
@@ -15036,7 +15044,7 @@
       {
         "key": "IT-21873",
         "summary": "Fijar filtro \"Mostrar X registros\" -  Modulo conciliador",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON PAUSE",
         "story_points": 5.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15052,7 +15060,7 @@
       {
         "key": "IT-21769",
         "summary": "Eliminar lotes parcialmente conciliados - Conciliador",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON PAUSE",
         "story_points": 8.0,
         "assignee": "Luis Uran",
         "project": "IT"
