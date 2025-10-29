@@ -479,7 +479,7 @@
       {
         "key": "IT-14961",
         "summary": "Reintegros / Recepción y clasificación de reintegros en PDV distinto ",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 32.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -786,7 +786,7 @@
         "summary": "Integración SAP",
         "status": "Pendiente de estimación",
         "story_points": null,
-        "assignee": "federicomacias",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       },
       {
@@ -813,7 +813,7 @@
         "summary": "Analisis Documentación Integracion PAGOPLUX - Ecuador",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "federicomacias",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       }
     ]
@@ -6551,7 +6551,7 @@
         "summary": "Proyecto Módulo Training",
         "status": "Pendiente de estimación",
         "story_points": null,
-        "assignee": "federicomacias",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       },
       {
@@ -7509,7 +7509,7 @@
         "summary": "Relevamiento y propuesta de accesos/seguridad",
         "status": "Pendiente de estimación",
         "story_points": null,
-        "assignee": "federicomacias",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       },
       {
@@ -7641,7 +7641,7 @@
         "summary": "Armado de API Clientes",
         "status": "Pendiente de estimación",
         "story_points": null,
-        "assignee": "federicomacias",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       }
     ]
@@ -15044,7 +15044,7 @@
       {
         "key": "IT-21873",
         "summary": "Fijar filtro \"Mostrar X registros\" -  Modulo conciliador",
-        "status": "REVIEW ON PAUSE",
+        "status": "TO DEPLOY QA",
         "story_points": 5.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15060,7 +15060,7 @@
       {
         "key": "IT-21769",
         "summary": "Eliminar lotes parcialmente conciliados - Conciliador",
-        "status": "REVIEW ON PAUSE",
+        "status": "REVIEW ON HOLD",
         "story_points": 8.0,
         "assignee": "Luis Uran",
         "project": "IT"
