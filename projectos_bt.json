@@ -1686,6 +1686,22 @@
     "summary": "Worpik",
     "tasks": [
       {
+        "key": "BTP-3956",
+        "summary": "Asignación de test e información del puesto ",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Martín Horn",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3955",
+        "summary": "Modificación de mail",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Martín Horn",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-3893",
         "summary": "Error al abrir el formulario del candidato",
         "status": "Pendiente de estimación",
@@ -5202,6 +5218,30 @@
     "summary": "CAV - Carga automática de ventas",
     "tasks": [
       {
+        "key": "IT-22274",
+        "summary": "CAV / Falabella FULL / Eliminar validación sobre el campo telefono",
+        "status": "BACKLOG",
+        "story_points": 2.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
+        "key": "IT-22272",
+        "summary": "CAV / ML / Separar ventas de acuerdo con el vendedor",
+        "status": "BACKLOG",
+        "story_points": 3.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
+        "key": "IT-22270",
+        "summary": "CAV / Mercado Libre / Procesamiento de ventas con pagos diferentes al monto de la venta",
+        "status": "BACKLOG",
+        "story_points": 7.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
         "key": "IT-22181",
         "summary": "Liverpool / Incluir la volumetria del pedido",
         "status": "Pendiente de estimación",
@@ -5858,7 +5898,7 @@
       {
         "key": "IT-21571",
         "summary": "Módulo de reclamos - Estados Gestión de pendientes.",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6579,7 +6619,7 @@
       {
         "key": "BTP-3878",
         "summary": "[Marketplace][Falabella][Promociones]",
-        "status": "Por Hacer",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Juan Ignacio Morelis - Carestino",
         "project": "BTP"
@@ -7650,6 +7690,14 @@
     "due_date": null,
     "summary": "Cupones",
     "tasks": [
+      {
+        "key": "IT-22262",
+        "summary": "Listas de nacimiento / Agregar seguridad a la generación de cupones",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
       {
         "key": "IT-20194",
         "summary": "Cupones / Se permite añadir un cupón de %",
