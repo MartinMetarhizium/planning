@@ -608,6 +608,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-22295",
+        "summary": "Home page / Backend / Ajuste de módulos",
+        "status": "BACKLOG",
+        "story_points": 24.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
         "key": "IT-20545",
         "summary": "Nicox / Adaptación de módulos para el funcionamiento de la home page / Pruebas STG",
         "status": "FINISH",
@@ -5244,8 +5252,8 @@
       {
         "key": "IT-22181",
         "summary": "Liverpool / Incluir la volumetria del pedido",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
       },
@@ -5898,7 +5906,7 @@
       {
         "key": "IT-21571",
         "summary": "Módulo de reclamos - Estados Gestión de pendientes.",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -5954,7 +5962,7 @@
       {
         "key": "IT-20630",
         "summary": "Reclamos / Derivar el reclamo hacía otra área",
-        "status": "BACKLOG",
+        "status": "FINISH",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6587,12 +6595,12 @@
     "summary": "Training",
     "tasks": [
       {
-        "key": "BTP-3699",
+        "key": "IT-22298",
         "summary": "Proyecto Módulo Training",
         "status": "Pendiente de estimación",
         "story_points": null,
-        "assignee": "ivanalberghini",
-        "project": "BTP"
+        "assignee": "Diego Martin Gogorza",
+        "project": "IT"
       },
       {
         "key": "IT-21725",
@@ -7677,12 +7685,12 @@
     "summary": "Clientes",
     "tasks": [
       {
-        "key": "BTP-3238",
+        "key": "IT-22300",
         "summary": "Armado de API Clientes",
         "status": "Pendiente de estimación",
         "story_points": null,
-        "assignee": "ivanalberghini",
-        "project": "BTP"
+        "assignee": "Diego Martin Gogorza",
+        "project": "IT"
       }
     ]
   },

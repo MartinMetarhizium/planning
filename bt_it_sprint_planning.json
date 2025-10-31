@@ -1,16 +1,16 @@
 {
   "S20251027": {
     "sprint_id": "S20251027",
-    "generado_en": "2025-10-24 14:27:36",
+    "generado_en": "2025-10-30 17:15:45",
     "sprint_inicio_global": "2025-10-27",
     "sprint_fin_global": "2025-11-14",
     "datos_semana_1": {
-      "tarjetas_planificadas": 15,
-      "horas_planificadas": 114.0
+      "tarjetas_planificadas": 14,
+      "horas_planificadas": 101.0
     },
     "datos_semana_2": {
-      "tarjetas_planificadas": 33,
-      "horas_planificadas": 351.0
+      "tarjetas_planificadas": 20,
+      "horas_planificadas": 174.0
     },
     "detalle_por_desarrollador": {
       "Alan Mori - Carestino": {
@@ -19,90 +19,83 @@
         "datos_semana_1": {
           "inicio": "2025-10-27",
           "fin": "2025-10-31",
-          "tarjetas_planificadas": 2,
-          "horas_planificadas": 12.0,
+          "tarjetas_planificadas": 5,
+          "horas_planificadas": 24.0,
           "issues": [
-            "IT-21985",
-            "IT-20819"
+            "IT-20819",
+            "IT-21983",
+            "IT-22045",
+            "IT-20640",
+            "IT-21644"
           ],
           "issues_detail": [
-            {
-              "key": "IT-21985",
-              "planned_hours": 4.0,
-              "tipo": "",
-              "due": "2025-10-27"
-            },
             {
               "key": "IT-20819",
               "planned_hours": 8.0,
               "tipo": "",
               "due": "2025-10-28"
-            }
-          ]
-        },
-        "datos_semana_2": {
-          "inicio": "2025-11-03",
-          "fin": "2025-11-14",
-          "tarjetas_planificadas": 8,
-          "horas_planificadas": 89.0,
-          "issues": [
-            "IT-21933",
-            "IT-20655",
-            "IT-21571",
-            "IT-20630",
-            "IT-21983",
-            "IT-22045",
-            "IT-20640",
-            "IT-21734"
-          ],
-          "issues_detail": [
-            {
-              "key": "IT-21933",
-              "planned_hours": 21.0,
-              "tipo": "",
-              "due": "2025-11-10"
-            },
-            {
-              "key": "IT-20655",
-              "planned_hours": 32.0,
-              "tipo": "",
-              "due": "2025-11-04"
-            },
-            {
-              "key": "IT-21571",
-              "planned_hours": 8.0,
-              "tipo": "",
-              "due": "2025-11-05"
-            },
-            {
-              "key": "IT-20630",
-              "planned_hours": 12.0,
-              "tipo": "",
-              "due": "2025-11-12"
             },
             {
               "key": "IT-21983",
               "planned_hours": 1.0,
               "tipo": "",
-              "due": "2025-11-12"
+              "due": "2025-10-28"
             },
             {
               "key": "IT-22045",
               "planned_hours": 2.0,
               "tipo": "",
-              "due": "2025-11-12"
+              "due": "2025-10-28"
             },
             {
               "key": "IT-20640",
               "planned_hours": 5.0,
               "tipo": "",
-              "due": "2025-11-13"
+              "due": "2025-10-29"
+            },
+            {
+              "key": "IT-21644",
+              "planned_hours": 8.0,
+              "tipo": "",
+              "due": "2025-10-30"
+            }
+          ]
+        },
+        "datos_semana_2": {
+          "inicio": "2025-11-03",
+          "fin": "2025-11-07",
+          "tarjetas_planificadas": 4,
+          "horas_planificadas": 39.0,
+          "issues": [
+            "IT-21571",
+            "IT-22131",
+            "IT-21734",
+            "IT-21933"
+          ],
+          "issues_detail": [
+            {
+              "key": "IT-21571",
+              "planned_hours": 8.0,
+              "tipo": "",
+              "due": "2025-11-03"
+            },
+            {
+              "key": "IT-22131",
+              "planned_hours": 2.0,
+              "tipo": "",
+              "due": "2025-11-03"
             },
             {
               "key": "IT-21734",
               "planned_hours": 8.0,
               "tipo": "",
-              "due": "2025-11-14"
+              "due": "2025-11-04"
+            },
+            {
+              "key": "IT-21933",
+              "planned_hours": 21.0,
+              "tipo": "",
+              "due": "2025-11-07"
             }
           ]
         }
@@ -120,39 +113,25 @@
         },
         "datos_semana_2": {
           "inicio": "2025-11-03",
-          "fin": "2025-11-14",
-          "tarjetas_planificadas": 4,
-          "horas_planificadas": 68.0,
+          "fin": "2025-11-07",
+          "tarjetas_planificadas": 2,
+          "horas_planificadas": 43.0,
           "issues": [
-            "IT-20162",
-            "IT-21887",
-            "IT-21989",
-            "IT-20114"
+            "IT-22119",
+            "IT-20162"
           ],
           "issues_detail": [
             {
-              "key": "IT-20162",
-              "planned_hours": 24.0,
+              "key": "IT-22119",
+              "planned_hours": 25.0,
               "tipo": "",
               "due": "2025-11-03"
             },
             {
-              "key": "IT-21887",
-              "planned_hours": 8.0,
+              "key": "IT-20162",
+              "planned_hours": 18.0,
               "tipo": "",
-              "due": "2025-11-04"
-            },
-            {
-              "key": "IT-21989",
-              "planned_hours": 2.0,
-              "tipo": "",
-              "due": "2025-11-04"
-            },
-            {
-              "key": "IT-20114",
-              "planned_hours": 34.0,
-              "tipo": "",
-              "due": "2025-11-12"
+              "due": "2025-11-06"
             }
           ]
         }
@@ -163,29 +142,22 @@
         "datos_semana_1": {
           "inicio": "2025-10-27",
           "fin": "2025-10-31",
-          "tarjetas_planificadas": 3,
-          "horas_planificadas": 39.0,
+          "tarjetas_planificadas": 2,
+          "horas_planificadas": 20.0,
           "issues": [
             "IT-15010",
-            "IT-14961",
-            "IT-21679"
+            "IT-21305"
           ],
           "issues_detail": [
             {
               "key": "IT-15010",
-              "planned_hours": 16.0,
+              "planned_hours": 8.0,
               "tipo": "",
-              "due": "2025-10-29"
+              "due": "2025-10-28"
             },
             {
-              "key": "IT-14961",
-              "planned_hours": 16.0,
-              "tipo": "",
-              "due": "2025-10-31"
-            },
-            {
-              "key": "IT-21679",
-              "planned_hours": 7.0,
+              "key": "IT-21305",
+              "planned_hours": 12.0,
               "tipo": "",
               "due": "2025-10-29"
             }
@@ -193,53 +165,39 @@
         },
         "datos_semana_2": {
           "inicio": "2025-11-03",
-          "fin": "2025-11-14",
-          "tarjetas_planificadas": 6,
-          "horas_planificadas": 57.0,
+          "fin": "2025-11-07",
+          "tarjetas_planificadas": 4,
+          "horas_planificadas": 44.0,
           "issues": [
-            "IT-21305",
+            "IT-14961",
             "IT-21935",
             "IT-21493",
-            "IT-21814",
-            "IT-21978",
-            "IT-20473"
+            "IT-21814"
           ],
           "issues_detail": [
             {
-              "key": "IT-21305",
-              "planned_hours": 12.0,
+              "key": "IT-14961",
+              "planned_hours": 16.0,
               "tipo": "",
-              "due": "2025-11-04"
+              "due": "2025-11-03"
             },
             {
               "key": "IT-21935",
               "planned_hours": 12.0,
               "tipo": "",
-              "due": "2025-11-05"
+              "due": "2025-11-04"
             },
             {
               "key": "IT-21493",
               "planned_hours": 8.0,
               "tipo": "",
-              "due": "2025-11-06"
+              "due": "2025-11-05"
             },
             {
               "key": "IT-21814",
               "planned_hours": 8.0,
               "tipo": "",
-              "due": "2025-11-11"
-            },
-            {
-              "key": "IT-21978",
-              "planned_hours": 14.0,
-              "tipo": "",
-              "due": "2025-11-13"
-            },
-            {
-              "key": "IT-20473",
-              "planned_hours": 3.0,
-              "tipo": "",
-              "due": "2025-11-13"
+              "due": "2025-11-06"
             }
           ]
         }
@@ -250,26 +208,25 @@
         "datos_semana_1": {
           "inicio": "2025-10-27",
           "fin": "2025-10-31",
-          "tarjetas_planificadas": 6,
-          "horas_planificadas": 32.0,
+          "tarjetas_planificadas": 5,
+          "horas_planificadas": 31.0,
           "issues": [
-            "IT-16642",
             "IT-21806",
+            "IT-21303",
             "IT-21679",
             "IT-21320",
-            "IT-22133",
-            "IT-21993"
+            "IT-22133"
           ],
           "issues_detail": [
             {
-              "key": "IT-16642",
-              "planned_hours": 1.0,
-              "tipo": "",
-              "due": "2025-10-27"
-            },
-            {
               "key": "IT-21806",
               "planned_hours": 8.0,
+              "tipo": "",
+              "due": "2025-10-28"
+            },
+            {
+              "key": "IT-21303",
+              "planned_hours": 4.0,
               "tipo": "",
               "due": "2025-10-28"
             },
@@ -283,127 +240,79 @@
               "key": "IT-21320",
               "planned_hours": 4.0,
               "tipo": "",
-              "due": "2025-10-29"
+              "due": "2025-10-30"
             },
             {
               "key": "IT-22133",
               "planned_hours": 8.0,
               "tipo": "",
               "due": "2025-10-31"
-            },
-            {
-              "key": "IT-21993",
-              "planned_hours": 4.0,
-              "tipo": "",
-              "due": "2025-10-30"
             }
           ]
         },
         "datos_semana_2": {
           "inicio": "2025-11-03",
-          "fin": "2025-11-14",
-          "tarjetas_planificadas": 14,
-          "horas_planificadas": 67.0,
+          "fin": "2025-11-07",
+          "tarjetas_planificadas": 8,
+          "horas_planificadas": 34.0,
           "issues": [
+            "IT-22190",
+            "IT-22189",
+            "IT-20431",
+            "IT-21993",
             "IT-21965",
             "IT-21844",
             "IT-21973",
-            "IT-22138",
-            "IT-16641",
-            "IT-16640",
-            "IT-16639",
-            "IT-16638",
-            "IT-16635",
-            "IT-16634",
-            "IT-16633",
-            "IT-16632",
-            "IT-16627",
-            "IT-16578"
+            "IT-22138"
           ],
           "issues_detail": [
+            {
+              "key": "IT-22190",
+              "planned_hours": 4.0,
+              "tipo": "",
+              "due": "2025-11-03"
+            },
+            {
+              "key": "IT-22189",
+              "planned_hours": 3.0,
+              "tipo": "",
+              "due": "2025-11-03"
+            },
+            {
+              "key": "IT-20431",
+              "planned_hours": 8.0,
+              "tipo": "",
+              "due": "2025-11-04"
+            },
+            {
+              "key": "IT-21993",
+              "planned_hours": 4.0,
+              "tipo": "",
+              "due": "2025-11-05"
+            },
             {
               "key": "IT-21965",
               "planned_hours": 3.0,
               "tipo": "",
-              "due": "2025-11-03"
+              "due": "2025-11-05"
             },
             {
               "key": "IT-21844",
               "planned_hours": 2.0,
               "tipo": "",
-              "due": "2025-11-03"
+              "due": "2025-11-06"
             },
             {
               "key": "IT-21973",
               "planned_hours": 4.0,
               "tipo": "",
-              "due": "2025-11-03"
+              "due": "2025-11-06"
             },
             {
               "key": "IT-22138",
               "planned_hours": 6.0,
               "tipo": "",
-              "due": "2025-11-04"
-            },
-            {
-              "key": "IT-16641",
-              "planned_hours": 3.0,
-              "tipo": "",
-              "due": "2025-11-05"
-            },
-            {
-              "key": "IT-16640",
-              "planned_hours": 4.0,
-              "tipo": "",
-              "due": "2025-11-05"
-            },
-            {
-              "key": "IT-16639",
-              "planned_hours": 3.0,
-              "tipo": "",
-              "due": "2025-11-06"
-            },
-            {
-              "key": "IT-16638",
-              "planned_hours": 7.0,
-              "tipo": "",
               "due": "2025-11-07"
-            },
-            {
-              "key": "IT-16635",
-              "planned_hours": 3.0,
-              "tipo": "",
-              "due": "2025-11-07"
-            },
-            {
-              "key": "IT-16634",
-              "planned_hours": 6.0,
-              "tipo": "",
-              "due": "2025-11-10"
-            },
-            {
-              "key": "IT-16633",
-              "planned_hours": 5.0,
-              "tipo": "",
-              "due": "2025-11-11"
-            },
-            {
-              "key": "IT-16632",
-              "planned_hours": 3.0,
-              "tipo": "",
-              "due": "2025-11-11"
-            },
-            {
-              "key": "IT-16627",
-              "planned_hours": 10.0,
-              "tipo": "",
-              "due": "2025-11-13"
-            },
-            {
-              "key": "IT-16578",
-              "planned_hours": 8.0,
-              "tipo": "",
-              "due": "2025-11-14"
             }
           ]
         }
@@ -414,29 +323,22 @@
         "datos_semana_1": {
           "inicio": "2025-10-27",
           "fin": "2025-10-31",
-          "tarjetas_planificadas": 3,
-          "horas_planificadas": 23.0,
+          "tarjetas_planificadas": 2,
+          "horas_planificadas": 26.0,
           "issues": [
             "IT-21539",
-            "IT-21102",
-            "IT-21541"
+            "IT-22043"
           ],
           "issues_detail": [
             {
               "key": "IT-21539",
-              "planned_hours": 7.0,
-              "tipo": "",
-              "due": "2025-10-27"
-            },
-            {
-              "key": "IT-21102",
-              "planned_hours": 6.0,
+              "planned_hours": 13.0,
               "tipo": "",
               "due": "2025-10-28"
             },
             {
-              "key": "IT-21541",
-              "planned_hours": 10.0,
+              "key": "IT-22043",
+              "planned_hours": 13.0,
               "tipo": "",
               "due": "2025-10-30"
             }
@@ -444,11 +346,27 @@
         },
         "datos_semana_2": {
           "inicio": "2025-11-03",
-          "fin": "2025-11-14",
-          "tarjetas_planificadas": 0,
-          "horas_planificadas": 0.0,
-          "issues": [],
-          "issues_detail": []
+          "fin": "2025-11-07",
+          "tarjetas_planificadas": 2,
+          "horas_planificadas": 14.0,
+          "issues": [
+            "IT-21541",
+            "IT-21669"
+          ],
+          "issues_detail": [
+            {
+              "key": "IT-21541",
+              "planned_hours": 10.0,
+              "tipo": "",
+              "due": "2025-11-03"
+            },
+            {
+              "key": "IT-21669",
+              "planned_hours": 4.0,
+              "tipo": "",
+              "due": "2025-11-03"
+            }
+          ]
         }
       },
       "Nicolas Pardo": {
@@ -457,36 +375,18 @@
         "datos_semana_1": {
           "inicio": "2025-10-27",
           "fin": "2025-10-31",
-          "tarjetas_planificadas": 1,
-          "horas_planificadas": 8.0,
-          "issues": [
-            "IT-21966"
-          ],
-          "issues_detail": [
-            {
-              "key": "IT-21966",
-              "planned_hours": 8.0,
-              "tipo": "",
-              "due": "2025-10-28"
-            }
-          ]
+          "tarjetas_planificadas": 0,
+          "horas_planificadas": 0.0,
+          "issues": [],
+          "issues_detail": []
         },
         "datos_semana_2": {
           "inicio": "2025-11-03",
-          "fin": "2025-11-14",
-          "tarjetas_planificadas": 1,
-          "horas_planificadas": 70.0,
-          "issues": [
-            "IT-22041"
-          ],
-          "issues_detail": [
-            {
-              "key": "IT-22041",
-              "planned_hours": 70.0,
-              "tipo": "",
-              "due": "2025-11-11"
-            }
-          ]
+          "fin": "2025-11-07",
+          "tarjetas_planificadas": 0,
+          "horas_planificadas": 0.0,
+          "issues": [],
+          "issues_detail": []
         }
       }
     }
