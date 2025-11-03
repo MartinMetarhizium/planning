@@ -115,7 +115,7 @@
       {
         "key": "IT-21393",
         "story_points": 5.0,
-        "status": "BACKLOG"
+        "status": "FINISH"
       },
       {
         "key": "IT-21364",
@@ -159,6 +159,11 @@
     "due_date": "2025-09-30",
     "summary": "Redise\u00f1o web - Carestino",
     "tasks": [
+      {
+        "key": "IT-22295",
+        "story_points": 24.0,
+        "status": "BACKLOG"
+      },
       {
         "key": "IT-20545",
         "story_points": 8.0,
@@ -336,6 +341,11 @@
     "summary": "Training",
     "tasks": [
       {
+        "key": "IT-22298",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
         "key": "IT-21725",
         "story_points": 1.0,
         "status": "FINISH"
@@ -364,8 +374,13 @@
     "tasks": [
       {
         "key": "IT-22058",
-        "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "story_points": 24.0,
+        "status": "BACKLOG"
+      },
+      {
+        "key": "IT-21973",
+        "story_points": 4.0,
+        "status": "TO DEPLOY QA"
       },
       {
         "key": "IT-21942",
@@ -570,7 +585,13 @@
   "IT-19630": {
     "due_date": "2025-08-31",
     "summary": "Clientes",
-    "tasks": []
+    "tasks": [
+      {
+        "key": "IT-22300",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      }
+    ]
   },
   "IT-19628": {
     "due_date": null,
@@ -814,7 +835,7 @@
       {
         "key": "IT-14961",
         "story_points": 32.0,
-        "status": "BACKLOG"
+        "status": "En progreso"
       }
     ]
   },
@@ -930,7 +951,7 @@
       {
         "key": "IT-20013",
         "story_points": 2.0,
-        "status": "CODE REVIEW"
+        "status": "STG TESTING"
       },
       {
         "key": "IT-20012",
@@ -1475,14 +1496,29 @@
     "summary": "Gestiones",
     "tasks": [
       {
+        "key": "IT-21954",
+        "story_points": 24.0,
+        "status": "BACKLOG"
+      },
+      {
+        "key": "IT-21937",
+        "story_points": 6.0,
+        "status": "BACKLOG"
+      },
+      {
         "key": "IT-21935",
         "story_points": 12.0,
         "status": "BACKLOG"
       },
       {
-        "key": "IT-21571",
+        "key": "IT-21887",
         "story_points": 8.0,
         "status": "BACKLOG"
+      },
+      {
+        "key": "IT-21571",
+        "story_points": 8.0,
+        "status": "CODE REVIEW"
       },
       {
         "key": "IT-20952",
@@ -1495,6 +1531,11 @@
         "status": "FINISH"
       },
       {
+        "key": "IT-20776",
+        "story_points": 10.0,
+        "status": "FINISH"
+      },
+      {
         "key": "IT-20697",
         "story_points": 20.0,
         "status": "BACKLOG"
@@ -1502,7 +1543,7 @@
       {
         "key": "IT-20655",
         "story_points": 32.0,
-        "status": "BACKLOG"
+        "status": "En progreso"
       },
       {
         "key": "IT-20632",
@@ -1512,7 +1553,7 @@
       {
         "key": "IT-20630",
         "story_points": 12.0,
-        "status": "BACKLOG"
+        "status": "FINISH"
       },
       {
         "key": "IT-20611",
@@ -3670,6 +3711,31 @@
     "summary": "CAV - Carga autom\u00e1tica de ventas",
     "tasks": [
       {
+        "key": "IT-22274",
+        "story_points": 2.0,
+        "status": "BACKLOG"
+      },
+      {
+        "key": "IT-22272",
+        "story_points": 3.0,
+        "status": "BACKLOG"
+      },
+      {
+        "key": "IT-22270",
+        "story_points": 7.0,
+        "status": "BACKLOG"
+      },
+      {
+        "key": "IT-22181",
+        "story_points": 24.0,
+        "status": "BACKLOG"
+      },
+      {
+        "key": "IT-21806",
+        "story_points": 8.0,
+        "status": "STG TESTING"
+      },
+      {
         "key": "IT-20767",
         "story_points": 5.0,
         "status": "FINISH"
@@ -4422,17 +4488,17 @@
       {
         "key": "IT-16644",
         "story_points": 2.0,
-        "status": "BACKLOG"
+        "status": "TO DEPLOY QA"
       },
       {
         "key": "IT-16643",
         "story_points": 2.0,
-        "status": "BACKLOG"
+        "status": "TO DEPLOY QA"
       },
       {
         "key": "IT-16642",
         "story_points": 4.0,
-        "status": "BACKLOG"
+        "status": "TO DEPLOY QA"
       },
       {
         "key": "IT-16641",
@@ -4677,19 +4743,29 @@
     "summary": "Conciliador de cobros",
     "tasks": [
       {
+        "key": "IT-22190",
+        "story_points": 4.0,
+        "status": "BACKLOG"
+      },
+      {
+        "key": "IT-22189",
+        "story_points": 3.0,
+        "status": "BACKLOG"
+      },
+      {
         "key": "IT-21873",
         "story_points": 5.0,
-        "status": "BACKLOG"
+        "status": "TO DEPLOY QA"
       },
       {
         "key": "IT-21871",
         "story_points": 6.0,
-        "status": "TO DEPLOY"
+        "status": "FINISH"
       },
       {
         "key": "IT-21769",
         "story_points": 8.0,
-        "status": "STG TESTING"
+        "status": "REVIEW ON HOLD"
       },
       {
         "key": "IT-21675",
@@ -8312,6 +8388,61 @@
     "summary": "Acciones Comerciales",
     "tasks": [
       {
+        "key": "IT-22297",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "IT-22287",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "IT-22286",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "IT-22285",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "IT-22284",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "IT-22283",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "IT-22282",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "IT-22281",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "IT-22280",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "IT-22279",
+        "story_points": 2.0,
+        "status": "BACKLOG"
+      },
+      {
+        "key": "IT-22278",
+        "story_points": 2.0,
+        "status": "BACKLOG"
+      },
+      {
         "key": "IT-21585",
         "story_points": 2.0,
         "status": "FINISH"
@@ -8569,9 +8700,19 @@
     "summary": "Marketplace",
     "tasks": [
       {
+        "key": "IT-22187",
+        "story_points": 24.0,
+        "status": "BACKLOG"
+      },
+      {
+        "key": "IT-22154",
+        "story_points": 24.0,
+        "status": "BACKLOG"
+      },
+      {
         "key": "IT-21630",
         "story_points": 60.0,
-        "status": "TO DEPLOY"
+        "status": "FINISH"
       },
       {
         "key": "IT-21281",
@@ -10679,6 +10820,26 @@
     "due_date": null,
     "summary": "Core de Facturaci\u00f3n",
     "tasks": [
+      {
+        "key": "IT-22043",
+        "story_points": 8.0,
+        "status": "TO DEPLOY QA"
+      },
+      {
+        "key": "IT-21893",
+        "story_points": 6.0,
+        "status": "TO DEPLOY QA"
+      },
+      {
+        "key": "IT-21892",
+        "story_points": 8.0,
+        "status": "TO DEPLOY QA"
+      },
+      {
+        "key": "IT-21890",
+        "story_points": 6.0,
+        "status": "FINISH"
+      },
       {
         "key": "IT-17982",
         "story_points": null,
@@ -15076,6 +15237,11 @@
     "summary": "Cupones",
     "tasks": [
       {
+        "key": "IT-22262",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
         "key": "IT-20194",
         "story_points": 4.0,
         "status": "FINISH"
@@ -15623,7 +15789,7 @@
       {
         "key": "IT-15010",
         "story_points": 24.0,
-        "status": "BACKLOG"
+        "status": "REVIEW ON PAUSE"
       },
       {
         "key": "IT-14956",

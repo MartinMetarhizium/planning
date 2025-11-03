@@ -479,7 +479,7 @@
       {
         "key": "IT-14961",
         "summary": "Reintegros / Recepción y clasificación de reintegros en PDV distinto ",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 32.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1694,6 +1694,14 @@
     "summary": "Worpik",
     "tasks": [
       {
+        "key": "BTP-3969",
+        "summary": "Worpik / Evaluaciones / Mejora en la tabla de respuestas ",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Martín Horn",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-3956",
         "summary": "Asignación de test e información del puesto ",
         "status": "Pendiente de estimación",
@@ -1704,7 +1712,7 @@
       {
         "key": "BTP-3955",
         "summary": "Modificación de mail",
-        "status": "Pendiente de estimación",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Martín Horn",
         "project": "BTP"
@@ -1729,6 +1737,14 @@
         "key": "BTP-3795",
         "summary": "Cambio de entrevistadores ",
         "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Martín Horn",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3759",
+        "summary": "Worpik / Creación de eventos aislados del concepto de proyecto",
+        "status": "Por Hacer",
         "story_points": null,
         "assignee": "Martín Horn",
         "project": "BTP"
@@ -5258,6 +5274,14 @@
         "project": "IT"
       },
       {
+        "key": "IT-21806",
+        "summary": "CAV Mercadolibre - Lógica de ML para logística  mercadoenvio ",
+        "status": "STG TESTING",
+        "story_points": 8.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
         "key": "IT-20767",
         "summary": "MercadoLibre / Información sobre la fecha de generación de la etiqueta",
         "status": "FINISH",
@@ -5896,17 +5920,49 @@
         "project": "BTP"
       },
       {
+        "key": "IT-21954",
+        "summary": "Reclamos / Frontend / Continuar carga de datos de reclamos",
+        "status": "BACKLOG",
+        "story_points": 24.0,
+        "assignee": "Franco Lorenzo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-21937",
+        "summary": "Formularios Reclamos / Reclamos reiterados",
+        "status": "BACKLOG",
+        "story_points": 6.0,
+        "assignee": "Franco Lorenzo",
+        "project": "IT"
+      },
+      {
         "key": "IT-21935",
         "summary": "Reclamos / Backend / Filtrar reclamos con datos faltantes",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 12.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
       {
+        "key": "IT-21933",
+        "summary": "Formularios Reclamos | Cancelación automática de despachos",
+        "status": "ON HOLD",
+        "story_points": 21.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-21887",
+        "summary": "Gestión Reclamos | Envío de comentarios a cliente + archivo",
+        "status": "BACKLOG",
+        "story_points": 8.0,
+        "assignee": "Franco Lorenzo",
+        "project": "IT"
+      },
+      {
         "key": "IT-21571",
         "summary": "Módulo de reclamos - Estados Gestión de pendientes.",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6635,7 +6691,7 @@
       {
         "key": "BTP-3877",
         "summary": "[Marketplace][Amazon][Promociones]",
-        "status": "Por Hacer",
+        "status": "EN RELEVAMIENTO",
         "story_points": null,
         "assignee": "Juan Ignacio Morelis - Carestino",
         "project": "BTP"
@@ -6643,7 +6699,7 @@
       {
         "key": "BTP-3876",
         "summary": "[Marketplace][Liverpool][Promociones]",
-        "status": "Por Hacer",
+        "status": "EN ARMADO DE PROPUESTA",
         "story_points": null,
         "assignee": "Juan Ignacio Morelis - Carestino",
         "project": "BTP"
@@ -6667,7 +6723,7 @@
       {
         "key": "BTP-3873",
         "summary": "[Marketplace][CL][Paris]Publicación Manual",
-        "status": "Por Hacer",
+        "status": "CANCELADO POR BT",
         "story_points": null,
         "assignee": "Juan Ignacio Morelis - Carestino",
         "project": "BTP"
@@ -6675,7 +6731,7 @@
       {
         "key": "BTP-3872",
         "summary": "[Marketplace[Tienda Naranja]Publicación Manual",
-        "status": "Por Hacer",
+        "status": "CANCELADO POR BT",
         "story_points": null,
         "assignee": "Juan Ignacio Morelis - Carestino",
         "project": "BTP"
@@ -6683,7 +6739,7 @@
       {
         "key": "BTP-3871",
         "summary": "[Marketplace][CL][Paris][Precios][Stock]",
-        "status": "Pendiente de estimación",
+        "status": "CANCELADO POR BT",
         "story_points": null,
         "assignee": "Juan Ignacio Morelis - Carestino",
         "project": "BTP"
@@ -6691,7 +6747,7 @@
       {
         "key": "BTP-3870",
         "summary": "[Marketplace[Tienda Naranja][Precios][Stock]",
-        "status": "Por Hacer",
+        "status": "CANCELADO POR BT",
         "story_points": null,
         "assignee": "Juan Ignacio Morelis - Carestino",
         "project": "BTP"
@@ -6699,7 +6755,7 @@
       {
         "key": "BTP-3846",
         "summary": "[Marketplace][Amazon] Agregar Publicación Manual",
-        "status": "Pendiente de estimación",
+        "status": "Por Hacer",
         "story_points": null,
         "assignee": "Sin asignar",
         "project": "BTP"
@@ -6707,7 +6763,7 @@
       {
         "key": "BTP-3826",
         "summary": "[Marketplace][MX][Amazon][Precios][Stock]",
-        "status": "EN ARMADO DE PROPUESTA",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Juan Ignacio Morelis - Carestino",
         "project": "BTP"
@@ -6731,7 +6787,7 @@
       {
         "key": "IT-22187",
         "summary": "[Marketplace][Falabella]Agregar Publicación Manual",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -6741,6 +6797,14 @@
         "summary": "[Marketplace][Liverpool] Agregar Publicación Manual",
         "status": "BACKLOG",
         "story_points": 24.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-22041",
+        "summary": "[Marketplace][MX][Liverpool][Precios][Stock]",
+        "status": "PENDING REVIEW",
+        "story_points": 70.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
       },
@@ -7365,6 +7429,14 @@
         "project": "IT"
       },
       {
+        "key": "IT-21973",
+        "summary": "Logística V2 / Logisticas Integradas / Insertar venta como logistica y no como carrier generic",
+        "status": "TO DEPLOY QA",
+        "story_points": 4.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
         "key": "IT-21942",
         "summary": "[Wise][Integracion]Proactividad Clientes ",
         "status": "Pendiente de estimación",
@@ -7701,8 +7773,8 @@
       {
         "key": "IT-22262",
         "summary": "Listas de nacimiento / Agregar seguridad a la generación de cupones",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
@@ -15098,6 +15170,22 @@
         "project": "BTP"
       },
       {
+        "key": "IT-22190",
+        "summary": "Error en conciliador / Regla de Mercado Pago Perú y Uruguay no funcionan",
+        "status": "BACKLOG",
+        "story_points": 4.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
+        "key": "IT-22189",
+        "summary": "Error en conciliador / Reglas de pagos genéricos no distingue los métodos de pago",
+        "status": "BACKLOG",
+        "story_points": 3.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
         "key": "IT-21873",
         "summary": "Fijar filtro \"Mostrar X registros\" -  Modulo conciliador",
         "status": "TO DEPLOY QA",
@@ -15116,7 +15204,7 @@
       {
         "key": "IT-21769",
         "summary": "Eliminar lotes parcialmente conciliados - Conciliador",
-        "status": "REVIEW ON HOLD",
+        "status": "REVIEW ON PAUSE",
         "story_points": 8.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15718,7 +15806,7 @@
       {
         "key": "IT-22187",
         "summary": "[Marketplace][Falabella]Agregar Publicación Manual",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -15728,6 +15816,14 @@
         "summary": "[Marketplace][Liverpool] Agregar Publicación Manual",
         "status": "BACKLOG",
         "story_points": 24.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-22041",
+        "summary": "[Marketplace][MX][Liverpool][Precios][Stock]",
+        "status": "PENDING REVIEW",
+        "story_points": 70.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
       },
