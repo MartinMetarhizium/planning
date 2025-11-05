@@ -222,7 +222,7 @@
       {
         "key": "IT-20162",
         "story_points": 76.0,
-        "status": "En progreso"
+        "status": "ON HOLD"
       },
       {
         "key": "IT-20114",
@@ -835,7 +835,7 @@
       {
         "key": "IT-14961",
         "story_points": 32.0,
-        "status": "En progreso"
+        "status": "PENDING REVIEW"
       }
     ]
   },
@@ -1508,17 +1508,22 @@
       {
         "key": "IT-21935",
         "story_points": 12.0,
-        "status": "BACKLOG"
+        "status": "PENDING REVIEW"
+      },
+      {
+        "key": "IT-21933",
+        "story_points": 21.0,
+        "status": "ON HOLD"
       },
       {
         "key": "IT-21887",
         "story_points": 8.0,
-        "status": "BACKLOG"
+        "status": "En progreso"
       },
       {
         "key": "IT-21571",
         "story_points": 8.0,
-        "status": "CODE REVIEW"
+        "status": "REVIEW ON PAUSE"
       },
       {
         "key": "IT-20952",
@@ -3733,7 +3738,7 @@
       {
         "key": "IT-21806",
         "story_points": 8.0,
-        "status": "STG TESTING"
+        "status": "PENDING REVIEW"
       },
       {
         "key": "IT-20767",
@@ -4745,7 +4750,7 @@
       {
         "key": "IT-22190",
         "story_points": 4.0,
-        "status": "BACKLOG"
+        "status": "En progreso"
       },
       {
         "key": "IT-22189",
@@ -4765,7 +4770,7 @@
       {
         "key": "IT-21769",
         "story_points": 8.0,
-        "status": "REVIEW ON HOLD"
+        "status": "REVIEWING"
       },
       {
         "key": "IT-21675",
@@ -8389,48 +8394,48 @@
     "tasks": [
       {
         "key": "IT-22297",
-        "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "story_points": 2.0,
+        "status": "BACKLOG"
       },
       {
         "key": "IT-22287",
-        "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "story_points": 2.0,
+        "status": "BACKLOG"
       },
       {
         "key": "IT-22286",
-        "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "story_points": 2.0,
+        "status": "BACKLOG"
       },
       {
         "key": "IT-22285",
-        "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "story_points": 2.0,
+        "status": "BACKLOG"
       },
       {
         "key": "IT-22284",
-        "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "story_points": 2.0,
+        "status": "BACKLOG"
       },
       {
         "key": "IT-22283",
-        "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "story_points": 2.0,
+        "status": "BACKLOG"
       },
       {
         "key": "IT-22282",
-        "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "story_points": 2.0,
+        "status": "BACKLOG"
       },
       {
         "key": "IT-22281",
-        "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "story_points": 2.0,
+        "status": "BACKLOG"
       },
       {
         "key": "IT-22280",
-        "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "story_points": 2.0,
+        "status": "BACKLOG"
       },
       {
         "key": "IT-22279",
@@ -8702,12 +8707,17 @@
       {
         "key": "IT-22187",
         "story_points": 24.0,
-        "status": "BACKLOG"
+        "status": "En progreso"
       },
       {
         "key": "IT-22154",
         "story_points": 24.0,
         "status": "BACKLOG"
+      },
+      {
+        "key": "IT-22041",
+        "story_points": 70.0,
+        "status": "REVIEW ON HOLD"
       },
       {
         "key": "IT-21630",
@@ -9093,7 +9103,7 @@
       {
         "key": "IT-20576",
         "story_points": 44.0,
-        "status": "PENDING REVIEW"
+        "status": "REVIEW ON HOLD"
       },
       {
         "key": "IT-20575",
@@ -15238,8 +15248,8 @@
     "tasks": [
       {
         "key": "IT-22262",
-        "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "story_points": 4.0,
+        "status": "BACKLOG"
       },
       {
         "key": "IT-20194",
