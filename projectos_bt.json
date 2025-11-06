@@ -166,6 +166,14 @@
     "summary": "Integraciones logísticas – Mercado Envíos / Amazon",
     "tasks": [
       {
+        "key": "BTP-3979",
+        "summary": "Integracion via Api - Andesmar",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Juan Ignacio Morelis - Carestino",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-3886",
         "summary": "Armado de documentación técnica para integración en Logística V2",
         "status": "Por Hacer",
@@ -341,11 +349,6 @@
         "project": "IT"
       }
     ]
-  },
-  "BTP-3206": {
-    "due_date": "2025-07-31",
-    "summary": "Remplazo Easymailing",
-    "tasks": []
   },
   "BTP-3205": {
     "due_date": null,
@@ -610,7 +613,7 @@
       {
         "key": "IT-22295",
         "summary": "Home page / Backend / Ajuste de módulos",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -714,7 +717,7 @@
       {
         "key": "IT-20114",
         "summary": "Evaluación final rediseño Checkout",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 10.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -5276,7 +5279,7 @@
       {
         "key": "IT-21806",
         "summary": "CAV Mercadolibre - Lógica de ML para logística  mercadoenvio ",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -5954,7 +5957,7 @@
       {
         "key": "IT-21887",
         "summary": "Gestión Reclamos | Envío de comentarios a cliente + archivo",
-        "status": "STG TESTING",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6753,41 +6756,25 @@
         "project": "BTP"
       },
       {
-        "key": "IT-22350",
-        "summary": "[Marketplace][Amazon][Promociones]",
-        "status": "Pendiente de estimación",
-        "story_points": null,
-        "assignee": "Nicolas Pardo",
-        "project": "IT"
-      },
-      {
-        "key": "IT-22348",
-        "summary": "[Marketplace][Amazon] Agregar Publicación Manual",
-        "status": "Pendiente de estimación",
-        "story_points": null,
-        "assignee": "Nicolas Pardo",
-        "project": "IT"
-      },
-      {
         "key": "IT-22346",
-        "summary": "[Marketplace][MX][Amazon][Precios][Stock]",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "summary": "[Marketplace][MX][Amazon]",
+        "status": "BACKLOG",
+        "story_points": 106.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
       },
       {
         "key": "IT-22344",
         "summary": "[Marketplace][Falabella][Promociones]",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
       },
       {
         "key": "IT-22187",
         "summary": "[Marketplace][Falabella]Agregar Publicación Manual",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -7431,7 +7418,7 @@
       {
         "key": "IT-21973",
         "summary": "Logística V2 / Logisticas Integradas / Insertar venta como logistica y no como carrier generic",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15204,7 +15191,7 @@
       {
         "key": "IT-22190",
         "summary": "Error en conciliador / Regla de Mercado Pago Perú y Uruguay no funcionan",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 4.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15212,7 +15199,7 @@
       {
         "key": "IT-22189",
         "summary": "Error en conciliador / Reglas de pagos genéricos no distingue los métodos de pago",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 3.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15220,7 +15207,7 @@
       {
         "key": "IT-21873",
         "summary": "Fijar filtro \"Mostrar X registros\" -  Modulo conciliador",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 5.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15836,41 +15823,25 @@
         "project": "BTP"
       },
       {
-        "key": "IT-22350",
-        "summary": "[Marketplace][Amazon][Promociones]",
-        "status": "Pendiente de estimación",
-        "story_points": null,
-        "assignee": "Nicolas Pardo",
-        "project": "IT"
-      },
-      {
-        "key": "IT-22348",
-        "summary": "[Marketplace][Amazon] Agregar Publicación Manual",
-        "status": "Pendiente de estimación",
-        "story_points": null,
-        "assignee": "Nicolas Pardo",
-        "project": "IT"
-      },
-      {
         "key": "IT-22346",
-        "summary": "[Marketplace][MX][Amazon][Precios][Stock]",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "summary": "[Marketplace][MX][Amazon]",
+        "status": "BACKLOG",
+        "story_points": 106.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
       },
       {
         "key": "IT-22344",
         "summary": "[Marketplace][Falabella][Promociones]",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
       },
       {
         "key": "IT-22187",
         "summary": "[Marketplace][Falabella]Agregar Publicación Manual",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
