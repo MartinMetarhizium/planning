@@ -168,7 +168,7 @@
       {
         "key": "BTP-3979",
         "summary": "Integracion via Api - Andesmar",
-        "status": "Por Hacer",
+        "status": "EN RELEVAMIENTO",
         "story_points": null,
         "assignee": "Juan Ignacio Morelis - Carestino",
         "project": "BTP"
@@ -300,7 +300,7 @@
       {
         "key": "IT-21844",
         "summary": "Agregar pais en API para seleccionar la bandera de DO",
-        "status": "BACKLOG",
+        "status": "STG TESTING",
         "story_points": 2.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -1818,9 +1818,9 @@
       },
       {
         "key": "IT-22341",
-        "summary": "Modificación de mail",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "summary": "Worpik / Modificación de mail",
+        "status": "FINISH",
+        "story_points": 4.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
       },
@@ -5941,7 +5941,7 @@
       {
         "key": "IT-21935",
         "summary": "Reclamos / Backend / Filtrar reclamos con datos faltantes",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 12.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -6005,7 +6005,7 @@
       {
         "key": "IT-20655",
         "summary": "Backend / Reclamos / Permitir editar un reclamo desde el frontend",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 32.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6774,7 +6774,7 @@
       {
         "key": "IT-22187",
         "summary": "[Marketplace][Falabella]Agregar Publicación Manual",
-        "status": "PENDING REVIEW",
+        "status": "REDEFINED",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -8028,9 +8028,9 @@
     "tasks": [
       {
         "key": "IT-22341",
-        "summary": "Modificación de mail",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "summary": "Worpik / Modificación de mail",
+        "status": "FINISH",
+        "story_points": 4.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
       },
@@ -11596,9 +11596,9 @@
       },
       {
         "key": "IT-22341",
-        "summary": "Modificación de mail",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "summary": "Worpik / Modificación de mail",
+        "status": "FINISH",
+        "story_points": 4.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
       },
@@ -15191,7 +15191,7 @@
       {
         "key": "IT-22190",
         "summary": "Error en conciliador / Regla de Mercado Pago Perú y Uruguay no funcionan",
-        "status": "PENDING REVIEW",
+        "status": "REVIEWING",
         "story_points": 4.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15199,7 +15199,7 @@
       {
         "key": "IT-22189",
         "summary": "Error en conciliador / Reglas de pagos genéricos no distingue los métodos de pago",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 3.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15223,7 +15223,7 @@
       {
         "key": "IT-21769",
         "summary": "Eliminar lotes parcialmente conciliados - Conciliador",
-        "status": "REVIEW ON PAUSE",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15841,7 +15841,7 @@
       {
         "key": "IT-22187",
         "summary": "[Marketplace][Falabella]Agregar Publicación Manual",
-        "status": "PENDING REVIEW",
+        "status": "REDEFINED",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
