@@ -1,6 +1,6 @@
 {
   "S20251027": {
-    "generado_en": "2025-11-08 18:36:36",
+    "generado_en": "2025-11-10 15:45:16",
     "sprint_id": "S20251027",
     "sprint_inicio_global": "2025-10-27",
     "sprint_fin_global": "2025-11-14",
@@ -26,7 +26,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-21983": {
         "developer": "Alan Mori - Carestino",
@@ -49,7 +49,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": true,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-22045": {
         "developer": "Alan Mori - Carestino",
@@ -72,7 +72,7 @@
         "real_hours_source": "worklogs_window",
         "done": true,
         "done_before_due": true,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-20640": {
         "developer": "Alan Mori - Carestino",
@@ -95,7 +95,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": true,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-21644": {
         "developer": "Alan Mori - Carestino",
@@ -116,19 +116,19 @@
         "customfield_10046_raw": 23.0,
         "real_hours_issue": 23.0,
         "real_hours_source": "customfield_10046",
-        "done": false,
+        "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-21571": {
         "developer": "Alan Mori - Carestino",
         "summary": "Módulo de reclamos - Estados Gestión de pendientes.",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "status_category": "En curso",
         "assignee": "Alan Mori - Carestino",
         "priority": "Medium",
         "duedate": "2025-10-17",
-        "updated": "2025-11-07T20:25:18.601-0300",
+        "updated": "2025-11-10T11:18:27.713-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 28800,
@@ -141,7 +141,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-22131": {
         "developer": "Alan Mori - Carestino",
@@ -164,7 +164,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": true,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-22119": {
         "developer": "Franco Lorenzo",
@@ -187,7 +187,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-20162": {
         "developer": "Franco Lorenzo",
@@ -210,17 +210,17 @@
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-21887": {
         "developer": "Franco Lorenzo",
         "summary": "Gestión Reclamos | Envío de comentarios a cliente + archivo",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "status_category": "En curso",
         "assignee": "Franco Lorenzo",
         "priority": "High",
         "duedate": "2025-10-01",
-        "updated": "2025-11-07T20:24:52.566-0300",
+        "updated": "2025-11-10T11:18:28.329-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 25200,
@@ -233,17 +233,17 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-21989": {
         "developer": "Franco Lorenzo",
         "summary": "Frontend / Sepcs / Replicar autoplay para spec \"Video y texto\"",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "status_category": "En curso",
         "assignee": "Franco Lorenzo",
         "priority": "Medium",
         "duedate": "2025-11-15",
-        "updated": "2025-11-07T20:25:09.235-0300",
+        "updated": "2025-11-10T11:18:27.180-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 7200,
@@ -256,7 +256,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-15010": {
         "developer": "Gastón Ojeda",
@@ -277,9 +277,9 @@
         "customfield_10046_raw": 94.0,
         "real_hours_issue": 94.0,
         "real_hours_source": "customfield_10046",
-        "done": false,
+        "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-21305": {
         "developer": "Gastón Ojeda",
@@ -300,9 +300,9 @@
         "customfield_10046_raw": 44.0,
         "real_hours_issue": 44.0,
         "real_hours_source": "customfield_10046",
-        "done": false,
+        "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-14961": {
         "developer": "Gastón Ojeda",
@@ -325,7 +325,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-21935": {
         "developer": "Gastón Ojeda",
@@ -346,9 +346,9 @@
         "customfield_10046_raw": 8.0,
         "real_hours_issue": 8.0,
         "real_hours_source": "customfield_10046",
-        "done": false,
+        "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-21493": {
         "developer": "Gastón Ojeda",
@@ -358,7 +358,7 @@
         "assignee": "Gastón Ojeda",
         "priority": "Medium",
         "duedate": "2025-10-03",
-        "updated": "2025-11-07T20:24:54.239-0300",
+        "updated": "2025-11-09T10:00:14.823-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 16200,
@@ -371,7 +371,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-21814": {
         "developer": "Gastón Ojeda",
@@ -394,7 +394,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-21806": {
         "developer": "Luis Uran",
@@ -417,7 +417,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-21303": {
         "developer": "Luis Uran",
@@ -440,7 +440,7 @@
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-21679": {
         "developer": "Luis Uran",
@@ -463,7 +463,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-21320": {
         "developer": "Luis Uran",
@@ -473,7 +473,7 @@
         "assignee": "Luis Uran",
         "priority": "Medium",
         "duedate": "2025-10-17",
-        "updated": "2025-11-07T20:25:19.507-0300",
+        "updated": "2025-11-10T14:40:16.754-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 9000,
@@ -484,9 +484,9 @@
         "customfield_10046_raw": 12.0,
         "real_hours_issue": 12.0,
         "real_hours_source": "customfield_10046",
-        "done": false,
+        "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-22133": {
         "developer": "Luis Uran",
@@ -509,17 +509,17 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-22190": {
         "developer": "Luis Uran",
         "summary": "Error en conciliador / Regla de Mercado Pago Perú y Uruguay no funcionan",
-        "status": "REVIEWING",
+        "status": "In Improvement",
         "status_category": "En curso",
         "assignee": "Luis Uran",
         "priority": "High",
         "duedate": "2025-11-07",
-        "updated": "2025-11-07T20:24:56.502-0300",
+        "updated": "2025-11-10T12:51:53.478-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 13500,
@@ -530,19 +530,19 @@
         "customfield_10046_raw": 5.0,
         "real_hours_issue": 5.0,
         "real_hours_source": "customfield_10046",
-        "done": true,
+        "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-22189": {
         "developer": "Luis Uran",
         "summary": "Error en conciliador / Reglas de pagos genéricos no distingue los métodos de pago",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "status_category": "En curso",
         "assignee": "Luis Uran",
         "priority": "High",
         "duedate": "2025-11-07",
-        "updated": "2025-11-07T20:24:56.684-0300",
+        "updated": "2025-11-10T15:10:08.102-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 8100,
@@ -555,7 +555,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-20431": {
         "developer": "Luis Uran",
@@ -578,7 +578,7 @@
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-21993": {
         "developer": "Luis Uran",
@@ -601,17 +601,17 @@
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-21965": {
         "developer": "Luis Uran",
         "summary": "Numero de orden falabella para conciliación",
-        "status": "STG TESTING",
-        "status_category": "En curso",
+        "status": "REVIEW ON HOLD",
+        "status_category": "Por hacer",
         "assignee": "Luis Uran",
         "priority": "High",
         "duedate": "2025-11-13",
-        "updated": "2025-11-07T20:34:16.391-0300",
+        "updated": "2025-11-10T14:40:17.224-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 7200,
@@ -619,33 +619,33 @@
             "Luis Uran": 7200
           }
         },
-        "customfield_10046_raw": 4.0,
-        "real_hours_issue": 4.0,
+        "customfield_10046_raw": 5.0,
+        "real_hours_issue": 5.0,
         "real_hours_source": "customfield_10046",
-        "done": false,
+        "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-21844": {
         "developer": "Luis Uran",
         "summary": "Agregar pais en API para seleccionar la bandera de DO",
-        "status": "STG TESTING",
+        "status": "TO DEPLOY QA",
         "status_category": "En curso",
         "assignee": "Luis Uran",
         "priority": "Medium",
         "duedate": null,
-        "updated": "2025-11-07T20:34:19.583-0300",
+        "updated": "2025-11-10T13:31:47.523-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 0,
           "by_author": {}
         },
-        "customfield_10046_raw": 0.0,
-        "real_hours_issue": 0.0,
-        "real_hours_source": "worklogs_window",
-        "done": false,
+        "customfield_10046_raw": 1.0,
+        "real_hours_issue": 1.0,
+        "real_hours_source": "customfield_10046",
+        "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-21973": {
         "developer": "Luis Uran",
@@ -666,30 +666,30 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": true,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-22138": {
         "developer": "Luis Uran",
         "summary": "Contacto / Ajustes en el listado",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "status_category": "En curso",
         "assignee": "Luis Uran",
         "priority": "Medium",
         "duedate": null,
-        "updated": "2025-11-07T20:25:24.568-0300",
+        "updated": "2025-11-10T12:02:29.452-0300",
         "resolutiondate": null,
         "worklogs": {
-          "total_sec": 7200,
+          "total_sec": 19800,
           "by_author": {
-            "Luis Uran": 7200
+            "Luis Uran": 19800
           }
         },
-        "customfield_10046_raw": 2.0,
-        "real_hours_issue": 2.0,
+        "customfield_10046_raw": 6.0,
+        "real_hours_issue": 6.0,
         "real_hours_source": "customfield_10046",
-        "done": false,
+        "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-21539": {
         "developer": "Miguel Armentano",
@@ -712,7 +712,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-22043": {
         "developer": "Miguel Armentano",
@@ -735,7 +735,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-21541": {
         "developer": "Miguel Armentano",
@@ -756,9 +756,9 @@
         "customfield_10046_raw": 15.0,
         "real_hours_issue": 15.0,
         "real_hours_source": "customfield_10046",
-        "done": false,
+        "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-21669": {
         "developer": "Miguel Armentano",
@@ -779,9 +779,9 @@
         "customfield_10046_raw": 9.0,
         "real_hours_issue": 9.0,
         "real_hours_source": "customfield_10046",
-        "done": false,
+        "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       },
       "IT-22041": {
         "developer": "Nicolas Pardo",
@@ -791,7 +791,7 @@
         "assignee": "Nicolas Pardo",
         "priority": "Medium",
         "duedate": null,
-        "updated": "2025-11-07T20:24:56.039-0300",
+        "updated": "2025-11-10T14:40:17.602-0300",
         "resolutiondate": null,
         "worklogs": {
           "total_sec": 147600,
@@ -802,24 +802,24 @@
         "customfield_10046_raw": 55.0,
         "real_hours_issue": 55.0,
         "real_hours_source": "customfield_10046",
-        "done": false,
+        "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-08 18:36:36"
+        "capturado_en": "2025-11-10 15:45:16"
       }
     },
     "resumen": {
       "por_estado": {
         "FINISH": 11,
-        "REVIEW ON HOLD": 6,
-        "TO DEPLOY QA": 4,
+        "REVIEW ON HOLD": 7,
+        "TO DEPLOY": 4,
         "ON HOLD": 1,
         "REVIEW ON PAUSE": 1,
         "Rechazado": 1,
-        "PENDING REVIEW": 4,
+        "PENDING REVIEW": 5,
         "BACKLOG": 1,
-        "REVIEWING": 1,
-        "STG TESTING": 4,
-        "En progreso": 1
+        "In Improvement": 1,
+        "STG TESTING": 2,
+        "TO DEPLOY QA": 1
       },
       "por_desarrollador": {
         "Alan Mori - Carestino": 7,
