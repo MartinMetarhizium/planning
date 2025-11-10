@@ -1,6 +1,6 @@
 {
   "S20251027": {
-    "generado_en": "2025-11-10 15:45:16",
+    "generado_en": "2025-11-10 15:47:08",
     "sprint_id": "S20251027",
     "sprint_inicio_global": "2025-10-27",
     "sprint_fin_global": "2025-11-14",
@@ -26,7 +26,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-21983": {
         "developer": "Alan Mori - Carestino",
@@ -49,7 +49,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": true,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-22045": {
         "developer": "Alan Mori - Carestino",
@@ -72,7 +72,7 @@
         "real_hours_source": "worklogs_window",
         "done": true,
         "done_before_due": true,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-20640": {
         "developer": "Alan Mori - Carestino",
@@ -95,7 +95,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": true,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-21644": {
         "developer": "Alan Mori - Carestino",
@@ -118,7 +118,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-21571": {
         "developer": "Alan Mori - Carestino",
@@ -141,7 +141,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-22131": {
         "developer": "Alan Mori - Carestino",
@@ -164,7 +164,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": true,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-22119": {
         "developer": "Franco Lorenzo",
@@ -187,7 +187,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-20162": {
         "developer": "Franco Lorenzo",
@@ -210,7 +210,7 @@
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-21887": {
         "developer": "Franco Lorenzo",
@@ -233,7 +233,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-21989": {
         "developer": "Franco Lorenzo",
@@ -256,7 +256,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-15010": {
         "developer": "Gastón Ojeda",
@@ -279,7 +279,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-21305": {
         "developer": "Gastón Ojeda",
@@ -302,7 +302,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-14961": {
         "developer": "Gastón Ojeda",
@@ -325,7 +325,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-21935": {
         "developer": "Gastón Ojeda",
@@ -348,7 +348,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-21493": {
         "developer": "Gastón Ojeda",
@@ -371,7 +371,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-21814": {
         "developer": "Gastón Ojeda",
@@ -394,7 +394,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-21806": {
         "developer": "Luis Uran",
@@ -417,7 +417,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-21303": {
         "developer": "Luis Uran",
@@ -440,7 +440,7 @@
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-21679": {
         "developer": "Luis Uran",
@@ -463,7 +463,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-21320": {
         "developer": "Luis Uran",
@@ -486,7 +486,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-22133": {
         "developer": "Luis Uran",
@@ -509,7 +509,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-22190": {
         "developer": "Luis Uran",
@@ -530,9 +530,9 @@
         "customfield_10046_raw": 5.0,
         "real_hours_issue": 5.0,
         "real_hours_source": "customfield_10046",
-        "done": false,
+        "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-22189": {
         "developer": "Luis Uran",
@@ -555,7 +555,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-20431": {
         "developer": "Luis Uran",
@@ -578,7 +578,7 @@
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-21993": {
         "developer": "Luis Uran",
@@ -601,7 +601,7 @@
         "real_hours_source": "customfield_10046",
         "done": false,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-21965": {
         "developer": "Luis Uran",
@@ -624,7 +624,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-21844": {
         "developer": "Luis Uran",
@@ -645,7 +645,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-21973": {
         "developer": "Luis Uran",
@@ -666,7 +666,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": true,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-22138": {
         "developer": "Luis Uran",
@@ -689,7 +689,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-21539": {
         "developer": "Miguel Armentano",
@@ -712,7 +712,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-22043": {
         "developer": "Miguel Armentano",
@@ -735,7 +735,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-21541": {
         "developer": "Miguel Armentano",
@@ -758,7 +758,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-21669": {
         "developer": "Miguel Armentano",
@@ -781,7 +781,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       },
       "IT-22041": {
         "developer": "Nicolas Pardo",
@@ -804,7 +804,7 @@
         "real_hours_source": "customfield_10046",
         "done": true,
         "done_before_due": false,
-        "capturado_en": "2025-11-10 15:45:16"
+        "capturado_en": "2025-11-10 15:47:08"
       }
     },
     "resumen": {
