@@ -1,16 +1,16 @@
 {
   "S20251027": {
     "sprint_id": "S20251027",
-    "generado_en": "2025-10-30 17:15:45",
+    "generado_en": "2025-11-08 18:36:21",
     "sprint_inicio_global": "2025-10-27",
     "sprint_fin_global": "2025-11-14",
     "datos_semana_1": {
-      "tarjetas_planificadas": 14,
-      "horas_planificadas": 101.0
+      "tarjetas_planificadas": 15,
+      "horas_planificadas": 126.0
     },
     "datos_semana_2": {
       "tarjetas_planificadas": 20,
-      "horas_planificadas": 174.0
+      "horas_planificadas": 200.0
     },
     "detalle_por_desarrollador": {
       "Alan Mori - Carestino": {
@@ -64,13 +64,11 @@
         "datos_semana_2": {
           "inicio": "2025-11-03",
           "fin": "2025-11-07",
-          "tarjetas_planificadas": 4,
-          "horas_planificadas": 39.0,
+          "tarjetas_planificadas": 2,
+          "horas_planificadas": 10.0,
           "issues": [
             "IT-21571",
-            "IT-22131",
-            "IT-21734",
-            "IT-21933"
+            "IT-22131"
           ],
           "issues_detail": [
             {
@@ -84,18 +82,6 @@
               "planned_hours": 2.0,
               "tipo": "",
               "due": "2025-11-03"
-            },
-            {
-              "key": "IT-21734",
-              "planned_hours": 8.0,
-              "tipo": "",
-              "due": "2025-11-04"
-            },
-            {
-              "key": "IT-21933",
-              "planned_hours": 21.0,
-              "tipo": "",
-              "due": "2025-11-07"
             }
           ]
         }
@@ -106,30 +92,46 @@
         "datos_semana_1": {
           "inicio": "2025-10-27",
           "fin": "2025-10-31",
-          "tarjetas_planificadas": 0,
-          "horas_planificadas": 0.0,
-          "issues": [],
-          "issues_detail": []
-        },
-        "datos_semana_2": {
-          "inicio": "2025-11-03",
-          "fin": "2025-11-07",
-          "tarjetas_planificadas": 2,
-          "horas_planificadas": 43.0,
+          "tarjetas_planificadas": 1,
+          "horas_planificadas": 25.0,
           "issues": [
-            "IT-22119",
-            "IT-20162"
+            "IT-22119"
           ],
           "issues_detail": [
             {
               "key": "IT-22119",
               "planned_hours": 25.0,
               "tipo": "",
-              "due": "2025-11-03"
-            },
+              "due": "2025-10-31"
+            }
+          ]
+        },
+        "datos_semana_2": {
+          "inicio": "2025-11-03",
+          "fin": "2025-11-07",
+          "tarjetas_planificadas": 3,
+          "horas_planificadas": 28.0,
+          "issues": [
+            "IT-20162",
+            "IT-21887",
+            "IT-21989"
+          ],
+          "issues_detail": [
             {
               "key": "IT-20162",
               "planned_hours": 18.0,
+              "tipo": "",
+              "due": "2025-11-05"
+            },
+            {
+              "key": "IT-21887",
+              "planned_hours": 8.0,
+              "tipo": "",
+              "due": "2025-11-06"
+            },
+            {
+              "key": "IT-21989",
+              "planned_hours": 2.0,
               "tipo": "",
               "due": "2025-11-06"
             }
@@ -383,10 +385,19 @@
         "datos_semana_2": {
           "inicio": "2025-11-03",
           "fin": "2025-11-07",
-          "tarjetas_planificadas": 0,
-          "horas_planificadas": 0.0,
-          "issues": [],
-          "issues_detail": []
+          "tarjetas_planificadas": 1,
+          "horas_planificadas": 70.0,
+          "issues": [
+            "IT-22041"
+          ],
+          "issues_detail": [
+            {
+              "key": "IT-22041",
+              "planned_hours": 70.0,
+              "tipo": "",
+              "due": "2025-11-07"
+            }
+          ]
         }
       }
     }

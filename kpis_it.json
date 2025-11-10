@@ -3,70 +3,70 @@
     "sprint_id": "S20251027",
     "kpis_por_desarrollador": {
       "Alan Mori - Carestino": {
-        "tarjetas_planificadas": 9,
-        "tarjetas_realizadas": 5,
-        "porc_tarjetas_completadas": 55.6,
-        "horas_planificadas": 63.0,
-        "horas_realizadas": 19.8,
-        "porc_horas_cumplidas": 31.3,
-        "desviacion_promedio_estimacion": 0.65
+        "tarjetas_planificadas": 7,
+        "tarjetas_realizadas": 6,
+        "porc_tarjetas_completadas": 85.7,
+        "horas_planificadas": 34.0,
+        "horas_realizadas": 24.2,
+        "porc_horas_cumplidas": 71.3,
+        "desviacion_promedio_estimacion": 0.646
       },
       "Franco Lorenzo": {
-        "tarjetas_planificadas": 2,
-        "tarjetas_realizadas": 1,
-        "porc_tarjetas_completadas": 50.0,
-        "horas_planificadas": 43.0,
-        "horas_realizadas": 19.0,
-        "porc_horas_cumplidas": 44.2,
-        "desviacion_promedio_estimacion": 1.591
+        "tarjetas_planificadas": 4,
+        "tarjetas_realizadas": 3,
+        "porc_tarjetas_completadas": 75.0,
+        "horas_planificadas": 53.0,
+        "horas_realizadas": 53.0,
+        "porc_horas_cumplidas": 100.0,
+        "desviacion_promedio_estimacion": 1.205
       },
       "Gastón Ojeda": {
         "tarjetas_planificadas": 6,
-        "tarjetas_realizadas": 1,
-        "porc_tarjetas_completadas": 16.7,
+        "tarjetas_realizadas": 3,
+        "porc_tarjetas_completadas": 50.0,
         "horas_planificadas": 64.0,
-        "horas_realizadas": 34.0,
-        "porc_horas_cumplidas": 53.1,
-        "desviacion_promedio_estimacion": 3.278
+        "horas_realizadas": 38.0,
+        "porc_horas_cumplidas": 59.4,
+        "desviacion_promedio_estimacion": 3.417
       },
       "Luis Uran": {
         "tarjetas_planificadas": 13,
-        "tarjetas_realizadas": 1,
-        "porc_tarjetas_completadas": 7.7,
+        "tarjetas_realizadas": 6,
+        "porc_tarjetas_completadas": 46.2,
         "horas_planificadas": 65.0,
-        "horas_realizadas": 29.5,
-        "porc_horas_cumplidas": 45.4,
-        "desviacion_promedio_estimacion": 1.232
+        "horas_realizadas": 58.5,
+        "porc_horas_cumplidas": 90.0,
+        "desviacion_promedio_estimacion": 1.298
       },
       "Miguel Armentano": {
         "tarjetas_planificadas": 4,
         "tarjetas_realizadas": 2,
         "porc_tarjetas_completadas": 50.0,
         "horas_planificadas": 40.0,
-        "horas_realizadas": 26.0,
-        "porc_horas_cumplidas": 65.0,
-        "desviacion_promedio_estimacion": 0.527
+        "horas_realizadas": 40.0,
+        "porc_horas_cumplidas": 100.0,
+        "desviacion_promedio_estimacion": 0.514
       },
       "Nicolas Pardo": {
-        "tarjetas_planificadas": 0,
+        "tarjetas_planificadas": 1,
         "tarjetas_realizadas": 0,
-        "porc_tarjetas_completadas": null,
-        "horas_planificadas": 0.0,
-        "horas_realizadas": 0.0,
-        "porc_horas_cumplidas": null,
-        "desviacion_promedio_estimacion": null
+        "porc_tarjetas_completadas": 0.0,
+        "horas_planificadas": 70.0,
+        "horas_realizadas": 41.0,
+        "porc_horas_cumplidas": 58.6,
+        "desviacion_promedio_estimacion": 0.214
       }
     },
     "kpis_globales": {
-      "porc_tareas_replanificadas": 70.6,
-      "predictibilidad_por_due_date": 0.0,
+      "porc_tareas_replanificadas": 42.9,
+      "predictibilidad_por_due_date": 25.0,
       "carga_planificada_por_dev": {
-        "Alan Mori - Carestino": 63.0,
-        "Franco Lorenzo": 43.0,
+        "Alan Mori - Carestino": 34.0,
+        "Franco Lorenzo": 53.0,
         "Gastón Ojeda": 64.0,
         "Luis Uran": 65.0,
         "Miguel Armentano": 40.0,
-        "Nicolas Pardo": 0.0
+        "Nicolas Pardo": 70.0
       }
     }
   },
