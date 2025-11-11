@@ -168,7 +168,7 @@
       {
         "key": "BTP-3979",
         "summary": "Integracion via Api - Andesmar",
-        "status": "EN RELEVAMIENTO",
+        "status": "EN ARMADO DE PROPUESTA",
         "story_points": null,
         "assignee": "Juan Ignacio Morelis - Carestino",
         "project": "BTP"
@@ -613,7 +613,7 @@
       {
         "key": "IT-22295",
         "summary": "Home page / Backend / Ajuste de módulos",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -1827,8 +1827,8 @@
       {
         "key": "IT-22339",
         "summary": "Worpik / Evaluaciones / Mejora en la tabla de respuestas ",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "En progreso",
+        "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
       },
@@ -5957,7 +5957,7 @@
       {
         "key": "IT-21887",
         "summary": "Gestión Reclamos | Envío de comentarios a cliente + archivo",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -5965,7 +5965,7 @@
       {
         "key": "IT-21571",
         "summary": "Módulo de reclamos - Estados Gestión de pendientes.",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7410,7 +7410,7 @@
       {
         "key": "IT-22058",
         "summary": "[Wise][Proactividad] Gestiones de cliente - Desarrollo de estructura Log V2",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 24.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -8037,8 +8037,8 @@
       {
         "key": "IT-22339",
         "summary": "Worpik / Evaluaciones / Mejora en la tabla de respuestas ",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "En progreso",
+        "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
       },
@@ -11605,8 +11605,8 @@
       {
         "key": "IT-22339",
         "summary": "Worpik / Evaluaciones / Mejora en la tabla de respuestas ",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "En progreso",
+        "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
       },
@@ -15199,7 +15199,7 @@
       {
         "key": "IT-22189",
         "summary": "Error en conciliador / Reglas de pagos genéricos no distingue los métodos de pago",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 3.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15223,7 +15223,7 @@
       {
         "key": "IT-21769",
         "summary": "Eliminar lotes parcialmente conciliados - Conciliador",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Luis Uran",
         "project": "IT"
