@@ -709,7 +709,7 @@
       {
         "key": "IT-20162",
         "summary": "Ecommerce / Carestino / Rediseño Home Page - Layout",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 76.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -717,7 +717,7 @@
       {
         "key": "IT-20114",
         "summary": "Evaluación final rediseño Checkout",
-        "status": "ON PAUSE",
+        "status": "En progreso",
         "story_points": 10.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -5255,7 +5255,7 @@
       {
         "key": "IT-22274",
         "summary": "CAV / Falabella FULL / Eliminar validación sobre el campo telefono",
-        "status": "BACKLOG",
+        "status": "STG TESTING",
         "story_points": 2.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -5263,7 +5263,7 @@
       {
         "key": "IT-22272",
         "summary": "CAV / ML / Separar ventas de acuerdo con el vendedor",
-        "status": "BACKLOG",
+        "status": "CODE REVIEW",
         "story_points": 3.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -5271,7 +5271,7 @@
       {
         "key": "IT-22270",
         "summary": "CAV / Mercado Libre / Procesamiento de ventas con pagos diferentes al monto de la venta",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 7.0,
         "assignee": "Luis Uran",
         "project": "IT"
