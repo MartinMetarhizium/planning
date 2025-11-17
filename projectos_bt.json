@@ -292,7 +292,7 @@
       {
         "key": "IT-21844",
         "summary": "Agregar pais en API para seleccionar la bandera de DO",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 2.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -579,6 +579,14 @@
     "summary": "Rediseño web - Carestino",
     "tasks": [
       {
+        "key": "BTP-4003",
+        "summary": "Optimización de rendimiento Home",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-3298",
         "summary": "Documentación de cambios",
         "status": "RESUELTO POR BT",
@@ -603,9 +611,17 @@
         "project": "BTP"
       },
       {
+        "key": "IT-22483",
+        "summary": "Home page / Video / Agregar Thumbnail para visualización en bajos recursos",
+        "status": "BACKLOG",
+        "story_points": 8.0,
+        "assignee": "Franco Lorenzo",
+        "project": "IT"
+      },
+      {
         "key": "IT-22463",
         "summary": "Ajustes / Crear el setting ecommerce_new_home_page_is_active",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 1.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -613,7 +629,7 @@
       {
         "key": "IT-22295",
         "summary": "Home page / Backend / Ajuste de módulos",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -709,7 +725,7 @@
       {
         "key": "IT-20162",
         "summary": "Ecommerce / Carestino / Rediseño Home Page - Layout",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 76.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -717,7 +733,7 @@
       {
         "key": "IT-20114",
         "summary": "Evaluación final rediseño Checkout",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 10.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1939,7 +1955,7 @@
       {
         "key": "IT-21330",
         "summary": "Worpik / Motivos de bajas",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON PAUSE",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -1971,7 +1987,7 @@
       {
         "key": "IT-21197",
         "summary": "Worpik / Fix \"Test de Lógica\" – Candidatos con más respuestas que preguntas en el test",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -2107,7 +2123,7 @@
       {
         "key": "IT-20531",
         "summary": "Worpik / Importador masivo Lever",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 24.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -5255,7 +5271,7 @@
       {
         "key": "IT-22274",
         "summary": "CAV / Falabella FULL / Eliminar validación sobre el campo telefono",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 2.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -5263,7 +5279,7 @@
       {
         "key": "IT-22272",
         "summary": "CAV / ML / Separar ventas de acuerdo con el vendedor",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 3.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -8149,7 +8165,7 @@
       {
         "key": "IT-21330",
         "summary": "Worpik / Motivos de bajas",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON PAUSE",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -8181,7 +8197,7 @@
       {
         "key": "IT-21197",
         "summary": "Worpik / Fix \"Test de Lógica\" – Candidatos con más respuestas que preguntas en el test",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -8317,7 +8333,7 @@
       {
         "key": "IT-20531",
         "summary": "Worpik / Importador masivo Lever",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 24.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -11717,7 +11733,7 @@
       {
         "key": "IT-21330",
         "summary": "Worpik / Motivos de bajas",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON PAUSE",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -11749,7 +11765,7 @@
       {
         "key": "IT-21197",
         "summary": "Worpik / Fix \"Test de Lógica\" – Candidatos con más respuestas que preguntas en el test",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -11885,7 +11901,7 @@
       {
         "key": "IT-20531",
         "summary": "Worpik / Importador masivo Lever",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 24.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
