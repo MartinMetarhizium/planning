@@ -613,7 +613,7 @@
       {
         "key": "IT-22483",
         "summary": "Home page / Video / Agregar Thumbnail para visualización en bajos recursos",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 8.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -725,7 +725,7 @@
       {
         "key": "IT-20162",
         "summary": "Ecommerce / Carestino / Rediseño Home Page - Layout",
-        "status": "CODE REVIEW",
+        "status": "TO DEPLOY",
         "story_points": 76.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1987,7 +1987,7 @@
       {
         "key": "IT-21197",
         "summary": "Worpik / Fix \"Test de Lógica\" – Candidatos con más respuestas que preguntas en el test",
-        "status": "STG TESTING",
+        "status": "ON HOLD",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -2123,7 +2123,7 @@
       {
         "key": "IT-20531",
         "summary": "Worpik / Importador masivo Lever",
-        "status": "En progreso",
+        "status": "ON PAUSE",
         "story_points": 24.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -5271,7 +5271,7 @@
       {
         "key": "IT-22274",
         "summary": "CAV / Falabella FULL / Eliminar validación sobre el campo telefono",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 2.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -5287,7 +5287,7 @@
       {
         "key": "IT-22270",
         "summary": "CAV / Mercado Libre / Procesamiento de ventas con pagos diferentes al monto de la venta",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 7.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -5945,6 +5945,14 @@
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
+      },
+      {
+        "key": "IT-22520",
+        "summary": "Reclamos / Crear reclamo Orden - General - Logística",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Sin asignar",
+        "project": "IT"
       },
       {
         "key": "IT-21954",
@@ -6708,14 +6716,6 @@
     "summary": "Marketplace",
     "tasks": [
       {
-        "key": "BTP-3876",
-        "summary": "[Marketplace][Liverpool][Promociones]",
-        "status": "ON PAUSE ARMADO DE PROPUESTA",
-        "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-3875",
         "summary": "[Marketplace][Mercadolibre][Promociones]",
         "status": "EN ARMADO DE PROPUESTA",
@@ -6780,6 +6780,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-22518",
+        "summary": "[Marketplace][Liverpool][Promociones]",
+        "status": "BACKLOG",
+        "story_points": 16.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
         "key": "IT-22346",
         "summary": "[Marketplace][MX][Amazon]",
         "status": "BACKLOG",
@@ -6814,7 +6822,7 @@
       {
         "key": "IT-22041",
         "summary": "[Marketplace][MX][Liverpool][Precios][Stock]",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 70.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -7450,7 +7458,7 @@
       {
         "key": "IT-21942",
         "summary": "[Wise][Integracion]Proactividad Clientes ",
-        "status": "Pendiente de estimación",
+        "status": "FINISH",
         "story_points": null,
         "assignee": "Diego Martin Gogorza",
         "project": "IT"
@@ -8197,7 +8205,7 @@
       {
         "key": "IT-21197",
         "summary": "Worpik / Fix \"Test de Lógica\" – Candidatos con más respuestas que preguntas en el test",
-        "status": "STG TESTING",
+        "status": "ON HOLD",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -8333,7 +8341,7 @@
       {
         "key": "IT-20531",
         "summary": "Worpik / Importador masivo Lever",
-        "status": "En progreso",
+        "status": "ON PAUSE",
         "story_points": 24.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -11765,7 +11773,7 @@
       {
         "key": "IT-21197",
         "summary": "Worpik / Fix \"Test de Lógica\" – Candidatos con más respuestas que preguntas en el test",
-        "status": "STG TESTING",
+        "status": "ON HOLD",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -11901,7 +11909,7 @@
       {
         "key": "IT-20531",
         "summary": "Worpik / Importador masivo Lever",
-        "status": "En progreso",
+        "status": "ON PAUSE",
         "story_points": 24.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -15215,7 +15223,7 @@
       {
         "key": "IT-22413",
         "summary": "Error en conciliador / Reglas de pagos genéricos no distingue los métodos de pago",
-        "status": "BACKLOG",
+        "status": "STG TESTING",
         "story_points": 3.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15855,6 +15863,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-22518",
+        "summary": "[Marketplace][Liverpool][Promociones]",
+        "status": "BACKLOG",
+        "story_points": 16.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
         "key": "IT-22346",
         "summary": "[Marketplace][MX][Amazon]",
         "status": "BACKLOG",
@@ -15889,7 +15905,7 @@
       {
         "key": "IT-22041",
         "summary": "[Marketplace][MX][Liverpool][Precios][Stock]",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 70.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
