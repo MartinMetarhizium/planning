@@ -161,36 +161,6 @@
       }
     ]
   },
-  "BTP-3883": {
-    "due_date": null,
-    "summary": "Integraciones logísticas – Mercado Envíos / Amazon",
-    "tasks": [
-      {
-        "key": "BTP-3886",
-        "summary": "Armado de documentación técnica para integración en Logística V2",
-        "status": "Por Hacer",
-        "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-3885",
-        "summary": "Relevamiento de la documentación disponible para integración",
-        "status": "Por Hacer",
-        "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-3884",
-        "summary": "Relevamiento de la operación actual de las entregas mediante Mercado Envíos / Amazon",
-        "status": "EN RELEVAMIENTO",
-        "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
-        "project": "BTP"
-      }
-    ]
-  },
   "BTP-3879": {
     "due_date": null,
     "summary": "Mejoras en Seguimiento y Tiempos de Entrega para Clientes",
@@ -222,7 +192,7 @@
       {
         "key": "IT-20386",
         "summary": "EXTRAVIOS - REINTEGROS - MEJORA MOVIMIENTO DE STOCK ",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -621,7 +591,7 @@
       {
         "key": "IT-22483",
         "summary": "Home page / Video / Agregar Thumbnail para visualización en bajos recursos",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 8.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -873,7 +843,7 @@
       {
         "key": "BTP-3910",
         "summary": "Filtros / Implementación del filtro por rango etario",
-        "status": "Por Hacer",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
@@ -1867,7 +1837,7 @@
       {
         "key": "IT-22339",
         "summary": "Worpik / Evaluaciones / Mejora en la tabla de respuestas ",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON PAUSE",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -1971,7 +1941,7 @@
       {
         "key": "IT-21330",
         "summary": "Worpik / Motivos de bajas",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -2003,7 +1973,7 @@
       {
         "key": "IT-21197",
         "summary": "Worpik / Fix \"Test de Lógica\" – Candidatos con más respuestas que preguntas en el test",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -5287,7 +5257,7 @@
       {
         "key": "IT-22274",
         "summary": "CAV / Falabella FULL / Eliminar validación sobre el campo telefono",
-        "status": "REVIEWING",
+        "status": "TO DEPLOY QA",
         "story_points": 2.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -5303,7 +5273,7 @@
       {
         "key": "IT-22270",
         "summary": "CAV / Mercado Libre / Procesamiento de ventas con pagos diferentes al monto de la venta",
-        "status": "CODE REVIEW",
+        "status": "ON HOLD",
         "story_points": 7.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -5311,7 +5281,7 @@
       {
         "key": "IT-22181",
         "summary": "Liverpool / Incluir la volumetria del pedido",
-        "status": "En progreso",
+        "status": "ON HOLD",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -6814,7 +6784,7 @@
       {
         "key": "IT-22346",
         "summary": "[Marketplace][MX][Amazon]",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 106.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -6846,7 +6816,7 @@
       {
         "key": "IT-22041",
         "summary": "[Marketplace][MX][Liverpool][Precios][Stock]",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 70.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -7436,7 +7406,7 @@
       {
         "key": "IT-20386",
         "summary": "EXTRAVIOS - REINTEGROS - MEJORA MOVIMIENTO DE STOCK ",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -8093,7 +8063,7 @@
       {
         "key": "IT-22339",
         "summary": "Worpik / Evaluaciones / Mejora en la tabla de respuestas ",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON PAUSE",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -8197,7 +8167,7 @@
       {
         "key": "IT-21330",
         "summary": "Worpik / Motivos de bajas",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -8229,7 +8199,7 @@
       {
         "key": "IT-21197",
         "summary": "Worpik / Fix \"Test de Lógica\" – Candidatos con más respuestas que preguntas en el test",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -11661,7 +11631,7 @@
       {
         "key": "IT-22339",
         "summary": "Worpik / Evaluaciones / Mejora en la tabla de respuestas ",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON PAUSE",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -11765,7 +11735,7 @@
       {
         "key": "IT-21330",
         "summary": "Worpik / Motivos de bajas",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -11797,7 +11767,7 @@
       {
         "key": "IT-21197",
         "summary": "Worpik / Fix \"Test de Lógica\" – Candidatos con más respuestas que preguntas en el test",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -15247,7 +15217,7 @@
       {
         "key": "IT-22413",
         "summary": "Error en conciliador / Reglas de pagos genéricos no distingue los métodos de pago",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 3.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15897,7 +15867,7 @@
       {
         "key": "IT-22346",
         "summary": "[Marketplace][MX][Amazon]",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 106.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -15929,7 +15899,7 @@
       {
         "key": "IT-22041",
         "summary": "[Marketplace][MX][Liverpool][Precios][Stock]",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 70.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
