@@ -591,7 +591,7 @@
       {
         "key": "IT-22483",
         "summary": "Home page / Video / Agregar Thumbnail para visualización en bajos recursos",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 8.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1872,6 +1872,14 @@
         "status": "BACKLOG",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-21781",
+        "summary": "Worpik / Mejorar doble scroll por el iframe ",
+        "status": "BACKLOG",
+        "story_points": 4.0,
+        "assignee": "Franco Lorenzo",
         "project": "IT"
       },
       {
@@ -8101,6 +8109,14 @@
         "project": "IT"
       },
       {
+        "key": "IT-21781",
+        "summary": "Worpik / Mejorar doble scroll por el iframe ",
+        "status": "BACKLOG",
+        "story_points": 4.0,
+        "assignee": "Franco Lorenzo",
+        "project": "IT"
+      },
+      {
         "key": "IT-21778",
         "summary": "Worpik / Proyectos / Agregar listado de tareas especificas para el proyecto",
         "status": "BACKLOG",
@@ -11666,6 +11682,14 @@
         "status": "BACKLOG",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-21781",
+        "summary": "Worpik / Mejorar doble scroll por el iframe ",
+        "status": "BACKLOG",
+        "story_points": 4.0,
+        "assignee": "Franco Lorenzo",
         "project": "IT"
       },
       {
