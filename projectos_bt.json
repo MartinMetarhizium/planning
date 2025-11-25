@@ -192,7 +192,7 @@
       {
         "key": "IT-20386",
         "summary": "EXTRAVIOS - REINTEGROS - MEJORA MOVIMIENTO DE STOCK ",
-        "status": "CODE REVIEW",
+        "status": "PENDING REVIEW",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -550,8 +550,8 @@
     "tasks": [
       {
         "key": "BTP-4023",
-        "summary": "New home / Ajustes en el renderizado inicial",
-        "status": "Pendiente de estimación",
+        "summary": "New home / Relevamiento / Evaluación de performance",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
@@ -591,7 +591,7 @@
       {
         "key": "IT-22483",
         "summary": "Home page / Video / Agregar Thumbnail para visualización en bajos recursos",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 8.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6720,7 +6720,7 @@
       {
         "key": "BTP-3875",
         "summary": "[Marketplace][Mercadolibre][Promociones]",
-        "status": "EN ARMADO DE PROPUESTA",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Juan Ignacio Morelis - Carestino",
         "project": "BTP"
@@ -7414,7 +7414,7 @@
       {
         "key": "IT-20386",
         "summary": "EXTRAVIOS - REINTEGROS - MEJORA MOVIMIENTO DE STOCK ",
-        "status": "CODE REVIEW",
+        "status": "PENDING REVIEW",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
