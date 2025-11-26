@@ -8,7 +8,7 @@
         "summary": "Delivery Admin PE",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       },
       {
@@ -16,7 +16,7 @@
         "summary": "Delivery Admin CL",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       },
       {
@@ -24,7 +24,7 @@
         "summary": "Delivery Admin UY",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       },
       {
@@ -32,7 +32,7 @@
         "summary": "Delivery Admin AR",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       }
     ]
@@ -46,7 +46,7 @@
         "summary": "Actualizar Api Delivery Notes",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       },
       {
@@ -54,7 +54,7 @@
         "summary": "Actualizar Api WMS",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       },
       {
@@ -62,7 +62,7 @@
         "summary": "Actualizar Api Expense",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       },
       {
@@ -70,7 +70,7 @@
         "summary": "Actualizar Nicox-Api",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       },
       {
@@ -78,7 +78,7 @@
         "summary": "Actualizar Api Reviews",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       },
       {
@@ -86,7 +86,7 @@
         "summary": "Actualizar Api Invoice",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       },
       {
@@ -94,7 +94,7 @@
         "summary": "Actualizar Api Stock",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       },
       {
@@ -102,7 +102,7 @@
         "summary": "Relevamiento de Apis para la actualización",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       }
     ]
@@ -116,7 +116,7 @@
         "summary": "Cálculo de Pérdida de Mercadería",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       },
       {
@@ -124,7 +124,7 @@
         "summary": "Impacto Automático en Reportes de Auditoría",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       },
       {
@@ -132,7 +132,7 @@
         "summary": "Flujo de Validación y Aprobación",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       },
       {
@@ -140,7 +140,7 @@
         "summary": "Clasificación Automática del Tipo de Diferencia",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       },
       {
@@ -148,7 +148,7 @@
         "summary": "Desglose por Almacén y Tipo de Diferencia",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       },
       {
@@ -156,7 +156,7 @@
         "summary": "Captura de Diferencias de Stock",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       }
     ]
@@ -170,7 +170,7 @@
         "summary": "[Tecnico]Integración vía API con Envíame / Aplin u operadores similares para obtener tracking final.",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "Joaquin Fernandez - Carestino",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       },
       {
@@ -178,7 +178,7 @@
         "summary": "Definición de lógica comercial para excepciones",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "Joaquin Fernandez - Carestino",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       },
       {
@@ -186,7 +186,7 @@
         "summary": "Visualización estimada al cliente antes de concretar la compra (carrito o checkout).",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "Joaquin Fernandez - Carestino",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       },
       {
@@ -224,7 +224,7 @@
         "summary": "Provincias y localidades",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       },
       {
@@ -551,7 +551,7 @@
       {
         "key": "BTP-4023",
         "summary": "New home / Relevamiento / Evaluación de performance",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
@@ -591,7 +591,7 @@
       {
         "key": "IT-22483",
         "summary": "Home page / Video / Agregar Thumbnail para visualización en bajos recursos",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -843,7 +843,7 @@
       {
         "key": "BTP-3910",
         "summary": "Filtros / Implementación del filtro por rango etario",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
@@ -962,7 +962,7 @@
       {
         "key": "BTP-3900",
         "summary": "Relevamiento de componentes de Nicox",
-        "status": "Por Hacer",
+        "status": "EN RELEVAMIENTO",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
@@ -1837,7 +1837,7 @@
       {
         "key": "IT-22339",
         "summary": "Worpik / Evaluaciones / Mejora en la tabla de respuestas ",
-        "status": "REVIEW ON PAUSE",
+        "status": "TO DEPLOY QA",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6714,15 +6714,15 @@
         "summary": "Publicaciones de catálogo - Mercado Libre",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       },
       {
         "key": "BTP-3875",
         "summary": "[Marketplace][Mercadolibre][Promociones]",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       },
       {
@@ -6730,7 +6730,7 @@
         "summary": "[Marketplace][MX][Mercadilibre Full][Precios][Stock]",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       },
       {
@@ -6770,7 +6770,7 @@
         "summary": "Marketplace / Pruebas Falabella ",
         "status": "EN RELEVAMIENTO",
         "story_points": null,
-        "assignee": "Juan Ignacio Morelis - Carestino",
+        "assignee": "ivanalberghini",
         "project": "BTP"
       },
       {
@@ -8071,7 +8071,7 @@
       {
         "key": "IT-22339",
         "summary": "Worpik / Evaluaciones / Mejora en la tabla de respuestas ",
-        "status": "REVIEW ON PAUSE",
+        "status": "TO DEPLOY QA",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -11647,7 +11647,7 @@
       {
         "key": "IT-22339",
         "summary": "Worpik / Evaluaciones / Mejora en la tabla de respuestas ",
-        "status": "REVIEW ON PAUSE",
+        "status": "TO DEPLOY QA",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -15249,7 +15249,7 @@
       {
         "key": "IT-22190",
         "summary": "Error en conciliador / Regla de Mercado Pago Perú y Uruguay no funcionan",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 4.0,
         "assignee": "Luis Uran",
         "project": "IT"
