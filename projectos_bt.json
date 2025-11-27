@@ -962,7 +962,7 @@
       {
         "key": "BTP-3900",
         "summary": "Relevamiento de componentes de Nicox",
-        "status": "EN RELEVAMIENTO",
+        "status": "EN ARMADO DE PROPUESTA",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
@@ -1010,7 +1010,7 @@
       {
         "key": "IT-22426",
         "summary": "Integracion via Api - Andesmar",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 16.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15249,7 +15249,7 @@
       {
         "key": "IT-22190",
         "summary": "Error en conciliador / Regla de Mercado Pago Perú y Uruguay no funcionan",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 4.0,
         "assignee": "Luis Uran",
         "project": "IT"
