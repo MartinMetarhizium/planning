@@ -192,7 +192,7 @@
       {
         "key": "IT-20386",
         "summary": "EXTRAVIOS - REINTEGROS - MEJORA MOVIMIENTO DE STOCK ",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -711,7 +711,7 @@
       {
         "key": "IT-20114",
         "summary": "Evaluación final rediseño Checkout",
-        "status": "STG TESTING",
+        "status": "REVIEWING",
         "story_points": 10.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1698,6 +1698,22 @@
     "due_date": "2025-06-30",
     "summary": "Worpik",
     "tasks": [
+      {
+        "key": "BTP-4048",
+        "summary": "Movimiento de entrevistas ",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Martín Horn",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4047",
+        "summary": "Botón de Acciones ",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Martín Horn",
+        "project": "BTP"
+      },
       {
         "key": "BTP-4020",
         "summary": "Worpik / Entrevista / Eventos a cancelar del lado de IERO",
@@ -7414,7 +7430,7 @@
       {
         "key": "IT-20386",
         "summary": "EXTRAVIOS - REINTEGROS - MEJORA MOVIMIENTO DE STOCK ",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -15239,6 +15255,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-22608",
+        "summary": "Error al importar archivo al conciliador - Argentina",
+        "status": "BACKLOG",
+        "story_points": 16.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
         "key": "IT-22413",
         "summary": "Error en conciliador / Reglas de pagos genéricos no distingue los métodos de pago",
         "status": "TO DEPLOY QA",
@@ -15249,7 +15273,7 @@
       {
         "key": "IT-22190",
         "summary": "Error en conciliador / Regla de Mercado Pago Perú y Uruguay no funcionan",
-        "status": "STG TESTING",
+        "status": "REVIEW ON HOLD",
         "story_points": 4.0,
         "assignee": "Luis Uran",
         "project": "IT"
