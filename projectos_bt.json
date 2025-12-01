@@ -591,7 +591,7 @@
       {
         "key": "IT-22483",
         "summary": "Home page / Video / Agregar Thumbnail para visualización en bajos recursos",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -711,7 +711,7 @@
       {
         "key": "IT-20114",
         "summary": "Evaluación final rediseño Checkout",
-        "status": "REVIEWING",
+        "status": "REVIEW ON HOLD",
         "story_points": 10.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -818,7 +818,7 @@
         "summary": "Analisis Documentación Integracion PAGOPLUX - Ecuador",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "ivanalberghini",
+        "assignee": "Mauricio Reinhardt",
         "project": "BTP"
       }
     ]
@@ -1853,7 +1853,7 @@
       {
         "key": "IT-22339",
         "summary": "Worpik / Evaluaciones / Mejora en la tabla de respuestas ",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -1965,7 +1965,7 @@
       {
         "key": "IT-21330",
         "summary": "Worpik / Motivos de bajas",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -1997,7 +1997,7 @@
       {
         "key": "IT-21197",
         "summary": "Worpik / Fix \"Test de Lógica\" – Candidatos con más respuestas que preguntas en el test",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -5281,7 +5281,7 @@
       {
         "key": "IT-22274",
         "summary": "CAV / Falabella FULL / Eliminar validación sobre el campo telefono",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 2.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -5305,7 +5305,7 @@
       {
         "key": "IT-22181",
         "summary": "Liverpool / Incluir la volumetria del pedido",
-        "status": "ON HOLD",
+        "status": "PENDING REVIEW",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -6047,7 +6047,7 @@
       {
         "key": "IT-20697",
         "summary": "Frontend / Reclamos / Permitir editar un reclamo desde el frontend",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 20.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -7674,7 +7674,7 @@
         "summary": "Relevamiento y propuesta de accesos/seguridad",
         "status": "Pendiente de estimación",
         "story_points": null,
-        "assignee": "ivanalberghini",
+        "assignee": "Mauricio Reinhardt",
         "project": "BTP"
       },
       {
@@ -7691,6 +7691,14 @@
     "due_date": "2025-09-30",
     "summary": "Devops",
     "tasks": [
+      {
+        "key": "IT-22625",
+        "summary": "Actualizacion de la version de n8n de BI",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Miguel Armentano",
+        "project": "IT"
+      },
       {
         "key": "IT-21478",
         "summary": "Cola SQS bia_gr_sqs y bia_gr_sqs_dlq",
@@ -8095,7 +8103,7 @@
       {
         "key": "IT-22339",
         "summary": "Worpik / Evaluaciones / Mejora en la tabla de respuestas ",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -8207,7 +8215,7 @@
       {
         "key": "IT-21330",
         "summary": "Worpik / Motivos de bajas",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -8239,7 +8247,7 @@
       {
         "key": "IT-21197",
         "summary": "Worpik / Fix \"Test de Lógica\" – Candidatos con más respuestas que preguntas en el test",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -11671,7 +11679,7 @@
       {
         "key": "IT-22339",
         "summary": "Worpik / Evaluaciones / Mejora en la tabla de respuestas ",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -11783,7 +11791,7 @@
       {
         "key": "IT-21330",
         "summary": "Worpik / Motivos de bajas",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -11815,7 +11823,7 @@
       {
         "key": "IT-21197",
         "summary": "Worpik / Fix \"Test de Lógica\" – Candidatos con más respuestas que preguntas en el test",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -15273,7 +15281,7 @@
       {
         "key": "IT-22413",
         "summary": "Error en conciliador / Reglas de pagos genéricos no distingue los métodos de pago",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 3.0,
         "assignee": "Luis Uran",
         "project": "IT"
