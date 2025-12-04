@@ -2,7 +2,56 @@
   "BTP-4068": {
     "due_date": null,
     "summary": "Service Desk",
-    "tasks": []
+    "tasks": [
+      {
+        "key": "BTP-4031",
+        "summary": "POC / Usar cupones en el checkout y que cierren en 0",
+        "status": "TO REFINEMENT",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3970",
+        "summary": "Modificación del proceso de venta - Agregado automático de bolsas ",
+        "status": "TO REFINEMENT",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3960",
+        "summary": "Pedidos tienda / Validar stock al editar devoluciones",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3958",
+        "summary": "Movimientos entre almacenes / Sacar almacén de EP",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3957",
+        "summary": "Garantías parciales en tiendas / Reintegro automático a Scrap",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3493",
+        "summary": "Ventas / Habilitar carga de archivos en ventas por configuración",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      }
+    ]
   },
   "BTP-3921": {
     "due_date": null,
@@ -596,8 +645,8 @@
       {
         "key": "IT-22665",
         "summary": "New Home / Frontend / Mejoras v3 propuestas por Planeamiento Estratégico",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 6.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
       },
@@ -864,8 +913,8 @@
       {
         "key": "IT-22667",
         "summary": "Filtros / Implementación del filtro por rango etario",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 16.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
       }
@@ -937,7 +986,7 @@
       {
         "key": "BTP-3301",
         "summary": "Documentación de los cambios",
-        "status": "Por Hacer",
+        "status": "EN ARMADO DE PROPUESTA",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
@@ -1760,9 +1809,17 @@
         "project": "BTP"
       },
       {
+        "key": "BTP-3832",
+        "summary": "Links de postulación / Diferentes flujos",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Martín Horn",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-3796",
         "summary": "Worpik / Permiso para editar video de una entrevista",
-        "status": "EN RELEVAMIENTO",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Martín Horn",
         "project": "BTP"
@@ -5326,7 +5383,7 @@
       {
         "key": "IT-22181",
         "summary": "Liverpool / Incluir la volumetria del pedido",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -5980,8 +6037,8 @@
       {
         "key": "IT-22655",
         "summary": "Reclamos / Permitir formato .heic en imagenes",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 8.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
       },
@@ -6100,7 +6157,7 @@
       {
         "key": "IT-20697",
         "summary": "Frontend / Reclamos / Permitir editar un reclamo desde el frontend",
-        "status": "En progreso",
+        "status": "ON HOLD",
         "story_points": 20.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6869,7 +6926,7 @@
       {
         "key": "IT-22346",
         "summary": "[Marketplace][MX][Amazon]",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 106.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -11714,6 +11771,14 @@
     "summary": "Worpik",
     "tasks": [
       {
+        "key": "BTP-3761",
+        "summary": "Worpik / Adicionar sección de ordenamiento en url publica",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Martín Horn",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-2326",
         "summary": "Revisión final",
         "status": "Por Hacer",
@@ -15984,7 +16049,7 @@
       {
         "key": "IT-22346",
         "summary": "[Marketplace][MX][Amazon]",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 106.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
