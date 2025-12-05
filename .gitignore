@@ -13,3 +13,5 @@ acciones_mkt.py
 jira_bt_issues.json
 otta.py
 reporting_tableau.py
+tableau_ottaviani.py
+update_sprint_name.py

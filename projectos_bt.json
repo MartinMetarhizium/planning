@@ -4,9 +4,25 @@
     "summary": "Service Desk",
     "tasks": [
       {
+        "key": "BTP-4037",
+        "summary": "Ventas con productos sin impactar",
+        "status": "ON PAUSE RELEVAMIENTO",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4031",
         "summary": "POC / Usar cupones en el checkout y que cierren en 0",
         "status": "TO REFINEMENT",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3978",
+        "summary": "Garantía parcial / Despiece automático",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -38,6 +54,30 @@
       {
         "key": "BTP-3957",
         "summary": "Garantías parciales en tiendas / Reintegro automático a Scrap",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3841",
+        "summary": "Liverpool - Facturación automática",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3800",
+        "summary": "MP IPN / Ingreso de pago en venta ya creada",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3672",
+        "summary": "Modal de firma y recepción en retiras en tienda",
         "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Thiago Cabrera",
@@ -246,7 +286,7 @@
       {
         "key": "BTP-3880",
         "summary": "Visualización estimada al cliente antes de concretar la compra (carrito o checkout).",
-        "status": "Por Hacer",
+        "status": "EN ARMADO DE PROPUESTA",
         "story_points": null,
         "assignee": "ivanalberghini",
         "project": "BTP"
@@ -254,7 +294,7 @@
       {
         "key": "IT-20386",
         "summary": "EXTRAVIOS - REINTEGROS - MEJORA MOVIMIENTO DE STOCK ",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -611,6 +651,14 @@
     "summary": "Rediseño web - Carestino",
     "tasks": [
       {
+        "key": "BTP-4077",
+        "summary": "Relevamiento sobre puntos pendientes de facturación en el nuevo checkout",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4003",
         "summary": "Optimización de rendimiento Home",
         "status": "Pendiente de estimación",
@@ -653,8 +701,8 @@
       {
         "key": "IT-22663",
         "summary": "New home / Relevamiento / Evaluación de performance",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 32.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
       },
@@ -985,8 +1033,8 @@
       },
       {
         "key": "BTP-3301",
-        "summary": "Documentación de los cambios",
-        "status": "EN ARMADO DE PROPUESTA",
+        "summary": "Ecommerce / Portal de gestiones / Documentación de los cambios",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
@@ -1080,7 +1128,7 @@
       {
         "key": "IT-22426",
         "summary": "Integracion via Api - Andesmar",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 16.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -6079,7 +6127,7 @@
         "summary": "Reclamos / Crear reclamo Orden - General - Logística",
         "status": "Pendiente de estimación",
         "story_points": null,
-        "assignee": "Sin asignar",
+        "assignee": "Alan Mori - Carestino",
         "project": "IT"
       },
       {
@@ -6157,7 +6205,7 @@
       {
         "key": "IT-20697",
         "summary": "Frontend / Reclamos / Permitir editar un reclamo desde el frontend",
-        "status": "ON HOLD",
+        "status": "STG TESTING",
         "story_points": 20.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6926,7 +6974,7 @@
       {
         "key": "IT-22346",
         "summary": "[Marketplace][MX][Amazon]",
-        "status": "CODE REVIEW",
+        "status": "ON HOLD",
         "story_points": 106.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -6950,7 +6998,7 @@
       {
         "key": "IT-22154",
         "summary": "[Marketplace][Liverpool] Agregar Publicación Manual",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -7548,7 +7596,7 @@
       {
         "key": "IT-20386",
         "summary": "EXTRAVIOS - REINTEGROS - MEJORA MOVIMIENTO DE STOCK ",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -15407,7 +15455,7 @@
       {
         "key": "IT-22190",
         "summary": "Error en conciliador / Regla de Mercado Pago Perú y Uruguay no funcionan",
-        "status": "In Improvement",
+        "status": "BACKLOG",
         "story_points": 4.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -16049,7 +16097,7 @@
       {
         "key": "IT-22346",
         "summary": "[Marketplace][MX][Amazon]",
-        "status": "CODE REVIEW",
+        "status": "ON HOLD",
         "story_points": 106.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -16073,7 +16121,7 @@
       {
         "key": "IT-22154",
         "summary": "[Marketplace][Liverpool] Agregar Publicación Manual",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
