@@ -4,6 +4,14 @@
     "summary": "Service Desk",
     "tasks": [
       {
+        "key": "BTP-4046",
+        "summary": "Nicox - Error alicuotas de retención de iibb de AGIP (Caba)",
+        "status": "RESUELTO POR BT",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4037",
         "summary": "Ventas con productos sin impactar",
         "status": "ON PAUSE RELEVAMIENTO",
@@ -6123,6 +6131,14 @@
         "project": "IT"
       },
       {
+        "key": "IT-22523",
+        "summary": "Reclamos / Frontend / Agregar fallas a un producto sin partes",
+        "status": "BACKLOG",
+        "story_points": 8.0,
+        "assignee": "Franco Lorenzo",
+        "project": "IT"
+      },
+      {
         "key": "IT-22520",
         "summary": "Reclamos / Crear reclamo Orden - General - Logística",
         "status": "Pendiente de estimación",
@@ -6205,7 +6221,7 @@
       {
         "key": "IT-20697",
         "summary": "Frontend / Reclamos / Permitir editar un reclamo desde el frontend",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 20.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"

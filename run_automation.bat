@@ -7,7 +7,6 @@ C:\Users\Martin\AppData\Local\Programs\Python\Python312\python.exe acciones.py
 C:\Users\Martin\AppData\Local\Programs\Python\Python312\python.exe otta.py
 C:\Users\Martin\AppData\Local\Programs\Python\Python312\python.exe reporting_tableau.py
 C:\Users\Martin\AppData\Local\Programs\Python\Python312\python.exe tableau_ottaviani.py
-C:\Users\Martin\AppData\Local\Programs\Python\Python312\python.exe update_sprint_name.py
 C:\Users\Martin\AppData\Local\Programs\Python\Python312\python.exe btp_project_management.py
 
 :: Obtener la fecha actual en formato YYYY-MM-DD
