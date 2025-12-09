@@ -302,7 +302,7 @@
       {
         "key": "IT-20386",
         "summary": "EXTRAVIOS - REINTEGROS - MEJORA MOVIMIENTO DE STOCK ",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -837,7 +837,7 @@
       {
         "key": "IT-20114",
         "summary": "Evaluación final rediseño Checkout",
-        "status": "REVIEW ON HOLD",
+        "status": "In Improvement",
         "story_points": 10.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1136,7 +1136,7 @@
       {
         "key": "IT-22426",
         "summary": "Integracion via Api - Andesmar",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 16.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -5413,6 +5413,14 @@
     "summary": "CAV - Carga automática de ventas",
     "tasks": [
       {
+        "key": "IT-22718",
+        "summary": "CAV CO - Error en computación de costos",
+        "status": "BACKLOG",
+        "story_points": 6.0,
+        "assignee": "Miguel Armentano",
+        "project": "IT"
+      },
+      {
         "key": "IT-22274",
         "summary": "CAV / Falabella FULL / Eliminar validación sobre el campo telefono",
         "status": "FINISH",
@@ -5423,7 +5431,7 @@
       {
         "key": "IT-22272",
         "summary": "CAV / ML / Separar ventas de acuerdo con el vendedor",
-        "status": "REVIEW ON HOLD",
+        "status": "FINISH",
         "story_points": 3.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -6157,7 +6165,7 @@
       {
         "key": "IT-21937",
         "summary": "Formularios Reclamos / Reclamos reiterados",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 6.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6229,7 +6237,7 @@
       {
         "key": "IT-20655",
         "summary": "Backend / Reclamos / Permitir editar un reclamo desde el frontend",
-        "status": "REVIEW ON HOLD",
+        "status": "REVIEW ON PAUSE",
         "story_points": 32.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7014,7 +7022,7 @@
       {
         "key": "IT-22154",
         "summary": "[Marketplace][Liverpool] Agregar Publicación Manual",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -7612,7 +7620,7 @@
       {
         "key": "IT-20386",
         "summary": "EXTRAVIOS - REINTEGROS - MEJORA MOVIMIENTO DE STOCK ",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -15220,7 +15228,7 @@
   },
   "BTP-2289": {
     "due_date": "2024-06-28",
-    "summary": "Nicox - Conciliador de cobros",
+    "summary": "Nicox",
     "tasks": [
       {
         "key": "BTP-2329",
@@ -15444,6 +15452,14 @@
     "due_date": "2023-12-29",
     "summary": "Conciliador de cobros",
     "tasks": [
+      {
+        "key": "BTP-4034",
+        "summary": "Conciliador / Los campos numéricos deberían forzar el formato de los datos que se ingresan a través del CSV",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
       {
         "key": "BTP-2040",
         "summary": "Revisión final",
@@ -16137,7 +16153,7 @@
       {
         "key": "IT-22154",
         "summary": "[Marketplace][Liverpool] Agregar Publicación Manual",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -16876,7 +16892,7 @@
   },
   "BTP-1226": {
     "due_date": "2023-06-30",
-    "summary": "Nicox - Conciliador de cobros",
+    "summary": "Nicox",
     "tasks": [
       {
         "key": "BTP-1272",
