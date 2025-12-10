@@ -20,17 +20,9 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4031",
-        "summary": "POC / Usar cupones en el checkout y que cierren en 0",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-3978",
         "summary": "Garantía parcial / Despiece automático",
-        "status": "PRODUCT BACKLOG",
+        "status": "Redefiniendo",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -38,55 +30,7 @@
       {
         "key": "BTP-3970",
         "summary": "Modificación del proceso de venta - Agregado automático de bolsas ",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-3960",
-        "summary": "Pedidos tienda / Validar stock al editar devoluciones",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-3958",
-        "summary": "Movimientos entre almacenes / Sacar almacén de EP",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-3957",
-        "summary": "Garantías parciales en tiendas / Reintegro automático a Scrap",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-3841",
-        "summary": "Liverpool - Facturación automática",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-3800",
-        "summary": "MP IPN / Ingreso de pago en venta ya creada",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-3672",
-        "summary": "Modal de firma y recepción en retiras en tienda",
-        "status": "PRODUCT BACKLOG",
+        "status": "EN ARMADO DE PROPUESTA",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -98,6 +42,62 @@
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
+      },
+      {
+        "key": "IT-22741",
+        "summary": "Pedidos tienda / Validar stock al editar devoluciones",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-22739",
+        "summary": "Garantías parciales en tiendas / Reintegro automático a Scrap",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-22737",
+        "summary": "POC / Usar cupones en el checkout y que cierren en 0",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-22734",
+        "summary": "Movimientos entre almacenes / Sacar almacén de EP",
+        "status": "BACKLOG",
+        "story_points": 1.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-22732",
+        "summary": "Modal de firma y recepción en retiras en tienda",
+        "status": "BACKLOG",
+        "story_points": 4.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-22730",
+        "summary": "MP IPN / Ingreso de pago en venta ya creada",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
+        "key": "IT-22726",
+        "summary": "Liverpool - Facturación automática",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Miguel Armentano",
+        "project": "IT"
       }
     ]
   },
@@ -302,7 +302,7 @@
       {
         "key": "IT-20386",
         "summary": "EXTRAVIOS - REINTEGROS - MEJORA MOVIMIENTO DE STOCK ",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -715,6 +715,14 @@
         "project": "IT"
       },
       {
+        "key": "IT-22610",
+        "summary": "New Home / Animaciones en la nueva página de inicio",
+        "status": "REVIEW ON HOLD",
+        "story_points": 10.0,
+        "assignee": "Franco Lorenzo",
+        "project": "IT"
+      },
+      {
         "key": "IT-22483",
         "summary": "Home page / Video / Agregar Thumbnail para visualización en bajos recursos",
         "status": "FINISH",
@@ -1042,7 +1050,7 @@
       {
         "key": "BTP-3301",
         "summary": "Ecommerce / Portal de gestiones / Documentación de los cambios",
-        "status": "PRODUCT BACKLOG",
+        "status": "Redefiniendo",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
@@ -1875,7 +1883,7 @@
       {
         "key": "BTP-3796",
         "summary": "Worpik / Permiso para editar video de una entrevista",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Martín Horn",
         "project": "BTP"
@@ -5439,7 +5447,7 @@
       {
         "key": "IT-22270",
         "summary": "CAV / Mercado Libre / Procesamiento de ventas con pagos diferentes al monto de la venta",
-        "status": "ON HOLD",
+        "status": "En progreso",
         "story_points": 7.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -6117,7 +6125,7 @@
       {
         "key": "IT-22651",
         "summary": "FIX / Reclamos / No se visualiza el o los productos reclamados",
-        "status": "BACKLOG",
+        "status": "ON HOLD",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6155,6 +6163,14 @@
         "project": "IT"
       },
       {
+        "key": "IT-22435",
+        "summary": "Reclamos / Backend / Cancelar reclamo del lado del cliente",
+        "status": "REVIEW ON HOLD",
+        "story_points": 4.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-21954",
         "summary": "Reclamos / Frontend / Continuar carga de datos de reclamos",
         "status": "BACKLOG",
@@ -6165,7 +6181,7 @@
       {
         "key": "IT-21937",
         "summary": "Formularios Reclamos / Reclamos reiterados",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 6.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6924,14 +6940,6 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-3875",
-        "summary": "[Marketplace][Mercadolibre][Promociones]",
-        "status": "Redefiniendo",
-        "story_points": null,
-        "assignee": "ivanalberghini",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-3874",
         "summary": "[Marketplace][MX][Mercadilibre Full][Precios][Stock]",
         "status": "Por Hacer",
@@ -6988,6 +6996,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-22750",
+        "summary": "[Marketplace][Mercadolibre][Promociones]",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
         "key": "IT-22518",
         "summary": "[Marketplace][Liverpool][Promociones]",
         "status": "BACKLOG",
@@ -7022,7 +7038,7 @@
       {
         "key": "IT-22154",
         "summary": "[Marketplace][Liverpool] Agregar Publicación Manual",
-        "status": "CODE REVIEW",
+        "status": "PENDING REVIEW",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -7620,7 +7636,7 @@
       {
         "key": "IT-20386",
         "summary": "EXTRAVIOS - REINTEGROS - MEJORA MOVIMIENTO DE STOCK ",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -15453,9 +15469,17 @@
     "summary": "Conciliador de cobros",
     "tasks": [
       {
-        "key": "BTP-4034",
+        "key": "BTP-4035",
         "summary": "Conciliador / Los campos numéricos deberían forzar el formato de los datos que se ingresan a través del CSV",
         "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4034",
+        "summary": "Conciliador / registro de MP que no concilian",
+        "status": "EN ARMADO DE PROPUESTA",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -16119,6 +16143,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-22750",
+        "summary": "[Marketplace][Mercadolibre][Promociones]",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
         "key": "IT-22518",
         "summary": "[Marketplace][Liverpool][Promociones]",
         "status": "BACKLOG",
@@ -16153,7 +16185,7 @@
       {
         "key": "IT-22154",
         "summary": "[Marketplace][Liverpool] Agregar Publicación Manual",
-        "status": "CODE REVIEW",
+        "status": "PENDING REVIEW",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
