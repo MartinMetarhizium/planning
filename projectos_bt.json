@@ -20,28 +20,36 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-3978",
+        "key": "IT-22809",
+        "summary": "CS / Dos pagos en la misma orden",
+        "status": "BACKLOG",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-22760",
         "summary": "Garantía parcial / Despiece automático",
-        "status": "Redefiniendo",
+        "status": "Pendiente de estimación",
         "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
       },
       {
-        "key": "BTP-3970",
+        "key": "IT-22757",
         "summary": "Modificación del proceso de venta - Agregado automático de bolsas ",
-        "status": "EN ARMADO DE PROPUESTA",
+        "status": "Pendiente de estimación",
         "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
       },
       {
-        "key": "BTP-3493",
+        "key": "IT-22756",
         "summary": "Ventas / Habilitar carga de archivos en ventas por configuración",
-        "status": "PRODUCT BACKLOG",
+        "status": "Pendiente de estimación",
         "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
       },
       {
         "key": "IT-22741",
@@ -86,8 +94,8 @@
       {
         "key": "IT-22730",
         "summary": "MP IPN / Ingreso de pago en venta ya creada",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 4.0,
         "assignee": "Luis Uran",
         "project": "IT"
       },
@@ -267,6 +275,14 @@
     "due_date": null,
     "summary": "Mejoras en Seguimiento y Tiempos de Entrega para Clientes",
     "tasks": [
+      {
+        "key": "BTP-4090",
+        "summary": "CLONE - Visualización estimada al cliente antes de concretar la compra (carrito o checkout).",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
       {
         "key": "BTP-4055",
         "summary": "Importación de datos de tiempos de entrega por localidad",
@@ -845,7 +861,7 @@
       {
         "key": "IT-20114",
         "summary": "Evaluación final rediseño Checkout",
-        "status": "In Improvement",
+        "status": "En progreso",
         "story_points": 10.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1117,6 +1133,14 @@
     "due_date": null,
     "summary": "Integraciones logisticas",
     "tasks": [
+      {
+        "key": "BTP-4032",
+        "summary": "Integrar Falabella a Logistica V2",
+        "status": "EN ARMADO DE PROPUESTA",
+        "story_points": null,
+        "assignee": "ivanalberghini",
+        "project": "BTP"
+      },
       {
         "key": "BTP-3420",
         "summary": "Prueba de concepto IT / Amazon / Creación de pedido easyShip y etiqueta",
@@ -1832,6 +1856,14 @@
     "due_date": "2025-06-30",
     "summary": "Worpik",
     "tasks": [
+      {
+        "key": "BTP-4083",
+        "summary": "Worpik - Categorización de permisos",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Martín Horn",
+        "project": "BTP"
+      },
       {
         "key": "BTP-4048",
         "summary": "Movimiento de entrevistas ",
@@ -5423,7 +5455,7 @@
       {
         "key": "IT-22718",
         "summary": "CAV CO - Error en computación de costos",
-        "status": "BACKLOG",
+        "status": "TO DEPLOY",
         "story_points": 6.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -5447,7 +5479,7 @@
       {
         "key": "IT-22270",
         "summary": "CAV / Mercado Libre / Procesamiento de ventas con pagos diferentes al monto de la venta",
-        "status": "En progreso",
+        "status": "ON PAUSE",
         "story_points": 7.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -6107,6 +6139,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-22657",
+        "summary": "Reclamos / Backend / Permitir formato .heic en imagenes",
+        "status": "BACKLOG",
+        "story_points": 4.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-22655",
         "summary": "Reclamos / Permitir formato .heic en imagenes",
         "status": "BACKLOG",
@@ -6117,7 +6157,7 @@
       {
         "key": "IT-22653",
         "summary": "Reclamos / Agregar un indicador cuando una venta tenga reclamos",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6125,7 +6165,7 @@
       {
         "key": "IT-22651",
         "summary": "FIX / Reclamos / No se visualiza el o los productos reclamados",
-        "status": "ON HOLD",
+        "status": "PENDING REVIEW",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6133,7 +6173,7 @@
       {
         "key": "IT-22649",
         "summary": "Reclamos / Cambiar estado a \"Pendiente\" cuando se transfiere de área",
-        "status": "BACKLOG",
+        "status": "STG TESTING",
         "story_points": 2.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6152,6 +6192,14 @@
         "status": "BACKLOG",
         "story_points": 8.0,
         "assignee": "Franco Lorenzo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-22521",
+        "summary": "Productos / Agregar box \"Fallas relacionadas\" a productos que no son partes",
+        "status": "TO DEPLOY",
+        "story_points": 4.0,
+        "assignee": "Alan Mori - Carestino",
         "project": "IT"
       },
       {
@@ -6181,7 +6229,7 @@
       {
         "key": "IT-21937",
         "summary": "Formularios Reclamos / Reclamos reiterados",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY",
         "story_points": 6.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6197,7 +6245,7 @@
       {
         "key": "IT-21933",
         "summary": "Formularios Reclamos | Cancelación automática de despachos",
-        "status": "ON HOLD",
+        "status": "CODE REVIEW",
         "story_points": 21.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6245,7 +6293,7 @@
       {
         "key": "IT-20697",
         "summary": "Frontend / Reclamos / Permitir editar un reclamo desde el frontend",
-        "status": "PENDING REVIEW",
+        "status": "REDEFINED",
         "story_points": 20.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6253,7 +6301,7 @@
       {
         "key": "IT-20655",
         "summary": "Backend / Reclamos / Permitir editar un reclamo desde el frontend",
-        "status": "REVIEW ON PAUSE",
+        "status": "REDEFINED",
         "story_points": 32.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6901,6 +6949,14 @@
     "due_date": "2025-09-30",
     "summary": "Training",
     "tasks": [
+      {
+        "key": "IT-22795",
+        "summary": "BI / Training - Test Nicox en LATAM",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
       {
         "key": "IT-22298",
         "summary": "Proyecto Módulo Training",
@@ -15401,6 +15457,14 @@
     "summary": "Normalización Payments",
     "tasks": [
       {
+        "key": "BTP-3635",
+        "summary": "Payments / Agregar traducciones al campo \"Status Details\"",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-2045",
         "summary": "Revisión final",
         "status": "RESUELTO POR BT",
@@ -15478,8 +15542,8 @@
       },
       {
         "key": "BTP-4034",
-        "summary": "Conciliador / registro de MP que no concilian",
-        "status": "EN ARMADO DE PROPUESTA",
+        "summary": "Conciliador / Conceptos financieros que se pueden configurar en las reglas de conciliación generan inconvenientes con las reglas de conciliación automáticas",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -15495,7 +15559,7 @@
       {
         "key": "IT-22608",
         "summary": "Error al importar archivo al conciliador - Argentina",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 16.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15511,7 +15575,7 @@
       {
         "key": "IT-22190",
         "summary": "Error en conciliador / Regla de Mercado Pago Perú y Uruguay no funcionan",
-        "status": "BACKLOG",
+        "status": "PENDING REVIEW",
         "story_points": 4.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -17010,6 +17074,14 @@
     "due_date": "2023-06-30",
     "summary": "Core de facturación",
     "tasks": [
+      {
+        "key": "BTP-3606",
+        "summary": "Facturación / Permitir la posibilidad de cargar facturas que se generan de forma externa",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
       {
         "key": "BTP-1256",
         "summary": "Revisión final",

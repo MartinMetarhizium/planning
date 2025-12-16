@@ -212,7 +212,7 @@ VALID_STATUSES_BT = {"Por Hacer"}
 
 
 MIN_PROJECT_RATIO = {
-    "Alan Mori - Carestino": 0.7,
+    "Alan Mori - Carestino": 1,
     "Franco Lorenzo": 0.5,
     "Gastón Ojeda": 0.0,
     "Miguel Armentano": 0.5,
