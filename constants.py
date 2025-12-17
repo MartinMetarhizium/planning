@@ -57,6 +57,7 @@ PROJECT_MAP = {
         "Operación de Finanzas": {"deadline": "2025-10-31", "progress": 0},
     },
     "ivanalberghini": {},
+    "Martín Horn": {},
     "Facundo Capua": {},
     "Default": {}
 }
@@ -201,11 +202,11 @@ PROJECT_MAP_BT = {
 
 from datetime import datetime, timedelta
 import datetime as dt
-DEFAULT_START_DATE = datetime(2025, 12, 8)  #año mes día
+DEFAULT_START_DATE = datetime(2025, 12, 22)  #año mes día
 DEFAULT_END_DATE = DEFAULT_START_DATE + timedelta(days=11)
 import pytz
 # 🕓 Rango de fechas a consultar
-DEFAULT_START_DATE_with_timezone = dt.datetime(2025, 12, 8, 0, 0, 0, tzinfo=pytz.UTC)
+DEFAULT_START_DATE_with_timezone = dt.datetime(2025, 12, 22, 0, 0, 0, tzinfo=pytz.UTC)
 DEFAULT_END_DATE_with_timezone = DEFAULT_START_DATE_with_timezone + dt.timedelta(days=11)
 VALID_STATUSES = {"BACKLOG", "REDEFINED", "RECHAZADO", "IN IMPROVEMENT"}
 VALID_STATUSES_BT = {"Por Hacer"}
@@ -221,6 +222,7 @@ MIN_PROJECT_RATIO = {
     "Facundo Capua":0.1,
     "Nicolas Pardo": 0.1,
     "ivanalberghini": 0.1,
+    "Martín Horn": 0.1,
 }
 
 MIN_BT_PROJECT_RATIO = {
@@ -253,6 +255,7 @@ DAILY_HOURS = {
     "Gastón Ojeda": 5,
     "Miguel Armentano": 5,
     "ivanalberghini": 6,
+    "Martín Horn": 6,
 }
 
 
@@ -269,7 +272,7 @@ MAIL_MAP = {
     "Luis Uran": "luisuran@biamex.com",
     "Diego Martin Gogorza": "diegogogorza@biamex.com",
     "Nicolas Pardo": "nicolaspardo@biamex.com",
-    "Martin Horn": "martinhorn@biamex.com",
+    "Martín Horn": "martinhorn@biamex.com",
     "Facundo Capua": "facundocapua@biamex.com",
     "Franco Lorenzo": "francolorenzo@biamex.com",
     "Alan Mori - Carestino": "alanmori@biamex.com",
