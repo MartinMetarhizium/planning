@@ -12,6 +12,14 @@
         "project": "BTP"
       },
       {
+        "key": "BTP-4081",
+        "summary": "Garantías totales / Envío automático de productos a Cuarentena",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4046",
         "summary": "Nicox - Error alicuotas de retención de iibb de AGIP (Caba)",
         "status": "RESUELTO POR BT",
@@ -22,7 +30,7 @@
       {
         "key": "BTP-4037",
         "summary": "Ventas con productos sin impactar",
-        "status": "ON PAUSE RELEVAMIENTO",
+        "status": "EN RELEVAMIENTO",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -126,7 +134,7 @@
       {
         "key": "IT-22726",
         "summary": "Liverpool - Facturación automática",
-        "status": "En progreso",
+        "status": "ON HOLD",
         "story_points": 32.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -1880,6 +1888,14 @@
     "due_date": "2025-06-30",
     "summary": "Worpik",
     "tasks": [
+      {
+        "key": "BTP-4109",
+        "summary": "Modificación del test de Excel por Google Sheets",
+        "status": "RESUELTO POR BT",
+        "story_points": null,
+        "assignee": "Martín Horn",
+        "project": "BTP"
+      },
       {
         "key": "BTP-4083",
         "summary": "Worpik - Categorización de permisos",
@@ -5503,7 +5519,7 @@
       {
         "key": "IT-22270",
         "summary": "CAV / Mercado Libre / Procesamiento de ventas con pagos diferentes al monto de la venta",
-        "status": "CODE REVIEW",
+        "status": "PENDING REVIEW",
         "story_points": 7.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -5511,7 +5527,7 @@
       {
         "key": "IT-22181",
         "summary": "Liverpool / Incluir la volumetria del pedido",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -6173,7 +6189,7 @@
       {
         "key": "IT-22657",
         "summary": "Reclamos / Backend / Permitir formato .heic en imagenes",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6205,7 +6221,7 @@
       {
         "key": "IT-22649",
         "summary": "Reclamos / Cambiar estado a \"Pendiente\" cuando se transfiere de área",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 2.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6293,7 +6309,7 @@
       {
         "key": "IT-21933",
         "summary": "Formularios Reclamos | Cancelación automática de despachos",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 21.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7142,7 +7158,7 @@
       {
         "key": "IT-22154",
         "summary": "[Marketplace][Liverpool] Agregar Publicación Manual",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -15607,7 +15623,7 @@
       {
         "key": "IT-22608",
         "summary": "Error al importar archivo al conciliador - Argentina",
-        "status": "STG TESTING",
+        "status": "TO DEPLOY QA",
         "story_points": 16.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15623,7 +15639,7 @@
       {
         "key": "IT-22190",
         "summary": "Error en conciliador / Regla de Mercado Pago Perú y Uruguay no funcionan",
-        "status": "REVIEW ON PAUSE",
+        "status": "TO DEPLOY QA",
         "story_points": 4.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -16297,7 +16313,7 @@
       {
         "key": "IT-22154",
         "summary": "[Marketplace][Liverpool] Agregar Publicación Manual",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
