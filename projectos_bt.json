@@ -12,6 +12,14 @@
         "project": "BTP"
       },
       {
+        "key": "BTP-4085",
+        "summary": "Error integracion - Mercadoenvios",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "ivanalberghini",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4081",
         "summary": "Garantías totales / Envío automático de productos a Cuarentena",
         "status": "PRODUCT BACKLOG",
@@ -30,7 +38,7 @@
       {
         "key": "BTP-4037",
         "summary": "Ventas con productos sin impactar",
-        "status": "EN RELEVAMIENTO",
+        "status": "ON PAUSE RELEVAMIENTO",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -86,8 +94,8 @@
       {
         "key": "IT-22741",
         "summary": "Pedidos tienda / Validar stock al editar devoluciones",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
@@ -126,7 +134,7 @@
       {
         "key": "IT-22730",
         "summary": "MP IPN / Ingreso de pago en venta ya creada",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 4.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -342,7 +350,7 @@
       {
         "key": "BTP-3880",
         "summary": "Visualización estimada al cliente antes de concretar la compra (carrito o checkout).",
-        "status": "EN ARMADO DE PROPUESTA",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "ivanalberghini",
         "project": "BTP"
@@ -1168,7 +1176,7 @@
       {
         "key": "BTP-4032",
         "summary": "Integrar Falabella a Logistica V2",
-        "status": "Rechazado",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "ivanalberghini",
         "project": "BTP"
@@ -15523,7 +15531,7 @@
       {
         "key": "BTP-3635",
         "summary": "Payments / Agregar traducciones al campo \"Status Details\"",
-        "status": "EN ARMADO DE PROPUESTA",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -15615,7 +15623,7 @@
       {
         "key": "IT-22833",
         "summary": "Conciliador / Conceptos financieros que se pueden configurar en las reglas de conciliación generan inconvenientes con las reglas de conciliación automáticas",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 6.0,
         "assignee": "Luis Uran",
         "project": "IT"
