@@ -14,7 +14,7 @@
       {
         "key": "BTP-4085",
         "summary": "Error integracion - Mercadoenvios",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "ivanalberghini",
         "project": "BTP"
@@ -46,7 +46,7 @@
       {
         "key": "BTP-4037",
         "summary": "Ventas con productos sin impactar",
-        "status": "ON PAUSE RELEVAMIENTO",
+        "status": "CANCELADO POR BT",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -62,7 +62,7 @@
       {
         "key": "IT-22830",
         "summary": "Movimientos entre almacenes / Error en visualización del Almacén de destino",
-        "status": "BACKLOG",
+        "status": "CODE REVIEW",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -358,7 +358,7 @@
       {
         "key": "BTP-3880",
         "summary": "Visualización estimada al cliente antes de concretar la compra (carrito o checkout).",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "ivanalberghini",
         "project": "BTP"
@@ -723,14 +723,6 @@
     "summary": "Rediseño web - Carestino",
     "tasks": [
       {
-        "key": "BTP-4077",
-        "summary": "Facturación / Checkout / Relevamiento sobre puntos pendientes de facturación en el nuevo checkout",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4003",
         "summary": "Optimización de rendimiento Home",
         "status": "Pendiente de estimación",
@@ -761,6 +753,14 @@
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
+      },
+      {
+        "key": "IT-22882",
+        "summary": "Facturación / Checkout / Relevamiento sobre puntos pendientes de facturación en el nuevo checkout",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Miguel Armentano",
+        "project": "IT"
       },
       {
         "key": "IT-22665",
@@ -1106,7 +1106,7 @@
       {
         "key": "BTP-4123",
         "summary": "Backend / Pasar selección de producctos a paso 1",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
@@ -6187,14 +6187,6 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-3897",
-        "summary": "Documentación de automatizaciones propuestas",
-        "status": "Por Hacer",
-        "story_points": null,
-        "assignee": "Joaquin Fernandez - Carestino",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-3896",
         "summary": "Relevamiento de automatizaciones propuestas",
         "status": "Por Hacer",
@@ -6209,6 +6201,14 @@
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
+      },
+      {
+        "key": "IT-22884",
+        "summary": "Gestiones / Documentación de automatizaciones propuestas",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
       },
       {
         "key": "IT-22698",
@@ -6237,7 +6237,7 @@
       {
         "key": "IT-22653",
         "summary": "Reclamos / Agregar un indicador cuando una venta tenga reclamos",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6245,7 +6245,7 @@
       {
         "key": "IT-22651",
         "summary": "FIX / Reclamos / No se visualiza el o los productos reclamados",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6261,7 +6261,7 @@
       {
         "key": "IT-22647",
         "summary": "Reclamos / Optimización en el uso del módulo",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 1.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6293,7 +6293,7 @@
       {
         "key": "IT-22520",
         "summary": "Reclamos / Crear reclamo Orden - General - Logística",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 5.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -15555,7 +15555,7 @@
       {
         "key": "BTP-3635",
         "summary": "Payments / Agregar traducciones al campo \"Status Details\"",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -15655,7 +15655,7 @@
       {
         "key": "IT-22608",
         "summary": "Error al importar archivo al conciliador - Argentina",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 16.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15671,7 +15671,7 @@
       {
         "key": "IT-22190",
         "summary": "Error en conciliador / Regla de Mercado Pago Perú y Uruguay no funcionan",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -17171,9 +17171,17 @@
     "summary": "Core de facturación",
     "tasks": [
       {
+        "key": "BTP-4071",
+        "summary": "Ventas sin factura y que NO se encuentran en la tabla carestinoventas_pre_invoice_data_order ",
+        "status": "TO REFINEMENT",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-3606",
         "summary": "Facturación / Permitir la posibilidad de cargar facturas que se generan de forma externa",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
