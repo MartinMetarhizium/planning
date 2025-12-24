@@ -4,35 +4,11 @@
     "summary": "Service Desk",
     "tasks": [
       {
-        "key": "BTP-4097",
-        "summary": "Ordenes de baja / Hacer obligatorio el campo Descripción de la falla",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4085",
         "summary": "Error integracion - Mercadoenvios",
-        "status": "TO REFINEMENT",
+        "status": "Redefiniendo",
         "story_points": null,
         "assignee": "ivanalberghini",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4084",
-        "summary": "Mejoras Reclamos",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "ivanalberghini",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4081",
-        "summary": "Garantías totales / Envío automático de productos a Cuarentena",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
         "project": "BTP"
       },
       {
@@ -52,6 +28,30 @@
         "project": "BTP"
       },
       {
+        "key": "IT-22926",
+        "summary": "Gestiones / Visualizar en logística V2 solamente los reclamos logísticos",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-22917",
+        "summary": "Garantías totales / Envío automático de productos a Cuarentena",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-22915",
+        "summary": "Ordenes de baja / Hacer obligatorio el campo Descripción de la falla",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-22835",
         "summary": "Checkout / Modal de reutilización de cupón",
         "status": "Pendiente de estimación",
@@ -62,7 +62,7 @@
       {
         "key": "IT-22830",
         "summary": "Movimientos entre almacenes / Error en visualización del Almacén de destino",
-        "status": "CODE REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -78,8 +78,8 @@
       {
         "key": "IT-22760",
         "summary": "Garantía parcial / Despiece automático",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 21.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
@@ -110,8 +110,8 @@
       {
         "key": "IT-22739",
         "summary": "Garantías parciales en tiendas / Reintegro automático a Scrap",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
@@ -909,7 +909,7 @@
       {
         "key": "IT-20114",
         "summary": "Evaluación final rediseño Checkout",
-        "status": "PENDING REVIEW",
+        "status": "REVIEWING",
         "story_points": 10.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1190,9 +1190,17 @@
     "summary": "Integraciones logisticas",
     "tasks": [
       {
+        "key": "BTP-4140",
+        "summary": "Integrar Liverpool a Logística V2",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "ivanalberghini",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4032",
         "summary": "Integrar Falabella a Logistica V2",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "ivanalberghini",
         "project": "BTP"
@@ -1224,7 +1232,7 @@
       {
         "key": "IT-22426",
         "summary": "Integracion via Api - Andesmar",
-        "status": "REDEFINED",
+        "status": "BACKLOG",
         "story_points": 16.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -2087,6 +2095,14 @@
         "story_points": null,
         "assignee": "Martín Horn",
         "project": "BTP"
+      },
+      {
+        "key": "IT-22816",
+        "summary": "Worpik | Variable indefinida $canSeePersonalData",
+        "status": "BACKLOG",
+        "story_points": 3.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
       },
       {
         "key": "IT-22341",
@@ -5525,6 +5541,14 @@
     "summary": "CAV - Carga automática de ventas",
     "tasks": [
       {
+        "key": "IT-22919",
+        "summary": "CAV / Liverpool",
+        "status": "BACKLOG",
+        "story_points": 7.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
         "key": "IT-22718",
         "summary": "CAV CO - Error en computación de costos",
         "status": "FINISH",
@@ -5551,7 +5575,7 @@
       {
         "key": "IT-22270",
         "summary": "CAV / Mercado Libre / Procesamiento de ventas con pagos diferentes al monto de la venta",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 7.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -6203,6 +6227,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-22921",
+        "summary": "Reclamos / Incorporar fecha límite para solicitar un reclamo",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-22884",
         "summary": "Gestiones / Documentación de automatizaciones propuestas",
         "status": "Pendiente de estimación",
@@ -6293,7 +6325,7 @@
       {
         "key": "IT-22520",
         "summary": "Reclamos / Crear reclamo Orden - General - Logística",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 5.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7048,7 +7080,7 @@
       {
         "key": "IT-22795",
         "summary": "BI / Training - Test Nicox en LATAM",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -8442,6 +8474,14 @@
     "due_date": "2025-08-15",
     "summary": "Worpik",
     "tasks": [
+      {
+        "key": "IT-22816",
+        "summary": "Worpik | Variable indefinida $canSeePersonalData",
+        "status": "BACKLOG",
+        "story_points": 3.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
       {
         "key": "IT-22341",
         "summary": "Worpik / Modificación de mail",
@@ -12027,6 +12067,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-22816",
+        "summary": "Worpik | Variable indefinida $canSeePersonalData",
+        "status": "BACKLOG",
+        "story_points": 3.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-22341",
         "summary": "Worpik / Modificación de mail",
         "status": "FINISH",
@@ -15555,7 +15603,7 @@
       {
         "key": "BTP-3635",
         "summary": "Payments / Agregar traducciones al campo \"Status Details\"",
-        "status": "TO REFINEMENT",
+        "status": "Redefiniendo",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -15629,20 +15677,36 @@
     "summary": "Conciliador de cobros",
     "tasks": [
       {
-        "key": "BTP-4035",
-        "summary": "Conciliador / Los campos numéricos deberían forzar el formato de los datos que se ingresan a través del CSV",
-        "status": "Rechazado",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-2040",
         "summary": "Revisión final",
         "status": "RESUELTO POR BT",
         "story_points": null,
         "assignee": "Alan Fernandez",
         "project": "BTP"
+      },
+      {
+        "key": "IT-22907",
+        "summary": "Conciliador / Los campos numéricos deberían forzar el formato de los datos que se ingresan a través del CSV",
+        "status": "BACKLOG",
+        "story_points": 4.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
+        "key": "IT-22905",
+        "summary": "Falabella & Liverpool / Agregarlos como entidades para conciliación",
+        "status": "BACKLOG",
+        "story_points": 5.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
+        "key": "IT-22900",
+        "summary": "Conciliación / PE / Regla \"MP Tradicional con CFT\" arroja un error de SQL en new relic y no permite avanzar",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Luis Uran",
+        "project": "IT"
       },
       {
         "key": "IT-22833",
@@ -17170,22 +17234,6 @@
     "due_date": "2023-06-30",
     "summary": "Core de facturación",
     "tasks": [
-      {
-        "key": "BTP-4071",
-        "summary": "Ventas sin factura y que NO se encuentran en la tabla carestinoventas_pre_invoice_data_order ",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-3606",
-        "summary": "Facturación / Permitir la posibilidad de cargar facturas que se generan de forma externa",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
       {
         "key": "BTP-1256",
         "summary": "Revisión final",
