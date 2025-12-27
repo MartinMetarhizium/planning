@@ -6365,7 +6365,7 @@
       {
         "key": "IT-21954",
         "summary": "Reclamos / Frontend / Continuar carga de datos de reclamos",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 24.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
