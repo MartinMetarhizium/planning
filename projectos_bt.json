@@ -38,7 +38,7 @@
       {
         "key": "BTP-4085",
         "summary": "Error integracion - Mercadoenvios",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "ivanalberghini",
         "project": "BTP"
@@ -58,6 +58,30 @@
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
+      },
+      {
+        "key": "BTP-4002",
+        "summary": "Formulario de ventas / Permisos para cambiar TIENDA y precio unitario",
+        "status": "TO REFINEMENT",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3836",
+        "summary": "Amazon / No listar ventas eliminadas",
+        "status": "TO REFINEMENT",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "IT-22963",
+        "summary": "CS / MODIFICACION ALICUOTA DE PERCEPCION - CHACO",
+        "status": "BACKLOG",
+        "story_points": null,
+        "assignee": "Miguel Armentano",
+        "project": "IT"
       },
       {
         "key": "IT-22926",
@@ -94,7 +118,7 @@
       {
         "key": "IT-22830",
         "summary": "Movimientos entre almacenes / Error en visualización del Almacén de destino",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -174,7 +198,7 @@
       {
         "key": "IT-22730",
         "summary": "MP IPN / Ingreso de pago en venta ya creada",
-        "status": "CODE REVIEW",
+        "status": "PENDING REVIEW",
         "story_points": 4.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -290,7 +314,7 @@
       {
         "key": "BTP-3913",
         "summary": "Relevamiento de Apis para la actualización",
-        "status": "Por Hacer",
+        "status": "EN ARMADO DE PROPUESTA",
         "story_points": null,
         "assignee": "ivanalberghini",
         "project": "BTP"
@@ -357,7 +381,7 @@
     "tasks": [
       {
         "key": "BTP-4090",
-        "summary": "CLONE - Visualización estimada al cliente antes de concretar la compra (carrito o checkout).",
+        "summary": "Front / Visualización estimada al cliente antes de concretar la compra",
         "status": "Por Hacer",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
@@ -797,7 +821,7 @@
       {
         "key": "IT-22665",
         "summary": "New Home / Frontend / Mejoras v3 propuestas por Planeamiento Estratégico",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 6.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1288,7 +1312,7 @@
       {
         "key": "IT-22426",
         "summary": "Integracion via Api - Andesmar",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 16.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -5597,17 +5621,25 @@
     "summary": "CAV - Carga automática de ventas",
     "tasks": [
       {
+        "key": "IT-22986",
+        "summary": "Liverpool / Crear liverpool_upload_price_order.php",
+        "status": "BACKLOG",
+        "story_points": 24.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
         "key": "IT-22957",
         "summary": "Liverpool / Obtener documentos de la orden",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "En progreso",
+        "story_points": 12.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
       },
       {
         "key": "IT-22956",
         "summary": "FIX / Liverpool / declared_value = 0 y cron procese ordenes waiting_acceptance",
-        "status": "En progreso",
+        "status": "ON HOLD",
         "story_points": 4.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -5615,7 +5647,7 @@
       {
         "key": "IT-22919",
         "summary": "CAV / Liverpool",
-        "status": "BACKLOG",
+        "status": "CODE REVIEW",
         "story_points": 7.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -5647,7 +5679,7 @@
       {
         "key": "IT-22270",
         "summary": "CAV / Mercado Libre / Procesamiento de ventas con pagos diferentes al monto de la venta",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 7.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -6405,7 +6437,7 @@
       {
         "key": "IT-22437",
         "summary": "Reclamos / Frontend / Cancelar reclamo del lado del cliente",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 8.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -7188,6 +7220,14 @@
     "summary": "Marketplace",
     "tasks": [
       {
+        "key": "BTP-4125",
+        "summary": "Falabella / CRON que evite las ventas duplicadas",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4016",
         "summary": "Publicaciones de catálogo - Mercado Libre",
         "status": "EN RELEVAMIENTO",
@@ -7294,7 +7334,7 @@
       {
         "key": "IT-22154",
         "summary": "[Marketplace][Liverpool] Agregar Publicación Manual",
-        "status": "REVIEW ON PAUSE",
+        "status": "TO DEPLOY QA",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -16481,7 +16521,7 @@
       {
         "key": "IT-22154",
         "summary": "[Marketplace][Liverpool] Agregar Publicación Manual",
-        "status": "REVIEW ON PAUSE",
+        "status": "TO DEPLOY QA",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
