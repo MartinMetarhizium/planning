@@ -4,11 +4,11 @@
     "summary": "Service Desk",
     "tasks": [
       {
-        "key": "BTP-4159",
-        "summary": "Relevamiento / Errores en new relic en el webhook de Amazon",
+        "key": "BTP-4163",
+        "summary": "Carestino Dominicana / Insertar Scripts de Google tag Manager en settings",
         "status": "PRODUCT BACKLOG",
         "story_points": null,
-        "assignee": "Mauricio Reinhardt",
+        "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
       },
       {
@@ -74,6 +74,22 @@
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
+      },
+      {
+        "key": "IT-23004",
+        "summary": "Relevamiento / Errores en new relic en el webhook de Amazon",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
+        "key": "IT-22997",
+        "summary": "Relevamiento / Listado de MercadoLibre / Ventas pendientes que no se listan",
+        "status": "BACKLOG",
+        "story_points": 4.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
       },
       {
         "key": "IT-22963",
@@ -198,7 +214,7 @@
       {
         "key": "IT-22730",
         "summary": "MP IPN / Ingreso de pago en venta ya creada",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 4.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -779,6 +795,14 @@
     "summary": "Rediseño web - Carestino",
     "tasks": [
       {
+        "key": "BTP-4164",
+        "summary": "Novedades / Agregar selección de posicionamiento vertical",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4003",
         "summary": "Optimización de rendimiento Home",
         "status": "Pendiente de estimación",
@@ -821,7 +845,7 @@
       {
         "key": "IT-22665",
         "summary": "New Home / Frontend / Mejoras v3 propuestas por Planeamiento Estratégico",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 6.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -829,7 +853,7 @@
       {
         "key": "IT-22663",
         "summary": "New home / Relevamiento / Evaluación de performance",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 32.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1312,7 +1336,7 @@
       {
         "key": "IT-22426",
         "summary": "Integracion via Api - Andesmar",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 16.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -5631,7 +5655,7 @@
       {
         "key": "IT-22957",
         "summary": "Liverpool / Obtener documentos de la orden",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 12.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -5647,7 +5671,7 @@
       {
         "key": "IT-22919",
         "summary": "CAV / Liverpool",
-        "status": "CODE REVIEW",
+        "status": "PENDING REVIEW",
         "story_points": 7.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -6290,6 +6314,22 @@
     "due_date": "2025-12-31",
     "summary": "Gestiones",
     "tasks": [
+      {
+        "key": "BTP-4166",
+        "summary": "Reclamos / Gestiones / Crear módulo de Solicitud de reembolso",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Sin asignar",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4165",
+        "summary": "Reclamos / Gestiones / Crear módulo de Solicitud de etiquetas logísticas",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Sin asignar",
+        "project": "BTP"
+      },
       {
         "key": "BTP-3903",
         "summary": "Pruebas",
@@ -7220,14 +7260,6 @@
     "summary": "Marketplace",
     "tasks": [
       {
-        "key": "BTP-4125",
-        "summary": "Falabella / CRON que evite las ventas duplicadas",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4016",
         "summary": "Publicaciones de catálogo - Mercado Libre",
         "status": "EN RELEVAMIENTO",
@@ -7290,6 +7322,14 @@
         "story_points": null,
         "assignee": "Juan Ignacio Morelis - Carestino",
         "project": "BTP"
+      },
+      {
+        "key": "IT-23002",
+        "summary": "Falabella / CRON que evite las ventas duplicadas",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
       },
       {
         "key": "IT-22750",
@@ -15559,6 +15599,14 @@
     "summary": "Nicox",
     "tasks": [
       {
+        "key": "BTP-4107",
+        "summary": "Productos / Permitir opción vacía al replicar campo \"Acción Comercial\"",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-2329",
         "summary": "Revisión final",
         "status": "Por Hacer",
@@ -15713,6 +15761,14 @@
     "summary": "Normalización Payments",
     "tasks": [
       {
+        "key": "BTP-3992",
+        "summary": "Payments / Agregar traducciones al campo \"Status Details\"",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-3635",
         "summary": "Payments / Agregar traducciones al campo \"Status Details\"",
         "status": "Redefiniendo",
@@ -15799,7 +15855,7 @@
       {
         "key": "IT-22907",
         "summary": "Conciliador / Los campos numéricos deberían forzar el formato de los datos que se ingresan a través del CSV",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 4.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15823,7 +15879,7 @@
       {
         "key": "IT-22833",
         "summary": "Conciliador / Conceptos financieros que se pueden configurar en las reglas de conciliación generan inconvenientes con las reglas de conciliación automáticas",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 6.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -16477,6 +16533,14 @@
         "story_points": null,
         "assignee": "Alan Fernandez",
         "project": "BTP"
+      },
+      {
+        "key": "IT-23002",
+        "summary": "Falabella / CRON que evite las ventas duplicadas",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
       },
       {
         "key": "IT-22750",
