@@ -1,0 +1,606 @@
+view_id,view_name,content_url,workbook_id,workbook_name,project_name
+cc8edf2a-922b-4ceb-847a-f3f0f79eab09,ALERTA_GASTOS_MAL_IMPUTADOS,TESTReporteGastosSAP/sheets/ALERTA_GASTOS_MAL_IMPUTADOS,b656974b-7378-47bd-8387-d2867e42e57c,,
+6afc69da-3f7d-4f66-b816-735cb76e4e45,ALERTA_PPTO_MAL_IMPUTADO,TESTReporteGastosvsBudgetv4/sheets/ALERTA_PPTO_MAL_IMPUTADO,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+1b584dc6-f6d3-46fe-8bd1-bc9262fb0c22,Alerta Carga de ventas LATAM,TESTCargaautomaticadeventas_17353217070830/sheets/AlertaCargadeventasLATAM,acd5a92f-9e20-4ec7-bdab-c3792008e5f1,,
+4a3c59eb-3f8e-4fe7-8bf4-385ce7f54a37,Alerta Carga de ventas LATAM,TESTCargaautomaticadeventas_17362811863680/sheets/AlertaCargadeventasLATAM,2882a829-e2b2-4817-8197-789737a9f492,,
+b5ac5f3d-3238-4704-8adf-17bfe21eec2d,Conciliacion_Pagos_LATAM,TESTLATAMNicoxPaymentsV2/sheets/Conciliacion_Pagos_LATAM,b8303710-142f-4282-8abf-bcc280b35e8a,,
+a568b9ff-3fe8-4f1e-82af-dc417e667af8,CxP Detalle,TESTReporteGastosSAP/sheets/CxPDetalle,b656974b-7378-47bd-8387-d2867e42e57c,,
+c48bdf4b-889e-4416-bbba-2dd66494e5f7,FIN_A&D,TESTReporteGastosvsBudgetv4/sheets/FIN_AD,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+13dae0d5-9297-47db-8be5-455d4ab41440,FIN_AC,TESTReporteGastosvsBudgetv4/sheets/FIN_AC,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+2a9c502b-ae70-4d9d-846c-5d75083086e6,FIN_ADP v2,TESTReporteGastosvsBudgetv4/sheets/FIN_ADPv2,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+e759bdd8-8b3b-4e98-bc12-512a86468884,FIN_ALERTA_AGING,TESTReporteGastosSAP/sheets/FIN_ALERTA_AGING,b656974b-7378-47bd-8387-d2867e42e57c,,
+8bf3bdfa-9bb2-4e9c-a2c6-fa7536869c35,FIN_AQT,TESTReporteGastosvsBudgetv4/sheets/FIN_AQT,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+8e791c65-59bd-4ec9-915e-94d010bd9e20,FIN_AYP,TESTReporteGastosvsBudgetv4/sheets/FIN_AYP,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+c42244c2-14fa-492e-849f-373ea51d16f0,FIN_AyC_CF,PruebaNuevaBaseEERRv2/sheets/FIN_AyC_CF,9e75feee-d0e9-430b-a466-3d62bc1bfbaa,,
+4931053e-c329-4fbd-8e32-305e4b4280df,FIN_AyC_Distribución,PruebaNuevaBaseEERRv2/sheets/FIN_AyC_Distribucin,9e75feee-d0e9-430b-a466-3d62bc1bfbaa,,
+03188ba1-496a-426d-b342-7c5befeda446,FIN_AyC_Payments,PruebaNuevaBaseEERRv2/sheets/FIN_AyC_Payments,9e75feee-d0e9-430b-a466-3d62bc1bfbaa,,
+fc5d4d11-20bb-44be-9401-ba576111c2ed,FIN_AyC_SAP,PruebaNuevaBaseEERRv2/sheets/FIN_AyC_SAP,9e75feee-d0e9-430b-a466-3d62bc1bfbaa,,
+d80d2a67-8cb9-4344-a443-4d7d9696f99b,FIN_AyC_Valores,PruebaNuevaBaseEERRv2/sheets/FIN_AyC_Valores,9e75feee-d0e9-430b-a466-3d62bc1bfbaa,,
+8e70c56f-018e-456c-b7ec-d31a649aa981,FIN_BI,TESTReporteGastosvsBudgetv4/sheets/FIN_BI,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+b6c34e34-7226-4eba-9bef-2d322d1b73b8,FIN_BT,TESTReporteGastosvsBudgetv4/sheets/FIN_BT,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+68ec4180-f11b-4d7c-b3ec-da2f750370a2,FIN_C&I v2,TESTReporteGastosvsBudgetv4/sheets/FIN_CIv2,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+00b4efbb-a159-4f96-a9de-f5d926b23d7f,FIN_C&L,TESTReporteGastosvsBudgetv4/sheets/FIN_CL,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+b0805a1c-0f61-426c-9831-8e0be38c7f99,FIN_COM,TESTReporteGastosvsBudgetv4/sheets/FIN_COM,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+08727745-54b4-4ee5-9a63-1cb749b21eb2,FIN_COMEX,TESTReporteGastosvsBudgetv4/sheets/FIN_COMEX,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+b3e9536f-eb38-49bb-a04c-c9d455912b62,FIN_CX,TESTReporteGastosvsBudgetv4/sheets/FIN_CX,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+62719c59-ba8e-4481-a40a-252bd8d2e615,FIN_Comparativo_Gastos_SAP_x_Cuenta - JDT,TESTReporteGastosSAP/sheets/FIN_Comparativo_Gastos_SAP_x_Cuenta-JDT,b656974b-7378-47bd-8387-d2867e42e57c,,
+3bedcde2-318c-4d75-9c17-8aadadfcc0cd,FIN_DIS,TESTReporteGastosvsBudgetv4/sheets/FIN_DIS,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+19b51c36-e8a7-488d-a29f-71d7350015c7,FIN_EERR,PruebaNuevaBaseEERRv2/sheets/FIN_EERR,9e75feee-d0e9-430b-a466-3d62bc1bfbaa,,
+77e74c6e-b6ba-4d4a-a99f-a19a26efe4fd,FIN_Evolutivo_Gastos_SAP_x_Cuenta - JDT,TESTReporteGastosSAP/sheets/FIN_Evolutivo_Gastos_SAP_x_Cuenta-JDT,b656974b-7378-47bd-8387-d2867e42e57c,,
+ba529790-7b81-46c1-95ec-406aa6b467d1,FIN_FG,TESTReporteGastosvsBudgetv4/sheets/FIN_FG,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+790cc911-58f9-419a-8ed4-bc09ec8c991b,FIN_FIN/LOG,TESTReporteGastosvsBudgetv4/sheets/FIN_FINLOG,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+a0500a6b-e8fa-4f03-a8d5-75b9a1686e97,FIN_GvsPPTO_CANAL_YTD,TESTReporteGastosvsBudgetv4/sheets/FIN_GvsPPTO_CANAL_YTD,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+d6f08ed1-fcf3-4b5e-b6c1-85df80a8bcbf,FIN_GvsPPTO_EST_YTD,TESTReporteGastosvsBudgetv4/sheets/FIN_GvsPPTO_EST_YTD,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+cd645af9-9ae0-4b1a-8f85-d2e4efae03f6,FIN_GvsPPTO_TOTAL_YTD,TESTReporteGastosvsBudgetv4/sheets/FIN_GvsPPTO_TOTAL_YTD,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+bd65e355-f5e8-49dc-99ac-37dcc5d90a55,FIN_I&T,TESTReporteGastosvsBudgetv4/sheets/FIN_IT_1,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+c621b228-20aa-4811-afa5-c34991885ef9,FIN_IT,TESTReporteGastosvsBudgetv4/sheets/FIN_IT,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+9f5f148f-1508-4694-93a7-3959b2162ddd,FIN_LOG,TESTReporteGastosvsBudgetv4/sheets/FIN_LOG,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+f98c8117-7515-445a-9d6d-0576df60b514,FIN_MAN,TESTReporteGastosvsBudgetv4/sheets/FIN_MAN,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+2e389aa5-627f-4c00-b947-f7787020b3de,FIN_MKTD,TESTReporteGastosvsBudgetv4/sheets/FIN_MKTD,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+b8b88c1e-6a50-4c52-a955-5d17bbd4e6ff,FIN_OG,TESTReporteGastosvsBudgetv4/sheets/FIN_OG,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+5e7b8796-f5f3-4c38-bd8e-a53a1abf1d4d,FIN_OPERACIONES,TESTReporteGastosvsBudgetv4/sheets/FIN_OPERACIONES,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+085a0e34-ca4d-4ac5-ade7-7277efddefe4,FIN_PA,TESTReporteGastosvsBudgetv4/sheets/FIN_PA,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+1aeda97b-b27d-46a3-97da-4f1372969726,FIN_PL,TESTReporteGastosvsBudgetv4/sheets/FIN_PL,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+f4f68255-20dc-46fb-a7da-bc17a069c15b,FIN_PLAN,TESTReporteGastosvsBudgetv4/sheets/FIN_PLAN,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+84dfdbce-59b8-4df2-a099-92119d77b2f9,FIN_PPTO_MAL_IMPUTADOS,TESTReporteGastosvsBudgetv4/sheets/FIN_PPTO_MAL_IMPUTADOS,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+b1ff01f0-1f20-4209-aadd-a608d95342c0,FIN_PR,TESTReporteGastosvsBudgetv4/sheets/FIN_PR,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+6d8a0de0-13ce-49bc-bea3-fc40c0c72ecc,FIN_REC,TESTReporteGastosvsBudgetv4/sheets/FIN_REC,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+4dedcb52-da1b-425d-b70f-ca225ba9db7a,FIN_REPORTE_GASTOS_SAP_LATAM,TESTReporteGastosSAPLATAM/sheets/FIN_REPORTE_GASTOS_SAP_LATAM,32d573b8-2c36-483a-84e6-915a4e0f7ed8,,
+d3150aca-32e8-4da0-80f0-167bc673555c,FIN_RETAIL,TESTReporteGastosvsBudgetv4/sheets/FIN_RETAIL,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+2afc7ff1-0a54-44a8-bf5c-213fae725142,FIN_SEG,TESTReporteGastosvsBudgetv4/sheets/FIN_SEG,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+76a669a3-bcd9-44c7-a6c0-991d10bc8088,FIN_SG,TESTReporteGastosvsBudgetv4/sheets/FIN_SG,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+b667a1d8-d69e-42a0-a60d-1b5c30f2ed11,FIN_SSGG,TESTReporteGastosvsBudgetv4/sheets/FIN_SSGG,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+ab4f2540-26ac-4b97-91f8-dc7538550d83,FIN_TESO,TESTReporteGastosvsBudgetv4/sheets/FIN_TESO,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+df7ce1ec-fc37-4423-a3c5-9da9c651d269,FIN_TRA,TESTReporteGastosvsBudgetv4/sheets/FIN_TRA,dec29327-9b27-4d1b-8247-8c02c8f1cee5,,
+e223eee5-cdd6-4c5f-b7f9-0de6b83fd3cf,FIN_Validacion_Gastos,PruebaNuevaBaseEERRv2/sheets/FIN_Validacion_Gastos,9e75feee-d0e9-430b-a466-3d62bc1bfbaa,,
+454665c6-f51a-4cfa-b357-1b7400023747,FIN_Validacion_Ventas/CMV,PruebaNuevaBaseEERRv2/sheets/FIN_Validacion_VentasCMV,9e75feee-d0e9-430b-a466-3d62bc1bfbaa,,
+16c51afd-3b53-4fba-b0e6-08fd186a2394,Reporte_Rendido_Tiendas_LATAM,TESTLATAMNicoxPaymentsV2/sheets/Reporte_Rendido_Tiendas_LATAM,b8303710-142f-4282-8abf-bcc280b35e8a,,
+26338f55-f1e3-4821-b70a-942a3880c82b,Resumen carga de ventas LATAM,TESTCargaautomaticadeventas_17353217070830/sheets/ResumencargadeventasLATAM,acd5a92f-9e20-4ec7-bdab-c3792008e5f1,,
+55ee37a8-310f-465a-8248-64977ad66b54,Resumen carga de ventas LATAM,TESTCargaautomaticadeventas_17362811863680/sheets/ResumencargadeventasLATAM,2882a829-e2b2-4817-8197-789737a9f492,,
+3add3e38-7675-4398-8744-099ed83cda3d,Revisión Imputaciones x Trans Id,TESTReporteGastosSAP/sheets/RevisinImputacionesxTransId,b656974b-7378-47bd-8387-d2867e42e57c,,
+86bc27db-8a02-4848-8ba1-8059fddb52fc,Tablero carga de ventas,TESTCargaautomaticadeventas_17353217070830/sheets/Tablerocargadeventas,acd5a92f-9e20-4ec7-bdab-c3792008e5f1,,
+a0891831-48f3-4c56-b346-286d6d324838,FIN_ABM_ARTICULOS_SAP,ABMsSAPLATAM-PlandecuentasCentrosdeCosto/sheets/FIN_ABM_ARTICULOS_SAP,19e1dc1c-a640-436a-a42c-8650c8deb2c0,ABM's SAP LATAM,Estado de Resultados
+b8bd29a7-7fa5-4e72-957a-f2528a91b0ae,FIN_ABM_CECO_SAP,ABMsSAPLATAM-PlandecuentasCentrosdeCosto/sheets/FIN_ABM_SAP,19e1dc1c-a640-436a-a42c-8650c8deb2c0,ABM's SAP LATAM,Estado de Resultados
+333eeda4-3d4c-4b5f-a6c1-e49bfbbf4679,FIN_ABM_PROVEEDORES_SAP,ABMsSAPLATAM-PlandecuentasCentrosdeCosto/sheets/FIN_ABM_PROVEEDORES_SAP,19e1dc1c-a640-436a-a42c-8650c8deb2c0,ABM's SAP LATAM,Estado de Resultados
+be8c651d-47bb-4a13-b48e-291f621afb56,FIN_PLAN_DE_CUENTAS_LATAM,ABMsSAPLATAM-PlandecuentasCentrosdeCosto/sheets/FIN_PLAN_DE_CUENTAS_LATAM,19e1dc1c-a640-436a-a42c-8650c8deb2c0,ABM's SAP LATAM,Estado de Resultados
+bde9aab8-ec7a-4bf8-8fe4-87bb23c9a924,AR_Queu,AR-CXFlujo-5/sheets/AR_Queu,ecde6922-22f0-47b8-978c-5bde6c8381a2,AR - CX Flujo,AR
+47a97053-cf44-4961-838c-abbc2d5ce7f5,Asesores,AR-CXFlujo-5/sheets/Asesores,ecde6922-22f0-47b8-978c-5bde6c8381a2,AR - CX Flujo,AR
+745b0731-ddc5-417b-8a98-4a157d6d7d25,Canales,AR-CXFlujo-5/sheets/Canales,ecde6922-22f0-47b8-978c-5bde6c8381a2,AR - CX Flujo,AR
+296e91f5-dba1-457e-8eef-452b174a78b6,Casos Esperados,AR-CXFlujo-5/sheets/CasosEsperados,ecde6922-22f0-47b8-978c-5bde6c8381a2,AR - CX Flujo,AR
+eede47ab-7e5f-4187-927e-c88038f7e965,Cola_Chats,AR-CXFlujo-5/sheets/Cola_Chats,ecde6922-22f0-47b8-978c-5bde6c8381a2,AR - CX Flujo,AR
+2e186986-f64a-475c-9e74-3e364397323f,Cola_Chats_MEliREDES,AR-CXFlujo-5/sheets/Cola_Chats_MEliREDES,ecde6922-22f0-47b8-978c-5bde6c8381a2,AR - CX Flujo,AR
+7d5bfa39-4f8e-44f3-9c8b-b5df7ea8ceef,Cola_Chats_MEliREDES (3),AR-CXFlujo-5/sheets/Cola_Chats_MEliREDES3,ecde6922-22f0-47b8-978c-5bde6c8381a2,AR - CX Flujo,AR
+e371a374-1e51-4b19-a64f-1bbe9ccfeec6,Cola_Chats_MEliREDES (4),AR-CXFlujo-5/sheets/Cola_Chats_MEliREDES4,ecde6922-22f0-47b8-978c-5bde6c8381a2,AR - CX Flujo,AR
+937d2f35-b433-4143-bff3-45d0d8761abf,Cola_Chats_MEliREDES (5),AR-CXFlujo-5/sheets/Cola_Chats_MEliREDES5,ecde6922-22f0-47b8-978c-5bde6c8381a2,AR - CX Flujo,AR
+cf311892-eb2b-47d3-8b9f-06b06de97f52,Cola_Chats_RedesTelefono (2),AR-CXFlujo-5/sheets/Cola_Chats_RedesTelefono2,ecde6922-22f0-47b8-978c-5bde6c8381a2,AR - CX Flujo,AR
+2629f5dd-93c6-4cc8-82e0-db614ee59f5e,Comentario,AR-CXFlujo-5/sheets/Comentario,ecde6922-22f0-47b8-978c-5bde6c8381a2,AR - CX Flujo,AR
+9fc9cf1c-59dd-40ef-8682-2722b5829fe4,Hoja 1 (2),AR-CXFlujo-5/sheets/Hoja12,ecde6922-22f0-47b8-978c-5bde6c8381a2,AR - CX Flujo,AR
+3534a2f0-581d-4550-bfef-08c68930e9d1,Hoja 12,AR-CXFlujo-5/sheets/Hoja12_1,ecde6922-22f0-47b8-978c-5bde6c8381a2,AR - CX Flujo,AR
+530d5f2f-c170-49cd-927d-81fb4569d757,Hoja 18,AR-CXFlujo-5/sheets/Hoja18,ecde6922-22f0-47b8-978c-5bde6c8381a2,AR - CX Flujo,AR
+6967105b-553d-4983-acf9-3b01d43c4016,Hoja 19,AR-CXFlujo-5/sheets/Hoja19,ecde6922-22f0-47b8-978c-5bde6c8381a2,AR - CX Flujo,AR
+aa258293-fbc9-4351-a27b-86ee998b08c8,Hoja 2 (2),AR-CXFlujo-5/sheets/Hoja22,ecde6922-22f0-47b8-978c-5bde6c8381a2,AR - CX Flujo,AR
+4c8a4a80-d7de-4ec7-992b-7734a6ac77a1,Hoja 22,AR-CXFlujo-5/sheets/Hoja22_1,ecde6922-22f0-47b8-978c-5bde6c8381a2,AR - CX Flujo,AR
+f1ed50ad-e2f3-4a7a-a0c6-46a0f6f0955b,Hoja 3,AR-CXFlujo-5/sheets/Hoja3,ecde6922-22f0-47b8-978c-5bde6c8381a2,AR - CX Flujo,AR
+31c48a97-ab93-4ec8-a801-e280da45b254,INT/CASOS,AR-CXFlujo-5/sheets/INTCASOS,ecde6922-22f0-47b8-978c-5bde6c8381a2,AR - CX Flujo,AR
+d4665fbb-edcd-4b40-90e4-a35bae0905dd,INT/CASOS (2),AR-CXFlujo-5/sheets/INTCASOS2,ecde6922-22f0-47b8-978c-5bde6c8381a2,AR - CX Flujo,AR
+10e5d1c0-5f04-4adb-9f09-ecd7669ce853,[ALERTA]Cola_V2,AR-CXFlujo-5/sheets/ALERTACola_V2,ecde6922-22f0-47b8-978c-5bde6c8381a2,AR - CX Flujo,AR
+ba7f8000-cbdf-4991-b5f6-dafdae094ac8,[ALERTA]Tiempos_asignacion,AR-CXFlujo-5/sheets/ALERTATiempos_asignacion,ecde6922-22f0-47b8-978c-5bde6c8381a2,AR - CX Flujo,AR
+ceabccc8-bdcd-4a29-87c5-c2e4f052db58,Resumen  Casos,CX_Priorizacion_Casos_v3/sheets/ResumenCasos,3bacb32d-dcc6-4028-9139-d86d422daf83,AR - CX Priorizacion Casos,AR
+3747ddea-5de1-4d66-a7a2-321047ac917a,ACTIV_ARG_TM,Activ_ARG_TM/sheets/ACTIV_ARG_TM,183dd41f-7bfc-4422-92a5-8de3c10d1670,Activ_ARG_TM,AR TM
+85ff4bbd-5f31-4644-8052-05ac53092886,ACTIV_ARG_TT,Activ_ARG_TT/sheets/ACTIV_ARG_TT,35f0f5b7-1ed5-41b0-8c7e-6c5e689d2d48,Activ_ARG_TT,AR TT
+2d755404-d359-4bed-9260-dc40d5678ed8,ACTIV_EC-PE-UY,Activ_EC-PE-UY/sheets/ACTIV_EC-PE-UY,255372f4-56a0-41c2-a229-1547d7897445,Activ_EC-PE-UY,ECPEUY
+8f090a8e-dba8-48f7-86ee-0b061189d9d0,ACTIV_MX-CO,Activ_MX-CO/sheets/ACTIV_MX-CO,647ca431-6f3b-4380-bbe4-ca3aecdfeb1c,Activ_MX-CO,MXCO
+82ffb3cd-ffff-4aff-ac3f-39d04d16271e,ACTIV_PY-PA-CL,Activ_PY-PA-CL/sheets/ACTIV_PY-PA-CL,ed9eaea2-15d1-418f-976e-c89f16f899ff,Activ_PY-PA-CL,PYPACL
+6450de9b-11cb-45b9-a60b-a90bdcb1b1b6,ACTIVIDAD_ARG_TM,Actividad_Wise_ARG_TM/sheets/ACTIVIDAD_ARG_TM,f58b5db0-d3a7-4d59-a125-c4e2ddd4b23c,Actividad_Wise_ARG_TM,AR TM
+4b1fc96c-788f-498f-a5ce-395e68112fc1,ACTIVIDAD_ARG_TT,Actividad_Wise_ARG_TT/sheets/ACTIVIDAD_ARG_TT,88193376-c7bd-4f42-b47f-6ba66d774585,Actividad_Wise_ARG_TT,AR TT
+fd9347a9-901a-460f-88b7-91b281899898,ACTIVIDAD_EC_PE_UY,Actividad_Wise_EC_PE_UY/sheets/ACTIVIDAD_EC_PE_UY,7e8e5397-3ff4-4593-af91-c0514501217b,Actividad_Wise_EC_PE_UY,ECPEUY
+e3e3c0b1-38ea-4ea8-b057-93c685cabc05,ACTIVIDAD_MX_CO,Actividad_Wise_MX_Co/sheets/ACTIVIDAD_MX_CO,aa07df6a-8bf4-4acc-bd4f-fb7944609d8f,Actividad_Wise_MX_CO,MXCO
+1016b0bc-892d-44b5-975a-d3ed18210ea5,ACTIVIDAD_PY_PA_CL,Actividad_Wise_PY_PA_CL/sheets/ACTIVIDAD_PY_PA_CL,1bff110c-e4ea-4a14-913b-6fd0fc19b908,Actividad_Wise_PY_PA_CL,PYPACL
+5d9b8b6b-4bdd-4f9a-ae1b-59313f50bfd8,Resumen diario - Domingo - Alerta,activ_2/sheets/Resumendiario-Domingo-Alerta,af88aac2-74dc-422f-a190-f37080b6a206,Activtrack AR,ActivTrack AR
+b8471727-de65-449b-b949-70673740f6bc,Resumen diario - Sábado - Alerta,activ_2/sheets/Resumendiario-Sbado-Alerta,af88aac2-74dc-422f-a190-f37080b6a206,Activtrack AR,ActivTrack AR
+cc207588-e00c-41ec-9c70-b98538d7539a,Resumen diario - TM - Alerta,activ_2/sheets/Resumendiario-TM-Alerta,af88aac2-74dc-422f-a190-f37080b6a206,Activtrack AR,ActivTrack AR
+5f493202-f502-4d46-9b80-f982fe4d85a3,Resumen diario - TT - Alerta,activ_2/sheets/Resumendiario-TT-Alerta,af88aac2-74dc-422f-a190-f37080b6a206,Activtrack AR,ActivTrack AR
+cd2a8d8a-2436-4c6b-83da-50aa2f649866,Resumen mensual,activ_2/sheets/Resumenmensual,af88aac2-74dc-422f-a190-f37080b6a206,Activtrack AR,ActivTrack AR
+71ab8093-7932-4fe9-92ae-ed499ee940d0,Alan_Mori,Alan_Mori_Semanal_IT_V2/sheets/Alan_Mori,8ec50fda-ec7a-417c-a331-5555154a247d,Alan_Mori_Semanal_IT_V2,IT Reportes Semanales - Productividad
+70c84de7-3736-4352-ad17-abecd13cf843,Resumen diario  - Alerta,AlertasActivTrackEC_PE_UY/sheets/Resumendiario-Alerta,16673956-b3bf-4530-aafa-bfa50124ebc6,Alertas ActivTrack EC_PE_UY,ActivTrack EC_PE_UY
+1bc49e45-639d-4b36-92fd-03b4ed73e36d,Resumen diario  - Alerta,AlertasActivTrackMX_CO_CR/sheets/Resumendiario-Alerta,f1a8f74a-c099-41bc-b425-f6b32057ea1e,Alertas ActivTrack MX_CO_CR,ActivTrack MX_CO_CR
+e5765b98-7a93-4cfe-aaef-9495e763f979,Resumen diario  - Alerta,AlertasActivTrack_16717271995620/sheets/Resumendiario-Alerta,43d6b42c-e901-4d68-9950-9aa17027347d,Alertas ActivTrack PY_PA_CL,ActivTrack PY_PA_CL
+9bc310ea-7516-4ed8-aa6c-b27d8d8761e1,FIN_Análisis_Portal_BT,Anlisis_PortalBT/sheets/FIN_Anlisis_Portal_BT,8073dfea-ce2a-4f1a-a6e5-c28ab12adb7c,Análisis_Portal BT,Sistemas y tecnología
+08dd342d-c652-4b27-976f-23519518ecaf,Hoja 1,BICamposReglasConciliacion/sheets/Hoja1,d21c2806-fabe-4eaa-b0f5-3ee9ca66a4be,BI | Campos Reglas Conciliacion,Validaciones
+1c070cd1-c090-4f53-b8c1-00ba8a617da3,Hoja 1,BTErrorCronPagosMP/sheets/Hoja1,94eba2b7-fe13-4ead-963f-3003a9443c07,BT | Error Cron Pagos MP,Validaciones
+756751ab-bc9c-47c5-ac26-08234adac6b9,Sheet 1,BTMPPagosCancelados-Stock/sheets/Sheet1,f815f123-ecf5-40bd-8811-25da47ad47a5,BT | MP Pagos Cancelados - Stock,Validaciones
+5802017d-219c-4dc2-ab1f-721be5bfe98f,Sheet 1 (2),BTMPPagosCancelados-Stock/sheets/Sheet12,f815f123-ecf5-40bd-8811-25da47ad47a5,BT | MP Pagos Cancelados - Stock,Validaciones
+2c4ddfda-03d1-44d2-ad60-4e025e41b0c9,No Procesadas,BTOrdenestiendadiferencia/sheets/NoProcesadas,2fbc08bf-5bc9-424b-96f6-56f76110a50f,BT | Ordenes tienda diferencia,Validaciones
+fc192cbd-8986-4135-9b26-3577128d663b,Procesadas,BTOrdenestiendadiferencia/sheets/Procesadas,2fbc08bf-5bc9-424b-96f6-56f76110a50f,BT | Ordenes tienda diferencia,Validaciones
+bb7f9962-4a5a-4855-b6b2-4ae1cf3b26d2,FIN_MAP_INTERACTION,BTReporteMapInteractions/sheets/FIN_MAP_INTERACTION,8d079ce1-2070-45f1-85fa-b1caeec7b6a8,BT | Reporte Map Interactions,Validaciones
+ced5c40a-a53b-4aef-8ac0-d3c93e0b6511,Bamboo_Validation,BTSeguimientoBamboo/sheets/Bamboo_Validation,31288e47-6db9-4d41-bca8-dadeaba6b7d1,BT | Seguimiento Bamboo,Validaciones
+df05a277-635c-4984-b436-8860a3003904,Fiserv_Validation,BTSeguimientoFiserv/sheets/Fiserv_Validation,fdbfee59-cdb4-4041-b840-9b5fde205921,BT | Seguimiento Fiserv,Validaciones
+e65190e2-db7d-4b5d-a890-bba8563598f3,Hoja 2,BTSeguimientoFiserv/sheets/Hoja2,fdbfee59-cdb4-4041-b840-9b5fde205921,BT | Seguimiento Fiserv,Validaciones
+4e234acd-3c89-49f1-9ef8-527595fa7256,FIN_Validacion,Libro1/sheets/FIN_Validacion,68a92ce4-1364-4131-930c-4fb68bf14971,BT | Validacion Ventas -3,Validaciones
+db26d8b2-8aeb-4617-bdee-74f5486971c9,Sheet 1,BTVentas-3NORESERVA30dasdesdecarga/sheets/Sheet1,aa02fa1f-56fb-43f4-8fed-b8829048ad17,BT | Ventas -3 NO RESERVA +30 días desde carga,Validaciones
+99d8c301-2213-4f2b-a3b6-7affa6f9b7b7,FIN_CAV_LOGS,CAV_RegistrosNoCargados/sheets/FIN_CAV_LOGS,4ef4ce80-056b-4873-8702-abca02b1aa8b,CAV_Registros No Cargados,Sistemas y tecnología
+84d88062-7b6e-45d5-8535-f54945b1d6a3,FIN_REPORTE_CAV_LOGS,CAV_RegistrosNoCargados/sheets/FIN_REPORTE_CAV_LOGS,4ef4ce80-056b-4873-8702-abca02b1aa8b,CAV_Registros No Cargados,Sistemas y tecnología
+a3af2ede-4c53-4172-8cc8-685a6a02b98d,Resumen  Casos,CHPYPA-CXPriorizacionCasos_V4/sheets/ResumenCasos,2b38c7c0-435e-49be-8a2a-86e831a18561,CH PY PA - CX Priorizacion Casos_V4,PYPACL
+c6fcc32e-c89d-44d7-ad7c-59809c3da2aa,Resumen  Casos_sinasignar,CHPYPA-CXPriorizacionCasos_V4/sheets/ResumenCasos_sinasignar,2b38c7c0-435e-49be-8a2a-86e831a18561,CH PY PA - CX Priorizacion Casos_V4,PYPACL
+f9f32cd9-51e2-49b0-bb85-bcda33fe808f,Resumen  Casos_solourgentes,CHPYPA-CXPriorizacionCasos_V4/sheets/ResumenCasos_solourgentes,2b38c7c0-435e-49be-8a2a-86e831a18561,CH PY PA - CX Priorizacion Casos_V4,PYPACL
+e66ee700-f8fa-4209-9790-0634d25fc47e,FIN_CSV_Facturas,TESTCSVFacturasyPercepcionesAR/sheets/FIN_CSV_Facturas,1fa30f2a-6346-405e-9267-4bcc820869e9,CSV Facturas y Percepciones AR,Facturacion
+26c4cc40-ec1e-4add-9b11-83f3d9919042,FIN_CSV_Percepciones,TESTCSVFacturasyPercepcionesAR/sheets/FIN_CSV_Percepciones,1fa30f2a-6346-405e-9267-4bcc820869e9,CSV Facturas y Percepciones AR,Facturacion
+88893a9f-5035-4bc7-ac13-8827138c374a,Alerta asignacion-General,CX_Wise_Chats_v3-CH-PY-PA/sheets/Alertaasignacion-General,62575ffd-d165-4217-a896-7fc16a3bbfcb,CX_Wise_Chats_CL/PY/PA,CX Wise Chat OUT
+8642c40b-e4e7-443c-a444-c39d569ddc44,Casos Cerrados General,CX_Wise_Chats_v3-CH-PY-PA/sheets/CasosCerradosGeneral,62575ffd-d165-4217-a896-7fc16a3bbfcb,CX_Wise_Chats_CL/PY/PA,CX Wise Chat OUT
+40d03185-39c5-4a37-ae41-95ffef036c68,Cierre de turno,CX_Wise_Chats_v3-CH-PY-PA/sheets/Cierredeturno,62575ffd-d165-4217-a896-7fc16a3bbfcb,CX_Wise_Chats_CL/PY/PA,CX Wise Chat OUT
+11dd7f9f-2a5e-4de0-bd7a-af925727f630,ClientesAtendidosHoraCC,CX_Wise_Chats_v3-CH-PY-PA/sheets/ClientesAtendidosHoraCC,62575ffd-d165-4217-a896-7fc16a3bbfcb,CX_Wise_Chats_CL/PY/PA,CX Wise Chat OUT
+8a6d537f-4076-452e-9956-78412f355acc,ClientesAtendidosHoraSC,CX_Wise_Chats_v3-CH-PY-PA/sheets/ClientesAtendidosHoraSC,62575ffd-d165-4217-a896-7fc16a3bbfcb,CX_Wise_Chats_CL/PY/PA,CX Wise Chat OUT
+19dd2cde-6967-45fa-8c6a-a279103eb525,Evolucion Cola General,CX_Wise_Chats_v3-CH-PY-PA/sheets/EvolucionColaGeneral,62575ffd-d165-4217-a896-7fc16a3bbfcb,CX_Wise_Chats_CL/PY/PA,CX Wise Chat OUT
+2405c00d-1c83-4deb-a4e1-c381517cc3b8,Fichadas General,CX_Wise_Chats_v3-CH-PY-PA/sheets/FichadasGeneral,62575ffd-d165-4217-a896-7fc16a3bbfcb,CX_Wise_Chats_CL/PY/PA,CX Wise Chat OUT
+af97d34b-1f28-42cc-897b-6971f4f5d876,Flujo de casos,CX_Wise_Chats_v3-CH-PY-PA/sheets/Flujodecasos,62575ffd-d165-4217-a896-7fc16a3bbfcb,CX_Wise_Chats_CL/PY/PA,CX Wise Chat OUT
+1802f735-2b58-4b85-b23a-96520e228e1f,ResumenActividad General,CX_Wise_Chats_v3-CH-PY-PA/sheets/ResumenActividadGeneral_1,62575ffd-d165-4217-a896-7fc16a3bbfcb,CX_Wise_Chats_CL/PY/PA,CX Wise Chat OUT
+dc9df737-feca-4322-9a84-baf8c1068b1f,ResumenGeneral,CX_Wise_Chats_v3-CH-PY-PA/sheets/ResumenGeneral,62575ffd-d165-4217-a896-7fc16a3bbfcb,CX_Wise_Chats_CL/PY/PA,CX Wise Chat OUT
+4063e221-8af8-4864-aa38-6be6d7173c8d,Tiempo interaccion,CX_Wise_Chats_v3-CH-PY-PA/sheets/Tiempointeraccion,62575ffd-d165-4217-a896-7fc16a3bbfcb,CX_Wise_Chats_CL/PY/PA,CX Wise Chat OUT
+3f24b65a-1b28-4c28-ae76-db0009c78347,Alerta asignacion-General,CX_Wise_Chats_EC-PE-UY/sheets/Alertaasignacion-General,c75dfa7c-120f-482b-8955-ba6e979a2fc5,CX_Wise_Chats_EC/PE/UY,CX Wise Chat OUT
+d189b245-895a-4744-acec-8f117c9a007b,Casos Cerrados General,CX_Wise_Chats_EC-PE-UY/sheets/CasosCerradosGeneral,c75dfa7c-120f-482b-8955-ba6e979a2fc5,CX_Wise_Chats_EC/PE/UY,CX Wise Chat OUT
+b890c036-0e13-4132-b7a2-02b504bdd579,Cierre de turno,CX_Wise_Chats_EC-PE-UY/sheets/Cierredeturno,c75dfa7c-120f-482b-8955-ba6e979a2fc5,CX_Wise_Chats_EC/PE/UY,CX Wise Chat OUT
+98ed67dc-d1f0-440d-a390-8a2f4406316a,ClientesAtendidosHoraCC,CX_Wise_Chats_EC-PE-UY/sheets/ClientesAtendidosHoraCC,c75dfa7c-120f-482b-8955-ba6e979a2fc5,CX_Wise_Chats_EC/PE/UY,CX Wise Chat OUT
+0b6ecbe5-4c30-4162-a9a7-793617f4a1c0,ClientesAtendidosHoraSC,CX_Wise_Chats_EC-PE-UY/sheets/ClientesAtendidosHoraSC,c75dfa7c-120f-482b-8955-ba6e979a2fc5,CX_Wise_Chats_EC/PE/UY,CX Wise Chat OUT
+70763557-d4f4-48e2-9e2d-c6ac6250f000,Evolucion Cola General,CX_Wise_Chats_EC-PE-UY/sheets/EvolucionColaGeneral,c75dfa7c-120f-482b-8955-ba6e979a2fc5,CX_Wise_Chats_EC/PE/UY,CX Wise Chat OUT
+9ff506e1-add6-4fd1-a9fe-e2fa937146f9,Fichadas General,CX_Wise_Chats_EC-PE-UY/sheets/FichadasGeneral,c75dfa7c-120f-482b-8955-ba6e979a2fc5,CX_Wise_Chats_EC/PE/UY,CX Wise Chat OUT
+030b87d4-1f5f-4149-a929-f5ce6f55b69f,Flujo de casos,CX_Wise_Chats_EC-PE-UY/sheets/Flujodecasos,c75dfa7c-120f-482b-8955-ba6e979a2fc5,CX_Wise_Chats_EC/PE/UY,CX Wise Chat OUT
+a29fa586-c5cd-4a73-90c1-732607a37bbd,ResumenActividad General,CX_Wise_Chats_EC-PE-UY/sheets/ResumenActividadGeneral,c75dfa7c-120f-482b-8955-ba6e979a2fc5,CX_Wise_Chats_EC/PE/UY,CX Wise Chat OUT
+a7b4fd72-7daf-4cf0-be2a-4c89f755ff94,ResumenGeneral,CX_Wise_Chats_EC-PE-UY/sheets/ResumenGeneral,c75dfa7c-120f-482b-8955-ba6e979a2fc5,CX_Wise_Chats_EC/PE/UY,CX Wise Chat OUT
+36efba1e-69e2-4c84-a423-32747a1b4fe3,Tiempo interaccion,CX_Wise_Chats_EC-PE-UY/sheets/Tiempointeraccion,c75dfa7c-120f-482b-8955-ba6e979a2fc5,CX_Wise_Chats_EC/PE/UY,CX Wise Chat OUT
+274b4ecf-5b29-41f8-92df-6d48756b0409,Alerta asignacion-General,CX_Wise_Chats_MX-COV2/sheets/Alertaasignacion-General,9e570532-759d-4404-b7b3-fddcec93f33f,CX_Wise_Chats_MX/CO,CX Wise Chat OUT
+46891ed6-60e3-4156-a1ed-a1a3eacc5cea,Casos Cerrados General,CX_Wise_Chats_MX-COV2/sheets/CasosCerradosGeneral,9e570532-759d-4404-b7b3-fddcec93f33f,CX_Wise_Chats_MX/CO,CX Wise Chat OUT
+c26f4140-12e1-4ca3-923d-303a300948a8,Cierre de turno,CX_Wise_Chats_MX-COV2/sheets/Cierredeturno,9e570532-759d-4404-b7b3-fddcec93f33f,CX_Wise_Chats_MX/CO,CX Wise Chat OUT
+8de1dda2-4bbe-4f24-9211-33ba8fd9c48d,ClientesAtendidosHoraCC,CX_Wise_Chats_MX-COV2/sheets/ClientesAtendidosHoraCC,9e570532-759d-4404-b7b3-fddcec93f33f,CX_Wise_Chats_MX/CO,CX Wise Chat OUT
+5da242c1-b3b8-45a9-ae33-ec5886c7dcb8,ClientesAtendidosHoraSC,CX_Wise_Chats_MX-COV2/sheets/ClientesAtendidosHoraSC,9e570532-759d-4404-b7b3-fddcec93f33f,CX_Wise_Chats_MX/CO,CX Wise Chat OUT
+057a7876-7638-4394-8be5-301780035352,Evolucion Cola General,CX_Wise_Chats_MX-COV2/sheets/EvolucionColaGeneral,9e570532-759d-4404-b7b3-fddcec93f33f,CX_Wise_Chats_MX/CO,CX Wise Chat OUT
+4a841c88-1ef6-472e-a43c-35a0e66287d0,Fichadas General,CX_Wise_Chats_MX-COV2/sheets/FichadasGeneral,9e570532-759d-4404-b7b3-fddcec93f33f,CX_Wise_Chats_MX/CO,CX Wise Chat OUT
+cea02ef6-5bf3-4d28-8596-a97605be7597,Flujo de casos,CX_Wise_Chats_MX-COV2/sheets/Flujodecasos,9e570532-759d-4404-b7b3-fddcec93f33f,CX_Wise_Chats_MX/CO,CX Wise Chat OUT
+5fa2a734-5e43-4e7f-9074-83f2fca76490,ResumenActividad General,CX_Wise_Chats_MX-COV2/sheets/ResumenActividadGeneral,9e570532-759d-4404-b7b3-fddcec93f33f,CX_Wise_Chats_MX/CO,CX Wise Chat OUT
+4c384b1d-dd94-4050-9de7-000df6b44043,ResumenGeneral,CX_Wise_Chats_MX-COV2/sheets/ResumenGeneral,9e570532-759d-4404-b7b3-fddcec93f33f,CX_Wise_Chats_MX/CO,CX Wise Chat OUT
+e90524e7-bc57-44cf-addb-e58cd9b77a91,Tiempo interaccion,CX_Wise_Chats_MX-COV2/sheets/Tiempointeraccion,9e570532-759d-4404-b7b3-fddcec93f33f,CX_Wise_Chats_MX/CO,CX Wise Chat OUT
+dd1547ed-bee9-498d-99b3-46645b16f2ca,Carrito_Abandonado_Global,CarritoAbandonadov2/sheets/Carrito_Abandonado_Global,d04c4531-de72-42d4-bfc7-2ff03e0f8e2f,Carrito Abandonado,
+a7e6e116-3e72-49e2-94fb-9ae4e452c7fa,Resumen GLOBAL (3),CarritoAbandonadov2/sheets/ResumenGLOBAL3,d04c4531-de72-42d4-bfc7-2ff03e0f8e2f,Carrito Abandonado,
+b715e34c-dec5-43f7-9a37-a0a4e5573bcb,FIN_Changelog_OC,Changelogs_OrdenesdeCompra/sheets/FIN_Changelog_OC,590f78a7-c0e3-4673-ad99-a4a460f03a2b,Changelogs_Ordenes de Compra,Sistemas y tecnología
+bd1346bc-39b3-4767-b51b-c0845468d7fb,Analitico LATAM,TESTCheckingAccountMinoristasLATAMV2/sheets/AnaliticoLATAM2,7d4ec549-63b2-43d8-a92a-bd573e9c49d6,Checking Account Minoristas LATAM V2,Checking Account
+ea5add07-7822-455d-8f89-f250b96c726a,FIN_ALERTA_2,TESTCheckingAccountMinoristasLATAMV2/sheets/FIN_ALERTA_2,7d4ec549-63b2-43d8-a92a-bd573e9c49d6,Checking Account Minoristas LATAM V2,Checking Account
+2d956028-b844-4208-a25a-2b757c913b75,FIN_CA_LATAM,TESTCheckingAccountMinoristasLATAMV2/sheets/FIN_CA_LATAM,7d4ec549-63b2-43d8-a92a-bd573e9c49d6,Checking Account Minoristas LATAM V2,Checking Account
+2a85c337-e850-4c69-ba95-72077ab491cc,Tablero_Cuentas_May_20,TESTCheckingAccountMinoristasLATAMV2/sheets/FIN_ALERTA_1,7d4ec549-63b2-43d8-a92a-bd573e9c49d6,Checking Account Minoristas LATAM V2,Checking Account
+1e7da02d-f6b6-48df-9476-c904ea04b281,Hoja 1,ClaimLATAMV2/sheets/Hoja1,2fce2bb4-1428-4fa3-bf60-909302085436,Claim LATAM V2,Validaciones
+31f2e057-6a7b-4ad4-83ef-fa651c459b46,FIN_CONCI_MP,TESTConciliacionMP/sheets/FIN_CONCI_MP,bcb69ea2-f7de-4878-81f7-b6d7b200288d,Conciliacion MP,Payments
+26656ed7-0ad9-4c5c-91f0-b5461efc0b50,FIN_CONCILIACION_ANALITICO,TESTConciliacinUnificada/sheets/FIN_CONCILIACION_ANALITICO,c9130bbe-4cfd-4e17-9dee-14da246afb61,Conciliación Unificada,Payments
+dfee23f0-3ce6-41b7-917b-92d445b4238e,FIN_CONCILIADOS_UNIFICADOS,TESTConciliacinUnificada/sheets/FIN_CONCILIADOS_UNIFICADOS,c9130bbe-4cfd-4e17-9dee-14da246afb61,Conciliación Unificada,Payments
+fea5a312-5f33-43a9-b792-ff46f5436464,FIN_PENDIENTES_UNIFICADOS,TESTConciliacinUnificada/sheets/FIN_PENDIENTES_UNIFICADOS,c9130bbe-4cfd-4e17-9dee-14da246afb61,Conciliación Unificada,Payments
+e82089c7-f7ba-43fb-b70e-a1e01be4975e,Hoja 1,ConsultaMERCADOENVIOSBT/sheets/Hoja1,3b7a049d-1f55-4636-9d50-56e3c5c3ba3b,Consulta MERCADO ENVIOS BT,Validaciones
+3036869a-f292-4d6a-8d47-3e0e90a5e895,AR,Contactos_PortalBT/sheets/AR,e04b7542-2dd0-4c52-adce-9ee685c26291,Contactos_Portal BT,Sistemas y tecnología
+84bd6db0-24dd-4b71-86ef-346c28bea5c1,CL,Contactos_PortalBT/sheets/CL,e04b7542-2dd0-4c52-adce-9ee685c26291,Contactos_Portal BT,Sistemas y tecnología
+a0862126-2cc9-45c4-854c-d2beac1b7bbb,CO,Contactos_PortalBT/sheets/CO,e04b7542-2dd0-4c52-adce-9ee685c26291,Contactos_Portal BT,Sistemas y tecnología
+ad8c5e84-361d-4e81-87b1-cc4f41bb640b,CR,Contactos_PortalBT/sheets/CR,e04b7542-2dd0-4c52-adce-9ee685c26291,Contactos_Portal BT,Sistemas y tecnología
+ed9905b9-5768-438a-b876-8c4e984974bf,EC,Contactos_PortalBT/sheets/EC,e04b7542-2dd0-4c52-adce-9ee685c26291,Contactos_Portal BT,Sistemas y tecnología
+18445cd0-63b2-42eb-9b44-ade67e71a9de,MX,Contactos_PortalBT/sheets/MX,e04b7542-2dd0-4c52-adce-9ee685c26291,Contactos_Portal BT,Sistemas y tecnología
+1ec74cee-61d9-4881-9656-470913d38581,PA,Contactos_PortalBT/sheets/PA,e04b7542-2dd0-4c52-adce-9ee685c26291,Contactos_Portal BT,Sistemas y tecnología
+e10d25b4-2476-4a54-886d-648d494414f8,PE,Contactos_PortalBT/sheets/PE,e04b7542-2dd0-4c52-adce-9ee685c26291,Contactos_Portal BT,Sistemas y tecnología
+cf5b1f8d-851a-4635-9766-cf1e6902a326,PY,Contactos_PortalBT/sheets/PY,e04b7542-2dd0-4c52-adce-9ee685c26291,Contactos_Portal BT,Sistemas y tecnología
+0ba38360-c559-467a-b191-ecdd453129ab,UY,Contactos_PortalBT/sheets/UY,e04b7542-2dd0-4c52-adce-9ee685c26291,Contactos_Portal BT,Sistemas y tecnología
+d2c18a6a-d8ce-4f20-8446-4468efe3344a,FIN_CC_LATAM,TESTContracargosLATAM_17011170198930/sheets/FIN_CC_LATAM,b3e7ef21-edf0-4ee5-9406-e7e7e1a91ad2,Contracargos LATAM V2,
+415c6310-6fdf-4b8f-8bd9-317413fbafdb,FIN_CC_LATAM_ANALITICO,TESTContracargosLATAM_17011170198930/sheets/AnalticoLATAM,b3e7ef21-edf0-4ee5-9406-e7e7e1a91ad2,Contracargos LATAM V2,
+7314aeeb-3c6f-441c-81e4-f2271c6b0328,Costo de envío,CostodeEnvioporVenta/sheets/Costodeenvo,a701725f-8b7d-4673-8279-bf879776457b,Costo de Envio por Venta,ROI
+1cfead1f-e9a4-4aee-b160-42159e8acd0c,listado_1,DescargablesReclamosBOT_17532128860030/sheets/listado_1,3369c9ba-a4f3-471d-89d4-58572cb9ac7d,Descargables Reclamos BOT,CX Seguimiento
+a5034532-4149-4570-8ed5-69d18708057d,listado_2,DescargablesReclamosBOT_17532128860030/sheets/listado_2,3369c9ba-a4f3-471d-89d4-58572cb9ac7d,Descargables Reclamos BOT,CX Seguimiento
+50b46c55-4374-4792-a6cb-caefab00778c,listado_3,DescargablesReclamosBOT_17532128860030/sheets/listado_3,3369c9ba-a4f3-471d-89d4-58572cb9ac7d,Descargables Reclamos BOT,CX Seguimiento
+fa6710c2-a9c4-4fee-8bdb-50b75970dfff,listado_4,DescargablesReclamosBOT_17532128860030/sheets/listado_4,3369c9ba-a4f3-471d-89d4-58572cb9ac7d,Descargables Reclamos BOT,CX Seguimiento
+622d61b2-0b32-454f-afad-c86773d2d507,listado_5,DescargablesReclamosBOT_17532128860030/sheets/listado_5,3369c9ba-a4f3-471d-89d4-58572cb9ac7d,Descargables Reclamos BOT,CX Seguimiento
+faa6293e-ce0e-44d4-a6e4-4e87eeed3bfc,FIN_FC_PY,PRUEBAINVOICE/sheets/FIN_FC_PY,c2f16d69-4ab2-4a94-b448-cb0a2b7f6942,Detalle Facturación PY,Facturacion
+5d67d8b8-ecd6-4f6a-a6f1-cf519f1f7019,FIN_NC_PY,PRUEBAINVOICE/sheets/FIN_NC_PY,c2f16d69-4ab2-4a94-b448-cb0a2b7f6942,Detalle Facturación PY,Facturacion
+c69c680b-7e41-49c3-81ce-9b340a2fb91e,FIN_DETALLE_PROVEEDORES,TESTDetalleProveedoresNicox/sheets/FIN_DETALLE_PROVEEDORES,8e6231c4-49f1-4d98-b5c5-4fd7b54e477c,Detalle Proveedores Nicox,Expenses
+64b93cdf-1dee-4af5-be9f-07352513ee6c,Resume,Developers_Backup_hours_v2/sheets/Resume,03d7bc2f-0fd5-40b1-80df-84ff33ef5f90,Developers_Backup_hours_v2,Sistemas y tecnología
+484d4fd7-5cd3-4c56-8fc1-f7ce4892593c,Diego_Gogorza,Diego_Gogorza_Semanal_IT_V2/sheets/Diego_Gogorza,63abc1ce-6b25-4f53-8d05-c1ba471dba97,Diego_Gogorza_Semanal_IT_V2,IT Reportes Semanales - Productividad
+4adf1a6c-c6cb-4c55-bb1a-4d7d28564edc,Dashboard 1,DistribucionAyC/sheets/Dashboard1,99bd201f-5d3b-44eb-9353-aac17855cea4,Distribucion AyC,Validaciones
+3fda6524-0e55-42aa-a03f-1a4498bf47cb,Hoja 1,DistribucionAyC/sheets/Hoja1,99bd201f-5d3b-44eb-9353-aac17855cea4,Distribucion AyC,Validaciones
+c92c78b7-bd81-4ee1-abf7-0f5851efaac2,Hoja 2,DistribucionAyC/sheets/Hoja2,99bd201f-5d3b-44eb-9353-aac17855cea4,Distribucion AyC,Validaciones
+35706a3b-c71d-4efe-89e8-b216eae0bb1e,Resumen  Casos,ECPEUY-CXPriorizacionCasos_V4/sheets/ResumenCasos,75b5c059-6a2e-412e-94e9-9ac409c49c54,EC PE UY - CX Priorizacion Casos_V4,ECPEUY
+ac6ee2be-99ab-45b6-8ff3-9dc742d29645,Resumen  Casos_sinasignar,ECPEUY-CXPriorizacionCasos_V4/sheets/ResumenCasos_sinasignar,75b5c059-6a2e-412e-94e9-9ac409c49c54,EC PE UY - CX Priorizacion Casos_V4,ECPEUY
+e9b016a5-a59e-4ab2-bcde-11bf2a2f0589,Resumen  Casos_solourgentes,ECPEUY-CXPriorizacionCasos_V4/sheets/ResumenCasos_solourgentes,75b5c059-6a2e-412e-94e9-9ac409c49c54,EC PE UY - CX Priorizacion Casos_V4,ECPEUY
+63bb23ab-1ee2-4b13-8dc4-b0885fdc8134,ECPEUY_Queu,ECPEUY-CXFlujo2/sheets/ECPEUY_Queu,61dd051b-6d4e-4dc2-876e-9a499295d81c,ECPEUY - CX Flujo,ECPEUY
+b19446a2-c7cc-40ae-b013-76443b2cf419,Resumen  Casos,CX_Priorizacion_Casos_ECPEUY/sheets/ResumenCasos,ff7fc996-ca1f-47de-b556-530b798fdead,ECPEUY - CX Priorizacion Casos,CX Wise Chat OUT
+0b667417-2bae-4c4a-a795-07740ef4f825,Global IT,EquipoIT_Global/sheets/GlobalIT,85d87e76-574e-4b1c-9034-838782c9eae0,EquipoIT_Global,Sistemas y tecnología
+7fae63cd-b1da-43e4-ba8f-dac4edc24341,Hoja 1,EquipoIT_Global/sheets/Hoja1,85d87e76-574e-4b1c-9034-838782c9eae0,EquipoIT_Global,Sistemas y tecnología
+96c82d28-927a-442e-94af-b89a6e697dfe,Hoja 1 (2),EquipoIT_Global/sheets/Hoja12,85d87e76-574e-4b1c-9034-838782c9eae0,EquipoIT_Global,Sistemas y tecnología
+2ee6296e-53e0-46b2-a6ec-ef3fbfe16426,Hoja 1 (3),EquipoIT_Global/sheets/Hoja13,85d87e76-574e-4b1c-9034-838782c9eae0,EquipoIT_Global,Sistemas y tecnología
+108f44d0-c76b-4f86-8475-3508d6e1a4e0,Hoja 1 (4),EquipoIT_Global/sheets/Hoja14,85d87e76-574e-4b1c-9034-838782c9eae0,EquipoIT_Global,Sistemas y tecnología
+91f9f4fb-52fb-4fc8-a43d-8990c6e25950,Hoja 1 (5),EquipoIT_Global/sheets/Hoja15,85d87e76-574e-4b1c-9034-838782c9eae0,EquipoIT_Global,Sistemas y tecnología
+c2685b24-eb24-4214-ade0-dad81346d2b7,Hoja 1 (6),EquipoIT_Global/sheets/Hoja16,85d87e76-574e-4b1c-9034-838782c9eae0,EquipoIT_Global,Sistemas y tecnología
+82cfe25c-59aa-4524-903f-180340f39da1,2.Dev_Results,Evaluacion_LT_2/sheets/2_Dev_Results,6247bbec-4a26-4218-b864-ee3c27855a0f,Evaluacion_LT_2,Sistemas y tecnología
+6bbd217e-e83c-4ae1-889c-15ac191cefd3,2.Dev_Results (2),Evaluacion_LT_2/sheets/2_Dev_Results2,6247bbec-4a26-4218-b864-ee3c27855a0f,Evaluacion_LT_2,Sistemas y tecnología
+2eda629f-86f3-44bb-b13a-f10520002bdc,Dashboard 1,Evaluacion_LT_2/sheets/Dashboard1,6247bbec-4a26-4218-b864-ee3c27855a0f,Evaluacion_LT_2,Sistemas y tecnología
+3a7662b2-f3cb-4a70-b82c-997996ec98dc,Encabezado,Evaluacion_LT_2/sheets/Encabezado,6247bbec-4a26-4218-b864-ee3c27855a0f,Evaluacion_LT_2,Sistemas y tecnología
+e2e6945a-d751-4b09-9502-fef146aacaad,Hoja 10,Evaluacion_LT_2/sheets/Hoja10,6247bbec-4a26-4218-b864-ee3c27855a0f,Evaluacion_LT_2,Sistemas y tecnología
+ca3321b8-5768-4925-84e4-4408889aee42,Hoja 10 (2),Evaluacion_LT_2/sheets/Hoja102,6247bbec-4a26-4218-b864-ee3c27855a0f,Evaluacion_LT_2,Sistemas y tecnología
+c6a7ecce-42c4-41ac-89c2-100001b9ca11,Hoja 13,Evaluacion_LT_2/sheets/Hoja13,6247bbec-4a26-4218-b864-ee3c27855a0f,Evaluacion_LT_2,Sistemas y tecnología
+bff4074e-80eb-49a4-b9af-2acf770b09fc,Hoja 14,Evaluacion_LT_2/sheets/Hoja14,6247bbec-4a26-4218-b864-ee3c27855a0f,Evaluacion_LT_2,Sistemas y tecnología
+d659e841-fc23-4434-bce5-2536bc2aa863,Hoja 6,Evaluacion_LT_2/sheets/Hoja6,6247bbec-4a26-4218-b864-ee3c27855a0f,Evaluacion_LT_2,Sistemas y tecnología
+8bb3aedb-b2e0-4d8b-b481-f5f445026a4b,Hoja 6 (2),Evaluacion_LT_2/sheets/Hoja62,6247bbec-4a26-4218-b864-ee3c27855a0f,Evaluacion_LT_2,Sistemas y tecnología
+e243248f-6b17-4482-8d26-03a56310d871,Hoja 7,Evaluacion_LT_2/sheets/Hoja7,6247bbec-4a26-4218-b864-ee3c27855a0f,Evaluacion_LT_2,Sistemas y tecnología
+42312bf8-c333-4fe9-a1df-972906400411,Hoja 9,Evaluacion_LT_2/sheets/Hoja9,6247bbec-4a26-4218-b864-ee3c27855a0f,Evaluacion_LT_2,Sistemas y tecnología
+75a44c08-60fe-414c-8047-e2a844d45081,Management,Evaluacion_LT_2/sheets/Management,6247bbec-4a26-4218-b864-ee3c27855a0f,Evaluacion_LT_2,Sistemas y tecnología
+b178271b-caa7-4efc-8e71-54d31f20c254,Management (2),Evaluacion_LT_2/sheets/Management2,6247bbec-4a26-4218-b864-ee3c27855a0f,Evaluacion_LT_2,Sistemas y tecnología
+c43ed67a-4326-4e46-9730-1b37029c16b1,FIN_ALERTAS_AC,TESTExpenseAcreditacionesyCuentas/sheets/FIN_ALERTAS_AC,de450605-ac80-4460-95b5-c52d296270d1,Expense Acreditaciones y Cuentas,Expenses
+44245fe2-4fc8-4347-a667-2459f1bb8231,FIN_SEGUIMIENTO_CUENTAS,TESTExpenseAcreditacionesyCuentas/sheets/FIN_SEGUIMIENTO_CUENTAS,de450605-ac80-4460-95b5-c52d296270d1,Expense Acreditaciones y Cuentas,Expenses
+69520b5c-c39a-48ec-a2c9-6f04970cfc8a,FIN_ALERTA_APROBADORES,TESTExpenseAcreditacionesyCuentas_17254820530150/sheets/FIN_ALERTA_APROBADORES,594d3231-0149-4bf7-93ae-cd9b4e5eafc4,Expense Reporte Transacciones,Expenses
+390c70eb-1514-4545-99f3-f952ba41a60c,FIN_ALERTA_GENERAL,TESTExpenseAcreditacionesyCuentas_17254820530150/sheets/FIN_ALERTA_GENERAL,594d3231-0149-4bf7-93ae-cd9b4e5eafc4,Expense Reporte Transacciones,Expenses
+68081c7d-6879-48be-ba1c-36b22cc4ef11,FIN_REPORTE_TRANSACCIONES,TESTExpenseAcreditacionesyCuentas_17254820530150/sheets/FIN_REPORTE_TRANSACCIONES,594d3231-0149-4bf7-93ae-cd9b4e5eafc4,Expense Reporte Transacciones,Expenses
+468eb077-392c-4aaa-9b96-22bab48ad298,FIN_REGISTROS_TARJETA,TESTExpense_RegistrosdeTarjeta/sheets/FIN_REGISTROS_TARJETA,e1b6d919-0960-45e3-9881-143d5dd57c8e,Expense_Registros de Tarjeta,Expenses
+e40e4a0d-3f21-4261-bb4b-3432a3b6d6f5,FB ADS Metricas,FBADSMetricas_v3/sheets/FBADSMetricas,ad397975-e8f6-4b32-a28a-b4934f63d263,FB ADS Metricas. v3,Facebook Ads
+a16cea2b-4560-42a1-afda-09cc32b71dc8,FB ADS Metricas,FBADSMetrics/sheets/FBADSMetricas,4c6653cf-6c0b-4d34-bd7d-8abcfe12c865,FB ADS Metrics,Facebook Ads
+8c9617bf-3e7b-4a21-bd16-0aac793bd02b,Comparativa Facturación,FacturacinUnificadav2/sheets/ComparativaFacturacin,4c06289d-4e5e-4f8f-aaef-f0875780f79b,Facturación Global,Facturacion
+d2cd27de-8fc2-42cc-a475-d54f5d8a93df,Facturación Completa,FacturacinUnificadav2/sheets/FacturacinCompleta,4c06289d-4e5e-4f8f-aaef-f0875780f79b,Facturación Global,Facturacion
+fcd53e4e-993e-4534-87cb-f1847807e9b5,Seguimiento MAY/RES,FacturacinUnificadav2/sheets/SeguimientoMAYRES,4c06289d-4e5e-4f8f-aaef-f0875780f79b,Facturación Global,Facturacion
+5d35d1cd-6801-47b4-8512-34279cf12ebb,Seguimiento MAY/RES - Junin/La plata/MDQ/SF,FacturacinUnificadav2/sheets/SeguimientoMAYRES-JuninLaplataMDQSF,4c06289d-4e5e-4f8f-aaef-f0875780f79b,Facturación Global,Facturacion
+43ec1c78-c6bc-4c2c-9703-3bedb337506c,ALERTA_VENTAS_SIN_FACTURAR,TESTFacturacinLATAM/sheets/ALERTA_VENTAS_SIN_FACTURAR,d0f47d39-c919-4183-8258-f2555fb7fd45,Facturación LATAM,Facturacion
+60fdf746-6350-4755-b71f-2f0c1e8a5162,FIN_FACTURACION_LATAM,TESTFacturacinLATAM/sheets/FIN_FACTURACION_LATAM,d0f47d39-c919-4183-8258-f2555fb7fd45,Facturación LATAM,Facturacion
+981ac22e-5fd1-4c4a-bdf8-e11e5e583fdf,VENTAS_SIN_FACTURAR,TESTFacturacinLATAM/sheets/VENTAS_SIN_FACTURAR,d0f47d39-c919-4183-8258-f2555fb7fd45,Facturación LATAM,Facturacion
+ecd20fff-9f65-43b8-9cf3-68835d2aa98f,listado,Facturacin_Invoice_ErrorsBT/sheets/listado,f6b1af4b-4440-48f0-974b-e39e552e0911,Facturación_Invoice_Errors | BT,Sistemas y tecnología
+6bde422e-a51a-4604-83c5-06f7cd8d7fe5,FICHADAS_ARG_TM,Fichadas_ARG_TM/sheets/FICHADAS_ARG_TM,85e25cfb-ba4c-482a-99f7-f78323c84b97,Fichadas_ARG_TM,AR TM
+9edc42de-7b6a-464c-a366-7cca296c7d99,Hoja 6,Fichadas_ARG_TM/sheets/Hoja6,85e25cfb-ba4c-482a-99f7-f78323c84b97,Fichadas_ARG_TM,AR TM
+0ac5d053-926d-44f1-91dc-2302784823eb,FICHADAS_ARG_TT,Fichadas_ARG_TT/sheets/FICHADAS_ARG_TT,00c616a4-cb10-49bd-a7e9-d90e3828fb36,Fichadas_ARG_TT,AR TT
+5c32f41d-1a43-4958-aa3a-0b0e20f0017f,FICHADAS_EC-PE-UY,Fichadas_EC-PE-UY/sheets/FICHADAS_EC-PE-UY,d68f91c1-3bc1-4655-a6a7-2719dbe756ae,Fichadas_EC-PE-UY,ECPEUY
+bdbb8aa5-fe97-4904-924c-3924ba724a9e,FICHADAS_MX-CO,Fichadas_MX-CO/sheets/FICHADAS_MX-CO,5bdf00b8-da99-4597-954b-6c5e7f98ffc7,Fichadas_MX-CO,MXCO
+9dd1451b-3f4f-457d-b253-6070cf0577ff,FICHADAS_PY-PA-CL,Fichadas_PY-PA-CL/sheets/FICHADAS_PY-PA-CL,7761ca63-3159-4b32-956c-c3b37c84276b,Fichadas_PY-PA-CL,PYPACL
+d33b0acf-5525-4e1a-845a-d3f3c6a52d8a,Franco_Lorenzo,Franco_Lorenzo_Semanal_IT_V2/sheets/Franco_Lorenzo,7d8eb8e2-d70e-43a6-8d0e-91b58b39e081,Franco_Lorenzo_Semanal_IT_V2,IT Reportes Semanales - Productividad
+b3ceefd0-079a-40b4-b322-0654c31e8dfa,DIARIO | BT_COBRANZAS,Fraude_Alertas/sheets/DIARIOBT_COBRANZAS,2ad67717-389e-4ea0-adc1-9ab2b3609514,Fraude_Alertas,Fraude_Alertas
+2c3de753-0112-4b45-adc3-55b38fd0f6c4,DIARIO | CC Riesgo Asum.,Fraude_Alertas/sheets/ADIARCCRiesgoAsum_,2ad67717-389e-4ea0-adc1-9ab2b3609514,Fraude_Alertas,Fraude_Alertas
+6896b7f3-cf1d-4832-97b1-2107efc8de50,DIARIO | CC Val. Presencial,Fraude_Alertas/sheets/ADIARCCVal_Presencial,2ad67717-389e-4ea0-adc1-9ab2b3609514,Fraude_Alertas,Fraude_Alertas
+49918e32-4780-4af6-a868-68dc6476a49f,DIARIO | CC Val. Virtual,Fraude_Alertas/sheets/ADIARCCVal_Virtual,2ad67717-389e-4ea0-adc1-9ab2b3609514,Fraude_Alertas,Fraude_Alertas
+8a9dabd0-70dd-4623-85ca-b98df3cef0c5,DIARIO | Casos Pendientes,Fraude_Alertas/sheets/RDIARCasosPendientes,2ad67717-389e-4ea0-adc1-9ab2b3609514,Fraude_Alertas,Fraude_Alertas
+6aa12cce-eaeb-46d1-b66f-bf9489b7915b,DIARIO | Fraude_Reintegro,Fraude_Alertas/sheets/DIARIOFraude_Reintegro,2ad67717-389e-4ea0-adc1-9ab2b3609514,Fraude_Alertas,Fraude_Alertas
+3c407ffa-901d-4651-a67a-755b3723eba8,DIARIO | Operativo,Fraude_Alertas/sheets/ReporteDiarioOP,2ad67717-389e-4ea0-adc1-9ab2b3609514,Fraude_Alertas,Fraude_Alertas
+bb2ddd7e-76c9-48ac-91a0-4c27e5532126,DIARIO | Tiempo rta,Fraude_Alertas/sheets/RDIARTiemporta,2ad67717-389e-4ea0-adc1-9ab2b3609514,Fraude_Alertas,Fraude_Alertas
+cb11b6b8-caae-4931-bd62-67543fb3dbe0,DIARIO | Valid. Pendientes,Fraude_Alertas/sheets/Validacionespendientes,2ad67717-389e-4ea0-adc1-9ab2b3609514,Fraude_Alertas,Fraude_Alertas
+29cffe8a-5ed0-4a58-98fd-f35f23e0a9e1,DIARIO | ventas Pendientes,Fraude_Alertas/sheets/RDIARventasPendientes,2ad67717-389e-4ea0-adc1-9ab2b3609514,Fraude_Alertas,Fraude_Alertas
+71f79cf7-dfd2-4b8e-a39b-2fc1727e9432,SEM | % Efectividad,Fraude_Alertas/sheets/Efectividad,2ad67717-389e-4ea0-adc1-9ab2b3609514,Fraude_Alertas,Fraude_Alertas
+18ea347d-fd10-4306-974c-49acbb7bb4ce,SEM | Detectadas,Fraude_Alertas/sheets/RSEMDetectadas,2ad67717-389e-4ea0-adc1-9ab2b3609514,Fraude_Alertas,Fraude_Alertas
+b4b58616-eddc-4c44-929e-e6052a7fccca,SEM | Max. Promedio,Fraude_Alertas/sheets/MAXPromedio,2ad67717-389e-4ea0-adc1-9ab2b3609514,Fraude_Alertas,Fraude_Alertas
+72815afa-5b0c-47c7-82be-717081553dd3,SEM | Max. Promedio MOD,Fraude_Alertas/sheets/MAXPromedioMOD,2ad67717-389e-4ea0-adc1-9ab2b3609514,Fraude_Alertas,Fraude_Alertas
+2721f69f-1c34-4d19-a530-a4ed51739d99,METRICAS,GOOGLEADS/sheets/METRICAS,f3916c14-23b7-44e8-b7f5-2a78c1d1ba73,GOOGLE ADS,Google Ads
+2f8e5cda-bc1d-4ace-baa9-869d795d7ac7,AR_RESUMEN,GREVIEWS_RESUMEN_AR/sheets/AR_RESUMEN,3b94363c-a7a4-4c94-88d0-e9e84dff55c8,GREVIEWS_RESUMEN_AR,CX Seguimiento
+9b612af1-61cc-41f4-a672-eb19e62df50a,PYPACL_RESUMEN,GREVIEWS_RESUMEN_CLPYPA/sheets/PYPACL_RESUMEN,853646a5-aed4-47a5-85fe-73c9cac648e2,GREVIEWS_RESUMEN_CLPYPA,CX Seguimiento
+a259cf51-46ee-42e1-97cf-c47ea39f0222,ECPEUY_RESUMEN,GREVIEWS_RESUMEN_ECPEUY/sheets/ECPEUY_RESUMEN,e488a950-b88d-4f7a-a630-c665bf3fc789,GREVIEWS_RESUMEN_ECPEUY,CX Seguimiento
+2c28a708-2c6c-449f-bed6-e6d72c649bc3,MXCO_RESUMEN,GREVIEWS_RESUMEN_MXCO/sheets/MXCO_RESUMEN,3233d76d-4885-42d9-860a-435b31e7a14d,GREVIEWS_RESUMEN_MXCO,CX Seguimiento
+e11a61a6-2be4-47b4-8085-35e21b7177f8,Gaston_Ojeda,Gaston_Ojeda_Semanal_IT_V2/sheets/Gaston_Ojeda,fba19e02-4732-4264-b878-3b2d40c4905b,Gaston_Ojeda_Semanal_IT_V2,IT Reportes Semanales - Productividad
+7cf823ab-9bf3-48d6-871b-14bc9827334d,German_Skrobak,German_Skrobak_Semanal_IT_V2/sheets/German_Skrobak,274a2e01-cc59-4be7-aa91-5db24e8ddab0,German_Skrobak_Semanal_IT_V2,IT Reportes Semanales - Productividad
+b0e78abe-ce90-4baf-a2e0-aee4232c5f1e,Fix,Global_IT/sheets/Fix,6f1e14bd-723b-4937-a548-c5a6222920b2,Global_IT,Sistemas y tecnología
+3265ed3a-efa7-4481-992e-ed864b5fd2fb,IT - Current Status,Global_IT/sheets/IT-CurrentStatus,6f1e14bd-723b-4937-a548-c5a6222920b2,Global_IT,Sistemas y tecnología
+26c42400-eb3a-4eae-a654-aae81337326a,IT - Estimation Differences,Global_IT/sheets/IT-EstimationDifferences,6f1e14bd-723b-4937-a548-c5a6222920b2,Global_IT,Sistemas y tecnología
+52dbf1a6-03b0-4cc1-9763-e82145293f41,Seguimiento On Hold,Global_IT/sheets/SeguimientoOnHold,6f1e14bd-723b-4937-a548-c5a6222920b2,Global_IT,Sistemas y tecnología
+ccca36a9-d285-4c55-b0e0-7ce7c223c04a,Historial_Clientes_Ventas,HistorialdeVentas-Clientes/sheets/Historial_Clientes_Ventas,8222b6bd-702e-47d0-b9d1-a4372b3f404f,Historial de Ventas - Clientes,CX Seguimiento
+bddaf72c-e7e4-46c5-b07d-7108ac95fe29,IT_Historic_Status,IT_Historic_Card/sheets/IT_Historic_Status,494ffe3b-bc9c-4d56-931a-481c8cf67237,IT_Historic_Card,Sistemas y tecnología
+229c78a7-b61c-4427-8996-29196392c9b3,Dashboard 1 (2),IT_Historic_Flow/sheets/Dashboard12,1f710087-4755-4a09-9e92-c36d63cbe1f0,IT_Historic_Flow,Sistemas y tecnología
+9783b925-9ca8-473e-8941-9a6a46d7424d,Resumen - Incidencias,Incidencias-semanal-ARTM/sheets/Resumen-Incidencias,82b570d3-a61c-43e0-ac30-9b51db15e838,Incidencias - semanal - AR TM,AR TM
+bc8efadb-5132-473e-9cf9-9bacc2b441e4,2.Canales (2),Incidencias-semanal-ARTT/sheets/2_Canales2,b09c632c-a900-4cd1-8a10-72c097c9fcc4,Incidencias - semanal - AR TT,AR TT
+1d2ae3c4-1f2e-4c02-91ab-652eb23441aa,Resumen - Incidencias,Incidencias-semanal-ARTT/sheets/Resumen-Incidencias,b09c632c-a900-4cd1-8a10-72c097c9fcc4,Incidencias - semanal - AR TT,AR TT
+751a83ea-9eb6-4820-9421-92c51953b63c,Resumen - Incidencias,Incidencias-semanal-CLPYPA/sheets/Resumen-Incidencias,33de3d68-2296-4b70-8be2-5f744faf32bd,Incidencias - semanal - CLPYPA,PYPACL
+c7e07e7c-0167-4c10-b6e4-373ab10e8189,Resumen - Incidencias,Incidencias-semanal-ECPEUY/sheets/Resumen-Incidencias,a40145a2-30ab-4bae-bb3f-d401fe8bb205,Incidencias - semanal - ECPEUY,ECPEUY
+ac33e003-ef81-48e0-a113-ed9c7c454965,Resumen - Incidencias,Incidencias-semanal-MXCO/sheets/Resumen-Incidencias,5c5e9653-93b5-4a13-8603-1bd0ed9afd96,Incidencias - semanal - MXCO,MXCO
+c14b376d-7d15-4887-9eaf-66d4e708b3e0,FIN_Indicadores_Fraude_BT,IndicadoresReglas/sheets/FIN_Indicadores_Fraude_BT,3d11abe3-9a9c-4af0-a08e-a0e2e51e8b52,Indicadores Reglas,
+8fbdfebd-e9a6-4953-99e8-ab1a022b4f17,Jira SD - Externo,TESTJiraServiceDeskv7/sheets/JiraSD-Externo,bb4c35b2-31ec-4d88-ba81-a0b57690ef9c,Jira Service Desk - Externo,Jira Service Desk - Externo
+a44832c4-bb79-4a14-8f76-2c77e9ab9b20,D_Alerta_1,JiraServiceDesk-Externo-Alertas/sheets/D_Alerta_1,c664d942-3b75-48ee-9fec-e1585619e2fd,Jira Service Desk - Externo - Alertas,Jira Service Desk - Externo - Alertas
+6bbffe70-1d0f-4a29-91b0-a259bca5998d,D_Alerta_11,JiraServiceDesk-Externo-Alertas/sheets/D_Alerta_11,c664d942-3b75-48ee-9fec-e1585619e2fd,Jira Service Desk - Externo - Alertas,Jira Service Desk - Externo - Alertas
+7e894891-1cc8-49a3-92f2-e5bacb4db027,D_Alerta_12,JiraServiceDesk-Externo-Alertas/sheets/D_Alerta_12,c664d942-3b75-48ee-9fec-e1585619e2fd,Jira Service Desk - Externo - Alertas,Jira Service Desk - Externo - Alertas
+0bcd5e0a-6b47-48d5-b1ff-3deea33b0ee9,D_Alerta_13,JiraServiceDesk-Externo-Alertas/sheets/D_Alerta_13,c664d942-3b75-48ee-9fec-e1585619e2fd,Jira Service Desk - Externo - Alertas,Jira Service Desk - Externo - Alertas
+e40408f0-762d-47f5-9d1f-2b2f876975a3,D_Alerta_13 (2),JiraServiceDesk-Externo-Alertas/sheets/D_Alerta_132,c664d942-3b75-48ee-9fec-e1585619e2fd,Jira Service Desk - Externo - Alertas,Jira Service Desk - Externo - Alertas
+8a787aa7-12df-492f-b683-724d6e9a234a,D_Alerta_14,JiraServiceDesk-Externo-Alertas/sheets/D_Alerta_14,c664d942-3b75-48ee-9fec-e1585619e2fd,Jira Service Desk - Externo - Alertas,Jira Service Desk - Externo - Alertas
+47507c1c-7d17-40b5-abf0-4a0c1e019009,D_Alerta_15,JiraServiceDesk-Externo-Alertas/sheets/D_Alerta_15,c664d942-3b75-48ee-9fec-e1585619e2fd,Jira Service Desk - Externo - Alertas,Jira Service Desk - Externo - Alertas
+18ea0851-b498-4721-87ae-f2e00b30bff6,D_Alerta_16,JiraServiceDesk-Externo-Alertas/sheets/D_Alerta_16,c664d942-3b75-48ee-9fec-e1585619e2fd,Jira Service Desk - Externo - Alertas,Jira Service Desk - Externo - Alertas
+25622450-e65c-4cad-9afa-bfd78bed2cf1,D_Alerta_17,JiraServiceDesk-Externo-Alertas/sheets/D_Alerta_17,c664d942-3b75-48ee-9fec-e1585619e2fd,Jira Service Desk - Externo - Alertas,Jira Service Desk - Externo - Alertas
+bbe6db57-8c7e-4adc-ac7c-b7e954ab61b8,D_Alerta_18,JiraServiceDesk-Externo-Alertas/sheets/D_Alerta_18,c664d942-3b75-48ee-9fec-e1585619e2fd,Jira Service Desk - Externo - Alertas,Jira Service Desk - Externo - Alertas
+789be7ed-9b5f-4d89-8d3d-872ac27eec9c,D_Alerta_2,JiraServiceDesk-Externo-Alertas/sheets/D_Alerta_2,c664d942-3b75-48ee-9fec-e1585619e2fd,Jira Service Desk - Externo - Alertas,Jira Service Desk - Externo - Alertas
+9c6cf5d4-a864-470c-848b-dd73e8c9aebf,D_Alerta_3,JiraServiceDesk-Externo-Alertas/sheets/D_Alerta_3,c664d942-3b75-48ee-9fec-e1585619e2fd,Jira Service Desk - Externo - Alertas,Jira Service Desk - Externo - Alertas
+b04f7827-7e67-45b3-932d-4db80ed32ee7,D_Alerta_4,JiraServiceDesk-Externo-Alertas/sheets/D_Alerta_4,c664d942-3b75-48ee-9fec-e1585619e2fd,Jira Service Desk - Externo - Alertas,Jira Service Desk - Externo - Alertas
+68623459-2378-4071-9a73-5508029fa882,D_Alerta_5,JiraServiceDesk-Externo-Alertas/sheets/D_Alerta_5,c664d942-3b75-48ee-9fec-e1585619e2fd,Jira Service Desk - Externo - Alertas,Jira Service Desk - Externo - Alertas
+c80b11f7-ed13-401c-ae91-96f24cce1bbb,D_Alerta_6,JiraServiceDesk-Externo-Alertas/sheets/D_Alerta_6,c664d942-3b75-48ee-9fec-e1585619e2fd,Jira Service Desk - Externo - Alertas,Jira Service Desk - Externo - Alertas
+67335011-3215-4dd2-9fc2-5e00918349f2,D_Alerta_7,JiraServiceDesk-Externo-Alertas/sheets/D_Alerta_7,c664d942-3b75-48ee-9fec-e1585619e2fd,Jira Service Desk - Externo - Alertas,Jira Service Desk - Externo - Alertas
+20e291ca-38f9-4132-ac0e-71cfad12d7b4,D_Alerta_8,JiraServiceDesk-Externo-Alertas/sheets/D_Alerta_8,c664d942-3b75-48ee-9fec-e1585619e2fd,Jira Service Desk - Externo - Alertas,Jira Service Desk - Externo - Alertas
+7946ce82-c0d1-4b2d-b5df-836584eebbd7,D_Alerta_9,JiraServiceDesk-Externo-Alertas/sheets/D_Alerta_9,c664d942-3b75-48ee-9fec-e1585619e2fd,Jira Service Desk - Externo - Alertas,Jira Service Desk - Externo - Alertas
+6f19cfe0-b8cb-466b-a502-24f96e6c5c3d,D_Alerta_Vencidos,JiraServiceDesk-Externo-Alertas/sheets/D_Alerta_Vencidos,c664d942-3b75-48ee-9fec-e1585619e2fd,Jira Service Desk - Externo - Alertas,Jira Service Desk - Externo - Alertas
+33cc9bd5-ebc3-46d9-a637-5038a26848a0,D_Alerta_13 (2),JiraServiceDesk-Externo-Alertas_17002218837200/sheets/D_Alerta_132,97635c95-b83c-458f-87a2-74c9b9810e95,Jira Service Desk - Externo - Alertas - V2,Jira Service Desk - Externo - Alertas
+a93ce045-e80f-4e0f-8f09-aa7683520ceb,D_Alerta_13 (3),JiraServiceDesk-Externo-Alertas_17002218837200/sheets/D_Alerta_133,97635c95-b83c-458f-87a2-74c9b9810e95,Jira Service Desk - Externo - Alertas - V2,Jira Service Desk - Externo - Alertas
+4ff6245b-60ec-47b2-8a5a-802be96dc24a,D_Alerta_Vencidos,JiraServiceDesk-Externo-Alertas_17002218837200/sheets/D_Alerta_Vencidos,97635c95-b83c-458f-87a2-74c9b9810e95,Jira Service Desk - Externo - Alertas - V2,Jira Service Desk - Externo - Alertas
+06537e44-06a8-45ed-aabc-260da665df53,Proximos_vencimientos_IT,JiraServiceDesk-Externo-Alertas_17002218837200/sheets/Proximos_vencimientos_IT,97635c95-b83c-458f-87a2-74c9b9810e95,Jira Service Desk - Externo - Alertas - V2,Jira Service Desk - Externo - Alertas
+f0e0581d-9975-4ff4-804c-fd90aa4b6b3e,Proximos_vencimientos_IT2,JiraServiceDesk-Externo-Alertas_17002218837200/sheets/Proximos_vencimientos_IT2,97635c95-b83c-458f-87a2-74c9b9810e95,Jira Service Desk - Externo - Alertas - V2,Jira Service Desk - Externo - Alertas
+ac1571ba-b2e2-48ed-956a-a6d7e9ad397c,Juan_Morelis,Juan_Morelis_Semanal_IT_V2/sheets/Juan_Morelis,682939de-4cc5-4844-9f26-180d360bbbcf,Juan_Morelis_Semanal_IT_V2,IT Reportes Semanales - Productividad
+7ffe15c9-afe6-4ea5-b556-6673c0c73913,Resumen  Casos,AR-CXPriorizacionCasos_V4/sheets/ResumenCasos,81c91937-8f81-4992-a85f-a9087798673e,LATAM - CX Priorizacion Casos_V4,AR
+21004d78-3387-4c03-b2ea-12402a3530b5,Resumen  Casos_sinasignar,AR-CXPriorizacionCasos_V4/sheets/ResumenCasos_sinasignar,81c91937-8f81-4992-a85f-a9087798673e,LATAM - CX Priorizacion Casos_V4,AR
+8fa644e5-e616-458e-8b6c-06d0061ae276,Resumen  Casos_solourgentes,AR-CXPriorizacionCasos_V4/sheets/ResumenCasos_solourgentes,81c91937-8f81-4992-a85f-a9087798673e,LATAM - CX Priorizacion Casos_V4,AR
+91df1785-6592-4245-ab82-82016e9bf47c,Conciliacion_Pagos_LATAM,TESTV3LATAMNicoxPayments/sheets/Conciliacion_Pagos_LATAM,98b5dc69-3113-463e-8832-435c174ca06f,LATAM Nicox Payments,Payments
+bf11cf38-0c61-4556-bc1b-0d54dbe9816d,FIN_ALERTA_VENTAS_EFT,TESTV3LATAMNicoxPayments/sheets/FIN_ALERTA_VENTAS_EFT,98b5dc69-3113-463e-8832-435c174ca06f,LATAM Nicox Payments,Payments
+c9870771-c478-4bce-8ec7-988e0a6f1fd3,FIN_CONCILIADO_PAYMENTS,TESTV3LATAMNicoxPayments/sheets/FIN_CONCILIADO_PAYMENTS,98b5dc69-3113-463e-8832-435c174ca06f,LATAM Nicox Payments,Payments
+b26f386d-daa7-49cd-aafa-883d3cd48e87,FIN_CONTROL_DEVOS,TESTV3LATAMNicoxPayments/sheets/FIN_CONTROL_DEVOS,98b5dc69-3113-463e-8832-435c174ca06f,LATAM Nicox Payments,Payments
+e122fcec-7354-4285-8755-cb13cfaaa98f,FIN_VENTAS_EFT,TESTV3LATAMNicoxPayments/sheets/FIN_VENTAS_EFT,98b5dc69-3113-463e-8832-435c174ca06f,LATAM Nicox Payments,Payments
+73a9da18-f216-49cc-a5f6-af8d526b7748,Reporte_Rendido_Tiendas_LATAM v2,TESTV3LATAMNicoxPayments/sheets/Reporte_Rendido_Tiendas_LATAMv2,98b5dc69-3113-463e-8832-435c174ca06f,LATAM Nicox Payments,Payments
+8bff51aa-d265-4569-a6b8-0c5b8c1deb19,Luis_Uran,Luis_Uran_Semanal_IT_V2/sheets/Luis_Uran,c023c6bb-df77-40ad-bd1e-181f1002b759,Luis_Uran_Semanal_IT_V2,IT Reportes Semanales - Productividad
+3dac5280-748a-49f7-b6ee-2643ef094912,Sheet 1,MPPagos/sheets/Sheet1,ecdba7bd-8d31-47d7-9af6-734bc3274129,MP Pagos,Validaciones
+462750c4-069d-4439-b83a-51a6c504f903,COMX_Queu,MXCO-CXFlujo2/sheets/COMX_Queu,b02dc30a-c012-453d-8faf-11af5c5d639e,MXCO - CX Flujo,MXCO
+e8845b12-b6cc-41b3-bbbf-ed02ef6990ea,Resumen  Casos,CX_Priorizacion_Casos_MXCO/sheets/ResumenCasos,c18a699a-6499-44f1-9ebc-4acbbb481cbb,MXCO - CX Priorizacion Casos,CX Wise Chat OUT
+12a4ce79-9a83-4e08-b33a-5bc4319b7821,Resumen  Casos,MXCO-CXPriorizacionCasos_V4/sheets/ResumenCasos,65efef84-57ad-48cc-a4c8-ceac4fb652ce,MXCO - CX Priorizacion Casos_V4,MXCO
+fc1d3ff5-cda9-4abc-ae6c-f88b18ad8d24,Resumen  Casos_sinasignar,MXCO-CXPriorizacionCasos_V4/sheets/ResumenCasos_sinasignar,65efef84-57ad-48cc-a4c8-ceac4fb652ce,MXCO - CX Priorizacion Casos_V4,MXCO
+bd4f3d20-c8ea-477f-9fee-0f3119cd9547,Resumen  Casos_solourgentes,MXCO-CXPriorizacionCasos_V4/sheets/ResumenCasos_solourgentes,65efef84-57ad-48cc-a4c8-ceac4fb652ce,MXCO - CX Priorizacion Casos_V4,MXCO
+dc95f5dd-f106-4487-8f23-b62565df250d,Hoja 1,MarketplacePublicationsListWise/sheets/Hoja1,4cdd9d1d-e368-4bbd-af0a-74e67b572199,Marketplace Publications List Wise,Validaciones
+12e33e98-0c32-4550-948f-8a11a1147586,Miguel Armentano,Miguel_Armentano_Semanal_IT_V2/sheets/MiguelArmentano,ab8a666c-515b-4a6e-8aea-5fff698ffd9c,Miguel_Armentano_Semanal_IT_V2,IT Reportes Semanales - Productividad
+cc8036b3-bafe-4d58-9dc2-b9aafd9387be,Sheet 1,MotivosCupones/sheets/Sheet1,ed1f1d81-1a26-4e52-ba4e-5e8b2e28f1a8,Motivos Cupones,Validaciones
+96a1c074-1b04-4f9e-bce7-6340901abe3f,Nicox_Carga_Ventas,Nicox_Cargadeventas/sheets/Nicox_Carga_Ventas,f60ecccd-2050-41f4-8c7a-9b6a07e07d8a,NICOX Carga de ventas,CX Seguimiento
+2d930dca-566e-44a2-ad49-6bcaeb7c3ffd,Llamames_Mal_Gestionado,CX_LLamames/sheets/Llamames_Mal_Gestionado,5ef34ad2-b6f4-4cbd-8666-fb2083637be9,NICOX Llamame,CX Seguimiento
+977e1a45-adcc-4c60-a235-cc23008d9bc2,Llamames_Mal_Gestionado,NICOXLlamameLATAM/sheets/Llamames_Mal_Gestionado,fa5e4caa-bb45-4d36-a531-f2e8be069aec,NICOX Llamame LATAM,CX Seguimiento
+2612e5a2-9a4c-448b-8144-eeb5e287fb6f,Llamames - Mal Gestionados,NICOX_CX_Llamames/sheets/Llamames-MalGestionados,aab8bc2b-c9dd-4c32-a71b-d9635b166027,NICOX_CX_Llamames,CX Seguimiento
+87abf490-51ec-436a-9c37-a61a82252518,Llamames - Pendientes,NICOX_CX_Llamames/sheets/Llamames-Pendientes,aab8bc2b-c9dd-4c32-a71b-d9635b166027,NICOX_CX_Llamames,CX Seguimiento
+55abe74e-7117-4aef-af1b-a4875dee023c,Gestion de Reviews - CX,NICOX_Gestion_reviews/sheets/GestiondeReviews-CX,2c22a20f-d8dc-4099-a6a6-5a00672949a5,NICOX_Gestion_reviews,CX Seguimiento
+eb62ddc4-0e4b-4844-aa6d-8e6f66779e15,Derivacion Pre,OperacinServiceDesk-Reportes/sheets/DerivacionPre,334b89c1-e1b1-4fde-a0a4-629f889936a3,Operación Service Desk - Reportes,Sistemas y tecnología
+4005451f-a34e-4d3c-b402-d4437bad009c,Derivacion fix,OperacinServiceDesk-Reportes/sheets/Derivacionfix,334b89c1-e1b1-4fde-a0a4-629f889936a3,Operación Service Desk - Reportes,Sistemas y tecnología
+adbed58e-0e71-4a20-8756-6b9e50012c4e,Primer Respuesta,OperacinServiceDesk-Reportes/sheets/PrimerRespuesta,334b89c1-e1b1-4fde-a0a4-629f889936a3,Operación Service Desk - Reportes,Sistemas y tecnología
+c2f71005-9854-415d-80d3-b69346a3435c,Resolucion,OperacinServiceDesk-Reportes/sheets/Resolucion,334b89c1-e1b1-4fde-a0a4-629f889936a3,Operación Service Desk - Reportes,Sistemas y tecnología
+4f666e5c-3739-4245-ba56-fcbfd2fc6fb2,Service_Desk,OperacinServiceDesk-Reportes/sheets/Service_Desk,334b89c1-e1b1-4fde-a0a4-629f889936a3,Operación Service Desk - Reportes,Sistemas y tecnología
+83a293af-6aba-44f9-a9e3-3c461e767514,CLPYPA_Queu,PYPACL-CXFlujo2/sheets/CLPYPA_Queu,2b0a5161-ec78-4b83-8491-52e478e34b27,PYPACL - CX Flujo,PYPACL
+bd567b36-64dd-4a1e-aa10-ba493eb6a951,Resumen  Casos,CX_Priorizacion_Casos_CHPYPA/sheets/ResumenCasos,bebf3a48-d0cf-4493-ac94-18622e8fe1c4,PYPACL - CX Priorizacion Casos,CX Wise Chat OUT
+4a87a0b7-6231-48ca-af3e-27fd8425fd30,Planning,Planning_IT_Presentacion/sheets/Planning,3301e17a-f008-4cce-ab43-0210f411d46a,Planning_IT_Presentacion,Sistemas y tecnología
+9bf33620-222e-421e-9b9f-3997be29b330,AR,Pre_Invoice_Data_Order-BTInfo/sheets/AR,addbd8f7-0a62-4675-80d4-509b7969b93b,Pre_Invoice_Data_Order - BT Info,Sistemas y tecnología
+f51f22bb-bb12-48d8-938a-a371978743ff,CL,Pre_Invoice_Data_Order-BTInfo/sheets/CL,addbd8f7-0a62-4675-80d4-509b7969b93b,Pre_Invoice_Data_Order - BT Info,Sistemas y tecnología
+1a0e48d5-91a6-4d38-8a78-6b2ac18910bf,CO,Pre_Invoice_Data_Order-BTInfo/sheets/CO,addbd8f7-0a62-4675-80d4-509b7969b93b,Pre_Invoice_Data_Order - BT Info,Sistemas y tecnología
+befca5b7-5169-43c8-b3be-2086e06b9473,CR,Pre_Invoice_Data_Order-BTInfo/sheets/CR,addbd8f7-0a62-4675-80d4-509b7969b93b,Pre_Invoice_Data_Order - BT Info,Sistemas y tecnología
+996fe915-9b5e-442d-97e7-8b8855fff0c9,EC,Pre_Invoice_Data_Order-BTInfo/sheets/EC,addbd8f7-0a62-4675-80d4-509b7969b93b,Pre_Invoice_Data_Order - BT Info,Sistemas y tecnología
+b1ec5a71-ff5a-4b8f-ae52-ccd3e118c3cd,MX,Pre_Invoice_Data_Order-BTInfo/sheets/MX,addbd8f7-0a62-4675-80d4-509b7969b93b,Pre_Invoice_Data_Order - BT Info,Sistemas y tecnología
+68eb9c01-bfea-4e6c-b0a8-1c724505bb8b,PA,Pre_Invoice_Data_Order-BTInfo/sheets/PA,addbd8f7-0a62-4675-80d4-509b7969b93b,Pre_Invoice_Data_Order - BT Info,Sistemas y tecnología
+e0cda2d7-5e75-400c-8f60-929a1055401b,PE,Pre_Invoice_Data_Order-BTInfo/sheets/PE,addbd8f7-0a62-4675-80d4-509b7969b93b,Pre_Invoice_Data_Order - BT Info,Sistemas y tecnología
+a9433279-1cb8-49fa-b5e8-b4aeb992858c,PY,Pre_Invoice_Data_Order-BTInfo/sheets/PY,addbd8f7-0a62-4675-80d4-509b7969b93b,Pre_Invoice_Data_Order - BT Info,Sistemas y tecnología
+3af50683-66b0-4ea2-b87d-fb0704639d77,UY,Pre_Invoice_Data_Order-BTInfo/sheets/UY_1,addbd8f7-0a62-4675-80d4-509b7969b93b,Pre_Invoice_Data_Order - BT Info,Sistemas y tecnología
+b30bde5d-5ea1-4b48-b0ed-f318d53fd995,FIN_EERR,PruebaNuevaBaseEERR/sheets/FIN_EERR,d5a46ae1-7033-4909-ae70-707597910f23,Prueba Nueva Base EERR,Validaciones
+b0edfc08-dd31-4254-aab7-ea175d93aadc,FIN_Validacion_Gastos,PruebaNuevaBaseEERR/sheets/FIN_Validacion_Gastos,d5a46ae1-7033-4909-ae70-707597910f23,Prueba Nueva Base EERR,Validaciones
+eb9765b9-bda6-4d87-b6a2-2cf2bc4d59a9,FIN_Validacion_Ventas/CMV,PruebaNuevaBaseEERR/sheets/FIN_Validacion_VentasCMV,d5a46ae1-7033-4909-ae70-707597910f23,Prueba Nueva Base EERR,Validaciones
+fde3b134-c72f-45a2-bb5e-1d4483169f1a,MELI_PUBLICACIONES,Publicaciones_Meli/sheets/MELI_PUBLICACIONES,9f07cefa-a2e1-44d5-bb96-d44e4c53cf37,Publicaciones_Meli,
+50433d24-76c5-44e2-b61b-f0ed7b14fff7,WISE_PUBLICACIONES,Publicaciones_Wise/sheets/WISE_PUBLICACIONES,c96e51d7-12ab-45fb-ae1a-5af64e682558,Publicaciones_Wise,
+9072390d-bb13-4de4-a173-4a433b0fd7ee,FIN_ALERTA_RECHAZOS,TESTRechazosdetarjetasLATAMV3/sheets/FIN_ALERTA_RECHAZOS,0c4d8fc9-9278-4159-bb31-63109451df23,Rechazos de tarjetas LATAM V3,Pagos Rechazados
+2bc38e12-2d88-4bef-a3b2-5b205118b195,FIN_DETALLE_RECHAZOS_SEMANAL,TESTRechazosdetarjetasLATAMV3/sheets/FIN_DETALLE_RECHAZOS_SEMANAL,0c4d8fc9-9278-4159-bb31-63109451df23,Rechazos de tarjetas LATAM V3,Pagos Rechazados
+e3487c96-fd17-47f1-a106-f2f613a21d44,FIN_RECHAZOS_TARJETA,TESTRechazosdetarjetasLATAMV3/sheets/FIN_RECHAZOS_TARJETA,0c4d8fc9-9278-4159-bb31-63109451df23,Rechazos de tarjetas LATAM V3,Pagos Rechazados
+df8f5a99-54de-49f3-abdf-51262f8fb1b2,Resumen Seguimiento reclamos,ReclamosFormularioWise/sheets/ResumenSeguimientoreclamos,9560ec7e-e462-4545-9cc8-aaddc4c8cf9b,Reclamos Formulario | Wise,Seguimiento de reclamos
+f3c7bee1-db77-4caf-81db-637140ee69c8,Reintegros ARG,ReintegrosARG/sheets/Sheet1,4b3a83ce-2185-444f-9bc5-f6e221259b40,Reintegros ARG,Validaciones
+c8a27d85-7365-4679-b996-b5671564fb6b,FIN_Análisis Gastos,TESTRendiciones/sheets/FIN_AnlisisGastos,5e033c0e-b5ce-4f9e-9553-0721365c058c,Rendiciones,Expenses
+dbb16797-a6e8-4a49-b89d-1c3e88714cdb,FIN_GASTOS,TESTRendiciones/sheets/FIN_GASTOS,5e033c0e-b5ce-4f9e-9553-0721365c058c,Rendiciones,Expenses
+371572cb-57bd-4b3d-aa81-0b7fbd39ec55,FIN_RENDICIONES,TESTRendiciones/sheets/FIN_RENDICIONES,5e033c0e-b5ce-4f9e-9553-0721365c058c,Rendiciones,Expenses
+5b9c5b07-77ed-4e49-ae5c-bf0059aa8268,FIN_MAYORISTA_RESELLERS,TESTReporteMAYRES/sheets/FIN_MAYORISTA_RESELLERS,9175e32a-e55b-4319-ab41-6b2f885e3d48,Reporte Analítico M-R,Checking Account
+fbcc7649-dc70-42fb-bf5d-a4002145131c,FIN_AP_AUDIT,TESTReporteAprobacionesAuditora/sheets/FIN_AP_DEBORA,521ca0c3-13bb-4f62-b7a6-2d03dd1540a0,Reporte Aprobaciones Auditoría,Expenses
+507e1498-9a17-4539-8d87-32d2913e4d58,CxP Detalle,TESTReporteGastosSAP_17349606637650/sheets/CxPDetalle,9c34c9e2-810b-43f2-b509-8eda0f4afb8a,Reporte Gastos SAP Global,Estado de Resultados
+95d4edc2-ef6e-4fd8-aacf-08ea3c7fe23f,FIN_Comparativo_Gastos_SAP,TESTReporteGastosSAP_17349606637650/sheets/FIN_Comparativo_Gastos_SAP,9c34c9e2-810b-43f2-b509-8eda0f4afb8a,Reporte Gastos SAP Global,Estado de Resultados
+dc7523c0-087f-452c-8590-976dced89e7a,FIN_Evolutivo_Gastos_SAP,TESTReporteGastosSAP_17349606637650/sheets/FIN_Evolutivo_Gastos_SAP,9c34c9e2-810b-43f2-b509-8eda0f4afb8a,Reporte Gastos SAP Global,Estado de Resultados
+b5c088e3-0371-4719-b6c3-44d6326fa23d,FIN_GASTOS_MAL_IMPUTADOS,TESTReporteGastosSAP_17349606637650/sheets/FIN_GASTOS_MAL_IMPUTADOS,9c34c9e2-810b-43f2-b509-8eda0f4afb8a,Reporte Gastos SAP Global,Estado de Resultados
+eeeaf0ef-f21a-4445-8dfe-eb72c5918cc6,PPTO_Gasto,TESTReporteGastosSAP_17349606637650/sheets/PPTO_Gasto,9c34c9e2-810b-43f2-b509-8eda0f4afb8a,Reporte Gastos SAP Global,Estado de Resultados
+354c3fe8-f992-4a5a-869e-643dd518679b,Revisión Imputaciones x Trans Id,TESTReporteGastosSAP_17349606637650/sheets/RevisinImputacionesxTransId,9c34c9e2-810b-43f2-b509-8eda0f4afb8a,Reporte Gastos SAP Global,Estado de Resultados
+d2b946b6-8fea-46eb-8399-703ab5b386b3,ALERTA_PPTO_MAL_IMPUTADO,TESTReporteGastosvsBudgetv5/sheets/ALERTA_PPTO_MAL_IMPUTADO,136c7619-233c-46ab-a47c-e3c367d58bf8,Reporte Gastos vs Budget v5,Presupuestos
+9c03e649-088b-422a-b31f-20d34214ecf4,FIN_FIN/LOG,TESTReporteGastosvsBudgetv5/sheets/FIN_FINLOG,136c7619-233c-46ab-a47c-e3c367d58bf8,Reporte Gastos vs Budget v5,Presupuestos
+6ef548b1-5c2d-49f8-bbe4-4f86b23f2add,FIN_GvsPPTO_CANAL_YTD,TESTReporteGastosvsBudgetv5/sheets/FIN_GvsPPTO_CANAL_YTD,136c7619-233c-46ab-a47c-e3c367d58bf8,Reporte Gastos vs Budget v5,Presupuestos
+f8c85bbe-ed89-49d6-9ca6-055e2b592f8d,FIN_GvsPPTO_EST_YTD,TESTReporteGastosvsBudgetv5/sheets/FIN_GvsPPTO_EST_YTD,136c7619-233c-46ab-a47c-e3c367d58bf8,Reporte Gastos vs Budget v5,Presupuestos
+3fa5ef7d-5f6f-483d-a7bc-b4b6a663ef01,FIN_GvsPPTO_TOTAL_YTD,TESTReporteGastosvsBudgetv5/sheets/FIN_GvsPPTO_TOTAL_YTD,136c7619-233c-46ab-a47c-e3c367d58bf8,Reporte Gastos vs Budget v5,Presupuestos
+b8df12e0-15dc-4b70-aa2c-7801ee48a7c9,FIN_OPERACIONES,TESTReporteGastosvsBudgetv5/sheets/FIN_OPERACIONES,136c7619-233c-46ab-a47c-e3c367d58bf8,Reporte Gastos vs Budget v5,Presupuestos
+b4ec1e02-d814-465c-aa40-c2e99ddc4dea,FIN_PPTO_MAL_IMPUTADOS,TESTReporteGastosvsBudgetv5/sheets/FIN_PPTO_MAL_IMPUTADOS,136c7619-233c-46ab-a47c-e3c367d58bf8,Reporte Gastos vs Budget v5,Presupuestos
+29582462-526e-4a1c-816a-3568299ddeee,FIN_SSGG,TESTReporteGastosvsBudgetv5/sheets/FIN_SSGG,136c7619-233c-46ab-a47c-e3c367d58bf8,Reporte Gastos vs Budget v5,Presupuestos
+f72c83e4-f72f-45ae-8a2a-e99d7dfd84ab,FIN_Tablero Detalle,TESTReporteGastosvsBudgetv5/sheets/FIN_TableroDetalle,136c7619-233c-46ab-a47c-e3c367d58bf8,Reporte Gastos vs Budget v5,Presupuestos
+14044502-8bd5-453b-84f1-aaf92cdf7307,Alerta Carga de ventas LATAM,TESTReporteautomaticadeventas_17365424566530/sheets/AlertaCargadeventasLATAM,4942da35-629d-4a62-a55c-a7a968abf1cb,Reporte automatica de ventas,
+46000c70-fdc0-497c-8d77-55e1a4fa0344,Listado ventas WEB - Mercado Envios,TESTReporteautomaticadeventas_17365424566530/sheets/ListadoventasWEB-MercadoEnvios,4942da35-629d-4a62-a55c-a7a968abf1cb,Reporte automatica de ventas,
+84cdad89-4337-48bb-9a1a-c83a3b1a0714,Reintegros con direccion incorrecta,TESTReporteautomaticadeventas_17365424566530/sheets/Reintegroscondireccionincorrecta,4942da35-629d-4a62-a55c-a7a968abf1cb,Reporte automatica de ventas,
+ad1baa35-4c1e-4414-82de-7005e064bfbd,Resumen carga de ventas LATAM,TESTReporteautomaticadeventas_17365424566530/sheets/ResumencargadeventasLATAM,4942da35-629d-4a62-a55c-a7a968abf1cb,Reporte automatica de ventas,
+979686c2-1f2a-4d3f-abc5-bac5db434d14,Resumen mensual Carga automatica de Ventas,TESTReporteautomaticadeventas_17365424566530/sheets/ResumenmensualCargaautomaticadeVentas,4942da35-629d-4a62-a55c-a7a968abf1cb,Reporte automatica de ventas,
+77761099-28aa-4624-ad3d-ed963d93b3c2,Tablero carga de ventas,TESTReporteautomaticadeventas_17365424566530/sheets/Tablerocargadeventas,4942da35-629d-4a62-a55c-a7a968abf1cb,Reporte automatica de ventas,
+3adad716-0d7a-4fef-9b92-10378f3eae73,ALERTA_VENTAS_MIN_RANGO,TESTReportesPlaneamiento/sheets/ALERTA_VENTAS_MIN_RANGO,6560614d-9c28-4755-9721-91d1fff34972,Reportes Planeamiento,Administración y Finanzas
+f73f691d-3d54-4e0e-9148-d778934230a2,ALERTA_VTAS_DIARIAS,TESTReportesPlaneamiento/sheets/ALERTA_VTAS_DIARIAS,6560614d-9c28-4755-9721-91d1fff34972,Reportes Planeamiento,Administración y Finanzas
+096e355f-ed34-4b47-99c8-1a900767e712,Auditoria_Cupones_LATAM,TESTReportesPlaneamiento/sheets/Auditoria_Cupones_LATAM,6560614d-9c28-4755-9721-91d1fff34972,Reportes Planeamiento,Administración y Finanzas
+70f6cea5-0ef6-4969-81b3-efa182b76d1b,Cargas_X_Usuario,TESTReportesPlaneamiento/sheets/Cargas_X_Usuario,6560614d-9c28-4755-9721-91d1fff34972,Reportes Planeamiento,Administración y Finanzas
+6fabd111-3e70-4a72-9422-2c44c6e97c0d,Cargas_X_Usuario_Diario,TESTReportesPlaneamiento/sheets/Cargas_X_Usuario_Diario,6560614d-9c28-4755-9721-91d1fff34972,Reportes Planeamiento,Administración y Finanzas
+71d26d89-f796-4376-843b-f123787a5027,Cargas_X_Usuario_Listado,TESTReportesPlaneamiento/sheets/Cargas_X_Usuario_Listado,6560614d-9c28-4755-9721-91d1fff34972,Reportes Planeamiento,Administración y Finanzas
+3e28e8c5-a7e4-4f7a-a256-a3ad36d6fc38,Cupones_LATAM,TESTReportesPlaneamiento/sheets/Cupones_LATAM,6560614d-9c28-4755-9721-91d1fff34972,Reportes Planeamiento,Administración y Finanzas
+734f678e-a016-451a-994d-6b257f4b5e5c,Descuentos_Adicionales_Mensuales,TESTReportesPlaneamiento/sheets/Descuentos_Adicionales_Mensuales,6560614d-9c28-4755-9721-91d1fff34972,Reportes Planeamiento,Administración y Finanzas
+096ea004-74f4-46b8-bf85-7e142f9e29ca,Descuentos_Auditoría_LATAM,TESTReportesPlaneamiento/sheets/Descuentos_Auditora_LATAM,6560614d-9c28-4755-9721-91d1fff34972,Reportes Planeamiento,Administración y Finanzas
+5f613247-2801-4220-b131-fb5500cc891f,Desglose_Cupones,TESTReportesPlaneamiento/sheets/Desglose_Cupones,6560614d-9c28-4755-9721-91d1fff34972,Reportes Planeamiento,Administración y Finanzas
+b209b093-c50a-4f70-acd6-e7b6b51ae292,FIN_ALERTA_DESCUENTOS,TESTReportesPlaneamiento/sheets/FIN_ALERTA_DESCUENTOS,6560614d-9c28-4755-9721-91d1fff34972,Reportes Planeamiento,Administración y Finanzas
+14d9b53b-bc94-45cb-8fc4-d69594877bd1,Listado_Ventas,TESTReportesPlaneamiento/sheets/Listado_Ventas,6560614d-9c28-4755-9721-91d1fff34972,Reportes Planeamiento,Administración y Finanzas
+92620edb-8c01-4ce8-a810-f3b1417b087c,Reintegros_Auditoría,TESTReportesPlaneamiento/sheets/Reintegros_Auditora,6560614d-9c28-4755-9721-91d1fff34972,Reportes Planeamiento,Administración y Finanzas
+9b15b54f-84e5-4b04-85b2-05661ca3f8c2,Reservas_LATAM,TESTReportesPlaneamiento/sheets/Reservas_LATAM,6560614d-9c28-4755-9721-91d1fff34972,Reportes Planeamiento,Administración y Finanzas
+ff9146f0-7750-4578-8f37-9213b34f6306,UN_Vendidas,TESTReportesPlaneamiento/sheets/UN_Vendidas,6560614d-9c28-4755-9721-91d1fff34972,Reportes Planeamiento,Administración y Finanzas
+da0fac5c-c12e-4bec-a6b6-c6dd9471ceea,Unidaddes_Mensuales,TESTReportesPlaneamiento/sheets/Unidaddes_Mensuales,6560614d-9c28-4755-9721-91d1fff34972,Reportes Planeamiento,Administración y Finanzas
+7703c00c-dafb-49e0-a6ef-1b9d01a43a3e,Ventas_LATAM,TESTReportesPlaneamiento/sheets/Ventas_LATAM,6560614d-9c28-4755-9721-91d1fff34972,Reportes Planeamiento,Administración y Finanzas
+ea29d3b5-acc9-4d32-82a8-c683f97dd1ba,RI - Activtrack,PruebaCX-Individual-VF/sheets/RI-Activtrack,0d24ef3c-c020-4496-b525-98951e0852bb,Resumen Diario Individual CX,CX Seguimiento
+ee815a8a-b4ca-4e4b-a0f5-1c20ba100b33,RI - WiseCX - 2,PruebaCX-Individual-VF/sheets/RI-WiseCX-2,0d24ef3c-c020-4496-b525-98951e0852bb,Resumen Diario Individual CX,CX Seguimiento
+7a36640c-a33f-406a-8f8a-2b7e2e555ddd,RI - WiseCX - 3,PruebaCX-Individual-VF/sheets/RI-WiseCX-3,0d24ef3c-c020-4496-b525-98951e0852bb,Resumen Diario Individual CX,CX Seguimiento
+098a79a3-f9a7-48b7-86d9-626d7674685d,RESUMEN_MOTIVOS_MENSUAL_WISE,RESUMENMOTIVOSMENSUAL/sheets/RESUMEN_MOTIVOS_DIARIOS_WISE,aad902ba-c5e7-4137-839f-d2f7d2835e68,Resumen Motivos Mensual - BOT,CX Wise Chats
+50393a55-b8a5-4b6c-ae6a-c2e30a92d23f,Resumen LATAM,ResumenseguimientodeentregasLATAM/sheets/ResumenLATAM,60418337-83ef-4c60-8dd5-aaf4c58ab465,Resumen seguimiento de entregas LATAM,Seguimiento de Entregas LATAM
+83c5c49f-9016-496d-9f1c-fd053da2278a,RESUMEN,Resumen_BOT/sheets/RESUMEN,b2f77aee-cf91-4891-bdb2-99434571fde3,Resumen_BOT,CX Wise Chats
+f983f69a-66b8-484e-af4f-0afbaeb5703b,RESUMEN_SEMANAL_TIPIFICACIONES,Resumen_BOT/sheets/RESUMEN_SEMANAL_TIPIFICACIONES,b2f77aee-cf91-4891-bdb2-99434571fde3,Resumen_BOT,CX Wise Chats
+3053e0a5-f8c3-4bc2-be45-7395097c2854,RESUMEN_TIPIFICACIONES,Resumen_BOT/sheets/RESUMEN_TIPIFICACIONES,b2f77aee-cf91-4891-bdb2-99434571fde3,Resumen_BOT,CX Wise Chats
+cd95c883-c12c-43db-a0f1-b6750fb6a519,RESUMEN,Resumen_ESPERA_AGENTE/sheets/RESUMEN,7728bf2e-f3c1-46c8-8bd5-5d5c18725ce1,Resumen_ESPERA_AGENTE,CX Wise Chats
+39311b83-cffd-4b57-85b9-3c4513f22112,RESUMEN_MATUTINO,Resumen_ESPERA_AGENTE/sheets/RESUMEN_MATUTINO,7728bf2e-f3c1-46c8-8bd5-5d5c18725ce1,Resumen_ESPERA_AGENTE,CX Wise Chats
+03c35b43-849d-4586-bfe7-78190b32acfb,RESUMEN,Resumen_flujo_LATAM/sheets/RESUMEN,d6df16e1-377e-4fab-9ec7-9250bcc3131e,Resumen_flujo_LATAM,CX Wise Chats
+ffe29486-a250-4455-9c37-c6314dd5c300,RESUMEN_MATUTINO,Resumen_flujo_LATAM/sheets/RESUMEN_MATUTINO,d6df16e1-377e-4fab-9ec7-9250bcc3131e,Resumen_flujo_LATAM,CX Wise Chats
+76416ff8-fcb1-4704-947a-a4813fb48c84,RESUMEN,Resumen_flujo_LATAM_BT/sheets/RESUMEN,3d98ab59-887a-433c-a706-64189b395223,Resumen_flujo_LATAM_BT,CX Wise Chats
+0b2d4fc0-afcb-4a64-a50f-c40e791a70d5,Hoja 2,STOCKVALORIZADO/sheets/Hoja2,6d2f4da8-2486-4b39-8dbc-198b9d17c38c,STOCK VALORIZADO,Validaciones
+460f148e-dcc9-4190-b7c4-d0e2b9168161,Sheet 1,STOCKVALORIZADO/sheets/Sheet1,6d2f4da8-2486-4b39-8dbc-198b9d17c38c,STOCK VALORIZADO,Validaciones
+a589024b-0ba7-4919-ac98-3c6982633549,Sebastian_Diaz,Sebastian_Diaz_Semanal_IT_V2/sheets/Sebastian_Diaz,945033ae-8ff9-49c8-a05a-d4b886921289,Sebastian_Diaz_Semanal_IT_V2,IT Reportes Semanales - Productividad
+850b65cc-85d4-49ae-9647-90cd61516724,Sheet 1,SeguimientoIngenico/sheets/Sheet1,38dba2b1-1e68-42b6-ad55-e7e5742cb994,Seguimiento Ingenico,Validaciones
+ee6bbd4e-7250-4de8-a817-99143c59c86d,Seguimiento MP,SeguimientoMP/sheets/SeguimientoMP,e0f595f2-d984-4b41-857e-314f0e5798e8,Seguimiento MP,Validaciones
+e5e30375-b9f4-41cb-8f33-b982fe1abbfc,Alerta Sin Motivo,SeguimientodeentregasLATAM/sheets/AlertaSinMotivo,bec61115-7252-46a2-b8f1-46e0f0b19a80,Seguimiento de entregas LATAM,Seguimiento de Entregas LATAM
+2264c0d9-ac9a-4f4e-ac2a-992a1fc9e77d,Export_Operativo,SeguimientodeentregasLATAM/sheets/Export_Operativo,bec61115-7252-46a2-b8f1-46e0f0b19a80,Seguimiento de entregas LATAM,Seguimiento de Entregas LATAM
+fd3342da-e40f-4be4-af03-c70ab9d48c16,Tablero Principal,SeguimientodeentregasLATAM/sheets/TableroPrincipal,bec61115-7252-46a2-b8f1-46e0f0b19a80,Seguimiento de entregas LATAM,Seguimiento de Entregas LATAM
+08e2a45c-5e23-4e92-beb1-8d524f75ad9f,Cronograma_Completo,SprintReview-ArmentanoMiguel/sheets/Cronograma_Completo,86fbcacd-c2ed-4434-bfe3-10347c761f92,Sprint Review - Armentano Miguel,IT Sprint Report
+6f08b2ad-fc1a-4c0f-949f-0ad58a883562,Reporte-General,SprintReview-ArmentanoMiguel/sheets/Reporte-General,86fbcacd-c2ed-4434-bfe3-10347c761f92,Sprint Review - Armentano Miguel,IT Sprint Report
+334a7d90-acb7-413a-b821-0e9559a31255,Tickets Evaluados,SprintReview-ArmentanoMiguel/sheets/TicketsEvaluados,86fbcacd-c2ed-4434-bfe3-10347c761f92,Sprint Review - Armentano Miguel,IT Sprint Report
+c35f3fb9-4ebd-4961-88d6-28109dee7b34,Hoja 1 - Horas totales / Horas estimadas,SprintReview-General_V2/sheets/Hoja1-HorastotalesHorasestimadas,0c5d9a24-6298-429c-ae44-ced56ca85669,Sprint Review - General,IT Sprint Report
+69df77f9-08cf-4a99-b2fd-6e7c10b99eb2,Hoja 2 - Grafico de progreso (%),SprintReview-General_V2/sheets/Hoja2-Graficodeprogreso,0c5d9a24-6298-429c-ae44-ced56ca85669,Sprint Review - General,IT Sprint Report
+bda5b33e-c38b-4dd8-8cb1-7996cd1b7372,Hoja 22,SprintReview-General_V2/sheets/Hoja22,0c5d9a24-6298-429c-ae44-ced56ca85669,Sprint Review - General,IT Sprint Report
+b873386f-0faa-4ca2-a778-af5a6f20da13,Hoja 7 (2),SprintReview-General_V2/sheets/Hoja72,0c5d9a24-6298-429c-ae44-ced56ca85669,Sprint Review - General,IT Sprint Report
+4b7fc041-eb0c-4a6c-847e-681fefdee0dc,Reporte-General,SprintReview-General_V2/sheets/Reporte-General,0c5d9a24-6298-429c-ae44-ced56ca85669,Sprint Review - General,IT Sprint Report
+26a5eff8-1acb-4687-a988-6dc5fa82cad0,Hoja 1 - Horas totales / Horas estimadas,SprintReview-General_V2_17289357248500/sheets/Hoja1-HorastotalesHorasestimadas,8407de43-ef9b-419d-88f7-4425b73a05ba,Sprint Review - General_V2,IT Sprint Report
+1321d13d-39be-4731-83ea-13e0d44885ea,Hoja 2 - Grafico de progreso (%),SprintReview-General_V2_17289357248500/sheets/Hoja2-Graficodeprogreso,8407de43-ef9b-419d-88f7-4425b73a05ba,Sprint Review - General_V2,IT Sprint Report
+80d85304-5ffe-46ae-b6fd-0394b432b94b,Hoja 22,SprintReview-General_V2_17289357248500/sheets/Hoja22,8407de43-ef9b-419d-88f7-4425b73a05ba,Sprint Review - General_V2,IT Sprint Report
+1c87b4dc-389d-44f3-972f-9ad17e563a96,Hoja 7 (2),SprintReview-General_V2_17289357248500/sheets/Hoja72,8407de43-ef9b-419d-88f7-4425b73a05ba,Sprint Review - General_V2,IT Sprint Report
+7f18717c-552a-4b55-9cd8-0f078f334e16,Reporte-General,SprintReview-General_V2_17289357248500/sheets/Reporte-General,8407de43-ef9b-419d-88f7-4425b73a05ba,Sprint Review - General_V2,IT Sprint Report
+42c685f2-e177-4d27-b8e5-06dfd7ebf1c5,Hoja 1 - Horas totales / Horas estimadas,SprintReview-General_V3/sheets/Hoja1-HorastotalesHorasestimadas,f7a11d53-d7aa-48b9-adef-54a04ba3f9a4,Sprint Review - General_V3,IT Sprint Report
+c88c731a-31e1-4174-a89e-eaecf216c0bb,Hoja 2 - Grafico de progreso (%),SprintReview-General_V3/sheets/Hoja2-Graficodeprogreso,f7a11d53-d7aa-48b9-adef-54a04ba3f9a4,Sprint Review - General_V3,IT Sprint Report
+f115ed67-b453-4b15-94ef-2ac3250073a6,Hoja 22,SprintReview-General_V3/sheets/Hoja22,f7a11d53-d7aa-48b9-adef-54a04ba3f9a4,Sprint Review - General_V3,IT Sprint Report
+510f8970-b4d1-4397-b560-fe083501adfd,Hoja 7 (2),SprintReview-General_V3/sheets/Hoja72,f7a11d53-d7aa-48b9-adef-54a04ba3f9a4,Sprint Review - General_V3,IT Sprint Report
+9c634281-63a6-4065-9121-462816c3358d,Reporte-General,SprintReview-General_V3/sheets/Reporte-General,f7a11d53-d7aa-48b9-adef-54a04ba3f9a4,Sprint Review - General_V3,IT Sprint Report
+219a1a85-4e07-4d0d-8db0-e962ffa4104c,Cronograma_Completo,SprintReview-GonzalezKenneth/sheets/Cronograma_Completo,500f4a82-2e03-480a-8707-baba10710ad8,Sprint Review - Gonzalez Kenneth,IT Sprint Report
+3c08edbe-4128-4c1c-a53e-9b26cf9531e1,Reporte-General,SprintReview-GonzalezKenneth/sheets/Reporte-General,500f4a82-2e03-480a-8707-baba10710ad8,Sprint Review - Gonzalez Kenneth,IT Sprint Report
+8f4dcd2b-0417-478c-987b-b026835e3e19,Tickets Evaluados,SprintReview-GonzalezKenneth/sheets/TicketsEvaluados,500f4a82-2e03-480a-8707-baba10710ad8,Sprint Review - Gonzalez Kenneth,IT Sprint Report
+80a1684d-b473-4122-ba9b-00652c13b2d9,Cronograma_Completo,SprintReview-JuanLallana/sheets/Cronograma_Completo,be4eba5f-db6f-4626-ad8f-45952d90bfef,Sprint Review - Juan Lallana,IT Sprint Report
+60e975b7-f258-4adb-8869-709a7fc8d8ce,Reporte-General,SprintReview-JuanLallana/sheets/Reporte-General,be4eba5f-db6f-4626-ad8f-45952d90bfef,Sprint Review - Juan Lallana,IT Sprint Report
+f0df13a3-8177-415c-887a-9c35d611b936,Tickets Evaluados,SprintReview-JuanLallana/sheets/TicketsEvaluados,be4eba5f-db6f-4626-ad8f-45952d90bfef,Sprint Review - Juan Lallana,IT Sprint Report
+cd35b52b-d7d6-40fa-8e39-05e2c989f0ad,Cronograma_Completo,SprintReview-LancryMatias/sheets/Cronograma_Completo,88936787-bd18-45e4-80aa-f5b8c6729e08,Sprint Review - Lancry Matias,IT Sprint Report
+b5cabb7f-194d-4017-82b2-616fd5984742,Reporte-General,SprintReview-LancryMatias/sheets/Reporte-General,88936787-bd18-45e4-80aa-f5b8c6729e08,Sprint Review - Lancry Matias,IT Sprint Report
+517f2bc9-973a-4444-b28f-3e59f9fff4ac,Tickets Evaluados,SprintReview-LancryMatias/sheets/TicketsEvaluados,88936787-bd18-45e4-80aa-f5b8c6729e08,Sprint Review - Lancry Matias,IT Sprint Report
+14755ba9-9c26-489c-8693-ddb9dd2bd4a8,Cronograma_Completo,SprintReview-MoriAlan/sheets/Cronograma_Completo,5a2a8e50-f4cc-45ad-97c3-5a3b334850a0,Sprint Review - Mori Alan,IT Sprint Report
+e961296d-df9c-4506-8bf4-b046eacf578c,Reporte-General,SprintReview-MoriAlan/sheets/Reporte-General,5a2a8e50-f4cc-45ad-97c3-5a3b334850a0,Sprint Review - Mori Alan,IT Sprint Report
+bf648275-c4ae-4c72-8c6c-2a4270feadab,Tickets Evaluados,SprintReview-MoriAlan/sheets/TicketsEvaluados,5a2a8e50-f4cc-45ad-97c3-5a3b334850a0,Sprint Review - Mori Alan,IT Sprint Report
+7e90e8b5-d031-4312-9e9a-14544b55fa0c,Cronograma_Completo,SprintReview-SebaDiaz/sheets/Cronograma_Completo,1a4db0fc-4d75-47b6-b5f3-bae1fd523187,Sprint Review - Seba Diaz,IT Sprint Report
+7356e01e-992e-4810-9769-00461839c6a9,Reporte-General,SprintReview-SebaDiaz/sheets/Reporte-General,1a4db0fc-4d75-47b6-b5f3-bae1fd523187,Sprint Review - Seba Diaz,IT Sprint Report
+a7c4a5e0-01ce-4cd6-8292-0a2b98d5ca0c,Tickets Evaluados,SprintReview-SebaDiaz/sheets/TicketsEvaluados,1a4db0fc-4d75-47b6-b5f3-bae1fd523187,Sprint Review - Seba Diaz,IT Sprint Report
+468c7b89-ade6-4c27-90ed-d532cb37c3dd,Cronograma_Completo,SprintReview-SeguradoNicolas/sheets/Cronograma_Completo,30834fc7-72cb-4a4f-aaa2-5999cd02f7b9,Sprint Review - Segurado Nicolas,IT Sprint Report
+31e08ad4-6ea0-451c-9c94-7d0390d8bd33,Reporte-General,SprintReview-SeguradoNicolas/sheets/Reporte-General,30834fc7-72cb-4a4f-aaa2-5999cd02f7b9,Sprint Review - Segurado Nicolas,IT Sprint Report
+61617fe9-fb28-4855-acc7-5c88ee82a777,Tickets Evaluados,SprintReview-SeguradoNicolas/sheets/TicketsEvaluados,30834fc7-72cb-4a4f-aaa2-5999cd02f7b9,Sprint Review - Segurado Nicolas,IT Sprint Report
+63ee6f9b-fb0f-492f-846a-018d274c39f3,Cronograma_Completo,SprintReview-SkrobakGerman/sheets/Cronograma_Completo,e52f1b1d-3091-40da-b9b4-829e697ca78d,Sprint Review - Skrobak German,IT Sprint Report
+5be305a7-48e6-4f64-8061-aacd2ebccfe3,Reporte-General,SprintReview-SkrobakGerman/sheets/Reporte-General,e52f1b1d-3091-40da-b9b4-829e697ca78d,Sprint Review - Skrobak German,IT Sprint Report
+eea7ea71-8d14-4cb6-a8ed-2a0d360da69d,Tickets Evaluados,SprintReview-SkrobakGerman/sheets/TicketsEvaluados,e52f1b1d-3091-40da-b9b4-829e697ca78d,Sprint Review - Skrobak German,IT Sprint Report
+1b1256c6-95df-427a-8e1f-a6b9bfe006ad,Cronograma_Completo,SprintReview-UranLuis/sheets/Cronograma_Completo,67073937-7d87-44a9-977a-7cc30bde56dc,Sprint Review - Uran Luis,IT Sprint Report
+131554dc-affb-4653-9bd4-ab11640ad1d8,Reporte-General,SprintReview-UranLuis/sheets/Reporte-General,67073937-7d87-44a9-977a-7cc30bde56dc,Sprint Review - Uran Luis,IT Sprint Report
+89359b0a-90a1-4e98-8d91-79475f02e9e9,Tickets Evaluados,SprintReview-UranLuis/sheets/TicketsEvaluados,67073937-7d87-44a9-977a-7cc30bde56dc,Sprint Review - Uran Luis,IT Sprint Report
+95e2504d-d447-479c-a8f5-c29c04ab0acb,Sheet 1,StockLATAMJoaco/sheets/Sheet1,aad58914-4de2-4303-99e4-431dc93f6812,Stock LATAM Joaco,Validaciones
+bb130e6d-ce25-4a43-af12-6c7a2f45e64e,FIN_Alerta_Sync_Log,Stock_Sync_Log/sheets/FIN_Alerta_Sync_Log,ab419e67-7fb2-4696-b80a-452498aae5da,Stock_Sync_Log,Sistemas y tecnología
+1e29ff9a-747d-4fed-9a93-e1978fb31b99,FRAUD,TESTFraudePolygon/sheets/Dashboard1,71a1f76a-8069-4986-bc47-d851367e51dc,TEST Fraude Polygon,
+d91405b3-eb91-4c95-8111-ca522963d90d,Cuentas Clientes Histórico,TableroCheckingAccountResellerMayorista_17047400463430/sheets/CuentasClientesHistrico,1572e759-1b7e-40b2-9bf3-c2466973ee32,Tablero Checking Account Reseller Mayorista,Checking Account
+5a9b7722-abb6-4f9c-88c9-8950b6e783bc,Detalle por transacciones,TableroCheckingAccountResellerMayorista_17047400463430/sheets/Detalleportransacciones,1572e759-1b7e-40b2-9bf3-c2466973ee32,Tablero Checking Account Reseller Mayorista,Checking Account
+f10b2856-69e8-4dd8-9e19-eba8105fbf25,Estado Cuentas actuales (2),TableroCheckingAccountResellerMayorista_17047400463430/sheets/EstadoCuentasactuales2,1572e759-1b7e-40b2-9bf3-c2466973ee32,Tablero Checking Account Reseller Mayorista,Checking Account
+c75b1a67-034e-4a47-8088-fdfdf6f5f52d,Seguimiento reclamos,Tableroseguimientodereclamos/sheets/Seguimientoreclamos,a8133028-2329-4b55-9821-631f6195976b,Tablero seguimiento de reclamos,Seguimiento de reclamos
+5d404fe5-95b4-4ca8-86d0-58ea4c909c61,Seguimiento reclamos,TableroseguimientodereclamosCL/sheets/Seguimientoreclamos,2650edc3-eee9-4d9a-8eaa-2369006b193a,Tablero seguimiento de reclamos CL,Seguimiento de reclamos
+83ba7ec9-696a-49b3-83ac-97b64d689062,Seguimiento reclamos,TableroseguimientodereclamosCO/sheets/Seguimientoreclamos,853df963-87f4-4507-8b0a-0769503960e7,Tablero seguimiento de reclamos CO,Seguimiento de reclamos
+1448b61c-2666-4229-afd7-55beef323aae,Seguimiento reclamos,TableroseguimientodereclamosCR/sheets/Seguimientoreclamos,1c7ee23f-eedc-46eb-b42e-98bfe2c504c9,Tablero seguimiento de reclamos CR,Seguimiento de reclamos
+f0f3b2f0-3fb8-431c-8352-c2604afeb4cf,Seguimiento reclamos,TableroseguimientodereclamosEC/sheets/Seguimientoreclamos,0cb99198-2398-4841-85fa-50a2929e1676,Tablero seguimiento de reclamos EC,Seguimiento de reclamos
+da129625-82c0-4faa-a471-7f8ddd5811d5,Seguimiento reclamos,TableroseguimientodereclamosMX/sheets/Seguimientoreclamos,36fd20d2-4cf4-4882-b1a4-540c0d43704a,Tablero seguimiento de reclamos MX,Seguimiento de reclamos
+6e0f7747-c677-432f-ad82-f6e27fd27e66,Seguimiento reclamos,TableroseguimientodereclamosPA/sheets/Seguimientoreclamos,05c69449-8ea3-4926-8d63-72316b1e1746,Tablero seguimiento de reclamos PA,Seguimiento de reclamos
+88cac66b-79ef-4b10-ac66-36eccb0529b1,Seguimiento reclamos,TableroseguimientodereclamosPE/sheets/Seguimientoreclamos,e0e9767e-364e-4597-a283-ff716659ae7d,Tablero seguimiento de reclamos PE,Seguimiento de reclamos
+35b5fa04-b9ae-4be6-8875-30d2c39dce33,Seguimiento reclamos,TableroseguimientodereclamosPY/sheets/Seguimientoreclamos,2aecef7f-e74d-4349-8513-295c8f4e30b6,Tablero seguimiento de reclamos PY,Seguimiento de reclamos
+147494d4-406a-4d27-9efd-56155a95ac24,Seguimiento reclamos,TableroseguimientodereclamosUY/sheets/Seguimientoreclamos,4e13ad78-474a-436b-a1ac-0ebc18a5f125,Tablero seguimiento de reclamos UY,Seguimiento de reclamos
+6581f4e0-4712-422c-b27a-f4e0a3901a8c,FIN_Template_Conciliador_Liverpool,TemplateConciliadorLiverpool/sheets/FIN_Template_Conciliador_Liverpool,cbc8f47f-0832-4ef3-aa49-b7492c334621,Template Conciliador Liverpool,Payments
+b0b1e5c1-bf6c-4086-91c3-5037d631dcc4,FIN_Template_Conciliador_MP,TESTTemplateConciliadorMP/sheets/FIN_Template_Conciliador_MP,14ac1cdb-90eb-48a2-89a1-639241a4eff5,Template Conciliador MP,Payments
+4cd7dde8-4f9c-411f-82fe-bd94e1a30fba,Resumen diario  - Alerta,TestActivPY/sheets/Resumendiario-Alerta,e5a55750-f436-4842-9c06-8bb9a23e7971,Test Activ PY,ActivTrack PY_PA_CL
+a09e5d69-a419-46bf-9420-bb2a1a514db1,Sheet 1,Validacion3DS/sheets/Sheet1,5ac91dd1-fc75-4e34-b5a4-7a7ae5ac2e79,Validacion 3DS,Validaciones
+1e46878b-8378-4556-bda5-e8d41114a757,Sheet 1,ValidacionCheckoutMapInteractionsBT/sheets/Sheet1,ca02dd51-ca11-491d-96b3-7c24a9c17cd5,Validacion Checkout Map Interactions | BT,Validaciones
+5ad3f0bb-d12a-40c2-941e-3077dc91d93c,devo mp,VentaDevoMPCLnomuestramonto/sheets/devomp,f87b3e0d-6601-4ad2-856e-3d6062f024ec,Venta + Devo MP CL no muestra monto,Validaciones
+64be74bc-e71f-4e2f-913a-6c303aea81b6,devo2,VentaDevoMPCLnomuestramonto/sheets/devo2,f87b3e0d-6601-4ad2-856e-3d6062f024ec,Venta + Devo MP CL no muestra monto,Validaciones
+96e8cb67-0e43-42c0-be6f-48038d5ff69f,venta mp,VentaDevoMPCLnomuestramonto/sheets/ventamp,f87b3e0d-6601-4ad2-856e-3d6062f024ec,Venta + Devo MP CL no muestra monto,Validaciones
+f4ca258d-2e82-495f-adac-a256fb9ab47c,Hoja 1,Ventas-3enCC/sheets/Hoja1,42cf614c-189d-45d7-bfe4-1ee3dfa74933,Ventas -3 en CC,Validaciones
+f5f6a233-a8dc-457a-8f10-64fab81d9bd3,Wise_Reviews_General,Reviews_Wise/sheets/Review_Global,a1ccb4bd-5a10-4c25-b0be-1bdb4662e0bd,WISE_Reviews,CX Seguimiento
+dd65e550-7f1f-424e-bf5f-71d1d8b8f6ad,Wise_Reviews_Gestion_AR,WiseCX-GestiondereviewsAR/sheets/Wise_Reviews_Gestion_AR,a8ea392e-3467-4f95-8b12-0bf214837bf5,Wise CX - Gestion de reviews AR,CX Seguimiento
+d75c49b5-e312-4fbe-b19c-99f79877b8fd,Wise_Reviews_Gestion_CLPYPA,WiseCX-GestiondereviewsCLPYPA/sheets/Wise_Reviews_Gestion_CLPYPA,7c68808d-0a19-4dd8-b8c6-ad6c8f64cbd0,Wise CX - Gestion de reviews CLPYPA,CX Seguimiento
+af2327af-ddcb-4778-b1a6-ec25e8c3b6aa,Wise_Reviews_Gestion_ECPEUY,WiseCX-GestiondereviewsECPEUY/sheets/Wise_Reviews_Gestion_ECPEUY,33c1f082-8075-441c-ba5c-fa9344ae7b0b,Wise CX - Gestion de reviews ECPEUY,CX Seguimiento
+bc51ac85-1916-417e-a6a0-76c11a549c2f,Wise_Reviews_Gestion_MXCO,WiseCX-GestiondereviewsMXCO/sheets/Wise_Reviews_Gestion_MXCO,c750b1ec-77bf-4383-8b2f-e054402a7549,Wise CX - Gestion de reviews MXCO,CX Seguimiento
+89a6c0b9-86ba-450c-8b1a-19795b6e6964,Llamados - Listado,Reporte_CX_Llamadas/sheets/Llamados-Listado,f7d8722c-f01d-4270-a7cb-e9defca3ab74,Wise_CX_Llamadas,CX Seguimiento
+e48860db-16ab-4419-aafb-1e7cddc2778e,Llamados - Resumen,Reporte_CX_Llamadas/sheets/Llamados-Resumen,f7d8722c-f01d-4270-a7cb-e9defca3ab74,Wise_CX_Llamadas,CX Seguimiento
+8cef64c2-1b90-4088-affb-4d4f8dc479a1,Llamados - Listado,Wise_CX_Llamadas_ARG/sheets/Llamados-Listado,385b5aef-6553-4b4b-b1f6-ee81991f6509,Wise_CX_Llamadas_ARG,AR
+ab864252-ced4-4f64-8739-95cdd789a81e,Llamados - Resumen,Wise_CX_Llamadas_ARG/sheets/Llamados-Resumen,385b5aef-6553-4b4b-b1f6-ee81991f6509,Wise_CX_Llamadas_ARG,AR
+400253d2-b7f0-43e7-970c-936dbd272bdb,Llamados - Listado,Wise_CX_Llamadas_CHPYPA/sheets/Llamados-Listado,7a83b9db-7c54-44df-85d9-431a1243a876,Wise_CX_Llamadas_CHPYPA,PYPACL
+2f9d8b9c-5746-4fab-84b5-9ab68bf34f11,Llamados - Resumen,Wise_CX_Llamadas_CHPYPA/sheets/Llamados-Resumen,7a83b9db-7c54-44df-85d9-431a1243a876,Wise_CX_Llamadas_CHPYPA,PYPACL
+7f64f90e-40b9-423f-abc0-beb60a07765a,Llamados - Listado,Wise_CX_Llamadas_ECPEUY/sheets/Llamados-Listado,7f9d3d48-8544-4550-8936-401dc7875398,Wise_CX_Llamadas_ECPEUY,ECPEUY
+a2ddc73f-48ee-486a-8dea-c4f65a472e65,Llamados - Resumen,Wise_CX_Llamadas_ECPEUY/sheets/Llamados-Resumen,7f9d3d48-8544-4550-8936-401dc7875398,Wise_CX_Llamadas_ECPEUY,ECPEUY
+adeb4c19-a827-4195-a763-e31d617fa429,Llamados - Listado,Wise_CX_Llamadas_MXCO/sheets/Llamados-Listado,a652f6db-f184-4a35-adc7-28e33c1f6540,Wise_CX_Llamadas_MXCO,MXCO
+db0e8118-b371-4e97-ade3-3b50ee9510d8,Llamados - Resumen,Wise_CX_Llamadas_MXCO/sheets/Llamados-Resumen,a652f6db-f184-4a35-adc7-28e33c1f6540,Wise_CX_Llamadas_MXCO,MXCO
+3424ebc0-0958-49e4-8d49-2b4d564549d3,Añadir pago,Tablasvalidacinpagossinasignaryaadirpago/sheets/Aadirpago,f8aabb3e-1c3d-4764-a6fd-9389af7dbec4,[OUT] Tablas validación pagos sin asignar y añadir pago,Validaciones
+cba0849f-0507-4eb9-be90-754ca7e6621f,Pagos s/asignar,Tablasvalidacinpagossinasignaryaadirpago/sheets/Pagossasignar,f8aabb3e-1c3d-4764-a6fd-9389af7dbec4,[OUT] Tablas validación pagos sin asignar y añadir pago,Validaciones
+2446e729-e1e6-4863-8358-99c002b5df11,FIN_ALERTA_VENTAS,TESTVentasSinFacturarInvoiceAPI/sheets/FIN_ALERTA_VENTAS,3278f8b6-67af-4b1c-8da0-6c2c45c71a11,[OUT] Ventas Sin Facturar LATAM,
+f224cac9-0c88-4a34-94e0-c5dc34abab23,FIN_VTAS_SIN_FACTURAR,TESTVentasSinFacturarInvoiceAPI/sheets/FIN_VTAS_SIN_FACTURAR,3278f8b6-67af-4b1c-8da0-6c2c45c71a11,[OUT] Ventas Sin Facturar LATAM,
+2da88cfa-f5aa-4001-a90f-591ee21437d1,Tablero carga de ventas,TESTCargaautomaticadeventas_17349571654370/sheets/Tablerocargadeventas,969b371a-83c6-44f8-aca0-f98b02534c21,[OUT] [TEST] Carga automatica de ventas V2,
+c1c84fe2-dad5-4290-8342-419e507f7e44,Costo de financiación - ROI,TESTCostodefinanciacinROI/sheets/Costodefinanciacin-ROI,bcba2e33-011e-466d-bebb-7d8538b06091,[OUT] [TEST] Costo de financiación ROI,ROI
+5379b832-1468-4670-9345-f9e7ca9760d4,FIN_ALERTA_RECHAZOS,TESTRechazosdetarjetasLATA/sheets/FIN_ALERTA_RECHAZOS,d16e3688-2944-4159-b607-238fb6c01c07,[OUT] [TEST] Rechazos de tarjetas LATAM,
+ace75bd9-85fc-43f1-9090-73a03ffbd4cf,FIN_RECHAZOS_TARJETA,TESTRechazosdetarjetasLATA/sheets/FIN_RECHAZOS_TARJETA,d16e3688-2944-4159-b607-238fb6c01c07,[OUT] [TEST] Rechazos de tarjetas LATAM,
+9221d5e9-799f-40a3-ad90-5dba162623a7,FIN_ALERTA_RECHAZOS,TESTRechazosdetarjetasLATAMv2/sheets/FIN_ALERTA_RECHAZOS,216dce3f-6cb8-45e5-8aae-40d7bb48d39d,[OUT] [TEST] Rechazos de tarjetas LATAM v2,
+c2cae10f-2435-4496-ba2a-91b40929f347,FIN_RECHAZOS_TARJETA,TESTRechazosdetarjetasLATAMv2/sheets/FIN_RECHAZOS_TARJETA,216dce3f-6cb8-45e5-8aae-40d7bb48d39d,[OUT] [TEST] Rechazos de tarjetas LATAM v2,
+d820f70f-e840-40c4-957e-ba4f3c268749,FIN_Bajada_Tarjetas,TESTResumenporTarjeta/sheets/FIN_Bajada_Tarjetas,990784a9-4d00-4449-b42c-c17c9ff728cb,[OUT] [TEST] Resumen por Tarjeta,
+62f14a87-454c-40a0-9bc3-ca7aaa9bcead,FIN_Desglose_CMV_General,PL_TESTVentas/sheets/FIN_Desglose_CMV_General,c8c0d9e2-ff35-42b2-9dc6-96c12214e571,[P&L] Bases EERR,Estado de Resultados
+9e6ef008-8f54-473e-812b-388c27260ca4,FIN_Desglose_CMV_x_ID,PL_TESTVentas/sheets/FIN_Desglose_CMV_x_ID,c8c0d9e2-ff35-42b2-9dc6-96c12214e571,[P&L] Bases EERR,Estado de Resultados
+e3530fad-0e34-4aa0-a45c-19d466f9c211,FIN_Desglose_Contracargos_General,PL_TESTVentas/sheets/FIN_Desglose_Contracargos_General,c8c0d9e2-ff35-42b2-9dc6-96c12214e571,[P&L] Bases EERR,Estado de Resultados
+4c925bb7-271a-4ba3-b503-9f5611ec8a70,FIN_Desglose_Contracargos_x_ID,PL_TESTVentas/sheets/FIN_Desglose_Contracargos_x_ID,c8c0d9e2-ff35-42b2-9dc6-96c12214e571,[P&L] Bases EERR,Estado de Resultados
+d9810ff2-67da-4354-9d6b-52c3bacbf1fe,FIN_Desglose_Gastos_General,PL_TESTVentas/sheets/FIN_Desglose_Gastos_General,c8c0d9e2-ff35-42b2-9dc6-96c12214e571,[P&L] Bases EERR,Estado de Resultados
+021a2c83-2a26-4fe9-9a70-c865f9847a59,FIN_Desglose_Gastos_x_ID,PL_TESTVentas/sheets/FIN_Desglose_Gastos_x_ID,c8c0d9e2-ff35-42b2-9dc6-96c12214e571,[P&L] Bases EERR,Estado de Resultados
+4c662535-c5b0-4f16-8ace-5c6b156e5880,FIN_Desglose_IIBB,PL_TESTVentas/sheets/FIN_Desglose_IIBB,c8c0d9e2-ff35-42b2-9dc6-96c12214e571,[P&L] Bases EERR,Estado de Resultados
+1cad9be4-8e8c-40f5-8c31-0cd7d5c43c86,FIN_Desglose_Ventas_General,PL_TESTVentas/sheets/FIN_Desglose_Ventas_General,c8c0d9e2-ff35-42b2-9dc6-96c12214e571,[P&L] Bases EERR,Estado de Resultados
+ed92e185-8442-4070-8aa5-ba7a50b8474e,FIN_Desglose_Ventas_x_ID,PL_TESTVentas/sheets/FIN_Desglose_Ventas_x_ID,c8c0d9e2-ff35-42b2-9dc6-96c12214e571,[P&L] Bases EERR,Estado de Resultados
+e580e0ae-35fa-46d5-bbb0-03991bf8ce99,CierreTurno_Casos,Cierredeturno-Casos/sheets/CierreTurno_Casos,3169239d-1cda-45ee-9913-9f1352e62d3e,[TEST] CX Wise Cierre de turno - Casos,CX Seguimiento
+f6139f0d-46bc-4af6-95ab-f09fbeae929d,Tablero carga de ventas,TESTCargaautomaticadeventas/sheets/Tablerocargadeventas,852f5335-f2c0-47fb-bfae-e02a7bd3753f,[TEST] Carga automatica de ventas,
+04a425e3-8b7b-462d-873f-0ea3b785b875,Tablero carga de ventas,TESTCargaautomaticadeventastiemporeal/sheets/Tablerocargadeventas,261dc5b3-2f87-48de-8a4a-1b8b9aff6af4,[TEST] Carga automatica de ventas tiempo real,
+9e99fc27-f058-431e-a4d3-191fe1485800,Alerta,TESTCashflow/sheets/Alerta,0dfba729-c905-4d06-bfc6-47fac50f3041,[TEST] Cashflow,Cashflow
+039bfbed-5ac2-4391-8f97-98fad08ea666,D.Descuentos,TESTCashflow/sheets/D_Descuentos,0dfba729-c905-4d06-bfc6-47fac50f3041,[TEST] Cashflow,Cashflow
+b6b0b426-109d-47d0-bb40-0f70a553392d,D.Gastos Imp,TESTCashflow/sheets/D_GastosImp,0dfba729-c905-4d06-bfc6-47fac50f3041,[TEST] Cashflow,Cashflow
+0362cc05-949b-40f8-b92e-4cb0365cfc56,D.ProyVSReal,TESTCashflow/sheets/D_ProyVSReal,0dfba729-c905-4d06-bfc6-47fac50f3041,[TEST] Cashflow,Cashflow
+33cefc34-b811-40b4-93ec-7e0fd94044fa,D.Resumen,TESTCashflow/sheets/D_Resumen,0dfba729-c905-4d06-bfc6-47fac50f3041,[TEST] Cashflow,Cashflow
+1b3be6ba-950d-400f-8f0c-e99b7affa470,Resumen_targets (2),TESTMtricas/sheets/Resumen_targets2,db351268-b3ed-4ad7-939a-9e790f33dab8,[TEST] FB ADS Targets,Facebook Ads
+80147819-c47c-458f-83c5-d28928fd64d4,FIN_FACTURACION_AR,TESTFacturacionARG/sheets/FIN_FACTURACION_AR,47e95fc4-e3de-4a2e-a0bd-11d48e77c3e6,[TEST] Facturacion ARG,Facturacion
+14a77b63-d5ee-42a0-9179-18ab23adab23,FIN_Facturacion_Analítico,TESTFacturacionARG/sheets/FIN_Facturacion_Analtico,47e95fc4-e3de-4a2e-a0bd-11d48e77c3e6,[TEST] Facturacion ARG,Facturacion
+c1873f95-f57d-4577-92d7-70fffe285970,Comparativa Facturación,FacturacionGlobalNUEVO/sheets/ComparativaFacturacin,f7e4c78d-523a-4062-a45c-7e324e2a81c7,[TEST] Facturacion Global NUEVO,Facturacion
+3d334043-d4f6-466c-a66d-306135be0a65,Facturación Global,FacturacionGlobalNUEVO/sheets/FacturacinGlobal,f7e4c78d-523a-4062-a45c-7e324e2a81c7,[TEST] Facturacion Global NUEVO,Facturacion
+1102bfb9-287f-4b38-9858-dd3ea4881e72,Seguimiento Resellers/Mayorista,FacturacionGlobalNUEVO/sheets/SeguimientoResellersMayorista,f7e4c78d-523a-4062-a45c-7e324e2a81c7,[TEST] Facturacion Global NUEVO,Facturacion
+55a92935-6940-4383-8248-77305b0961df,Cerrado_CX,TESTGestiondeReviewsv3/sheets/Cerrado_CX,db26c08c-f7d8-46ab-b5de-5b250c80d536,[TEST] Gestion de Reviews v3,CX Seguimiento
+73954353-a8e7-4610-9a58-7073ba446a69,Encurso_CX_D,TESTGestiondeReviewsv3/sheets/Encurso_CX_D,db26c08c-f7d8-46ab-b5de-5b250c80d536,[TEST] Gestion de Reviews v3,CX Seguimiento
+41d23d6c-a7b4-4069-b2fe-5dcd9dff4d65,Pendientes_CX,TESTGestiondeReviewsv3/sheets/Pendientes_CX,db26c08c-f7d8-46ab-b5de-5b250c80d536,[TEST] Gestion de Reviews v3,CX Seguimiento
+d00ac905-cd99-43c6-b7dc-74c73b10500b,Resumen General,TESTJiraServiceDesk-Errores-v3/sheets/ResumenGeneral,a6223e94-57eb-4344-bd50-689d7e893cd5,[TEST] Jira Service Desk  - Errores - v3,Sistemas y tecnología
+6c03ce4e-c5ad-4cac-9560-294fc4534635,Resultados Generales,TESTJiraServiceDesk-ResultadosBT/sheets/ResultadosGenerales,b9780d4e-a646-41ce-95c0-ec6eba84d6e6,[TEST] Jira Service Desk - Resultados BT,Sistemas y tecnología
+17dfdf21-1c97-44fe-b7d6-215ae9e29d07,Resultados Generales,TESTJiraServiceDesk-ResultadosBT-SinNPS/sheets/ResultadosGenerales,dcfbe8cf-ec78-4f65-b312-b97e291ab5f8,[TEST] Jira Service Desk - Resultados BT -SinNPS,Sistemas y tecnología
+f05bbede-0909-461f-b00d-3ac896f71082,SD - BT - Cumplimiento de plazos,TESTJiraServiceDesk-ResmenPlazosBT/sheets/ResultadosGenerales,2907539e-51db-4bd8-bd21-3267d80e3b82,[TEST] Jira Service Desk - Resumen Plazos BT,Sistemas y tecnología
+837a7fd2-5ec7-4df8-871f-127907e142a1,FIN_BIRTHLISTS,TESTListasdeNacimiento/sheets/FIN_BIRTHLISTS,c1cab41a-3f90-4e03-a7ab-590f504976e7,[TEST] Listas de Nacimiento,
+01792d9d-f3bf-4f58-857e-ea71f2d29f9f,Antiguedad - Alertas,TESTNomina_Antiguedad_CXRetail/sheets/Antiguedad-Alertas,d39015ad-8bfa-406e-bfea-420a3d8bdd19,[TEST] Nomina CX/Retail,CX Seguimiento
+4cc4e1b7-0462-49a1-9d4b-549fb0b4e513,Antiguedad - Dashboard,TESTNomina_Antiguedad_CXRetail/sheets/Antiguedad-Dashboard,d39015ad-8bfa-406e-bfea-420a3d8bdd19,[TEST] Nomina CX/Retail,CX Seguimiento
+9fa47d81-4d6c-408a-a41a-3db83873f32c,Nicox,Reviews_Tablero/sheets/Nicox,0fdef2b6-b8a2-48d6-993e-adce59051e81,[TEST] Reviews_Global,CX Seguimiento
+02075cb0-a7a0-435e-8df8-b00163c718a1,Nicox_Comparativa,Reviews_Tablero/sheets/Nicox_Comparativa,0fdef2b6-b8a2-48d6-993e-adce59051e81,[TEST] Reviews_Global,CX Seguimiento
+c8afadf2-c0b6-4687-865f-404df63f4a7f,Wise,Reviews_Tablero/sheets/Wise,0fdef2b6-b8a2-48d6-993e-adce59051e81,[TEST] Reviews_Global,CX Seguimiento
+6780cf0a-2102-4631-a06e-d6fdb9d1219b,FIN_Ventas_-3_MELI,TESTValidacionventasborradas-3MELI/sheets/FIN_Ventas_-3_MELI,6ef45ea0-e32c-46d4-bf91-c6817a2d2b9c,[TEST] Validacion ventas borradas -3 MELI,Validaciones
+15021c40-4607-4a03-98b0-5fc4f20ab86e,Ventas terminal,TESTVentasterminal_17273610012570/sheets/Ventasterminal,7a91d41d-6a12-4d5f-a9f8-4747c84e42a9,[TEST] Ventas terminal,Sistemas y tecnología
+2d3e5144-e1ef-439f-a699-fd0c8f8136f6,FIN_Reintegros_x_SKU,TESTVentasReintegrosparaROI/sheets/FIN_Reintegros_x_SKU,8ce0357c-7659-4193-b1a6-0aa5f2b957e8,[TEST] Ventas/Reintegros para ROI,ROI
+0bcaaaa2-3218-4084-9525-e28e9e9cab12,FIN_Vtas_x_SKU,TESTVentasReintegrosparaROI/sheets/FIN_Vtas_x_SKU,8ce0357c-7659-4193-b1a6-0aa5f2b957e8,[TEST] Ventas/Reintegros para ROI,ROI
+21797fcb-e404-404f-88ac-4d509d15153e,NPS,TestMedicinPlanningIT/sheets/NPS,ef96e1b6-f854-4914-a206-76c9333e4cf7,[Test] Medición Planning IT,Sistemas y tecnología
+284e307e-1bb0-4359-9189-82f3642e4290,Planning-Rev,TestMedicinPlanningIT/sheets/Planning-Rev,ef96e1b6-f854-4914-a206-76c9333e4cf7,[Test] Medición Planning IT,Sistemas y tecnología
+9ff56094-dd4f-4858-9594-37ef1bccc768,Pre-Refinement,TestMedicinPlanningIT/sheets/Pre-Refinement,ef96e1b6-f854-4914-a206-76c9333e4cf7,[Test] Medición Planning IT,Sistemas y tecnología
+bf834d75-fd1d-406b-9118-391906b6efc7,Resumen,TestMedicinPlanningIT/sheets/Resumen,ef96e1b6-f854-4914-a206-76c9333e4cf7,[Test] Medición Planning IT,Sistemas y tecnología
+b8b0ceaa-894c-485c-9c7e-b4334986cc4f,Tarjetas,TestMedicinPlanningIT/sheets/Tarjetas,ef96e1b6-f854-4914-a206-76c9333e4cf7,[Test] Medición Planning IT,Sistemas y tecnología
+013d12fa-6961-4feb-a5e6-19af491462f6,[WISE]FICHADAS_ARG,WISEFICHADAS_ARG_FINDESEMANA_FINJORNADA/sheets/WISEFICHADAS_ARG,9cde997b-099b-4d74-9be2-37d5f49cd1c5,[WISE]FICHADAS_ARG_FINDESEMANA_FINJORNADA,FICHADAS_ARG
+638615a8-ba3b-4a1b-913d-ed203df73b7d,[WISE]FICHADAS_ARG,WISEFICHADAS_ARG_FINDESEMANA_GENERAL/sheets/WISEFICHADAS_ARG,3c1768d7-346f-443b-8f7f-9ad6a63bf94c,[WISE]FICHADAS_ARG_FINDESEMANA_GENERAL,FICHADAS_ARG
+e72acffa-4059-46d4-9960-768e9dd66c19,[WISE]FICHADAS_ARG,WISEFICHADAS_ARG_TM_FINJORNADA/sheets/WISEFICHADAS_ARG,9f82cde6-61d6-429f-9418-a34f5ba9478c,[WISE]FICHADAS_ARG_TM_FINJORNADA,FICHADAS_ARG
+a751ae1b-5b30-4f02-aa4b-4f915faf25b1,[WISE]FICHADAS_ARG,WISEFICHADAS_ARG_TM_INICIOJORNADA/sheets/WISEFICHADAS_ARG,efde5215-b9f1-42dd-9990-d54ae7d7c73a,[WISE]FICHADAS_ARG_TM_INICIOJORNADA,FICHADAS_ARG
+299b7c15-2187-49e7-b4e0-7562672a9a09,[WISE]FICHADAS_ARG,WISEFICHADAS_ARG_TM_MEDIAJORNADA/sheets/WISEFICHADAS_ARG,72449cb7-4fe7-4fef-bf2a-bfb0f5752c84,[WISE]FICHADAS_ARG_TM_MEDIAJORNADA,FICHADAS_ARG
+4da26ead-50b6-4da3-945d-b71273dc89b2,[WISE]FICHADAS_ARG,WISEFICHADAS_ARG_TT_FINJORNADA/sheets/WISEFICHADAS_ARG,16ef6167-0d1c-49e5-b6a9-cc0747c89c8c,[WISE]FICHADAS_ARG_TT_FINJORNADA,FICHADAS_ARG
+ba6dc636-0f3d-4ca8-b3b4-7e354306d99e,[WISE]FICHADAS_ARG,WISEFICHADAS_ARG_TT_INICIOJORNADA/sheets/WISEFICHADAS_ARG,9baa0f3d-6830-467d-baf4-9c6d85925b08,[WISE]FICHADAS_ARG_TT_INICIOJORNADA,FICHADAS_ARG
+8ac0700a-4883-4615-bcfc-3d9b16608723,[WISE]FICHADAS_ARG,WISEFICHADAS_ARG_TT_MEDIAJORNADA/sheets/WISEFICHADAS_ARG,53dae10e-ae2b-483f-ba9f-f19a7f306bd8,[WISE]FICHADAS_ARG_TT_MEDIAJORNADA,FICHADAS_ARG
+9cab02ee-6b16-4580-b8a8-b37b3bceb6d0,[WISE]FICHADAS_CHPYPA,WISEFICHADAS_CHPYPA_FINDESEMANA_FINJORNADA/sheets/WISEFICHADAS_CHPYPA,261651be-e6ab-43ec-acbf-0d6fd193768e,[WISE]FICHADAS_CHPYPA_FINDESEMANA_FINJORNADA,FICHADAS_CH/PY/PA
+0bf3144b-39c8-437b-9baa-bb5bd4396a16,[WISE]FICHADAS_CHPYPA,WISEFICHADAS_CHPYPA_FINDESEMANA_GENERAL/sheets/WISEFICHADAS_CHPYPA,931f2111-d592-4c2b-b873-87b29742b99c,[WISE]FICHADAS_CHPYPA_FINDESEMANA_GENERAL,FICHADAS_CH/PY/PA
+1294b210-6eb9-4506-9331-7ebb275f02d9,[WISE]FICHADAS_CHPYPA,WISEFICHADAS_CHPYPA_TM_FINJORNADA/sheets/WISEFICHADAS_CHPYPA,2b013e4d-5db0-43e6-84b4-7faf4029699b,[WISE]FICHADAS_CHPYPA_TM_FINJORNADA,FICHADAS_CH/PY/PA
+83773e9a-9ef2-4f8a-a633-228398a26d91,[WISE]FICHADAS_CHPYPA,WISEFICHADAS_CHPYPA_TM_INICIOJORNADA/sheets/WISEFICHADAS_CHPYPA,a78db82e-8e7d-44d1-b97e-acb0ef9b47a6,[WISE]FICHADAS_CHPYPA_TM_INICIOJORNADA,FICHADAS_CH/PY/PA
+74075945-6ded-4865-a525-5a93f7f1ea1a,[WISE]FICHADAS_CHPYPA,WISEFICHADAS_CHPYPA__TM_MEDIAJORNADA/sheets/WISEFICHADAS_CHPYPA,7aa58925-0582-4992-8b26-9e1dfbab2406,[WISE]FICHADAS_CHPYPA_TM_MEDIAJORNADA,FICHADAS_CH/PY/PA
+bc9263f2-5a7c-4191-a1b1-f3c8b6edfddb,[WISE]FICHADAS_CHPYPA,WISEFICHADAS_CHPYPA_TT_FINJORNADA/sheets/WISEFICHADAS_CHPYPA,44b3c675-faee-4d5c-a45a-09154b907182,[WISE]FICHADAS_CHPYPA_TT_FINJORNADA,FICHADAS_CH/PY/PA
+d0283fa8-76c6-47a0-8c42-bf1c269e9ef6,[WISE]FICHADAS_CHPYPA,WISEFICHADAS_CHPYPA_TT_INICIOJORNADA/sheets/WISEFICHADAS_CHPYPA,50d3f860-b4be-43f4-8eff-56c9f7814e9d,[WISE]FICHADAS_CHPYPA_TT_INICIOJORNADA,FICHADAS_CH/PY/PA
+35ed3246-818f-47eb-a208-b371887d65e7,[WISE]FICHADAS_CHPYPA,WISEFICHADAS_CHPYPA__TT_MEDIAJORNADA/sheets/WISEFICHADAS_CHPYPA,6a29b8fc-af95-4349-9b27-ebf4dad189ca,[WISE]FICHADAS_CHPYPA_TT_MEDIAJORNADA,FICHADAS_CH/PY/PA
+4603a5cb-35a8-4076-946c-421dadf670e0,[WISE]FICHADAS_ECPEUY,WISEFICHADAS_ECPEUY_FINDESEMANA_FINJORNADA/sheets/WISEFICHADAS_ECPEUY,5ade3629-7d3b-46d2-9261-1262028b4770,[WISE]FICHADAS_ECPEUY_FINDESEMANA_FINJORNADA,FICHADAS_EC/PE/UY
+228fed68-7006-4f44-8ac6-26914691bd09,[WISE]FICHADAS_ECPEUY,WISEFICHADAS_ECPEUY_FINDESEMANA_GENERAL/sheets/WISEFICHADAS_ECPEUY,05dd21cb-c064-4e09-bb4f-c01e3097f8db,[WISE]FICHADAS_ECPEUY_FINDESEMANA_GENERAL,FICHADAS_EC/PE/UY
+b6e00733-2a2b-4841-951d-beb941b51239,[WISE]FICHADAS_CHPYPA,WISEFICHADAS_ECPEUY_TM_FINJORNADA/sheets/WISEFICHADAS_CHPYPA,11ad00be-c305-48e2-898b-2cb9d84a4a45,[WISE]FICHADAS_ECPEUY_TM_FINJORNADA,FICHADAS_EC/PE/UY
+dcc4d245-56d2-4f98-af2b-d2a63450d255,[WISE]FICHADAS_CHPYPA,WISEFICHADAS_ECPEUY_TM_INICIOJORNADA/sheets/WISEFICHADAS_CHPYPA,1127bb0f-1e1b-4bab-8c4f-a9f712724879,[WISE]FICHADAS_ECPEUY_TM_INICIOJORNADA,FICHADAS_EC/PE/UY
+04867925-5dbb-4c18-be89-6ddfc52af948,[WISE]FICHADAS_CHPYPA,WISEFICHADAS_ECPEUY_TM_MEDIAJORNADA/sheets/WISEFICHADAS_CHPYPA,545ad2af-98cf-48d1-bf76-b8ed61a564d8,[WISE]FICHADAS_ECPEUY_TM_MEDIAJORNADA,FICHADAS_EC/PE/UY
+d2a76efd-c36e-4f86-ae1a-725184b18de5,[WISE]FICHADAS_CHPYPA,WISEFICHADAS_ECPEUY_TT_FINJORNADA/sheets/WISEFICHADAS_CHPYPA,076ddaf4-0ebd-4948-93be-592041602bb3,[WISE]FICHADAS_ECPEUY_TT_FINJORNADA,FICHADAS_EC/PE/UY
+fc036b10-fba5-4278-8b4d-1c4c25b026db,[WISE]FICHADAS_CHPYPA,WISEFICHADAS_ECPEUY_TT_INICIOJORNADA/sheets/WISEFICHADAS_CHPYPA,bb670724-72a3-49da-874d-8e3f149f4af9,[WISE]FICHADAS_ECPEUY_TT_INICIOJORNADA,FICHADAS_EC/PE/UY
+b4435e83-f648-4e3a-abe8-a33d967e9dbb,[WISE]FICHADAS_CHPYPA,WISEFICHADAS_ECPEUY_TT_MEDIAJORNADA/sheets/WISEFICHADAS_CHPYPA,6e5facad-4c7b-4402-832a-f7035d316d42,[WISE]FICHADAS_ECPEUY_TT_MEDIAJORNADA,FICHADAS_EC/PE/UY
+5fca9dc0-f148-4aaf-9b08-4ede9a8036a3,[WISE]FICHADAS_MXCO,WISEFICHADAS_MXCO_FINDESEMANA_FINJORNADA/sheets/WISEFICHADAS_MXCO,be46604f-c887-4694-b4e1-cadd87017928,[WISE]FICHADAS_MXCO_FINDESEMANA_FINJORNADA,FICHADAS_MX/CO
+1be8ea89-257d-4f4b-aaca-027f822dc559,[WISE]FICHADAS_MXCO,WISEFICHADAS_MXCO_FINDESEMANA_GENERAL/sheets/WISEFICHADAS_MXCO,15b9b4e3-f984-4cd6-a256-d95ab155cbf2,[WISE]FICHADAS_MXCO_FINDESEMANA_GENERAL,FICHADAS_MX/CO
+8137e600-fd22-4f0f-b1bd-cc26aa17b5f1,[WISE]FICHADAS_MXCO,WISEFICHADAS_MXCO_TM_FINJORNADA/sheets/WISEFICHADAS_MXCO,e86fde25-f3a2-4732-a17a-974293b4548c,[WISE]FICHADAS_MXCO_TM_FINJORNADA,FICHADAS_MX/CO
+fd8445b7-bf94-459c-b2e3-c0d9fa7a23fd,[WISE]FICHADAS_MXCO,WISEFICHADAS_MXCO_TM_INICIOJORNADA/sheets/WISEFICHADAS_MXCO,55096dff-8fb5-42b0-95ce-6842d77e1d0e,[WISE]FICHADAS_MXCO_TM_INICIOJORNADA,FICHADAS_MX/CO
+e4c4f23a-4dcf-4acb-a599-1c14aa6a9a50,[WISE]FICHADAS_MXCO,WISEFICHADAS_MXCO_TM_MEDIAJORNADA/sheets/WISEFICHADAS_MXCO,324b424f-da00-4af8-a865-0a860f975fda,[WISE]FICHADAS_MXCO_TM_MEDIAJORNADA,FICHADAS_MX/CO
+8c5fcd5b-1c9b-4208-8161-ac36519db7c3,[WISE]FICHADAS_MXCO,WISEFICHADAS_MXCO_TT_FINJORNADA/sheets/WISEFICHADAS_MXCO,3a662a47-b4c5-4d87-97ec-5ff57f780f86,[WISE]FICHADAS_MXCO_TT_FINJORNADA,FICHADAS_MX/CO
+15a55b12-5757-483e-9185-762f29593ca7,[WISE]FICHADAS_MXCO,WISEFICHADAS_MXCO_TT_INICIOJORNADA/sheets/WISEFICHADAS_MXCO,08da80fc-a39e-42a6-ae80-9c2bf8b2b947,[WISE]FICHADAS_MXCO_TT_INICIOJORNADA,FICHADAS_MX/CO
+ef7e749f-caff-4313-9774-0ece8724e711,[WISE]FICHADAS_MXCO,WISEFICHADAS_MXCO_TT_MEDIAJORNADA/sheets/WISEFICHADAS_MXCO,8ee7906c-9c7f-4040-9797-b5df2722dadc,[WISE]FICHADAS_MXCO_TT_MEDIAJORNADA,FICHADAS_MX/CO
+87b96cb1-eb92-4e04-9623-854155dfa3dc,Hoja 1,boca/sheets/Hoja1,92831f70-7d64-46dc-b16e-db93aceda2e2,boca,Validaciones
+179519b3-d1f7-41b9-ad87-bc005436a40e,Sheet 1,cuponesanormalizar/sheets/Sheet1,58931e43-f8d2-43c8-84c2-c8a91e0ca61a,cupones a normalizar,Validaciones
+1b977fec-e074-4538-b272-23054d752f33,Sheet 1,precioorder/sheets/Sheet1,a85214bc-4bf6-458e-8788-ccc4be5ad963,precio order,Validaciones
+b5e444af-6ee5-4ceb-9d90-c80c390b01ed,Sheet 1,pruebacuponesv2/sheets/Sheet1,7d967986-1cb1-400d-a042-6f07778a7dce,prueba cupones v2,Validaciones
+90ddadd4-e85e-4de4-82d7-df4788fa067e,Sheet 1,pruebacuponesv3/sheets/Sheet1,5e5930ba-04ca-48c6-9bbc-468b30ac5a5c,prueba cupones v3,Validaciones
+952443fc-795a-4e64-85c5-8a9d20f6cfd9,Sheet 1 (2),pruebacuponesv3/sheets/Sheet12,5e5930ba-04ca-48c6-9bbc-468b30ac5a5c,prueba cupones v3,Validaciones
+1a7a5acd-2634-44a2-8fed-f5357e909aad,Sheet 1,pruebadatosdecidir/sheets/Sheet1,73ba424d-9e93-479f-a06b-8129f74675f9,prueba datos decidir,Validaciones
+c42c7e74-9407-43d3-9096-69144e094b4c,Sheet 1,stockconta/sheets/Sheet1,a4373022-44fa-4df7-a90a-fa30f0aee507,stock conta,Validaciones
+262b6532-1365-496d-9228-a0b3902d4839,Sheet 1,validaciondecidirstatus3condetallevacio/sheets/Sheet1,c4035966-0c58-4805-9f7a-05aefdfc950b,validacion decidir status 3 con detalle vacio,Validaciones
+6910105a-1830-4da5-9b4b-e84f69e0c591,Sheet 1,validacionmaurimpdevoluciondepagocancelado/sheets/Sheet1,000f7046-6f01-4687-936c-80ccf28cfe77,validacion mauri mp devolucion de pago cancelado,Validaciones

@@ -4,41 +4,9 @@
     "summary": "Service Desk",
     "tasks": [
       {
-        "key": "BTP-4163",
-        "summary": "Carestino Dominicana / Insertar Scripts de Google tag Manager en settings",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Joaquin Fernandez - Carestino",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4152",
-        "summary": "Endpoint para creacion de ordenes de compra.",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Martín Horn",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4151",
         "summary": "Error integracion - Mercadoenvios (Parte 2)",
         "status": "EN RELEVAMIENTO",
-        "story_points": null,
-        "assignee": "ivanalberghini",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4100",
-        "summary": "Problema con clientes que no utilizan logística",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "ivanalberghini",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4085",
-        "summary": "Error integracion - Mercadoenvios",
-        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "ivanalberghini",
         "project": "BTP"
@@ -60,26 +28,58 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4002",
-        "summary": "Formulario de ventas / Permisos para cambiar TIENDA y precio unitario",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
+        "key": "IT-23056",
+        "summary": "Endpoint para creacion de ordenes de compra.",
+        "status": "BACKLOG",
+        "story_points": 3.0,
+        "assignee": "Martín Horn",
+        "project": "IT"
       },
       {
-        "key": "BTP-3836",
+        "key": "IT-23054",
+        "summary": "Error integracion - Mercadoenvios",
+        "status": "BACKLOG",
+        "story_points": 6.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23052",
+        "summary": "Problema con clientes que no utilizan logística",
+        "status": "BACKLOG",
+        "story_points": 2.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23044",
+        "summary": "Formulario de ventas / Permisos para cambiar TIENDA y precio unitario",
+        "status": "BACKLOG",
+        "story_points": 4.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23042",
         "summary": "Amazon / No listar ventas eliminadas",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
+        "status": "BACKLOG",
+        "story_points": 2.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23040",
+        "summary": "Carestino Dominicana / Insertar Scripts de Google tag Manager en settings",
+        "status": "PENDING REVIEW",
+        "story_points": 1.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
       },
       {
         "key": "IT-23004",
         "summary": "Relevamiento / Errores en new relic en el webhook de Amazon",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 7.0,
         "assignee": "Luis Uran",
         "project": "IT"
       },
@@ -94,7 +94,7 @@
       {
         "key": "IT-22963",
         "summary": "CS / MODIFICACION ALICUOTA DE PERCEPCION - CHACO",
-        "status": "BACKLOG",
+        "status": "FINISH",
         "story_points": null,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -795,14 +795,6 @@
     "summary": "Rediseño web - Carestino",
     "tasks": [
       {
-        "key": "BTP-4164",
-        "summary": "Novedades / Agregar selección de posicionamiento vertical",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Joaquin Fernandez - Carestino",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4003",
         "summary": "Optimización de rendimiento Home",
         "status": "Pendiente de estimación",
@@ -835,6 +827,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23035",
+        "summary": "Novedades / Agregar selección de posicionamiento vertical",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
         "key": "IT-22882",
         "summary": "Facturación / Checkout / Relevamiento sobre puntos pendientes de facturación en el nuevo checkout",
         "status": "BACKLOG",
@@ -845,7 +845,7 @@
       {
         "key": "IT-22665",
         "summary": "New Home / Frontend / Mejoras v3 propuestas por Planeamiento Estratégico",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 6.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1294,14 +1294,6 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4032",
-        "summary": "Integrar Falabella a Logistica V2",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "ivanalberghini",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-3420",
         "summary": "Prueba de concepto IT / Amazon / Creación de pedido easyShip y etiqueta",
         "status": "CANCELADO POR BT",
@@ -1324,6 +1316,14 @@
         "story_points": null,
         "assignee": "Santiago Gariboldi",
         "project": "BTP"
+      },
+      {
+        "key": "IT-23050",
+        "summary": "Integrar Falabella a Logistica V2",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
       },
       {
         "key": "IT-22944",
@@ -5647,7 +5647,7 @@
       {
         "key": "IT-22986",
         "summary": "Liverpool / Crear liverpool_upload_price_order.php",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -5655,7 +5655,7 @@
       {
         "key": "IT-22957",
         "summary": "Liverpool / Obtener documentos de la orden",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 12.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -5663,7 +5663,7 @@
       {
         "key": "IT-22956",
         "summary": "FIX / Liverpool / declared_value = 0 y cron procese ordenes waiting_acceptance",
-        "status": "ON HOLD",
+        "status": "En progreso",
         "story_points": 4.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -5671,7 +5671,7 @@
       {
         "key": "IT-22919",
         "summary": "CAV / Liverpool",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 7.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -6319,15 +6319,7 @@
         "summary": "Reclamos / Gestiones / Crear módulo de Solicitud de reembolso",
         "status": "PRODUCT BACKLOG",
         "story_points": null,
-        "assignee": "Sin asignar",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4165",
-        "summary": "Reclamos / Gestiones / Crear módulo de Solicitud de etiquetas logísticas",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Sin asignar",
+        "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
       },
       {
@@ -6369,6 +6361,14 @@
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
+      },
+      {
+        "key": "IT-23032",
+        "summary": "Reclamos / Gestiones / Crear módulo de Solicitud de etiquetas logísticas",
+        "status": "En progreso",
+        "story_points": 12.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
       },
       {
         "key": "IT-22921",
@@ -6469,7 +6469,7 @@
       {
         "key": "IT-22520",
         "summary": "Reclamos / Crear reclamo Orden - General - Logística",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 5.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6477,7 +6477,7 @@
       {
         "key": "IT-22437",
         "summary": "Reclamos / Frontend / Cancelar reclamo del lado del cliente",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6485,7 +6485,7 @@
       {
         "key": "IT-22435",
         "summary": "Reclamos / Backend / Cancelar reclamo del lado del cliente",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6493,7 +6493,7 @@
       {
         "key": "IT-21954",
         "summary": "Reclamos / Frontend / Continuar carga de datos de reclamos",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 24.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -7224,7 +7224,7 @@
       {
         "key": "IT-22795",
         "summary": "BI / Training - Test Nicox en LATAM",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -15599,14 +15599,6 @@
     "summary": "Nicox",
     "tasks": [
       {
-        "key": "BTP-4107",
-        "summary": "Productos / Permitir opción vacía al replicar campo \"Acción Comercial\"",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Joaquin Fernandez - Carestino",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-2329",
         "summary": "Revisión final",
         "status": "Por Hacer",
@@ -15917,6 +15909,14 @@
         "project": "IT"
       },
       {
+        "key": "IT-21965",
+        "summary": "Numero de orden falabella para conciliación",
+        "status": "FINISH",
+        "story_points": 3.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
         "key": "IT-21873",
         "summary": "Fijar filtro \"Mostrar X registros\" -  Modulo conciliador",
         "status": "FINISH",
@@ -15941,6 +15941,14 @@
         "project": "IT"
       },
       {
+        "key": "IT-21677",
+        "summary": "NO concilia con datos coincidentes Amazon - Modulo Conciliador",
+        "status": "FINISH",
+        "story_points": 5.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
         "key": "IT-21675",
         "summary": "El modulo conciliador del lado de NICOX (Payments) levanta cobros rechazados",
         "status": "FINISH",
@@ -15957,10 +15965,50 @@
         "project": "IT"
       },
       {
+        "key": "IT-21357",
+        "summary": "Eliminar lotes de prueba - modulo Conciliador",
+        "status": "FINISH",
+        "story_points": null,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
         "key": "IT-21223",
         "summary": "Transacciones Pago Genérico - Modulo conciliador ",
         "status": "FINISH",
         "story_points": 8.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
+        "key": "IT-21159",
+        "summary": "Relevamiento del conciliador con la procesadora Amazon",
+        "status": "FINISH",
+        "story_points": 6.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
+        "key": "IT-20676",
+        "summary": "Eliminar lotes de prueba - modulo Conciliador",
+        "status": "FINISH",
+        "story_points": null,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
+        "key": "IT-20460",
+        "summary": "Estirar plazo intervalo de payments en conciliación manual - modulo Conciliador",
+        "status": "FINISH",
+        "story_points": 3.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
+        "key": "IT-20286",
+        "summary": "Regla conciliación MercadoPago - Diferencia costo de envío - Modulo Conciliador",
+        "status": "FINISH",
+        "story_points": 16.0,
         "assignee": "Luis Uran",
         "project": "IT"
       },
