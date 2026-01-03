@@ -28,6 +28,14 @@
         "project": "BTP"
       },
       {
+        "key": "BTP-3637",
+        "summary": "Carestinoventas_tableu_global / Modificación lógica campo \"from_refund_id\"",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
+      {
         "key": "IT-23056",
         "summary": "Endpoint para creacion de ordenes de compra.",
         "status": "BACKLOG",
@@ -5663,7 +5671,7 @@
       {
         "key": "IT-22956",
         "summary": "FIX / Liverpool / declared_value = 0 y cron procese ordenes waiting_acceptance",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 4.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
