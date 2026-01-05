@@ -38,7 +38,7 @@
       {
         "key": "IT-23056",
         "summary": "Endpoint para creacion de ordenes de compra.",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 3.0,
         "assignee": "Martín Horn",
         "project": "IT"
@@ -78,7 +78,7 @@
       {
         "key": "IT-23040",
         "summary": "Carestino Dominicana / Insertar Scripts de Google tag Manager en settings",
-        "status": "PENDING REVIEW",
+        "status": "FINISH",
         "story_points": 1.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -222,7 +222,7 @@
       {
         "key": "IT-22730",
         "summary": "MP IPN / Ingreso de pago en venta ya creada",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 4.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -997,7 +997,7 @@
       {
         "key": "IT-20114",
         "summary": "Evaluación final rediseño Checkout",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 10.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1005,7 +1005,7 @@
       {
         "key": "IT-19877",
         "summary": "Rediseño Checkout / Integrar el paso 3",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 56.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1013,7 +1013,7 @@
       {
         "key": "IT-19807",
         "summary": "Rediseño Checkout / Integrar el paso 2",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 36.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1021,7 +1021,7 @@
       {
         "key": "IT-19690",
         "summary": "Rediseño Checkout / Gestionar el ingreso al nuevo y viejo checkout",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 4.0,
         "assignee": "Diego Martin Gogorza",
         "project": "IT"
@@ -1029,7 +1029,7 @@
       {
         "key": "IT-19689",
         "summary": "Rediseño Checkout / Integrar el paso 1",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 56.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1061,7 +1061,7 @@
       {
         "key": "IT-18565",
         "summary": "Ecommerce Legacy / Rediseño de Checkout",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 80.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1099,6 +1099,14 @@
     "due_date": null,
     "summary": "Pagos -Gateway",
     "tasks": [
+      {
+        "key": "BTP-4174",
+        "summary": "Azul / Compartir CSR a Azul para integrar Webservice API",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
       {
         "key": "BTP-4144",
         "summary": "Azul / Dominicana / Implementación LINK de Pago",
@@ -1296,7 +1304,7 @@
       {
         "key": "BTP-4140",
         "summary": "Integrar Liverpool a Logística V2",
-        "status": "EN RELEVAMIENTO",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "ivanalberghini",
         "project": "BTP"
@@ -1344,7 +1352,7 @@
       {
         "key": "IT-22426",
         "summary": "Integracion via Api - Andesmar",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 16.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -5663,7 +5671,7 @@
       {
         "key": "IT-22957",
         "summary": "Liverpool / Obtener documentos de la orden",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 12.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -5671,7 +5679,7 @@
       {
         "key": "IT-22956",
         "summary": "FIX / Liverpool / declared_value = 0 y cron procese ordenes waiting_acceptance",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY",
         "story_points": 4.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -5679,7 +5687,7 @@
       {
         "key": "IT-22919",
         "summary": "CAV / Liverpool",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 7.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -6477,7 +6485,7 @@
       {
         "key": "IT-22520",
         "summary": "Reclamos / Crear reclamo Orden - General - Logística",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 5.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6485,7 +6493,7 @@
       {
         "key": "IT-22437",
         "summary": "Reclamos / Frontend / Cancelar reclamo del lado del cliente",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6493,7 +6501,7 @@
       {
         "key": "IT-22435",
         "summary": "Reclamos / Backend / Cancelar reclamo del lado del cliente",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6517,7 +6525,7 @@
       {
         "key": "IT-21935",
         "summary": "Reclamos / Backend / Filtrar reclamos con datos faltantes",
-        "status": "REVIEW ON HOLD",
+        "status": "Rechazado",
         "story_points": 12.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -7382,7 +7390,7 @@
       {
         "key": "IT-22154",
         "summary": "[Marketplace][Liverpool] Agregar Publicación Manual",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -15771,7 +15779,7 @@
       {
         "key": "BTP-3635",
         "summary": "Payments / Agregar traducciones al campo \"Status Details\"",
-        "status": "Redefiniendo",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -15855,7 +15863,7 @@
       {
         "key": "IT-22907",
         "summary": "Conciliador / Los campos numéricos deberían forzar el formato de los datos que se ingresan a través del CSV",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 4.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15871,7 +15879,7 @@
       {
         "key": "IT-22900",
         "summary": "Conciliación / PE / Regla \"MP Tradicional con CFT\" arroja un error de SQL en new relic y no permite avanzar",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 6.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15879,7 +15887,7 @@
       {
         "key": "IT-22833",
         "summary": "Conciliador / Conceptos financieros que se pueden configurar en las reglas de conciliación generan inconvenientes con las reglas de conciliación automáticas",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 6.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -16641,7 +16649,7 @@
       {
         "key": "IT-22154",
         "summary": "[Marketplace][Liverpool] Agregar Publicación Manual",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
