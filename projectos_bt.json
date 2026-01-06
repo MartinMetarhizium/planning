@@ -12,6 +12,14 @@
         "project": "BTP"
       },
       {
+        "key": "BTP-4101",
+        "summary": "Validación / Normalización del valor \"Importe\" aplicado para \"Pagos Bancarios\" y el pago genérico \"Retenciones\"",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4046",
         "summary": "Nicox - Error alicuotas de retención de iibb de AGIP (Caba)",
         "status": "RESUELTO POR BT",
@@ -174,7 +182,7 @@
       {
         "key": "IT-22756",
         "summary": "Ventas / Habilitar carga de archivos en ventas por configuración",
-        "status": "BACKLOG",
+        "status": "ON PAUSE",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -222,7 +230,7 @@
       {
         "key": "IT-22730",
         "summary": "MP IPN / Ingreso de pago en venta ya creada",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -837,8 +845,8 @@
       {
         "key": "IT-23035",
         "summary": "Novedades / Agregar selección de posicionamiento vertical",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 8.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
       },
@@ -997,7 +1005,7 @@
       {
         "key": "IT-20114",
         "summary": "Evaluación final rediseño Checkout",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 10.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1005,7 +1013,7 @@
       {
         "key": "IT-19877",
         "summary": "Rediseño Checkout / Integrar el paso 3",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 56.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1013,7 +1021,7 @@
       {
         "key": "IT-19807",
         "summary": "Rediseño Checkout / Integrar el paso 2",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 36.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1021,7 +1029,7 @@
       {
         "key": "IT-19690",
         "summary": "Rediseño Checkout / Gestionar el ingreso al nuevo y viejo checkout",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Diego Martin Gogorza",
         "project": "IT"
@@ -1029,7 +1037,7 @@
       {
         "key": "IT-19689",
         "summary": "Rediseño Checkout / Integrar el paso 1",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 56.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1061,7 +1069,7 @@
       {
         "key": "IT-18565",
         "summary": "Ecommerce Legacy / Rediseño de Checkout",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 80.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1072,6 +1080,14 @@
     "due_date": "2025-07-11",
     "summary": "Expenses",
     "tasks": [
+      {
+        "key": "BTP-4128",
+        "summary": "Expense / Permitir modificar rendidor en anticipos",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
       {
         "key": "BTP-3471",
         "summary": "Integración SAP",
@@ -1099,6 +1115,22 @@
     "due_date": null,
     "summary": "Pagos -Gateway",
     "tasks": [
+      {
+        "key": "BTP-4179",
+        "summary": "Encender el gateway Bamboo (Uruguay) con el fin de cumplir con el mínimo de transacciones mensual solicitado - Enero 2026",
+        "status": "RESUELTO POR BT",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4178",
+        "summary": "MP IPN / Resolver error en IPN en pagos de envíos",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
       {
         "key": "BTP-4174",
         "summary": "Azul / Compartir CSR a Azul para integrar Webservice API",
@@ -1336,15 +1368,15 @@
       {
         "key": "IT-23050",
         "summary": "Integrar Falabella a Logistica V2",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 70.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
       },
       {
         "key": "IT-22944",
         "summary": "Ecu / Flexnet - no se reciben estados - guia en Processing",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 7.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -1352,7 +1384,7 @@
       {
         "key": "IT-22426",
         "summary": "Integracion via Api - Andesmar",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 16.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -5663,7 +5695,7 @@
       {
         "key": "IT-22986",
         "summary": "Liverpool / Crear liverpool_upload_price_order.php",
-        "status": "En progreso",
+        "status": "TO DEPLOY QA",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -5671,7 +5703,7 @@
       {
         "key": "IT-22957",
         "summary": "Liverpool / Obtener documentos de la orden",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 12.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -5679,7 +5711,7 @@
       {
         "key": "IT-22956",
         "summary": "FIX / Liverpool / declared_value = 0 y cron procese ordenes waiting_acceptance",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -5687,7 +5719,7 @@
       {
         "key": "IT-22919",
         "summary": "CAV / Liverpool",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 7.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -6331,14 +6363,6 @@
     "summary": "Gestiones",
     "tasks": [
       {
-        "key": "BTP-4166",
-        "summary": "Reclamos / Gestiones / Crear módulo de Solicitud de reembolso",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Joaquin Fernandez - Carestino",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-3903",
         "summary": "Pruebas",
         "status": "Por Hacer",
@@ -6379,9 +6403,25 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23102",
+        "summary": "Core de Reintegros / Cambio de producto",
+        "status": "En progreso",
+        "story_points": 18.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23095",
+        "summary": "Reclamos / Gestiones / Crear módulo de Solicitud de reembolso",
+        "status": "En progreso",
+        "story_points": 24.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-23032",
         "summary": "Reclamos / Gestiones / Crear módulo de Solicitud de etiquetas logísticas",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6485,7 +6525,7 @@
       {
         "key": "IT-22520",
         "summary": "Reclamos / Crear reclamo Orden - General - Logística",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 5.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6493,7 +6533,7 @@
       {
         "key": "IT-22437",
         "summary": "Reclamos / Frontend / Cancelar reclamo del lado del cliente",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6501,7 +6541,7 @@
       {
         "key": "IT-22435",
         "summary": "Reclamos / Backend / Cancelar reclamo del lado del cliente",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7240,7 +7280,7 @@
       {
         "key": "IT-22795",
         "summary": "BI / Training - Test Nicox en LATAM",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7275,6 +7315,14 @@
     "due_date": null,
     "summary": "Marketplace",
     "tasks": [
+      {
+        "key": "BTP-4177",
+        "summary": "Falabella / Facturación / Enviar factura de Nicox a Falabella",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
       {
         "key": "BTP-4016",
         "summary": "Publicaciones de catálogo - Mercado Libre",
@@ -7342,8 +7390,8 @@
       {
         "key": "IT-23002",
         "summary": "Falabella / CRON que evite las ventas duplicadas",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
       },
@@ -7390,7 +7438,7 @@
       {
         "key": "IT-22154",
         "summary": "[Marketplace][Liverpool] Agregar Publicación Manual",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -15853,6 +15901,14 @@
     "summary": "Conciliador de cobros",
     "tasks": [
       {
+        "key": "BTP-4155",
+        "summary": "Configuración Transaction ID por cantidad de dígitos completos - Liverpool",
+        "status": "CANCELADO POR BT",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-2040",
         "summary": "Revisión final",
         "status": "RESUELTO POR BT",
@@ -15861,9 +15917,17 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23098",
+        "summary": "Conciliacion Pagos Bancarios / El modulo de conciliación automática de pagos bancarios no muestra los comprobantes adjuntos",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Diego Martin Gogorza",
+        "project": "IT"
+      },
+      {
         "key": "IT-22907",
         "summary": "Conciliador / Los campos numéricos deberían forzar el formato de los datos que se ingresan a través del CSV",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15879,7 +15943,7 @@
       {
         "key": "IT-22900",
         "summary": "Conciliación / PE / Regla \"MP Tradicional con CFT\" arroja un error de SQL en new relic y no permite avanzar",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 6.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -15887,7 +15951,7 @@
       {
         "key": "IT-22833",
         "summary": "Conciliador / Conceptos financieros que se pueden configurar en las reglas de conciliación generan inconvenientes con las reglas de conciliación automáticas",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 6.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -16601,8 +16665,8 @@
       {
         "key": "IT-23002",
         "summary": "Falabella / CRON que evite las ventas duplicadas",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
       },
@@ -16649,7 +16713,7 @@
       {
         "key": "IT-22154",
         "summary": "[Marketplace][Liverpool] Agregar Publicación Manual",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
