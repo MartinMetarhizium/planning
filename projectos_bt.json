@@ -12,14 +12,6 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4101",
-        "summary": "Validación / Normalización del valor \"Importe\" aplicado para \"Pagos Bancarios\" y el pago genérico \"Retenciones\"",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4046",
         "summary": "Nicox - Error alicuotas de retención de iibb de AGIP (Caba)",
         "status": "RESUELTO POR BT",
@@ -36,17 +28,25 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-3637",
+        "key": "IT-23116",
+        "summary": "Validación / Normalización del valor \"Importe\" aplicado para \"Pagos Bancarios\" y el pago genérico \"Retenciones\"",
+        "status": "BACKLOG",
+        "story_points": 4.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23109",
         "summary": "Carestinoventas_tableu_global / Modificación lógica campo \"from_refund_id\"",
-        "status": "PRODUCT BACKLOG",
+        "status": "Pendiente de estimación",
         "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
+        "assignee": "Miguel Armentano",
+        "project": "IT"
       },
       {
         "key": "IT-23056",
         "summary": "Endpoint para creacion de ordenes de compra.",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 3.0,
         "assignee": "Martín Horn",
         "project": "IT"
@@ -54,7 +54,7 @@
       {
         "key": "IT-23054",
         "summary": "Error integracion - Mercadoenvios",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 6.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -238,7 +238,7 @@
       {
         "key": "IT-22726",
         "summary": "Liverpool - Facturación automática",
-        "status": "ON HOLD",
+        "status": "ON PAUSE",
         "story_points": 32.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -1124,22 +1124,6 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4178",
-        "summary": "MP IPN / Resolver error en IPN en pagos de envíos",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4174",
-        "summary": "Azul / Compartir CSR a Azul para integrar Webservice API",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4144",
         "summary": "Azul / Dominicana / Implementación LINK de Pago",
         "status": "Por Hacer",
@@ -1376,7 +1360,7 @@
       {
         "key": "IT-22944",
         "summary": "Ecu / Flexnet - no se reciben estados - guia en Processing",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 7.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -1384,7 +1368,7 @@
       {
         "key": "IT-22426",
         "summary": "Integracion via Api - Andesmar",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON PAUSE",
         "story_points": 16.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -5695,7 +5679,7 @@
       {
         "key": "IT-22986",
         "summary": "Liverpool / Crear liverpool_upload_price_order.php",
-        "status": "TO DEPLOY QA",
+        "status": "FINISH",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -6403,6 +6387,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23124",
+        "summary": "Reclamos / Cambiar comportamientos de los conflictos de Logística",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-23102",
         "summary": "Core de Reintegros / Cambio de producto",
         "status": "En progreso",
@@ -6421,7 +6413,7 @@
       {
         "key": "IT-23032",
         "summary": "Reclamos / Gestiones / Crear módulo de Solicitud de etiquetas logísticas",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7316,14 +7308,6 @@
     "summary": "Marketplace",
     "tasks": [
       {
-        "key": "BTP-4177",
-        "summary": "Falabella / Facturación / Enviar factura de Nicox a Falabella",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4016",
         "summary": "Publicaciones de catálogo - Mercado Libre",
         "status": "EN RELEVAMIENTO",
@@ -7386,6 +7370,14 @@
         "story_points": null,
         "assignee": "Juan Ignacio Morelis - Carestino",
         "project": "BTP"
+      },
+      {
+        "key": "IT-23112",
+        "summary": "Falabella / Facturación / Enviar factura de Nicox a Falabella",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Miguel Armentano",
+        "project": "IT"
       },
       {
         "key": "IT-23002",
@@ -15817,17 +15809,9 @@
     "summary": "Normalización Payments",
     "tasks": [
       {
-        "key": "BTP-3992",
-        "summary": "Payments / Agregar traducciones al campo \"Status Details\"",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-3635",
         "summary": "Payments / Agregar traducciones al campo \"Status Details\"",
-        "status": "TO REFINEMENT",
+        "status": "CANCELADO POR BT",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -15839,6 +15823,14 @@
         "story_points": null,
         "assignee": "Alan Fernandez",
         "project": "BTP"
+      },
+      {
+        "key": "IT-23118",
+        "summary": "Payments / Agregar traducciones al campo \"Status Details\"",
+        "status": "BACKLOG",
+        "story_points": 4.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
       },
       {
         "key": "IT-19777",
@@ -15943,7 +15935,7 @@
       {
         "key": "IT-22900",
         "summary": "Conciliación / PE / Regla \"MP Tradicional con CFT\" arroja un error de SQL en new relic y no permite avanzar",
-        "status": "CODE REVIEW",
+        "status": "TO DEPLOY",
         "story_points": 6.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -16663,6 +16655,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23112",
+        "summary": "Falabella / Facturación / Enviar factura de Nicox a Falabella",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Miguel Armentano",
+        "project": "IT"
+      },
+      {
         "key": "IT-23002",
         "summary": "Falabella / CRON que evite las ventas duplicadas",
         "status": "BACKLOG",
@@ -17351,6 +17351,14 @@
         "story_points": null,
         "assignee": "Alan Fernandez",
         "project": "BTP"
+      },
+      {
+        "key": "IT-23118",
+        "summary": "Payments / Agregar traducciones al campo \"Status Details\"",
+        "status": "BACKLOG",
+        "story_points": 4.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
       },
       {
         "key": "IT-19777",
