@@ -4,14 +4,6 @@
     "summary": "Service Desk",
     "tasks": [
       {
-        "key": "BTP-4199",
-        "summary": "Relevamiento / Logística V2 /  Flexnet / Ventas duplicadas",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4173",
         "summary": "Pedidos tienda / Envío de email cuando se recepciona el pedido",
         "status": "PRODUCT BACKLOG",
@@ -42,6 +34,14 @@
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
+      },
+      {
+        "key": "IT-23157",
+        "summary": "Relevamiento / Logística V2 /  Flexnet / Ventas duplicadas",
+        "status": "BACKLOG",
+        "story_points": 3.0,
+        "assignee": "Luis Uran",
+        "project": "IT"
       },
       {
         "key": "IT-23155",
@@ -1123,6 +1123,14 @@
       {
         "key": "BTP-3780",
         "summary": "Rendicion de gastos de Tarjeta y MP",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3712",
+        "summary": "Expense / Agregar filtros al listado de pagos para Tarjeta y Billetera virtual",
         "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
@@ -7369,6 +7377,14 @@
         "status": "EN RELEVAMIENTO",
         "story_points": null,
         "assignee": "ivanalberghini",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4007",
+        "summary": "Buscador por ID para los distintos marketplace ",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
         "project": "BTP"
       },
       {
