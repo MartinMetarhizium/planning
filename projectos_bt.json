@@ -36,6 +36,22 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23165",
+        "summary": "MercadoPago / Email Gracias por su compra en retiros en tienda",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23161",
+        "summary": "Fix / MP IPN / Campo is_available en pagos con QR",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
         "key": "IT-23157",
         "summary": "Relevamiento / Logística V2 /  Flexnet / Ventas duplicadas",
         "status": "BACKLOG",
@@ -70,7 +86,7 @@
       {
         "key": "IT-23056",
         "summary": "Endpoint para creacion de ordenes de compra.",
-        "status": "REDEFINED",
+        "status": "CODE REVIEW",
         "story_points": 3.0,
         "assignee": "Martín Horn",
         "project": "IT"
@@ -78,7 +94,7 @@
       {
         "key": "IT-23054",
         "summary": "Error integracion - Mercadoenvios",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON PAUSE",
         "story_points": 6.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -86,7 +102,7 @@
       {
         "key": "IT-23052",
         "summary": "Problema con clientes que no utilizan logística",
-        "status": "BACKLOG",
+        "status": "CODE REVIEW",
         "story_points": 2.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -126,7 +142,7 @@
       {
         "key": "IT-22997",
         "summary": "Relevamiento / Listado de MercadoLibre / Ventas pendientes que no se listan",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 4.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -206,7 +222,7 @@
       {
         "key": "IT-22756",
         "summary": "Ventas / Habilitar carga de archivos en ventas por configuración",
-        "status": "ON PAUSE",
+        "status": "En progreso",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -1408,7 +1424,7 @@
       {
         "key": "IT-22944",
         "summary": "Ecu / Flexnet - no se reciben estados - guia en Processing",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 7.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -1416,7 +1432,7 @@
       {
         "key": "IT-22426",
         "summary": "Integracion via Api - Andesmar",
-        "status": "REVIEW ON PAUSE",
+        "status": "REVIEW ON HOLD",
         "story_points": 16.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -6451,6 +6467,22 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23170",
+        "summary": "Core de Reintegros / Devolución",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23168",
+        "summary": "Reclamos / Crear módulo de confirmación de recuperación de pedidos",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-23124",
         "summary": "Reclamos / Cambiar comportamientos de los conflictos de Logística",
         "status": "Pendiente de estimación",
@@ -6461,15 +6493,15 @@
       {
         "key": "IT-23102",
         "summary": "Core de Reintegros / Cambio de producto",
-        "status": "En progreso",
-        "story_points": 26.0,
+        "status": "PENDING REVIEW",
+        "story_points": 30.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
       },
       {
         "key": "IT-23095",
         "summary": "Reclamos / Gestiones / Crear módulo de Solicitud de reembolso",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 24.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6477,7 +6509,7 @@
       {
         "key": "IT-23032",
         "summary": "Reclamos / Gestiones / Crear módulo de Solicitud de etiquetas logísticas",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7336,7 +7368,7 @@
       {
         "key": "IT-22795",
         "summary": "BI / Training - Test Nicox en LATAM",
-        "status": "TO DEPLOY QA",
+        "status": "FINISH",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -15983,7 +16015,7 @@
       {
         "key": "IT-22905",
         "summary": "Falabella & Liverpool / Agregarlos como entidades para conciliación",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 5.0,
         "assignee": "Luis Uran",
         "project": "IT"
