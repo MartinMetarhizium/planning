@@ -4,9 +4,17 @@
     "summary": "Service Desk",
     "tasks": [
       {
+        "key": "BTP-4221",
+        "summary": "Mercado libre / Integrar reputación y performance de despachos en Nicox",
+        "status": "TO REFINEMENT",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4173",
         "summary": "Pedidos tienda / Envío de email cuando se recepciona el pedido",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -38,8 +46,8 @@
       {
         "key": "IT-23165",
         "summary": "MercadoPago / Email Gracias por su compra en retiros en tienda",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 6.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
@@ -94,7 +102,7 @@
       {
         "key": "IT-23054",
         "summary": "Error integracion - Mercadoenvios",
-        "status": "REVIEW ON PAUSE",
+        "status": "TO DEPLOY QA",
         "story_points": 6.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -102,7 +110,7 @@
       {
         "key": "IT-23052",
         "summary": "Problema con clientes que no utilizan logística",
-        "status": "CODE REVIEW",
+        "status": "PENDING REVIEW",
         "story_points": 2.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -134,7 +142,7 @@
       {
         "key": "IT-23004",
         "summary": "Relevamiento / Errores en new relic en el webhook de Amazon",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 7.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -142,7 +150,7 @@
       {
         "key": "IT-22997",
         "summary": "Relevamiento / Listado de MercadoLibre / Ventas pendientes que no se listan",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 4.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -278,7 +286,7 @@
       {
         "key": "IT-22726",
         "summary": "Liverpool - Facturación automática",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 32.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -909,7 +917,7 @@
       {
         "key": "IT-22663",
         "summary": "New home / Relevamiento / Evaluación de performance",
-        "status": "STG TESTING",
+        "status": "TO DEPLOY QA",
         "story_points": 32.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1123,7 +1131,7 @@
       {
         "key": "BTP-4180",
         "summary": "Expense / Solucionar problema con el campo \"link\" en la rendición de gasto dentro de PROD",
-        "status": "PRODUCT BACKLOG",
+        "status": "Rechazado",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -1131,7 +1139,7 @@
       {
         "key": "BTP-4128",
         "summary": "Expense / Permitir modificar rendidor en anticipos",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -1139,7 +1147,7 @@
       {
         "key": "BTP-3780",
         "summary": "Rendicion de gastos de Tarjeta y MP",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -1147,7 +1155,7 @@
       {
         "key": "BTP-3712",
         "summary": "Expense / Agregar filtros al listado de pagos para Tarjeta y Billetera virtual",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -1424,7 +1432,7 @@
       {
         "key": "IT-22944",
         "summary": "Ecu / Flexnet - no se reciben estados - guia en Processing",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 7.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -2123,7 +2131,7 @@
       {
         "key": "BTP-4193",
         "summary": "Worpik / Enviar mail de baja en baja manual",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Martín Horn",
         "project": "BTP"
@@ -6469,8 +6477,8 @@
       {
         "key": "IT-23170",
         "summary": "Core de Reintegros / Devolución",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 32.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
       },
@@ -6493,7 +6501,7 @@
       {
         "key": "IT-23102",
         "summary": "Core de Reintegros / Cambio de producto",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 30.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -6501,7 +6509,7 @@
       {
         "key": "IT-23095",
         "summary": "Reclamos / Gestiones / Crear módulo de Solicitud de reembolso",
-        "status": "CODE REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 24.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6509,7 +6517,7 @@
       {
         "key": "IT-23032",
         "summary": "Reclamos / Gestiones / Crear módulo de Solicitud de etiquetas logísticas",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7414,7 +7422,7 @@
       {
         "key": "BTP-4007",
         "summary": "Buscador por ID para los distintos marketplace ",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -15999,9 +16007,9 @@
       {
         "key": "IT-23098",
         "summary": "Conciliacion Pagos Bancarios / El modulo de conciliación automática de pagos bancarios no muestra los comprobantes adjuntos",
-        "status": "Pendiente de estimación",
-        "story_points": null,
-        "assignee": "Diego Martin Gogorza",
+        "status": "PENDING REVIEW",
+        "story_points": 6.0,
+        "assignee": "Luis Uran",
         "project": "IT"
       },
       {
@@ -16015,7 +16023,7 @@
       {
         "key": "IT-22905",
         "summary": "Falabella & Liverpool / Agregarlos como entidades para conciliación",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 5.0,
         "assignee": "Luis Uran",
         "project": "IT"
