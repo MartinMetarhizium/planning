@@ -4,22 +4,6 @@
     "summary": "Service Desk",
     "tasks": [
       {
-        "key": "BTP-4221",
-        "summary": "Mercado libre / Integrar reputación y performance de despachos en Nicox",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Joaquin Fernandez - Carestino",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4173",
-        "summary": "Pedidos tienda / Envío de email cuando se recepciona el pedido",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4151",
         "summary": "Error integracion - Mercadoenvios (Parte 2)",
         "status": "EN RELEVAMIENTO",
@@ -44,6 +28,22 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23207",
+        "summary": "Mercado libre / Integrar reputación y performance de despachos en Nicox",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23200",
+        "summary": "Pedidos tienda / Envío de email cuando se recepciona el pedido",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-23165",
         "summary": "MercadoPago / Email Gracias por su compra en retiros en tienda",
         "status": "BACKLOG",
@@ -54,15 +54,15 @@
       {
         "key": "IT-23161",
         "summary": "Fix / MP IPN / Campo is_available en pagos con QR",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 6.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
       },
       {
         "key": "IT-23157",
         "summary": "Relevamiento / Logística V2 /  Flexnet / Ventas duplicadas",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 3.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -94,7 +94,7 @@
       {
         "key": "IT-23056",
         "summary": "Endpoint para creacion de ordenes de compra.",
-        "status": "CODE REVIEW",
+        "status": "PENDING REVIEW",
         "story_points": 3.0,
         "assignee": "Martín Horn",
         "project": "IT"
@@ -102,7 +102,7 @@
       {
         "key": "IT-23054",
         "summary": "Error integracion - Mercadoenvios",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 6.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -110,7 +110,7 @@
       {
         "key": "IT-23052",
         "summary": "Problema con clientes que no utilizan logística",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY",
         "story_points": 2.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -230,7 +230,7 @@
       {
         "key": "IT-22756",
         "summary": "Ventas / Habilitar carga de archivos en ventas por configuración",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -286,7 +286,7 @@
       {
         "key": "IT-22726",
         "summary": "Liverpool - Facturación automática",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 32.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -901,7 +901,7 @@
       {
         "key": "IT-22882",
         "summary": "Facturación / Checkout / Relevamiento sobre puntos pendientes de facturación en el nuevo checkout",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 6.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -917,7 +917,7 @@
       {
         "key": "IT-22663",
         "summary": "New home / Relevamiento / Evaluación de performance",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 32.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1131,31 +1131,7 @@
       {
         "key": "BTP-4180",
         "summary": "Expense / Solucionar problema con el campo \"link\" en la rendición de gasto dentro de PROD",
-        "status": "Rechazado",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4128",
-        "summary": "Expense / Permitir modificar rendidor en anticipos",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-3780",
-        "summary": "Rendicion de gastos de Tarjeta y MP",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-3712",
-        "summary": "Expense / Agregar filtros al listado de pagos para Tarjeta y Billetera virtual",
-        "status": "TO REFINEMENT",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -1440,7 +1416,7 @@
       {
         "key": "IT-22426",
         "summary": "Integracion via Api - Andesmar",
-        "status": "REVIEW ON HOLD",
+        "status": "Rechazado",
         "story_points": 16.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -6477,7 +6453,7 @@
       {
         "key": "IT-23170",
         "summary": "Core de Reintegros / Devolución",
-        "status": "BACKLOG",
+        "status": "ON HOLD",
         "story_points": 32.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -6501,7 +6477,7 @@
       {
         "key": "IT-23102",
         "summary": "Core de Reintegros / Cambio de producto",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY",
         "story_points": 30.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -6509,7 +6485,7 @@
       {
         "key": "IT-23095",
         "summary": "Reclamos / Gestiones / Crear módulo de Solicitud de reembolso",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 24.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7420,14 +7396,6 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4007",
-        "summary": "Buscador por ID para los distintos marketplace ",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-3874",
         "summary": "[Marketplace][MX][Mercadilibre Full][Precios][Stock]",
         "status": "Por Hacer",
@@ -7484,6 +7452,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23203",
+        "summary": "Buscador por ID para los distintos marketplace ",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-23112",
         "summary": "Falabella / Facturación / Enviar factura de Nicox a Falabella",
         "status": "Pendiente de estimación",
@@ -7510,7 +7486,7 @@
       {
         "key": "IT-22518",
         "summary": "[Marketplace][Liverpool][Promociones]",
-        "status": "BACKLOG",
+        "status": "ON PAUSE",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -16007,7 +15983,7 @@
       {
         "key": "IT-23098",
         "summary": "Conciliacion Pagos Bancarios / El modulo de conciliación automática de pagos bancarios no muestra los comprobantes adjuntos",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY",
         "story_points": 6.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -16751,6 +16727,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23203",
+        "summary": "Buscador por ID para los distintos marketplace ",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-23112",
         "summary": "Falabella / Facturación / Enviar factura de Nicox a Falabella",
         "status": "Pendiente de estimación",
@@ -16777,7 +16761,7 @@
       {
         "key": "IT-22518",
         "summary": "[Marketplace][Liverpool][Promociones]",
-        "status": "BACKLOG",
+        "status": "ON PAUSE",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
