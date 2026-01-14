@@ -4,19 +4,29 @@
     "summary": "Service Desk",
     "tasks": [
       {
-        "key": "IT-23165",
+        "key": "IT-23207",
         "story_points": null,
         "status": "Pendiente de estimaci\u00f3n"
       },
       {
-        "key": "IT-23161",
+        "key": "IT-23200",
         "story_points": null,
         "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "IT-23165",
+        "story_points": 6.0,
+        "status": "BACKLOG"
+      },
+      {
+        "key": "IT-23161",
+        "story_points": 6.0,
+        "status": "BACKLOG"
       },
       {
         "key": "IT-23157",
         "story_points": 3.0,
-        "status": "BACKLOG"
+        "status": "ON PAUSE"
       },
       {
         "key": "IT-23155",
@@ -36,17 +46,17 @@
       {
         "key": "IT-23056",
         "story_points": 3.0,
-        "status": "CODE REVIEW"
+        "status": "PENDING REVIEW"
       },
       {
         "key": "IT-23054",
         "story_points": 6.0,
-        "status": "REVIEWING"
+        "status": "TO DEPLOY"
       },
       {
         "key": "IT-23052",
         "story_points": 2.0,
-        "status": "STG TESTING"
+        "status": "TO DEPLOY"
       },
       {
         "key": "IT-23044",
@@ -66,7 +76,7 @@
       {
         "key": "IT-23004",
         "story_points": 7.0,
-        "status": "CODE REVIEW"
+        "status": "STG TESTING"
       },
       {
         "key": "IT-22997",
@@ -156,7 +166,7 @@
       {
         "key": "IT-22726",
         "story_points": 32.0,
-        "status": "En progreso"
+        "status": "STG TESTING"
       }
     ]
   },
@@ -227,6 +237,11 @@
     "due_date": "2025-06-30",
     "summary": "Falabella",
     "tasks": [
+      {
+        "key": "IT-22670",
+        "story_points": 3.0,
+        "status": "TO DEPLOY"
+      },
       {
         "key": "IT-21773",
         "story_points": 4.0,
@@ -328,7 +343,7 @@
       {
         "key": "IT-22882",
         "story_points": 6.0,
-        "status": "BACKLOG"
+        "status": "En progreso"
       },
       {
         "key": "IT-22665",
@@ -338,7 +353,7 @@
       {
         "key": "IT-22663",
         "story_points": 32.0,
-        "status": "TO DEPLOY QA"
+        "status": "TO DEPLOY"
       },
       {
         "key": "IT-22610",
@@ -1143,7 +1158,7 @@
       {
         "key": "IT-20018",
         "story_points": 8.0,
-        "status": "REVIEW ON HOLD"
+        "status": "TO DEPLOY"
       },
       {
         "key": "IT-20017",
@@ -1714,8 +1729,8 @@
     "tasks": [
       {
         "key": "IT-23170",
-        "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "story_points": 32.0,
+        "status": "ON HOLD"
       },
       {
         "key": "IT-23168",
@@ -1730,12 +1745,12 @@
       {
         "key": "IT-23102",
         "story_points": 30.0,
-        "status": "PENDING REVIEW"
+        "status": "TO DEPLOY"
       },
       {
         "key": "IT-23095",
         "story_points": 24.0,
-        "status": "STG TESTING"
+        "status": "TO DEPLOY"
       },
       {
         "key": "IT-23032",
@@ -5101,8 +5116,8 @@
     "tasks": [
       {
         "key": "IT-23098",
-        "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "story_points": 6.0,
+        "status": "TO DEPLOY"
       },
       {
         "key": "IT-22907",
@@ -5112,7 +5127,7 @@
       {
         "key": "IT-22905",
         "story_points": 5.0,
-        "status": "En progreso"
+        "status": "STG TESTING"
       },
       {
         "key": "IT-22900",
@@ -8103,7 +8118,7 @@
       {
         "key": "IT-22426",
         "story_points": 16.0,
-        "status": "REVIEW ON HOLD"
+        "status": "Rechazado"
       },
       {
         "key": "IT-20828",
@@ -8847,7 +8862,7 @@
       {
         "key": "IT-22297",
         "story_points": 2.0,
-        "status": "BACKLOG"
+        "status": "FINISH"
       },
       {
         "key": "IT-22287",
@@ -9157,6 +9172,11 @@
     "summary": "Marketplace",
     "tasks": [
       {
+        "key": "IT-23203",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
         "key": "IT-23112",
         "story_points": null,
         "status": "Pendiente de estimaci\u00f3n"
@@ -9174,7 +9194,7 @@
       {
         "key": "IT-22518",
         "story_points": 16.0,
-        "status": "BACKLOG"
+        "status": "En progreso"
       },
       {
         "key": "IT-22346",
@@ -9572,6 +9592,21 @@
     "due_date": "2026-02-20",
     "summary": "Expense",
     "tasks": [
+      {
+        "key": "IT-23213",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "IT-23211",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "IT-23209",
+        "story_points": null,
+        "status": "Pendiente de estimaci\u00f3n"
+      },
       {
         "key": "IT-22983",
         "story_points": 6.0,
@@ -12356,7 +12391,7 @@
       {
         "key": "IT-22707",
         "story_points": 12.0,
-        "status": "ON HOLD"
+        "status": "PENDING REVIEW"
       },
       {
         "key": "IT-21340",
@@ -12799,7 +12834,7 @@
       {
         "key": "IT-23107",
         "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "status": "FINISH"
       },
       {
         "key": "IT-19990",
