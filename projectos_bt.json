@@ -350,7 +350,7 @@
       {
         "key": "IT-22726",
         "summary": "Liverpool - Facturación automática",
-        "status": "STG TESTING",
+        "status": "TO DEPLOY QA",
         "story_points": 32.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -1200,6 +1200,14 @@
     "due_date": "2025-07-11",
     "summary": "Expenses",
     "tasks": [
+      {
+        "key": "BTP-3714",
+        "summary": "Expense / Mercadopago / Asociación de registros de mercadopago a proveedores",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
       {
         "key": "BTP-3471",
         "summary": "Integración SAP",
