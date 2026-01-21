@@ -70,7 +70,7 @@
       {
         "key": "IT-23297",
         "summary": "Dos pedidos adicionales para el endpoint de creacion de ordenes de compra.",
-        "status": "CODE REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 1.0,
         "assignee": "Martín Horn",
         "project": "IT"
@@ -78,24 +78,24 @@
       {
         "key": "IT-23241",
         "summary": "Fix / Starvation en el CRON de actualización de estados logísticos",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 4.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
       },
       {
         "key": "IT-23238",
         "summary": "Logística V2 / Problema con los filtros de estados",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 16.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
       },
       {
         "key": "IT-23221",
         "summary": "Pagos Bancarios / No se pueden visualizar los comprobantes en la conciliación manual",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 4.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
       },
@@ -238,7 +238,7 @@
       {
         "key": "IT-22926",
         "summary": "Gestiones / Visualizar en logística V2 solamente los reclamos logísticos",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 2.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -1211,7 +1211,7 @@
       {
         "key": "BTP-3714",
         "summary": "Expense / Mercadopago / Asociación de registros de mercadopago a proveedores",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -1261,8 +1261,8 @@
       },
       {
         "key": "BTP-4142",
-        "summary": "Azul / Dominicana / Integración nueva procesadora Dominicana",
-        "status": "EN ARMADO DE PROPUESTA",
+        "summary": "Azul / Dominicana / Integración de la nueva pasarela de pagos (Webservices + 3DS)",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -1362,7 +1362,7 @@
       {
         "key": "BTP-4123",
         "summary": "Backend / Pasar selección de productos a paso 1",
-        "status": "TO REFINEMENT",
+        "status": "Redefiniendo",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
@@ -1378,7 +1378,7 @@
       {
         "key": "BTP-3301",
         "summary": "Ecommerce / Portal de gestiones / Documentación de los cambios",
-        "status": "TO REFINEMENT",
+        "status": "Redefiniendo",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
@@ -5821,6 +5821,14 @@
     "summary": "CAV - Carga automática de ventas",
     "tasks": [
       {
+        "key": "BTP-4102",
+        "summary": "Amazon / Ventas con más de 1 unidad del mismo SKU con valor incorrecto",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
         "key": "IT-22986",
         "summary": "Liverpool / Crear liverpool_upload_price_order.php",
         "status": "FINISH",
@@ -6549,16 +6557,16 @@
       {
         "key": "IT-23275",
         "summary": "Core de Reintegros / Cambio de punto de venta",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 48.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
       },
       {
         "key": "IT-23272",
         "summary": "Core de Reintegros / Garantía Parcial",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 40.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
       },
@@ -6573,7 +6581,7 @@
       {
         "key": "IT-23170",
         "summary": "Core de Reintegros / Devolución",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY",
         "story_points": 32.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -6581,7 +6589,7 @@
       {
         "key": "IT-23168",
         "summary": "Reclamos / Crear módulo de confirmación de recuperación de pedidos",
-        "status": "BACKLOG",
+        "status": "FINISH",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6653,7 +6661,7 @@
       {
         "key": "IT-22655",
         "summary": "Reclamos / Permitir formato .heic en imagenes",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 8.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6701,7 +6709,7 @@
       {
         "key": "IT-22523",
         "summary": "Reclamos / Frontend / Agregar fallas a un producto sin partes",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 8.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6813,7 +6821,7 @@
       {
         "key": "IT-20697",
         "summary": "Frontend / Reclamos / Permitir editar un reclamo desde el frontend",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 20.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6821,7 +6829,7 @@
       {
         "key": "IT-20655",
         "summary": "Backend / Reclamos / Permitir editar un reclamo desde el frontend",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 32.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7508,6 +7516,14 @@
     "summary": "Marketplace",
     "tasks": [
       {
+        "key": "BTP-4181",
+        "summary": "Mercado Libre / Tomar credenciales de ML en la llamada a prices dentro de la IPN",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4016",
         "summary": "Publicaciones de catálogo - Mercado Libre",
         "status": "EN RELEVAMIENTO",
@@ -7582,7 +7598,7 @@
       {
         "key": "IT-23112",
         "summary": "Falabella / Facturación / Enviar factura de Nicox a Falabella",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 8.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -7590,7 +7606,7 @@
       {
         "key": "IT-23002",
         "summary": "Falabella / CRON que evite las ventas duplicadas",
-        "status": "BACKLOG",
+        "status": "ON HOLD",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -15835,7 +15851,7 @@
       {
         "key": "BTP-4229",
         "summary": "Nuevo checkout / Los datos de facturacion no se almacenan en la tabla carestinoventas_pre_invoice_data_order",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -15854,6 +15870,14 @@
     "due_date": "2024-06-28",
     "summary": "Nicox",
     "tasks": [
+      {
+        "key": "BTP-4189",
+        "summary": "Specs / Permitir que especificación de \"Imagen y Texto\" tenga varios elementos",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
       {
         "key": "BTP-4150",
         "summary": "Falabella / Ventas Falabella no permiten devolución de un producto con más de una unidad",
@@ -16043,7 +16067,7 @@
       {
         "key": "IT-23118",
         "summary": "Payments / Agregar traducciones al campo \"Status Details\"",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 4.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -16881,7 +16905,7 @@
       {
         "key": "IT-23112",
         "summary": "Falabella / Facturación / Enviar factura de Nicox a Falabella",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 8.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -16889,7 +16913,7 @@
       {
         "key": "IT-23002",
         "summary": "Falabella / CRON que evite las ventas duplicadas",
-        "status": "BACKLOG",
+        "status": "ON HOLD",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -17579,7 +17603,7 @@
       {
         "key": "IT-23118",
         "summary": "Payments / Agregar traducciones al campo \"Status Details\"",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 4.0,
         "assignee": "Luis Uran",
         "project": "IT"
