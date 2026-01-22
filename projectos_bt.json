@@ -36,6 +36,14 @@
         "project": "BTP"
       },
       {
+        "key": "BTP-4096",
+        "summary": "Ordenes de compra / Mover a depósito levanta puntos inactivos",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4046",
         "summary": "Nicox - Error alicuotas de retención de iibb de AGIP (Caba)",
         "status": "RESUELTO POR BT",
@@ -52,9 +60,33 @@
         "project": "BTP"
       },
       {
+        "key": "BTP-4014",
+        "summary": "Movimientos de exhibidos u outlet / Validar stock contra registros activos",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4010",
         "summary": "Recepción Perdida de reintegros / Cambiar a queue",
         "status": "TO REFINEMENT",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3997",
+        "summary": "Cupones / Utilizar setting de cantidad de decimales",
+        "status": "ON HOLD RELEVAMIENTO",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-3977",
+        "summary": "Productos y stock / Imprimir QR Zebra no funciona en mobile",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -238,7 +270,7 @@
       {
         "key": "IT-22926",
         "summary": "Gestiones / Visualizar en logística V2 solamente los reclamos logísticos",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 2.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -294,7 +326,7 @@
       {
         "key": "IT-22757",
         "summary": "Modificación del proceso de venta - Agregado automático de bolsas ",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 24.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -2184,6 +2216,14 @@
     "due_date": "2025-06-30",
     "summary": "Worpik",
     "tasks": [
+      {
+        "key": "BTP-4245",
+        "summary": "Error visual",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Martín Horn",
+        "project": "BTP"
+      },
       {
         "key": "BTP-4193",
         "summary": "Worpik / Enviar mail de baja en baja manual",
@@ -6539,9 +6579,17 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23323",
+        "summary": "Core de reintegros / Ajustes a Devolución y Cambio de producto",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
         "key": "IT-23279",
         "summary": "Reclamos / Integración al Core de Reintegros / Parte 2",
-        "status": "En progreso",
+        "status": "ON HOLD",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -6573,15 +6621,23 @@
       {
         "key": "IT-23271",
         "summary": "Core de Reintegros / Garantía Total",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 40.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
       },
       {
+        "key": "IT-23223",
+        "summary": "Reclamos / Crear panel de control de inicio de reclamo automático",
+        "status": "REVIEWING",
+        "story_points": 24.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-23170",
         "summary": "Core de Reintegros / Devolución",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 32.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -6597,7 +6653,7 @@
       {
         "key": "IT-23124",
         "summary": "Reclamos / Cambiar comportamientos de los conflictos de Logística",
-        "status": "BACKLOG",
+        "status": "FINISH",
         "story_points": 2.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6653,7 +6709,7 @@
       {
         "key": "IT-22657",
         "summary": "Reclamos / Backend / Permitir formato .heic en imagenes",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6661,7 +6717,7 @@
       {
         "key": "IT-22655",
         "summary": "Reclamos / Permitir formato .heic en imagenes",
-        "status": "En progreso",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6765,7 +6821,7 @@
       {
         "key": "IT-21935",
         "summary": "Reclamos / Backend / Filtrar reclamos con datos faltantes",
-        "status": "Rechazado",
+        "status": "STG TESTING",
         "story_points": 12.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -6821,7 +6877,7 @@
       {
         "key": "IT-20697",
         "summary": "Frontend / Reclamos / Permitir editar un reclamo desde el frontend",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 20.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6829,7 +6885,7 @@
       {
         "key": "IT-20655",
         "summary": "Backend / Reclamos / Permitir editar un reclamo desde el frontend",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 32.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7598,7 +7654,7 @@
       {
         "key": "IT-23112",
         "summary": "Falabella / Facturación / Enviar factura de Nicox a Falabella",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 8.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -8508,8 +8564,8 @@
       {
         "key": "IT-22625",
         "summary": "Actualizacion de la version de n8n de BI",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 4.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
       },
@@ -15879,14 +15935,6 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4150",
-        "summary": "Falabella / Ventas Falabella no permiten devolución de un producto con más de una unidad",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Joaquin Fernandez - Carestino",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4139",
         "summary": "Producto / Agregar un slot en la galería del producto",
         "status": "PRODUCT BACKLOG",
@@ -16067,7 +16115,7 @@
       {
         "key": "IT-23118",
         "summary": "Payments / Agregar traducciones al campo \"Status Details\"",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -16905,7 +16953,7 @@
       {
         "key": "IT-23112",
         "summary": "Falabella / Facturación / Enviar factura de Nicox a Falabella",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 8.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -17603,7 +17651,7 @@
       {
         "key": "IT-23118",
         "summary": "Payments / Agregar traducciones al campo \"Status Details\"",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Luis Uran",
         "project": "IT"
