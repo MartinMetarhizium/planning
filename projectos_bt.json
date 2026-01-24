@@ -6587,6 +6587,14 @@
         "project": "BTP"
       },
       {
+        "key": "BTP-3581",
+        "summary": "Reclamos / Incluir apartado de Facturación",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
         "key": "IT-23323",
         "summary": "Core de reintegros / Ajustes a Devolución y Cambio de producto",
         "status": "En progreso",
@@ -6597,7 +6605,7 @@
       {
         "key": "IT-23279",
         "summary": "Reclamos / Comunicación al cliente ",
-        "status": "PENDING REVIEW",
+        "status": "Rechazado",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
