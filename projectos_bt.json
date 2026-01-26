@@ -108,9 +108,17 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23350",
+        "summary": "Fix / Pedidos tienda / Cierre de devoluciones",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
         "key": "IT-23297",
         "summary": "Dos pedidos adicionales para el endpoint de creacion de ordenes de compra.",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 1.0,
         "assignee": "Martín Horn",
         "project": "IT"
@@ -326,7 +334,7 @@
       {
         "key": "IT-22757",
         "summary": "Modificación del proceso de venta - Agregado automático de bolsas ",
-        "status": "ON PAUSE",
+        "status": "En progreso",
         "story_points": 24.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6595,6 +6603,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23337",
+        "summary": "Panel de control / Integrar solicitud de reintegro con Devolución",
+        "status": "TO DEPLOY QA",
+        "story_points": 2.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-23323",
         "summary": "Core de reintegros / Ajustes a Devolución y Cambio de producto",
         "status": "En progreso",
@@ -6605,7 +6621,7 @@
       {
         "key": "IT-23279",
         "summary": "Reclamos / Comunicación al cliente ",
-        "status": "Rechazado",
+        "status": "PENDING REVIEW",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -6701,7 +6717,7 @@
       {
         "key": "IT-22926",
         "summary": "Gestiones / Visualizar en logística V2 solamente los reclamos logísticos",
-        "status": "REVIEW ON HOLD",
+        "status": "REVIEW ON PAUSE",
         "story_points": 2.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6709,8 +6725,8 @@
       {
         "key": "IT-22921",
         "summary": "Reclamos / Incorporar fecha límite para solicitar un reclamo",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 11.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
       },
@@ -6733,7 +6749,7 @@
       {
         "key": "IT-22657",
         "summary": "Reclamos / Backend / Permitir formato .heic en imagenes",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6741,7 +6757,7 @@
       {
         "key": "IT-22655",
         "summary": "Reclamos / Permitir formato .heic en imagenes",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6789,7 +6805,7 @@
       {
         "key": "IT-22523",
         "summary": "Reclamos / Frontend / Agregar fallas a un producto sin partes",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6845,7 +6861,7 @@
       {
         "key": "IT-21935",
         "summary": "Reclamos / Backend / Filtrar reclamos con datos faltantes",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 12.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -7678,7 +7694,7 @@
       {
         "key": "IT-23112",
         "summary": "Falabella / Facturación / Enviar factura de Nicox a Falabella",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -17001,7 +17017,7 @@
       {
         "key": "IT-23112",
         "summary": "Falabella / Facturación / Enviar factura de Nicox a Falabella",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
