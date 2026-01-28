@@ -4,9 +4,34 @@
     "summary": "Service Desk",
     "tasks": [
       {
-        "key": "IT-23207",
+        "key": "IT-23350",
         "story_points": null,
         "status": "Pendiente de estimaci\u00f3n"
+      },
+      {
+        "key": "IT-23297",
+        "story_points": 1.0,
+        "status": "FINISH"
+      },
+      {
+        "key": "IT-23241",
+        "story_points": 4.0,
+        "status": "BACKLOG"
+      },
+      {
+        "key": "IT-23238",
+        "story_points": 16.0,
+        "status": "BACKLOG"
+      },
+      {
+        "key": "IT-23221",
+        "story_points": 4.0,
+        "status": "BACKLOG"
+      },
+      {
+        "key": "IT-23207",
+        "story_points": 24.0,
+        "status": "BACKLOG"
       },
       {
         "key": "IT-23200",
@@ -26,7 +51,7 @@
       {
         "key": "IT-23157",
         "story_points": 3.0,
-        "status": "ON PAUSE"
+        "status": "FINISH"
       },
       {
         "key": "IT-23155",
@@ -46,17 +71,17 @@
       {
         "key": "IT-23056",
         "story_points": 3.0,
-        "status": "PENDING REVIEW"
+        "status": "FINISH"
       },
       {
         "key": "IT-23054",
         "story_points": 6.0,
-        "status": "TO DEPLOY"
+        "status": "FINISH"
       },
       {
         "key": "IT-23052",
         "story_points": 2.0,
-        "status": "TO DEPLOY"
+        "status": "FINISH"
       },
       {
         "key": "IT-23044",
@@ -76,7 +101,7 @@
       {
         "key": "IT-23004",
         "story_points": 7.0,
-        "status": "STG TESTING"
+        "status": "FINISH"
       },
       {
         "key": "IT-22997",
@@ -87,11 +112,6 @@
         "key": "IT-22963",
         "story_points": null,
         "status": "FINISH"
-      },
-      {
-        "key": "IT-22926",
-        "story_points": 2.0,
-        "status": "BACKLOG"
       },
       {
         "key": "IT-22917",
@@ -126,12 +146,12 @@
       {
         "key": "IT-22757",
         "story_points": 24.0,
-        "status": "BACKLOG"
+        "status": "En progreso"
       },
       {
         "key": "IT-22756",
         "story_points": 16.0,
-        "status": "En progreso"
+        "status": "FINISH"
       },
       {
         "key": "IT-22741",
@@ -166,7 +186,7 @@
       {
         "key": "IT-22726",
         "story_points": 32.0,
-        "status": "STG TESTING"
+        "status": "FINISH"
       }
     ]
   },
@@ -240,7 +260,7 @@
       {
         "key": "IT-22670",
         "story_points": 3.0,
-        "status": "TO DEPLOY"
+        "status": "FINISH"
       },
       {
         "key": "IT-21773",
@@ -343,7 +363,7 @@
       {
         "key": "IT-22882",
         "story_points": 6.0,
-        "status": "En progreso"
+        "status": "FINISH"
       },
       {
         "key": "IT-22665",
@@ -353,12 +373,12 @@
       {
         "key": "IT-22663",
         "story_points": 32.0,
-        "status": "TO DEPLOY"
+        "status": "FINISH"
       },
       {
         "key": "IT-22610",
         "story_points": 10.0,
-        "status": "REVIEW ON HOLD"
+        "status": "BACKLOG"
       },
       {
         "key": "IT-22483",
@@ -368,6 +388,11 @@
       {
         "key": "IT-22463",
         "story_points": 1.0,
+        "status": "FINISH"
+      },
+      {
+        "key": "IT-22313",
+        "story_points": 16.0,
         "status": "FINISH"
       },
       {
@@ -504,7 +529,7 @@
       {
         "key": "IT-22667",
         "story_points": 16.0,
-        "status": "BACKLOG"
+        "status": "ON HOLD"
       }
     ]
   },
@@ -739,8 +764,8 @@
     "tasks": [
       {
         "key": "IT-22625",
-        "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "story_points": 4.0,
+        "status": "BACKLOG"
       },
       {
         "key": "IT-21478",
@@ -858,7 +883,7 @@
       {
         "key": "IT-23118",
         "story_points": 4.0,
-        "status": "BACKLOG"
+        "status": "FINISH"
       },
       {
         "key": "IT-19777",
@@ -1098,12 +1123,12 @@
       {
         "key": "IT-20030",
         "story_points": 2.0,
-        "status": "BACKLOG"
+        "status": "FINISH"
       },
       {
         "key": "IT-20029",
         "story_points": 5.0,
-        "status": "Rechazado"
+        "status": "TO DEPLOY QA"
       },
       {
         "key": "IT-20028",
@@ -1118,17 +1143,17 @@
       {
         "key": "IT-20026",
         "story_points": 4.0,
-        "status": "REVIEW ON HOLD"
+        "status": "FINISH"
       },
       {
         "key": "IT-20025",
         "story_points": 4.0,
-        "status": "BACKLOG"
+        "status": "FINISH"
       },
       {
         "key": "IT-20024",
         "story_points": 3.0,
-        "status": "En progreso"
+        "status": "TO DEPLOY QA"
       },
       {
         "key": "IT-20023",
@@ -1158,7 +1183,7 @@
       {
         "key": "IT-20018",
         "story_points": 8.0,
-        "status": "TO DEPLOY"
+        "status": "FINISH"
       },
       {
         "key": "IT-20017",
@@ -1193,7 +1218,7 @@
       {
         "key": "IT-20011",
         "story_points": 2.0,
-        "status": "BACKLOG"
+        "status": "FINISH"
       },
       {
         "key": "IT-20010",
@@ -1728,29 +1753,69 @@
     "summary": "Gestiones",
     "tasks": [
       {
+        "key": "IT-23337",
+        "story_points": 2.0,
+        "status": "FINISH"
+      },
+      {
+        "key": "IT-23323",
+        "story_points": 16.0,
+        "status": "FINISH"
+      },
+      {
+        "key": "IT-23279",
+        "story_points": 8.0,
+        "status": "FINISH"
+      },
+      {
+        "key": "IT-23278",
+        "story_points": null,
+        "status": "FINISH"
+      },
+      {
+        "key": "IT-23275",
+        "story_points": 48.0,
+        "status": "BACKLOG"
+      },
+      {
+        "key": "IT-23272",
+        "story_points": 40.0,
+        "status": "BACKLOG"
+      },
+      {
+        "key": "IT-23271",
+        "story_points": 40.0,
+        "status": "En progreso"
+      },
+      {
+        "key": "IT-23223",
+        "story_points": 24.0,
+        "status": "FINISH"
+      },
+      {
         "key": "IT-23170",
         "story_points": 32.0,
-        "status": "ON HOLD"
+        "status": "FINISH"
       },
       {
         "key": "IT-23168",
-        "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "story_points": 16.0,
+        "status": "FINISH"
       },
       {
         "key": "IT-23124",
-        "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "story_points": 2.0,
+        "status": "FINISH"
       },
       {
         "key": "IT-23102",
         "story_points": 30.0,
-        "status": "TO DEPLOY"
+        "status": "FINISH"
       },
       {
         "key": "IT-23095",
         "story_points": 24.0,
-        "status": "TO DEPLOY"
+        "status": "FINISH"
       },
       {
         "key": "IT-23032",
@@ -1758,9 +1823,14 @@
         "status": "FINISH"
       },
       {
+        "key": "IT-22926",
+        "story_points": 2.0,
+        "status": "TO DEPLOY QA"
+      },
+      {
         "key": "IT-22921",
-        "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "story_points": 11.0,
+        "status": "BACKLOG"
       },
       {
         "key": "IT-22884",
@@ -1775,12 +1845,12 @@
       {
         "key": "IT-22657",
         "story_points": 4.0,
-        "status": "REVIEW ON HOLD"
+        "status": "FINISH"
       },
       {
         "key": "IT-22655",
         "story_points": 8.0,
-        "status": "BACKLOG"
+        "status": "FINISH"
       },
       {
         "key": "IT-22653",
@@ -1810,7 +1880,7 @@
       {
         "key": "IT-22523",
         "story_points": 8.0,
-        "status": "BACKLOG"
+        "status": "FINISH"
       },
       {
         "key": "IT-22521",
@@ -1845,7 +1915,7 @@
       {
         "key": "IT-21935",
         "story_points": 12.0,
-        "status": "Rechazado"
+        "status": "REVIEW ON HOLD"
       },
       {
         "key": "IT-21933",
@@ -1880,12 +1950,12 @@
       {
         "key": "IT-20697",
         "story_points": 20.0,
-        "status": "ON HOLD"
+        "status": "FINISH"
       },
       {
         "key": "IT-20655",
         "story_points": 32.0,
-        "status": "BACKLOG"
+        "status": "FINISH"
       },
       {
         "key": "IT-20632",
@@ -5081,12 +5151,12 @@
       {
         "key": "IT-22702",
         "story_points": 8.0,
-        "status": "BACKLOG"
+        "status": "FINISH"
       },
       {
         "key": "IT-20880",
         "story_points": 24.0,
-        "status": "BACKLOG"
+        "status": "En progreso"
       },
       {
         "key": "IT-20362",
@@ -5117,7 +5187,7 @@
       {
         "key": "IT-23098",
         "story_points": 6.0,
-        "status": "TO DEPLOY"
+        "status": "FINISH"
       },
       {
         "key": "IT-22907",
@@ -5127,7 +5197,7 @@
       {
         "key": "IT-22905",
         "story_points": 5.0,
-        "status": "STG TESTING"
+        "status": "FINISH"
       },
       {
         "key": "IT-22900",
@@ -8118,7 +8188,7 @@
       {
         "key": "IT-22426",
         "story_points": 16.0,
-        "status": "Rechazado"
+        "status": "En progreso"
       },
       {
         "key": "IT-20828",
@@ -9178,13 +9248,13 @@
       },
       {
         "key": "IT-23112",
-        "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "story_points": 8.0,
+        "status": "FINISH"
       },
       {
         "key": "IT-23002",
         "story_points": 16.0,
-        "status": "BACKLOG"
+        "status": "ON PAUSE"
       },
       {
         "key": "IT-22750",
@@ -9194,7 +9264,7 @@
       {
         "key": "IT-22518",
         "story_points": 16.0,
-        "status": "En progreso"
+        "status": "ON PAUSE"
       },
       {
         "key": "IT-22346",
@@ -9593,9 +9663,19 @@
     "summary": "Expense",
     "tasks": [
       {
+        "key": "IT-23352",
+        "story_points": 3.0,
+        "status": "FINISH"
+      },
+      {
+        "key": "IT-23219",
+        "story_points": 4.0,
+        "status": "FINISH"
+      },
+      {
         "key": "IT-23213",
-        "story_points": null,
-        "status": "Pendiente de estimaci\u00f3n"
+        "story_points": 6.0,
+        "status": "BACKLOG"
       },
       {
         "key": "IT-23211",
@@ -9610,7 +9690,7 @@
       {
         "key": "IT-22983",
         "story_points": 6.0,
-        "status": "BACKLOG"
+        "status": "FINISH"
       },
       {
         "key": "IT-22913",
@@ -9655,7 +9735,7 @@
       {
         "key": "IT-20574",
         "story_points": 36.0,
-        "status": "CODE REVIEW"
+        "status": "REVIEW ON HOLD"
       },
       {
         "key": "IT-20573",
@@ -9665,7 +9745,7 @@
       {
         "key": "IT-20572",
         "story_points": 68.0,
-        "status": "BACKLOG"
+        "status": "En progreso"
       },
       {
         "key": "IT-20189",
@@ -11385,7 +11465,7 @@
       {
         "key": "IT-22895",
         "story_points": 6.0,
-        "status": "BACKLOG"
+        "status": "FINISH"
       },
       {
         "key": "IT-22043",
@@ -12381,7 +12461,7 @@
       {
         "key": "IT-22881",
         "story_points": 4.0,
-        "status": "En progreso"
+        "status": "FINISH"
       },
       {
         "key": "IT-22776",
@@ -12391,7 +12471,7 @@
       {
         "key": "IT-22707",
         "story_points": 12.0,
-        "status": "PENDING REVIEW"
+        "status": "FINISH"
       },
       {
         "key": "IT-21340",
