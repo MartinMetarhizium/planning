@@ -4,38 +4,6 @@
     "summary": "Service Desk",
     "tasks": [
       {
-        "key": "BTP-4242",
-        "summary": "Ventas / Corrección del SUBTOTAL para los reintegros que tienen costo de envío",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4214",
-        "summary": "Tableau global / Campo subchannel para ventas de MercadoLibre históricas",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4212",
-        "summary": "Falabella / Mejoras de testeabilidad",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4200",
-        "summary": "Logística / Agregar fecha real de estados logísticos",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4151",
         "summary": "Error integracion - Mercadoenvios (Parte 2)",
         "status": "EN RELEVAMIENTO",
@@ -100,12 +68,44 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-3959",
+        "key": "IT-23393",
+        "summary": "Logística / Agregar fecha real de estados logísticos",
+        "status": "BACKLOG",
+        "story_points": 12.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23391",
+        "summary": "Falabella / Mejoras de testeabilidad",
+        "status": "BACKLOG",
+        "story_points": 8.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23389",
         "summary": "Ventas / Segundos pasos / Bloquear búsqueda de cliente",
-        "status": "TO REFINEMENT",
+        "status": "Pendiente de estimación",
         "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23387",
+        "summary": "Tableau global / Campo subchannel para ventas de MercadoLibre históricas",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23383",
+        "summary": "Ventas / Corrección del SUBTOTAL para los reintegros que tienen costo de envío",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
       },
       {
         "key": "IT-23350",
@@ -1021,7 +1021,7 @@
       {
         "key": "IT-22665",
         "summary": "New Home / Frontend / Mejoras v3 propuestas por Planeamiento Estratégico",
-        "status": "REVIEW ON HOLD",
+        "status": "REDEFINED",
         "story_points": 6.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1249,14 +1249,6 @@
     "summary": "Expenses",
     "tasks": [
       {
-        "key": "BTP-3714",
-        "summary": "Expense / Mercadopago / Asociación de registros de mercadopago a proveedores",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-3471",
         "summary": "Integración SAP",
         "status": "Pendiente de estimación",
@@ -1283,14 +1275,6 @@
     "due_date": null,
     "summary": "Pagos -Gateway",
     "tasks": [
-      {
-        "key": "BTP-4241",
-        "summary": "Ventas con giftcard que la CC no levanta el importe de la orden pero si el pago",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
       {
         "key": "BTP-4179",
         "summary": "Encender el gateway Bamboo (Uruguay) con el fin de cumplir con el mínimo de transacciones mensual solicitado - Enero 2026",
@@ -1410,7 +1394,7 @@
       {
         "key": "BTP-4123",
         "summary": "Backend / Pasar selección de productos a paso 1",
-        "status": "Redefiniendo",
+        "status": "CANCELADO POR BT",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
@@ -1472,7 +1456,7 @@
       {
         "key": "BTP-3900",
         "summary": "Relevamiento de componentes de Nicox",
-        "status": "EN ARMADO DE PROPUESTA",
+        "status": "RESUELTO POR BT",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
@@ -2241,14 +2225,6 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4193",
-        "summary": "Worpik / Enviar mail de baja en baja manual",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Martín Horn",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4192",
         "summary": "Reprogramación",
         "status": "Pendiente de estimación",
@@ -2439,6 +2415,14 @@
         "story_points": null,
         "assignee": "Martín Horn",
         "project": "BTP"
+      },
+      {
+        "key": "IT-23415",
+        "summary": "Worpik / Enviar mail de baja en baja manual",
+        "status": "BACKLOG",
+        "story_points": 4.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
       },
       {
         "key": "IT-22816",
@@ -5877,14 +5861,6 @@
     "summary": "CAV - Carga automática de ventas",
     "tasks": [
       {
-        "key": "BTP-4102",
-        "summary": "Amazon / Ventas con más de 1 unidad del mismo SKU con valor incorrecto",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Joaquin Fernandez - Carestino",
-        "project": "BTP"
-      },
-      {
         "key": "IT-22986",
         "summary": "Liverpool / Crear liverpool_upload_price_order.php",
         "status": "FINISH",
@@ -6603,12 +6579,12 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-3581",
+        "key": "IT-23407",
         "summary": "Reclamos / Incluir apartado de Facturación",
-        "status": "PRODUCT BACKLOG",
+        "status": "Pendiente de estimación",
         "story_points": null,
-        "assignee": "Joaquin Fernandez - Carestino",
-        "project": "BTP"
+        "assignee": "Miguel Armentano",
+        "project": "IT"
       },
       {
         "key": "IT-23337",
@@ -6661,7 +6637,7 @@
       {
         "key": "IT-23271",
         "summary": "Core de Reintegros / Garantía Total",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 40.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -6725,7 +6701,7 @@
       {
         "key": "IT-22926",
         "summary": "Gestiones / Visualizar en logística V2 solamente los reclamos logísticos",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 2.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6749,7 +6725,7 @@
       {
         "key": "IT-22698",
         "summary": "Frontend / Estandarización del manejo de errores en nicox-api",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 32.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6853,7 +6829,7 @@
       {
         "key": "IT-21954",
         "summary": "Reclamos / Frontend / Continuar carga de datos de reclamos",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY",
         "story_points": 24.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6869,7 +6845,7 @@
       {
         "key": "IT-21935",
         "summary": "Reclamos / Backend / Filtrar reclamos con datos faltantes",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY",
         "story_points": 12.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -7620,14 +7596,6 @@
     "summary": "Marketplace",
     "tasks": [
       {
-        "key": "BTP-4181",
-        "summary": "Mercado Libre / Tomar credenciales de ML en la llamada a prices dentro de la IPN",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Joaquin Fernandez - Carestino",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4016",
         "summary": "Publicaciones de catálogo - Mercado Libre",
         "status": "EN RELEVAMIENTO",
@@ -7690,6 +7658,14 @@
         "story_points": null,
         "assignee": "Juan Ignacio Morelis - Carestino",
         "project": "BTP"
+      },
+      {
+        "key": "IT-23411",
+        "summary": "Mercado Libre / Tomar credenciales de ML en la llamada a prices dentro de la IPN",
+        "status": "BACKLOG",
+        "story_points": 6.0,
+        "assignee": "Miguel Armentano",
+        "project": "IT"
       },
       {
         "key": "IT-23203",
@@ -9010,6 +8986,14 @@
     "due_date": "2025-08-15",
     "summary": "Worpik",
     "tasks": [
+      {
+        "key": "IT-23415",
+        "summary": "Worpik / Enviar mail de baja en baja manual",
+        "status": "BACKLOG",
+        "story_points": 4.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
       {
         "key": "IT-22816",
         "summary": "Worpik | Variable indefinida $canSeePersonalData",
@@ -12595,6 +12579,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23415",
+        "summary": "Worpik / Enviar mail de baja en baja manual",
+        "status": "BACKLOG",
+        "story_points": 4.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-22816",
         "summary": "Worpik | Variable indefinida $canSeePersonalData",
         "status": "BACKLOG",
@@ -15953,30 +15945,6 @@
     "summary": "Nicox / Integración - Facturadores",
     "tasks": [
       {
-        "key": "BTP-4247",
-        "summary": "Liverpool / MX / Facturar las ventas que no tienen datos de facturación solicitados",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4240",
-        "summary": "Facturación / Notas de crédito automáticas para Mercadolibre y Amazon en órdenes canceladas",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4229",
-        "summary": "Nuevo checkout / Los datos de facturacion no se almacenan en la tabla carestinoventas_pre_invoice_data_order",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-2328",
         "summary": "Revisión final",
         "status": "Por Hacer",
@@ -15990,22 +15958,6 @@
     "due_date": "2024-06-28",
     "summary": "Nicox",
     "tasks": [
-      {
-        "key": "BTP-4189",
-        "summary": "Specs / Permitir que especificación de \"Imagen y Texto\" tenga varios elementos",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Joaquin Fernandez - Carestino",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4139",
-        "summary": "Producto / Agregar un slot en la galería del producto",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Joaquin Fernandez - Carestino",
-        "project": "BTP"
-      },
       {
         "key": "BTP-2329",
         "summary": "Revisión final",
@@ -16161,14 +16113,6 @@
     "summary": "Normalización Payments",
     "tasks": [
       {
-        "key": "BTP-3993",
-        "summary": "Modificar migración del campo  type_code para la integración Falabella",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-3635",
         "summary": "Payments / Agregar traducciones al campo \"Status Details\"",
         "status": "CANCELADO POR BT",
@@ -16183,6 +16127,14 @@
         "story_points": null,
         "assignee": "Alan Fernandez",
         "project": "BTP"
+      },
+      {
+        "key": "IT-23385",
+        "summary": "Modificar migración del campo  type_code para la integración Falabella",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
       },
       {
         "key": "IT-23118",
@@ -17015,6 +16967,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23411",
+        "summary": "Mercado Libre / Tomar credenciales de ML en la llamada a prices dentro de la IPN",
+        "status": "BACKLOG",
+        "story_points": 6.0,
+        "assignee": "Miguel Armentano",
+        "project": "IT"
+      },
+      {
         "key": "IT-23203",
         "summary": "Buscador por ID para los distintos marketplace ",
         "status": "Pendiente de estimación",
@@ -17719,6 +17679,14 @@
         "story_points": null,
         "assignee": "Alan Fernandez",
         "project": "BTP"
+      },
+      {
+        "key": "IT-23385",
+        "summary": "Modificar migración del campo  type_code para la integración Falabella",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
       },
       {
         "key": "IT-23118",
