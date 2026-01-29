@@ -174,7 +174,7 @@
       {
         "key": "IT-23161",
         "summary": "Fix / MP IPN / Campo is_available en pagos con QR",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 6.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -190,8 +190,8 @@
       {
         "key": "IT-23155",
         "summary": "Reintegros / Reintegro de productos outlet y exhibidos",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
       },
@@ -334,7 +334,7 @@
       {
         "key": "IT-22757",
         "summary": "Modificación del proceso de venta - Agregado automático de bolsas ",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 24.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -374,7 +374,7 @@
       {
         "key": "IT-22734",
         "summary": "Movimientos entre almacenes / Sacar almacén de EP",
-        "status": "BACKLOG",
+        "status": "CODE REVIEW",
         "story_points": 1.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -382,7 +382,7 @@
       {
         "key": "IT-22732",
         "summary": "Modal de firma y recepción en retiras en tienda",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -1023,7 +1023,7 @@
         "summary": "New Home / Frontend / Mejoras v3 propuestas por Planeamiento Estratégico",
         "status": "REDEFINED",
         "story_points": 6.0,
-        "assignee": "Franco Lorenzo",
+        "assignee": "Sin asignar",
         "project": "IT"
       },
       {
@@ -1479,10 +1479,10 @@
     "tasks": [
       {
         "key": "BTP-4140",
-        "summary": "Integrar Liverpool a Logística V2",
-        "status": "Rechazado",
+        "summary": "Liverpool / Integrar a Logística V2",
+        "status": "EN ARMADO DE PROPUESTA",
         "story_points": null,
-        "assignee": "ivanalberghini",
+        "assignee": "Thiago Cabrera",
         "project": "BTP"
       },
       {
@@ -6581,8 +6581,8 @@
       {
         "key": "IT-23407",
         "summary": "Reclamos / Incluir apartado de Facturación",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 32.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
       },
@@ -6637,7 +6637,7 @@
       {
         "key": "IT-23271",
         "summary": "Core de Reintegros / Garantía Total",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 40.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -6701,7 +6701,7 @@
       {
         "key": "IT-22926",
         "summary": "Gestiones / Visualizar en logística V2 solamente los reclamos logísticos",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 2.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6829,7 +6829,7 @@
       {
         "key": "IT-21954",
         "summary": "Reclamos / Frontend / Continuar carga de datos de reclamos",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 24.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6845,7 +6845,7 @@
       {
         "key": "IT-21935",
         "summary": "Reclamos / Backend / Filtrar reclamos con datos faltantes",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 12.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
