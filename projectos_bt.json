@@ -102,8 +102,8 @@
       {
         "key": "IT-23383",
         "summary": "Ventas / Corrección del SUBTOTAL para los reintegros que tienen costo de envío",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 7.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
@@ -174,7 +174,7 @@
       {
         "key": "IT-23161",
         "summary": "Fix / MP IPN / Campo is_available en pagos con QR",
-        "status": "En progreso",
+        "status": "TO DEPLOY QA",
         "story_points": 6.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -334,7 +334,7 @@
       {
         "key": "IT-22757",
         "summary": "Modificación del proceso de venta - Agregado automático de bolsas ",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 24.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -382,7 +382,7 @@
       {
         "key": "IT-22732",
         "summary": "Modal de firma y recepción en retiras en tienda",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -1408,14 +1408,6 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-3301",
-        "summary": "Ecommerce / Portal de gestiones / Documentación de los cambios",
-        "status": "Redefiniendo",
-        "story_points": null,
-        "assignee": "Joaquin Fernandez - Carestino",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-3300",
         "summary": "Definición de páginas a modificar",
         "status": "RESUELTO POR BT",
@@ -1430,6 +1422,14 @@
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
+      },
+      {
+        "key": "IT-23457",
+        "summary": "Ecommerce / Portal de gestiones / Documentación de los cambios",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Franco Lorenzo",
+        "project": "IT"
       }
     ]
   },
@@ -1480,7 +1480,7 @@
       {
         "key": "BTP-4140",
         "summary": "Liverpool / Integrar a Logística V2",
-        "status": "EN ARMADO DE PROPUESTA",
+        "status": "ON HOLD ARMADO DE PROPUESTA",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -6531,14 +6531,6 @@
     "summary": "Gestiones",
     "tasks": [
       {
-        "key": "BTP-4251",
-        "summary": "Core de reintegros / Ajustes en Devolución y Cambio de producto v2",
-        "status": "Pendiente de estimación",
-        "story_points": null,
-        "assignee": "Joaquin Fernandez - Carestino",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-3903",
         "summary": "Pruebas",
         "status": "Por Hacer",
@@ -6577,6 +6569,30 @@
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
+      },
+      {
+        "key": "IT-23451",
+        "summary": "Core de Reintegros / Aceptar motivo brindado por una solicitud de reintegro",
+        "status": "BACKLOG",
+        "story_points": 8.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23449",
+        "summary": "Core de Reintegros / Devolución / Incluir flujo para venta despachada",
+        "status": "BACKLOG",
+        "story_points": 12.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23445",
+        "summary": "Solicitud de reintegro / Solicitar fecha de envío y motivo de devolución",
+        "status": "En progreso",
+        "story_points": 8.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
       },
       {
         "key": "IT-23407",
@@ -6637,7 +6653,7 @@
       {
         "key": "IT-23271",
         "summary": "Core de Reintegros / Garantía Total",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 40.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -7686,7 +7702,7 @@
       {
         "key": "IT-23002",
         "summary": "Falabella / CRON que evite las ventas duplicadas",
-        "status": "ON PAUSE",
+        "status": "En progreso",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -16131,8 +16147,8 @@
       {
         "key": "IT-23385",
         "summary": "Modificar migración del campo  type_code para la integración Falabella",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
@@ -16993,7 +17009,7 @@
       {
         "key": "IT-23002",
         "summary": "Falabella / CRON que evite las ventas duplicadas",
-        "status": "ON PAUSE",
+        "status": "En progreso",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -17683,8 +17699,8 @@
       {
         "key": "IT-23385",
         "summary": "Modificar migración del campo  type_code para la integración Falabella",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
