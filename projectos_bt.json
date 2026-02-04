@@ -12,14 +12,6 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4096",
-        "summary": "Ordenes de compra / Mover a depósito levanta puntos inactivos",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4046",
         "summary": "Nicox - Error alicuotas de retención de iibb de AGIP (Caba)",
         "status": "RESUELTO POR BT",
@@ -36,22 +28,6 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4014",
-        "summary": "Movimientos de exhibidos u outlet / Validar stock contra registros activos",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4010",
-        "summary": "Recepción Perdida de reintegros / Cambiar a queue",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-3997",
         "summary": "Cupones / Utilizar setting de cantidad de decimales",
         "status": "ON HOLD RELEVAMIENTO",
@@ -60,12 +36,36 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-3977",
-        "summary": "Productos y stock / Imprimir QR Zebra no funciona en mobile",
-        "status": "TO REFINEMENT",
+        "key": "IT-23499",
+        "summary": "Movimientos de exhibidos u outlet / Validar stock contra registros activos",
+        "status": "BACKLOG",
+        "story_points": 4.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23497",
+        "summary": "Ordenes de compra / Mover a depósito levanta puntos inactivos",
+        "status": "Pendiente de estimación",
         "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23495",
+        "summary": "Productos y stock / Imprimir QR Zebra no funciona en mobile",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23493",
+        "summary": "Recepción Perdida de reintegros / Cambiar a queue",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
       },
       {
         "key": "IT-23393",
@@ -126,17 +126,17 @@
       {
         "key": "IT-23241",
         "summary": "Fix / Starvation en el CRON de actualización de estados logísticos",
-        "status": "BACKLOG",
+        "status": "CODE REVIEW",
         "story_points": 4.0,
-        "assignee": "Joaquin Fernandez - Carestino",
+        "assignee": "Alan Mori - Carestino",
         "project": "IT"
       },
       {
         "key": "IT-23238",
         "summary": "Logística V2 / Problema con los filtros de estados",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 16.0,
-        "assignee": "Joaquin Fernandez - Carestino",
+        "assignee": "Alan Mori - Carestino",
         "project": "IT"
       },
       {
@@ -174,7 +174,7 @@
       {
         "key": "IT-23161",
         "summary": "Fix / MP IPN / Campo is_available en pagos con QR",
-        "status": "TO DEPLOY QA",
+        "status": "FINISH",
         "story_points": 6.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -334,7 +334,7 @@
       {
         "key": "IT-22757",
         "summary": "Modificación del proceso de venta - Agregado automático de bolsas ",
-        "status": "TO DEPLOY QA",
+        "status": "FINISH",
         "story_points": 24.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -374,7 +374,7 @@
       {
         "key": "IT-22734",
         "summary": "Movimientos entre almacenes / Sacar almacén de EP",
-        "status": "STG TESTING",
+        "status": "TO DEPLOY",
         "story_points": 1.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -382,7 +382,7 @@
       {
         "key": "IT-22732",
         "summary": "Modal de firma y recepción en retiras en tienda",
-        "status": "STG TESTING",
+        "status": "REVIEW ON HOLD",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -608,7 +608,7 @@
         "summary": "Visualización estimada al cliente antes de concretar la compra (carrito o checkout).",
         "status": "TO REFINEMENT",
         "story_points": null,
-        "assignee": "ivanalberghini",
+        "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
       },
       {
@@ -1249,6 +1249,14 @@
     "summary": "Expenses",
     "tasks": [
       {
+        "key": "BTP-4278",
+        "summary": "EXPENSE / REEMPLAZO SOFIA / Confirmación de datos de Proveedor y Pago SAP para poder cambiar al estado final",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-3471",
         "summary": "Integración SAP",
         "status": "Pendiente de estimación",
@@ -1275,6 +1283,14 @@
     "due_date": null,
     "summary": "Pagos -Gateway",
     "tasks": [
+      {
+        "key": "BTP-4279",
+        "summary": "AZUL / Integración página de pagos Azul",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
       {
         "key": "BTP-4179",
         "summary": "Encender el gateway Bamboo (Uruguay) con el fin de cumplir con el mínimo de transacciones mensual solicitado - Enero 2026",
@@ -1329,7 +1345,7 @@
       {
         "key": "IT-22667",
         "summary": "Filtros / Implementación del filtro por rango etario",
-        "status": "ON HOLD",
+        "status": "ON PAUSE",
         "story_points": 16.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1478,14 +1494,6 @@
     "summary": "Integraciones logisticas",
     "tasks": [
       {
-        "key": "BTP-4140",
-        "summary": "Liverpool / Integrar a Logística V2",
-        "status": "ON HOLD ARMADO DE PROPUESTA",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-3420",
         "summary": "Prueba de concepto IT / Amazon / Creación de pedido easyShip y etiqueta",
         "status": "CANCELADO POR BT",
@@ -1508,6 +1516,14 @@
         "story_points": null,
         "assignee": "Santiago Gariboldi",
         "project": "BTP"
+      },
+      {
+        "key": "IT-23505",
+        "summary": "Liverpool / Integrar a Logística V2",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
       },
       {
         "key": "IT-23050",
@@ -2217,6 +2233,14 @@
     "summary": "Worpik",
     "tasks": [
       {
+        "key": "BTP-4263",
+        "summary": "Worpik / Empresas / Error en el registro de Industrias y Rubros ",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Martín Horn",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4245",
         "summary": "Error visual",
         "status": "Pendiente de estimación",
@@ -2419,7 +2443,7 @@
       {
         "key": "IT-23415",
         "summary": "Worpik / Enviar mail de baja en baja manual",
-        "status": "BACKLOG",
+        "status": "CODE REVIEW",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -5861,6 +5885,22 @@
     "summary": "CAV - Carga automática de ventas",
     "tasks": [
       {
+        "key": "BTP-4250",
+        "summary": "CAV / Despacho automático de ventas FULL",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "IT-23484",
+        "summary": "CAV Amazon / No validar Entre calles mayorista",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-22986",
         "summary": "Liverpool / Crear liverpool_upload_price_order.php",
         "status": "FINISH",
@@ -6573,7 +6613,7 @@
       {
         "key": "IT-23451",
         "summary": "Core de Reintegros / Aceptar motivo brindado por una solicitud de reintegro",
-        "status": "BACKLOG",
+        "status": "PENDING REVIEW",
         "story_points": 8.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -6581,7 +6621,7 @@
       {
         "key": "IT-23449",
         "summary": "Core de Reintegros / Devolución / Incluir flujo para venta despachada",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 12.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -6589,7 +6629,7 @@
       {
         "key": "IT-23445",
         "summary": "Solicitud de reintegro / Solicitar fecha de envío y motivo de devolución",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6653,7 +6693,7 @@
       {
         "key": "IT-23271",
         "summary": "Core de Reintegros / Garantía Total",
-        "status": "TO DEPLOY QA",
+        "status": "FINISH",
         "story_points": 40.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -6725,7 +6765,7 @@
       {
         "key": "IT-22921",
         "summary": "Reclamos / Incorporar fecha límite para solicitar un reclamo",
-        "status": "BACKLOG",
+        "status": "CODE REVIEW",
         "story_points": 11.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6741,7 +6781,7 @@
       {
         "key": "IT-22698",
         "summary": "Frontend / Estandarización del manejo de errores en nicox-api",
-        "status": "En progreso",
+        "status": "REVIEW ON HOLD",
         "story_points": 32.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6797,7 +6837,7 @@
       {
         "key": "IT-22590",
         "summary": "Estandarización del manejo de errores en nicox-api",
-        "status": "ON HOLD",
+        "status": "ON PAUSE",
         "story_points": 32.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7612,6 +7652,22 @@
     "summary": "Marketplace",
     "tasks": [
       {
+        "key": "BTP-4261",
+        "summary": "Liverpool / Fixes sobre el ingreso de ventas",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4187",
+        "summary": "Mercado Libre /  Persistir datos de precios y stock de cada publicación en DB",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4016",
         "summary": "Publicaciones de catálogo - Mercado Libre",
         "status": "EN RELEVAMIENTO",
@@ -7677,8 +7733,8 @@
       },
       {
         "key": "IT-23411",
-        "summary": "Mercado Libre / Tomar credenciales de ML en la llamada a prices dentro de la IPN",
-        "status": "BACKLOG",
+        "summary": "MercadoLibre / Tomar credenciales de ML en la llamada a prices dentro de la IPN",
+        "status": "TO DEPLOY",
         "story_points": 6.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -7702,7 +7758,7 @@
       {
         "key": "IT-23002",
         "summary": "Falabella / CRON que evite las ventas duplicadas",
-        "status": "En progreso",
+        "status": "BACKLOG",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -9005,7 +9061,7 @@
       {
         "key": "IT-23415",
         "summary": "Worpik / Enviar mail de baja en baja manual",
-        "status": "BACKLOG",
+        "status": "CODE REVIEW",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -12597,7 +12653,7 @@
       {
         "key": "IT-23415",
         "summary": "Worpik / Enviar mail de baja en baja manual",
-        "status": "BACKLOG",
+        "status": "CODE REVIEW",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -16984,8 +17040,8 @@
       },
       {
         "key": "IT-23411",
-        "summary": "Mercado Libre / Tomar credenciales de ML en la llamada a prices dentro de la IPN",
-        "status": "BACKLOG",
+        "summary": "MercadoLibre / Tomar credenciales de ML en la llamada a prices dentro de la IPN",
+        "status": "TO DEPLOY",
         "story_points": 6.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -17009,7 +17065,7 @@
       {
         "key": "IT-23002",
         "summary": "Falabella / CRON que evite las ventas duplicadas",
-        "status": "En progreso",
+        "status": "BACKLOG",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
