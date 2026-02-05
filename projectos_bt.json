@@ -374,7 +374,7 @@
       {
         "key": "IT-22734",
         "summary": "Movimientos entre almacenes / Sacar almacén de EP",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 1.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -382,7 +382,7 @@
       {
         "key": "IT-22732",
         "summary": "Modal de firma y recepción en retiras en tienda",
-        "status": "REVIEW ON HOLD",
+        "status": "REVIEW ON PAUSE",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -574,7 +574,7 @@
       {
         "key": "BTP-4090",
         "summary": "Front / Visualización estimada al cliente antes de concretar la compra",
-        "status": "Por Hacer",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
@@ -1005,7 +1005,7 @@
       {
         "key": "IT-23035",
         "summary": "Novedades / Agregar selección de posicionamiento vertical",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 8.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -1037,7 +1037,7 @@
       {
         "key": "IT-22610",
         "summary": "New Home / Animaciones en la nueva página de inicio",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 10.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -2443,7 +2443,7 @@
       {
         "key": "IT-23415",
         "summary": "Worpik / Enviar mail de baja en baja manual",
-        "status": "CODE REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -5885,12 +5885,12 @@
     "summary": "CAV - Carga automática de ventas",
     "tasks": [
       {
-        "key": "BTP-4250",
+        "key": "IT-23536",
         "summary": "CAV / Despacho automático de ventas FULL",
-        "status": "PRODUCT BACKLOG",
+        "status": "Pendiente de estimación",
         "story_points": null,
-        "assignee": "Joaquin Fernandez - Carestino",
-        "project": "BTP"
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
       },
       {
         "key": "IT-23484",
@@ -6613,7 +6613,7 @@
       {
         "key": "IT-23451",
         "summary": "Core de Reintegros / Aceptar motivo brindado por una solicitud de reintegro",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -6621,7 +6621,7 @@
       {
         "key": "IT-23449",
         "summary": "Core de Reintegros / Devolución / Incluir flujo para venta despachada",
-        "status": "En progreso",
+        "status": "ON HOLD",
         "story_points": 12.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -6629,7 +6629,7 @@
       {
         "key": "IT-23445",
         "summary": "Solicitud de reintegro / Solicitar fecha de envío y motivo de devolución",
-        "status": "CODE REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6765,7 +6765,7 @@
       {
         "key": "IT-22921",
         "summary": "Reclamos / Incorporar fecha límite para solicitar un reclamo",
-        "status": "CODE REVIEW",
+        "status": "PENDING REVIEW",
         "story_points": 11.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7607,7 +7607,16 @@
   "BTP-3181": {
     "due_date": "2025-09-30",
     "summary": "Agente | Gestión de Posventa Nicox",
-    "tasks": []
+    "tasks": [
+      {
+        "key": "BTP-4283",
+        "summary": "Envio de reviews a BI",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Martín Horn",
+        "project": "BTP"
+      }
+    ]
   },
   "BTP-3180": {
     "due_date": "2025-09-30",
@@ -7651,22 +7660,6 @@
     "due_date": null,
     "summary": "Marketplace",
     "tasks": [
-      {
-        "key": "BTP-4261",
-        "summary": "Liverpool / Fixes sobre el ingreso de ventas",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Joaquin Fernandez - Carestino",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4187",
-        "summary": "Mercado Libre /  Persistir datos de precios y stock de cada publicación en DB",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Joaquin Fernandez - Carestino",
-        "project": "BTP"
-      },
       {
         "key": "BTP-4016",
         "summary": "Publicaciones de catálogo - Mercado Libre",
@@ -7732,9 +7725,49 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23524",
+        "summary": "Relevamiento / Liverpool / Carga de bultos incompleta",
+        "status": "BACKLOG",
+        "story_points": 16.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23522",
+        "summary": "Liverpool / Gestionar pedidos que comienzan en 0",
+        "status": "BACKLOG",
+        "story_points": 8.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23520",
+        "summary": "Liverpool / Continuar la ejecución del cron cuando se encuentre una venta con errores",
+        "status": "BACKLOG",
+        "story_points": 16.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23518",
+        "summary": "Liverpool / Asignar correctamente la fecha de entrega",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23516",
+        "summary": "Mercado Libre /  Persistir datos de precios y stock de cada publicación en DB",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-23411",
         "summary": "MercadoLibre / Tomar credenciales de ML en la llamada a prices dentro de la IPN",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 6.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -7758,7 +7791,7 @@
       {
         "key": "IT-23002",
         "summary": "Falabella / CRON que evite las ventas duplicadas",
-        "status": "BACKLOG",
+        "status": "TO DEPLOY QA",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -9061,7 +9094,7 @@
       {
         "key": "IT-23415",
         "summary": "Worpik / Enviar mail de baja en baja manual",
-        "status": "CODE REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -12653,7 +12686,7 @@
       {
         "key": "IT-23415",
         "summary": "Worpik / Enviar mail de baja en baja manual",
-        "status": "CODE REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -17039,9 +17072,49 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23524",
+        "summary": "Relevamiento / Liverpool / Carga de bultos incompleta",
+        "status": "BACKLOG",
+        "story_points": 16.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23522",
+        "summary": "Liverpool / Gestionar pedidos que comienzan en 0",
+        "status": "BACKLOG",
+        "story_points": 8.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23520",
+        "summary": "Liverpool / Continuar la ejecución del cron cuando se encuentre una venta con errores",
+        "status": "BACKLOG",
+        "story_points": 16.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23518",
+        "summary": "Liverpool / Asignar correctamente la fecha de entrega",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23516",
+        "summary": "Mercado Libre /  Persistir datos de precios y stock de cada publicación en DB",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-23411",
         "summary": "MercadoLibre / Tomar credenciales de ML en la llamada a prices dentro de la IPN",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 6.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -17065,7 +17138,7 @@
       {
         "key": "IT-23002",
         "summary": "Falabella / CRON que evite las ventas duplicadas",
-        "status": "BACKLOG",
+        "status": "TO DEPLOY QA",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
