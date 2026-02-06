@@ -4,6 +4,30 @@
     "summary": "Service Desk",
     "tasks": [
       {
+        "key": "BTP-4277",
+        "summary": "MercadoPago y Amazon / Setting para configurar la URL base de la API",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4243",
+        "summary": "Falabella / Log de responses de la API",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4198",
+        "summary": "Retiras / Modificar validación de stock",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4151",
         "summary": "Error integracion - Mercadoenvios (Parte 2)",
         "status": "EN RELEVAMIENTO",
@@ -70,7 +94,7 @@
       {
         "key": "IT-23393",
         "summary": "Logística / Agregar fecha real de estados logísticos",
-        "status": "BACKLOG",
+        "status": "STG TESTING",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -134,7 +158,7 @@
       {
         "key": "IT-23238",
         "summary": "Logística V2 / Problema con los filtros de estados",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -382,7 +406,7 @@
       {
         "key": "IT-22732",
         "summary": "Modal de firma y recepción en retiras en tienda",
-        "status": "REVIEW ON PAUSE",
+        "status": "TO DEPLOY QA",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -1005,7 +1029,7 @@
       {
         "key": "IT-23035",
         "summary": "Novedades / Agregar selección de posicionamiento vertical",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 8.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -1023,7 +1047,7 @@
         "summary": "New Home / Frontend / Mejoras v3 propuestas por Planeamiento Estratégico",
         "status": "REDEFINED",
         "story_points": 6.0,
-        "assignee": "Sin asignar",
+        "assignee": "Franco Lorenzo",
         "project": "IT"
       },
       {
@@ -1037,7 +1061,7 @@
       {
         "key": "IT-22610",
         "summary": "New Home / Animaciones en la nueva página de inicio",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 10.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1251,7 +1275,7 @@
       {
         "key": "BTP-4278",
         "summary": "EXPENSE / REEMPLAZO SOFIA / Confirmación de datos de Proveedor y Pago SAP para poder cambiar al estado final",
-        "status": "Por Hacer",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -1345,7 +1369,7 @@
       {
         "key": "IT-22667",
         "summary": "Filtros / Implementación del filtro por rango etario",
-        "status": "ON PAUSE",
+        "status": "STG TESTING",
         "story_points": 16.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1520,8 +1544,8 @@
       {
         "key": "IT-23505",
         "summary": "Liverpool / Integrar a Logística V2",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 80.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
       },
@@ -7661,6 +7685,14 @@
     "summary": "Marketplace",
     "tasks": [
       {
+        "key": "BTP-4188",
+        "summary": "Mercado Libre / relevar integración de opciones de compra vía API",
+        "status": "EN RELEVAMIENTO",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4016",
         "summary": "Publicaciones de catálogo - Mercado Libre",
         "status": "EN RELEVAMIENTO",
@@ -7791,7 +7823,7 @@
       {
         "key": "IT-23002",
         "summary": "Falabella / CRON que evite las ventas duplicadas",
-        "status": "TO DEPLOY QA",
+        "status": "REDEFINED",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -16064,6 +16096,14 @@
     "summary": "Nicox",
     "tasks": [
       {
+        "key": "BTP-4161",
+        "summary": "Mercado Libre / Ingresar un pago adicional a venta existente",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-2329",
         "summary": "Revisión final",
         "status": "Por Hacer",
@@ -17138,7 +17178,7 @@
       {
         "key": "IT-23002",
         "summary": "Falabella / CRON que evite las ventas duplicadas",
-        "status": "TO DEPLOY QA",
+        "status": "REDEFINED",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
