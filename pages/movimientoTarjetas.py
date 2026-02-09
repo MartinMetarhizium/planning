@@ -69,7 +69,30 @@ def fetch_it_epics_map():
     if not epic_map:
         st.warning("⚠️ No se encontraron épicas en IT (o faltan permisos).")
     return epic_map
+def strip_images_from_adf(adf: dict) -> dict:
+    """
+    Elimina nodos media / mediaSingle (imágenes adjuntas) del ADF de Jira.
+    """
+    if not adf or not isinstance(adf, dict):
+        return adf
 
+    def clean(node):
+        if isinstance(node, dict):
+            if node.get("type") in ("mediaSingle", "media"):
+                return None
+            if "content" in node:
+                new_content = []
+                for c in node["content"]:
+                    cleaned = clean(c)
+                    if cleaned is not None:
+                        new_content.append(cleaned)
+                node["content"] = new_content
+            return node
+        elif isinstance(node, list):
+            return [clean(n) for n in node if clean(n) is not None]
+        return node
+
+    return clean(adf)
 
 
 def get_original_epic_summary(src_issue):
@@ -517,7 +540,8 @@ def create_issue_from_sd(sd_key: str, issue_type_id: str, assignee: str = None, 
 
     fields = sd_issue.get("fields", {})
     summary = fields.get("summary")
-    description = fields.get("description")  # ✅ copiamos con formato ADF completo
+    description = fields.get("description")
+    description = strip_images_from_adf(description)
     due_date = fields.get("duedate")
     priority = fields.get("priority", {}).get("id")
 
