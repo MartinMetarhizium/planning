@@ -558,7 +558,7 @@ def create_issue_from_sd(sd_key: str, issue_type_id: str, assignee: str = None, 
     }
     if project == "IT":
         payload = ["fields"]["customfield_10134"] = FIX_FIELD_VALUE
-        payload = ["fields"]["customfield_10208"] = {"accountId": tech_lead}
+        payload = ["fields"]["customfield_10208"] =  [{"accountId": tech_lead}]
     if due_date:
         payload["fields"]["duedate"] = due_date
     if priority:
