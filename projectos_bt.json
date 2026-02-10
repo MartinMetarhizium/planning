@@ -6,7 +6,7 @@
       {
         "key": "BTP-4277",
         "summary": "MercadoPago y Amazon / Setting para configurar la URL base de la API",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -14,7 +14,7 @@
       {
         "key": "BTP-4243",
         "summary": "Falabella / Log de responses de la API",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -22,7 +22,7 @@
       {
         "key": "BTP-4198",
         "summary": "Retiras / Modificar validación de stock",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -60,6 +60,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23578",
+        "summary": "MercadoLibre / Consulta de fondeo no funciona como debería",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
         "key": "IT-23499",
         "summary": "Movimientos de exhibidos u outlet / Validar stock contra registros activos",
         "status": "BACKLOG",
@@ -94,7 +102,7 @@
       {
         "key": "IT-23393",
         "summary": "Logística / Agregar fecha real de estados logísticos",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -150,7 +158,7 @@
       {
         "key": "IT-23241",
         "summary": "Fix / Starvation en el CRON de actualización de estados logísticos",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -158,7 +166,7 @@
       {
         "key": "IT-23238",
         "summary": "Logística V2 / Problema con los filtros de estados",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -294,7 +302,7 @@
       {
         "key": "IT-22997",
         "summary": "Relevamiento / Listado de MercadoLibre / Ventas pendientes que no se listan",
-        "status": "STG TESTING",
+        "status": "TO DEPLOY QA",
         "story_points": 4.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -406,7 +414,7 @@
       {
         "key": "IT-22732",
         "summary": "Modal de firma y recepción en retiras en tienda",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -1061,7 +1069,7 @@
       {
         "key": "IT-22610",
         "summary": "New Home / Animaciones en la nueva página de inicio",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 10.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1367,9 +1375,17 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23229",
+        "summary": "Nicox-api / Filtros / Implementación del filtro por rango etario",
+        "status": "REVIEW ON HOLD",
+        "story_points": 5.0,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
         "key": "IT-22667",
         "summary": "Filtros / Implementación del filtro por rango etario",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 16.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1568,9 +1584,9 @@
       {
         "key": "IT-22426",
         "summary": "Integracion via Api - Andesmar",
-        "status": "En progreso",
+        "status": "ON PAUSE",
         "story_points": 16.0,
-        "assignee": "Luis Uran",
+        "assignee": "Gastón Ojeda",
         "project": "IT"
       },
       {
@@ -2467,7 +2483,7 @@
       {
         "key": "IT-23415",
         "summary": "Worpik / Enviar mail de baja en baja manual",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6637,7 +6653,7 @@
       {
         "key": "IT-23451",
         "summary": "Core de Reintegros / Aceptar motivo brindado por una solicitud de reintegro",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -6645,7 +6661,7 @@
       {
         "key": "IT-23449",
         "summary": "Core de Reintegros / Devolución / Incluir flujo para venta despachada",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 12.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -6653,9 +6669,17 @@
       {
         "key": "IT-23445",
         "summary": "Solicitud de reintegro / Solicitar fecha de envío y motivo de devolución",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23408",
+        "summary": "Frontend / Reclamos / Incluir apartado de Facturación",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Franco Lorenzo",
         "project": "IT"
       },
       {
@@ -6664,6 +6688,14 @@
         "status": "BACKLOG",
         "story_points": 32.0,
         "assignee": "Miguel Armentano",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23356",
+        "summary": "Reclamos / Permitir archivos de mayor tamaño (Bypass vercel) / Backend",
+        "status": "BACKLOG",
+        "story_points": 12.0,
+        "assignee": "Alan Mori - Carestino",
         "project": "IT"
       },
       {
@@ -6789,7 +6821,7 @@
       {
         "key": "IT-22921",
         "summary": "Reclamos / Incorporar fecha límite para solicitar un reclamo",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 11.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6904,6 +6936,14 @@
         "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-22140",
+        "summary": "Reclamos / Permitir archivos de mayor tamaño (Bypass vercel)",
+        "status": "BACKLOG",
+        "story_points": 8.0,
+        "assignee": "Franco Lorenzo",
         "project": "IT"
       },
       {
@@ -7635,7 +7675,7 @@
       {
         "key": "BTP-4283",
         "summary": "Envio de reviews a BI",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Martín Horn",
         "project": "BTP"
@@ -7823,7 +7863,7 @@
       {
         "key": "IT-23002",
         "summary": "Falabella / CRON que evite las ventas duplicadas",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -9126,7 +9166,7 @@
       {
         "key": "IT-23415",
         "summary": "Worpik / Enviar mail de baja en baja manual",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -12718,7 +12758,7 @@
       {
         "key": "IT-23415",
         "summary": "Worpik / Enviar mail de baja en baja manual",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -16350,6 +16390,14 @@
     "summary": "Conciliador de cobros",
     "tasks": [
       {
+        "key": "BTP-4249",
+        "summary": "Conciliador / Modificar la conciliación automática para que se produzca de forma asincrónica",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4155",
         "summary": "Configuración Transaction ID por cantidad de dígitos completos - Liverpool",
         "status": "CANCELADO POR BT",
@@ -17178,7 +17226,7 @@
       {
         "key": "IT-23002",
         "summary": "Falabella / CRON que evite las ventas duplicadas",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
