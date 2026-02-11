@@ -4,25 +4,9 @@
     "summary": "Service Desk",
     "tasks": [
       {
-        "key": "BTP-4277",
-        "summary": "MercadoPago y Amazon / Setting para configurar la URL base de la API",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4243",
         "summary": "Falabella / Log de responses de la API",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4198",
-        "summary": "Retiras / Modificar validación de stock",
-        "status": "TO REFINEMENT",
+        "status": "ON HOLD",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -60,10 +44,34 @@
         "project": "BTP"
       },
       {
-        "key": "IT-23578",
-        "summary": "MercadoLibre / Consulta de fondeo no funciona como debería",
+        "key": "IT-23602",
+        "summary": "Retiras / Modificar validación de stock",
         "status": "Pendiente de estimación",
         "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23600",
+        "summary": "MercadoPago y Amazon / Setting para configurar la URL base de la API",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23598",
+        "summary": "MercadoLibre / Ventas sin nombre ni email",
+        "status": "BACKLOG",
+        "story_points": 8.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23578",
+        "summary": "MercadoLibre / Consulta de fondeo no funciona como debería",
+        "status": "BACKLOG",
+        "story_points": 12.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
       },
@@ -102,7 +110,7 @@
       {
         "key": "IT-23393",
         "summary": "Logística / Agregar fecha real de estados logísticos",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -222,7 +230,7 @@
       {
         "key": "IT-23155",
         "summary": "Reintegros / Reintegro de productos outlet y exhibidos",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -302,7 +310,7 @@
       {
         "key": "IT-22997",
         "summary": "Relevamiento / Listado de MercadoLibre / Ventas pendientes que no se listan",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 4.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -318,7 +326,7 @@
       {
         "key": "IT-22917",
         "summary": "Garantías totales / Envío automático de productos a Cuarentena",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -1281,14 +1289,6 @@
     "summary": "Expenses",
     "tasks": [
       {
-        "key": "BTP-4278",
-        "summary": "EXPENSE / REEMPLAZO SOFIA / Confirmación de datos de Proveedor y Pago SAP para poder cambiar al estado final",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-3471",
         "summary": "Integración SAP",
         "status": "Pendiente de estimación",
@@ -1316,14 +1316,6 @@
     "summary": "Pagos -Gateway",
     "tasks": [
       {
-        "key": "BTP-4279",
-        "summary": "AZUL / Integración página de pagos Azul",
-        "status": "Por Hacer",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4179",
         "summary": "Encender el gateway Bamboo (Uruguay) con el fin de cumplir con el mínimo de transacciones mensual solicitado - Enero 2026",
         "status": "RESUELTO POR BT",
@@ -1342,7 +1334,7 @@
       {
         "key": "BTP-4142",
         "summary": "Azul / Dominicana / Integración de la nueva pasarela de pagos (Webservices + 3DS)",
-        "status": "Refinement propia",
+        "status": "CANCELADO POR BT",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -1584,7 +1576,7 @@
       {
         "key": "IT-22426",
         "summary": "Integracion via Api - Andesmar",
-        "status": "ON PAUSE",
+        "status": "En progreso",
         "story_points": 16.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -6661,7 +6653,7 @@
       {
         "key": "IT-23449",
         "summary": "Core de Reintegros / Devolución / Incluir flujo para venta despachada",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY",
         "story_points": 12.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -6821,7 +6813,7 @@
       {
         "key": "IT-22921",
         "summary": "Reclamos / Incorporar fecha límite para solicitar un reclamo",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 11.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6941,7 +6933,7 @@
       {
         "key": "IT-22140",
         "summary": "Reclamos / Permitir archivos de mayor tamaño (Bypass vercel)",
-        "status": "BACKLOG",
+        "status": "ON HOLD",
         "story_points": 8.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -8799,7 +8791,7 @@
         "summary": "Requerimiento Investigacion y Configuracion - AWS - Cost Allocation Tags",
         "status": "BACKLOG",
         "story_points": 8.0,
-        "assignee": "Miguel Armentano",
+        "assignee": "Facundo Capua",
         "project": "IT"
       },
       {
@@ -16390,14 +16382,6 @@
     "summary": "Conciliador de cobros",
     "tasks": [
       {
-        "key": "BTP-4249",
-        "summary": "Conciliador / Modificar la conciliación automática para que se produzca de forma asincrónica",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4155",
         "summary": "Configuración Transaction ID por cantidad de dígitos completos - Liverpool",
         "status": "CANCELADO POR BT",
@@ -16412,6 +16396,14 @@
         "story_points": null,
         "assignee": "Alan Fernandez",
         "project": "BTP"
+      },
+      {
+        "key": "IT-23590",
+        "summary": "Conciliador / Modificar la conciliación automática para que se produzca de forma asincrónica",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
       },
       {
         "key": "IT-23098",
