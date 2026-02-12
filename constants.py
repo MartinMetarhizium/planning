@@ -56,6 +56,7 @@ PROJECT_MAP = {
         "Operación de Seguimiento": {"deadline": "2025-10-31", "progress": 0},
         "Operación de Finanzas": {"deadline": "2025-10-31", "progress": 0},
     },
+    "Joaquin Fernandez - Carestino": {},
     "ivanalberghini": {},
     "Martín Horn": {},
     "Facundo Capua": {},
@@ -223,6 +224,7 @@ MIN_PROJECT_RATIO = {
     "Nicolas Pardo": 0.1,
     "ivanalberghini": 0.1,
     "Martín Horn": 0.1,
+    "Joaquin Fernandez - Carestino": 0.5,
 }
 
 MIN_BT_PROJECT_RATIO = {
@@ -256,6 +258,7 @@ DAILY_HOURS = {
     "Miguel Armentano": 5,
     "ivanalberghini": 6,
     "Martín Horn": 6,
+    "Joaquin Fernandez - Carestino": 6,
 }
 
 
@@ -280,6 +283,7 @@ MAIL_MAP = {
     "Miguel Armentano": "miguelarmentano@biamex.com",
     "Juan Ignacio Morelis - Carestino": "juanmorelis@biamex.com",
     "ivanalberghini": "ivanalberghini@biamex.com",
+    "Joaquin Fernandez - Carestino": "joaquinfernandez@biamex.com",
 }
 
 MODULE_DEVS = {
