@@ -110,8 +110,8 @@
       {
         "key": "IT-23493",
         "summary": "Recepción Perdida de reintegros / Cambiar a queue",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 12.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
@@ -238,7 +238,7 @@
       {
         "key": "IT-23155",
         "summary": "Reintegros / Reintegro de productos outlet y exhibidos",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -286,7 +286,7 @@
       {
         "key": "IT-23044",
         "summary": "Formulario de ventas / Permisos para cambiar TIENDA y precio unitario",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -294,7 +294,7 @@
       {
         "key": "IT-23042",
         "summary": "Amazon / No listar ventas eliminadas",
-        "status": "BACKLOG",
+        "status": "TO DEPLOY QA",
         "story_points": 2.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -334,7 +334,7 @@
       {
         "key": "IT-22917",
         "summary": "Garantías totales / Envío automático de productos a Cuarentena",
-        "status": "STG TESTING",
+        "status": "TO DEPLOY QA",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -342,7 +342,7 @@
       {
         "key": "IT-22915",
         "summary": "Ordenes de baja / Hacer obligatorio el campo Descripción de la falla",
-        "status": "BACKLOG",
+        "status": "STG TESTING",
         "story_points": 1.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -1481,9 +1481,9 @@
       },
       {
         "key": "IT-23457",
-        "summary": "Ecommerce / Portal de gestiones ",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "summary": "Ecommerce / Rediseño portal de gestiones ",
+        "status": "En progreso",
+        "story_points": 68.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
       }
@@ -1584,7 +1584,7 @@
       {
         "key": "IT-22426",
         "summary": "Integracion via Api - Andesmar",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 16.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -7725,6 +7725,14 @@
     "summary": "Marketplace",
     "tasks": [
       {
+        "key": "BTP-4323",
+        "summary": "Facturación / Falabella / No funciona la carga de la factura",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4188",
         "summary": "Mercado Libre / relevar integración de opciones de compra vía API",
         "status": "EN RELEVAMIENTO",
@@ -7823,8 +7831,8 @@
       {
         "key": "IT-23518",
         "summary": "Liverpool / Asignar correctamente la fecha de entrega",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
@@ -17194,8 +17202,8 @@
       {
         "key": "IT-23518",
         "summary": "Liverpool / Asignar correctamente la fecha de entrega",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
