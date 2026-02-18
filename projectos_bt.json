@@ -4,17 +4,25 @@
     "summary": "Service Desk",
     "tasks": [
       {
-        "key": "BTP-4301",
-        "summary": "MODIFICACION TXT PERCEPCIONES ARBA - ARGENTINA",
-        "status": "PRODUCT BACKLOG",
+        "key": "BTP-4327",
+        "summary": "Falabella / Ingresar transacciones en estados posteriores",
+        "status": "Por Hacer",
         "story_points": null,
-        "assignee": "Mauricio Reinhardt",
+        "assignee": "Thiago Cabrera",
         "project": "BTP"
       },
       {
         "key": "BTP-4243",
         "summary": "Falabella / Log de responses de la API",
         "status": "ON HOLD",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4233",
+        "summary": "Pedidos tienda / Generación de OP en cierre de pedido",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -50,6 +58,14 @@
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
+      },
+      {
+        "key": "IT-23652",
+        "summary": "MODIFICACION TXT PERCEPCIONES ARBA - ARGENTINA",
+        "status": "En progreso",
+        "story_points": 6.0,
+        "assignee": "Miguel Armentano",
+        "project": "IT"
       },
       {
         "key": "IT-23602",
@@ -238,7 +254,7 @@
       {
         "key": "IT-23155",
         "summary": "Reintegros / Reintegro de productos outlet y exhibidos",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -286,7 +302,7 @@
       {
         "key": "IT-23044",
         "summary": "Formulario de ventas / Permisos para cambiar TIENDA y precio unitario",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -294,7 +310,7 @@
       {
         "key": "IT-23042",
         "summary": "Amazon / No listar ventas eliminadas",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 2.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -334,7 +350,7 @@
       {
         "key": "IT-22917",
         "summary": "Garantías totales / Envío automático de productos a Cuarentena",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -342,7 +358,7 @@
       {
         "key": "IT-22915",
         "summary": "Ordenes de baja / Hacer obligatorio el campo Descripción de la falla",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY",
         "story_points": 1.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -620,14 +636,6 @@
     "summary": "Mejoras en Seguimiento y Tiempos de Entrega para Clientes",
     "tasks": [
       {
-        "key": "BTP-4090",
-        "summary": "Front / Visualización estimada al cliente antes de concretar la compra",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Joaquin Fernandez - Carestino",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4055",
         "summary": "Importación de datos de tiempos de entrega por localidad",
         "status": "EN ARMADO DE PROPUESTA",
@@ -652,12 +660,20 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-3880",
-        "summary": "Visualización estimada al cliente antes de concretar la compra (carrito o checkout).",
-        "status": "TO REFINEMENT",
+        "key": "IT-23663",
+        "summary": "Front / Visualización estimada al cliente antes de concretar la compra",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Franco Lorenzo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23661",
+        "summary": "Nicox / Tiempo de envío / Crear settting customized_delivery_times",
+        "status": "Pendiente de estimación",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
-        "project": "BTP"
+        "project": "IT"
       },
       {
         "key": "IT-20386",
@@ -1061,7 +1077,7 @@
       {
         "key": "IT-23403",
         "summary": "Relevamiento / New Checkout / Problema con costos de envío",
-        "status": "REVIEW ON HOLD",
+        "status": "REDEFINED",
         "story_points": 12.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6853,7 +6869,7 @@
       {
         "key": "IT-22698",
         "summary": "Frontend / Estandarización del manejo de errores en nicox-api",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 32.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6909,7 +6925,7 @@
       {
         "key": "IT-22590",
         "summary": "Estandarización del manejo de errores en nicox-api",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 32.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7689,12 +7705,12 @@
     "summary": "Agente | Gestión de Posventa Nicox",
     "tasks": [
       {
-        "key": "BTP-4283",
+        "key": "IT-23669",
         "summary": "Envio de reviews a BI",
-        "status": "TO REFINEMENT",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 8.0,
         "assignee": "Martín Horn",
-        "project": "BTP"
+        "project": "IT"
       }
     ]
   },
@@ -7741,19 +7757,19 @@
     "summary": "Marketplace",
     "tasks": [
       {
-        "key": "BTP-4323",
-        "summary": "Facturación / Falabella / No funciona la carga de la factura",
-        "status": "PRODUCT BACKLOG",
+        "key": "BTP-4325",
+        "summary": "Mercado Libre Mx - No funciona correctamente la sincronización de stock",
+        "status": "RESUELTO POR BT",
         "story_points": null,
-        "assignee": "Mauricio Reinhardt",
+        "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
       },
       {
-        "key": "BTP-4293",
-        "summary": "Mercadolibre y Amazon / Modificar condiciones para reintegro automático por cancelación de venta / BTP-4293",
+        "key": "BTP-4315",
+        "summary": "Marketplace / Incluir respuesta de la API en la ventana de confirmación",
         "status": "PRODUCT BACKLOG",
         "story_points": null,
-        "assignee": "Mauricio Reinhardt",
+        "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
       },
       {
@@ -7829,6 +7845,22 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23658",
+        "summary": "Mercadolibre y Amazon / Modificar condiciones para reintegro automático por cancelación de venta / BTP-4293",
+        "status": "BACKLOG",
+        "story_points": 16.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23650",
+        "summary": "Facturación / Falabella / No funciona la carga de la factura",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Miguel Armentano",
+        "project": "IT"
+      },
+      {
         "key": "IT-23524",
         "summary": "Relevamiento / Liverpool / Carga de bultos incompleta",
         "status": "BACKLOG",
@@ -7839,7 +7871,7 @@
       {
         "key": "IT-23522",
         "summary": "Liverpool / Gestionar pedidos que comienzan en 0",
-        "status": "ON HOLD",
+        "status": "ON PAUSE",
         "story_points": 8.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -8538,6 +8570,22 @@
     "due_date": "2025-09-30",
     "summary": "Mejoras en Seguimiento y Tiempos de Entrega para Clientes",
     "tasks": [
+      {
+        "key": "IT-23663",
+        "summary": "Front / Visualización estimada al cliente antes de concretar la compra",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Franco Lorenzo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23661",
+        "summary": "Nicox / Tiempo de envío / Crear settting customized_delivery_times",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
+      },
       {
         "key": "IT-20386",
         "summary": "EXTRAVIOS - REINTEGROS - MEJORA MOVIMIENTO DE STOCK ",
@@ -16176,14 +16224,6 @@
     "summary": "Nicox",
     "tasks": [
       {
-        "key": "BTP-4161",
-        "summary": "Mercado Libre / Ingresar un pago adicional a venta existente",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Joaquin Fernandez - Carestino",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-2329",
         "summary": "Revisión final",
         "status": "Por Hacer",
@@ -17200,6 +17240,22 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23658",
+        "summary": "Mercadolibre y Amazon / Modificar condiciones para reintegro automático por cancelación de venta / BTP-4293",
+        "status": "BACKLOG",
+        "story_points": 16.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23650",
+        "summary": "Facturación / Falabella / No funciona la carga de la factura",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Miguel Armentano",
+        "project": "IT"
+      },
+      {
         "key": "IT-23524",
         "summary": "Relevamiento / Liverpool / Carga de bultos incompleta",
         "status": "BACKLOG",
@@ -17210,7 +17266,7 @@
       {
         "key": "IT-23522",
         "summary": "Liverpool / Gestionar pedidos que comienzan en 0",
-        "status": "ON HOLD",
+        "status": "ON PAUSE",
         "story_points": 8.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
