@@ -60,6 +60,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23702",
+        "summary": "Diferencias de stock al cerrar devoluciones",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
         "key": "IT-23685",
         "summary": "Ecommerce / Error visual en el chat de wcx",
         "status": "FINISH",
@@ -686,15 +694,15 @@
       {
         "key": "IT-23663",
         "summary": "Front / Visualización estimada al cliente antes de concretar la compra",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 12.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
       },
       {
         "key": "IT-23661",
         "summary": "Nicox / Tiempo de envío / Crear settting customized_delivery_times",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 3.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -8613,15 +8621,15 @@
       {
         "key": "IT-23663",
         "summary": "Front / Visualización estimada al cliente antes de concretar la compra",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 12.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
       },
       {
         "key": "IT-23661",
         "summary": "Nicox / Tiempo de envío / Crear settting customized_delivery_times",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 3.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
