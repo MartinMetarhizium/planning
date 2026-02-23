@@ -94,7 +94,7 @@
       {
         "key": "IT-23652",
         "summary": "MODIFICACION TXT PERCEPCIONES ARBA - ARGENTINA",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 6.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -238,7 +238,7 @@
       {
         "key": "IT-23221",
         "summary": "Pagos Bancarios / No se pueden visualizar los comprobantes en la conciliación manual",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY",
         "story_points": 4.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -254,7 +254,7 @@
       {
         "key": "IT-23200",
         "summary": "Pedidos tienda / Envío de email cuando se recepciona el pedido",
-        "status": "BACKLOG",
+        "status": "ON PAUSE",
         "story_points": 8.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -702,7 +702,7 @@
       {
         "key": "IT-23661",
         "summary": "Nicox / Tiempo de envío / Crear settting customized_delivery_times",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 3.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -1117,7 +1117,7 @@
       {
         "key": "IT-23035",
         "summary": "Novedades / Agregar selección de posicionamiento vertical",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -1441,7 +1441,7 @@
       {
         "key": "IT-23229",
         "summary": "Nicox-api / Filtros / Implementación del filtro por rango etario",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 5.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1449,7 +1449,7 @@
       {
         "key": "IT-22667",
         "summary": "Filtros / Implementación del filtro por rango etario",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 16.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -5999,7 +5999,7 @@
       {
         "key": "IT-23484",
         "summary": "CAV Amazon / No validar Entre calles mayorista",
-        "status": "BACKLOG",
+        "status": "TO DEPLOY QA",
         "story_points": 3.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -6741,7 +6741,7 @@
       {
         "key": "IT-23408",
         "summary": "Frontend / Reclamos / Incluir apartado de Facturación",
-        "status": "Pendiente de estimación",
+        "status": "ON HOLD",
         "story_points": null,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6757,7 +6757,7 @@
       {
         "key": "IT-23356",
         "summary": "Reclamos / Permitir archivos de mayor tamaño (Bypass vercel) / Backend",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6805,7 +6805,7 @@
       {
         "key": "IT-23272",
         "summary": "Core de Reintegros / Garantía Parcial",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 40.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -7004,7 +7004,7 @@
       },
       {
         "key": "IT-22140",
-        "summary": "Reclamos / Permitir archivos de mayor tamaño (Bypass vercel)",
+        "summary": "PoC / Delivery-App / Permitir archivos de mayor tamaño (Bypass vercel)",
         "status": "ON HOLD",
         "story_points": 8.0,
         "assignee": "Franco Lorenzo",
@@ -7919,7 +7919,7 @@
       {
         "key": "IT-23522",
         "summary": "Liverpool / Gestionar pedidos que comienzan en 0",
-        "status": "ON PAUSE",
+        "status": "REVIEW ON HOLD",
         "story_points": 8.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -7959,7 +7959,7 @@
       {
         "key": "IT-23203",
         "summary": "Buscador por ID para los distintos marketplace ",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -8629,7 +8629,7 @@
       {
         "key": "IT-23661",
         "summary": "Nicox / Tiempo de envío / Crear settting customized_delivery_times",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 3.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17330,7 +17330,7 @@
       {
         "key": "IT-23522",
         "summary": "Liverpool / Gestionar pedidos que comienzan en 0",
-        "status": "ON PAUSE",
+        "status": "REVIEW ON HOLD",
         "story_points": 8.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -17370,7 +17370,7 @@
       {
         "key": "IT-23203",
         "summary": "Buscador por ID para los distintos marketplace ",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"

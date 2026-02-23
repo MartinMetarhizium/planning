@@ -19,3 +19,6 @@ update_it_backlog_new.py
 mauri_new.py
 tableau_view_id_extractor.ipynb
 tableau_views_accessible.csv
+slack_data_export.ipynb
+slack_channels_export.xlsx
+search_user_channels.py
