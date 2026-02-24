@@ -6,7 +6,7 @@
       {
         "key": "BTP-4327",
         "summary": "Falabella / Ingresar transacciones en estados posteriores",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -22,7 +22,7 @@
       {
         "key": "BTP-4233",
         "summary": "Pedidos tienda / Generación de OP en cierre de pedido",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -60,6 +60,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23733",
+        "summary": "PARAGUAY / Eliminar FACTURAS SIN NRO TIMBRADO",
+        "status": "En progreso",
+        "story_points": 2.0,
+        "assignee": "Miguel Armentano",
+        "project": "IT"
+      },
+      {
         "key": "IT-23702",
         "summary": "Diferencias de stock al cerrar devoluciones",
         "status": "Pendiente de estimación",
@@ -94,7 +102,7 @@
       {
         "key": "IT-23652",
         "summary": "MODIFICACION TXT PERCEPCIONES ARBA - ARGENTINA",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 6.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -238,7 +246,7 @@
       {
         "key": "IT-23221",
         "summary": "Pagos Bancarios / No se pueden visualizar los comprobantes en la conciliación manual",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -247,14 +255,14 @@
         "key": "IT-23207",
         "summary": "Mercado libre / Integrar reputación y performance de despachos en Nicox",
         "status": "BACKLOG",
-        "story_points": 24.0,
-        "assignee": "Nicolas Pardo",
+        "story_points": 32.0,
+        "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
       },
       {
         "key": "IT-23200",
         "summary": "Pedidos tienda / Envío de email cuando se recepciona el pedido",
-        "status": "ON PAUSE",
+        "status": "ON HOLD",
         "story_points": 8.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -702,7 +710,7 @@
       {
         "key": "IT-23661",
         "summary": "Nicox / Tiempo de envío / Crear settting customized_delivery_times",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 3.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -962,7 +970,7 @@
       {
         "key": "IT-14961",
         "summary": "Reintegros / Recepción y clasificación de reintegros en PDV distinto ",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 32.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1117,7 +1125,7 @@
       {
         "key": "IT-23035",
         "summary": "Novedades / Agregar selección de posicionamiento vertical",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -1441,7 +1449,7 @@
       {
         "key": "IT-23229",
         "summary": "Nicox-api / Filtros / Implementación del filtro por rango etario",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 5.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1449,7 +1457,7 @@
       {
         "key": "IT-22667",
         "summary": "Filtros / Implementación del filtro por rango etario",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 16.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6757,7 +6765,7 @@
       {
         "key": "IT-23356",
         "summary": "Reclamos / Permitir archivos de mayor tamaño (Bypass vercel) / Backend",
-        "status": "En progreso",
+        "status": "ON HOLD",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7739,7 +7747,7 @@
       {
         "key": "IT-23669",
         "summary": "Envio de reviews a BI",
-        "status": "ON HOLD",
+        "status": "En progreso",
         "story_points": 8.0,
         "assignee": "Martín Horn",
         "project": "IT"
@@ -7799,7 +7807,7 @@
       {
         "key": "BTP-4315",
         "summary": "Marketplace / Incluir respuesta de la API en la ventana de confirmación",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
@@ -7919,7 +7927,7 @@
       {
         "key": "IT-23522",
         "summary": "Liverpool / Gestionar pedidos que comienzan en 0",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -7985,7 +7993,7 @@
         "summary": "[Marketplace][Mercadolibre][Promociones]",
         "status": "Pendiente de estimación",
         "story_points": null,
-        "assignee": "Nicolas Pardo",
+        "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
       },
       {
@@ -8629,7 +8637,7 @@
       {
         "key": "IT-23661",
         "summary": "Nicox / Tiempo de envío / Crear settting customized_delivery_times",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 3.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -16252,7 +16260,7 @@
       {
         "key": "BTP-4339",
         "summary": "Facturación / Mejora al SCRIPT que completa los datos de facturación para que ejecute el proceso de la API y genere la factura",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -16260,7 +16268,7 @@
       {
         "key": "BTP-4269",
         "summary": "DUPLICIDAD NOTAS DE CRÉDITO - PANAMÁ",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -16282,7 +16290,7 @@
       {
         "key": "BTP-4265",
         "summary": "Tarifario / Mercado Pago / Costo de envío en ventas con cupones",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
@@ -17330,7 +17338,7 @@
       {
         "key": "IT-23522",
         "summary": "Liverpool / Gestionar pedidos que comienzan en 0",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -17396,7 +17404,7 @@
         "summary": "[Marketplace][Mercadolibre][Promociones]",
         "status": "Pendiente de estimación",
         "story_points": null,
-        "assignee": "Nicolas Pardo",
+        "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
       },
       {
