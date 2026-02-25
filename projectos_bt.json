@@ -4,9 +4,9 @@
     "summary": "Service Desk",
     "tasks": [
       {
-        "key": "BTP-4327",
-        "summary": "Falabella / Ingresar transacciones en estados posteriores",
-        "status": "TO REFINEMENT",
+        "key": "BTP-4329",
+        "summary": "Logística V2 / Filtros de estados no funcionan",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -15,14 +15,6 @@
         "key": "BTP-4243",
         "summary": "Falabella / Log de responses de la API",
         "status": "CANCELADO POR BT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4233",
-        "summary": "Pedidos tienda / Generación de OP en cierre de pedido",
-        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -60,9 +52,25 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23757",
+        "summary": "Falabella / Ingresar transacciones en estados posteriores",
+        "status": "BACKLOG",
+        "story_points": 2.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23753",
+        "summary": "Pedidos tienda / Generación de OP en cierre de pedido",
+        "status": "BACKLOG",
+        "story_points": 8.0,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-23733",
         "summary": "PARAGUAY / Eliminar FACTURAS SIN NRO TIMBRADO",
-        "status": "En progreso",
+        "status": "FINISH",
         "story_points": 2.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -190,8 +198,8 @@
       {
         "key": "IT-23389",
         "summary": "Ventas / Segundos pasos / Bloquear búsqueda de cliente",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
@@ -262,7 +270,7 @@
       {
         "key": "IT-23200",
         "summary": "Pedidos tienda / Envío de email cuando se recepciona el pedido",
-        "status": "ON HOLD",
+        "status": "CODE REVIEW",
         "story_points": 8.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -430,7 +438,7 @@
       {
         "key": "IT-22760",
         "summary": "Garantía parcial / Despiece automático",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 21.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -970,7 +978,7 @@
       {
         "key": "IT-14961",
         "summary": "Reintegros / Recepción y clasificación de reintegros en PDV distinto ",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 32.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -6007,7 +6015,7 @@
       {
         "key": "IT-23484",
         "summary": "CAV Amazon / No validar Entre calles mayorista",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 3.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -7805,14 +7813,6 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4315",
-        "summary": "Marketplace / Incluir respuesta de la API en la ventana de confirmación",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Joaquin Fernandez - Carestino",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4314",
         "summary": "Liverpool / Sincronizar precios y stock automaticamente vía API",
         "status": "Rechazado",
@@ -7901,6 +7901,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23755",
+        "summary": "Marketplace / Incluir respuesta de la API en la ventana de confirmación",
+        "status": "BACKLOG",
+        "story_points": 3.0,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-23658",
         "summary": "Mercadolibre y Amazon / Modificar condiciones para reintegro automático por cancelación de venta / BTP-4293",
         "status": "BACKLOG",
@@ -7927,7 +7935,7 @@
       {
         "key": "IT-23522",
         "summary": "Liverpool / Gestionar pedidos que comienzan en 0",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -7951,7 +7959,7 @@
       {
         "key": "IT-23516",
         "summary": "Mercado Libre /  Persistir datos de precios y stock de cada publicación en DB",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 16.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -7967,7 +7975,7 @@
       {
         "key": "IT-23203",
         "summary": "Buscador por ID para los distintos marketplace ",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -7991,8 +7999,8 @@
       {
         "key": "IT-22750",
         "summary": "[Marketplace][Mercadolibre][Promociones]",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
       },
@@ -16258,22 +16266,6 @@
     "summary": "Nicox / Integración - Facturadores",
     "tasks": [
       {
-        "key": "BTP-4339",
-        "summary": "Facturación / Mejora al SCRIPT que completa los datos de facturación para que ejecute el proceso de la API y genere la factura",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4269",
-        "summary": "DUPLICIDAD NOTAS DE CRÉDITO - PANAMÁ",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-2328",
         "summary": "Revisión final",
         "status": "Por Hacer",
@@ -16287,14 +16279,6 @@
     "due_date": "2024-06-28",
     "summary": "Nicox",
     "tasks": [
-      {
-        "key": "BTP-4265",
-        "summary": "Tarifario / Mercado Pago / Costo de envío en ventas con cupones",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Joaquin Fernandez - Carestino",
-        "project": "BTP"
-      },
       {
         "key": "BTP-2329",
         "summary": "Revisión final",
@@ -17312,6 +17296,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23755",
+        "summary": "Marketplace / Incluir respuesta de la API en la ventana de confirmación",
+        "status": "BACKLOG",
+        "story_points": 3.0,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-23658",
         "summary": "Mercadolibre y Amazon / Modificar condiciones para reintegro automático por cancelación de venta / BTP-4293",
         "status": "BACKLOG",
@@ -17338,7 +17330,7 @@
       {
         "key": "IT-23522",
         "summary": "Liverpool / Gestionar pedidos que comienzan en 0",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -17362,7 +17354,7 @@
       {
         "key": "IT-23516",
         "summary": "Mercado Libre /  Persistir datos de precios y stock de cada publicación en DB",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 16.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17378,7 +17370,7 @@
       {
         "key": "IT-23203",
         "summary": "Buscador por ID para los distintos marketplace ",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17402,8 +17394,8 @@
       {
         "key": "IT-22750",
         "summary": "[Marketplace][Mercadolibre][Promociones]",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
       },
