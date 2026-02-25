@@ -203,11 +203,11 @@ PROJECT_MAP_BT = {
 
 from datetime import datetime, timedelta
 import datetime as dt
-DEFAULT_START_DATE = datetime(2026, 2, 16)  #año mes día
+DEFAULT_START_DATE = datetime(2026, 3, 2)  #año mes día
 DEFAULT_END_DATE = DEFAULT_START_DATE + timedelta(days=11)
 import pytz
 # 🕓 Rango de fechas a consultar
-DEFAULT_START_DATE_with_timezone = dt.datetime(2025, 2, 16, 0, 0, 0, tzinfo=pytz.UTC)
+DEFAULT_START_DATE_with_timezone = dt.datetime(2025, 3, 2, 0, 0, 0, tzinfo=pytz.UTC)
 DEFAULT_END_DATE_with_timezone = DEFAULT_START_DATE_with_timezone + dt.timedelta(days=11)
 VALID_STATUSES = {"BACKLOG", "REDEFINED", "RECHAZADO", "IN IMPROVEMENT"}
 VALID_STATUSES_BT = {"Por Hacer"}
