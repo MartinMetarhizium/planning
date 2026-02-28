@@ -4,6 +4,14 @@
     "summary": "Service Desk",
     "tasks": [
       {
+        "key": "BTP-4357",
+        "summary": "Liverpool / Carga bloqueada por falta de campo \"Bultos\"",
+        "status": "ON HOLD RELEVAMIENTO",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4243",
         "summary": "Falabella / Log de responses de la API",
         "status": "CANCELADO POR BT",
@@ -134,8 +142,8 @@
       {
         "key": "IT-23600",
         "summary": "MercadoPago y Amazon / Setting para configurar la URL base de la API",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
@@ -174,8 +182,8 @@
       {
         "key": "IT-23495",
         "summary": "Productos y stock / Imprimir QR Zebra no funciona en mobile",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
@@ -214,8 +222,8 @@
       {
         "key": "IT-23387",
         "summary": "Tableau global / Campo subchannel para ventas de MercadoLibre históricas",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 7.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
@@ -446,7 +454,7 @@
       {
         "key": "IT-22760",
         "summary": "Garantía parcial / Despiece automático",
-        "status": "En progreso",
+        "status": "ON HOLD",
         "story_points": 21.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -478,7 +486,7 @@
       {
         "key": "IT-22739",
         "summary": "Garantías parciales en tiendas / Reintegro automático a Scrap",
-        "status": "BACKLOG",
+        "status": "STG TESTING",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -6023,8 +6031,8 @@
       {
         "key": "IT-23536",
         "summary": "CAV / Despacho automático de ventas FULL",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 10.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
@@ -6789,7 +6797,7 @@
       {
         "key": "IT-23356",
         "summary": "Reclamos / Permitir archivos de mayor tamaño (Bypass vercel) / Backend",
-        "status": "ON HOLD",
+        "status": "STG TESTING",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6837,7 +6845,7 @@
       {
         "key": "IT-23272",
         "summary": "Core de Reintegros / Garantía Parcial",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 40.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -7771,7 +7779,7 @@
       {
         "key": "IT-23669",
         "summary": "Envio de reviews a BI",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 8.0,
         "assignee": "Martín Horn",
         "project": "IT"
@@ -7975,7 +7983,7 @@
       {
         "key": "IT-23516",
         "summary": "Mercado Libre /  Persistir datos de precios y stock de cada publicación en DB",
-        "status": "ON HOLD",
+        "status": "En progreso",
         "story_points": 16.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -7991,7 +7999,7 @@
       {
         "key": "IT-23203",
         "summary": "Buscador por ID para los distintos marketplace ",
-        "status": "STG TESTING",
+        "status": "TO DEPLOY QA",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -8047,7 +8055,7 @@
       {
         "key": "IT-22187",
         "summary": "[Marketplace][Falabella]Agregar Publicación Manual",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -8889,7 +8897,7 @@
       {
         "key": "IT-21424",
         "summary": "Actualizar API resellers",
-        "status": "REVIEW ON PAUSE",
+        "status": "REVIEWING",
         "story_points": 80.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -17370,7 +17378,7 @@
       {
         "key": "IT-23516",
         "summary": "Mercado Libre /  Persistir datos de precios y stock de cada publicación en DB",
-        "status": "ON HOLD",
+        "status": "En progreso",
         "story_points": 16.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17386,7 +17394,7 @@
       {
         "key": "IT-23203",
         "summary": "Buscador por ID para los distintos marketplace ",
-        "status": "STG TESTING",
+        "status": "TO DEPLOY QA",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17442,7 +17450,7 @@
       {
         "key": "IT-22187",
         "summary": "[Marketplace][Falabella]Agregar Publicación Manual",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
