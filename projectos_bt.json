@@ -2369,6 +2369,14 @@
     "summary": "Worpik",
     "tasks": [
       {
+        "key": "BTP-4358",
+        "summary": "Candidatos responden mas preguntas de las que deberìan en los test de lógica",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Martín Horn",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4350",
         "summary": "Worpik / Candidato se puede agendar 2 veces con el mismo mail",
         "status": "Pendiente de estimación",
