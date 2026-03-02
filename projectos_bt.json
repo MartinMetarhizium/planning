@@ -52,6 +52,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23786",
+        "summary": "CRON de exportación de ordenes de compra falla",
+        "status": "BACKLOG",
+        "story_points": 3.0,
+        "assignee": "Miguel Armentano",
+        "project": "IT"
+      },
+      {
         "key": "IT-23766",
         "summary": "Pedidos tienda / Ordenes bloqueadas al despachar desde OP",
         "status": "Pendiente de estimación",
@@ -286,7 +294,7 @@
       {
         "key": "IT-23200",
         "summary": "Pedidos tienda / Envío de email cuando se recepciona el pedido",
-        "status": "STG TESTING",
+        "status": "ON HOLD",
         "story_points": 8.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -486,7 +494,7 @@
       {
         "key": "IT-22739",
         "summary": "Garantías parciales en tiendas / Reintegro automático a Scrap",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -994,7 +1002,7 @@
       {
         "key": "IT-14961",
         "summary": "Reintegros / Recepción y clasificación de reintegros en PDV distinto ",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 32.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -6723,6 +6731,14 @@
     "summary": "Gestiones",
     "tasks": [
       {
+        "key": "BTP-4359",
+        "summary": "Formularios Reclamos | Validación de respuesta - Lado Cliente",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-3903",
         "summary": "Pruebas",
         "status": "Por Hacer",
@@ -6853,7 +6869,7 @@
       {
         "key": "IT-23272",
         "summary": "Core de Reintegros / Garantía Parcial",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 40.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -7991,7 +8007,7 @@
       {
         "key": "IT-23516",
         "summary": "Mercado Libre /  Persistir datos de precios y stock de cada publicación en DB",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 16.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -8007,7 +8023,7 @@
       {
         "key": "IT-23203",
         "summary": "Buscador por ID para los distintos marketplace ",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -8039,7 +8055,7 @@
       {
         "key": "IT-22518",
         "summary": "[Marketplace][Liverpool][Promociones]",
-        "status": "ON PAUSE",
+        "status": "En progreso",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -8063,7 +8079,7 @@
       {
         "key": "IT-22187",
         "summary": "[Marketplace][Falabella]Agregar Publicación Manual",
-        "status": "En progreso",
+        "status": "TO DEPLOY QA",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -16576,7 +16592,7 @@
       {
         "key": "IT-23590",
         "summary": "Conciliador / Modificar la conciliación automática para que se produzca de forma asincrónica",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 32.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17386,7 +17402,7 @@
       {
         "key": "IT-23516",
         "summary": "Mercado Libre /  Persistir datos de precios y stock de cada publicación en DB",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 16.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17402,7 +17418,7 @@
       {
         "key": "IT-23203",
         "summary": "Buscador por ID para los distintos marketplace ",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17434,7 +17450,7 @@
       {
         "key": "IT-22518",
         "summary": "[Marketplace][Liverpool][Promociones]",
-        "status": "ON PAUSE",
+        "status": "En progreso",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -17458,7 +17474,7 @@
       {
         "key": "IT-22187",
         "summary": "[Marketplace][Falabella]Agregar Publicación Manual",
-        "status": "En progreso",
+        "status": "TO DEPLOY QA",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
