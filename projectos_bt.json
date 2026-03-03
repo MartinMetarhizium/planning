@@ -5,7 +5,7 @@
     "tasks": [
       {
         "key": "BTP-4357",
-        "summary": "Liverpool / Carga bloqueada por falta de campo \"Bultos\"",
+        "summary": "Liverpool / Publicaciones BigTicket",
         "status": "ON HOLD RELEVAMIENTO",
         "story_points": null,
         "assignee": "Thiago Cabrera",
@@ -494,7 +494,7 @@
       {
         "key": "IT-22739",
         "summary": "Garantías parciales en tiendas / Reintegro automático a Scrap",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1002,7 +1002,7 @@
       {
         "key": "IT-14961",
         "summary": "Reintegros / Recepción y clasificación de reintegros en PDV distinto ",
-        "status": "REVIEW ON HOLD",
+        "status": "REVIEWING",
         "story_points": 32.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -2377,14 +2377,6 @@
     "summary": "Worpik",
     "tasks": [
       {
-        "key": "BTP-4358",
-        "summary": "Candidatos responden mas preguntas de las que deberìan en los test de lógica",
-        "status": "Pendiente de estimación",
-        "story_points": null,
-        "assignee": "Martín Horn",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4350",
         "summary": "Worpik / Candidato se puede agendar 2 veces con el mismo mail",
         "status": "Pendiente de estimación",
@@ -2599,6 +2591,14 @@
         "story_points": null,
         "assignee": "Martín Horn",
         "project": "BTP"
+      },
+      {
+        "key": "IT-23802",
+        "summary": "Candidatos responden mas preguntas de las que deberìan en los test de lógica",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
       },
       {
         "key": "IT-23415",
@@ -6821,7 +6821,7 @@
       {
         "key": "IT-23356",
         "summary": "Reclamos / Permitir archivos de mayor tamaño (Bypass vercel) / Backend",
-        "status": "STG TESTING",
+        "status": "ON HOLD",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6869,7 +6869,7 @@
       {
         "key": "IT-23272",
         "summary": "Core de Reintegros / Garantía Parcial",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 40.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -7803,7 +7803,7 @@
       {
         "key": "IT-23669",
         "summary": "Envio de reviews a BI",
-        "status": "CODE REVIEW",
+        "status": "PENDING REVIEW",
         "story_points": 8.0,
         "assignee": "Martín Horn",
         "project": "IT"
@@ -8007,7 +8007,7 @@
       {
         "key": "IT-23516",
         "summary": "Mercado Libre /  Persistir datos de precios y stock de cada publicación en DB",
-        "status": "CODE REVIEW",
+        "status": "ON HOLD",
         "story_points": 16.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -8023,7 +8023,7 @@
       {
         "key": "IT-23203",
         "summary": "Buscador por ID para los distintos marketplace ",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -8055,7 +8055,7 @@
       {
         "key": "IT-22518",
         "summary": "[Marketplace][Liverpool][Promociones]",
-        "status": "En progreso",
+        "status": "ON HOLD",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -8071,7 +8071,7 @@
       {
         "key": "IT-22344",
         "summary": "[Marketplace][Falabella][Promociones]",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -9355,6 +9355,14 @@
     "due_date": "2025-08-15",
     "summary": "Worpik",
     "tasks": [
+      {
+        "key": "IT-23802",
+        "summary": "Candidatos responden mas preguntas de las que deberìan en los test de lógica",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
       {
         "key": "IT-23415",
         "summary": "Worpik / Enviar mail de baja en baja manual",
@@ -12946,6 +12954,14 @@
         "story_points": null,
         "assignee": "Alan Fernandez",
         "project": "BTP"
+      },
+      {
+        "key": "IT-23802",
+        "summary": "Candidatos responden mas preguntas de las que deberìan en los test de lógica",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
       },
       {
         "key": "IT-23415",
@@ -17402,7 +17418,7 @@
       {
         "key": "IT-23516",
         "summary": "Mercado Libre /  Persistir datos de precios y stock de cada publicación en DB",
-        "status": "CODE REVIEW",
+        "status": "ON HOLD",
         "story_points": 16.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17418,7 +17434,7 @@
       {
         "key": "IT-23203",
         "summary": "Buscador por ID para los distintos marketplace ",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17450,7 +17466,7 @@
       {
         "key": "IT-22518",
         "summary": "[Marketplace][Liverpool][Promociones]",
-        "status": "En progreso",
+        "status": "ON HOLD",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -17466,7 +17482,7 @@
       {
         "key": "IT-22344",
         "summary": "[Marketplace][Falabella][Promociones]",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
