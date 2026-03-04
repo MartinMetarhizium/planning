@@ -102,7 +102,7 @@
       {
         "key": "IT-23702",
         "summary": "Diferencias de stock al cerrar devoluciones",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 10.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -494,7 +494,7 @@
       {
         "key": "IT-22739",
         "summary": "Garantías parciales en tiendas / Reintegro automático a Scrap",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1002,7 +1002,7 @@
       {
         "key": "IT-14961",
         "summary": "Reintegros / Recepción y clasificación de reintegros en PDV distinto ",
-        "status": "REVIEWING",
+        "status": "REVIEW ON HOLD",
         "story_points": 32.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1586,7 +1586,7 @@
       {
         "key": "IT-23457",
         "summary": "Ecommerce / Rediseño portal de gestiones ",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 68.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6869,7 +6869,7 @@
       {
         "key": "IT-23272",
         "summary": "Core de Reintegros / Garantía Parcial",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 40.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -7803,7 +7803,7 @@
       {
         "key": "IT-23669",
         "summary": "Envio de reviews a BI",
-        "status": "PENDING REVIEW",
+        "status": "REVIEWING",
         "story_points": 8.0,
         "assignee": "Martín Horn",
         "project": "IT"
@@ -8079,7 +8079,7 @@
       {
         "key": "IT-22187",
         "summary": "[Marketplace][Falabella]Agregar Publicación Manual",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -8921,7 +8921,7 @@
       {
         "key": "IT-21424",
         "summary": "Actualizar API resellers",
-        "status": "REVIEWING",
+        "status": "TO DEPLOY QA",
         "story_points": 80.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -17490,7 +17490,7 @@
       {
         "key": "IT-22187",
         "summary": "[Marketplace][Falabella]Agregar Publicación Manual",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
