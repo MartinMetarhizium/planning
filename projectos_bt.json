@@ -70,7 +70,7 @@
       {
         "key": "IT-23763",
         "summary": "Logística V2 / Filtros de estados no funcionan",
-        "status": "BACKLOG",
+        "status": "CODE REVIEW",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -102,7 +102,7 @@
       {
         "key": "IT-23702",
         "summary": "Diferencias de stock al cerrar devoluciones",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 10.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -494,7 +494,7 @@
       {
         "key": "IT-22739",
         "summary": "Garantías parciales en tiendas / Reintegro automático a Scrap",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1141,7 +1141,7 @@
       {
         "key": "IT-23405",
         "summary": "Nuevo checkout / Modificar el lugar donde se muestran las percecpiones de una orden",
-        "status": "BACKLOG",
+        "status": "STG TESTING",
         "story_points": 2.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1149,7 +1149,7 @@
       {
         "key": "IT-23403",
         "summary": "Relevamiento / New Checkout / Problema con costos de envío",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 12.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1192,6 +1192,14 @@
         "status": "REVIEW ON HOLD",
         "story_points": 10.0,
         "assignee": "Franco Lorenzo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-22553",
+        "summary": "Nueva home / Color de botón del video y animación de lanzamientos",
+        "status": "En progreso",
+        "story_points": 5.0,
+        "assignee": "Gastón Ojeda",
         "project": "IT"
       },
       {
@@ -1586,7 +1594,7 @@
       {
         "key": "IT-23457",
         "summary": "Ecommerce / Rediseño portal de gestiones ",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 68.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6869,7 +6877,7 @@
       {
         "key": "IT-23272",
         "summary": "Core de Reintegros / Garantía Parcial",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 40.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -7801,9 +7809,17 @@
     "summary": "Agente | Gestión de Posventa Nicox",
     "tasks": [
       {
+        "key": "BTP-4370",
+        "summary": "Agente encuestas / Recepción de requests de BI",
+        "status": "EN RELEVAMIENTO",
+        "story_points": null,
+        "assignee": "Martín Horn",
+        "project": "BTP"
+      },
+      {
         "key": "IT-23669",
         "summary": "Envio de reviews a BI",
-        "status": "REVIEWING",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Martín Horn",
         "project": "IT"
@@ -7879,7 +7895,7 @@
       {
         "key": "BTP-4188",
         "summary": "Mercado Libre / relevar integración de opciones de compra vía API",
-        "status": "EN RELEVAMIENTO",
+        "status": "RESUELTO POR BT",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
@@ -7889,7 +7905,7 @@
         "summary": "Publicaciones de catálogo - Mercado Libre",
         "status": "EN RELEVAMIENTO",
         "story_points": null,
-        "assignee": "ivanalberghini",
+        "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
       },
       {
@@ -7991,7 +8007,7 @@
       {
         "key": "IT-23520",
         "summary": "Liverpool / Continuar la ejecución del cron cuando se encuentre una venta con errores",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -8055,7 +8071,7 @@
       {
         "key": "IT-22518",
         "summary": "[Marketplace][Liverpool][Promociones]",
-        "status": "ON HOLD",
+        "status": "ON PAUSE",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -8071,7 +8087,7 @@
       {
         "key": "IT-22344",
         "summary": "[Marketplace][Falabella][Promociones]",
-        "status": "En progreso",
+        "status": "TO DEPLOY QA",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -8079,7 +8095,7 @@
       {
         "key": "IT-22187",
         "summary": "[Marketplace][Falabella]Agregar Publicación Manual",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -16608,7 +16624,7 @@
       {
         "key": "IT-23590",
         "summary": "Conciliador / Modificar la conciliación automática para que se produzca de forma asincrónica",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 32.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17402,7 +17418,7 @@
       {
         "key": "IT-23520",
         "summary": "Liverpool / Continuar la ejecución del cron cuando se encuentre una venta con errores",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -17466,7 +17482,7 @@
       {
         "key": "IT-22518",
         "summary": "[Marketplace][Liverpool][Promociones]",
-        "status": "ON HOLD",
+        "status": "ON PAUSE",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -17482,7 +17498,7 @@
       {
         "key": "IT-22344",
         "summary": "[Marketplace][Falabella][Promociones]",
-        "status": "En progreso",
+        "status": "TO DEPLOY QA",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -17490,7 +17506,7 @@
       {
         "key": "IT-22187",
         "summary": "[Marketplace][Falabella]Agregar Publicación Manual",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
