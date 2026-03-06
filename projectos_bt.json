@@ -52,6 +52,22 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23846",
+        "summary": "Fix / Garantía total / Almacén erróneo en segundos pasos",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23844",
+        "summary": "Reintegros / Error al agregar partes al formulario de reintegros",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-23786",
         "summary": "CRON de exportación de ordenes de compra falla",
         "status": "BACKLOG",
@@ -70,7 +86,7 @@
       {
         "key": "IT-23763",
         "summary": "Logística V2 / Filtros de estados no funcionan",
-        "status": "CODE REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -78,7 +94,7 @@
       {
         "key": "IT-23757",
         "summary": "Falabella / Ingresar transacciones en estados posteriores",
-        "status": "BACKLOG",
+        "status": "REVIEWING",
         "story_points": 2.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -166,7 +182,7 @@
       {
         "key": "IT-23578",
         "summary": "MercadoLibre / Consulta de fondeo no funciona como debería",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 12.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -286,7 +302,7 @@
       {
         "key": "IT-23207",
         "summary": "Mercado libre / Integrar reputación y performance de despachos en Nicox",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 32.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -486,7 +502,7 @@
       {
         "key": "IT-22741",
         "summary": "Pedidos tienda / Validar stock al editar devoluciones",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1141,7 +1157,7 @@
       {
         "key": "IT-23405",
         "summary": "Nuevo checkout / Modificar el lugar donde se muestran las percecpiones de una orden",
-        "status": "STG TESTING",
+        "status": "TO DEPLOY QA",
         "story_points": 2.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1189,7 +1205,7 @@
       {
         "key": "IT-22610",
         "summary": "New Home / Animaciones en la nueva página de inicio",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 10.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1197,7 +1213,7 @@
       {
         "key": "IT-22553",
         "summary": "Nueva home / Color de botón del video y animación de lanzamientos",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 5.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1594,7 +1610,7 @@
       {
         "key": "IT-23457",
         "summary": "Ecommerce / Rediseño portal de gestiones ",
-        "status": "PENDING REVIEW",
+        "status": "REVIEWING",
         "story_points": 68.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6803,6 +6819,14 @@
         "project": "IT"
       },
       {
+        "key": "IT-23447",
+        "summary": "Core de Reintegros / Cambio de producto / Incluir fecha de despacho y flujo para venta despachada",
+        "status": "REVIEW ON HOLD",
+        "story_points": 16.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
         "key": "IT-23445",
         "summary": "Solicitud de reintegro / Solicitar fecha de envío y motivo de devolución",
         "status": "FINISH",
@@ -7983,7 +8007,7 @@
       {
         "key": "IT-23650",
         "summary": "Facturación / Falabella / No funciona la carga de la factura",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 8.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -7991,7 +8015,7 @@
       {
         "key": "IT-23524",
         "summary": "Relevamiento / Liverpool / Carga de bultos incompleta",
-        "status": "BACKLOG",
+        "status": "FINISH",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -8007,7 +8031,7 @@
       {
         "key": "IT-23520",
         "summary": "Liverpool / Continuar la ejecución del cron cuando se encuentre una venta con errores",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -17394,7 +17418,7 @@
       {
         "key": "IT-23650",
         "summary": "Facturación / Falabella / No funciona la carga de la factura",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 8.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -17402,7 +17426,7 @@
       {
         "key": "IT-23524",
         "summary": "Relevamiento / Liverpool / Carga de bultos incompleta",
-        "status": "BACKLOG",
+        "status": "FINISH",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -17418,7 +17442,7 @@
       {
         "key": "IT-23520",
         "summary": "Liverpool / Continuar la ejecución del cron cuando se encuentre una venta con errores",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
