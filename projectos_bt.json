@@ -6,7 +6,7 @@
       {
         "key": "BTP-4357",
         "summary": "Liverpool / Publicaciones BigTicket",
-        "status": "ON HOLD RELEVAMIENTO",
+        "status": "RESUELTO POR BT",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -52,6 +52,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23871",
+        "summary": "Sacar condición de discontinuo = NO en update_store_sale_is_available_via_ecommerce.php",
+        "status": "BACKLOG",
+        "story_points": 1.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
         "key": "IT-23846",
         "summary": "Fix / Garantía total / Almacén erróneo en segundos pasos",
         "status": "Pendiente de estimación",
@@ -86,7 +94,7 @@
       {
         "key": "IT-23763",
         "summary": "Logística V2 / Filtros de estados no funcionan",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -94,7 +102,7 @@
       {
         "key": "IT-23757",
         "summary": "Falabella / Ingresar transacciones en estados posteriores",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 2.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -118,7 +126,7 @@
       {
         "key": "IT-23702",
         "summary": "Diferencias de stock al cerrar devoluciones",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 10.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1157,7 +1165,7 @@
       {
         "key": "IT-23405",
         "summary": "Nuevo checkout / Modificar el lugar donde se muestran las percecpiones de una orden",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 2.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1205,7 +1213,7 @@
       {
         "key": "IT-22610",
         "summary": "New Home / Animaciones en la nueva página de inicio",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 10.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1213,9 +1221,9 @@
       {
         "key": "IT-22553",
         "summary": "Nueva home / Color de botón del video y animación de lanzamientos",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 5.0,
-        "assignee": "Sin asignar",
+        "assignee": "Gastón Ojeda",
         "project": "IT"
       },
       {
@@ -1610,7 +1618,7 @@
       {
         "key": "IT-23457",
         "summary": "Ecommerce / Rediseño portal de gestiones ",
-        "status": "REVIEWING",
+        "status": "REVIEW ON PAUSE",
         "story_points": 68.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6803,6 +6811,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23742",
+        "summary": "Core de Reintegros / Cambio de producto / Incluir delivery_date cuando es un cambio de producto de una venta despachada",
+        "status": "PENDING REVIEW",
+        "story_points": 4.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-23451",
         "summary": "Core de Reintegros / Aceptar motivo brindado por una solicitud de reintegro",
         "status": "FINISH",
@@ -6821,7 +6837,7 @@
       {
         "key": "IT-23447",
         "summary": "Core de Reintegros / Cambio de producto / Incluir fecha de despacho y flujo para venta despachada",
-        "status": "REVIEW ON HOLD",
+        "status": "REDEFINED",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -7843,7 +7859,7 @@
       {
         "key": "IT-23669",
         "summary": "Envio de reviews a BI",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Martín Horn",
         "project": "IT"
@@ -8007,7 +8023,7 @@
       {
         "key": "IT-23650",
         "summary": "Facturación / Falabella / No funciona la carga de la factura",
-        "status": "CODE REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -8111,7 +8127,7 @@
       {
         "key": "IT-22344",
         "summary": "[Marketplace][Falabella][Promociones]",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -8961,7 +8977,7 @@
       {
         "key": "IT-21424",
         "summary": "Actualizar API resellers",
-        "status": "TO DEPLOY QA",
+        "status": "REVIEW ON HOLD",
         "story_points": 80.0,
         "assignee": "Luis Uran",
         "project": "IT"
@@ -17418,7 +17434,7 @@
       {
         "key": "IT-23650",
         "summary": "Facturación / Falabella / No funciona la carga de la factura",
-        "status": "CODE REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -17522,7 +17538,7 @@
       {
         "key": "IT-22344",
         "summary": "[Marketplace][Falabella][Promociones]",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
