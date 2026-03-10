@@ -4,9 +4,41 @@
     "summary": "Service Desk",
     "tasks": [
       {
+        "key": "BTP-4374",
+        "summary": "Cerramos un pedido de devolución, pero sigue disponible para editar",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4357",
         "summary": "Liverpool / Publicaciones BigTicket",
         "status": "RESUELTO POR BT",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4343",
+        "summary": "Core de cancelación de ventas / MercadoPago / Refund de venta con dos pagos",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4274",
+        "summary": "Listas de nacimiento / Reintegro de venta de aportes",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4273",
+        "summary": "Listas de nacimiento / Agregar link al print de los aportes",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -54,7 +86,7 @@
       {
         "key": "IT-23871",
         "summary": "Sacar condición de discontinuo = NO en update_store_sale_is_available_via_ecommerce.php",
-        "status": "BACKLOG",
+        "status": "TO DEPLOY QA",
         "story_points": 1.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -94,7 +126,7 @@
       {
         "key": "IT-23763",
         "summary": "Logística V2 / Filtros de estados no funcionan",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -102,7 +134,7 @@
       {
         "key": "IT-23757",
         "summary": "Falabella / Ingresar transacciones en estados posteriores",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 2.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -126,7 +158,7 @@
       {
         "key": "IT-23702",
         "summary": "Diferencias de stock al cerrar devoluciones",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 10.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -182,7 +214,7 @@
       {
         "key": "IT-23598",
         "summary": "MercadoLibre / Ventas sin nombre ni email",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 8.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -190,7 +222,7 @@
       {
         "key": "IT-23578",
         "summary": "MercadoLibre / Consulta de fondeo no funciona como debería",
-        "status": "En progreso",
+        "status": "ON HOLD",
         "story_points": 12.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -198,7 +230,7 @@
       {
         "key": "IT-23499",
         "summary": "Movimientos de exhibidos u outlet / Validar stock contra registros activos",
-        "status": "BACKLOG",
+        "status": "STG TESTING",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -310,7 +342,7 @@
       {
         "key": "IT-23207",
         "summary": "Mercado libre / Integrar reputación y performance de despachos en Nicox",
-        "status": "En progreso",
+        "status": "ON PAUSE",
         "story_points": 32.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -318,7 +350,7 @@
       {
         "key": "IT-23200",
         "summary": "Pedidos tienda / Envío de email cuando se recepciona el pedido",
-        "status": "ON HOLD",
+        "status": "PENDING REVIEW",
         "story_points": 8.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -510,7 +542,7 @@
       {
         "key": "IT-22741",
         "summary": "Pedidos tienda / Validar stock al editar devoluciones",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -758,7 +790,7 @@
       {
         "key": "IT-23663",
         "summary": "Front / Visualización estimada al cliente antes de concretar la compra",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 12.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1165,7 +1197,7 @@
       {
         "key": "IT-23405",
         "summary": "Nuevo checkout / Modificar el lugar donde se muestran las percecpiones de una orden",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 2.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1173,7 +1205,7 @@
       {
         "key": "IT-23403",
         "summary": "Relevamiento / New Checkout / Problema con costos de envío",
-        "status": "En progreso",
+        "status": "REVIEW ON HOLD",
         "story_points": 12.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1213,7 +1245,7 @@
       {
         "key": "IT-22610",
         "summary": "New Home / Animaciones en la nueva página de inicio",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 10.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1618,7 +1650,7 @@
       {
         "key": "IT-23457",
         "summary": "Ecommerce / Rediseño portal de gestiones ",
-        "status": "REVIEW ON PAUSE",
+        "status": "REVIEWING",
         "story_points": 68.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6764,7 +6796,7 @@
     "tasks": [
       {
         "key": "BTP-4359",
-        "summary": "Formularios Reclamos | Validación de respuesta - Lado Cliente",
+        "summary": "Reclamos | Validación de respuesta - Lado Cliente",
         "status": "Pendiente de estimación",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
@@ -6813,7 +6845,7 @@
       {
         "key": "IT-23742",
         "summary": "Core de Reintegros / Cambio de producto / Incluir delivery_date cuando es un cambio de producto de una venta despachada",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6869,7 +6901,7 @@
       {
         "key": "IT-23356",
         "summary": "Reclamos / Permitir archivos de mayor tamaño (Bypass vercel) / Backend",
-        "status": "ON HOLD",
+        "status": "STG TESTING",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7149,7 +7181,7 @@
       {
         "key": "IT-21933",
         "summary": "Formularios Reclamos | Cancelación automática de despachos",
-        "status": "REVIEW ON HOLD",
+        "status": "FINISH",
         "story_points": 21.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7851,7 +7883,7 @@
       {
         "key": "BTP-4370",
         "summary": "Agente encuestas / Recepción de requests de BI",
-        "status": "PRODUCT BACKLOG",
+        "status": "ON HOLD",
         "story_points": null,
         "assignee": "Martín Horn",
         "project": "BTP"
@@ -7859,7 +7891,7 @@
       {
         "key": "IT-23669",
         "summary": "Envio de reviews a BI",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Martín Horn",
         "project": "IT"
@@ -7991,7 +8023,7 @@
       {
         "key": "BTP-3792",
         "summary": "Marketplace / Pruebas Falabella ",
-        "status": "EN RELEVAMIENTO",
+        "status": "RESUELTO POR BT",
         "story_points": null,
         "assignee": "ivanalberghini",
         "project": "BTP"
@@ -8047,7 +8079,7 @@
       {
         "key": "IT-23520",
         "summary": "Liverpool / Continuar la ejecución del cron cuando se encuentre una venta con errores",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -8063,7 +8095,7 @@
       {
         "key": "IT-23516",
         "summary": "Mercado Libre /  Persistir datos de precios y stock de cada publicación en DB",
-        "status": "ON HOLD",
+        "status": "PENDING REVIEW",
         "story_points": 16.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -8111,7 +8143,7 @@
       {
         "key": "IT-22518",
         "summary": "[Marketplace][Liverpool][Promociones]",
-        "status": "ON PAUSE",
+        "status": "En progreso",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -8127,7 +8159,7 @@
       {
         "key": "IT-22344",
         "summary": "[Marketplace][Falabella][Promociones]",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -8741,7 +8773,7 @@
       {
         "key": "IT-23663",
         "summary": "Front / Visualización estimada al cliente antes de concretar la compra",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 12.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -9131,9 +9163,9 @@
       {
         "key": "IT-22300",
         "summary": "Armado de API Clientes",
-        "status": "Pendiente de estimación",
-        "story_points": null,
-        "assignee": "Diego Martin Gogorza",
+        "status": "BACKLOG",
+        "story_points": 120.0,
+        "assignee": "Alan Mori - Carestino",
         "project": "IT"
       }
     ]
@@ -17458,7 +17490,7 @@
       {
         "key": "IT-23520",
         "summary": "Liverpool / Continuar la ejecución del cron cuando se encuentre una venta con errores",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -17474,7 +17506,7 @@
       {
         "key": "IT-23516",
         "summary": "Mercado Libre /  Persistir datos de precios y stock de cada publicación en DB",
-        "status": "ON HOLD",
+        "status": "PENDING REVIEW",
         "story_points": 16.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17522,7 +17554,7 @@
       {
         "key": "IT-22518",
         "summary": "[Marketplace][Liverpool][Promociones]",
-        "status": "ON PAUSE",
+        "status": "En progreso",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -17538,7 +17570,7 @@
       {
         "key": "IT-22344",
         "summary": "[Marketplace][Falabella][Promociones]",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -18395,6 +18427,14 @@
     "due_date": "2023-06-30",
     "summary": "Core de facturación",
     "tasks": [
+      {
+        "key": "BTP-4376",
+        "summary": "Facturación / ARG / Modificar integración MI GESTION",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
       {
         "key": "BTP-1256",
         "summary": "Revisión final",
