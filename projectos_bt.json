@@ -262,7 +262,7 @@
       {
         "key": "IT-23598",
         "summary": "MercadoLibre / Ventas sin nombre ni email",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -278,7 +278,7 @@
       {
         "key": "IT-23499",
         "summary": "Movimientos de exhibidos u outlet / Validar stock contra registros activos",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -334,7 +334,7 @@
       {
         "key": "IT-23387",
         "summary": "Tableau global / Campo subchannel para ventas de MercadoLibre históricas",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 7.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -398,7 +398,7 @@
       {
         "key": "IT-23200",
         "summary": "Pedidos tienda / Envío de email cuando se recepciona el pedido",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -590,7 +590,7 @@
       {
         "key": "IT-22741",
         "summary": "Pedidos tienda / Validar stock al editar devoluciones",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1714,7 +1714,7 @@
       {
         "key": "IT-23457",
         "summary": "Ecommerce / Rediseño portal de gestiones ",
-        "status": "Rechazado",
+        "status": "BACKLOG",
         "story_points": 68.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6933,7 +6933,7 @@
       {
         "key": "IT-23760",
         "summary": "Reclamos / Cada vez que se escribe una respuesta a un cliente se envia un mensaje indicando un cambio de estado inexistente",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6949,7 +6949,7 @@
       {
         "key": "IT-23656",
         "summary": "Reclamos / La validación de ubicación del mapa no funciona correctamente",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 4.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -8247,7 +8247,7 @@
       {
         "key": "IT-23516",
         "summary": "Mercado Libre /  Persistir datos de precios y stock de cada publicación en DB",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 16.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -9185,7 +9185,7 @@
         "summary": "Roadmap implementacion VPN",
         "status": "ON HOLD",
         "story_points": null,
-        "assignee": "Facundo Capua",
+        "assignee": "Facundo Capua - Biamex",
         "project": "IT"
       }
     ]
@@ -9199,7 +9199,7 @@
         "summary": "Actualizacion de la version de n8n de BI",
         "status": "BACKLOG",
         "story_points": 4.0,
-        "assignee": "Facundo Capua",
+        "assignee": "Facundo Capua - Biamex",
         "project": "IT"
       },
       {
@@ -9231,7 +9231,7 @@
         "summary": "Requerimiento Investigacion y Configuracion - AWS - Cost Allocation Tags",
         "status": "BACKLOG",
         "story_points": 8.0,
-        "assignee": "Facundo Capua",
+        "assignee": "Facundo Capua - Biamex",
         "project": "IT"
       },
       {
@@ -17674,7 +17674,7 @@
       {
         "key": "IT-23516",
         "summary": "Mercado Libre /  Persistir datos de precios y stock de cada publicación en DB",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 16.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
