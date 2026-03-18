@@ -650,22 +650,6 @@
     "summary": "Delivery Admin ",
     "tasks": [
       {
-        "key": "BTP-4393",
-        "summary": "Delivery Admin / Frontend / Respuestas de nicox-api para la carga de archivos en bucket temporal",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4392",
-        "summary": "Delivery Admin / Nicox-api adaptación de respuestas de mutations de buckets",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-3925",
         "summary": "Delivery Admin PE",
         "status": "Por Hacer",
@@ -1816,7 +1800,7 @@
       {
         "key": "IT-22426",
         "summary": "Integracion via Api - Andesmar",
-        "status": "ON PAUSE",
+        "status": "En progreso",
         "story_points": 16.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -2723,7 +2707,7 @@
       {
         "key": "IT-23802",
         "summary": "Candidatos responden mas preguntas de las que deberìan en los test de lógica",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6909,7 +6893,7 @@
       {
         "key": "IT-23893",
         "summary": "Reclamos / No funciona el paginado del listado \"Solicitudes de reintegros\"",
-        "status": "CODE REVIEW",
+        "status": "PENDING REVIEW",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6917,7 +6901,7 @@
       {
         "key": "IT-23793",
         "summary": "Core de Reintegros / Integración de garantía Total",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 24.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6981,7 +6965,7 @@
       {
         "key": "IT-23447",
         "summary": "Core de Reintegros / Cambio de producto / Incluir fecha de despacho y flujo para venta despachada",
-        "status": "CODE REVIEW",
+        "status": "PENDING REVIEW",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -7045,7 +7029,7 @@
       {
         "key": "IT-23275",
         "summary": "Core de Reintegros / Cambio de punto de venta",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 48.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -8287,7 +8271,7 @@
       {
         "key": "IT-22750",
         "summary": "[Marketplace][Mercadolibre][Promociones]",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -9598,7 +9582,7 @@
       {
         "key": "IT-23802",
         "summary": "Candidatos responden mas preguntas de las que deberìan en los test de lógica",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -13198,7 +13182,7 @@
       {
         "key": "IT-23802",
         "summary": "Candidatos responden mas preguntas de las que deberìan en los test de lógica",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -16830,22 +16814,6 @@
     "summary": "Conciliador de cobros",
     "tasks": [
       {
-        "key": "BTP-4396",
-        "summary": "Conciliador / Conciliación Manual / No funciona el modal para \"Ver registros conciliados\"",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4395",
-        "summary": "Conciliador / Conciliación manual / Demora en mostrar lotes y no permite \"Desconciliar\" conciliaciones manuales - BTP-4395",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4155",
         "summary": "Configuración Transaction ID por cantidad de dígitos completos - Liverpool",
         "status": "CANCELADO POR BT",
@@ -16860,6 +16828,22 @@
         "story_points": null,
         "assignee": "Alan Fernandez",
         "project": "BTP"
+      },
+      {
+        "key": "IT-23982",
+        "summary": "Conciliador / Conciliación Manual / No funciona el modal para \"Ver registros conciliados\"",
+        "status": "BACKLOG",
+        "story_points": 8.0,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23980",
+        "summary": "Conciliador / Conciliación manual / Demora en mostrar lotes y no permite \"Desconciliar\" conciliaciones manuales - BTP-4395",
+        "status": "BACKLOG",
+        "story_points": 12.0,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
       },
       {
         "key": "IT-23590",
@@ -17714,7 +17698,7 @@
       {
         "key": "IT-22750",
         "summary": "[Marketplace][Mercadolibre][Promociones]",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
