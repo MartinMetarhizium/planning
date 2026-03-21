@@ -4,6 +4,30 @@
     "summary": "Service Desk",
     "tasks": [
       {
+        "key": "BTP-4413",
+        "summary": "Log v2 Arg - Correo Flash - box no actualiza",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Agustin Ospital",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4386",
+        "summary": "No se actualiza el entrega en camioneta perú",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Agustin Ospital",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4383",
+        "summary": "Flexnet / Estados logísticos se guardan duplicados",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Agustin Ospital",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4371",
         "summary": "Guias de remision peru - pesos para partes",
         "status": "PRODUCT BACKLOG",
@@ -70,7 +94,7 @@
       {
         "key": "BTP-4149",
         "summary": "Error en la remision de bultos por integración de Flash",
-        "status": "ON PAUSE ARMADO DE PROPUESTA",
+        "status": "CANCELADO POR BT",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -190,7 +214,7 @@
       {
         "key": "IT-23753",
         "summary": "Pedidos tienda / Generación de OP en cierre de pedido",
-        "status": "BACKLOG",
+        "status": "ON HOLD",
         "story_points": 8.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -230,7 +254,7 @@
       {
         "key": "IT-23677",
         "summary": "Firma y recepción en ventas FULL y de GIFTCARD.",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -390,7 +414,7 @@
       {
         "key": "IT-23207",
         "summary": "Mercado libre / Integrar reputación y performance de despachos en Nicox",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 32.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -1277,7 +1301,7 @@
       {
         "key": "IT-22665",
         "summary": "New Home / Frontend / Mejoras v3 propuestas por Planeamiento Estratégico",
-        "status": "REDEFINED",
+        "status": "BACKLOG",
         "story_points": 6.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1800,7 +1824,7 @@
       {
         "key": "IT-22426",
         "summary": "Integracion via Api - Andesmar",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 16.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -6851,6 +6875,22 @@
         "project": "BTP"
       },
       {
+        "key": "BTP-4356",
+        "summary": "Reclamos / Vincular reclamos con solicitudes de reintegro y viceversa",
+        "status": "EN RELEVAMIENTO",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4153",
+        "summary": "Reclamos | Templates Logística",
+        "status": "ON PAUSE RELEVAMIENTO",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-3903",
         "summary": "Pruebas",
         "status": "Por Hacer",
@@ -6889,6 +6929,22 @@
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
+      },
+      {
+        "key": "IT-23986",
+        "summary": "Reclamos / Frontend / Integración envío de imagenes mediante S3 (bypass a vercel)",
+        "status": "BACKLOG",
+        "story_points": 16.0,
+        "assignee": "Franco Lorenzo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23984",
+        "summary": "Reclamos / Integración envío de imagenes mediante S3 (bypass a vercel)",
+        "status": "ON HOLD",
+        "story_points": 8.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
       },
       {
         "key": "IT-23893",
@@ -8271,7 +8327,7 @@
       {
         "key": "IT-22750",
         "summary": "[Marketplace][Mercadolibre][Promociones]",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -9181,7 +9237,7 @@
       {
         "key": "IT-22625",
         "summary": "Actualizacion de la version de n8n de BI",
-        "status": "BACKLOG",
+        "status": "CODE REVIEW",
         "story_points": 4.0,
         "assignee": "Facundo Capua - Biamex",
         "project": "IT"
@@ -17698,7 +17754,7 @@
       {
         "key": "IT-22750",
         "summary": "[Marketplace][Mercadolibre][Promociones]",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
