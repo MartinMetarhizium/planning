@@ -10,8 +10,9 @@ def setup_navigation():
         reviewTimes = st.Page("pages/reviewTimes.py", title="Revisiones de tarjetas")
         projectosBt = st.Page("pages/proyectosBt.py", title="Estados de proyectos")
         movimientoTarjetas = st.Page("pages/movimientoTarjetas.py", title="Movimiento de tarjetas")
+        isAvailableEcommerce = st.Page("pages/isAvailableEcommerce.py", title="Ecommerce Disponible en Tienda")
         metrics = st.Page("pages/metrics.py", title="metrics")
-        nav = st.navigation([alan, martinBt, martin, worpik, estimaciones, reviewTimes, projectosBt, movimientoTarjetas, metrics])
+        nav = st.navigation([alan, martinBt, martin, worpik, estimaciones, reviewTimes, projectosBt, movimientoTarjetas, metrics, isAvailableEcommerce])
         nav.run()
         return True
 
@@ -24,6 +25,7 @@ def setup_navigation():
         st.page_link("pages/reviewTimes.py", label="Revisiones de tarjetas")
         st.page_link("pages/proyectosBt.py", label="Estados de proyectos")
         st.page_link("pages/movimientoTarjetas.py", label="movimientoTarjetas")
+        st.page_link("pages/isAvailableEcommerce.py", label="isAvailableEcommerce")
         st.page_link("pages/metrics.py", label="metrics")
         st.caption("Si no ves las páginas, verifica que el Main file sea planning/app.py y la carpeta se llame exactamente pages/")
         return True
