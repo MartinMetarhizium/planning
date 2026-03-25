@@ -68,14 +68,6 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4289",
-        "summary": "Nicox permite agregar productos a pedidos tienda automáticos luego del cierre",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Agustin Ospital",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4243",
         "summary": "Falabella / Log de responses de la API",
         "status": "CANCELADO POR BT",
@@ -132,6 +124,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-24016",
+        "summary": "Nicox permite agregar productos a pedidos tienda automáticos luego del cierre",
+        "status": "BACKLOG",
+        "story_points": 3.0,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-23912",
         "summary": "Core de cancelación de ventas / MercadoPago / Refund de venta con dos pagos",
         "status": "BACKLOG",
@@ -158,7 +158,7 @@
       {
         "key": "IT-23906",
         "summary": "Pedidos tienda / Devoluciones / No permitir editar después del cierre",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -222,7 +222,7 @@
       {
         "key": "IT-23753",
         "summary": "Pedidos tienda / Generación de OP en cierre de pedido",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 8.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -470,7 +470,7 @@
       {
         "key": "IT-23116",
         "summary": "Validación / Normalización del valor \"Importe\" aplicado para \"Pagos Bancarios\" y el pago genérico \"Retenciones\"",
-        "status": "BACKLOG",
+        "status": "ON HOLD",
         "story_points": 4.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -8239,7 +8239,7 @@
       {
         "key": "IT-23755",
         "summary": "Marketplace / Incluir respuesta de la API en la ventana de confirmación",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 3.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -9377,7 +9377,7 @@
       {
         "key": "IT-22262",
         "summary": "Listas de nacimiento / Agregar seguridad a la generación de cupones",
-        "status": "BACKLOG",
+        "status": "STG TESTING",
         "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -17666,7 +17666,7 @@
       {
         "key": "IT-23755",
         "summary": "Marketplace / Incluir respuesta de la API en la ventana de confirmación",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 3.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
