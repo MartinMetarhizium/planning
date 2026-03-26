@@ -52,14 +52,6 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4352",
-        "summary": "Mejora visual - Logistica v2 (pedidos a reclamar) ",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Agustin Ospital",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4338",
         "summary": "Mejora - dispatch and control - preparacion y control manual de ordenes",
         "status": "PRODUCT BACKLOG",
@@ -124,6 +116,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-24027",
+        "summary": "Mejora visual - Logistica v2 (pedidos a reclamar) ",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-24016",
         "summary": "Nicox permite agregar productos a pedidos tienda automáticos luego del cierre",
         "status": "BACKLOG",
@@ -158,7 +158,7 @@
       {
         "key": "IT-23906",
         "summary": "Pedidos tienda / Devoluciones / No permitir editar después del cierre",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -222,7 +222,7 @@
       {
         "key": "IT-23753",
         "summary": "Pedidos tienda / Generación de OP en cierre de pedido",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 8.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -6941,7 +6941,7 @@
       {
         "key": "IT-23986",
         "summary": "Reclamos / Frontend / Integración envío de imagenes mediante S3 (bypass a vercel)",
-        "status": "BACKLOG",
+        "status": "ON PAUSE",
         "story_points": 16.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -9377,7 +9377,7 @@
       {
         "key": "IT-22262",
         "summary": "Listas de nacimiento / Agregar seguridad a la generación de cupones",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
