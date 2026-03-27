@@ -118,8 +118,8 @@
       {
         "key": "IT-24027",
         "summary": "Mejora visual - Logistica v2 (pedidos a reclamar) ",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 10.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
       },
@@ -158,7 +158,7 @@
       {
         "key": "IT-23906",
         "summary": "Pedidos tienda / Devoluciones / No permitir editar después del cierre",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -350,7 +350,7 @@
       {
         "key": "IT-23391",
         "summary": "Falabella / Mejoras de testeabilidad",
-        "status": "BACKLOG",
+        "status": "STG TESTING",
         "story_points": 8.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -438,7 +438,7 @@
       {
         "key": "IT-23165",
         "summary": "MercadoPago / Email Gracias por su compra en retiros en tienda",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 6.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -6884,8 +6884,8 @@
       },
       {
         "key": "BTP-4356",
-        "summary": "Redefinir: Reclamos / Vincular reclamos con solicitudes de reintegro y viceversa",
-        "status": "EN RELEVAMIENTO",
+        "summary": "OLD: Redefinir: Reclamos / Vincular reclamos con solicitudes de reintegro y viceversa",
+        "status": "CANCELADO POR BT",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -6941,7 +6941,7 @@
       {
         "key": "IT-23986",
         "summary": "Reclamos / Frontend / Integración envío de imagenes mediante S3 (bypass a vercel)",
-        "status": "ON PAUSE",
+        "status": "En progreso",
         "story_points": 16.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -7093,7 +7093,7 @@
       {
         "key": "IT-23275",
         "summary": "Core de Reintegros / Cambio de punto de venta",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 48.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
