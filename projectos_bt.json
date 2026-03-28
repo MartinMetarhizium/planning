@@ -68,6 +68,14 @@
         "project": "BTP"
       },
       {
+        "key": "BTP-4169",
+        "summary": "Problema Flujo Checkout Ecommerce",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Agustin Ospital",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4151",
         "summary": "Error integracion - Mercadoenvios (Parte 2)",
         "status": "EN RELEVAMIENTO",
@@ -350,7 +358,7 @@
       {
         "key": "IT-23391",
         "summary": "Falabella / Mejoras de testeabilidad",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 8.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
