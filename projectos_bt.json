@@ -14,7 +14,7 @@
       {
         "key": "BTP-4413",
         "summary": "Log v2 Arg - Correo Flash - box no actualiza",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -30,15 +30,7 @@
       {
         "key": "BTP-4383",
         "summary": "Flexnet / Estados logísticos se guardan duplicados",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Agustin Ospital",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4371",
-        "summary": "Guias de remision peru - pesos para partes",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -52,22 +44,6 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4353",
-        "summary": "Meli - cron de carga no verifica corte correctamente",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Agustin Ospital",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4338",
-        "summary": "Mejora - dispatch and control - preparacion y control manual de ordenes",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Agustin Ospital",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4243",
         "summary": "Falabella / Log de responses de la API",
         "status": "CANCELADO POR BT",
@@ -78,7 +54,7 @@
       {
         "key": "BTP-4169",
         "summary": "Problema Flujo Checkout Ecommerce",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -138,6 +114,30 @@
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
+      },
+      {
+        "key": "IT-24131",
+        "summary": "Mejora - dispatch and control - preparacion y control manual de ordenes",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24128",
+        "summary": "Guias de remision peru - pesos para partes",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24124",
+        "summary": "Meli - cron de carga no verifica corte correctamente",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
       },
       {
         "key": "IT-24027",
@@ -446,7 +446,7 @@
       {
         "key": "IT-23207",
         "summary": "Mercado libre / Integrar reputación y performance de despachos en Nicox",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 32.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -494,7 +494,7 @@
       {
         "key": "IT-23116",
         "summary": "Validación / Normalización del valor \"Importe\" aplicado para \"Pagos Bancarios\" y el pago genérico \"Retenciones\"",
-        "status": "ON HOLD",
+        "status": "En progreso",
         "story_points": 4.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -894,7 +894,7 @@
       {
         "key": "IT-23663",
         "summary": "Front / Visualización estimada al cliente antes de concretar la compra",
-        "status": "REVIEW ON PAUSE",
+        "status": "TO DEPLOY QA",
         "story_points": 12.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1309,7 +1309,7 @@
       {
         "key": "IT-23403",
         "summary": "Relevamiento / New Checkout / Problema con costos de envío",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 12.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1754,7 +1754,7 @@
       {
         "key": "IT-23457",
         "summary": "Ecommerce / Rediseño portal de gestiones ",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 68.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6901,7 +6901,7 @@
       {
         "key": "BTP-4359",
         "summary": "Reclamos | Validación de respuesta - Lado Cliente",
-        "status": "EN RELEVAMIENTO",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -6965,15 +6965,15 @@
       {
         "key": "IT-24100",
         "summary": "Reclamos | Core de Acciones y Workflows",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 20.0,
         "assignee": "Diego Martin Gogorza",
         "project": "IT"
       },
       {
         "key": "IT-23986",
         "summary": "Reclamos / Frontend / Integración envío de imagenes mediante S3 (bypass a vercel)",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 16.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6981,7 +6981,7 @@
       {
         "key": "IT-23984",
         "summary": "Reclamos / Integración envío de imagenes mediante S3 (bypass a vercel)",
-        "status": "ON HOLD",
+        "status": "ON PAUSE",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7125,7 +7125,7 @@
       {
         "key": "IT-23275",
         "summary": "Core de Reintegros / Cambio de punto de venta",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 48.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -8157,14 +8157,6 @@
     "summary": "Marketplace",
     "tasks": [
       {
-        "key": "BTP-4382",
-        "summary": "Implementación de Opciones de cuotas en Mercado Libre",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Joaquin Fernandez - Carestino",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4325",
         "summary": "Mercado Libre Mx - No funciona correctamente la sincronización de stock",
         "status": "RESUELTO POR BT",
@@ -8191,7 +8183,7 @@
       {
         "key": "BTP-4299",
         "summary": "Marketplaces / Falabella/ BI - Fecha Carga Externa Falabella - BTP-4299",
-        "status": "TO REFINEMENT",
+        "status": "Redefiniendo",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -8269,9 +8261,17 @@
         "project": "BTP"
       },
       {
+        "key": "IT-24110",
+        "summary": "Implementación de Opciones de cuotas en Mercado Libre",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-23755",
         "summary": "Marketplace / Incluir respuesta de la API en la ventana de confirmación",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 3.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -8279,7 +8279,7 @@
       {
         "key": "IT-23658",
         "summary": "Mercadolibre y Amazon / Modificar condiciones para reintegro automático por cancelación de venta / BTP-4293",
-        "status": "REVIEWING",
+        "status": "TO DEPLOY QA",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -8367,7 +8367,7 @@
       {
         "key": "IT-22750",
         "summary": "[Marketplace][Mercadolibre][Promociones]",
-        "status": "PENDING REVIEW",
+        "status": "REVIEWING",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -9005,7 +9005,7 @@
       {
         "key": "IT-23663",
         "summary": "Front / Visualización estimada al cliente antes de concretar la compra",
-        "status": "REVIEW ON PAUSE",
+        "status": "TO DEPLOY QA",
         "story_points": 12.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -9241,7 +9241,7 @@
       {
         "key": "IT-21424",
         "summary": "Actualizar API resellers",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 80.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17696,9 +17696,17 @@
         "project": "BTP"
       },
       {
+        "key": "IT-24110",
+        "summary": "Implementación de Opciones de cuotas en Mercado Libre",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-23755",
         "summary": "Marketplace / Incluir respuesta de la API en la ventana de confirmación",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 3.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17706,7 +17714,7 @@
       {
         "key": "IT-23658",
         "summary": "Mercadolibre y Amazon / Modificar condiciones para reintegro automático por cancelación de venta / BTP-4293",
-        "status": "REVIEWING",
+        "status": "TO DEPLOY QA",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -17794,7 +17802,7 @@
       {
         "key": "IT-22750",
         "summary": "[Marketplace][Mercadolibre][Promociones]",
-        "status": "PENDING REVIEW",
+        "status": "REVIEWING",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
