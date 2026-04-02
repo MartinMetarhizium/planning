@@ -28,14 +28,6 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4383",
-        "summary": "Flexnet / Estados logísticos se guardan duplicados",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Agustin Ospital",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4357",
         "summary": "Liverpool / Publicaciones BigTicket",
         "status": "RESUELTO POR BT",
@@ -114,6 +106,14 @@
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
+      },
+      {
+        "key": "IT-24137",
+        "summary": "Flexnet / Estados logísticos se guardan duplicados",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
       },
       {
         "key": "IT-24131",
@@ -1754,7 +1754,7 @@
       {
         "key": "IT-23457",
         "summary": "Ecommerce / Rediseño portal de gestiones ",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 68.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1856,7 +1856,7 @@
       {
         "key": "IT-22426",
         "summary": "Integracion via Api - Andesmar",
-        "status": "In Improvement",
+        "status": "BACKLOG",
         "story_points": 16.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
