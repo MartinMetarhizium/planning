@@ -12,14 +12,6 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4413",
-        "summary": "Log v2 Arg - Correo Flash - box no actualiza",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Agustin Ospital",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4386",
         "summary": "No se actualiza el entrega en camioneta perú",
         "status": "Rechazado",
@@ -46,7 +38,7 @@
       {
         "key": "BTP-4169",
         "summary": "Problema Flujo Checkout Ecommerce",
-        "status": "TO REFINEMENT",
+        "status": "Redefiniendo",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -108,6 +100,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-24140",
+        "summary": "Log v2 Arg - Correo Flash - box no actualiza",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
         "key": "IT-24137",
         "summary": "Flexnet / Estados logísticos se guardan duplicados",
         "status": "Pendiente de estimación",
@@ -126,8 +126,8 @@
       {
         "key": "IT-24128",
         "summary": "Guias de remision peru - pesos para partes",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 4.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
       },
@@ -150,7 +150,7 @@
       {
         "key": "IT-24016",
         "summary": "Nicox permite agregar productos a pedidos tienda automáticos luego del cierre",
-        "status": "BACKLOG",
+        "status": "CODE REVIEW",
         "story_points": 3.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -182,7 +182,7 @@
       {
         "key": "IT-23906",
         "summary": "Pedidos tienda / Devoluciones / No permitir editar después del cierre",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -246,7 +246,7 @@
       {
         "key": "IT-23753",
         "summary": "Pedidos tienda / Generación de OP en cierre de pedido",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -326,7 +326,7 @@
       {
         "key": "IT-23578",
         "summary": "MercadoLibre / Consulta de fondeo no funciona como debería",
-        "status": "ON HOLD",
+        "status": "BACKLOG",
         "story_points": 12.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -446,7 +446,7 @@
       {
         "key": "IT-23207",
         "summary": "Mercado libre / Integrar reputación y performance de despachos en Nicox",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 32.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -462,7 +462,7 @@
       {
         "key": "IT-23165",
         "summary": "MercadoPago / Email Gracias por su compra en retiros en tienda",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 6.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -494,7 +494,7 @@
       {
         "key": "IT-23116",
         "summary": "Validación / Normalización del valor \"Importe\" aplicado para \"Pagos Bancarios\" y el pago genérico \"Retenciones\"",
-        "status": "En progreso",
+        "status": "ON HOLD",
         "story_points": 4.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -894,7 +894,7 @@
       {
         "key": "IT-23663",
         "summary": "Front / Visualización estimada al cliente antes de concretar la compra",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 12.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1754,7 +1754,7 @@
       {
         "key": "IT-23457",
         "summary": "Ecommerce / Rediseño portal de gestiones ",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 68.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1856,7 +1856,7 @@
       {
         "key": "IT-22426",
         "summary": "Integracion via Api - Andesmar",
-        "status": "BACKLOG",
+        "status": "PENDING REVIEW",
         "story_points": 16.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -2827,7 +2827,7 @@
       {
         "key": "IT-21781",
         "summary": "Worpik / Mejorar doble scroll por el iframe ",
-        "status": "BACKLOG",
+        "status": "STG TESTING",
         "story_points": 4.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -7021,7 +7021,7 @@
       {
         "key": "IT-23742",
         "summary": "Core de Reintegros / Cambio de producto / Incluir delivery_date cuando es un cambio de producto de una venta despachada",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7061,7 +7061,7 @@
       {
         "key": "IT-23447",
         "summary": "Core de Reintegros / Cambio de producto / Incluir fecha de despacho y flujo para venta despachada",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -7125,7 +7125,7 @@
       {
         "key": "IT-23275",
         "summary": "Core de Reintegros / Cambio de punto de venta",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 48.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -8263,15 +8263,15 @@
       {
         "key": "IT-24110",
         "summary": "Implementación de Opciones de cuotas en Mercado Libre",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 20.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
       },
       {
         "key": "IT-23755",
         "summary": "Marketplace / Incluir respuesta de la API en la ventana de confirmación",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 3.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -8279,7 +8279,7 @@
       {
         "key": "IT-23658",
         "summary": "Mercadolibre y Amazon / Modificar condiciones para reintegro automático por cancelación de venta / BTP-4293",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -8367,7 +8367,7 @@
       {
         "key": "IT-22750",
         "summary": "[Marketplace][Mercadolibre][Promociones]",
-        "status": "REVIEWING",
+        "status": "TO DEPLOY QA",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -8375,7 +8375,7 @@
       {
         "key": "IT-22518",
         "summary": "[Marketplace][Liverpool][Promociones]",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -9005,7 +9005,7 @@
       {
         "key": "IT-23663",
         "summary": "Front / Visualización estimada al cliente antes de concretar la compra",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 12.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -9241,9 +9241,9 @@
       {
         "key": "IT-21424",
         "summary": "Actualizar API resellers",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 80.0,
-        "assignee": "Joaquin Fernandez - Carestino",
+        "assignee": "Diego Martin Gogorza",
         "project": "IT"
       }
     ]
@@ -9409,7 +9409,7 @@
       {
         "key": "IT-22262",
         "summary": "Listas de nacimiento / Agregar seguridad a la generación de cupones",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -9742,7 +9742,7 @@
       {
         "key": "IT-21781",
         "summary": "Worpik / Mejorar doble scroll por el iframe ",
-        "status": "BACKLOG",
+        "status": "STG TESTING",
         "story_points": 4.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -13342,7 +13342,7 @@
       {
         "key": "IT-21781",
         "summary": "Worpik / Mejorar doble scroll por el iframe ",
-        "status": "BACKLOG",
+        "status": "STG TESTING",
         "story_points": 4.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -17698,15 +17698,15 @@
       {
         "key": "IT-24110",
         "summary": "Implementación de Opciones de cuotas en Mercado Libre",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 20.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
       },
       {
         "key": "IT-23755",
         "summary": "Marketplace / Incluir respuesta de la API en la ventana de confirmación",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 3.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17714,7 +17714,7 @@
       {
         "key": "IT-23658",
         "summary": "Mercadolibre y Amazon / Modificar condiciones para reintegro automático por cancelación de venta / BTP-4293",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -17802,7 +17802,7 @@
       {
         "key": "IT-22750",
         "summary": "[Marketplace][Mercadolibre][Promociones]",
-        "status": "REVIEWING",
+        "status": "TO DEPLOY QA",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17810,7 +17810,7 @@
       {
         "key": "IT-22518",
         "summary": "[Marketplace][Liverpool][Promociones]",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
