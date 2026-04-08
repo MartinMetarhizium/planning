@@ -4,17 +4,9 @@
     "summary": "Service Desk",
     "tasks": [
       {
-        "key": "BTP-4420",
-        "summary": "sms masivos / no envia notificacion a la totalidad de ventas",
-        "status": "Por Hacer",
-        "story_points": null,
-        "assignee": "Agustin Ospital",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4386",
         "summary": "No se actualiza el entrega en camioneta perú",
-        "status": "Rechazado",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -100,26 +92,42 @@
         "project": "BTP"
       },
       {
-        "key": "IT-24140",
-        "summary": "Log v2 Arg - Correo Flash - box no actualiza",
+        "key": "IT-24188",
+        "summary": "sms masivos / no envia notificacion a la totalidad de ventas",
         "status": "Pendiente de estimación",
         "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24184",
+        "summary": "Portal BT / Permitir posibilidad de adjuntar archivos",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Diego Martin Gogorza",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24140",
+        "summary": "Log v2 Arg - Correo Flash - box no actualiza",
+        "status": "BACKLOG",
+        "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
       {
         "key": "IT-24137",
         "summary": "Flexnet / Estados logísticos se guardan duplicados",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
       {
         "key": "IT-24131",
         "summary": "Mejora - dispatch and control - preparacion y control manual de ordenes",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 16.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
@@ -134,8 +142,8 @@
       {
         "key": "IT-24124",
         "summary": "Meli - cron de carga no verifica corte correctamente",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
@@ -150,7 +158,7 @@
       {
         "key": "IT-24016",
         "summary": "Nicox permite agregar productos a pedidos tienda automáticos luego del cierre",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 3.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -182,7 +190,7 @@
       {
         "key": "IT-23906",
         "summary": "Pedidos tienda / Devoluciones / No permitir editar después del cierre",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -222,7 +230,7 @@
       {
         "key": "IT-23766",
         "summary": "Pedidos tienda / Ordenes bloqueadas al despachar desde OP",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -246,7 +254,7 @@
       {
         "key": "IT-23753",
         "summary": "Pedidos tienda / Generación de OP en cierre de pedido",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -446,7 +454,7 @@
       {
         "key": "IT-23207",
         "summary": "Mercado libre / Integrar reputación y performance de despachos en Nicox",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 32.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -462,7 +470,7 @@
       {
         "key": "IT-23165",
         "summary": "MercadoPago / Email Gracias por su compra en retiros en tienda",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 6.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -662,7 +670,7 @@
       {
         "key": "IT-22737",
         "summary": "POC / Usar cupones en el checkout y que cierren en 0",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 24.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -894,7 +902,7 @@
       {
         "key": "IT-23663",
         "summary": "Front / Visualización estimada al cliente antes de concretar la compra",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 12.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1309,7 +1317,7 @@
       {
         "key": "IT-23403",
         "summary": "Relevamiento / New Checkout / Problema con costos de envío",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY",
         "story_points": 12.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1357,7 +1365,7 @@
       {
         "key": "IT-22553",
         "summary": "Nueva home / Color de botón del video y animación de lanzamientos",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY",
         "story_points": 5.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1856,7 +1864,7 @@
       {
         "key": "IT-22426",
         "summary": "Integracion via Api - Andesmar",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 16.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -2827,7 +2835,7 @@
       {
         "key": "IT-21781",
         "summary": "Worpik / Mejorar doble scroll por el iframe ",
-        "status": "STG TESTING",
+        "status": "REVIEW ON HOLD",
         "story_points": 4.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -6899,25 +6907,9 @@
     "summary": "Gestiones",
     "tasks": [
       {
-        "key": "BTP-4359",
-        "summary": "Reclamos | Validación de respuesta - Lado Cliente",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4356",
         "summary": "OLD: Redefinir: Reclamos / Vincular reclamos con solicitudes de reintegro y viceversa",
         "status": "CANCELADO POR BT",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4153",
-        "summary": "Reclamos | Templates Logística",
-        "status": "ON PAUSE RELEVAMIENTO",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -6963,6 +6955,22 @@
         "project": "BTP"
       },
       {
+        "key": "IT-24186",
+        "summary": "Reclamos | Validación de respuesta - Lado Cliente",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24180",
+        "summary": "Reclamos | Comportamientos para reclamos logísticos",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-24100",
         "summary": "Reclamos | Core de Acciones y Workflows",
         "status": "BACKLOG",
@@ -6981,7 +6989,7 @@
       {
         "key": "IT-23984",
         "summary": "Reclamos / Integración envío de imagenes mediante S3 (bypass a vercel)",
-        "status": "ON PAUSE",
+        "status": "REVIEW ON HOLD",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7021,7 +7029,7 @@
       {
         "key": "IT-23742",
         "summary": "Core de Reintegros / Cambio de producto / Incluir delivery_date cuando es un cambio de producto de una venta despachada",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7061,7 +7069,7 @@
       {
         "key": "IT-23447",
         "summary": "Core de Reintegros / Cambio de producto / Incluir fecha de despacho y flujo para venta despachada",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -7125,7 +7133,7 @@
       {
         "key": "IT-23275",
         "summary": "Core de Reintegros / Cambio de punto de venta",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 48.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -8182,7 +8190,7 @@
       },
       {
         "key": "BTP-4299",
-        "summary": "Marketplaces / Falabella/ BI - Fecha Carga Externa Falabella - BTP-4299",
+        "summary": "Marketplaces | Falabella | BI - Fecha Carga Externa Falabella - BTP-4299",
         "status": "Redefiniendo",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
@@ -8271,7 +8279,7 @@
       {
         "key": "IT-23755",
         "summary": "Marketplace / Incluir respuesta de la API en la ventana de confirmación",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 3.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -8279,7 +8287,7 @@
       {
         "key": "IT-23658",
         "summary": "Mercadolibre y Amazon / Modificar condiciones para reintegro automático por cancelación de venta / BTP-4293",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -8367,7 +8375,7 @@
       {
         "key": "IT-22750",
         "summary": "[Marketplace][Mercadolibre][Promociones]",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -8375,7 +8383,7 @@
       {
         "key": "IT-22518",
         "summary": "[Marketplace][Liverpool][Promociones]",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -9005,7 +9013,7 @@
       {
         "key": "IT-23663",
         "summary": "Front / Visualización estimada al cliente antes de concretar la compra",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 12.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -9241,7 +9249,7 @@
       {
         "key": "IT-21424",
         "summary": "Actualizar API resellers",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 80.0,
         "assignee": "Diego Martin Gogorza",
         "project": "IT"
@@ -9254,7 +9262,7 @@
     "tasks": [
       {
         "key": "BTP-3464",
-        "summary": "PROY / Relevamiento y propuesta de accesos/seguridad",
+        "summary": "PROY | Relevamiento y propuesta de accesos/seguridad",
         "status": "Pendiente de estimación",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
@@ -9409,7 +9417,7 @@
       {
         "key": "IT-22262",
         "summary": "Listas de nacimiento / Agregar seguridad a la generación de cupones",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -9742,7 +9750,7 @@
       {
         "key": "IT-21781",
         "summary": "Worpik / Mejorar doble scroll por el iframe ",
-        "status": "STG TESTING",
+        "status": "REVIEW ON HOLD",
         "story_points": 4.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -13342,7 +13350,7 @@
       {
         "key": "IT-21781",
         "summary": "Worpik / Mejorar doble scroll por el iframe ",
-        "status": "STG TESTING",
+        "status": "REVIEW ON HOLD",
         "story_points": 4.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -16926,9 +16934,17 @@
         "project": "BTP"
       },
       {
+        "key": "IT-24182",
+        "summary": "Conciliador / Mejora / Eliminar lotes parcialmente conciliados - BTP-4400",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-23982",
         "summary": "Conciliador / Conciliación Manual / No funciona el modal para \"Ver registros conciliados\"",
-        "status": "BACKLOG",
+        "status": "CODE REVIEW",
         "story_points": 8.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -16936,7 +16952,7 @@
       {
         "key": "IT-23980",
         "summary": "Conciliador / Conciliación manual / Demora en mostrar lotes y no permite \"Desconciliar\" conciliaciones manuales - BTP-4395",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17706,7 +17722,7 @@
       {
         "key": "IT-23755",
         "summary": "Marketplace / Incluir respuesta de la API en la ventana de confirmación",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 3.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17714,7 +17730,7 @@
       {
         "key": "IT-23658",
         "summary": "Mercadolibre y Amazon / Modificar condiciones para reintegro automático por cancelación de venta / BTP-4293",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -17802,7 +17818,7 @@
       {
         "key": "IT-22750",
         "summary": "[Marketplace][Mercadolibre][Promociones]",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17810,7 +17826,7 @@
       {
         "key": "IT-22518",
         "summary": "[Marketplace][Liverpool][Promociones]",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
