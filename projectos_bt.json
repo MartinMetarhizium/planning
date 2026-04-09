@@ -92,6 +92,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-24204",
+        "summary": "Garantías parciales / Error al agregar dos partes",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
         "key": "IT-24188",
         "summary": "sms masivos / no envia notificacion a la totalidad de ventas",
         "status": "Pendiente de estimación",
@@ -158,7 +166,7 @@
       {
         "key": "IT-24016",
         "summary": "Nicox permite agregar productos a pedidos tienda automáticos luego del cierre",
-        "status": "STG TESTING",
+        "status": "TO DEPLOY QA",
         "story_points": 3.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -230,7 +238,7 @@
       {
         "key": "IT-23766",
         "summary": "Pedidos tienda / Ordenes bloqueadas al despachar desde OP",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -670,7 +678,7 @@
       {
         "key": "IT-22737",
         "summary": "POC / Usar cupones en el checkout y que cierren en 0",
-        "status": "STG TESTING",
+        "status": "CODE REVIEW",
         "story_points": 24.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1317,7 +1325,7 @@
       {
         "key": "IT-23403",
         "summary": "Relevamiento / New Checkout / Problema con costos de envío",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 12.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1365,7 +1373,7 @@
       {
         "key": "IT-22553",
         "summary": "Nueva home / Color de botón del video y animación de lanzamientos",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 5.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1864,7 +1872,7 @@
       {
         "key": "IT-22426",
         "summary": "Integracion via Api - Andesmar",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 16.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -6981,7 +6989,7 @@
       {
         "key": "IT-23986",
         "summary": "Reclamos / Frontend / Integración envío de imagenes mediante S3 (bypass a vercel)",
-        "status": "REVIEW ON HOLD",
+        "status": "En progreso",
         "story_points": 16.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -8271,7 +8279,7 @@
       {
         "key": "IT-24110",
         "summary": "Implementación de Opciones de cuotas en Mercado Libre",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 20.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -8375,7 +8383,7 @@
       {
         "key": "IT-22750",
         "summary": "[Marketplace][Mercadolibre][Promociones]",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -16944,7 +16952,7 @@
       {
         "key": "IT-23982",
         "summary": "Conciliador / Conciliación Manual / No funciona el modal para \"Ver registros conciliados\"",
-        "status": "CODE REVIEW",
+        "status": "PENDING REVIEW",
         "story_points": 8.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -16952,7 +16960,7 @@
       {
         "key": "IT-23980",
         "summary": "Conciliador / Conciliación manual / Demora en mostrar lotes y no permite \"Desconciliar\" conciliaciones manuales - BTP-4395",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17714,7 +17722,7 @@
       {
         "key": "IT-24110",
         "summary": "Implementación de Opciones de cuotas en Mercado Libre",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 20.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17818,7 +17826,7 @@
       {
         "key": "IT-22750",
         "summary": "[Marketplace][Mercadolibre][Promociones]",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
