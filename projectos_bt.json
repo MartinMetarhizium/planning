@@ -4,48 +4,16 @@
     "summary": "Service Desk",
     "tasks": [
       {
-        "key": "BTP-4455",
-        "summary": "Ventas se marcan como entregadas en la visual web",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Agustin Ospital",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4451",
         "summary": "SD-8593 - Correcion solicitud de preparador / controlador en paises sin dispatch",
-        "status": "TO REFINEMENT",
+        "status": "Redefiniendo",
         "story_points": null,
         "assignee": "Agustin Ospital",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4444",
-        "summary": "Marketplace / Falabella / Capturar estado real de acciones de sincronización",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4443",
-        "summary": "Marketplace / CRON para validar estado de actualizaciones en proceso",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
         "project": "BTP"
       },
       {
         "key": "BTP-4389",
         "summary": "Estado entregado desfasado en Colombia",
-        "status": "Por Hacer",
-        "story_points": null,
-        "assignee": "Agustin Ospital",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4386",
-        "summary": "No se actualiza el entrega en camioneta perú",
         "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Agustin Ospital",
@@ -60,33 +28,9 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4334",
-        "summary": "Pedidos tienda / Modificar fecha de entrega",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4268",
-        "summary": "Facturación | No se visualiza la factura asociada en el print de la venta",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4243",
         "summary": "Falabella / Log de responses de la API",
         "status": "CANCELADO POR BT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4197",
-        "summary": "Carteles / No mostrar productos inactivos",
-        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -102,7 +46,7 @@
       {
         "key": "BTP-4169",
         "summary": "Checkout / Asignación de localidades",
-        "status": "TO REFINEMENT",
+        "status": "Redefiniendo",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -124,22 +68,6 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4146",
-        "summary": "Carteles / Unificar productos con mismo precio y familia",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4087",
-        "summary": "Trabaja aqui - permitir despacho de ventas de distintos puntos de venta. ",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Agustin Ospital",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4086",
         "summary": "Error tarifario - no se puede importar para paises con gran cantidad de localidades",
         "status": "Rechazado",
@@ -153,6 +81,14 @@
         "status": "RESUELTO POR BT",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4044",
+        "summary": "Terminales / Carga masiva / CP",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Agustin Ospital",
         "project": "BTP"
       },
       {
@@ -172,11 +108,91 @@
         "project": "BTP"
       },
       {
+        "key": "IT-24293",
+        "summary": "Facturación | No se visualiza la factura asociada en el print de la venta",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24290",
+        "summary": "Carteles / Unificar productos con mismo precio y familia",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24288",
+        "summary": "Carteles / No mostrar productos inactivos",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24286",
+        "summary": "Pedidos tienda / Modificar fecha de entrega",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24284",
+        "summary": "No se actualiza el entrega en camioneta perú",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24282",
+        "summary": "Marketplace / Falabella / Capturar estado real de acciones de sincronización",
+        "status": "BACKLOG",
+        "story_points": 24.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24280",
+        "summary": "Marketplace / Liverpool / CRON para validar estado de actualizaciones en proceso",
+        "status": "BACKLOG",
+        "story_points": 16.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24272",
+        "summary": "Ventas se marcan como entregadas en la visual web",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24270",
+        "summary": "Trabaja aqui - permitir despacho de ventas de distintos puntos de venta. ",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24263",
+        "summary": "Fix / Errores en la limpieza de componentes",
+        "status": "TO DEPLOY",
+        "story_points": 4.0,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
         "key": "IT-24204",
         "summary": "Garantías parciales / Error al agregar dos partes",
         "status": "Pendiente de estimación",
         "story_points": null,
-        "assignee": "Nicolas Pardo",
+        "assignee": "Gastón Ojeda",
         "project": "IT"
       },
       {
@@ -222,7 +238,7 @@
       {
         "key": "IT-24128",
         "summary": "Guias de remision peru - pesos para partes",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 4.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -254,7 +270,7 @@
       {
         "key": "IT-23912",
         "summary": "Core de cancelación de ventas / MercadoPago / Refund de venta con dos pagos",
-        "status": "En progreso",
+        "status": "ON HOLD",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -294,7 +310,7 @@
       {
         "key": "IT-23846",
         "summary": "Fix / Garantía total / Almacén erróneo en segundos pasos",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -374,9 +390,9 @@
       {
         "key": "IT-23682",
         "summary": "MercadoLibre / Errores en la IPN por direcciones con caracteres especiales",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 8.0,
-        "assignee": "Miguel Armentano",
+        "assignee": "Nicolas Pardo",
         "project": "IT"
       },
       {
@@ -422,7 +438,7 @@
       {
         "key": "IT-23578",
         "summary": "MercadoLibre / Consulta de fondeo no funciona como debería",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 12.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -502,7 +518,7 @@
       {
         "key": "IT-23350",
         "summary": "Fix / Pedidos tienda / Cierre de devoluciones",
-        "status": "En progreso",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1930,13 +1946,13 @@
         "summary": "Liverpool / Integrar a Logística V2",
         "status": "BACKLOG",
         "story_points": 80.0,
-        "assignee": "Nicolas Pardo",
+        "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
       },
       {
         "key": "IT-23050",
         "summary": "Integrar Falabella a Logistica V2",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 70.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -7183,7 +7199,7 @@
         "summary": "Reclamos / Incluir apartado de Facturación",
         "status": "BACKLOG",
         "story_points": 32.0,
-        "assignee": "Miguel Armentano",
+        "assignee": "Nicolas Pardo",
         "project": "IT"
       },
       {
@@ -8253,14 +8269,6 @@
     "summary": "Marketplace",
     "tasks": [
       {
-        "key": "BTP-4406",
-        "summary": "Crear un cron que sincronice las publicaciones de marketplace",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Martín Horn",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4325",
         "summary": "Mercado Libre Mx - No funciona correctamente la sincronización de stock",
         "status": "RESUELTO POR BT",
@@ -8363,6 +8371,14 @@
         "story_points": null,
         "assignee": "Juan Ignacio Morelis - Carestino",
         "project": "BTP"
+      },
+      {
+        "key": "IT-24278",
+        "summary": "Crear un cron que sincronice las publicaciones de marketplace",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
       },
       {
         "key": "IT-24110",
@@ -17032,15 +17048,15 @@
       {
         "key": "IT-24182",
         "summary": "Conciliador / Mejora / Eliminar lotes parcialmente conciliados - BTP-4400",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 8.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
       },
       {
         "key": "IT-23982",
         "summary": "Conciliador / Conciliación Manual / No funciona el modal para \"Ver registros conciliados\"",
-        "status": "REDEFINED",
+        "status": "BACKLOG",
         "story_points": 8.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17056,7 +17072,7 @@
       {
         "key": "IT-23590",
         "summary": "Conciliador / Modificar la conciliación automática para que se produzca de forma asincrónica",
-        "status": "In Improvement",
+        "status": "BACKLOG",
         "story_points": 32.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17806,6 +17822,14 @@
         "story_points": null,
         "assignee": "Alan Fernandez",
         "project": "BTP"
+      },
+      {
+        "key": "IT-24278",
+        "summary": "Crear un cron que sincronice las publicaciones de marketplace",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
       },
       {
         "key": "IT-24110",
