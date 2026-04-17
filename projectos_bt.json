@@ -4,11 +4,35 @@
     "summary": "Service Desk",
     "tasks": [
       {
+        "key": "BTP-4418",
+        "summary": "Especificaciones / Carrusel en Specs de Video y texto",
+        "status": "ON HOLD RELEVAMIENTO",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4417",
+        "summary": "Integración Liverpool MX - Órdenes no ingresadas en NX",
+        "status": "CANCELADO POR BT",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4389",
         "summary": "Estado entregado desfasado en Colombia",
         "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Agustin Ospital",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4368",
+        "summary": "Amazon / Integrar Amazon FULL",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
         "project": "BTP"
       },
       {
@@ -37,8 +61,8 @@
       },
       {
         "key": "BTP-4196",
-        "summary": "Nos aparece un pago devuelto ",
-        "status": "ON HOLD RELEVAMIENTO",
+        "summary": "MercadoPago / No mostrar como disponibles pagos QR/POINT devueltos",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -70,7 +94,7 @@
       {
         "key": "BTP-4086",
         "summary": "Error tarifario - no se puede importar para paises con gran cantidad de localidades",
-        "status": "Rechazado",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -108,9 +132,17 @@
         "project": "BTP"
       },
       {
+        "key": "IT-24336",
+        "summary": "Amazon / Transición a EasyShip en estado Unshipped",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
         "key": "IT-24311",
         "summary": "Sorteo Dominicana",
-        "status": "PENDING REVIEW",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -118,7 +150,7 @@
       {
         "key": "IT-24304",
         "summary": "E-commerce / DO / Agregar tarjetas aceptadas al footer ",
-        "status": "TO DEPLOY QA",
+        "status": "FINISH",
         "story_points": 1.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -134,8 +166,8 @@
       {
         "key": "IT-24293",
         "summary": "Facturación | No se visualiza la factura asociada en el print de la venta",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 5.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
       },
@@ -254,7 +286,7 @@
       {
         "key": "IT-24128",
         "summary": "Guias de remision peru - pesos para partes",
-        "status": "STG TESTING",
+        "status": "TO DEPLOY QA",
         "story_points": 4.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -326,7 +358,7 @@
       {
         "key": "IT-23846",
         "summary": "Fix / Garantía total / Almacén erróneo en segundos pasos",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -790,7 +822,7 @@
       {
         "key": "IT-22737",
         "summary": "POC / Usar cupones en el checkout y que cierren en 0",
-        "status": "PENDING REVIEW",
+        "status": "REVIEWING",
         "story_points": 24.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1882,7 +1914,7 @@
       {
         "key": "IT-23457",
         "summary": "Ecommerce / Rediseño portal de gestiones ",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 68.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -8399,7 +8431,7 @@
       {
         "key": "IT-24110",
         "summary": "Implementación de Opciones de cuotas en Mercado Libre",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 20.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17850,7 +17882,7 @@
       {
         "key": "IT-24110",
         "summary": "Implementación de Opciones de cuotas en Mercado Libre",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 20.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
