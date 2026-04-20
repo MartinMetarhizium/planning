@@ -70,7 +70,7 @@
       {
         "key": "BTP-4169",
         "summary": "Checkout / Asignación de localidades",
-        "status": "Redefiniendo",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -182,16 +182,16 @@
       {
         "key": "IT-24286",
         "summary": "Pedidos tienda / Modificar fecha de entrega",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 4.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
       },
       {
         "key": "IT-24284",
         "summary": "No se actualiza el entrega en camioneta perú",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
       },
@@ -214,8 +214,8 @@
       {
         "key": "IT-24272",
         "summary": "Ventas se marcan como entregadas en la visual web",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "En progreso",
+        "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
       },
@@ -286,7 +286,7 @@
       {
         "key": "IT-24128",
         "summary": "Guias de remision peru - pesos para partes",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 4.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -302,7 +302,7 @@
       {
         "key": "IT-24027",
         "summary": "Mejora visual - Logistica v2 (pedidos a reclamar) ",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 10.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -326,7 +326,7 @@
       {
         "key": "IT-23910",
         "summary": "Listas de nacimiento / Reintegro de venta de aportes",
-        "status": "BACKLOG",
+        "status": "CODE REVIEW",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -334,7 +334,7 @@
       {
         "key": "IT-23908",
         "summary": "Listas de nacimiento / Agregar link al print de los aportes",
-        "status": "BACKLOG",
+        "status": "STG TESTING",
         "story_points": 4.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -358,7 +358,7 @@
       {
         "key": "IT-23846",
         "summary": "Fix / Garantía total / Almacén erróneo en segundos pasos",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -438,7 +438,7 @@
       {
         "key": "IT-23682",
         "summary": "MercadoLibre / Errores en la IPN por direcciones con caracteres especiales",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -1992,7 +1992,7 @@
       {
         "key": "IT-23505",
         "summary": "Liverpool / Integrar a Logística V2",
-        "status": "BACKLOG",
+        "status": "ON PAUSE",
         "story_points": 80.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -2000,7 +2000,7 @@
       {
         "key": "IT-23050",
         "summary": "Integrar Falabella a Logistica V2",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 70.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -8423,8 +8423,8 @@
       {
         "key": "IT-24278",
         "summary": "Crear un cron que sincronice las publicaciones de marketplace",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 20.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
       },
@@ -17874,8 +17874,8 @@
       {
         "key": "IT-24278",
         "summary": "Crear un cron que sincronice las publicaciones de marketplace",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 20.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
       },
@@ -18867,6 +18867,14 @@
     "due_date": "2023-06-30",
     "summary": "Core de facturación",
     "tasks": [
+      {
+        "key": "BTP-4480",
+        "summary": "Facturación / Relevamiento / Notas de crédito quedan procesando, no se ejecuta correctamente y la petición no tiene respuesta",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
       {
         "key": "BTP-1256",
         "summary": "Revisión final",
