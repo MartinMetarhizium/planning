@@ -4,17 +4,9 @@
     "summary": "Service Desk",
     "tasks": [
       {
-        "key": "BTP-4483",
-        "summary": "CAV web CL con intermitencias",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Agustin Ospital",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4445",
-        "summary": "Marketplace / Descargar datos de marketplace / Ocultar opción para markets no MercadoLibre",
-        "status": "PRODUCT BACKLOG",
+        "key": "BTP-4489",
+        "summary": "Reviews / Abrir modal de reviews toma 4 intentos",
+        "status": "EN ARMADO DE PROPUESTA",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -22,7 +14,7 @@
       {
         "key": "BTP-4442",
         "summary": "Cucarda disponible en tienda / Validar stock en 0",
-        "status": "PRODUCT BACKLOG",
+        "status": "Redefiniendo",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -30,7 +22,7 @@
       {
         "key": "BTP-4432",
         "summary": "Integración por producto - ENVIAME (PE/CO/CL)",
-        "status": "PRODUCT BACKLOG",
+        "status": "Redefiniendo",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -38,15 +30,7 @@
       {
         "key": "BTP-4424",
         "summary": "Reservas de almacen outlet y exhibicion ",
-        "status": "Redefiniendo",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4418",
-        "summary": "Especificaciones / Carrusel en Specs de Video y texto",
-        "status": "PRODUCT BACKLOG",
+        "status": "ON PAUSE ARMADO DE PROPUESTA",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -68,25 +52,9 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4368",
-        "summary": "Amazon / Integrar Amazon FULL",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4357",
         "summary": "Liverpool / Publicaciones BigTicket",
         "status": "RESUELTO POR BT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4347",
-        "summary": "Productos / Agregar tipo de archivo Ficha de producto",
-        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -97,22 +65,6 @@
         "status": "CANCELADO POR BT",
         "story_points": null,
         "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4196",
-        "summary": "MercadoPago / No mostrar como disponibles pagos QR/POINT devueltos",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4169",
-        "summary": "Checkout / Asignación de localidades",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Agustin Ospital",
         "project": "BTP"
       },
       {
@@ -134,7 +86,7 @@
       {
         "key": "BTP-4086",
         "summary": "Error tarifario - no se puede importar para paises con gran cantidad de localidades",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -145,14 +97,6 @@
         "status": "RESUELTO POR BT",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4044",
-        "summary": "Terminales / Carga masiva / CP",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Agustin Ospital",
         "project": "BTP"
       },
       {
@@ -170,6 +114,70 @@
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
+      },
+      {
+        "key": "IT-24415",
+        "summary": "Landing Sorteo / añadir GTM",
+        "status": "BACKLOG",
+        "story_points": 1.0,
+        "assignee": "Franco Lorenzo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24411",
+        "summary": "Productos / Agregar tipo de archivo Ficha de producto",
+        "status": "BACKLOG",
+        "story_points": 6.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24407",
+        "summary": "Especificaciones / Carrusel en Specs de Video y texto",
+        "status": "BACKLOG",
+        "story_points": 4.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24404",
+        "summary": "Amazon / Integrar Amazon FULL",
+        "status": "BACKLOG",
+        "story_points": 24.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24402",
+        "summary": "MercadoPago / No mostrar como disponibles pagos QR/POINT devueltos",
+        "status": "BACKLOG",
+        "story_points": 12.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24400",
+        "summary": "Marketplace / Descargar datos de marketplace / Ocultar opción para markets no MercadoLibre",
+        "status": "BACKLOG",
+        "story_points": 3.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24393",
+        "summary": "Terminales / Carga masiva / CP",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24391",
+        "summary": "CAV web CL con intermitencias",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
       },
       {
         "key": "IT-24336",
@@ -230,7 +238,7 @@
       {
         "key": "IT-24284",
         "summary": "No se actualiza el entrega en camioneta perú",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -342,7 +350,7 @@
       {
         "key": "IT-24027",
         "summary": "Mejora visual - Logistica v2 (pedidos a reclamar) ",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 10.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -366,7 +374,7 @@
       {
         "key": "IT-23910",
         "summary": "Listas de nacimiento / Reintegro de venta de aportes",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -374,7 +382,7 @@
       {
         "key": "IT-23908",
         "summary": "Listas de nacimiento / Agregar link al print de los aportes",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 4.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -1769,6 +1777,14 @@
     "summary": "Expenses",
     "tasks": [
       {
+        "key": "BTP-4487",
+        "summary": "Expense | Improvement | IT-23211 | Corrección errores",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-3471",
         "summary": "Integración SAP",
         "status": "Pendiente de estimación",
@@ -1954,7 +1970,7 @@
       {
         "key": "IT-23457",
         "summary": "Ecommerce / Rediseño portal de gestiones ",
-        "status": "En progreso",
+        "status": "ON PAUSE",
         "story_points": 68.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -7149,7 +7165,7 @@
       {
         "key": "IT-24186",
         "summary": "Reclamos | Validación de respuesta - Lado Cliente",
-        "status": "BACKLOG",
+        "status": "ON PAUSE",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -8381,14 +8397,6 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4299",
-        "summary": "Marketplaces | Falabella | BI - Fecha Carga Externa Falabella - BTP-4299",
-        "status": "Redefiniendo",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4188",
         "summary": "Mercado Libre / relevar integración de opciones de compra vía API",
         "status": "RESUELTO POR BT",
@@ -8459,6 +8467,14 @@
         "story_points": null,
         "assignee": "Juan Ignacio Morelis - Carestino",
         "project": "BTP"
+      },
+      {
+        "key": "IT-24398",
+        "summary": "Marketplaces | BI - Fecha Carga Externa Falabella - BTP-4299",
+        "status": "BACKLOG",
+        "story_points": 16.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
       },
       {
         "key": "IT-24278",
@@ -8591,7 +8607,7 @@
       {
         "key": "IT-22346",
         "summary": "[Marketplace][MX][Amazon]",
-        "status": "ON HOLD",
+        "status": "PENDING REVIEW",
         "story_points": 106.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -17169,7 +17185,7 @@
       {
         "key": "IT-23590",
         "summary": "Conciliador / Modificar la conciliación automática para que se produzca de forma asincrónica",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 32.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17921,6 +17937,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-24398",
+        "summary": "Marketplaces | BI - Fecha Carga Externa Falabella - BTP-4299",
+        "status": "BACKLOG",
+        "story_points": 16.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
         "key": "IT-24278",
         "summary": "Crear un cron que sincronice las publicaciones de marketplace",
         "status": "BACKLOG",
@@ -18051,7 +18075,7 @@
       {
         "key": "IT-22346",
         "summary": "[Marketplace][MX][Amazon]",
-        "status": "ON HOLD",
+        "status": "PENDING REVIEW",
         "story_points": 106.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
