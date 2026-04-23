@@ -4,9 +4,17 @@
     "summary": "Service Desk",
     "tasks": [
       {
+        "key": "BTP-4498",
+        "summary": "correo flash - no se reciben estados",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Agustin Ospital",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4489",
         "summary": "Reviews / Abrir modal de reviews toma 4 intentos",
-        "status": "EN ARMADO DE PROPUESTA",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -30,7 +38,7 @@
       {
         "key": "BTP-4424",
         "summary": "Reservas de almacen outlet y exhibicion ",
-        "status": "ON PAUSE ARMADO DE PROPUESTA",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -310,7 +318,7 @@
       {
         "key": "IT-24140",
         "summary": "Log v2 Arg - Correo Flash - box no actualiza",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -374,7 +382,7 @@
       {
         "key": "IT-23910",
         "summary": "Listas de nacimiento / Reintegro de venta de aportes",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -382,7 +390,7 @@
       {
         "key": "IT-23908",
         "summary": "Listas de nacimiento / Agregar link al print de los aportes",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -806,7 +814,7 @@
       {
         "key": "IT-22835",
         "summary": "Checkout / Modal de reutilización de cupón",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 24.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -7165,7 +7173,7 @@
       {
         "key": "IT-24186",
         "summary": "Reclamos | Validación de respuesta - Lado Cliente",
-        "status": "ON PAUSE",
+        "status": "En progreso",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -8487,7 +8495,7 @@
       {
         "key": "IT-24110",
         "summary": "Implementación de Opciones de cuotas en Mercado Libre",
-        "status": "REVIEW ON HOLD",
+        "status": "REDEFINED",
         "story_points": 20.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -8607,7 +8615,7 @@
       {
         "key": "IT-22346",
         "summary": "[Marketplace][MX][Amazon]",
-        "status": "PENDING REVIEW",
+        "status": "REDEFINED",
         "story_points": 106.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -9511,7 +9519,7 @@
         "summary": "Cola SQS bia_gr_sqs y bia_gr_sqs_dlq",
         "status": "FINISH",
         "story_points": 1.0,
-        "assignee": "Facundo Capua",
+        "assignee": "Facundo Capua - Biamex",
         "project": "IT"
       },
       {
@@ -9543,7 +9551,7 @@
         "summary": "Solicitud de ALTA de entorno CO stg",
         "status": "FINISH",
         "story_points": 2.0,
-        "assignee": "Facundo Capua",
+        "assignee": "Facundo Capua - Biamex",
         "project": "IT"
       },
       {
@@ -9591,7 +9599,7 @@
         "summary": "Requerimiento de creacion de usuarios MySQL - BI",
         "status": "FINISH",
         "story_points": 8.0,
-        "assignee": "Facundo Capua",
+        "assignee": "Facundo Capua - Biamex",
         "project": "IT"
       },
       {
@@ -9619,7 +9627,7 @@
       {
         "key": "IT-22300",
         "summary": "Armado de API Clientes",
-        "status": "CODE REVIEW",
+        "status": "ON HOLD",
         "story_points": 120.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -17169,7 +17177,7 @@
       {
         "key": "IT-23982",
         "summary": "Conciliador / Conciliación Manual / No funciona el modal para \"Ver registros conciliados\"",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 8.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17185,7 +17193,7 @@
       {
         "key": "IT-23590",
         "summary": "Conciliador / Modificar la conciliación automática para que se produzca de forma asincrónica",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 32.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17955,7 +17963,7 @@
       {
         "key": "IT-24110",
         "summary": "Implementación de Opciones de cuotas en Mercado Libre",
-        "status": "REVIEW ON HOLD",
+        "status": "REDEFINED",
         "story_points": 20.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -18075,7 +18083,7 @@
       {
         "key": "IT-22346",
         "summary": "[Marketplace][MX][Amazon]",
-        "status": "PENDING REVIEW",
+        "status": "REDEFINED",
         "story_points": 106.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
