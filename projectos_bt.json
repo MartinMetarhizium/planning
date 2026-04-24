@@ -6,9 +6,33 @@
       {
         "key": "BTP-4498",
         "summary": "correo flash - no se reciben estados",
-        "status": "Por Hacer",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Agustin Ospital",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4497",
+        "summary": "ERROR DISPATCH AND CONTROL - PREPARACION DE PRODUCTOS CANCELADOS (URGENTE)",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Agustin Ospital",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4492",
+        "summary": "Al clonar un spec de Video y texto solo clona con el link de Arg ",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4491",
+        "summary": "Specs / Certificaciones / Clonación",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
         "project": "BTP"
       },
       {
@@ -126,7 +150,7 @@
       {
         "key": "IT-24415",
         "summary": "Landing Sorteo / añadir GTM",
-        "status": "BACKLOG",
+        "status": "TO DEPLOY QA",
         "story_points": 1.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -174,8 +198,8 @@
       {
         "key": "IT-24393",
         "summary": "Terminales / Carga masiva / CP",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 3.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
       },
@@ -318,7 +342,7 @@
       {
         "key": "IT-24140",
         "summary": "Log v2 Arg - Correo Flash - box no actualiza",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -326,7 +350,7 @@
       {
         "key": "IT-24137",
         "summary": "Flexnet / Estados logísticos se guardan duplicados",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -358,7 +382,7 @@
       {
         "key": "IT-24027",
         "summary": "Mejora visual - Logistica v2 (pedidos a reclamar) ",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 10.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -374,7 +398,7 @@
       {
         "key": "IT-23912",
         "summary": "Core de cancelación de ventas / MercadoPago / Refund de venta con dos pagos",
-        "status": "ON HOLD",
+        "status": "ON PAUSE",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -878,7 +902,7 @@
       {
         "key": "IT-22737",
         "summary": "POC / Usar cupones en el checkout y que cierren en 0",
-        "status": "REVIEW ON HOLD",
+        "status": "REDEFINED",
         "story_points": 24.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1400,6 +1424,14 @@
     "summary": "Conversiones API",
     "tasks": [
       {
+        "key": "IT-21645",
+        "summary": "Carestino Pets / Frontend / Enviar registros diferidos a Mailchimp y CAPI",
+        "status": "REVIEW ON HOLD",
+        "story_points": 8.0,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-19497",
         "summary": "TEST: CAPI / incorporar eventos upper funell a CAPI",
         "status": "FINISH",
@@ -1785,14 +1817,6 @@
     "summary": "Expenses",
     "tasks": [
       {
-        "key": "BTP-4487",
-        "summary": "Expense | Improvement | IT-23211 | Corrección errores",
-        "status": "Por Hacer",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-3471",
         "summary": "Integración SAP",
         "status": "Pendiente de estimación",
@@ -1903,7 +1927,7 @@
       {
         "key": "BTP-3908",
         "summary": "Implementación de smart autofill ",
-        "status": "Por Hacer",
+        "status": "RESUELTO POR BT",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
@@ -1911,7 +1935,7 @@
       {
         "key": "BTP-3907",
         "summary": "Rediseño de /search",
-        "status": "Por Hacer",
+        "status": "RESUELTO POR BT",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
@@ -1919,7 +1943,7 @@
       {
         "key": "BTP-3906",
         "summary": "Relevamiento de autocompletando y sugerencias inteligentes",
-        "status": "Por Hacer",
+        "status": "RESUELTO POR BT",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
@@ -1927,10 +1951,26 @@
       {
         "key": "BTP-3905",
         "summary": "Relevamiento de funciones actuales",
-        "status": "Por Hacer",
+        "status": "RESUELTO POR BT",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
+      },
+      {
+        "key": "IT-24000",
+        "summary": "Backend / Migración a React de la página de Resultados de Búsqueda",
+        "status": "REVIEW ON HOLD",
+        "story_points": 12.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-23998",
+        "summary": "Migración a React de la página de Resultados de Búsqueda",
+        "status": "En progreso",
+        "story_points": 16.0,
+        "assignee": "Franco Lorenzo",
+        "project": "IT"
       }
     ]
   },
@@ -1976,9 +2016,17 @@
         "project": "BTP"
       },
       {
+        "key": "IT-23611",
+        "summary": "Backend / Ecommerce / Portal de gestiones",
+        "status": "REVIEW ON HOLD",
+        "story_points": 12.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-23457",
         "summary": "Ecommerce / Rediseño portal de gestiones ",
-        "status": "ON PAUSE",
+        "status": "PENDING REVIEW",
         "story_points": 68.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -7173,7 +7221,7 @@
       {
         "key": "IT-24186",
         "summary": "Reclamos | Validación de respuesta - Lado Cliente",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -8495,7 +8543,7 @@
       {
         "key": "IT-24110",
         "summary": "Implementación de Opciones de cuotas en Mercado Libre",
-        "status": "REDEFINED",
+        "status": "En progreso",
         "story_points": 20.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -8615,7 +8663,7 @@
       {
         "key": "IT-22346",
         "summary": "[Marketplace][MX][Amazon]",
-        "status": "REDEFINED",
+        "status": "BACKLOG",
         "story_points": 106.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -17177,7 +17225,7 @@
       {
         "key": "IT-23982",
         "summary": "Conciliador / Conciliación Manual / No funciona el modal para \"Ver registros conciliados\"",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 8.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17963,7 +18011,7 @@
       {
         "key": "IT-24110",
         "summary": "Implementación de Opciones de cuotas en Mercado Libre",
-        "status": "REDEFINED",
+        "status": "En progreso",
         "story_points": 20.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -18083,7 +18131,7 @@
       {
         "key": "IT-22346",
         "summary": "[Marketplace][MX][Amazon]",
-        "status": "REDEFINED",
+        "status": "BACKLOG",
         "story_points": 106.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
