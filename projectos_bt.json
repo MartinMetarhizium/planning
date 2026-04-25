@@ -12,14 +12,6 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4497",
-        "summary": "ERROR DISPATCH AND CONTROL - PREPARACION DE PRODUCTOS CANCELADOS (URGENTE)",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Agustin Ospital",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4492",
         "summary": "Al clonar un spec de Video y texto solo clona con el link de Arg ",
         "status": "PRODUCT BACKLOG",
@@ -148,6 +140,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-24456",
+        "summary": "ERROR DISPATCH AND CONTROL - PREPARACION DE PRODUCTOS CANCELADOS (URGENTE)",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-24415",
         "summary": "Landing Sorteo / añadir GTM",
         "status": "TO DEPLOY QA",
@@ -206,8 +206,8 @@
       {
         "key": "IT-24391",
         "summary": "CAV web CL con intermitencias",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
@@ -342,7 +342,7 @@
       {
         "key": "IT-24140",
         "summary": "Log v2 Arg - Correo Flash - box no actualiza",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -350,7 +350,7 @@
       {
         "key": "IT-24137",
         "summary": "Flexnet / Estados logísticos se guardan duplicados",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -902,7 +902,7 @@
       {
         "key": "IT-22737",
         "summary": "POC / Usar cupones en el checkout y que cierren en 0",
-        "status": "REDEFINED",
+        "status": "BACKLOG",
         "story_points": 24.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
