@@ -28,14 +28,6 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4489",
-        "summary": "Reviews / Abrir modal de reviews toma 4 intentos",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4442",
         "summary": "Cucarda disponible en tienda / Validar stock en 0",
         "status": "Redefiniendo",
@@ -140,17 +132,25 @@
         "project": "BTP"
       },
       {
+        "key": "IT-24475",
+        "summary": "Reviews / Abrir modal de reviews toma 4 intentos",
+        "status": "BACKLOG",
+        "story_points": 4.0,
+        "assignee": "Franco Lorenzo",
+        "project": "IT"
+      },
+      {
         "key": "IT-24456",
         "summary": "ERROR DISPATCH AND CONTROL - PREPARACION DE PRODUCTOS CANCELADOS (URGENTE)",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "En progreso",
+        "story_points": 4.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
       },
       {
         "key": "IT-24415",
         "summary": "Landing Sorteo / añadir GTM",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 1.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -326,7 +326,7 @@
       {
         "key": "IT-24188",
         "summary": "sms masivos / no envia notificacion a la totalidad de ventas",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -342,7 +342,7 @@
       {
         "key": "IT-24140",
         "summary": "Log v2 Arg - Correo Flash - box no actualiza",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -350,7 +350,7 @@
       {
         "key": "IT-24137",
         "summary": "Flexnet / Estados logísticos se guardan duplicados",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -382,7 +382,7 @@
       {
         "key": "IT-24027",
         "summary": "Mejora visual - Logistica v2 (pedidos a reclamar) ",
-        "status": "REVIEW ON HOLD",
+        "status": "REDEFINED",
         "story_points": 10.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -1426,7 +1426,7 @@
       {
         "key": "IT-21645",
         "summary": "Carestino Pets / Frontend / Enviar registros diferidos a Mailchimp y CAPI",
-        "status": "REVIEW ON HOLD",
+        "status": "REVIEWING",
         "story_points": 8.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -1967,7 +1967,7 @@
       {
         "key": "IT-23998",
         "summary": "Migración a React de la página de Resultados de Búsqueda",
-        "status": "En progreso",
+        "status": "REVIEWING",
         "story_points": 16.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -2026,7 +2026,7 @@
       {
         "key": "IT-23457",
         "summary": "Ecommerce / Rediseño portal de gestiones ",
-        "status": "PENDING REVIEW",
+        "status": "REVIEWING",
         "story_points": 68.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -7221,7 +7221,7 @@
       {
         "key": "IT-24186",
         "summary": "Reclamos | Validación de respuesta - Lado Cliente",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7229,7 +7229,7 @@
       {
         "key": "IT-24180",
         "summary": "Reclamos | Comportamientos para reclamos logísticos",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -8543,7 +8543,7 @@
       {
         "key": "IT-24110",
         "summary": "Implementación de Opciones de cuotas en Mercado Libre",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 20.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -9673,9 +9673,17 @@
     "summary": "Clientes",
     "tasks": [
       {
+        "key": "IT-24477",
+        "summary": "Clientes / FRONT / Desarrollo de las interfaces necesarias para Nicox del módulo Clientes",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Franco Lorenzo",
+        "project": "IT"
+      },
+      {
         "key": "IT-22300",
         "summary": "Armado de API Clientes",
-        "status": "ON HOLD",
+        "status": "STG TESTING",
         "story_points": 120.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -9949,16 +9957,7 @@
   "BTP-3126": {
     "due_date": null,
     "summary": "API CLIENTES",
-    "tasks": [
-      {
-        "key": "BTP-4482",
-        "summary": "Clientes / FRONT / Desarrollo de las interfaces necesarias para Nicox del módulo Clientes",
-        "status": "Por Hacer",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      }
-    ]
+    "tasks": []
   },
   "BTP-3089": {
     "due_date": "2025-08-15",
@@ -17225,7 +17224,7 @@
       {
         "key": "IT-23982",
         "summary": "Conciliador / Conciliación Manual / No funciona el modal para \"Ver registros conciliados\"",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 8.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -18011,7 +18010,7 @@
       {
         "key": "IT-24110",
         "summary": "Implementación de Opciones de cuotas en Mercado Libre",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 20.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
