@@ -4,9 +4,25 @@
     "summary": "Service Desk",
     "tasks": [
       {
+        "key": "BTP-4509",
+        "summary": "Core de cancelación de ventas / Ventas de tienda",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4506",
+        "summary": "CAV / MELI FULL / No validar DNI",
+        "status": "TO REFINEMENT",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4498",
         "summary": "correo flash - no se reciben estados",
-        "status": "PRODUCT BACKLOG",
+        "status": "CANCELADO POR BT",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -46,7 +62,7 @@
       {
         "key": "BTP-4424",
         "summary": "Reservas de almacen outlet y exhibicion ",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -134,7 +150,7 @@
       {
         "key": "IT-24475",
         "summary": "Reviews / Abrir modal de reviews toma 4 intentos",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 4.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -142,7 +158,7 @@
       {
         "key": "IT-24456",
         "summary": "ERROR DISPATCH AND CONTROL - PREPARACION DE PRODUCTOS CANCELADOS (URGENTE)",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 4.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -150,7 +166,7 @@
       {
         "key": "IT-24415",
         "summary": "Landing Sorteo / añadir GTM",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 1.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -270,7 +286,7 @@
       {
         "key": "IT-24284",
         "summary": "No se actualiza el entrega en camioneta perú",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -350,7 +366,7 @@
       {
         "key": "IT-24137",
         "summary": "Flexnet / Estados logísticos se guardan duplicados",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -734,7 +750,7 @@
       {
         "key": "IT-23116",
         "summary": "Validación / Normalización del valor \"Importe\" aplicado para \"Pagos Bancarios\" y el pago genérico \"Retenciones\"",
-        "status": "ON HOLD",
+        "status": "ON PAUSE",
         "story_points": 4.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -838,7 +854,7 @@
       {
         "key": "IT-22835",
         "summary": "Checkout / Modal de reutilización de cupón",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 24.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1967,7 +1983,7 @@
       {
         "key": "IT-23998",
         "summary": "Migración a React de la página de Resultados de Búsqueda",
-        "status": "REVIEWING",
+        "status": "REVIEW ON HOLD",
         "story_points": 16.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -2026,7 +2042,7 @@
       {
         "key": "IT-23457",
         "summary": "Ecommerce / Rediseño portal de gestiones ",
-        "status": "REVIEWING",
+        "status": "REVIEW ON HOLD",
         "story_points": 68.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -7219,9 +7235,17 @@
         "project": "BTP"
       },
       {
+        "key": "IT-24365",
+        "summary": "Fix de error de collation (utf8mb3 → utf8mb4) en carestinoventas_claim_form_value",
+        "status": "TO DEPLOY QA",
+        "story_points": 1.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-24186",
         "summary": "Reclamos | Validación de respuesta - Lado Cliente",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 16.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7229,7 +7253,7 @@
       {
         "key": "IT-24180",
         "summary": "Reclamos | Comportamientos para reclamos logísticos",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -8543,7 +8567,7 @@
       {
         "key": "IT-24110",
         "summary": "Implementación de Opciones de cuotas en Mercado Libre",
-        "status": "STG TESTING",
+        "status": "REVIEW ON HOLD",
         "story_points": 20.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -9675,15 +9699,15 @@
       {
         "key": "IT-24477",
         "summary": "Clientes / FRONT / Desarrollo de las interfaces necesarias para Nicox del módulo Clientes",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 82.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
       },
       {
         "key": "IT-22300",
         "summary": "Armado de API Clientes",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 120.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -17240,7 +17264,7 @@
       {
         "key": "IT-23590",
         "summary": "Conciliador / Modificar la conciliación automática para que se produzca de forma asincrónica",
-        "status": "CODE REVIEW",
+        "status": "PENDING REVIEW",
         "story_points": 32.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -18010,7 +18034,7 @@
       {
         "key": "IT-24110",
         "summary": "Implementación de Opciones de cuotas en Mercado Libre",
-        "status": "STG TESTING",
+        "status": "REVIEW ON HOLD",
         "story_points": 20.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
