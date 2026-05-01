@@ -6,7 +6,7 @@
       {
         "key": "BTP-4503",
         "summary": "Log v2 - error en estados",
-        "status": "Por Hacer",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -15,6 +15,14 @@
         "key": "BTP-4498",
         "summary": "correo flash - no se reciben estados",
         "status": "CANCELADO POR BT",
+        "story_points": null,
+        "assignee": "Agustin Ospital",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4470",
+        "summary": "Corregir integracion Andesmar",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -366,7 +374,7 @@
       {
         "key": "IT-24137",
         "summary": "Flexnet / Estados logísticos se guardan duplicados",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
