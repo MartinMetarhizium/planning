@@ -4,11 +4,27 @@
     "summary": "Service Desk",
     "tasks": [
       {
-        "key": "BTP-4503",
-        "summary": "Log v2 - error en estados",
+        "key": "BTP-4523",
+        "summary": "Ecommerce / Centrar span de descuento y arreglar ícono de medios de pago",
         "status": "PRODUCT BACKLOG",
         "story_points": null,
-        "assignee": "Agustin Ospital",
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4521",
+        "summary": "Sugerencias en el carrito / Ordenar familias por stock",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4519",
+        "summary": "Marketplace Amazon / Sincronizar precio de publicaciones FULL",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
         "project": "BTP"
       },
       {
@@ -130,6 +146,14 @@
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
+      },
+      {
+        "key": "IT-24551",
+        "summary": "Log v2 - error en estados",
+        "status": "En progreso",
+        "story_points": 8.0,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
       },
       {
         "key": "IT-24519",
@@ -350,7 +374,7 @@
       {
         "key": "IT-24188",
         "summary": "sms masivos / no envia notificacion a la totalidad de ventas",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -374,7 +398,7 @@
       {
         "key": "IT-24137",
         "summary": "Flexnet / Estados logísticos se guardan duplicados",
-        "status": "STG TESTING",
+        "status": "ON HOLD",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -406,7 +430,7 @@
       {
         "key": "IT-24027",
         "summary": "Mejora visual - Logistica v2 (pedidos a reclamar) ",
-        "status": "REDEFINED",
+        "status": "BACKLOG",
         "story_points": 10.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -758,7 +782,7 @@
       {
         "key": "IT-23116",
         "summary": "Validación / Normalización del valor \"Importe\" aplicado para \"Pagos Bancarios\" y el pago genérico \"Retenciones\"",
-        "status": "STG TESTING",
+        "status": "TO DEPLOY",
         "story_points": 4.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -1840,6 +1864,14 @@
     "due_date": "2025-07-11",
     "summary": "Expenses",
     "tasks": [
+      {
+        "key": "BTP-4505",
+        "summary": "Expense | Tarjeta | Al dar de alta  o editar un Fondo del tipo \"Tarjeta\" valida el nombre del dueño de tarjeta en los múltiples tipos de fondos",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
       {
         "key": "BTP-3471",
         "summary": "Integración SAP",
@@ -8703,7 +8735,7 @@
       {
         "key": "IT-22346",
         "summary": "[Marketplace][MX][Amazon]",
-        "status": "BACKLOG",
+        "status": "CODE REVIEW",
         "story_points": 106.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -17280,7 +17312,7 @@
       {
         "key": "IT-23590",
         "summary": "Conciliador / Modificar la conciliación automática para que se produzca de forma asincrónica",
-        "status": "PENDING REVIEW",
+        "status": "REVIEWING",
         "story_points": 32.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -18170,7 +18202,7 @@
       {
         "key": "IT-22346",
         "summary": "[Marketplace][MX][Amazon]",
-        "status": "BACKLOG",
+        "status": "CODE REVIEW",
         "story_points": 106.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -19038,7 +19070,7 @@
       {
         "key": "BTP-4480",
         "summary": "Facturación / Relevamiento / Notas de crédito quedan procesando, no se ejecuta correctamente y la petición no tiene respuesta",
-        "status": "Rechazado",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
