@@ -4,6 +4,14 @@
     "summary": "Service Desk",
     "tasks": [
       {
+        "key": "BTP-4538",
+        "summary": "Facturación | Arg | Botón \"Ver factura\" en Nicox Reseller",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4523",
         "summary": "Ecommerce / Centrar span de descuento y arreglar ícono de medios de pago",
         "status": "PRODUCT BACKLOG",
@@ -31,6 +39,14 @@
         "key": "BTP-4498",
         "summary": "correo flash - no se reciben estados",
         "status": "CANCELADO POR BT",
+        "story_points": null,
+        "assignee": "Agustin Ospital",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4472",
+        "summary": "Consolidacion bultos - Nicox",
+        "status": "Por Hacer",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -86,7 +102,7 @@
       {
         "key": "BTP-4272",
         "summary": "Facturación | Arg | Botón \"Ver factura\" en Nicox Reseller",
-        "status": "PRODUCT BACKLOG",
+        "status": "CANCELADO POR BT",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -150,7 +166,7 @@
       {
         "key": "IT-24551",
         "summary": "Log v2 - error en estados",
-        "status": "En progreso",
+        "status": "ON HOLD",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -168,7 +184,7 @@
         "summary": "Reservas de almacen outlet y exhibicion ",
         "status": "BACKLOG",
         "story_points": 8.0,
-        "assignee": "Sin asignar",
+        "assignee": "Alan Mori - Carestino",
         "project": "IT"
       },
       {
@@ -176,7 +192,7 @@
         "summary": "Specs / Video y texto / Clonar traducciones PIM",
         "status": "BACKLOG",
         "story_points": 12.0,
-        "assignee": "Sin asignar",
+        "assignee": "Alan Mori - Carestino",
         "project": "IT"
       },
       {
@@ -286,7 +302,7 @@
       {
         "key": "IT-24302",
         "summary": "SD-8593 - Correcion solicitud de preparador / controlador en paises sin dispatch",
-        "status": "ON PAUSE",
+        "status": "CODE REVIEW",
         "story_points": 6.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -374,7 +390,7 @@
       {
         "key": "IT-24188",
         "summary": "sms masivos / no envia notificacion a la totalidad de ventas",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -782,7 +798,7 @@
       {
         "key": "IT-23116",
         "summary": "Validación / Normalización del valor \"Importe\" aplicado para \"Pagos Bancarios\" y el pago genérico \"Retenciones\"",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -1864,14 +1880,6 @@
     "due_date": "2025-07-11",
     "summary": "Expenses",
     "tasks": [
-      {
-        "key": "BTP-4505",
-        "summary": "Expense | Tarjeta | Al dar de alta  o editar un Fondo del tipo \"Tarjeta\" valida el nombre del dueño de tarjeta en los múltiples tipos de fondos",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
       {
         "key": "BTP-3471",
         "summary": "Integración SAP",
@@ -7309,7 +7317,7 @@
       {
         "key": "IT-24100",
         "summary": "Reclamos | Core de Acciones y Workflows",
-        "status": "En progreso",
+        "status": "FINISH",
         "story_points": 20.0,
         "assignee": "Diego Martin Gogorza",
         "project": "IT"
@@ -8501,6 +8509,14 @@
     "summary": "Marketplace",
     "tasks": [
       {
+        "key": "BTP-4510",
+        "summary": "Falabella | Aporte promocional Falabella - Agregar setting para activarlo como parte de la orden o desactivarlo",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4325",
         "summary": "Mercado Libre Mx - No funciona correctamente la sincronización de stock",
         "status": "RESUELTO POR BT",
@@ -8735,7 +8751,7 @@
       {
         "key": "IT-22346",
         "summary": "[Marketplace][MX][Amazon]",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 106.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -17312,7 +17328,7 @@
       {
         "key": "IT-23590",
         "summary": "Conciliador / Modificar la conciliación automática para que se produzca de forma asincrónica",
-        "status": "REVIEWING",
+        "status": "REDEFINED",
         "story_points": 32.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -18202,7 +18218,7 @@
       {
         "key": "IT-22346",
         "summary": "[Marketplace][MX][Amazon]",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 106.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
