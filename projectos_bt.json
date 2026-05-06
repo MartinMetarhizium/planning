@@ -6,33 +6,9 @@
       {
         "key": "BTP-4538",
         "summary": "Facturación | Arg | Botón \"Ver factura\" en Nicox Reseller",
-        "status": "PRODUCT BACKLOG",
+        "status": "Redefiniendo",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4523",
-        "summary": "Ecommerce / Centrar span de descuento y arreglar ícono de medios de pago",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4521",
-        "summary": "Sugerencias en el carrito / Ordenar familias por stock",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4519",
-        "summary": "Marketplace Amazon / Sincronizar precio de publicaciones FULL",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
         "project": "BTP"
       },
       {
@@ -52,17 +28,9 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4470",
-        "summary": "Corregir integracion Andesmar",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Agustin Ospital",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4442",
         "summary": "Cucarda disponible en tienda / Validar stock en 0",
-        "status": "ON HOLD ARMADO DE PROPUESTA",
+        "status": "ON PAUSE ARMADO DE PROPUESTA",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -86,7 +54,7 @@
       {
         "key": "BTP-4389",
         "summary": "Estado entregado desfasado en Colombia",
-        "status": "PRODUCT BACKLOG",
+        "status": "Redefiniendo",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -132,14 +100,6 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4086",
-        "summary": "Error tarifario - no se puede importar para paises con gran cantidad de localidades",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Agustin Ospital",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4046",
         "summary": "Nicox - Error alicuotas de retención de iibb de AGIP (Caba)",
         "status": "RESUELTO POR BT",
@@ -158,15 +118,63 @@
       {
         "key": "BTP-3997",
         "summary": "Cupones / Utilizar setting de cantidad de decimales",
-        "status": "ON HOLD RELEVAMIENTO",
+        "status": "CANCELADO POR BT",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
       },
       {
+        "key": "IT-24593",
+        "summary": "LowFix / Error en el calculo de stock",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24589",
+        "summary": "Error tarifario - no se puede importar para paises con gran cantidad de localidades",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Miguel Armentano",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24587",
+        "summary": "Corregir integracion Andesmar",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24585",
+        "summary": "Marketplace Amazon / Sincronizar precio de publicaciones FULL",
+        "status": "BACKLOG",
+        "story_points": 40.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24583",
+        "summary": "Sugerencias en el carrito / Ordenar familias por stock",
+        "status": "BACKLOG",
+        "story_points": 2.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24581",
+        "summary": "Ecommerce / Centrar span de descuento y arreglar ícono de medios de pago",
+        "status": "BACKLOG",
+        "story_points": 1.0,
+        "assignee": "Franco Lorenzo",
+        "project": "IT"
+      },
+      {
         "key": "IT-24551",
         "summary": "Log v2 - error en estados",
-        "status": "ON HOLD",
+        "status": "PENDING REVIEW",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -302,7 +310,7 @@
       {
         "key": "IT-24302",
         "summary": "SD-8593 - Correcion solicitud de preparador / controlador en paises sin dispatch",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 6.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -2048,6 +2056,22 @@
     "summary": "Rediseño Portal Gestion",
     "tasks": [
       {
+        "key": "BTP-4547",
+        "summary": "Rediseño Portal Gestión / Invertir orden de selección de productos reclamados",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4546",
+        "summary": "Rediseño Web / Panel de Mis datos",
+        "status": "EN RELEVAMIENTO",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4123",
         "summary": "Backend / Pasar selección de productos a paso 1",
         "status": "CANCELADO POR BT",
@@ -2082,7 +2106,7 @@
       {
         "key": "IT-23611",
         "summary": "Backend / Ecommerce / Portal de gestiones",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -2090,7 +2114,7 @@
       {
         "key": "IT-23457",
         "summary": "Ecommerce / Rediseño portal de gestiones ",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 68.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -8509,14 +8533,6 @@
     "summary": "Marketplace",
     "tasks": [
       {
-        "key": "BTP-4510",
-        "summary": "Falabella | Aporte promocional Falabella - Agregar setting para activarlo como parte de la orden o desactivarlo",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4325",
         "summary": "Mercado Libre Mx - No funciona correctamente la sincronización de stock",
         "status": "RESUELTO POR BT",
@@ -8611,6 +8627,14 @@
         "story_points": null,
         "assignee": "Juan Ignacio Morelis - Carestino",
         "project": "BTP"
+      },
+      {
+        "key": "IT-24576",
+        "summary": "Falabella | Aporte promocional Falabella - Agregar setting para activarlo como parte de la orden o desactivarlo",
+        "status": "BACKLOG",
+        "story_points": 4.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
       },
       {
         "key": "IT-24398",
@@ -8751,7 +8775,7 @@
       {
         "key": "IT-22346",
         "summary": "[Marketplace][MX][Amazon]",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 106.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -18080,6 +18104,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-24576",
+        "summary": "Falabella | Aporte promocional Falabella - Agregar setting para activarlo como parte de la orden o desactivarlo",
+        "status": "BACKLOG",
+        "story_points": 4.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
         "key": "IT-24398",
         "summary": "Marketplaces | BI - Fecha Carga Externa Falabella - BTP-4299",
         "status": "BACKLOG",
@@ -18218,7 +18250,7 @@
       {
         "key": "IT-22346",
         "summary": "[Marketplace][MX][Amazon]",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 106.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -19086,7 +19118,7 @@
       {
         "key": "BTP-4480",
         "summary": "Facturación / Relevamiento / Notas de crédito quedan procesando, no se ejecuta correctamente y la petición no tiene respuesta",
-        "status": "PRODUCT BACKLOG",
+        "status": "CANCELADO POR BT",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
