@@ -918,7 +918,7 @@
       {
         "key": "IT-22835",
         "summary": "Checkout / Modal de reutilización de cupón",
-        "status": "PENDING REVIEW",
+        "status": "REVIEWING",
         "story_points": 24.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -2200,7 +2200,7 @@
       {
         "key": "IT-23505",
         "summary": "Liverpool / Integrar a Logística V2",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 80.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -3187,7 +3187,7 @@
       {
         "key": "IT-21786",
         "summary": "Worpik / Backend / Mejorar doble scroll por el iframe",
-        "status": "BACKLOG",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -6583,7 +6583,7 @@
       {
         "key": "IT-23536",
         "summary": "CAV / Despacho automático de ventas FULL",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 10.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -7341,7 +7341,7 @@
       {
         "key": "IT-24180",
         "summary": "Reclamos | Comportamientos para reclamos logísticos",
-        "status": "REVIEWING",
+        "status": "REVIEW ON HOLD",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -10150,7 +10150,7 @@
       {
         "key": "IT-21786",
         "summary": "Worpik / Backend / Mejorar doble scroll por el iframe",
-        "status": "BACKLOG",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -13750,7 +13750,7 @@
       {
         "key": "IT-21786",
         "summary": "Worpik / Backend / Mejorar doble scroll por el iframe",
-        "status": "BACKLOG",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
