@@ -38,7 +38,7 @@
       {
         "key": "BTP-4442",
         "summary": "Cucarda disponible en tienda / Validar stock en 0",
-        "status": "ON PAUSE ARMADO DE PROPUESTA",
+        "status": "ON HOLD ARMADO DE PROPUESTA",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -150,8 +150,8 @@
       {
         "key": "IT-24587",
         "summary": "Corregir integracion Andesmar",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 3.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
       },
@@ -294,7 +294,7 @@
       {
         "key": "IT-24336",
         "summary": "Amazon / Transición a EasyShip en estado Unshipped",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 10.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -342,7 +342,7 @@
       {
         "key": "IT-24286",
         "summary": "Pedidos tienda / Modificar fecha de entrega",
-        "status": "STG TESTING",
+        "status": "TO DEPLOY QA",
         "story_points": 4.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -398,7 +398,7 @@
       {
         "key": "IT-24204",
         "summary": "Garantías parciales / Error al agregar dos partes",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 16.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -422,7 +422,7 @@
       {
         "key": "IT-24140",
         "summary": "Log v2 Arg - Correo Flash - box no actualiza",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -942,7 +942,7 @@
       {
         "key": "IT-22760",
         "summary": "Garantía parcial / Despiece automático",
-        "status": "ON PAUSE",
+        "status": "ON HOLD",
         "story_points": 21.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1594,6 +1594,14 @@
     "due_date": "2025-06-30",
     "summary": "Rediseño web - Carestino",
     "tasks": [
+      {
+        "key": "BTP-4576",
+        "summary": "Home Page / Overlay gris en el video principal",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
       {
         "key": "BTP-4003",
         "summary": "Optimización de rendimiento Home",
@@ -3195,7 +3203,7 @@
       {
         "key": "IT-21781",
         "summary": "Worpik / Mejorar doble scroll por el iframe ",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 4.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -7323,6 +7331,14 @@
         "project": "IT"
       },
       {
+        "key": "IT-24370",
+        "summary": "Reclamos  | Core de Acciones y Workflows",
+        "status": "En progreso",
+        "story_points": 100.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-24365",
         "summary": "Fix de error de collation (utf8mb3 → utf8mb4) en carestinoventas_claim_form_value",
         "status": "FINISH",
@@ -7341,7 +7357,7 @@
       {
         "key": "IT-24180",
         "summary": "Reclamos | Comportamientos para reclamos logísticos",
-        "status": "REVIEW ON HOLD",
+        "status": "BACKLOG",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -10158,7 +10174,7 @@
       {
         "key": "IT-21781",
         "summary": "Worpik / Mejorar doble scroll por el iframe ",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 4.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -13758,7 +13774,7 @@
       {
         "key": "IT-21781",
         "summary": "Worpik / Mejorar doble scroll por el iframe ",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 4.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -17368,7 +17384,7 @@
       {
         "key": "IT-23590",
         "summary": "Conciliador / Modificar la conciliación automática para que se produzca de forma asincrónica",
-        "status": "REDEFINED",
+        "status": "BACKLOG",
         "story_points": 32.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
