@@ -4,11 +4,51 @@
     "summary": "Service Desk",
     "tasks": [
       {
+        "key": "BTP-4558",
+        "summary": "Movimientos de stock / EP en movimientos entre almacenes",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4548",
+        "summary": "Productos / Spec / Limpieza automática en clonación",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4540",
+        "summary": "Automatizar carga de productos externos CR",
+        "status": "EN RELEVAMIENTO",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4539",
+        "summary": "Liverpool FULL",
+        "status": "ON HOLD RELEVAMIENTO",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4538",
-        "summary": "Facturación | Arg | Botón \"Ver factura\" en Nicox Reseller",
+        "summary": "HOLD | Facturación | Arg | Botón \"Ver factura\" en Nicox Reseller",
         "status": "Redefiniendo",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4522",
+        "summary": "GTM / Agregar en seguimiento y mis-gestiones",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
         "project": "BTP"
       },
       {
@@ -52,6 +92,14 @@
         "project": "BTP"
       },
       {
+        "key": "BTP-4430",
+        "summary": "Falabella / Permitir reintentos al recibir webhook nuevo",
+        "status": "CANCELADO POR BT",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4417",
         "summary": "Integración Liverpool MX - Órdenes no ingresadas en NX",
         "status": "CANCELADO POR BT",
@@ -63,6 +111,14 @@
         "key": "BTP-4357",
         "summary": "Liverpool / Publicaciones BigTicket",
         "status": "RESUELTO POR BT",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4294",
+        "summary": "Carteles / Filtrar primero por familia y luego por SKU agrupador",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -326,7 +382,7 @@
       {
         "key": "IT-24293",
         "summary": "Facturación | No se visualiza la factura asociada en el print de la venta",
-        "status": "En progreso",
+        "status": "ON HOLD",
         "story_points": 5.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -534,7 +590,7 @@
       {
         "key": "IT-23786",
         "summary": "CRON de exportación de ordenes de compra falla",
-        "status": "BACKLOG",
+        "status": "CODE REVIEW",
         "story_points": 3.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -918,7 +974,7 @@
       {
         "key": "IT-22835",
         "summary": "Checkout / Modal de reutilización de cupón",
-        "status": "REVIEWING",
+        "status": "REVIEW ON HOLD",
         "story_points": 24.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -942,7 +998,7 @@
       {
         "key": "IT-22760",
         "summary": "Garantía parcial / Despiece automático",
-        "status": "ON HOLD",
+        "status": "ON PAUSE",
         "story_points": 21.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1595,14 +1651,6 @@
     "summary": "Rediseño web - Carestino",
     "tasks": [
       {
-        "key": "BTP-4576",
-        "summary": "Home Page / Overlay gris en el video principal",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4003",
         "summary": "Optimización de rendimiento Home",
         "status": "Pendiente de estimación",
@@ -1633,6 +1681,14 @@
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
+      },
+      {
+        "key": "IT-24635",
+        "summary": "Home Page / Overlay gris en el video principal",
+        "status": "BACKLOG",
+        "story_points": 1.0,
+        "assignee": "Franco Lorenzo",
+        "project": "IT"
       },
       {
         "key": "IT-23405",
@@ -8663,7 +8719,7 @@
       {
         "key": "IT-24398",
         "summary": "Marketplaces | BI - Fecha Carga Externa Falabella - BTP-4299",
-        "status": "En progreso",
+        "status": "ON HOLD",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -17360,7 +17416,7 @@
       {
         "key": "IT-24182",
         "summary": "Conciliador / Mejora / Eliminar lotes parcialmente conciliados - BTP-4400",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 8.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -18146,7 +18202,7 @@
       {
         "key": "IT-24398",
         "summary": "Marketplaces | BI - Fecha Carga Externa Falabella - BTP-4299",
-        "status": "En progreso",
+        "status": "ON HOLD",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
