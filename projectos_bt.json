@@ -4,6 +4,38 @@
     "summary": "Service Desk",
     "tasks": [
       {
+        "key": "BTP-4584",
+        "summary": "IPN Mercado Pago / Clasificación incorrecta de pagos INSTORE",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4557",
+        "summary": "Fix / Preventas / No se está validando el stock físico",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4552",
+        "summary": "Se agrega envío en garantías parciales",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4541",
+        "summary": "Alerta/Aviso de órdenes con reclamo en MP vigente",
+        "status": "ON HOLD RELEVAMIENTO",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4540",
         "summary": "Automatizar carga de productos externos CR",
         "status": "ON HOLD ARMADO DE PROPUESTA",
@@ -14,7 +46,7 @@
       {
         "key": "BTP-4539",
         "summary": "Liverpool FULL",
-        "status": "ON HOLD RELEVAMIENTO",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -46,7 +78,7 @@
       {
         "key": "BTP-4522",
         "summary": "GTM / Agregar en seguimiento y mis-gestiones",
-        "status": "Redefiniendo",
+        "status": "ON HOLD ARMADO DE PROPUESTA",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -57,6 +89,14 @@
         "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4502",
+        "summary": "log v2 inversa partes",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Agustin Ospital",
         "project": "BTP"
       },
       {
@@ -238,7 +278,7 @@
       {
         "key": "IT-24587",
         "summary": "Corregir integracion Andesmar",
-        "status": "BACKLOG",
+        "status": "STG TESTING",
         "story_points": 3.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -374,7 +414,7 @@
       {
         "key": "IT-24391",
         "summary": "CAV web CL con intermitencias",
-        "status": "BACKLOG",
+        "status": "STG TESTING",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -382,7 +422,7 @@
       {
         "key": "IT-24336",
         "summary": "Amazon / Transición a EasyShip en estado Unshipped",
-        "status": "STG TESTING",
+        "status": "TO DEPLOY QA",
         "story_points": 10.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -414,7 +454,7 @@
       {
         "key": "IT-24293",
         "summary": "Facturación | No se visualiza la factura asociada en el print de la venta",
-        "status": "ON HOLD",
+        "status": "PENDING REVIEW",
         "story_points": 5.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -446,7 +486,7 @@
       {
         "key": "IT-24282",
         "summary": "Marketplace / Falabella / Capturar estado real de acciones de sincronización",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -566,7 +606,7 @@
       {
         "key": "IT-23912",
         "summary": "Core de cancelación de ventas / MercadoPago / Refund de venta con dos pagos",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -622,7 +662,7 @@
       {
         "key": "IT-23786",
         "summary": "CRON de exportación de ordenes de compra falla",
-        "status": "CODE REVIEW",
+        "status": "PENDING REVIEW",
         "story_points": 3.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -1104,6 +1144,14 @@
         "summary": "Liverpool - Facturación automática",
         "status": "FINISH",
         "story_points": 32.0,
+        "assignee": "Miguel Armentano",
+        "project": "IT"
+      },
+      {
+        "key": "IT-22258",
+        "summary": "Reservas / Problema al borrar reserva con percepciones",
+        "status": "TO DEPLOY QA",
+        "story_points": 8.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
       }
@@ -2170,7 +2218,7 @@
       {
         "key": "BTP-4547",
         "summary": "Rediseño Portal Gestión / Invertir orden de selección de productos reclamados",
-        "status": "Redefiniendo",
+        "status": "ON HOLD ARMADO DE PROPUESTA",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -2178,7 +2226,7 @@
       {
         "key": "BTP-4546",
         "summary": "Rediseño Web / Panel de Mis datos",
-        "status": "Redefiniendo",
+        "status": "ON HOLD ARMADO DE PROPUESTA",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -6687,7 +6735,7 @@
       {
         "key": "IT-23536",
         "summary": "CAV / Despacho automático de ventas FULL",
-        "status": "STG TESTING",
+        "status": "TO DEPLOY QA",
         "story_points": 10.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -8759,7 +8807,7 @@
       {
         "key": "IT-24278",
         "summary": "Crear un cron que sincronice las publicaciones de marketplace",
-        "status": "En progreso",
+        "status": "ON HOLD",
         "story_points": 20.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17448,7 +17496,7 @@
       {
         "key": "IT-24182",
         "summary": "Conciliador / Mejora / Eliminar lotes parcialmente conciliados - BTP-4400",
-        "status": "CODE REVIEW",
+        "status": "PENDING REVIEW",
         "story_points": 8.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -18242,7 +18290,7 @@
       {
         "key": "IT-24278",
         "summary": "Crear un cron que sincronice las publicaciones de marketplace",
-        "status": "En progreso",
+        "status": "ON HOLD",
         "story_points": 20.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
