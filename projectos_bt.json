@@ -116,43 +116,11 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4472",
-        "summary": "Consolidacion bultos - Nicox",
-        "status": "Por Hacer",
-        "story_points": null,
-        "assignee": "Agustin Ospital",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4442",
         "summary": "Cucarda disponible en tienda / Validar stock en 0",
         "status": "ON HOLD ARMADO DE PROPUESTA",
         "story_points": null,
         "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4434",
-        "summary": "Integracion por producto - Andesmar ",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Agustin Ospital",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4433",
-        "summary": "Integracion por producto - UES (UY)",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Agustin Ospital",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4432",
-        "summary": "Integración por producto - ENVIAME (PE/CO/CL)",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Agustin Ospital",
         "project": "BTP"
       },
       {
@@ -238,8 +206,8 @@
       {
         "key": "IT-24646",
         "summary": "Productos / Spec / Limpieza automática en clonación",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 6.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
@@ -430,7 +398,7 @@
       {
         "key": "IT-24391",
         "summary": "CAV web CL con intermitencias",
-        "status": "REVIEWING",
+        "status": "REVIEW ON HOLD",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1054,7 +1022,7 @@
       {
         "key": "IT-22835",
         "summary": "Checkout / Modal de reutilización de cupón",
-        "status": "REDEFINED",
+        "status": "BACKLOG",
         "story_points": 24.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
