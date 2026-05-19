@@ -6,7 +6,7 @@
       {
         "key": "BTP-4584",
         "summary": "IPN Mercado Pago / Clasificación incorrecta de pagos INSTORE",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -15,6 +15,14 @@
         "key": "BTP-4557",
         "summary": "Fix / Preventas / No se está validando el stock físico",
         "status": "TO REFINEMENT",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4554",
+        "summary": "Ventas Amazon - Costo de envío",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -38,7 +46,7 @@
       {
         "key": "BTP-4540",
         "summary": "Automatizar carga de productos externos CR",
-        "status": "ON HOLD ARMADO DE PROPUESTA",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -78,7 +86,7 @@
       {
         "key": "BTP-4522",
         "summary": "GTM / Agregar en seguimiento y mis-gestiones",
-        "status": "ON HOLD ARMADO DE PROPUESTA",
+        "status": "ON PAUSE ARMADO DE PROPUESTA",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -86,7 +94,7 @@
       {
         "key": "BTP-4518",
         "summary": "Familias relacionadas / Cambiar a select con buscador",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -94,7 +102,7 @@
       {
         "key": "BTP-4513",
         "summary": "Marketplace / Mercado Libre / Error cuando la familia tiene mismo sku que individual",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -212,6 +220,14 @@
         "project": "BTP"
       },
       {
+        "key": "BTP-3408",
+        "summary": "Cambios de estados - Productos nuevos/renovación de stock",
+        "status": "ON HOLD RELEVAMIENTO",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
         "key": "IT-24646",
         "summary": "Productos / Spec / Limpieza automática en clonación",
         "status": "BACKLOG",
@@ -294,7 +310,7 @@
       {
         "key": "IT-24581",
         "summary": "Ecommerce / Centrar span de descuento y arreglar ícono de medios de pago",
-        "status": "En progreso",
+        "status": "BACKLOG",
         "story_points": 1.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -358,7 +374,7 @@
       {
         "key": "IT-24411",
         "summary": "Productos / Agregar tipo de archivo Ficha de producto",
-        "status": "BACKLOG",
+        "status": "CODE REVIEW",
         "story_points": 6.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -406,7 +422,7 @@
       {
         "key": "IT-24391",
         "summary": "CAV web CL con intermitencias",
-        "status": "REVIEW ON HOLD",
+        "status": "REDEFINED",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -494,7 +510,7 @@
       {
         "key": "IT-24270",
         "summary": "Trabaja aqui - permitir despacho de ventas de distintos puntos de venta. ",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 6.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -790,7 +806,7 @@
       {
         "key": "IT-23493",
         "summary": "Recepción Perdida de reintegros / Cambiar a queue",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 12.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -814,7 +830,7 @@
       {
         "key": "IT-23389",
         "summary": "Ventas / Segundos pasos / Bloquear búsqueda de cliente",
-        "status": "BACKLOG",
+        "status": "STG TESTING",
         "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1094,7 +1110,7 @@
       {
         "key": "IT-22737",
         "summary": "POC / Usar cupones en el checkout y que cierren en 0",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 24.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1757,7 +1773,7 @@
       {
         "key": "IT-24635",
         "summary": "Home Page / Overlay gris en el video principal",
-        "status": "BACKLOG",
+        "status": "TO DEPLOY QA",
         "story_points": 1.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -2035,7 +2051,7 @@
       {
         "key": "BTP-4594",
         "summary": "Expense | Mercadopago | configurar el campo signingSecret dentro de Terraform PROD para Mercadopago",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -2043,7 +2059,7 @@
       {
         "key": "BTP-4592",
         "summary": "Expense | MercadoPago API | Validar source_id y omitir duplicados en importación de reportes",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -2059,7 +2075,7 @@
       {
         "key": "BTP-4403",
         "summary": "Expense | Tarjeta | Lógica de cuotas en todos los circuitos",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -2234,7 +2250,7 @@
       {
         "key": "BTP-4547",
         "summary": "Rediseño Portal Gestión / Invertir orden de selección de productos reclamados",
-        "status": "ON HOLD ARMADO DE PROPUESTA",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -7443,6 +7459,14 @@
     "summary": "Gestiones",
     "tasks": [
       {
+        "key": "BTP-4600",
+        "summary": "Reclamos | Workflow | Devolución - Producto sin despachar",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4356",
         "summary": "OLD: Redefinir: Reclamos / Vincular reclamos con solicitudes de reintegro y viceversa",
         "status": "CANCELADO POR BT",
@@ -8831,7 +8855,7 @@
       {
         "key": "IT-24278",
         "summary": "Crear un cron que sincronice las publicaciones de marketplace",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 20.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -9971,7 +9995,7 @@
       {
         "key": "IT-24604",
         "summary": "Clientes | API | Gaps UI-API – Bloqueantes y mejoras necesarias",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -10265,7 +10289,7 @@
       {
         "key": "BTP-4559",
         "summary": "Clientes | FRONT | Formularios de creación y edición de cliente",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -18323,7 +18347,7 @@
       {
         "key": "IT-24278",
         "summary": "Crear un cron que sincronice las publicaciones de marketplace",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 20.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -19318,16 +19342,16 @@
     "tasks": [
       {
         "key": "BTP-4596",
-        "summary": "Facturación | MX | Liverpool | Facturas con registro en pre_invoice_data_order en \"pending\"",
-        "status": "PRODUCT BACKLOG",
+        "summary": "Facturación | MX | Liverpool | Relevamiento | Facturas con registro en pre_invoice_data_order en \"pending\"",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
       },
       {
         "key": "BTP-4595",
-        "summary": "Facturación | Perú | Facturas con registro en pre_invoice_data_order en \"pending\"",
-        "status": "PRODUCT BACKLOG",
+        "summary": "Facturación | Perú | Relevamiento | Facturas con registro en pre_invoice_data_order en \"pending\"",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
