@@ -310,7 +310,7 @@
       {
         "key": "IT-24581",
         "summary": "Ecommerce / Centrar span de descuento y arreglar ícono de medios de pago",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 1.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -9963,7 +9963,7 @@
       {
         "key": "IT-24711",
         "summary": "Clientes | FRONT | Formularios de creación y edición de cliente",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 42.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -17428,7 +17428,7 @@
       {
         "key": "IT-23385",
         "summary": "Modificar migración del campo  type_code para la integración Falabella",
-        "status": "CODE REVIEW",
+        "status": "ON HOLD",
         "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -19108,7 +19108,7 @@
       {
         "key": "IT-23385",
         "summary": "Modificar migración del campo  type_code para la integración Falabella",
-        "status": "CODE REVIEW",
+        "status": "ON HOLD",
         "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -19307,6 +19307,14 @@
     "due_date": "2023-06-30",
     "summary": "Core de facturación",
     "tasks": [
+      {
+        "key": "BTP-4613",
+        "summary": "Core Facturación | Relevamiento | Documentación del funcionamiento de la API",
+        "status": "EN RELEVAMIENTO",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
       {
         "key": "BTP-4480",
         "summary": "Facturación / Relevamiento / Notas de crédito quedan procesando, no se ejecuta correctamente y la petición no tiene respuesta",
