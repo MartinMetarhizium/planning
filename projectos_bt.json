@@ -38,7 +38,7 @@
       {
         "key": "BTP-4541",
         "summary": "MercadoPago / Alerta de pagos en mediación",
-        "status": "ON PAUSE ARMADO DE PROPUESTA",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -119,6 +119,14 @@
         "key": "BTP-4498",
         "summary": "correo flash - no se reciben estados",
         "status": "CANCELADO POR BT",
+        "story_points": null,
+        "assignee": "Agustin Ospital",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4488",
+        "summary": "Enviame CL / Problema con la remisión en el despacho",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -222,7 +230,7 @@
       {
         "key": "IT-24717",
         "summary": "Productos | |Certificaciones | Poder cargar certificado en modulo subgrupo de NICOX",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 24.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -262,7 +270,7 @@
       {
         "key": "IT-24597",
         "summary": "Estado entregado desfasado en Colombia",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 5.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -310,7 +318,7 @@
       {
         "key": "IT-24581",
         "summary": "Ecommerce / Centrar span de descuento y arreglar ícono de medios de pago",
-        "status": "PENDING REVIEW",
+        "status": "Rechazado",
         "story_points": 1.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -374,7 +382,7 @@
       {
         "key": "IT-24411",
         "summary": "Productos / Agregar tipo de archivo Ficha de producto",
-        "status": "REVIEW ON HOLD",
+        "status": "REDEFINED",
         "story_points": 6.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -398,7 +406,7 @@
       {
         "key": "IT-24402",
         "summary": "MercadoPago / No mostrar como disponibles pagos QR/POINT devueltos",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 12.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -414,7 +422,7 @@
       {
         "key": "IT-24393",
         "summary": "Terminales / Carga masiva / CP",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 3.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -462,7 +470,7 @@
       {
         "key": "IT-24293",
         "summary": "Facturación | No se visualiza la factura asociada en el print de la venta",
-        "status": "REVIEWING",
+        "status": "TO DEPLOY QA",
         "story_points": 5.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -502,7 +510,7 @@
       {
         "key": "IT-24272",
         "summary": "Ventas se marcan como entregadas en la visual web",
-        "status": "En progreso",
+        "status": "ON PAUSE",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -798,7 +806,7 @@
       {
         "key": "IT-23495",
         "summary": "Productos y stock / Imprimir QR Zebra no funciona en mobile",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -2049,6 +2057,14 @@
     "summary": "Expenses",
     "tasks": [
       {
+        "key": "BTP-4617",
+        "summary": "Gastos rendidos en el modulo de Expense Tarjeta que entran en estado \"Pendiente\"",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-3471",
         "summary": "Integración SAP",
         "status": "Pendiente de estimación",
@@ -2218,7 +2234,7 @@
       {
         "key": "BTP-4546",
         "summary": "Rediseño Web / Panel de Mis datos",
-        "status": "ON PAUSE ARMADO DE PROPUESTA",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -7493,7 +7509,7 @@
       {
         "key": "IT-24370",
         "summary": "Reclamos  | Core de Acciones y Workflows",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 100.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -17544,7 +17560,7 @@
       {
         "key": "IT-23590",
         "summary": "Conciliador / Modificar la conciliación automática para que se produzca de forma asincrónica",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 32.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
