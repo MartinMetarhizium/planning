@@ -4,57 +4,9 @@
     "summary": "Service Desk",
     "tasks": [
       {
-        "key": "BTP-4584",
-        "summary": "IPN Mercado Pago / Clasificación incorrecta de pagos INSTORE",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4557",
-        "summary": "Fix / Preventas / No se está validando el stock físico",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4554",
-        "summary": "Ventas Amazon - Costo de envío",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4552",
-        "summary": "Se agrega envío en garantías parciales",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4541",
-        "summary": "MercadoPago / Alerta de pagos en mediación",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4540",
         "summary": "Automatizar carga de productos externos CR",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4539",
-        "summary": "Liverpool FULL",
-        "status": "TO REFINEMENT",
+        "status": "Refinement propia",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -70,15 +22,7 @@
       {
         "key": "BTP-4534",
         "summary": "Productos / Propagar cambio de estado",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4531",
-        "summary": "Clasificación cuarentena / Error en el filtro de tienda con ordenes de garantía",
-        "status": "TO REFINEMENT",
+        "status": "CANCELADO POR BT",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -87,22 +31,6 @@
         "key": "BTP-4522",
         "summary": "GTM / Agregar en seguimiento y mis-gestiones",
         "status": "ON HOLD ARMADO DE PROPUESTA",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4518",
-        "summary": "Familias relacionadas / Cambiar a select con buscador",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4513",
-        "summary": "Marketplace / Mercado Libre / Error cuando la familia tiene mismo sku que individual",
-        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -119,14 +47,6 @@
         "key": "BTP-4498",
         "summary": "correo flash - no se reciben estados",
         "status": "CANCELADO POR BT",
-        "story_points": null,
-        "assignee": "Agustin Ospital",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4488",
-        "summary": "Enviame CL / Problema con la remisión en el despacho",
-        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -226,6 +146,94 @@
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
+      },
+      {
+        "key": "IT-24832",
+        "summary": "IPN Mercado Pago / Clasificación incorrecta de pagos INSTORE",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24830",
+        "summary": "Enviame CL / Problema con la remisión en el despacho",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24826",
+        "summary": "Liverpool FULL",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24824",
+        "summary": "Fix / Preventas / No se está validando el stock físico",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24822",
+        "summary": "CAV / Amazon / Sacar validaciones mayorista_direccion y mayorista_codigo_postal",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24820",
+        "summary": "Se agrega envío en garantías parciales",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24818",
+        "summary": "Familias relacionadas / Cambiar a select con buscador",
+        "status": "BACKLOG",
+        "story_points": 2.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24816",
+        "summary": "Clasificación cuarentena / Error en el filtro de tienda con ordenes de garantía",
+        "status": "BACKLOG",
+        "story_points": 4.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24812",
+        "summary": "Marketplace / Mercado Libre / Error cuando la familia tiene mismo sku que individual",
+        "status": "BACKLOG",
+        "story_points": 8.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24810",
+        "summary": "MercadoPago / Alerta de pagos en mediación",
+        "status": "BACKLOG",
+        "story_points": 12.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24808",
+        "summary": "Ventas Amazon - Costo de envío",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
       },
       {
         "key": "IT-24717",
@@ -342,7 +350,7 @@
       {
         "key": "IT-24517",
         "summary": "Reservas de almacen outlet y exhibicion ",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -1054,7 +1062,7 @@
       {
         "key": "IT-22835",
         "summary": "Checkout / Modal de reutilización de cupón",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 24.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1779,6 +1787,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-24814",
+        "summary": "Rediseño Web / Panel de Mis datos",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Franco Lorenzo",
+        "project": "IT"
+      },
+      {
         "key": "IT-24635",
         "summary": "Home Page / Overlay gris en el video principal",
         "status": "TO DEPLOY",
@@ -2057,14 +2073,6 @@
     "summary": "Expenses",
     "tasks": [
       {
-        "key": "BTP-4617",
-        "summary": "Gastos rendidos en el modulo de Expense Tarjeta que entran en estado \"Pendiente\"",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-3471",
         "summary": "Integración SAP",
         "status": "Pendiente de estimación",
@@ -2226,15 +2234,7 @@
       {
         "key": "BTP-4547",
         "summary": "Portal de Gestiones / Multiselección de productos reclamados",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4546",
-        "summary": "Rediseño Web / Panel de Mis datos",
-        "status": "PRODUCT BACKLOG",
+        "status": "Redefiniendo",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -9987,7 +9987,7 @@
       {
         "key": "IT-24604",
         "summary": "Clientes | API | Gaps UI-API – Bloqueantes y mejoras necesarias",
-        "status": "CODE REVIEW",
+        "status": "En progreso",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -17560,7 +17560,7 @@
       {
         "key": "IT-23590",
         "summary": "Conciliador / Modificar la conciliación automática para que se produzca de forma asincrónica",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 32.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
