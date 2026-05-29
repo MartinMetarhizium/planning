@@ -54,7 +54,7 @@
       {
         "key": "BTP-4504",
         "summary": "Cierre de pedidos FULL",
-        "status": "EN RELEVAMIENTO",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -382,7 +382,7 @@
       {
         "key": "IT-24517",
         "summary": "Reservas de almacen outlet y exhibicion ",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -390,7 +390,7 @@
       {
         "key": "IT-24513",
         "summary": "Specs / Video y texto / Clonar traducciones PIM",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -446,7 +446,7 @@
       {
         "key": "IT-24402",
         "summary": "MercadoPago / No mostrar como disponibles pagos QR/POINT devueltos",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 12.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -550,7 +550,7 @@
       {
         "key": "IT-24272",
         "summary": "Ventas se marcan como entregadas en la visual web",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -638,7 +638,7 @@
       {
         "key": "IT-24027",
         "summary": "Mejora visual - Logistica v2 (pedidos a reclamar) ",
-        "status": "CODE REVIEW",
+        "status": "PENDING REVIEW",
         "story_points": 10.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -798,7 +798,7 @@
       {
         "key": "IT-23602",
         "summary": "Retiras / Modificar validación de stock",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1094,7 +1094,7 @@
       {
         "key": "IT-22835",
         "summary": "Checkout / Modal de reutilización de cupón",
-        "status": "STG TESTING",
+        "status": "REVIEWING",
         "story_points": 24.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1829,7 +1829,7 @@
       {
         "key": "IT-24635",
         "summary": "Home Page / Overlay gris en el video principal",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 1.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -2400,7 +2400,7 @@
       {
         "key": "IT-23505",
         "summary": "Liverpool / Integrar a Logística V2",
-        "status": "ON PAUSE",
+        "status": "ON HOLD",
         "story_points": 80.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -8871,7 +8871,7 @@
       {
         "key": "IT-24278",
         "summary": "Crear un cron que sincronice las publicaciones de marketplace",
-        "status": "REVIEWING",
+        "status": "TO DEPLOY QA",
         "story_points": 20.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -10019,7 +10019,7 @@
       {
         "key": "IT-24604",
         "summary": "Clientes | API | Gaps UI-API – Bloqueantes y mejoras necesarias",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -10309,7 +10309,16 @@
   "BTP-3126": {
     "due_date": null,
     "summary": "API CLIENTES",
-    "tasks": []
+    "tasks": [
+      {
+        "key": "BTP-4633",
+        "summary": "Clientes | API | Campos y endpoints faltantes para funcionalidades del portal",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Sin asignar",
+        "project": "BTP"
+      }
+    ]
   },
   "BTP-3089": {
     "due_date": "2025-08-15",
@@ -17476,7 +17485,7 @@
       {
         "key": "IT-23385",
         "summary": "Modificar migración del campo  type_code para la integración Falabella",
-        "status": "CODE REVIEW",
+        "status": "PENDING REVIEW",
         "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -18362,7 +18371,7 @@
       {
         "key": "IT-24278",
         "summary": "Crear un cron que sincronice las publicaciones de marketplace",
-        "status": "REVIEWING",
+        "status": "TO DEPLOY QA",
         "story_points": 20.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -19156,7 +19165,7 @@
       {
         "key": "IT-23385",
         "summary": "Modificar migración del campo  type_code para la integración Falabella",
-        "status": "CODE REVIEW",
+        "status": "PENDING REVIEW",
         "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
