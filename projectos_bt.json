@@ -454,7 +454,7 @@
       {
         "key": "IT-24400",
         "summary": "Marketplace / Descargar datos de marketplace / Ocultar opción para markets no MercadoLibre",
-        "status": "BACKLOG",
+        "status": "PENDING REVIEW",
         "story_points": 3.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -798,7 +798,7 @@
       {
         "key": "IT-23602",
         "summary": "Retiras / Modificar validación de stock",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1094,7 +1094,7 @@
       {
         "key": "IT-22835",
         "summary": "Checkout / Modal de reutilización de cupón",
-        "status": "REVIEWING",
+        "status": "TO DEPLOY QA",
         "story_points": 24.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1821,8 +1821,8 @@
       {
         "key": "IT-24814",
         "summary": "Rediseño Web / Panel de Mis datos",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 24.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
       },
