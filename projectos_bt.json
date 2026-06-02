@@ -6,7 +6,7 @@
       {
         "key": "BTP-4638",
         "summary": "Expense | FIX | No es posible autorizar un anticipo",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -14,7 +14,7 @@
       {
         "key": "BTP-4625",
         "summary": "Falabella / Error de caracteres especiales",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -52,6 +52,14 @@
         "project": "BTP"
       },
       {
+        "key": "BTP-4533",
+        "summary": "Facturacion y guias - BPA - Peru",
+        "status": "ON HOLD RELEVAMIENTO",
+        "story_points": null,
+        "assignee": "Agustin Ospital",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4522",
         "summary": "GTM / Agregar en seguimiento y mis-gestiones",
         "status": "ON HOLD ARMADO DE PROPUESTA",
@@ -62,7 +70,7 @@
       {
         "key": "BTP-4504",
         "summary": "Cierre de pedidos FULL",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -86,7 +94,7 @@
       {
         "key": "BTP-4452",
         "summary": "Reposicion Dispatch and control - Validacion posicion ",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -198,8 +206,8 @@
       {
         "key": "IT-24830",
         "summary": "Enviame CL / Problema con la remisión en el despacho",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 10.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
@@ -214,24 +222,24 @@
       {
         "key": "IT-24824",
         "summary": "Fix / Preventas / No se está validando el stock físico",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "FINISH",
+        "story_points": 0.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
       {
         "key": "IT-24822",
         "summary": "CAV / Amazon / Sacar validaciones mayorista_direccion y mayorista_codigo_postal",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 6.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
       {
         "key": "IT-24820",
         "summary": "Se agrega envío en garantías parciales",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
@@ -398,7 +406,7 @@
       {
         "key": "IT-24513",
         "summary": "Specs / Video y texto / Clonar traducciones PIM",
-        "status": "STG TESTING",
+        "status": "REVIEW ON HOLD",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -558,7 +566,7 @@
       {
         "key": "IT-24272",
         "summary": "Ventas se marcan como entregadas en la visual web",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -622,7 +630,7 @@
       {
         "key": "IT-24131",
         "summary": "Mejora - dispatch and control - preparacion y control manual de ordenes",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 16.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -638,7 +646,7 @@
       {
         "key": "IT-24124",
         "summary": "Meli - cron de carga no verifica corte correctamente",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -646,7 +654,7 @@
       {
         "key": "IT-24027",
         "summary": "Mejora visual - Logistica v2 (pedidos a reclamar) ",
-        "status": "Rechazado",
+        "status": "REDEFINED",
         "story_points": 10.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -814,7 +822,7 @@
       {
         "key": "IT-23600",
         "summary": "MercadoPago y Amazon / Setting para configurar la URL base de la API",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1006,7 +1014,7 @@
       {
         "key": "IT-23109",
         "summary": "Carestinoventas_tableu_global / Modificación lógica campo \"from_refund_id\"",
-        "status": "BACKLOG",
+        "status": "STG TESTING",
         "story_points": 6.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -2400,7 +2408,7 @@
       {
         "key": "IT-24683",
         "summary": "Consolidacion bultos - Nicox",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 142.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -7525,7 +7533,7 @@
       {
         "key": "IT-24715",
         "summary": "Reclamos | Workflow | Cambio de producto - Producto sin despachar",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7549,7 +7557,7 @@
       {
         "key": "IT-24370",
         "summary": "Reclamos  | Core de Acciones y Workflows",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 100.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -10027,7 +10035,7 @@
       {
         "key": "IT-24604",
         "summary": "Clientes | API | Gaps UI-API – Bloqueantes y mejoras necesarias",
-        "status": "CODE REVIEW",
+        "status": "ON HOLD",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -10323,7 +10331,7 @@
         "summary": "Clientes | API | Campos y endpoints faltantes para funcionalidades del portal",
         "status": "PRODUCT BACKLOG",
         "story_points": null,
-        "assignee": "Sin asignar",
+        "assignee": "Mauricio Reinhardt",
         "project": "BTP"
       }
     ]
@@ -19375,7 +19383,7 @@
       {
         "key": "BTP-4639",
         "summary": "Core Facturación | Relevamiento y mejora de resiliencia - API Invoice ↔ integración con Nicox",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
