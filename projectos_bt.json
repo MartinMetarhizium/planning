@@ -4,35 +4,11 @@
     "summary": "Service Desk",
     "tasks": [
       {
-        "key": "BTP-4638",
-        "summary": "Expense | FIX | No es posible autorizar un anticipo",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4625",
-        "summary": "Falabella / Error de caracteres especiales",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4591",
         "summary": "Remisión de pedidos a Andesmar, tipo TERMINAL con error de remisión",
-        "status": "EN RELEVAMIENTO",
+        "status": "ON HOLD RELEVAMIENTO",
         "story_points": null,
         "assignee": "Agustin Ospital",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4540",
-        "summary": "Carga masiva de productos externos",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
         "project": "BTP"
       },
       {
@@ -92,14 +68,6 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4452",
-        "summary": "Reposicion Dispatch and control - Validacion posicion ",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Agustin Ospital",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4442",
         "summary": "Cucarda disponible en tienda / Validar stock en 0",
         "status": "ON HOLD ARMADO DE PROPUESTA",
@@ -127,6 +95,14 @@
         "key": "BTP-4357",
         "summary": "Liverpool / Publicaciones BigTicket",
         "status": "RESUELTO POR BT",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4328",
+        "summary": "Acciones comerciales / al extender, no repesta la extensión y corta la acción igualmente",
+        "status": "ON HOLD RELEVAMIENTO",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -164,6 +140,14 @@
         "project": "BTP"
       },
       {
+        "key": "BTP-4103",
+        "summary": "Despacho de mercadería a sucursal del transporte utilizado",
+        "status": "ON HOLD",
+        "story_points": null,
+        "assignee": "Agustin Ospital",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4046",
         "summary": "Nicox - Error alicuotas de retención de iibb de AGIP (Caba)",
         "status": "RESUELTO POR BT",
@@ -194,6 +178,86 @@
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
+      },
+      {
+        "key": "IT-24930",
+        "summary": "Reposicion WMS - Validacion posicion ",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24927",
+        "summary": "CAPI Offline / Mejoras de estructura del payload",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Martín Horn",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24925",
+        "summary": "CAPI / Envío repetido de eventos Purchase",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24923",
+        "summary": "Falabella / Error de caracteres especiales",
+        "status": "BACKLOG",
+        "story_points": 6.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24921",
+        "summary": "FusionAuth / Sincronizar roles con Fusion en el guardado de perfiles",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24919",
+        "summary": "Carga masiva de productos externos",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24917",
+        "summary": "Limpieza de caché automática / Revendedores",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24915",
+        "summary": "Productos / Specs / Limpieza automática de caché en update por PIM",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24907",
+        "summary": "Error en el cálculo del \"Precio sin impuestos nacionales\" en la web",
+        "status": "BACKLOG",
+        "story_points": 1.0,
+        "assignee": "Franco Lorenzo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24901",
+        "summary": "Expense | FIX | No es posible autorizar un anticipo",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Martín Horn",
+        "project": "IT"
       },
       {
         "key": "IT-24832",
@@ -342,7 +406,7 @@
       {
         "key": "IT-24589",
         "summary": "Error tarifario - no se puede importar para paises con gran cantidad de localidades",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 68.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -374,7 +438,7 @@
       {
         "key": "IT-24581",
         "summary": "Ecommerce / Centrar span de descuento y arreglar ícono de medios de pago",
-        "status": "BACKLOG",
+        "status": "STG TESTING",
         "story_points": 1.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -454,7 +518,7 @@
       {
         "key": "IT-24404",
         "summary": "Amazon / Integrar Amazon FULL",
-        "status": "En progreso",
+        "status": "REVIEW ON HOLD",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -478,7 +542,7 @@
       {
         "key": "IT-24393",
         "summary": "Terminales / Carga masiva / CP",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 3.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -654,7 +718,7 @@
       {
         "key": "IT-24027",
         "summary": "Mejora visual - Logistica v2 (pedidos a reclamar) ",
-        "status": "REDEFINED",
+        "status": "BACKLOG",
         "story_points": 10.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -1014,7 +1078,7 @@
       {
         "key": "IT-23109",
         "summary": "Carestinoventas_tableu_global / Modificación lógica campo \"from_refund_id\"",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 6.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -7557,7 +7621,7 @@
       {
         "key": "IT-24370",
         "summary": "Reclamos  | Core de Acciones y Workflows",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 100.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -10025,9 +10089,17 @@
     "summary": "Clientes",
     "tasks": [
       {
+        "key": "IT-24911",
+        "summary": "Clientes | API | Campos y endpoints faltantes para funcionalidades del portal",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-24711",
         "summary": "Clientes | FRONT | Formularios de creación y edición de cliente",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 42.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -10325,16 +10397,7 @@
   "BTP-3126": {
     "due_date": null,
     "summary": "API CLIENTES",
-    "tasks": [
-      {
-        "key": "BTP-4633",
-        "summary": "Clientes | API | Campos y endpoints faltantes para funcionalidades del portal",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      }
-    ]
+    "tasks": []
   },
   "BTP-3089": {
     "due_date": "2025-08-15",
@@ -19381,9 +19444,9 @@
     "summary": "Core de facturación",
     "tasks": [
       {
-        "key": "BTP-4639",
-        "summary": "Core Facturación | Relevamiento y mejora de resiliencia - API Invoice ↔ integración con Nicox",
-        "status": "TO REFINEMENT",
+        "key": "BTP-4621",
+        "summary": "Facturación | Arg | Legacy | No funciona botón \"Regenerar\" en Nicox Reseller",
+        "status": "Redefiniendo",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
