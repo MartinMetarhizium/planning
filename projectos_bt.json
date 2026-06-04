@@ -4,6 +4,14 @@
     "summary": "Service Desk",
     "tasks": [
       {
+        "key": "BTP-4623",
+        "summary": "Ecommerce / Cuando un producto discontinuo no tenga más stock, ni OC, ni stock en tienda, apagar en ecommerce",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4591",
         "summary": "Remisión de pedidos a Andesmar, tipo TERMINAL con error de remisión",
         "status": "ON HOLD RELEVAMIENTO",
@@ -46,7 +54,7 @@
       {
         "key": "BTP-4504",
         "summary": "Cierre de pedidos FULL",
-        "status": "TO REFINEMENT",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -92,6 +100,14 @@
         "project": "BTP"
       },
       {
+        "key": "BTP-4387",
+        "summary": "Enviar mensaje de despacho a los pedidos de camioneta peru",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Agustin Ospital",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4357",
         "summary": "Liverpool / Publicaciones BigTicket",
         "status": "RESUELTO POR BT",
@@ -103,6 +119,14 @@
         "key": "BTP-4328",
         "summary": "Acciones comerciales / al extender, no repesta la extensión y corta la acción igualmente",
         "status": "ON HOLD RELEVAMIENTO",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4287",
+        "summary": "Acciones Comerciales / Se agregan productos pertenecientes a ordenes de precios eliminadas",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -180,10 +204,18 @@
         "project": "BTP"
       },
       {
+        "key": "IT-24938",
+        "summary": "Nicox API / Corrección del campo officializated_quantity en el upsert de Ordenes de compra",
+        "status": "TO DEPLOY QA",
+        "story_points": 1.0,
+        "assignee": "Martín Horn",
+        "project": "IT"
+      },
+      {
         "key": "IT-24930",
         "summary": "Reposicion WMS - Validacion posicion ",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 24.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
@@ -238,8 +270,8 @@
       {
         "key": "IT-24915",
         "summary": "Productos / Specs / Limpieza automática de caché en update por PIM",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
       },
@@ -326,7 +358,7 @@
       {
         "key": "IT-24812",
         "summary": "Marketplace / Mercado Libre / Error cuando la familia tiene mismo sku que individual",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 8.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -502,7 +534,7 @@
       {
         "key": "IT-24411",
         "summary": "Productos / Agregar tipo de archivo Ficha de producto",
-        "status": "REDEFINED",
+        "status": "BACKLOG",
         "story_points": 6.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -886,7 +918,7 @@
       {
         "key": "IT-23600",
         "summary": "MercadoPago y Amazon / Setting para configurar la URL base de la API",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1901,7 +1933,7 @@
       {
         "key": "IT-24814",
         "summary": "Rediseño Web / Panel de Mis datos",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 24.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -2480,7 +2512,7 @@
       {
         "key": "IT-23505",
         "summary": "Liverpool / Integrar a Logística V2",
-        "status": "ON HOLD",
+        "status": "ON PAUSE",
         "story_points": 80.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -7597,7 +7629,7 @@
       {
         "key": "IT-24715",
         "summary": "Reclamos | Workflow | Cambio de producto - Producto sin despachar",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -10091,15 +10123,15 @@
       {
         "key": "IT-24911",
         "summary": "Clientes | API | Campos y endpoints faltantes para funcionalidades del portal",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 2.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
       },
       {
         "key": "IT-24711",
         "summary": "Clientes | FRONT | Formularios de creación y edición de cliente",
-        "status": "STG TESTING",
+        "status": "ON HOLD",
         "story_points": 42.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
