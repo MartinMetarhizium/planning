@@ -4,6 +4,14 @@
     "summary": "Service Desk",
     "tasks": [
       {
+        "key": "BTP-4659",
+        "summary": "CLONE - Facturacion y guias - BPA - Peru",
+        "status": "EN RELEVAMIENTO",
+        "story_points": null,
+        "assignee": "Agustin Ospital",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4623",
         "summary": "Ecommerce / Cuando un producto discontinuo no tenga más stock, ni OC, ni stock en tienda, apagar en ecommerce",
         "status": "PRODUCT BACKLOG",
@@ -38,7 +46,7 @@
       {
         "key": "BTP-4533",
         "summary": "Facturacion y guias - BPA - Peru",
-        "status": "ON HOLD RELEVAMIENTO",
+        "status": "CANCELADO POR BT",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -62,7 +70,7 @@
       {
         "key": "BTP-4502",
         "summary": "log v2 inversa partes",
-        "status": "Por Hacer",
+        "status": "CANCELADO POR BT",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -111,6 +119,22 @@
         "key": "BTP-4357",
         "summary": "Liverpool / Publicaciones BigTicket",
         "status": "RESUELTO POR BT",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4346",
+        "summary": "Productos / Specs / Mejoras de Imagen 360°",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4340",
+        "summary": "Reproductor de videos",
+        "status": "ON HOLD RELEVAMIENTO",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -246,24 +270,24 @@
       {
         "key": "IT-24921",
         "summary": "FusionAuth / Sincronizar roles con Fusion en el guardado de perfiles",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 16.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
       {
         "key": "IT-24919",
         "summary": "Carga masiva de productos externos",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 16.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
       {
         "key": "IT-24917",
         "summary": "Limpieza de caché automática / Revendedores",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
@@ -294,7 +318,7 @@
       {
         "key": "IT-24832",
         "summary": "IPN Mercado Pago / Clasificación incorrecta de pagos INSTORE",
-        "status": "BACKLOG",
+        "status": "REVIEWING",
         "story_points": 4.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -310,8 +334,8 @@
       {
         "key": "IT-24826",
         "summary": "Liverpool FULL",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 20.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
       },
@@ -358,7 +382,7 @@
       {
         "key": "IT-24812",
         "summary": "Marketplace / Mercado Libre / Error cuando la familia tiene mismo sku que individual",
-        "status": "En progreso",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -470,7 +494,7 @@
       {
         "key": "IT-24581",
         "summary": "Ecommerce / Centrar span de descuento y arreglar ícono de medios de pago",
-        "status": "STG TESTING",
+        "status": "TO DEPLOY QA",
         "story_points": 1.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -502,7 +526,7 @@
       {
         "key": "IT-24513",
         "summary": "Specs / Video y texto / Clonar traducciones PIM",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -550,7 +574,7 @@
       {
         "key": "IT-24404",
         "summary": "Amazon / Integrar Amazon FULL",
-        "status": "REVIEW ON HOLD",
+        "status": "En progreso",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -726,7 +750,7 @@
       {
         "key": "IT-24131",
         "summary": "Mejora - dispatch and control - preparacion y control manual de ordenes",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 16.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -918,9 +942,9 @@
       {
         "key": "IT-23600",
         "summary": "MercadoPago y Amazon / Setting para configurar la URL base de la API",
-        "status": "STG TESTING",
+        "status": "REVIEWING",
         "story_points": 8.0,
-        "assignee": "Gastón Ojeda",
+        "assignee": "Sin asignar",
         "project": "IT"
       },
       {
@@ -2281,7 +2305,7 @@
       {
         "key": "BTP-3911",
         "summary": "Pruebas",
-        "status": "Por Hacer",
+        "status": "RESUELTO POR BT",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
@@ -2311,7 +2335,7 @@
       {
         "key": "BTP-3909",
         "summary": "Pruebas",
-        "status": "Por Hacer",
+        "status": "RESUELTO POR BT",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
@@ -2394,7 +2418,7 @@
       {
         "key": "BTP-3904",
         "summary": "Pruebas",
-        "status": "Por Hacer",
+        "status": "RESUELTO POR BT",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
@@ -2502,6 +2526,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-24964",
+        "summary": "Integración por producto - ENVIAME (PE/CO/CL)",
+        "status": "BACKLOG",
+        "story_points": 32.0,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
         "key": "IT-24683",
         "summary": "Consolidacion bultos - Nicox",
         "status": "En progreso",
@@ -2512,7 +2544,7 @@
       {
         "key": "IT-23505",
         "summary": "Liverpool / Integrar a Logística V2",
-        "status": "ON PAUSE",
+        "status": "ON HOLD",
         "story_points": 80.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -7629,7 +7661,7 @@
       {
         "key": "IT-24715",
         "summary": "Reclamos | Workflow | Cambio de producto - Producto sin despachar",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7637,7 +7669,7 @@
       {
         "key": "IT-24713",
         "summary": "Reclamos | Workflow | Devolución - Producto sin despachar",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -8879,7 +8911,7 @@
       {
         "key": "BTP-4314",
         "summary": "Liverpool / Sincronizar precios y stock automaticamente vía API",
-        "status": "Rechazado",
+        "status": "CANCELADO POR BT",
         "story_points": null,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "BTP"
@@ -8887,9 +8919,9 @@
       {
         "key": "BTP-4312",
         "summary": "Mercado Libre / Integrar categorización de productos vía API en Mi página Mercado Libre",
-        "status": "EN RELEVAMIENTO",
+        "status": "ON PAUSE RELEVAMIENTO",
         "story_points": null,
-        "assignee": "Joaquin Fernandez - Carestino",
+        "assignee": "Thiago Cabrera",
         "project": "BTP"
       },
       {
@@ -8903,9 +8935,9 @@
       {
         "key": "BTP-4016",
         "summary": "Publicaciones de catálogo - Mercado Libre",
-        "status": "EN RELEVAMIENTO",
+        "status": "ON PAUSE RELEVAMIENTO",
         "story_points": null,
-        "assignee": "Joaquin Fernandez - Carestino",
+        "assignee": "Thiago Cabrera",
         "project": "BTP"
       },
       {
@@ -10002,6 +10034,14 @@
     "due_date": "2025-09-30",
     "summary": "Devops",
     "tasks": [
+      {
+        "key": "IT-24866",
+        "summary": "Gestión de registro DNS prode.carestino.com",
+        "status": "FINISH",
+        "story_points": null,
+        "assignee": "Miguel Armentano",
+        "project": "IT"
+      },
       {
         "key": "IT-22625",
         "summary": "Actualizacion de la version de n8n de BI",
