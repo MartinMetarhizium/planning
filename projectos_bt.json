@@ -4,9 +4,33 @@
     "summary": "Service Desk",
     "tasks": [
       {
+        "key": "BTP-4668",
+        "summary": "IPN / Errores en New Relic por problemas internos de MP",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4666",
+        "summary": "FusionAuth / Logs de errores innecesarios",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4662",
+        "summary": "Delivery Admin | Performance | Mejora de velocidad y tiempo de carga del módulo",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Agustin Ospital",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4659",
         "summary": "CLONE - Facturacion y guias - BPA - Peru",
-        "status": "EN RELEVAMIENTO",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -230,7 +254,7 @@
       {
         "key": "IT-24938",
         "summary": "Nicox API / Corrección del campo officializated_quantity en el upsert de Ordenes de compra",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 1.0,
         "assignee": "Martín Horn",
         "project": "IT"
@@ -246,8 +270,8 @@
       {
         "key": "IT-24927",
         "summary": "CAPI Offline / Mejoras de estructura del payload",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 2.0,
         "assignee": "Martín Horn",
         "project": "IT"
       },
@@ -310,15 +334,15 @@
       {
         "key": "IT-24901",
         "summary": "Expense | FIX | No es posible autorizar un anticipo",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 8.0,
         "assignee": "Martín Horn",
         "project": "IT"
       },
       {
         "key": "IT-24832",
         "summary": "IPN Mercado Pago / Clasificación incorrecta de pagos INSTORE",
-        "status": "REVIEWING",
+        "status": "TO DEPLOY QA",
         "story_points": 4.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -382,7 +406,7 @@
       {
         "key": "IT-24812",
         "summary": "Marketplace / Mercado Libre / Error cuando la familia tiene mismo sku que individual",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -462,7 +486,7 @@
       {
         "key": "IT-24589",
         "summary": "Error tarifario - no se puede importar para paises con gran cantidad de localidades",
-        "status": "En progreso",
+        "status": "ON PAUSE",
         "story_points": 68.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -478,7 +502,7 @@
       {
         "key": "IT-24585",
         "summary": "Marketplace Amazon / Sincronizar precio de publicaciones FULL",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 40.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -494,7 +518,7 @@
       {
         "key": "IT-24581",
         "summary": "Ecommerce / Centrar span de descuento y arreglar ícono de medios de pago",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 1.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -510,7 +534,7 @@
       {
         "key": "IT-24519",
         "summary": "CAV / MELI FULL / No validar DNI",
-        "status": "BACKLOG",
+        "status": "TO DEPLOY QA",
         "story_points": 4.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -526,7 +550,7 @@
       {
         "key": "IT-24513",
         "summary": "Specs / Video y texto / Clonar traducciones PIM",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -574,7 +598,7 @@
       {
         "key": "IT-24404",
         "summary": "Amazon / Integrar Amazon FULL",
-        "status": "En progreso",
+        "status": "TO DEPLOY QA",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -750,7 +774,7 @@
       {
         "key": "IT-24131",
         "summary": "Mejora - dispatch and control - preparacion y control manual de ordenes",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 16.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -942,9 +966,9 @@
       {
         "key": "IT-23600",
         "summary": "MercadoPago y Amazon / Setting para configurar la URL base de la API",
-        "status": "REVIEWING",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
-        "assignee": "Sin asignar",
+        "assignee": "Gastón Ojeda",
         "project": "IT"
       },
       {
@@ -1957,7 +1981,7 @@
       {
         "key": "IT-24814",
         "summary": "Rediseño Web / Panel de Mis datos",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 24.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -2528,7 +2552,7 @@
       {
         "key": "IT-24964",
         "summary": "Integración por producto - ENVIAME (PE/CO/CL)",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 32.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -7661,7 +7685,7 @@
       {
         "key": "IT-24715",
         "summary": "Reclamos | Workflow | Cambio de producto - Producto sin despachar",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7669,7 +7693,7 @@
       {
         "key": "IT-24713",
         "summary": "Reclamos | Workflow | Devolución - Producto sin despachar",
-        "status": "CODE REVIEW",
+        "status": "PENDING REVIEW",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7709,7 +7733,7 @@
       {
         "key": "IT-24180",
         "summary": "Reclamos | Comportamientos para reclamos logísticos",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -17752,7 +17776,7 @@
       {
         "key": "IT-23590",
         "summary": "Conciliador / Modificar la conciliación automática para que se produzca de forma asincrónica",
-        "status": "CODE REVIEW",
+        "status": "ON PAUSE",
         "story_points": 32.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
