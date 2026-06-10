@@ -4,33 +4,9 @@
     "summary": "Service Desk",
     "tasks": [
       {
-        "key": "BTP-4668",
-        "summary": "IPN / Errores en New Relic por problemas internos de MP",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4666",
-        "summary": "FusionAuth / Logs de errores innecesarios",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4662",
-        "summary": "Delivery Admin | Performance | Mejora de velocidad y tiempo de carga del módulo",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Agustin Ospital",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4659",
         "summary": "CLONE - Facturacion y guias - BPA - Peru",
-        "status": "TO REFINEMENT",
+        "status": "Redefiniendo",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -38,17 +14,9 @@
       {
         "key": "BTP-4634",
         "summary": "FIX - Integracion servientrega PA con error",
-        "status": "EN ARMADO DE PROPUESTA",
+        "status": "Rechazado",
         "story_points": null,
         "assignee": "Agustin Ospital",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4623",
-        "summary": "Ecommerce / Cuando un producto discontinuo no tenga más stock, ni OC, ni stock en tienda, apagar en ecommerce",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
         "project": "BTP"
       },
       {
@@ -94,7 +62,7 @@
       {
         "key": "BTP-4504",
         "summary": "Cierre de pedidos FULL",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -118,7 +86,7 @@
       {
         "key": "BTP-4471",
         "summary": "Mejoras Dispatch and Control",
-        "status": "Por Hacer",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -148,6 +116,14 @@
         "project": "BTP"
       },
       {
+        "key": "BTP-4412",
+        "summary": "marketplaces info",
+        "status": "TO REFINEMENT",
+        "story_points": null,
+        "assignee": "Agustin Ospital",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4387",
         "summary": "Enviar mensaje de despacho a los pedidos de camioneta peru",
         "status": "Rechazado",
@@ -164,33 +140,9 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4346",
-        "summary": "Productos / Specs / Mejoras de Imagen 360°",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4340",
         "summary": "Reproductor de videos",
         "status": "ON HOLD RELEVAMIENTO",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4328",
-        "summary": "Acciones Comerciales / Setting de fecha fin desincronizado",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4287",
-        "summary": "Acciones Comerciales / Se agregan productos pertenecientes a ordenes de precios eliminadas",
-        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -268,6 +220,62 @@
         "project": "BTP"
       },
       {
+        "key": "IT-25010",
+        "summary": "FusionAuth / Logs de errores innecesarios",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-25006",
+        "summary": "IPN / Errores en New Relic por problemas internos de MP",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-25002",
+        "summary": "Relevamiento / Productos / Specs / Mejoras de Imagen 360°",
+        "status": "BACKLOG",
+        "story_points": 8.0,
+        "assignee": "Franco Lorenzo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-25000",
+        "summary": "Acciones Comerciales / Setting de fecha fin desincronizado",
+        "status": "BACKLOG",
+        "story_points": 6.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24998",
+        "summary": "Acciones Comerciales / Se agregan productos pertenecientes a ordenes de precios eliminadas",
+        "status": "BACKLOG",
+        "story_points": 6.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24996",
+        "summary": "Ecommerce / Cuando un producto discontinuo no tenga más stock, ni OC, ni stock en tienda, apagar en ecommerce",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24993",
+        "summary": "Delivery Admin | Performance | Mejora de velocidad y tiempo de carga del módulo",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
         "key": "IT-24938",
         "summary": "Nicox API / Corrección del campo officializated_quantity en el upsert de Ordenes de compra",
         "status": "TO DEPLOY",
@@ -342,7 +350,7 @@
       {
         "key": "IT-24907",
         "summary": "Error en el cálculo del \"Precio sin impuestos nacionales\" en la web",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 1.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -462,7 +470,7 @@
       {
         "key": "IT-24644",
         "summary": "Movimientos de stock / EP en movimientos entre almacenes",
-        "status": "STG TESTING",
+        "status": "TO DEPLOY QA",
         "story_points": 2.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -790,7 +798,7 @@
       {
         "key": "IT-24131",
         "summary": "Mejora - dispatch and control - preparacion y control manual de ordenes",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 16.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -974,7 +982,7 @@
       {
         "key": "IT-23602",
         "summary": "Retiras / Modificar validación de stock",
-        "status": "ON HOLD",
+        "status": "ON PAUSE",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -2281,14 +2289,6 @@
     "summary": "Expenses",
     "tasks": [
       {
-        "key": "BTP-4665",
-        "summary": "Expense | Tarjeta | Cambiar lógica de asignación de registros a fondos del tipo tarjeta",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Mauricio Reinhardt",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-3471",
         "summary": "Integración SAP",
         "status": "Pendiente de estimación",
@@ -2592,7 +2592,7 @@
       {
         "key": "IT-23505",
         "summary": "Liverpool / Integrar a Logística V2",
-        "status": "ON HOLD",
+        "status": "CODE REVIEW",
         "story_points": 80.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -7709,7 +7709,7 @@
       {
         "key": "IT-24715",
         "summary": "Reclamos | Workflow | Cambio de producto - Producto sin despachar",
-        "status": "PENDING REVIEW",
+        "status": "In Improvement",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7717,7 +7717,7 @@
       {
         "key": "IT-24713",
         "summary": "Reclamos | Workflow | Devolución - Producto sin despachar",
-        "status": "REVIEWING",
+        "status": "In Improvement",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -10211,7 +10211,7 @@
       {
         "key": "IT-24911",
         "summary": "Clientes | API | Campos y endpoints faltantes para funcionalidades del portal",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 2.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
