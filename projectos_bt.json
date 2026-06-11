@@ -4,9 +4,25 @@
     "summary": "Service Desk",
     "tasks": [
       {
+        "key": "BTP-4679",
+        "summary": "Mercado Libre error integración meli mx",
+        "status": "EN RELEVAMIENTO",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4678",
+        "summary": "Marketplace / Amazon / Publicaciones no sincronizan",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4659",
         "summary": "CLONE - Facturacion y guias - BPA - Peru",
-        "status": "Redefiniendo",
+        "status": "EN ARMADO DE PROPUESTA",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -278,7 +294,7 @@
       {
         "key": "IT-24938",
         "summary": "Nicox API / Corrección del campo officializated_quantity en el upsert de Ordenes de compra",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 1.0,
         "assignee": "Martín Horn",
         "project": "IT"
@@ -350,7 +366,7 @@
       {
         "key": "IT-24907",
         "summary": "Error en el cálculo del \"Precio sin impuestos nacionales\" en la web",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 1.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -430,7 +446,7 @@
       {
         "key": "IT-24812",
         "summary": "Marketplace / Mercado Libre / Error cuando la familia tiene mismo sku que individual",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -454,7 +470,7 @@
       {
         "key": "IT-24717",
         "summary": "Productos | |Certificaciones | Poder cargar certificado en modulo subgrupo de NICOX",
-        "status": "ON HOLD",
+        "status": "ON PAUSE",
         "story_points": 24.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -494,7 +510,7 @@
       {
         "key": "IT-24597",
         "summary": "Estado entregado desfasado en Colombia",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 5.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -534,7 +550,7 @@
       {
         "key": "IT-24583",
         "summary": "Sugerencias en el carrito / Ordenar familias por stock",
-        "status": "CODE REVIEW",
+        "status": "PENDING REVIEW",
         "story_points": 2.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -566,7 +582,7 @@
       {
         "key": "IT-24517",
         "summary": "Reservas de almacen outlet y exhibicion ",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -574,7 +590,7 @@
       {
         "key": "IT-24513",
         "summary": "Specs / Video y texto / Clonar traducciones PIM",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -614,7 +630,7 @@
       {
         "key": "IT-24407",
         "summary": "Especificaciones / Carrusel en Specs de Video y texto",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -630,7 +646,7 @@
       {
         "key": "IT-24402",
         "summary": "MercadoPago / No mostrar como disponibles pagos QR/POINT devueltos",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 12.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -638,7 +654,7 @@
       {
         "key": "IT-24400",
         "summary": "Marketplace / Descargar datos de marketplace / Ocultar opción para markets no MercadoLibre",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 3.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -646,7 +662,7 @@
       {
         "key": "IT-24393",
         "summary": "Terminales / Carga masiva / CP",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 3.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -694,7 +710,7 @@
       {
         "key": "IT-24293",
         "summary": "Facturación | No se visualiza la factura asociada en el print de la venta",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 5.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -726,7 +742,7 @@
       {
         "key": "IT-24282",
         "summary": "Marketplace / Falabella / Capturar estado real de acciones de sincronización",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 40.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -742,7 +758,7 @@
       {
         "key": "IT-24270",
         "summary": "Trabaja aqui - permitir despacho de ventas de distintos puntos de venta. ",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 6.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1022,7 +1038,7 @@
       {
         "key": "IT-23497",
         "summary": "Ordenes de compra / Mover a depósito levanta puntos inactivos",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1030,7 +1046,7 @@
       {
         "key": "IT-23495",
         "summary": "Productos y stock / Imprimir QR Zebra no funciona en mobile",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1038,7 +1054,7 @@
       {
         "key": "IT-23493",
         "summary": "Recepción Perdida de reintegros / Cambiar a queue",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 12.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1062,7 +1078,7 @@
       {
         "key": "IT-23389",
         "summary": "Ventas / Segundos pasos / Bloquear búsqueda de cliente",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1278,7 +1294,7 @@
       {
         "key": "IT-22835",
         "summary": "Checkout / Modal de reutilización de cupón",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 24.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -2592,7 +2608,7 @@
       {
         "key": "IT-23505",
         "summary": "Liverpool / Integrar a Logística V2",
-        "status": "CODE REVIEW",
+        "status": "PENDING REVIEW",
         "story_points": 80.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -7709,7 +7725,7 @@
       {
         "key": "IT-24715",
         "summary": "Reclamos | Workflow | Cambio de producto - Producto sin despachar",
-        "status": "In Improvement",
+        "status": "BACKLOG",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7717,7 +7733,7 @@
       {
         "key": "IT-24713",
         "summary": "Reclamos | Workflow | Devolución - Producto sin despachar",
-        "status": "In Improvement",
+        "status": "En progreso",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7733,7 +7749,7 @@
       {
         "key": "IT-24370",
         "summary": "Reclamos  | Core de Acciones y Workflows",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 100.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -8949,6 +8965,14 @@
     "summary": "Marketplace",
     "tasks": [
       {
+        "key": "BTP-4677",
+        "summary": "Marketplace / Liverpool / Actualización de publicaciones en batch",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4325",
         "summary": "Mercado Libre Mx - No funciona correctamente la sincronización de stock",
         "status": "RESUELTO POR BT",
@@ -8993,7 +9017,7 @@
         "summary": "[Marketplace][MX][Mercadilibre Full][Precios][Stock]",
         "status": "Por Hacer",
         "story_points": null,
-        "assignee": "ivanalberghini",
+        "assignee": "Thiago Cabrera",
         "project": "BTP"
       },
       {
@@ -9063,7 +9087,7 @@
       {
         "key": "IT-24278",
         "summary": "Crear un cron que sincronice las publicaciones de marketplace",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 20.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -17684,7 +17708,7 @@
       {
         "key": "IT-23385",
         "summary": "Modificar migración del campo  type_code para la integración Falabella",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -17776,7 +17800,7 @@
       {
         "key": "IT-24182",
         "summary": "Conciliador / Mejora / Eliminar lotes parcialmente conciliados - BTP-4400",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 8.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -18570,7 +18594,7 @@
       {
         "key": "IT-24278",
         "summary": "Crear un cron que sincronice las publicaciones de marketplace",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 20.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -19364,7 +19388,7 @@
       {
         "key": "IT-23385",
         "summary": "Modificar migración del campo  type_code para la integración Falabella",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
