@@ -330,7 +330,8 @@ def bulk_move_issue(
 
 modo = st.selectbox(
     "Elegí qué querés hacer",
-    ["Mover BTP → IT", "Crear actividad BTP desde SD", "Crear actividad IT desde SD"]
+    ["Mover BTP → IT", "Crear actividad BTP desde SD", "Crear actividad IT desde SD", 
+        "Setear Global en BTP"]
 )
 
 if modo == "Mover BTP → IT":
@@ -762,3 +763,78 @@ if modo == "Crear actividad IT desde SD":
             st.error(f"❌ Error creando actividad: {e}\n\n{e.response.text if e.response is not None else ''}")
         except Exception as e:
             st.error(f"❌ Error inesperado: {e}")
+
+if modo == "Setear Global en BTP":
+
+    st.header("Setear campo Global en tarjeta BTP")
+
+    btp_key = st.text_input("BTP-ID", placeholder="Ej: BTP-1234")
+
+    st.info(f"Esta acción va a setear **{BTP_GLOBAL_FIELD_ID}** con la opción **{BTP_GLOBAL_FIELD_VALUE}**.")
+
+    if st.button("Setear Global"):
+        if not btp_key.strip():
+            st.error("⚠️ Ingresá un BTP-ID, por ejemplo BTP-1234.")
+            st.stop()
+
+        try:
+            with st.spinner("Validando y actualizando tarjeta BTP..."):
+                updated_key = update_btp_global_field(btp_key)
+
+            st.success(
+                f"✅ Campo actualizado correctamente en "
+                f"[{updated_key}](https://{JIRA_DOMAIN}/browse/{updated_key}) → "
+                f"**{BTP_GLOBAL_FIELD_ID} = {BTP_GLOBAL_FIELD_VALUE}**"
+            )
+
+        except requests.HTTPError as e:
+            st.error(
+                f"❌ Error actualizando el campo en Jira: {e}\n\n"
+                f"{e.response.text if e.response is not None else ''}"
+            )
+        except Exception as e:
+            st.error(f"❌ Error inesperado: {e}")
+
+
+BTP_PROJECT_KEY = "BTP"
+BTP_GLOBAL_FIELD_ID = "customfield_10212"
+BTP_GLOBAL_FIELD_VALUE = "Global"
+def update_btp_global_field(issue_key_or_id: str):
+    """
+    Setea customfield_10212 con la opción 'Global' para una issue BTP.
+    Asume que customfield_10212 es un select simple.
+    """
+    issue_key_or_id = (issue_key_or_id or "").strip().upper()
+
+    if not issue_key_or_id:
+        raise ValueError("Ingresá un BTP-ID válido, por ejemplo BTP-1234.")
+
+    if not issue_key_or_id.startswith("BTP-"):
+        raise ValueError("La tarjeta debe pertenecer al proyecto BTP, por ejemplo BTP-1234.")
+
+    issue = get_issue(issue_key_or_id)
+    if not issue:
+        raise ValueError("No se encontró la tarjeta o faltan permisos.")
+
+    fields = issue.get("fields", {}) or {}
+    project_key = ((fields.get("project") or {}).get("key") or "").upper()
+
+    if project_key != BTP_PROJECT_KEY:
+        raise ValueError(f"La tarjeta no pertenece a BTP. Proyecto detectado: {project_key or 'desconocido'}.")
+
+    issue_id = issue.get("id")
+    issue_key = issue.get("key", issue_key_or_id)
+
+    url = f"https://{JIRA_DOMAIN}/rest/api/3/issue/{issue_id}"
+    payload = {
+        "fields": {
+            BTP_GLOBAL_FIELD_ID: {
+                "value": BTP_GLOBAL_FIELD_VALUE
+            }
+        }
+    }
+
+    r = requests.put(url, auth=AUTH, headers=HEADERS, json=payload)
+    r.raise_for_status()
+
+    return issue_key
