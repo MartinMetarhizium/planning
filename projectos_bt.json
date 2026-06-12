@@ -4,16 +4,16 @@
     "summary": "Service Desk",
     "tasks": [
       {
-        "key": "BTP-4679",
-        "summary": "Mercado Libre error integración meli mx",
-        "status": "EN RELEVAMIENTO",
+        "key": "BTP-4695",
+        "summary": "Fix / MercadoLibre / Ventas \"Acuerda con el vendedor\" con dos pagos",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
       },
       {
-        "key": "BTP-4678",
-        "summary": "Marketplace / Amazon / Publicaciones no sincronizan",
+        "key": "BTP-4681",
+        "summary": "Carrito abandonado / Unificar timezones de la tabla carestinoventas_abandoned_cart",
         "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Thiago Cabrera",
@@ -22,7 +22,7 @@
       {
         "key": "BTP-4659",
         "summary": "CLONE - Facturacion y guias - BPA - Peru",
-        "status": "EN ARMADO DE PROPUESTA",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -254,7 +254,7 @@
       {
         "key": "IT-25002",
         "summary": "Relevamiento / Productos / Specs / Mejoras de Imagen 360°",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 8.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -500,14 +500,6 @@
         "project": "IT"
       },
       {
-        "key": "IT-24640",
-        "summary": "Marketplace / Falabella / Bloqueo de peticiones por enviar muchas requests",
-        "status": "BACKLOG",
-        "story_points": 32.0,
-        "assignee": "Nicolas Pardo",
-        "project": "IT"
-      },
-      {
         "key": "IT-24597",
         "summary": "Estado entregado desfasado en Colombia",
         "status": "FINISH",
@@ -526,7 +518,7 @@
       {
         "key": "IT-24589",
         "summary": "Error tarifario - no se puede importar para paises con gran cantidad de localidades",
-        "status": "ON PAUSE",
+        "status": "En progreso",
         "story_points": 68.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -537,14 +529,6 @@
         "status": "FINISH",
         "story_points": 3.0,
         "assignee": "Joaquin Fernandez - Carestino",
-        "project": "IT"
-      },
-      {
-        "key": "IT-24585",
-        "summary": "Marketplace Amazon / Sincronizar precio de publicaciones FULL",
-        "status": "En progreso",
-        "story_points": 40.0,
-        "assignee": "Nicolas Pardo",
         "project": "IT"
       },
       {
@@ -652,14 +636,6 @@
         "project": "IT"
       },
       {
-        "key": "IT-24400",
-        "summary": "Marketplace / Descargar datos de marketplace / Ocultar opción para markets no MercadoLibre",
-        "status": "FINISH",
-        "story_points": 3.0,
-        "assignee": "Nicolas Pardo",
-        "project": "IT"
-      },
-      {
         "key": "IT-24393",
         "summary": "Terminales / Carga masiva / CP",
         "status": "FINISH",
@@ -737,14 +713,6 @@
         "status": "FINISH",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
-        "project": "IT"
-      },
-      {
-        "key": "IT-24282",
-        "summary": "Marketplace / Falabella / Capturar estado real de acciones de sincronización",
-        "status": "FINISH",
-        "story_points": 40.0,
-        "assignee": "Nicolas Pardo",
         "project": "IT"
       },
       {
@@ -1896,6 +1864,14 @@
     "summary": "Conversiones API",
     "tasks": [
       {
+        "key": "BTP-4680",
+        "summary": "CAPI / Envias datos de compradores de marketplaces a CAPI de Meta",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
         "key": "IT-21645",
         "summary": "Carestino Pets / Frontend / Enviar registros diferidos a Mailchimp y CAPI",
         "status": "FINISH",
@@ -2592,7 +2568,7 @@
       {
         "key": "IT-24964",
         "summary": "Integración por producto - ENVIAME (PE/CO/CL)",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 32.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -2600,7 +2576,7 @@
       {
         "key": "IT-24683",
         "summary": "Consolidacion bultos - Nicox",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 142.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -2608,7 +2584,7 @@
       {
         "key": "IT-23505",
         "summary": "Liverpool / Integrar a Logística V2",
-        "status": "PENDING REVIEW",
+        "status": "REVIEW ON HOLD",
         "story_points": 80.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -8965,6 +8941,22 @@
     "summary": "Marketplace",
     "tasks": [
       {
+        "key": "BTP-4679",
+        "summary": "Marketplace / MercadoLibre / Fixes en publicaciones agrupadas",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4678",
+        "summary": "Marketplace / Amazon / Publicaciones no sincronizan",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4677",
         "summary": "Marketplace / Liverpool / Actualización de publicaciones en batch",
         "status": "PRODUCT BACKLOG",
@@ -9014,8 +9006,8 @@
       },
       {
         "key": "BTP-3874",
-        "summary": "[Marketplace][MX][Mercadilibre Full][Precios][Stock]",
-        "status": "Por Hacer",
+        "summary": "Marketplace / MercadoLibre / Publicaciones FULL",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -9069,6 +9061,22 @@
         "project": "BTP"
       },
       {
+        "key": "IT-24640",
+        "summary": "Marketplace / Falabella / Bloqueo de peticiones por enviar muchas requests",
+        "status": "BACKLOG",
+        "story_points": 32.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24585",
+        "summary": "Marketplace Amazon / Sincronizar precio de publicaciones FULL",
+        "status": "CODE REVIEW",
+        "story_points": 40.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
         "key": "IT-24576",
         "summary": "Falabella | Aporte promocional Falabella - Agregar setting para activarlo como parte de la orden o desactivarlo",
         "status": "BACKLOG",
@@ -9077,10 +9085,26 @@
         "project": "IT"
       },
       {
+        "key": "IT-24400",
+        "summary": "Marketplace / Descargar datos de marketplace / Ocultar opción para markets no MercadoLibre",
+        "status": "FINISH",
+        "story_points": 3.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
         "key": "IT-24398",
         "summary": "Marketplaces | BI - Fecha Carga Externa Falabella - BTP-4299",
         "status": "ON HOLD",
         "story_points": 16.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24282",
+        "summary": "Marketplace / Falabella / Capturar estado real de acciones de sincronización",
+        "status": "FINISH",
+        "story_points": 40.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
       },
@@ -10235,7 +10259,7 @@
       {
         "key": "IT-24911",
         "summary": "Clientes | API | Campos y endpoints faltantes para funcionalidades del portal",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 2.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -17578,6 +17602,14 @@
     "summary": "Nicox - Expenses",
     "tasks": [
       {
+        "key": "BTP-4697",
+        "summary": "Expense | Sofia | Carga de comprobantes | Definir flujo de importación y asociación de comprobantes de transferencia",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-2333",
         "summary": "Revisión final",
         "status": "Por Hacer",
@@ -18576,6 +18608,22 @@
         "project": "BTP"
       },
       {
+        "key": "IT-24640",
+        "summary": "Marketplace / Falabella / Bloqueo de peticiones por enviar muchas requests",
+        "status": "BACKLOG",
+        "story_points": 32.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24585",
+        "summary": "Marketplace Amazon / Sincronizar precio de publicaciones FULL",
+        "status": "CODE REVIEW",
+        "story_points": 40.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
         "key": "IT-24576",
         "summary": "Falabella | Aporte promocional Falabella - Agregar setting para activarlo como parte de la orden o desactivarlo",
         "status": "BACKLOG",
@@ -18584,10 +18632,26 @@
         "project": "IT"
       },
       {
+        "key": "IT-24400",
+        "summary": "Marketplace / Descargar datos de marketplace / Ocultar opción para markets no MercadoLibre",
+        "status": "FINISH",
+        "story_points": 3.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
         "key": "IT-24398",
         "summary": "Marketplaces | BI - Fecha Carga Externa Falabella - BTP-4299",
         "status": "ON HOLD",
         "story_points": 16.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-24282",
+        "summary": "Marketplace / Falabella / Capturar estado real de acciones de sincronización",
+        "status": "FINISH",
+        "story_points": 40.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
       },
