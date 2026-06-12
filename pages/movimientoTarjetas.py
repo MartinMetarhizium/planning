@@ -763,7 +763,9 @@ if modo == "Crear actividad IT desde SD":
             st.error(f"❌ Error creando actividad: {e}\n\n{e.response.text if e.response is not None else ''}")
         except Exception as e:
             st.error(f"❌ Error inesperado: {e}")
-
+BTP_PROJECT_KEY = "BTP"
+BTP_GLOBAL_FIELD_ID = "customfield_10212"
+BTP_GLOBAL_FIELD_VALUE = "Global"
 if modo == "Setear Global en BTP":
 
     st.header("Setear campo Global en tarjeta BTP")
@@ -796,9 +798,7 @@ if modo == "Setear Global en BTP":
             st.error(f"❌ Error inesperado: {e}")
 
 
-BTP_PROJECT_KEY = "BTP"
-BTP_GLOBAL_FIELD_ID = "customfield_10212"
-BTP_GLOBAL_FIELD_VALUE = "Global"
+
 def update_btp_global_field(issue_key_or_id: str):
     """
     Setea customfield_10212 con la opción 'Global' para una issue BTP.
