@@ -766,38 +766,6 @@ if modo == "Crear actividad IT desde SD":
 BTP_PROJECT_KEY = "BTP"
 BTP_GLOBAL_FIELD_ID = "customfield_10212"
 BTP_GLOBAL_FIELD_VALUE = "Global"
-if modo == "Setear Global en BTP":
-
-    st.header("Setear campo Global en tarjeta BTP")
-
-    btp_key = st.text_input("BTP-ID", placeholder="Ej: BTP-1234")
-
-    st.info(f"Esta acción va a setear **{BTP_GLOBAL_FIELD_ID}** con la opción **{BTP_GLOBAL_FIELD_VALUE}**.")
-
-    if st.button("Setear Global"):
-        if not btp_key.strip():
-            st.error("⚠️ Ingresá un BTP-ID, por ejemplo BTP-1234.")
-            st.stop()
-
-        try:
-            with st.spinner("Validando y actualizando tarjeta BTP..."):
-                updated_key = update_btp_global_field(btp_key)
-
-            st.success(
-                f"✅ Campo actualizado correctamente en "
-                f"[{updated_key}](https://{JIRA_DOMAIN}/browse/{updated_key}) → "
-                f"**{BTP_GLOBAL_FIELD_ID} = {BTP_GLOBAL_FIELD_VALUE}**"
-            )
-
-        except requests.HTTPError as e:
-            st.error(
-                f"❌ Error actualizando el campo en Jira: {e}\n\n"
-                f"{e.response.text if e.response is not None else ''}"
-            )
-        except Exception as e:
-            st.error(f"❌ Error inesperado: {e}")
-
-
 
 def update_btp_global_field(issue_key_or_id: str):
     """
@@ -838,3 +806,36 @@ def update_btp_global_field(issue_key_or_id: str):
     r.raise_for_status()
 
     return issue_key
+if modo == "Setear Global en BTP":
+
+    st.header("Setear campo Global en tarjeta BTP")
+
+    btp_key = st.text_input("BTP-ID", placeholder="Ej: BTP-1234")
+
+    st.info(f"Esta acción va a setear **{BTP_GLOBAL_FIELD_ID}** con la opción **{BTP_GLOBAL_FIELD_VALUE}**.")
+
+    if st.button("Setear Global"):
+        if not btp_key.strip():
+            st.error("⚠️ Ingresá un BTP-ID, por ejemplo BTP-1234.")
+            st.stop()
+
+        try:
+            with st.spinner("Validando y actualizando tarjeta BTP..."):
+                updated_key = update_btp_global_field(btp_key)
+
+            st.success(
+                f"✅ Campo actualizado correctamente en "
+                f"[{updated_key}](https://{JIRA_DOMAIN}/browse/{updated_key}) → "
+                f"**{BTP_GLOBAL_FIELD_ID} = {BTP_GLOBAL_FIELD_VALUE}**"
+            )
+
+        except requests.HTTPError as e:
+            st.error(
+                f"❌ Error actualizando el campo en Jira: {e}\n\n"
+                f"{e.response.text if e.response is not None else ''}"
+            )
+        except Exception as e:
+            st.error(f"❌ Error inesperado: {e}")
+
+
+
