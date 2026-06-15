@@ -2566,6 +2566,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-25050",
+        "summary": "Integracion por producto - AEX (PY) ",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
         "key": "IT-24964",
         "summary": "Integración por producto - ENVIAME (PE/CO/CL)",
         "status": "STG TESTING",
@@ -7709,7 +7717,7 @@
       {
         "key": "IT-24713",
         "summary": "Reclamos | Workflow | Devolución - Producto sin despachar",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -10259,7 +10267,7 @@
       {
         "key": "IT-24911",
         "summary": "Clientes | API | Campos y endpoints faltantes para funcionalidades del portal",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 2.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
