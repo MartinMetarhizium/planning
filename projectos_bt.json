@@ -4,6 +4,14 @@
     "summary": "Service Desk",
     "tasks": [
       {
+        "key": "BTP-4701",
+        "summary": "CAV / Ampliar rango de búsqueda del cron",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4695",
         "summary": "Fix / MercadoLibre / Ventas \"Acuerda con el vendedor\" con dos pagos",
         "status": "PRODUCT BACKLOG",
@@ -102,7 +110,7 @@
       {
         "key": "BTP-4471",
         "summary": "Mejoras Dispatch and Control",
-        "status": "PRODUCT BACKLOG",
+        "status": "Rechazado",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -254,7 +262,7 @@
       {
         "key": "IT-25002",
         "summary": "Relevamiento / Productos / Specs / Mejoras de Imagen 360°",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 8.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -374,7 +382,7 @@
       {
         "key": "IT-24901",
         "summary": "Expense | FIX | No es posible autorizar un anticipo",
-        "status": "BACKLOG",
+        "status": "STG TESTING",
         "story_points": 8.0,
         "assignee": "Martín Horn",
         "project": "IT"
@@ -534,7 +542,7 @@
       {
         "key": "IT-24583",
         "summary": "Sugerencias en el carrito / Ordenar familias por stock",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY QA",
         "story_points": 2.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -542,7 +550,7 @@
       {
         "key": "IT-24581",
         "summary": "Ecommerce / Centrar span de descuento y arreglar ícono de medios de pago",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 1.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -1865,7 +1873,7 @@
     "tasks": [
       {
         "key": "BTP-4680",
-        "summary": "CAPI / Envias datos de compradores de marketplaces a CAPI de Meta",
+        "summary": "CAPI / Enviar datos de compradores de marketplaces a CAPI de Meta",
         "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Thiago Cabrera",
@@ -2568,15 +2576,15 @@
       {
         "key": "IT-25050",
         "summary": "Integracion por producto - AEX (PY) ",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "En progreso",
+        "story_points": 32.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
       {
         "key": "IT-24964",
         "summary": "Integración por producto - ENVIAME (PE/CO/CL)",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 32.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -2592,7 +2600,7 @@
       {
         "key": "IT-23505",
         "summary": "Liverpool / Integrar a Logística V2",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 80.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -6895,6 +6903,22 @@
     "summary": "Comparativa de productos en el ecommerce",
     "tasks": [
       {
+        "key": "IT-21556",
+        "summary": "Comparativa de producto / Frontend / Setting para prender o apagar funcionalidad",
+        "status": "FINISH",
+        "story_points": 1.0,
+        "assignee": "Franco Lorenzo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-21554",
+        "summary": "Comparativa de producto / Setting para prender o apagar funcionalidad",
+        "status": "FINISH",
+        "story_points": 2.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-19968",
         "summary": "Comparativa de Producto / Mejoras Frontend V2",
         "status": "FINISH",
@@ -7709,7 +7733,7 @@
       {
         "key": "IT-24715",
         "summary": "Reclamos | Workflow | Cambio de producto - Producto sin despachar",
-        "status": "BACKLOG",
+        "status": "STG TESTING",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7717,7 +7741,7 @@
       {
         "key": "IT-24713",
         "summary": "Reclamos | Workflow | Devolución - Producto sin despachar",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -9007,7 +9031,7 @@
       {
         "key": "BTP-4016",
         "summary": "Publicaciones de catálogo - Mercado Libre",
-        "status": "ON PAUSE RELEVAMIENTO",
+        "status": "EN RELEVAMIENTO",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -9079,7 +9103,7 @@
       {
         "key": "IT-24585",
         "summary": "Marketplace Amazon / Sincronizar precio de publicaciones FULL",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 40.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -9183,7 +9207,7 @@
       {
         "key": "IT-23518",
         "summary": "Liverpool / Asignar correctamente la fecha de entrega",
-        "status": "ON HOLD",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -18626,7 +18650,7 @@
       {
         "key": "IT-24585",
         "summary": "Marketplace Amazon / Sincronizar precio de publicaciones FULL",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 40.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -18730,7 +18754,7 @@
       {
         "key": "IT-23518",
         "summary": "Liverpool / Asignar correctamente la fecha de entrega",
-        "status": "ON HOLD",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
