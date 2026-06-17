@@ -4,33 +4,17 @@
     "summary": "Service Desk",
     "tasks": [
       {
-        "key": "BTP-4701",
-        "summary": "CAV / Ampliar rango de búsqueda del cron",
+        "key": "BTP-4660",
+        "summary": "Pedidos Tienda | Creación de endpoint para automatización de carga",
         "status": "PRODUCT BACKLOG",
         "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4695",
-        "summary": "Fix / MercadoLibre / Ventas \"Acuerda con el vendedor\" con dos pagos",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4681",
-        "summary": "Carrito abandonado / Unificar timezones de la tabla carestinoventas_abandoned_cart",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
+        "assignee": "Martín Horn",
         "project": "BTP"
       },
       {
         "key": "BTP-4659",
         "summary": "CLONE - Facturacion y guias - BPA - Peru",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -38,7 +22,7 @@
       {
         "key": "BTP-4634",
         "summary": "FIX - Integracion servientrega PA con error",
-        "status": "Rechazado",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -81,14 +65,6 @@
         "status": "ON HOLD ARMADO DE PROPUESTA",
         "story_points": null,
         "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4504",
-        "summary": "Cierre de pedidos FULL",
-        "status": "TO REFINEMENT",
-        "story_points": null,
-        "assignee": "Agustin Ospital",
         "project": "BTP"
       },
       {
@@ -150,7 +126,15 @@
       {
         "key": "BTP-4387",
         "summary": "Enviar mensaje de despacho a los pedidos de camioneta peru",
-        "status": "Rechazado",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Agustin Ospital",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4385",
+        "summary": "Errores modulo - Delivery Admin",
+        "status": "ON HOLD RELEVAMIENTO",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -244,25 +228,57 @@
         "project": "BTP"
       },
       {
-        "key": "IT-25010",
-        "summary": "FusionAuth / Logs de errores innecesarios",
+        "key": "IT-25090",
+        "summary": "Fix / MercadoLibre / Ventas \"Acuerda con el vendedor\" con dos pagos",
         "status": "Pendiente de estimación",
         "story_points": null,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-25088",
+        "summary": "Cierre de pedidos FULL",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-25086",
+        "summary": "Carrito abandonado / Unificar timezones de la tabla carestinoventas_abandoned_cart",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-25084",
+        "summary": "CAV / Ampliar rango de búsqueda del cron",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-25010",
+        "summary": "FusionAuth / Logs de errores innecesarios",
+        "status": "BACKLOG",
+        "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
       {
         "key": "IT-25006",
         "summary": "IPN / Errores en New Relic por problemas internos de MP",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
       {
         "key": "IT-25002",
         "summary": "Relevamiento / Productos / Specs / Mejoras de Imagen 360°",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 8.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -286,16 +302,16 @@
       {
         "key": "IT-24996",
         "summary": "Ecommerce / Cuando un producto discontinuo no tenga más stock, ni OC, ni stock en tienda, apagar en ecommerce",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
       {
         "key": "IT-24993",
         "summary": "Delivery Admin | Performance | Mejora de velocidad y tiempo de carga del módulo",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
@@ -374,7 +390,7 @@
       {
         "key": "IT-24907",
         "summary": "Error en el cálculo del \"Precio sin impuestos nacionales\" en la web",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 1.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -382,7 +398,7 @@
       {
         "key": "IT-24901",
         "summary": "Expense | FIX | No es posible autorizar un anticipo",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 8.0,
         "assignee": "Martín Horn",
         "project": "IT"
@@ -390,7 +406,7 @@
       {
         "key": "IT-24832",
         "summary": "IPN Mercado Pago / Clasificación incorrecta de pagos INSTORE",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 4.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -494,7 +510,7 @@
       {
         "key": "IT-24644",
         "summary": "Movimientos de stock / EP en movimientos entre almacenes",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 2.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -526,7 +542,7 @@
       {
         "key": "IT-24589",
         "summary": "Error tarifario - no se puede importar para paises con gran cantidad de localidades",
-        "status": "En progreso",
+        "status": "ON PAUSE",
         "story_points": 68.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -542,7 +558,7 @@
       {
         "key": "IT-24583",
         "summary": "Sugerencias en el carrito / Ordenar familias por stock",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 2.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -566,7 +582,7 @@
       {
         "key": "IT-24519",
         "summary": "CAV / MELI FULL / No validar DNI",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 4.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -630,7 +646,7 @@
       {
         "key": "IT-24404",
         "summary": "Amazon / Integrar Amazon FULL",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -982,7 +998,7 @@
       {
         "key": "IT-23600",
         "summary": "MercadoPago y Amazon / Setting para configurar la URL base de la API",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1874,7 +1890,7 @@
       {
         "key": "BTP-4680",
         "summary": "CAPI / Enviar datos de compradores de marketplaces a CAPI de Meta",
-        "status": "PRODUCT BACKLOG",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -2600,7 +2616,7 @@
       {
         "key": "IT-23505",
         "summary": "Liverpool / Integrar a Logística V2",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 80.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -7733,7 +7749,7 @@
       {
         "key": "IT-24715",
         "summary": "Reclamos | Workflow | Cambio de producto - Producto sin despachar",
-        "status": "STG TESTING",
+        "status": "TO DEPLOY QA",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7741,7 +7757,7 @@
       {
         "key": "IT-24713",
         "summary": "Reclamos | Workflow | Devolución - Producto sin despachar",
-        "status": "STG TESTING",
+        "status": "TO DEPLOY QA",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -8975,23 +8991,7 @@
       {
         "key": "BTP-4679",
         "summary": "Marketplace / MercadoLibre / Fixes en publicaciones agrupadas",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4678",
-        "summary": "Marketplace / Amazon / Publicaciones no sincronizan",
-        "status": "PRODUCT BACKLOG",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-4677",
-        "summary": "Marketplace / Liverpool / Actualización de publicaciones en batch",
-        "status": "PRODUCT BACKLOG",
+        "status": "Refinement propia",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -9031,15 +9031,7 @@
       {
         "key": "BTP-4016",
         "summary": "Publicaciones de catálogo - Mercado Libre",
-        "status": "EN RELEVAMIENTO",
-        "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
-      },
-      {
-        "key": "BTP-3874",
-        "summary": "Marketplace / MercadoLibre / Publicaciones FULL",
-        "status": "PRODUCT BACKLOG",
+        "status": "ON PAUSE RELEVAMIENTO",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -9093,6 +9085,30 @@
         "project": "BTP"
       },
       {
+        "key": "IT-25082",
+        "summary": "Marketplace / Liverpool / Actualización de publicaciones en batch",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-25080",
+        "summary": "Marketplace / MercadoLibre / Publicaciones FULL",
+        "status": "BACKLOG",
+        "story_points": 12.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-25077",
+        "summary": "Marketplace / Amazon / Publicaciones no sincronizan",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
         "key": "IT-24640",
         "summary": "Marketplace / Falabella / Bloqueo de peticiones por enviar muchas requests",
         "status": "BACKLOG",
@@ -9103,7 +9119,7 @@
       {
         "key": "IT-24585",
         "summary": "Marketplace Amazon / Sincronizar precio de publicaciones FULL",
-        "status": "STG TESTING",
+        "status": "TO DEPLOY",
         "story_points": 40.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -10307,7 +10323,7 @@
       {
         "key": "IT-24604",
         "summary": "Clientes | API | Gaps UI-API – Bloqueantes y mejoras necesarias",
-        "status": "ON HOLD",
+        "status": "PENDING REVIEW",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -10315,7 +10331,7 @@
       {
         "key": "IT-24477",
         "summary": "Clientes / FRONT / Desarrollo de las interfaces necesarias para Nicox del módulo Clientes",
-        "status": "ON HOLD",
+        "status": "En progreso",
         "story_points": 82.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -17864,7 +17880,7 @@
       {
         "key": "IT-24182",
         "summary": "Conciliador / Mejora / Eliminar lotes parcialmente conciliados - BTP-4400",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 8.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -18640,6 +18656,30 @@
         "project": "BTP"
       },
       {
+        "key": "IT-25082",
+        "summary": "Marketplace / Liverpool / Actualización de publicaciones en batch",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-25080",
+        "summary": "Marketplace / MercadoLibre / Publicaciones FULL",
+        "status": "BACKLOG",
+        "story_points": 12.0,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
+        "key": "IT-25077",
+        "summary": "Marketplace / Amazon / Publicaciones no sincronizan",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
         "key": "IT-24640",
         "summary": "Marketplace / Falabella / Bloqueo de peticiones por enviar muchas requests",
         "status": "BACKLOG",
@@ -18650,7 +18690,7 @@
       {
         "key": "IT-24585",
         "summary": "Marketplace Amazon / Sincronizar precio de publicaciones FULL",
-        "status": "STG TESTING",
+        "status": "TO DEPLOY",
         "story_points": 40.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
