@@ -86,7 +86,7 @@
       {
         "key": "BTP-4471",
         "summary": "Mejoras Dispatch and Control",
-        "status": "Rechazado",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -238,8 +238,8 @@
       {
         "key": "IT-25088",
         "summary": "Cierre de pedidos FULL",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 14.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
@@ -350,7 +350,7 @@
       {
         "key": "IT-24923",
         "summary": "Falabella / Error de caracteres especiales",
-        "status": "BACKLOG",
+        "status": "STG TESTING",
         "story_points": 6.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -390,7 +390,7 @@
       {
         "key": "IT-24907",
         "summary": "Error en el cálculo del \"Precio sin impuestos nacionales\" en la web",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 1.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -406,7 +406,7 @@
       {
         "key": "IT-24832",
         "summary": "IPN Mercado Pago / Clasificación incorrecta de pagos INSTORE",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -510,7 +510,7 @@
       {
         "key": "IT-24644",
         "summary": "Movimientos de stock / EP en movimientos entre almacenes",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 2.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -558,7 +558,7 @@
       {
         "key": "IT-24583",
         "summary": "Sugerencias en el carrito / Ordenar familias por stock",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 2.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -582,7 +582,7 @@
       {
         "key": "IT-24519",
         "summary": "CAV / MELI FULL / No validar DNI",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -630,7 +630,7 @@
       {
         "key": "IT-24411",
         "summary": "Productos / Agregar tipo de archivo Ficha de producto",
-        "status": "BACKLOG",
+        "status": "CODE REVIEW",
         "story_points": 6.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -646,7 +646,7 @@
       {
         "key": "IT-24404",
         "summary": "Amazon / Integrar Amazon FULL",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -998,7 +998,7 @@
       {
         "key": "IT-23600",
         "summary": "MercadoPago y Amazon / Setting para configurar la URL base de la API",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1687,14 +1687,6 @@
         "status": "FINISH",
         "story_points": 2.0,
         "assignee": "Luis Uran",
-        "project": "IT"
-      },
-      {
-        "key": "IT-21410",
-        "summary": "Activar entorno de ecommerce DO en STG ",
-        "status": "Pendiente de estimación",
-        "story_points": null,
-        "assignee": "Sin asignar",
         "project": "IT"
       },
       {
@@ -2504,6 +2496,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-24987",
+        "summary": "PoC / Rediseño de listas de nacimiento",
+        "status": "REVIEW ON HOLD",
+        "story_points": 16.0,
+        "assignee": "Franco Lorenzo",
+        "project": "IT"
+      },
+      {
         "key": "IT-23611",
         "summary": "Backend / Ecommerce / Portal de gestiones",
         "status": "FINISH",
@@ -2608,7 +2608,7 @@
       {
         "key": "IT-24683",
         "summary": "Consolidacion bultos - Nicox",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 142.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -2616,7 +2616,7 @@
       {
         "key": "IT-23505",
         "summary": "Liverpool / Integrar a Logística V2",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 80.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -8989,9 +8989,9 @@
     "summary": "Marketplace",
     "tasks": [
       {
-        "key": "BTP-4679",
-        "summary": "Marketplace / MercadoLibre / Fixes en publicaciones agrupadas",
-        "status": "Refinement propia",
+        "key": "BTP-4706",
+        "summary": "Marketplace / MercadoLibre / Publicaciones variantes en esquema multi warehouse",
+        "status": "PRODUCT BACKLOG",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -9085,6 +9085,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-25105",
+        "summary": "Marketplace / MercadoLibre / Acciones de precio repetidas en publicaciones variantes",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
         "key": "IT-25082",
         "summary": "Marketplace / Liverpool / Actualización de publicaciones en batch",
         "status": "Pendiente de estimación",
@@ -9119,7 +9127,7 @@
       {
         "key": "IT-24585",
         "summary": "Marketplace Amazon / Sincronizar precio de publicaciones FULL",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 40.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -9143,7 +9151,7 @@
       {
         "key": "IT-24398",
         "summary": "Marketplaces | BI - Fecha Carga Externa Falabella - BTP-4299",
-        "status": "ON HOLD",
+        "status": "ON PAUSE",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -17880,7 +17888,7 @@
       {
         "key": "IT-24182",
         "summary": "Conciliador / Mejora / Eliminar lotes parcialmente conciliados - BTP-4400",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -18656,6 +18664,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-25105",
+        "summary": "Marketplace / MercadoLibre / Acciones de precio repetidas en publicaciones variantes",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Nicolas Pardo",
+        "project": "IT"
+      },
+      {
         "key": "IT-25082",
         "summary": "Marketplace / Liverpool / Actualización de publicaciones en batch",
         "status": "Pendiente de estimación",
@@ -18690,7 +18706,7 @@
       {
         "key": "IT-24585",
         "summary": "Marketplace Amazon / Sincronizar precio de publicaciones FULL",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 40.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -18714,7 +18730,7 @@
       {
         "key": "IT-24398",
         "summary": "Marketplaces | BI - Fecha Carga Externa Falabella - BTP-4299",
-        "status": "ON HOLD",
+        "status": "ON PAUSE",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
