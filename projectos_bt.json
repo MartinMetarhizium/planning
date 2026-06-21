@@ -2606,6 +2606,22 @@
         "project": "BTP"
       },
       {
+        "key": "IT-25140",
+        "summary": "Integraciones logísticas | Servientrega PA | Corregir nombre ciudad destino Panama",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-25135",
+        "summary": "Logística | Remisión Enviame | Modificaciones detectadas en pruebas",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
         "key": "IT-25050",
         "summary": "Integracion por producto - AEX (PY) ",
         "status": "ON HOLD",
@@ -9103,8 +9119,8 @@
       {
         "key": "IT-25105",
         "summary": "Marketplace / MercadoLibre / Acciones de precio repetidas en publicaciones variantes",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 28.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
@@ -10355,7 +10371,7 @@
       {
         "key": "IT-24477",
         "summary": "Clientes / FRONT / Desarrollo de las interfaces necesarias para Nicox del módulo Clientes",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 82.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -18682,8 +18698,8 @@
       {
         "key": "IT-25105",
         "summary": "Marketplace / MercadoLibre / Acciones de precio repetidas en publicaciones variantes",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 28.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
