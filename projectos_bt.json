@@ -4,9 +4,25 @@
     "summary": "Service Desk",
     "tasks": [
       {
+        "key": "BTP-4717",
+        "summary": "Gestión de usuario",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4715",
+        "summary": "BI - Campos \"cliente_codigo_postal\" en tabla Tableau global",
+        "status": "RESUELTO POR BT",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4714",
         "summary": "Diferencia en los totales de la planilla de stock",
-        "status": "Por Hacer",
+        "status": "ON HOLD RELEVAMIENTO",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -14,7 +30,7 @@
       {
         "key": "BTP-4713",
         "summary": "Mejoras Dispatch and Control / punto 4",
-        "status": "PRODUCT BACKLOG",
+        "status": "Rechazado",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -118,7 +134,7 @@
       {
         "key": "BTP-4442",
         "summary": "Cucarda disponible en tienda / Validar stock en 0",
-        "status": "ON HOLD ARMADO DE PROPUESTA",
+        "status": "EN ARMADO DE PROPUESTA",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -150,7 +166,7 @@
       {
         "key": "BTP-4387",
         "summary": "Enviar mensaje de despacho a los pedidos de camioneta peru",
-        "status": "PRODUCT BACKLOG",
+        "status": "Rechazado",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -374,7 +390,7 @@
       {
         "key": "IT-24923",
         "summary": "Falabella / Error de caracteres especiales",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 6.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -462,7 +478,7 @@
       {
         "key": "IT-24822",
         "summary": "CAV / Amazon / Sacar validaciones mayorista_direccion y mayorista_codigo_postal",
-        "status": "STG TESTING",
+        "status": "TO DEPLOY QA",
         "story_points": 6.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -566,7 +582,7 @@
       {
         "key": "IT-24589",
         "summary": "Error tarifario - no se puede importar para paises con gran cantidad de localidades",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 68.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -766,7 +782,7 @@
       {
         "key": "IT-24272",
         "summary": "Ventas se marcan como entregadas en la visual web",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 12.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -830,7 +846,7 @@
       {
         "key": "IT-24131",
         "summary": "Mejora - dispatch and control - preparacion y control manual de ordenes",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 16.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -854,7 +870,7 @@
       {
         "key": "IT-24027",
         "summary": "Mejora visual - Logistica v2 (pedidos a reclamar) ",
-        "status": "BACKLOG",
+        "status": "CODE REVIEW",
         "story_points": 10.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -2482,7 +2498,7 @@
       {
         "key": "BTP-4547",
         "summary": "Portal de Gestiones / Multiselección de productos reclamados",
-        "status": "Redefiniendo",
+        "status": "ON PAUSE ARMADO DE PROPUESTA",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -2632,7 +2648,7 @@
       {
         "key": "IT-25135",
         "summary": "Logística | Remisión Enviame | Modificaciones detectadas en pruebas",
-        "status": "En progreso",
+        "status": "STG TESTING",
         "story_points": 16.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -2640,7 +2656,7 @@
       {
         "key": "IT-25050",
         "summary": "Integracion por producto - AEX (PY) ",
-        "status": "ON HOLD",
+        "status": "ON PAUSE",
         "story_points": 32.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -7797,7 +7813,7 @@
       {
         "key": "IT-24715",
         "summary": "Reclamos | Workflow | Cambio de producto - Producto sin despachar",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -7805,7 +7821,7 @@
       {
         "key": "IT-24713",
         "summary": "Reclamos | Workflow | Devolución - Producto sin despachar",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -9167,7 +9183,7 @@
       {
         "key": "IT-24640",
         "summary": "Marketplace / Falabella / Bloqueo de peticiones por enviar muchas requests",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 32.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -9199,7 +9215,7 @@
       {
         "key": "IT-24398",
         "summary": "Marketplaces | BI - Fecha Carga Externa Falabella - BTP-4299",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -17844,7 +17860,7 @@
       {
         "key": "IT-23385",
         "summary": "Modificar migración del campo  type_code para la integración Falabella",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -18746,7 +18762,7 @@
       {
         "key": "IT-24640",
         "summary": "Marketplace / Falabella / Bloqueo de peticiones por enviar muchas requests",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 32.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -18778,7 +18794,7 @@
       {
         "key": "IT-24398",
         "summary": "Marketplaces | BI - Fecha Carga Externa Falabella - BTP-4299",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -19588,7 +19604,7 @@
       {
         "key": "IT-23385",
         "summary": "Modificar migración del campo  type_code para la integración Falabella",
-        "status": "REVIEW ON HOLD",
+        "status": "TO DEPLOY QA",
         "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
