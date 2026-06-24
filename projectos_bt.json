@@ -4,6 +4,14 @@
     "summary": "Service Desk",
     "tasks": [
       {
+        "key": "BTP-4718",
+        "summary": "Precios - falla la carga por agrupador de precios",
+        "status": "Por Hacer",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
         "key": "BTP-4717",
         "summary": "Gestión de usuario",
         "status": "Por Hacer",
@@ -28,14 +36,6 @@
         "project": "BTP"
       },
       {
-        "key": "BTP-4713",
-        "summary": "Mejoras Dispatch and Control / punto 4",
-        "status": "Rechazado",
-        "story_points": null,
-        "assignee": "Agustin Ospital",
-        "project": "BTP"
-      },
-      {
         "key": "BTP-4660",
         "summary": "Pedidos Tienda | Creación de endpoint para automatización de carga",
         "status": "PRODUCT BACKLOG",
@@ -54,7 +54,7 @@
       {
         "key": "BTP-4634",
         "summary": "FIX - Integracion servientrega PA con error",
-        "status": "PRODUCT BACKLOG",
+        "status": "RESUELTO POR BT",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -70,7 +70,7 @@
       {
         "key": "BTP-4591",
         "summary": "Remisión de pedidos a Andesmar, tipo TERMINAL con error de remisión",
-        "status": "ON HOLD RELEVAMIENTO",
+        "status": "CANCELADO POR BT",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -134,7 +134,7 @@
       {
         "key": "BTP-4442",
         "summary": "Cucarda disponible en tienda / Validar stock en 0",
-        "status": "EN ARMADO DE PROPUESTA",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -166,7 +166,7 @@
       {
         "key": "BTP-4387",
         "summary": "Enviar mensaje de despacho a los pedidos de camioneta peru",
-        "status": "Rechazado",
+        "status": "TO REFINEMENT",
         "story_points": null,
         "assignee": "Agustin Ospital",
         "project": "BTP"
@@ -478,7 +478,7 @@
       {
         "key": "IT-24822",
         "summary": "CAV / Amazon / Sacar validaciones mayorista_direccion y mayorista_codigo_postal",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 6.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -862,7 +862,7 @@
       {
         "key": "IT-24124",
         "summary": "Meli - cron de carga no verifica corte correctamente",
-        "status": "PENDING REVIEW",
+        "status": "TO DEPLOY",
         "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -870,7 +870,7 @@
       {
         "key": "IT-24027",
         "summary": "Mejora visual - Logistica v2 (pedidos a reclamar) ",
-        "status": "CODE REVIEW",
+        "status": "STG TESTING",
         "story_points": 10.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -1390,7 +1390,7 @@
       {
         "key": "IT-22737",
         "summary": "POC / Usar cupones en el checkout y que cierren en 0",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 24.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1722,6 +1722,14 @@
         "project": "BTP"
       },
       {
+        "key": "IT-25177",
+        "summary": "DO / Stock daily / Pos ID cruzado",
+        "status": "Pendiente de estimación",
+        "story_points": null,
+        "assignee": "Diego Martin Gogorza",
+        "project": "IT"
+      },
+      {
         "key": "IT-21844",
         "summary": "Agregar pais en API para seleccionar la bandera de DO",
         "status": "FINISH",
@@ -1922,7 +1930,7 @@
       {
         "key": "BTP-4680",
         "summary": "CAPI / Enviar datos de compradores de marketplaces a CAPI de Meta",
-        "status": "TO REFINEMENT",
+        "status": "EN ARMADO DE PROPUESTA",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -2053,7 +2061,7 @@
       {
         "key": "IT-24814",
         "summary": "Rediseño Web / Panel de Mis datos",
-        "status": "ON PAUSE",
+        "status": "En progreso",
         "story_points": 24.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -2640,15 +2648,15 @@
       {
         "key": "IT-25140",
         "summary": "Integraciones logísticas | Servientrega PA | Corregir nombre ciudad destino Panama",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "En progreso",
+        "story_points": 16.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
       },
       {
         "key": "IT-25135",
         "summary": "Logística | Remisión Enviame | Modificaciones detectadas en pruebas",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 16.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -2656,7 +2664,7 @@
       {
         "key": "IT-25050",
         "summary": "Integracion por producto - AEX (PY) ",
-        "status": "ON PAUSE",
+        "status": "PENDING REVIEW",
         "story_points": 32.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -17860,7 +17868,7 @@
       {
         "key": "IT-23385",
         "summary": "Modificar migración del campo  type_code para la integración Falabella",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -19604,7 +19612,7 @@
       {
         "key": "IT-23385",
         "summary": "Modificar migración del campo  type_code para la integración Falabella",
-        "status": "TO DEPLOY QA",
+        "status": "TO DEPLOY",
         "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
