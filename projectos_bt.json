@@ -134,7 +134,7 @@
       {
         "key": "BTP-4442",
         "summary": "Cucarda disponible en tienda / Validar stock en 0",
-        "status": "TO REFINEMENT",
+        "status": "ON HOLD ARMADO DE PROPUESTA",
         "story_points": null,
         "assignee": "Thiago Cabrera",
         "project": "BTP"
@@ -326,7 +326,7 @@
       {
         "key": "IT-25000",
         "summary": "Acciones Comerciales / Setting de fecha fin desincronizado",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 6.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -350,7 +350,7 @@
       {
         "key": "IT-24993",
         "summary": "Delivery Admin | Performance | Mejora de velocidad y tiempo de carga del módulo",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -454,7 +454,7 @@
       {
         "key": "IT-24830",
         "summary": "Enviame CL / Problema con la remisión en el despacho",
-        "status": "PENDING REVIEW",
+        "status": "FINISH",
         "story_points": 10.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -462,7 +462,7 @@
       {
         "key": "IT-24826",
         "summary": "Liverpool FULL",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 20.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -478,7 +478,7 @@
       {
         "key": "IT-24822",
         "summary": "CAV / Amazon / Sacar validaciones mayorista_direccion y mayorista_codigo_postal",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 6.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -534,7 +534,7 @@
       {
         "key": "IT-24717",
         "summary": "Productos | |Certificaciones | Poder cargar certificado en modulo subgrupo de NICOX",
-        "status": "ON PAUSE",
+        "status": "STG TESTING",
         "story_points": 24.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -862,7 +862,7 @@
       {
         "key": "IT-24124",
         "summary": "Meli - cron de carga no verifica corte correctamente",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -870,7 +870,7 @@
       {
         "key": "IT-24027",
         "summary": "Mejora visual - Logistica v2 (pedidos a reclamar) ",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 10.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -1390,7 +1390,7 @@
       {
         "key": "IT-22737",
         "summary": "POC / Usar cupones en el checkout y que cierren en 0",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 24.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -1928,12 +1928,12 @@
     "summary": "Conversiones API",
     "tasks": [
       {
-        "key": "BTP-4680",
+        "key": "IT-25184",
         "summary": "CAPI / Enviar datos de compradores de marketplaces a CAPI de Meta",
-        "status": "EN ARMADO DE PROPUESTA",
+        "status": "Pendiente de estimación",
         "story_points": null,
-        "assignee": "Thiago Cabrera",
-        "project": "BTP"
+        "assignee": "Joaquin Fernandez - Carestino",
+        "project": "IT"
       },
       {
         "key": "IT-21645",
@@ -2061,7 +2061,7 @@
       {
         "key": "IT-24814",
         "summary": "Rediseño Web / Panel de Mis datos",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 24.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -2344,6 +2344,14 @@
     "due_date": "2025-07-11",
     "summary": "Expenses",
     "tasks": [
+      {
+        "key": "BTP-4722",
+        "summary": "Expense | Otros Proveedores | Formulario | Tabla de configuración dinámica de campos por país",
+        "status": "PRODUCT BACKLOG",
+        "story_points": null,
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
       {
         "key": "BTP-3471",
         "summary": "Integración SAP",
@@ -2648,7 +2656,7 @@
       {
         "key": "IT-25140",
         "summary": "Integraciones logísticas | Servientrega PA | Corregir nombre ciudad destino Panama",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 16.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -17868,7 +17876,7 @@
       {
         "key": "IT-23385",
         "summary": "Modificar migración del campo  type_code para la integración Falabella",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -19612,7 +19620,7 @@
       {
         "key": "IT-23385",
         "summary": "Modificar migración del campo  type_code para la integración Falabella",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
