@@ -4,11 +4,27 @@
     "summary": "Service Desk",
     "tasks": [
       {
-        "key": "BTP-4781",
-        "summary": "Worpik / Slots de calendario ocupados por dos candidatos",
-        "status": "PRODUCT BACKLOG",
+        "key": "BTP-4793",
+        "summary": "Service Desk | Prueba Codex | Validacion skill crear-btp",
+        "status": "Por Hacer",
         "story_points": null,
-        "assignee": "Martín Horn",
+        "assignee": "Mauricio Reinhardt",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4791",
+        "summary": "Reintegros Extraviados / Falsos positivos reportados como diferencias de stock",
+        "status": "EN RELEVAMIENTO",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
+        "project": "BTP"
+      },
+      {
+        "key": "BTP-4785",
+        "summary": "Web / Compra protegida",
+        "status": "ON HOLD RELEVAMIENTO",
+        "story_points": null,
+        "assignee": "Thiago Cabrera",
         "project": "BTP"
       },
       {
@@ -308,10 +324,26 @@
         "project": "BTP"
       },
       {
+        "key": "IT-25319",
+        "summary": "Corregir tabla de Enviame / Eliminar regla",
+        "status": "TO DEPLOY QA",
+        "story_points": null,
+        "assignee": "Gastón Ojeda",
+        "project": "IT"
+      },
+      {
+        "key": "IT-25288",
+        "summary": "Worpik / Slots de calendario ocupados por dos candidatos",
+        "status": "BACKLOG",
+        "story_points": 8.0,
+        "assignee": "Alan Mori - Carestino",
+        "project": "IT"
+      },
+      {
         "key": "IT-25286",
         "summary": "MercadoPago / Ventas Acuerda con el vendedor se eliminan solas",
-        "status": "Pendiente de estimación",
-        "story_points": null,
+        "status": "BACKLOG",
+        "story_points": 16.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
       },
@@ -366,7 +398,7 @@
       {
         "key": "IT-25088",
         "summary": "Cierre de pedidos FULL",
-        "status": "En progreso",
+        "status": "CODE REVIEW",
         "story_points": 14.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -510,7 +542,7 @@
       {
         "key": "IT-24915",
         "summary": "Productos / Specs / Limpieza automática de caché en update por PIM",
-        "status": "TO DEPLOY",
+        "status": "FINISH",
         "story_points": 12.0,
         "assignee": "Alan Mori - Carestino",
         "project": "IT"
@@ -550,7 +582,7 @@
       {
         "key": "IT-24826",
         "summary": "Liverpool FULL",
-        "status": "ON HOLD",
+        "status": "En progreso",
         "story_points": 20.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -662,7 +694,7 @@
       {
         "key": "IT-24593",
         "summary": "LowFix / Error en el calculo de stock",
-        "status": "PENDING REVIEW",
+        "status": "FINISH",
         "story_points": 4.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -670,7 +702,7 @@
       {
         "key": "IT-24589",
         "summary": "Error tarifario - no se puede importar para paises con gran cantidad de localidades",
-        "status": "STG TESTING",
+        "status": "PENDING REVIEW",
         "story_points": 68.0,
         "assignee": "Miguel Armentano",
         "project": "IT"
@@ -2658,7 +2690,7 @@
       {
         "key": "IT-25129",
         "summary": "Rediseño Web / Panel de Favoritos",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 12.0,
         "assignee": "Franco Lorenzo",
         "project": "IT"
@@ -2760,7 +2792,7 @@
       {
         "key": "IT-25243",
         "summary": "Ajustes remisión y achiques 3.0",
-        "status": "PENDING REVIEW",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -2768,7 +2800,7 @@
       {
         "key": "IT-25241",
         "summary": "Ajustes remisión y achiques 3.0",
-        "status": "PENDING REVIEW",
+        "status": "FINISH",
         "story_points": 8.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -2776,7 +2808,7 @@
       {
         "key": "IT-25140",
         "summary": "Integraciones logísticas | Servientrega PA | Corregir nombre ciudad destino Panama",
-        "status": "PENDING REVIEW",
+        "status": "FINISH",
         "story_points": 16.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -2784,7 +2816,7 @@
       {
         "key": "IT-25135",
         "summary": "Logística | Remisión Enviame | Modificaciones detectadas en pruebas",
-        "status": "PENDING REVIEW",
+        "status": "FINISH",
         "story_points": 16.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -2792,7 +2824,7 @@
       {
         "key": "IT-25050",
         "summary": "Integracion por producto - AEX (PY) ",
-        "status": "PENDING REVIEW",
+        "status": "FINISH",
         "story_points": 32.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -2800,7 +2832,7 @@
       {
         "key": "IT-24964",
         "summary": "Integración por producto - ENVIAME (PE/CO/CL)",
-        "status": "PENDING REVIEW",
+        "status": "FINISH",
         "story_points": 32.0,
         "assignee": "Gastón Ojeda",
         "project": "IT"
@@ -2808,7 +2840,7 @@
       {
         "key": "IT-24683",
         "summary": "Consolidacion bultos - Nicox",
-        "status": "PENDING REVIEW",
+        "status": "FINISH",
         "story_points": 142.0,
         "assignee": "Joaquin Fernandez - Carestino",
         "project": "IT"
@@ -7901,7 +7933,7 @@
       {
         "key": "BTP-4730",
         "summary": "Reclamos | Conflictos | Relevamiento de condiciones y comportamientos front-end",
-        "status": "Por Hacer",
+        "status": "RESUELTO POR BT",
         "story_points": null,
         "assignee": "Mauricio Reinhardt",
         "project": "BTP"
@@ -9287,7 +9319,7 @@
       {
         "key": "IT-25218",
         "summary": "Marketplace / MercadoLibre / Publicaciones variantes en esquema multi warehouse",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -9311,7 +9343,7 @@
       {
         "key": "IT-25080",
         "summary": "Marketplace / MercadoLibre / Publicaciones FULL",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 12.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -18874,7 +18906,7 @@
       {
         "key": "IT-25218",
         "summary": "Marketplace / MercadoLibre / Publicaciones variantes en esquema multi warehouse",
-        "status": "BACKLOG",
+        "status": "En progreso",
         "story_points": 24.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
@@ -18898,7 +18930,7 @@
       {
         "key": "IT-25080",
         "summary": "Marketplace / MercadoLibre / Publicaciones FULL",
-        "status": "En progreso",
+        "status": "PENDING REVIEW",
         "story_points": 12.0,
         "assignee": "Nicolas Pardo",
         "project": "IT"
