@@ -3,10 +3,11 @@
 cd C:\Users\Martin\Desktop\carestino\planning
 
 :: Ejecutar scripts Python
-C:\Users\Martin\AppData\Local\Programs\Python\Python312\python.exe acciones.py
-C:\Users\Martin\AppData\Local\Programs\Python\Python312\python.exe otta.py
-C:\Users\Martin\AppData\Local\Programs\Python\Python312\python.exe reporting_tableau.py
-C:\Users\Martin\AppData\Local\Programs\Python\Python312\python.exe btp_project_management.py
+::c:\\Users\\Martin\\AppData\\Local\\Python\\pythoncore-3.14-64'
+C:\Users\Martin\AppData\Local\Python\pythoncore-3.14-64\python.exe acciones.py
+C:\Users\Martin\AppData\Local\Python\pythoncore-3.14-64\python.exe otta.py
+C:\Users\Martin\AppData\Local\Python\pythoncore-3.14-64\python.exe reporting_tableau.py
+C:\Users\Martin\AppData\Local\Python\pythoncore-3.14-64\python.exe btp_project_management.py
 
 :: Obtener la fecha actual en formato YYYY-MM-DD
 for /f "tokens=2 delims==" %%I in ('wmic os get localdatetime /value') do set datetime=%%I
