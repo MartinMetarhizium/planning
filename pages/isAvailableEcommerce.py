@@ -25,7 +25,7 @@ COUNTRY_ENDPOINTS: Dict[str, str] = {
     "Mexico": "https://ventas.carestino.com.mx/CRONS/update_store_sale_is_available_via_ecommerce.php",
     "Paraguay": "https://ventas.carestino.com.py/CRONS/update_store_sale_is_available_via_ecommerce.php",
     "Panama": "https://ventas.carestino.com.pa/CRONS/update_store_sale_is_available_via_ecommerce.php",
-    "Ecuador": "https://ventas.carestino.com.com.ec/CRONS/update_store_sale_is_available_via_ecommerce.php",
+    "Ecuador": "https://ventas.carestino.com.ec/CRONS/update_store_sale_is_available_via_ecommerce.php",
 }
 
 REQUEST_TIMEOUT_SECONDS = 180
