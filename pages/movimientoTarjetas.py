@@ -219,6 +219,39 @@ def update_fix_field_by_issue_id(issue_id, value):
     r = requests.put(url, auth=AUTH, headers=HEADERS, json=payload)
     r.raise_for_status()
 
+
+def move_issue_to_sprint(issue_id_or_key: str, sprint_id: int):
+    """
+    Adds the moved issue to the specified Jira sprint.
+
+    Uses Jira Software's Agile API rather than directly modifying
+    the Sprint custom field.
+    """
+    if not sprint_id:
+        return
+
+    url = (
+        f"https://{JIRA_DOMAIN}"
+        f"/rest/agile/1.0/sprint/{sprint_id}/issue"
+    )
+
+    payload = {
+        "issues": [str(issue_id_or_key)]
+    }
+
+    r = requests.post(
+        url,
+        auth=AUTH,
+        headers=HEADERS,
+        json=payload
+    )
+
+    if r.status_code not in (200, 204):
+        raise requests.HTTPError(
+            f"Error assigning sprint: {r.status_code} - {r.text}",
+            response=r
+        )
+
 def update_assignee_and_techlead(issue_id, assignee_account_id=None, techlead_account_id=None):
     """
     Actualiza Assignee y/o Tech Lead en el issue por ID.
@@ -898,35 +931,3 @@ if modo == "Setear Global en BTP":
             st.error(f"❌ Error inesperado: {e}")
 
 
-
-def move_issue_to_sprint(issue_id_or_key: str, sprint_id: int):
-    """
-    Adds the moved issue to the specified Jira sprint.
-
-    Uses Jira Software's Agile API rather than directly modifying
-    the Sprint custom field.
-    """
-    if not sprint_id:
-        return
-
-    url = (
-        f"https://{JIRA_DOMAIN}"
-        f"/rest/agile/1.0/sprint/{sprint_id}/issue"
-    )
-
-    payload = {
-        "issues": [str(issue_id_or_key)]
-    }
-
-    r = requests.post(
-        url,
-        auth=AUTH,
-        headers=HEADERS,
-        json=payload
-    )
-
-    if r.status_code not in (200, 204):
-        raise requests.HTTPError(
-            f"Error assigning sprint: {r.status_code} - {r.text}",
-            response=r
-        )
