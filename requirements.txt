@@ -10,5 +10,6 @@ python-docx
 pdf2image
 pillow
 pytesseract
+pytz>=2025.2
 tesseract
 fuzzywuzzy
