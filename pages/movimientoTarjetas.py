@@ -10,6 +10,11 @@ EMAIL = "martinhorn@biamex.com"
 
 API_TOKEN = st.secrets.get("API_TOKEN")
 
+POST_MOVE_DELAY_SECONDS = 5
+
+# Replace this with the numeric ID of the destination sprint.
+DEST_SPRINT_ID = 671
+
 
 AUTH = HTTPBasicAuth(EMAIL, API_TOKEN)
 HEADERS = {"Accept": "application/json", "Content-Type": "application/json"}
@@ -465,18 +470,7 @@ if modo == "Mover BTP → IT":
             time.sleep(0.7)
 
 
-        if assignee_account_id or techlead_account_id:
-            with st.spinner("Actualizando Assignee / Tech Lead..."):
-                try:
-                    update_assignee_and_techlead(
-                        issue_id,
-                        assignee_account_id=assignee_account_id,
-                        techlead_account_id=techlead_account_id
-                    )
-                except requests.HTTPError as e:
-                    st.error(f"Se movió, pero falló actualizar Assignee/Tech Lead: {e}\n\n{e.response.text if e.response is not None else ''}")
-                except Exception as e:
-                    st.error(f"Se movió, pero falló actualizar Assignee/Tech Lead: {e}")
+        
 
         if is_fix:
             with st.spinner("Aplicando campo de Fix en el issue movido..."):
@@ -500,6 +494,72 @@ if modo == "Mover BTP → IT":
                 else:
                     pass
 
+        # Wait until Jira Automation has finished cleaning the moved issue.
+        with st.spinner(
+            f"Esperando {POST_MOVE_DELAY_SECONDS} segundos "
+            "a que finalice la automatización de Jira..."
+        ):
+            time.sleep(POST_MOVE_DELAY_SECONDS)
+
+        with st.spinner("Asignando Assignee, Tech Lead y Sprint..."):
+            post_move_errors = []
+
+            # Restore Assignee and Tech Lead after Jira Automation.
+            if assignee_account_id or techlead_account_id:
+                try:
+                    update_assignee_and_techlead(
+                        issue_id,
+                        assignee_account_id=assignee_account_id,
+                        techlead_account_id=techlead_account_id
+                    )
+                except requests.HTTPError as e:
+                    error_body = (
+                        e.response.text
+                        if e.response is not None
+                        else ""
+                    )
+                    post_move_errors.append(
+                        f"Assignee/Tech Lead: {e} - {error_body}"
+                    )
+                except Exception as e:
+                    post_move_errors.append(
+                        f"Assignee/Tech Lead: {e}"
+                    )
+
+            # Restore/assign the Sprint after Jira Automation.
+            if DEST_SPRINT_ID:
+                try:
+                    move_issue_to_sprint(
+                        issue_id_or_key=issue_id,
+                        sprint_id=DEST_SPRINT_ID
+                    )
+                except requests.HTTPError as e:
+                    error_body = (
+                        e.response.text
+                        if e.response is not None
+                        else ""
+                    )
+                    post_move_errors.append(
+                        f"Sprint: {e} - {error_body}"
+                    )
+                except Exception as e:
+                    post_move_errors.append(
+                        f"Sprint: {e}"
+                    )
+
+            if post_move_errors:
+                st.error(
+                    "La tarjeta se movió, pero hubo errores restaurando "
+                    "los campos posteriores al movimiento:\n\n"
+                    + "\n\n".join(
+                        f"- {error}" for error in post_move_errors
+                    )
+                )
+            else:
+                st.success(
+                    "✅ Assignee, Tech Lead y Sprint asignados "
+                    "después de la automatización."
+                )
         if new_key:
             with st.spinner("Buscando y reasignando épica equivalente en IT..."):
                 if original_epic_name:
@@ -839,3 +899,34 @@ if modo == "Setear Global en BTP":
 
 
 
+def move_issue_to_sprint(issue_id_or_key: str, sprint_id: int):
+    """
+    Adds the moved issue to the specified Jira sprint.
+
+    Uses Jira Software's Agile API rather than directly modifying
+    the Sprint custom field.
+    """
+    if not sprint_id:
+        return
+
+    url = (
+        f"https://{JIRA_DOMAIN}"
+        f"/rest/agile/1.0/sprint/{sprint_id}/issue"
+    )
+
+    payload = {
+        "issues": [str(issue_id_or_key)]
+    }
+
+    r = requests.post(
+        url,
+        auth=AUTH,
+        headers=HEADERS,
+        json=payload
+    )
+
+    if r.status_code not in (200, 204):
+        raise requests.HTTPError(
+            f"Error assigning sprint: {r.status_code} - {r.text}",
+            response=r
+        )
