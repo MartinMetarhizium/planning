@@ -2,7 +2,8 @@ streamlit
 pandas
 matplotlib
 streamlit-javascript
-streamlit>=1.25
+streamlit==1.60.0
+starlette<1.4
 openai>=1.40.0
 pypdf
 python-docx
