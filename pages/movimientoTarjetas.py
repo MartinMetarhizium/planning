@@ -74,12 +74,46 @@ def fetch_it_epics_map():
     if not epic_map:
         st.warning("⚠️ No se encontraron épicas en IT (o faltan permisos).")
     return epic_map
+def empty_adf_document() -> dict:
+    return {
+        "type": "doc",
+        "version": 1,
+        "content": [
+            {
+                "type": "paragraph",
+                "content": []
+            }
+        ]
+    }
+
+
+def text_to_adf_document(text: str) -> dict:
+    paragraphs = []
+    for line in str(text or "").splitlines() or [""]:
+        paragraph = {"type": "paragraph", "content": []}
+        if line:
+            paragraph["content"].append({"type": "text", "text": line})
+        paragraphs.append(paragraph)
+
+    return {
+        "type": "doc",
+        "version": 1,
+        "content": paragraphs
+    }
+
+
 def strip_images_from_adf(adf: dict) -> dict:
     """
     Elimina nodos media / mediaSingle (imágenes adjuntas) del ADF de Jira.
     """
-    if not adf or not isinstance(adf, dict):
-        return adf
+    if not adf:
+        return empty_adf_document()
+
+    if isinstance(adf, str):
+        return text_to_adf_document(adf)
+
+    if not isinstance(adf, dict):
+        return empty_adf_document()
 
     def clean(node):
         if isinstance(node, dict):
@@ -87,17 +121,33 @@ def strip_images_from_adf(adf: dict) -> dict:
                 return None
             if "content" in node:
                 new_content = []
-                for c in node["content"]:
+                for c in node.get("content") or []:
                     cleaned = clean(c)
                     if cleaned is not None:
                         new_content.append(cleaned)
                 node["content"] = new_content
+                if node.get("type") not in ("doc", "paragraph") and not new_content:
+                    return None
             return node
         elif isinstance(node, list):
-            return [clean(n) for n in node if clean(n) is not None]
+            cleaned_items = []
+            for n in node:
+                cleaned = clean(n)
+                if cleaned is not None:
+                    cleaned_items.append(cleaned)
+            return cleaned_items
         return node
 
-    return clean(adf)
+    cleaned_adf = clean(json.loads(json.dumps(adf)))
+    if not isinstance(cleaned_adf, dict):
+        return empty_adf_document()
+
+    cleaned_adf["type"] = "doc"
+    cleaned_adf["version"] = 1
+    if not cleaned_adf.get("content"):
+        cleaned_adf["content"] = empty_adf_document()["content"]
+
+    return cleaned_adf
 
 
 def get_original_epic_summary(src_issue):
