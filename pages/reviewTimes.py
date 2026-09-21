@@ -16,6 +16,7 @@ df["to_date"] = pd.to_datetime(df["to_date"], errors="coerce")
 df["to_day"] = df["to_date"].dt.date
 df["days"] = df["hours"] / 24  # versión en días
 
+
 # === Filtros ===
 st.sidebar.header("Filtros")
 assignees = df["assignee"].dropna().unique().tolist()
