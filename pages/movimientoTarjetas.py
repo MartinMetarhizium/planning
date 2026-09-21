@@ -436,15 +436,15 @@ if modo == "Mover BTP → IT":
             st.error(f"No se pudieron obtener los tipos de issue de {DEST_PROJECT_KEY}: {e}")
 
     if not it_types:
-        st.stop()
-
-    type_name_to_id = {t["name"]: t["id"] for t in it_types}
-    selected_type_name = st.selectbox(
-        "Tipo de issue destino en IT",
-        list(type_name_to_id.keys())
-    )
-    selected_type_id = type_name_to_id[selected_type_name]
-    is_fix = selected_type_name.strip().lower() == "fix"
+        st.warning("No hay tipos de issue disponibles para IT. Revisá permisos o configuración de Jira.")
+    else:
+        type_name_to_id = {t["name"]: t["id"] for t in it_types}
+        selected_type_name = st.selectbox(
+            "Tipo de issue destino en IT",
+            list(type_name_to_id.keys())
+        )
+        selected_type_id = type_name_to_id[selected_type_name]
+        is_fix = selected_type_name.strip().lower() == "fix"
 
 
     with st.spinner("Cargando usuarios asignables en IT..."):
@@ -483,7 +483,7 @@ if modo == "Mover BTP → IT":
     assignee_account_id = label_to_account.get(assignee_label)
     techlead_account_id = label_to_account.get(techlead_label)
 
-    if st.button("Mover a IT"):
+    if it_types and st.button("Mover a IT"):
         if not src_key.strip():
             st.error("Ingresá la tarjeta de origen (por ejemplo BTP-3818).")
             st.stop()
@@ -750,11 +750,11 @@ if modo == "Crear actividad BTP desde SD":
             st.error(f"No se pudieron obtener los tipos de issue: {e}")
 
     if not btp_types:
-        st.stop()
-
-    type_name_to_id_btp = {t["name"]: t["id"] for t in btp_types}
-    selected_btp_type = st.selectbox("Tipo de actividad en BTP", list(type_name_to_id_btp.keys()))
-    selected_btp_type_id = type_name_to_id_btp[selected_btp_type]
+        st.warning("No hay tipos de issue disponibles para BTP. Revisá permisos o configuración de Jira.")
+    else:
+        type_name_to_id_btp = {t["name"]: t["id"] for t in btp_types}
+        selected_btp_type = st.selectbox("Tipo de actividad en BTP", list(type_name_to_id_btp.keys()))
+        selected_btp_type_id = type_name_to_id_btp[selected_btp_type]
 
     # Usuarios asignables en BTP
     with st.spinner("Cargando usuarios asignables..."):
@@ -792,7 +792,7 @@ if modo == "Crear actividad BTP desde SD":
     assignee_id_btp = label_to_account_btp.get(assignee_label_btp)
     techlead_id_btp = label_to_account_btp.get(techlead_label_btp)
 
-    if st.button("Crear actividad vinculada en BTP"):
+    if btp_types and st.button("Crear actividad vinculada en BTP"):
         if not sd_key.strip():
             st.error("⚠️ Ingresá el número de SD (por ejemplo SD-1234).")
             st.stop()
@@ -837,11 +837,11 @@ if modo == "Crear actividad IT desde SD":
             st.error(f"No se pudieron obtener los tipos de issue: {e}")
 
     if not btp_types:
-        st.stop()
-
-    type_name_to_id_btp = {t["name"]: t["id"] for t in btp_types}
-    selected_btp_type = st.selectbox("Tipo de actividad en IT", list(type_name_to_id_btp.keys()))
-    selected_btp_type_id = type_name_to_id_btp[selected_btp_type]
+        st.warning("No hay tipos de issue disponibles para IT. Revisá permisos o configuración de Jira.")
+    else:
+        type_name_to_id_btp = {t["name"]: t["id"] for t in btp_types}
+        selected_btp_type = st.selectbox("Tipo de actividad en IT", list(type_name_to_id_btp.keys()))
+        selected_btp_type_id = type_name_to_id_btp[selected_btp_type]
 
     # Usuarios asignables en BTP
     with st.spinner("Cargando usuarios asignables..."):
@@ -879,7 +879,7 @@ if modo == "Crear actividad IT desde SD":
     assignee_id_btp = label_to_account_btp.get(assignee_label_btp)
     techlead_id_btp = label_to_account_btp.get(techlead_label_btp)
 
-    if st.button("Crear actividad vinculada en IT"):
+    if btp_types and st.button("Crear actividad vinculada en IT"):
         if not sd_key.strip():
             st.error("⚠️ Ingresá el número de SD (por ejemplo SD-1234).")
             st.stop()
