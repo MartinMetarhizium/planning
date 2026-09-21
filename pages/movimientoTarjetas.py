@@ -183,15 +183,30 @@ def get_issue(issue_key_or_id):
 @st.cache_data(show_spinner=False, ttl=300)
 def get_issue_types_for_project(project_key):
     try:
-        url = f"https://{JIRA_DOMAIN}/rest/api/3/issue/createmeta"
-        r = requests.get(url, params={"projectKeys": project_key}, auth=AUTH, headers=HEADERS)
-        
-        r.raise_for_status()
-        data = r.json()
         types = []
-        for p in data.get("projects", []):
-            for it in p.get("issuetypes", []):
+        start_at = 0
+
+        while True:
+            url = (
+                f"https://{JIRA_DOMAIN}/rest/api/3/issue/createmeta/"
+                f"{project_key}/issuetypes"
+            )
+            r = requests.get(
+                url,
+                params={"startAt": start_at, "maxResults": 100},
+                auth=AUTH,
+                headers=HEADERS
+            )
+            r.raise_for_status()
+            data = r.json()
+
+            for it in data.get("issueTypes", []):
                 types.append({"id": it["id"], "name": it["name"]})
+
+            start_at += data.get("maxResults", 100)
+            if data.get("isLast", True) or start_at >= data.get("total", 0):
+                break
+
         types.sort(key=lambda x: x["name"].lower())
         return types
     except Exception as e:
@@ -212,22 +227,37 @@ def search_field_id_by_name(field_name_or_id):
 
 def try_get_option_id_from_createmeta(project_key, issue_type_id, field_id, desired_label):
     """
-    Intenta leer allowedValues del campo desde createmeta (si el campo está en el create screen).
+    Intenta leer allowedValues del campo desde create metadata (si el campo está en el create screen).
     NO usa /field/{id}/context (evita permisos de admin).
     """
-    url = (f"https://{JIRA_DOMAIN}/rest/api/3/issue/createmeta"
-           f"?projectKeys={project_key}&issuetypeIds={issue_type_id}"
-           f"&expand=projects.issuetypes.fields")
-    r = requests.get(url, auth=AUTH, headers=HEADERS)
-    r.raise_for_status()
-    data = r.json()
-
     fields = {}
-    for p in data.get("projects", []):
-        for it in p.get("issuetypes", []):
-            if it.get("id") == issue_type_id:
-                fields = it.get("fields", {})
-                break
+    start_at = 0
+    while True:
+        url = (
+            f"https://{JIRA_DOMAIN}/rest/api/3/issue/createmeta/"
+            f"{project_key}/issuetypes/{issue_type_id}"
+        )
+        r = requests.get(
+            url,
+            params={"startAt": start_at, "maxResults": 100},
+            auth=AUTH,
+            headers=HEADERS
+        )
+        r.raise_for_status()
+        data = r.json()
+
+        page_fields = data.get("fields") or data.get("results") or []
+        if isinstance(page_fields, dict):
+            fields.update(page_fields)
+        else:
+            for field in page_fields:
+                fid = field.get("fieldId") or field.get("key") or field.get("id")
+                if fid:
+                    fields[fid] = field
+
+        start_at += data.get("maxResults", 100)
+        if data.get("isLast", True) or start_at >= data.get("total", 0):
+            break
 
     fdef = fields.get(field_id)
     if not fdef:
@@ -254,11 +284,22 @@ def get_assignable_users(project_key, query=None, max_results=1000):
     """
     Devuelve los usuarios asignables al proyecto (para selects de Assignee/Tech Lead).
     """
-    url = f"https://{JIRA_DOMAIN}/rest/api/3/user/assignable/search"
-    params = {"project": project_key, "maxResults": max_results}
+    url = f"https://{JIRA_DOMAIN}/rest/api/3/user/assignable/multiProjectSearch"
+    params = {"projectKeys": project_key, "maxResults": max_results}
     if query:
         params["query"] = query
     r = requests.get(url, params=params, auth=AUTH, headers=HEADERS)
+    if r.status_code == 404:
+        fallback_url = f"https://{JIRA_DOMAIN}/rest/api/3/user/assignable/search"
+        fallback_params = {"project": project_key, "maxResults": max_results}
+        if query:
+            fallback_params["query"] = query
+        r = requests.get(
+            fallback_url,
+            params=fallback_params,
+            auth=AUTH,
+            headers=HEADERS
+        )
     r.raise_for_status()
     return r.json()
 
