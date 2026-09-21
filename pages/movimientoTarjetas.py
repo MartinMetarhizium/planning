@@ -182,8 +182,20 @@ def get_issue(issue_key_or_id):
 
 @st.cache_data(show_spinner=False, ttl=300)
 def get_issue_types_for_project(project_key):
-    try:
+    def normalize_issue_types(raw_issue_types):
         types = []
+        seen_ids = set()
+        for it in raw_issue_types or []:
+            issue_type_id = it.get("id")
+            issue_type_name = it.get("name")
+            if issue_type_id and issue_type_name and issue_type_id not in seen_ids:
+                types.append({"id": issue_type_id, "name": issue_type_name})
+                seen_ids.add(issue_type_id)
+        types.sort(key=lambda x: x["name"].lower())
+        return types
+
+    def get_issue_types_from_paged_createmeta():
+        issue_types = []
         start_at = 0
 
         while True:
@@ -200,18 +212,59 @@ def get_issue_types_for_project(project_key):
             r.raise_for_status()
             data = r.json()
 
-            for it in data.get("issueTypes", []):
-                types.append({"id": it["id"], "name": it["name"]})
+            issue_types.extend(data.get("issueTypes", []))
 
             start_at += data.get("maxResults", 100)
             if data.get("isLast", True) or start_at >= data.get("total", 0):
                 break
 
-        types.sort(key=lambda x: x["name"].lower())
-        return types
-    except Exception as e:
-        st.error(f"❌ Error en get_issue_types_for_project: {e}")
-        return []
+        return normalize_issue_types(issue_types)
+
+    def get_issue_types_from_legacy_createmeta():
+        url = f"https://{JIRA_DOMAIN}/rest/api/3/issue/createmeta"
+        r = requests.get(
+            url,
+            params={"projectKeys": project_key},
+            auth=AUTH,
+            headers=HEADERS
+        )
+        r.raise_for_status()
+        data = r.json()
+
+        issue_types = []
+        for project in data.get("projects", []):
+            issue_types.extend(project.get("issuetypes", []))
+        return normalize_issue_types(issue_types)
+
+    def get_issue_types_from_project_metadata():
+        url = f"https://{JIRA_DOMAIN}/rest/api/3/project/{project_key}"
+        r = requests.get(
+            url,
+            params={"expand": "issueTypes"},
+            auth=AUTH,
+            headers=HEADERS
+        )
+        r.raise_for_status()
+        return normalize_issue_types(r.json().get("issueTypes", []))
+
+    errors = []
+    for fetcher in (
+        get_issue_types_from_paged_createmeta,
+        get_issue_types_from_legacy_createmeta,
+        get_issue_types_from_project_metadata,
+    ):
+        try:
+            types = fetcher()
+            if types:
+                return types
+        except Exception as e:
+            errors.append(str(e))
+
+    st.error(
+        "❌ Error en get_issue_types_for_project: "
+        + " | ".join(errors)
+    )
+    return []
 
 def search_field_id_by_name(field_name_or_id):
     """Devuelve el fieldId (customfield_xxx) por nombre visible (o lo retorna tal cual si ya viene como id)."""
