@@ -22,6 +22,7 @@ HEADERS = {"Accept": "application/json", "Content-Type": "application/json"}
 DEST_PROJECT_KEY = "IT"                      
 FIX_FIELD_ID = "customfield_10134"           
 FIX_FIELD_VALUE = "nicox-it-testing"
+SOURCE_BTP_KEY_FIELD_ID = "customfield_10981"
 
 
 TESTING_FIELD_VISIBLE_NAME = "Canal de TESTING"
@@ -441,6 +442,14 @@ def do_transition(issue_id, transition_id):
     r.raise_for_status()
 
 
+def update_source_btp_key(issue_id: str, source_btp_key: str):
+    """Guarda la key BTP de origen en el campo custom del issue ya movido a IT."""
+    url = f"https://{JIRA_DOMAIN}/rest/api/3/issue/{issue_id}"
+    payload = {"fields": {SOURCE_BTP_KEY_FIELD_ID: source_btp_key}}
+    r = requests.put(url, auth=AUTH, headers=HEADERS, json=payload)
+    r.raise_for_status()
+
+
 
 def bulk_move_issue(
     issue_id_or_key,
@@ -583,11 +592,17 @@ if modo == "Mover BTP → IT":
             st.stop()
 
         with st.spinner("Verificando issue origen..."):
-            src_issue = get_issue(src_key.strip())
+            source_btp_key = src_key.strip().upper()
+            src_issue = get_issue(source_btp_key)
             if not src_issue:
                 st.error("⚠️ No se encontró el issue o faltan permisos (Browse issues).")
                 st.stop()
             issue_id = src_issue["id"]
+            source_btp_key = src_issue.get("key", source_btp_key)
+            source_project_key = ((src_issue.get("fields", {}).get("project") or {}).get("key") or "").upper()
+            if source_project_key != "BTP":
+                st.error(f"La tarjeta origen debe pertenecer a BTP; se encontró {source_project_key or 'un proyecto desconocido'}.")
+                st.stop()
             original_epic_name = None
             epic_field = src_issue.get("fields", {}).get(EPIC_LINK_FIELD)
 
@@ -657,6 +672,17 @@ if modo == "Mover BTP → IT":
                     st.error(f"Se movió, pero falló setear {FIX_FIELD_ID}: {e}\n\n{e.response.text if e.response is not None else ''}")
                 except Exception as e:
                     st.error(f"Se movió, pero falló setear {FIX_FIELD_ID}: {e}")
+
+        with st.spinner(f"Guardando la key BTP de origen en {SOURCE_BTP_KEY_FIELD_ID}..."):
+            try:
+                update_source_btp_key(issue_id, source_btp_key)
+            except requests.HTTPError as e:
+                st.error(
+                    f"La tarjeta se movió, pero falló guardar {SOURCE_BTP_KEY_FIELD_ID}: "
+                    f"{e}\n\n{e.response.text if e.response is not None else ''}"
+                )
+            except Exception as e:
+                st.error(f"La tarjeta se movió, pero falló guardar {SOURCE_BTP_KEY_FIELD_ID}: {e}")
 
         if (current_status_name or "").strip().lower() != DEST_STATUS_NAME.strip().lower():
             from_status = current_status_name or "desconocido"
