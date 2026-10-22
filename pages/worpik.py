@@ -2,8 +2,6 @@ import os
 import re
 import json
 import base64
-import platform
-import shutil
 from io import BytesIO
 from typing import List, Dict
 
@@ -16,33 +14,6 @@ import pytesseract
 import platform
 import os
 import streamlit as st
-
-
-def _discover_poppler_path() -> str:
-    if platform.system() != "Windows":
-        return ""  # en Linux/Mac no lo uses (pdf2image lo encuentra en PATH)
-    # 1) Si está en PATH del sistema:
-    if shutil.which("pdftoppm"):
-        return ""  # no hace falta path explícito
-    # 2) Si estás en conda, suele estar en <CONDA_PREFIX>\Library\bin
-    conda_prefix = os.environ.get("CONDA_PREFIX") or os.environ.get("PREFIX")
-    if conda_prefix:
-        cand = os.path.join(conda_prefix, "Library", "bin")
-        if os.path.exists(os.path.join(cand, "pdftoppm.exe")):
-            return cand
-    # 3) Tus rutas conocidas (ajusta si hace falta)
-    candidates = [
-        r"C:\Users\Martin\anaconda3\Library\bin",
-        r"C:\Users\Martin\anaconda3\pkgs\poppler-23.12.0-hc2f3c52_0\Library\bin",
-        r"C:\Program Files\poppler\Library\bin",
-        r"C:\Program Files\poppler-24.07.0\Library\bin",
-    ]
-    for cand in candidates:
-        if os.path.exists(os.path.join(cand, "pdftoppm.exe")):
-            return cand
-    return ""  # si no encontramos nada, pdf2image tirará un error útil
-
-POPPLER_PATH = _discover_poppler_path()
 
 API_KEY = st.secrets.get("API_KEY")
 
@@ -65,32 +36,6 @@ def need_api_key() -> bool:
     return False
 
 # =============================
-# Poppler (Windows) para pdf2image
-# =============================
-def _discover_poppler_path() -> str:
-    if platform.system() != "Windows":
-        return ""
-    if shutil.which("pdftoppm"):
-        return ""
-    conda_prefix = os.environ.get("CONDA_PREFIX") or os.environ.get("PREFIX")
-    if conda_prefix:
-        cand = os.path.join(conda_prefix, "Library", "bin")
-        if os.path.exists(os.path.join(cand, "pdftoppm.exe")):
-            return cand
-    candidates = [
-        r"C:\Users\Martin\anaconda3\Library\bin",
-        r"C:\Users\Martin\anaconda3\pkgs\poppler-23.12.0-hc2f3c52_0\Library\bin",
-        r"C:\Program Files\poppler\Library\bin",
-        r"C:\Program Files\poppler-24.07.0\Library\bin",
-    ]
-    for cand in candidates:
-        if os.path.exists(os.path.join(cand, "pdftoppm.exe")):
-            return cand
-    return ""
-
-POPPLER_PATH = _discover_poppler_path()
-
-# =============================
 # Página
 # =============================
 st.set_page_config(page_title="Consulta de carreras", page_icon="🎓", layout="wide")
@@ -109,28 +54,26 @@ col_a, col_b = st.columns([1.3, 1])
 with col_a:
     carrera = st.selectbox("Carrera a buscar", CARRERAS, index=0)
 with col_b:
-    VISION_MODELS = {
-        "deepseek/deepseek-chat-v3.1:free": "deepseek free",
-        "openai/gpt-oss-20b:free": "gpt free",
-        # "qwen/qwen2.5-vl-7b-instruct":  "Qwen2.5-VL 7B (visión)",
-        # "meta-llama/llama-3.2-11b-vision-instruct:free": "Llama 3.2 11B Vision (free)",
-        # "openai/gpt-4o-mini": "GPT-4o mini (visión)",
+    FREE_MULTIMODAL_MODELS = {
+        "nvidia/nemotron-3.5-super-vl:free": "Nemotron 3.5 Super VL",
+        "qwen/qwen3.8-27b:free": "Qwen3.8 27B",
+        "moonshotai/kimi-k2.6:free": "Kimi K2.6",
+        "qwen/qwen2.5-vl-32b-instruct:free": "Qwen2.5 VL 32B Instruct",
+        "google/gemma-3-12b-it:free": "Gemma 3 12B",
     }
     modelo_vision = st.selectbox(
-        "Modelo de visión (primero intenta con esto)",
-        list(VISION_MODELS.keys()),
+        "Modelo de visión (análisis de imágenes)",
+        list(FREE_MULTIMODAL_MODELS.keys()),
         index=0,
-        format_func=lambda k: VISION_MODELS[k],
+        format_func=lambda k: FREE_MULTIMODAL_MODELS[k],
     )
 
-# Modelo texto-solo de fallback
+# El mismo catálogo permite elegir cualquiera de los cinco para el análisis de texto.
 TEXT_FALLBACK_MODEL = st.selectbox(
-    "Modelo texto (fallback)",
-    ["deepseek/deepseek-chat-v3.1:free", 
-     "openai/gpt-oss-20b:free",
-    #  "openai/gpt-4o-mini"
-     ],  # gpt-4o-mini también sirve como texto
+    "Modelo de texto (fallback)",
+    list(FREE_MULTIMODAL_MODELS.keys()),
     index=0,
+    format_func=lambda k: FREE_MULTIMODAL_MODELS[k],
 )
 
 st.markdown("#### Archivos")
@@ -156,20 +99,17 @@ st.divider()
 # =============================
 def pdf_to_b64_images(file_bytes: bytes, dpi: int = 150, max_pages: int = 6) -> List[str]:
     try:
-        from pdf2image import convert_from_bytes
+        import fitz
     except Exception:
-        st.error("Falta `pdf2image` (pip install pdf2image).")
+        st.error("Falta `PyMuPDF` (pip install PyMuPDF).")
         raise
-    if POPPLER_PATH:
-        pages = convert_from_bytes(file_bytes, dpi=dpi, poppler_path=POPPLER_PATH)
-    else:
-        pages = convert_from_bytes(file_bytes, dpi=dpi)
     urls = []
-    for im in pages[:max_pages]:
-        buf = BytesIO()
-        im.save(buf, format="PNG")
-        b64 = base64.b64encode(buf.getvalue()).decode("utf-8")
-        urls.append(f"data:image/png;base64,{b64}")
+    scale = dpi / 72
+    with fitz.open(stream=file_bytes, filetype="pdf") as pdf:
+        for page in pdf[:max_pages]:
+            pixmap = page.get_pixmap(matrix=fitz.Matrix(scale, scale), alpha=False)
+            b64 = base64.b64encode(pixmap.tobytes("png")).decode("utf-8")
+            urls.append(f"data:image/png;base64,{b64}")
     return urls
 
 def image_file_to_data_url(upload) -> str:
@@ -210,16 +150,18 @@ def read_text_from_upload(upload) -> str:
         except Exception:
             pass
 
-        # Si no hay texto → OCR con pdf2image + pytesseract
-        from pdf2image import convert_from_bytes
+        # Render local con PyMuPDF: no requiere Poppler.
+        import fitz
         import pytesseract
 
-        pages = convert_from_bytes(data, dpi=150, poppler_path=POPPLER_PATH)
         texts = []
-        for im in pages:
-            txt = pytesseract.image_to_string(im, lang="spa+eng")  # podés cambiar idiomas
-            if txt.strip():
-                texts.append(txt)
+        with fitz.open(stream=data, filetype="pdf") as pdf:
+            for page in pdf:
+                pixmap = page.get_pixmap(matrix=fitz.Matrix(150 / 72, 150 / 72), alpha=False)
+                image = Image.open(BytesIO(pixmap.tobytes("png")))
+                txt = pytesseract.image_to_string(image, lang="spa+eng")
+                if txt.strip():
+                    texts.append(txt)
         return "\n".join(texts).strip()
 
     # Imagen → OCR directo

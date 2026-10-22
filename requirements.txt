@@ -7,9 +7,9 @@ starlette<1.4
 openai>=1.40.0
 pypdf
 python-docx
-pdf2image
 pillow
 pytesseract
 pytz>=2025.2
 tesseract
 fuzzywuzzy
+PyMuPDF
